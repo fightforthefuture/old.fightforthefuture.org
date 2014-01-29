@@ -1,6 +1,7 @@
 #!/usr/bin/nodemon
 
 # Setup.
+url = require('url')
 express = require('express')
 app = express()
 port = process.env.PORT || 8000
@@ -18,9 +19,15 @@ app.get '/acta/js', (req, res)->
 
 # Add trailing slashes.
 app.get /^\/([\/\w-]*[\w]+)(\?.*)?$/, (req, res)->
-    url = req.params[0]
-    query = req.params[1] || ''
-    res.redirect(url + '/' + query)
+    path = req.params[0]
+    query = url.parse(req.url).query
+
+    if query
+        query = '?' + query
+    else
+        query = ''
+
+    res.redirect(path + '/' + query)
 
 app.use (req, res)->
     res.send('Page not found.', 404)
