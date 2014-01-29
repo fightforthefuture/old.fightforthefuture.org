@@ -1,0 +1,39 @@
+.clear {
+	clear: both;
+}
+
+header .donateask {
+	top: 0;
+}
+header .top_border {
+	top: 0;
+}
+
+header .xoxo {
+	top: 0;
+}
+
+.signup {
+	float: none;
+	height: 122px;
+	margin: 100px auto 40px;
+	width: 400px;
+}
+
+.signup button {
+	width: 120px;
+}
+
+.signup .form {
+	display: none;
+}
+
+.signup .loading {
+	display: none;
+	text-align: center;
+}
+
+.signup .goodbye {
+	display: none;
+	text-align: center;
+}

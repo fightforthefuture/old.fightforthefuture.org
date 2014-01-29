@@ -1,0 +1,110 @@
+body {
+    background: #f4f6f8;
+    font-family: 'helvetica neue', arial, sans-serif;
+    font-size: 11px;
+    line-height: 1.4;
+}
+
+p {margin-bottom: 10px;}
+
+.wrap {
+    margin: 0 auto;
+    width: 800px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 14px;
+    text-align: center;
+}
+
+ul.share_social li {display: inline;}
+ul.share_social li a {
+    height: 23px;
+    width: 22px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+ul.share_social {
+    float: right;
+}
+
+ul.share_social li a.tw {background: url(../img/tw_big.png) no-repeat;}
+ul.share_social li a.fb {background: url(../img/fb_big.png) no-repeat;}
+ul.share_social li a.gp {background: url(../img/gp_big.png) no-repeat;}
+ul.share_social li a.tum {background: url(../img/tum_big.png) no-repeat;}
+
+h3 a.back_arrow {
+    background: url(../img/arrow_left.png) no-repeat;
+    text-indent: -9999px;
+    display: block;
+    float: left;
+    width: 157px;
+    height: 26px;
+}
+
+a.read {
+    display: inline-block;
+    text-indent: -9999px;
+    background: url(../img/arrow_right.png) no-repeat;
+    width: 68px;
+    height: 23px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 35px;
+    margin-bottom: -50px;
+    position: relative;
+    z-index: 9;
+}
+
+.letter {
+    float: left;
+    width: 407px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 319px;
+    padding-top: 20px;
+    background: url(../img/letter_background.png) no-repeat;
+    clear: both;
+    overflow: auto;
+    padding-bottom: 200px;
+    margin-top: 20px;
+}
+
+.letter h2 {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    margin-left: -110px;
+    margin-bottom: 10px;
+}
+
+.envelope {
+    background: url(../img/envelope.png) no-repeat;
+    position: absolute;
+    widtH: 436px;
+    height: 213px;
+    margin-top: 420px;
+}
+
+.petition {
+    float: right;
+    width: 200px;
+}
+
+
+.middle {
+    clear: both;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: green;
+}

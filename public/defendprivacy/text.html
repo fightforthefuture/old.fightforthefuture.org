@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8" />
+    <title>FFTF Campaign</title>
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject_src.js"></script>
+</head>
+
+<body>
+    <div id="top">
+        
+    </div>
+
+<div class="wrap">
+<div id="left">
+    <p class="notwhite"><a href="">CISPA</a> (which <a href="">passed</a> the House) lets corporations share all your private data with the government. Unlike <a href="">CISPA</a>, the <a href="">Senate bill</a> <strong>has</strong> strong privacy <a href="">protections</a>. But corporations, the NSA, and a group of anti-privacy Senators are pushing to gut these protections. The ovte is this week. Unless you call, they'll succeed.</p>
+
+     </div>
+    
+<div class="yellow"><h3>Call your Senators now, stop the NSA, <strong>defend privacy</strong>!</h3>
+   <label for="state">State: </label>
+    <select id="state" name="state" disabled="disabled">
+        <option selected="selected">Loading...</option>
+    </select>
+    
+    <div id="senators">
+    
+    </div>
+    
+    <script src="/js/jquery.js"></script>
+    <script src="/js/handlebars.js"></script>
+    <script src="/js/script.js"></script>
+    <script id="senator-template" type="text/x-handlebars-template">
+        <div class="senator">
+            <h2>{{#if website}}<a href="{{ website }}">{{/if}}{{ fullName }} ({{ party }}){{#if website}}</a>{{/if}}</h2>
+            <ul>
+                {{#if phone}}
+                    <li class="phone">Phone: {{ phone }}</li>
+                {{/if}}
+                {{#if email}}
+                    <li>Email: <a href="mailto:{{ email }}">{{ email }}</a></li>
+                {{/if}}
+                
+                </ul>
+        </div>
+    </script>
+<h2>What to say:</h2>
+    <div id="meter_box">
+        <p>"The Cybersecurity bill needs to do more to protect my privacy. Vote "no" on the bill, and vote no on any anti-privacy ammendments to it"  </p>
+    </div>
+</div>
+
+</div>
+
+<div class="bordertwo" id="staff">
+    <h5>Fight for the Future</h5>
+</div>
+<div class="footer" style="display: none;">
+    <p class="copyleft ospdin" style="font-size: 30px; line-height:1.2;  width: 700px; margin: 0 auto;">This campaign is a joint effort of: <a href="http://fightforthefuture.org" >Fight for the Future</a>, <a href="http://democrats.com">Democrats.com</a>, <a href="http://www.libertycoalition.net/">The Liberty Coalition</a>, <a href="http://theeca.com/">Entertainment Consumers Association</a></p>
+    <p style="text-align: center; margin-top: 20px;"><a href="http://fightforthefuture.org/privacy" style="color: #fff;">Privacy Policy</a></p>
+</div>
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+
+
+  <script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26576645-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  </script>
+</body>
+</html>
