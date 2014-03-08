@@ -41,6 +41,16 @@ $(function() {
 
         e.preventDefault();
     });
+
+    // Check for Twitter feed.
+    setTimeout(function() {
+        var $feed = $('section.latest-work iframe');
+        if ($feed.length === 0) {
+            $('section.latest-work').remove();
+            $('section.updates').width('100%');
+            $('#tumblricon').css('margin-left', 0);
+        }
+    }, 3000);
 });
 
 // Get IP.
