@@ -13,7 +13,7 @@
     });
 
     // Get Tumblr updates.
-    $.getScript('//fight4future.tumblr.com/api/read/json?callback=tumblrUpdateCallback');
+    $.getScript('//fftf-cache.herokuapp.com/tumblr');
     window.tumblrUpdateCallback = function(res) {
         // Create container.
         var $elements = $('<div>');
