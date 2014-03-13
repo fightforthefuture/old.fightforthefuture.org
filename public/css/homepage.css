@@ -143,6 +143,25 @@ section.highlights a.special-link {
     text-align: center;
     text-decoration: none;
 }
+
+#twittericon{
+    background-image: url('../echoimages/twitter.png');
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    margin-left: 276px;
+    margin-top: 28px;
+}
+
+#tumblricon{
+    background-image: url('../echoimages/tumblr.png');
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    margin-left: 596px;
+    margin-top: 28px;
+}
+
 @media screen and (max-width: 650px) {
     form.donateask, div.xoxo {
         position: absolute;
@@ -163,27 +182,19 @@ section.highlights a.special-link {
     section.latest-work, section.updates {
         margin: 0;
         padding: 0 10px;
-        width: 300px;
+        width: 285px;
     }
     section.latest-work iframe {
         padding: 0 20px;
     }
-}
-
-#twittericon{
-	background-image: url('../echoimages/twitter.png');
-	width: 42px;
-	height: 42px;
-	position: absolute;
-	margin-left: 276px;
-	margin-top: 28px;
-}
-
-#tumblricon{
-	background-image: url('../echoimages/tumblr.png');
-	width: 42px;
-	height: 42px;
-	position: absolute;
-	margin-left: 596px;
-	margin-top: 28px;
+    .latest-work h4 {
+        margin-bottom: 24px;
+    }
+    #tumblricon,
+    #twittericon {
+        margin-left: 0;
+    }
+    #twittericon {
+        margin-top: 50px;
+    }
 }
