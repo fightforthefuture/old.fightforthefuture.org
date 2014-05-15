@@ -37,3 +37,12 @@ header .xoxo {
 	display: none;
 	text-align: center;
 }
+
+.signup .purpose-error {
+	display: none;
+	text-align: center;
+}
+
+.signup .purpose-error a {
+	color: #14a767;
+}

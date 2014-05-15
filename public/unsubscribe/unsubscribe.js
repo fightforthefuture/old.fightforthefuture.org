@@ -18,6 +18,20 @@ $(function() {
 		});
 	}
 
+	// Animate "Error" message.
+	function onError(res) {
+		var $signup = $('.signup');
+		$signup.animate({
+			opacity: 0
+		}, 300, function() {
+			$signup.children().hide();
+			$signup.find('.purpose-error').show();
+			$signup.animate({
+				opacity: 1
+			}, 300);
+		});
+	}
+
 	// Form AJAX submission.
 	$('.signup form').on('submit', function(e) {
 		// Shortcut.
@@ -38,8 +52,9 @@ $(function() {
 
 		// Send POST request.
 		$.ajax({
-			complete: onSuccess,
 			data: $form.serialize(),
+			error: onError,
+			success: onSuccess,
 			type: 'POST',
 			url: $form.attr('action')
 		});
@@ -68,8 +83,9 @@ $(function() {
 		}
 
 		$.ajax({
-			complete: onSuccess,
 			data: {t: t[1]},
+			error: onError,
+			success: onSuccess,
 			type: 'POST',
 			url: target
 		});
