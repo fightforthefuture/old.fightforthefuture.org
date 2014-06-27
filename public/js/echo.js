@@ -29,9 +29,18 @@
             post.date = post.date.match(/.*\d{4}/)[0];
 
             // Create HTML.
-            var $html = $(templates[post.type]({
+            var html = templates[post.type]({
                 post: post
-            }));
+            });
+
+
+            // Prevent HTTPS errors, somewhat harshly.
+            html = html.replace(/http:/gi, 'should-be-https-dawg:');
+
+            console.log(html); // TODO: Remove this debug code.
+
+            // Append.
+            var $html = $(html);
             $elements.append($html);
         });
 
