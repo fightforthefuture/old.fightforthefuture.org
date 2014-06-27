@@ -33,11 +33,8 @@
                 post: post
             });
 
-
             // Prevent HTTPS errors, somewhat harshly.
-            html = html.replace(/http:/gi, 'should-be-https-dawg:');
-
-            console.log(html); // TODO: Remove this debug code.
+            html = html.replace(/http:/gi, 'https:');
 
             // Append.
             var $html = $(html);
