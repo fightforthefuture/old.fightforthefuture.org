@@ -118,7 +118,16 @@ form.donateask button,
 form.donateask p {display: inline-block; margin-left: 3px;}
 
 form.donateask p {font-size: 20px;}
-form.donateask input, button {width: 70px; padding-top: 5px; padding-bottom: 5px; border: 0; font-size: 21px; text-align: center; }
+form.donateask input, button {
+	border: 0;
+	font-size: 21px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-align: center;
+	width: 70px;
+
+	-moz-appearance:textfield;
+}
 form.donateask button {
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
