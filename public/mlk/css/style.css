@@ -319,7 +319,7 @@ h4.ospdin {
 h4.ospdin a {color: #5d5d5d; text-decoration: none;}
 .bordertwo {
 	width: 100%;
-	background: url(http://fightforthefuture.org/images/new/logotwobackground.png) repeat-x;
+	background: url(//fightforthefuture.org/images/new/logotwobackground.png) repeat-x;
 	clear: both;
 	height: 83px;
 	overflow: auto;
@@ -333,13 +333,13 @@ h4.ospdin a {color: #5d5d5d; text-decoration: none;}
 	width: 236px;
 	height: 40px;
 	text-indent: -999px;
-	background: url(http://fightforthefuture.org/images/new/logotwo.png) no-repeat;
+	background: url(//fightforthefuture.org/images/new/logotwo.png) no-repeat;
 	margin-top: 20px;
 	display: block;
 }
 
 .footer {
-	background: url(http://fightforthefuture.org/images/new/striped_background.png);
+	background: url(//fightforthefuture.org/images/new/striped_background.png);
 	margin-bottom: 0; 
 	padding-bottom: 50px; 
 	margin-top: -50px; 
