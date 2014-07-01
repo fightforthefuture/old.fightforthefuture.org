@@ -6,6 +6,8 @@ $(function() {
 
 	// Animate "Goodbye" message.
 	function onSuccess(res) {
+		window.scrollTo(0, 0);
+
 		var $signup = $('.signup');
 		$signup.animate({
 			opacity: 0
@@ -20,6 +22,8 @@ $(function() {
 
 	// Animate "Error" message.
 	function onError(res) {
+		window.scrollTo(0, 0);
+
 		var $signup = $('.signup');
 		$signup.animate({
 			opacity: 0
