@@ -46,7 +46,7 @@ $(function() {
 		// IE8 & 9.
 		if (!$.support.cors) {
 		    var $input = $('<input type="hidden" name="redirect" />');
-		    $input.val('http://fightforthefuture.org');
+		    $input.val('https://www.fightforthefuture.org');
 		    return $form.append($input);
 		}
 
@@ -72,7 +72,7 @@ $(function() {
 		// IE8 & 9.
 		if (!$.support.cors) {
 		    var $input = $('<input type="hidden" name="redirect" />');
-		    $input.val('http://fightforthefuture.org');
+		    $input.val('https://www.fightforthefuture.org');
 		    $form.append($input);
 
 		    $input = $('<input type="hidden" name="t" />');

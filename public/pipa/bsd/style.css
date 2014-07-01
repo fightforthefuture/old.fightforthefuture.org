@@ -5,7 +5,7 @@ body{
 	font-size:12px;
 	color:#717073;
 	text-align:left;
-	background:url(http://fightforthefuture.org/pipa/bsd/images/bg.gif) repeat-x top left #F4F6F8;
+	background:url(https://www.fightforthefuture.org/pipa/bsd/images/bg.gif) repeat-x top left #F4F6F8;
 }
 *{
 	margin:0;
@@ -99,17 +99,17 @@ a:hover{
 .boxtop{
 	width:802px;
 	height:15px;
-	background:url(http://fightforthefuture.org/pipa/bsd/images/boxtopbg.gif) no-repeat;
+	background:url(https://www.fightforthefuture.org/pipa/bsd/images/boxtopbg.gif) no-repeat;
 }
 .boxbottom{
 	width:802px;
 	height:15px;
-	background:url(http://fightforthefuture.org/pipa/bsd/images/boxbottombg.gif) no-repeat;
+	background:url(https://www.fightforthefuture.org/pipa/bsd/images/boxbottombg.gif) no-repeat;
 }
 .boxinfo{
 	width:802px;
 	padding:0 0 0 0;
-	background:url(http://fightforthefuture.org/pipa/bsd/images/boxinfobg.gif) repeat-y;
+	background:url(https://www.fightforthefuture.org/pipa/bsd/images/boxinfobg.gif) repeat-y;
 	overflow:hidden;
 }
 .boxcontainer{
@@ -118,7 +118,7 @@ a:hover{
 	overflow:hidden;
 	min-height:340px;
 	color:#333333;
-	background:url(http://fightforthefuture.org/pipa/bsd/images/boxcontainerbg.gif) no-repeat top left;
+	background:url(https://www.fightforthefuture.org/pipa/bsd/images/boxcontainerbg.gif) no-repeat top left;
 	font-size: 14px;
 }
 .boxcontainer h2{
@@ -138,7 +138,7 @@ a:hover{
 .whitebox{
 	width:766px;
 	height:131px;
-	background:url(http://fightforthefuture.org/pipa/bsd/images/textarebg.png) no-repeat;
+	background:url(https://www.fightforthefuture.org/pipa/bsd/images/textarebg.png) no-repeat;
 	padding:10px 8px 0 7px;
 	color:#696969;
 }

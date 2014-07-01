@@ -21,7 +21,7 @@ $(function() {
         // IE8 & 9.
         if (!$.support.cors) {
             var $input = $('<input type="hidden" name="redirect" />');
-            $input.val('http://fightforthefuture.org/confirm');
+            $input.val('https://www.fightforthefuture.org/confirm');
             return $form.append($input);
         }
 
