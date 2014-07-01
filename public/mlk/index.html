@@ -63,24 +63,23 @@
     
 <div class="yellow"><h3>Tell Congress:</h3>
     <p>“Dr. Martin Luther King Jr.’s call for racial justice should never be censored. Fix copyright!”</p>
-    <form method="POST" action="http://nt.salsalabs.com/save">
-        <fieldset>
-      <input type="text" name="Email" placeholder="Your email"/><br />
-      <input type="text" name="Zip" placeholder="Zip code"/><br />
     
-    <input type="hidden" name="object" value="supporter"/>
-    <input type="hidden" name="ip" id="signup_ip" />
-    <input type="hidden" name="user_agent" id="user_agent" />
-    <input type="hidden" name="email_trigger_KEYS" value="7" />
-    <input type="hidden" name="organization_KEY" value="-501"/>
-    <input type="hidden" name="redirect" value="http://fightforthefuture.org/confirm"> 
-    <input type="hidden" name="Receive_Email" value="10">
-	
+<form action="https://action.fightforthefuture.org/api/movements/1/salsa" method="post">
+  <fieldset>
+    <input type="hidden" value="never-censor-mlk" name="tag" />
+    <input type="hidden" value="en" name="member[language]" />
+    <input type="hidden" value="true" name="salsa" />
+    <input type="hidden" value="en" name="language_id" />
+    <input type="hidden" value="1" name="member[movement_id]" />
+    <input type="text" style="display: none;" placeholder="Please leave this field blank" name="guard" />
+    <input type="hidden" value="1" name="action" />
+    <input type="hidden" value="https://www.fightforthefuture.org/thanks/" name="redirect" />
+    <input id="id_email" type="email" name="member[email]" placeholder="Your Email" />
     <p class="caption">Fight for the Future may contact you about related campaigns. <a  href="http://fightforthefuture.org/privacy/">Privacy Policy.</a></p>
-</fieldset>
-    <div class="meter_box" id="other">
-        <button class="sign" type="submit">Sign Up</button>
-    </div>
+  </fieldset>
+  <div class="meter_box" id="other">
+    <button class="sign" type="submit">Sign Up</button>
+  </div>
 </form>
 
 
