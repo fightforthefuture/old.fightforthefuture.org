@@ -30,4 +30,4 @@ app.get /^\/([\/\w-]*[\w]+)(\?.*)?$/, (req, res)->
     res.redirect(path + '/' + query)
 
 app.use (req, res)->
-    res.send('Page not found.', 404)
+    res.redirect('/404')
