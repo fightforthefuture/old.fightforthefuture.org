@@ -662,6 +662,11 @@ text-decoration: none;
 		width: auto;
 	}
 	.donateask fieldset p {display: none;}
+	.donateask fieldset input,
+	.donateask fieldset button {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
 	.donateask fieldset input {
 		border-radius: 2px;
 		height: 24px;
