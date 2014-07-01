@@ -1,5 +1,13 @@
+.wrap {
+	width: 100%;
+}
+
 .clear {
 	clear: both;
+}
+
+header .donateask {
+	top: 0;
 }
 
 header .donateask {
@@ -11,6 +19,14 @@ header .top_border {
 
 header .xoxo {
 	top: 0;
+}
+
+form.donateask button {
+	width: auto;
+}
+
+.wrap .next {
+	padding-left: 18px;
 }
 
 .signup {

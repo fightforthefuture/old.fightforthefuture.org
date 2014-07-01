@@ -100,6 +100,10 @@ body.white {background: white;}
 	margin: 0 auto;
 }
 
+header .wrap {
+	width: auto;
+}
+
 form.donateask {
 	width: 100%;
 	background: #000;
@@ -110,7 +114,11 @@ form.donateask {
 	z-index: 98;
 }
 
-fieldset {width: 235px; float: right;}
+header fieldset {
+	float: right;
+	padding: 0 8px 0 0;
+	width: auto;
+}
 
 
 form.donateask input,
@@ -137,6 +145,7 @@ form.donateask button {
 	background: #FBC337; 
 	color: #332503; 
 	padding-bottom: 3px; 
+  	width: auto;
 	-webkit-transition: background 0.5s ease; 
   	-moz-transition: background 0.5s ease;
   	-o-transition: background 0.5s ease;
@@ -223,11 +232,12 @@ div.xoxo {
 	height: 49px;
 	background: url(/images/new/heart.png) no-repeat;
 	text-indent: -9999px;
+	left: 0;
 	margin-top: 32px;
 	position: absolute;
-	z-index: 3;
-	margin-left: 440px;
+	margin-left: calc(50% - 24px);
 	position: fixed;
+	top: 0;
 	z-index: 99;
 }
 
@@ -649,7 +659,6 @@ text-decoration: none;
 		float: right;
 		margin-right: 0;
 		overflow: auto;
-		padding: 0;
 		width: auto;
 	}
 	.donateask fieldset p {display: none;}
@@ -664,7 +673,6 @@ text-decoration: none;
 		width: auto;
 	}
 	.wrap {width: 320px;}
-	div.xoxo {margin-left: 140px;}
 	.social {float: none; padding: 10px; margin-bottom: 20px; text-align: center; width: 250px;}
 	.nav li.active a {background: none;}
 	.projects h4 {margin-bottom: 20px;}
