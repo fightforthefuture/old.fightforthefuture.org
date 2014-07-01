@@ -44,8 +44,16 @@
 </div><!-- close #signupmodal-container -->
 <iframe src="https://www.fightforthefuture.org" style="position: absolute; height: 100%; width: 100%;"></iframe>
 
-	<script src="/js/jquery-1.4.2.min.js"></script>
-  <script src="/js/ctu.js"></script>
+<script src="/js/libs/jquery.min.js"></script>
+<script>
+(function($){  
+  $("#close").on('click', function(e) {
+    e.preventDefault();
+
+    window.location = 'https://www.fightforthefuture.org';
+  });
+})(jQuery);
+</script>
 
 </body>
 </html>	
