@@ -48,19 +48,7 @@ blockquote, q {
 strong {font-weight: bold;}
 em {font-style: italic;}
 
-@font-face {
-	font-family: 'OSPDIN';
-	src: url('http://privacyisawesome.com/css/fonts/OSP-DIN-webfont.eot');
-	src: url('http://privacyisawesome.com/css/fonts/OSP-DIN-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('http://privacyisawesome.com/css/fonts/OSP-DIN-webfont.woff') format('woff'),
-		 url('http://privacyisawesome.com/css/fonts/OSP-DIN-webfont.ttf') format('truetype'),
-		 url('http://privacyisawesome.com/css/fonts/OSP-DIN-webfont.svg#OSPDIN') format('svg');
-	font-weight: normal;
-	font-style: normal;
-
-}
-
-.ospdin {font: 60px/68px 'OSPDIN', Arial, sans-serif;letter-spacing: 0;}
+.ospdin {font: 60px/68px Arial, sans-serif;letter-spacing: 0;}
 
 
 
@@ -365,7 +353,7 @@ position:fixed;
 left: 0px;
 z-index: 500;
 margin-top: 320px;
-background: url('http://privacyisawesome.com/images/fftf_tag.png');
+background: url('//www.internetdefenseleague.org/images/fftf_tag.png');
 }
 /*Ali's code END*/
 
