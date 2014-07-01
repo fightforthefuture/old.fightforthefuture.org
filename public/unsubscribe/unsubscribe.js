@@ -6,8 +6,6 @@ $(function() {
 
 	// Animate "Goodbye" message.
 	function onSuccess(res) {
-		window.scrollTo(0, 0);
-
 		var $signup = $('.signup');
 		$signup.animate({
 			opacity: 0
@@ -22,8 +20,6 @@ $(function() {
 
 	// Animate "Error" message.
 	function onError(res) {
-		window.scrollTo(0, 0);
-
 		var $signup = $('.signup');
 		$signup.animate({
 			opacity: 0
@@ -38,12 +34,16 @@ $(function() {
 
 	// Form AJAX submission.
 	$('.signup form').on('submit', function(e) {
+		e.preventDefault();
+
+
+
 		// Shortcut.
 		var $form = $(this),
 			$email = $('#id_email');
 
 		// Require email.
-		if (!$email.val()) {
+		if (!$email.val().length) {
 			return;
 		}
 
@@ -63,7 +63,9 @@ $(function() {
 			url: $form.attr('action')
 		});
 
-		e.preventDefault();
+		// Scroll to top.
+		$email.blur();
+		window.scrollTo(0, 0);
 	});
 
 	// Trigger automatic AJAX submission, if `t` variable is present.
