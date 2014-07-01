@@ -46,3 +46,16 @@ header .xoxo {
 .signup .purpose-error a {
 	color: #14a767;
 }
+
+@media screen and (max-width: 650px) {
+	.signup {
+		height: auto;
+		padding: 0;
+		width: 300px;
+	}
+	.signup button {
+		display: block;
+		float: none;
+		margin: 18px 0 0;
+	}
+}
