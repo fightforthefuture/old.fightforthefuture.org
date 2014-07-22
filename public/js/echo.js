@@ -34,7 +34,7 @@
             });
 
             // Prevent HTTPS errors, somewhat harshly.
-            html = html.replace(/http:/gi, 'https:');
+            html = html.replace(/src\s*=\s*"http:/gi, 'src="\/\/');
 
             // Append.
             var $html = $(html);
