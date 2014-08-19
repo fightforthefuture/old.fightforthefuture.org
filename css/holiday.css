@@ -1,0 +1,96 @@
+body{
+	padding-top: 5px;
+	background-image: url(../images/new/greetings/bg.jpg);
+	background-repeat: repeat-x;
+	background-color: #fff;
+}
+
+.wrap{
+	background-image: url(../images/new/greetings/main.png);
+	width: 968px;
+	height: 318px;
+	margin: 0px auto;
+	position: relative;
+}
+
+section{
+	position: relative;
+	top: 350px;
+	width: 800px;
+	height: 300px;
+	margin: 0px auto;
+}
+
+h1{
+	font-family: "Palatino", Times, serif;
+	text-align: center;
+	font-size: 45px;
+	letter-spacing: -1px;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: -20px;
+}
+
+p{
+	font-family: "Palatino", Times, serif;
+	text-align: center;
+	font-size: 21px;
+	line-height: 30px;
+	color: #000;
+	margin-bottom: -20px
+}
+
+p a{
+	color: #287E12;
+	text-decoration: none;
+}
+
+p a:hover{
+	text-decoration: underline;
+}
+
+.caption{
+	font-family: "Helvetica", Arial, Sans-serif;
+	font-size: 19px;
+	letter-spacing: 0px;
+	display: block;
+	text-align: center;
+}
+
+@font-face {
+    font-family: 'BilboRegular';
+    src: url('../webfonts/Bilbo-Regular-webfont.eot');
+    src: url('../webfonts/Bilbo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/Bilbo-Regular-webfont.woff') format('woff'),
+         url('../webfontsBilbo-Regular-webfont.ttf') format('truetype'),
+         url('../webfontsBilbo-Regular-webfont.svg#BilboRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BilboSwashCapsRegular';
+    src: url('../webfontsBilboSwashCaps-Regular-webfont.eot');
+    src: url('../webfontsBilboSwashCaps-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webfontsBilboSwashCaps-Regular-webfont.woff') format('woff'),
+         url('../webfontsBilboSwashCaps-Regular-webfont.ttf') format('truetype'),
+         url('../webfontsBilboSwashCaps-Regular-webfont.svg#BilboSwashCapsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.fontface {
+	font: 60px/68px 'BilboRegular', Arial, sans-serif;
+	letter-spacing: 0;
+
+}
+
+p.style1 {font: 18px/27px 'BilboRegular', Arial, sans-serif;}
+p.style2 {font: 18px/27px 'BilboSwashCapsRegular', Arial, sans-serif;}
+
+.fftf_logo{
+	margin-left: 10px;
+	margin-top: 10px;
+}

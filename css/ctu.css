@@ -1,0 +1,62 @@
+#signupmodal-container {
+width: 100%;
+height: 100%;
+position: absolute;
+z-index: 900;
+background: black;
+opacity: .84;
+}
+
+#signupmodal-lightbox {
+-moz-border-radius: 10px; /* from vector shape */
+-webkit-border-radius: 10px; /* from vector shape */
+border-radius: 10px; /* from vector shape */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box; /* prevents bg color from leaking outside the border */
+background-color: #fff; /* layer fill content */
+-moz-box-shadow: 0 5px 24px rgba(0,0,0,.75); /* drop shadow */
+-webkit-box-shadow: 0 5px 24px rgba(0,0,0,.75); /* drop shadow */
+box-shadow: 0 5px 24px rgba(0,0,0,.75); /* drop shadow */
+opacity: 1;
+padding-top: 40px;
+padding-left: 60px;
+padding-right: 60px;
+width:460px;
+height: 240px;
+position: absolute;
+z-index: 901;
+left: 50%;
+top: 50%;
+margin: -140px 0 0 -290px;
+color: #000;
+font-family: 'helvetica neue', helvetica, sans-serif;
+font-size: 18px;
+line-height: 1.5;
+}
+
+#signupmodal-lightbox h2 {
+background: url(/images/ctu/confirm_heart.png) center left no-repeat ;
+padding-left: 50px;
+display: block;
+font-size: 30px;
+font-family: montserrat, 'helvetica nueue', sans-serif;
+}
+
+#signupmodal-lightbox h2.broken {
+	background: url(/images/ctu/confirm_heart_broken.png) center left no-repeat;
+}
+#signupmodal-lightbox p {margin-top: 10px;}
+#signupmodal-lightbox ul {text-align: center; margin-top: 20px;}
+#signupmodal-lightbox ul li {display: inline;margin-right: 10px;}
+#signupmodal-lightbox ul li a {width: 197px; height: 42px; display: inline-block; text-align: center; text-indent: -9999px;}
+a#twitterz {background: url(/images/ctu/confirm_twitter.png) no-repeat;}
+#signupmodal-lightbox ul li a#twitterz_instead {background: url(/images/ctu/confirm_twitter_instead.png) no-repeat; width: 240px;}
+a#facebookz {background: url(/images/ctu/confirm_facebook.png) no-repeat;}
+p#close {width: 41px; height: 42px; background: url(/images/ctu/confirm_close.png) no-repeat; display: block; float: right; text-indent: -9999px; top: -25px; right: -20px;; position: absolute; cursor: pointer;}
+
+p.check {font-size: 30px; font-weight: bold; text-align: center;}
+#signupmodal-lightbox p.linkage {color: red; font-weight: normal; font-size: 16px; margin-top: 0px; text-align: center;}
+
+a.nogood {text-align: center; color: #19a96a; margin-top: 30px; display: block;}
+#signupmodal-lightbox a {color: #19a96a;}

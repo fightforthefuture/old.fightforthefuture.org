@@ -1,0 +1,77 @@
+.wrap {
+	width: 100%;
+}
+
+.clear {
+	clear: both;
+}
+
+header .donateask {
+	top: 0;
+}
+
+header .donateask {
+	top: 0;
+}
+header .top_border {
+	top: 0;
+}
+
+header .xoxo {
+	top: 0;
+}
+
+form.donateask button {
+	width: auto;
+}
+
+.wrap .next {
+	padding-left: 18px;
+}
+
+.signup {
+	float: none;
+	height: 122px;
+	margin: 100px auto 40px;
+	width: 400px;
+}
+
+.signup button {
+	width: 120px;
+}
+
+.signup .form {
+	display: none;
+}
+
+.signup .loading {
+	display: none;
+	text-align: center;
+}
+
+.signup .goodbye {
+	display: none;
+	text-align: center;
+}
+
+.signup .purpose-error {
+	display: none;
+	text-align: center;
+}
+
+.signup .purpose-error a {
+	color: #14a767;
+}
+
+@media screen and (max-width: 650px) {
+	.signup {
+		height: auto;
+		padding: 0;
+		width: 300px;
+	}
+	.signup button {
+		display: block;
+		float: none;
+		margin: 18px 0 0;
+	}
+}
