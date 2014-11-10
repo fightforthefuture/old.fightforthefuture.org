@@ -193,6 +193,10 @@
         a.btn.twitter {
             background-color: #2D98D6;
         }
+        div.inline {
+            display: inline-block;
+            margin: 0px 10px;
+        }
 
     </style>
     <script src="https://donate.fightforthefuture.org/widget/donate.js" type="text/javascript"></script>
@@ -212,7 +216,10 @@
             <a class="btn twitter main" target="_blank" href="https://twitter.com/intent/tweet?related=fightfortheftr&text=BREAKING%3A+There+was+a+huge+win+today+for+the+%23OpenInternet.+Donate+to+make+sure+it+counts%3A&url=https%3A%2F%2Fwww.fightforthefuture.org/hugewin&hashtags=">Tweet</a>
         </div>
         <div>
-            <div id="donate"></div>
+            <div id="donate-5" class="inline"></div>
+            <div id="donate-10" class="inline"></div>
+            <div id="donate-20" class="inline"></div>
+            <div id="donate" class="inline"></div>
 
             <p>
                 Over the last few months, we've come together and shown the world
@@ -224,7 +231,7 @@
                 lanes. In response, we launched <a href="https://www.callthefcc.com" target="_blank">CallTheFCC.com</a> and
                 <a href="https://www.didobamabreakthenet.com" target="_blank">DidObama BreakTheNet.com</a>,
                 sites that allowed us to connect tens of thousands of people to
-                high-ranking officials at the FCC and White House.
+                high-ranking officials at the FCC and White House. We organized
             </p>
             <p>
                 Today, it became clear that our efforts were not in vain! With
@@ -239,9 +246,28 @@
     <div class="clear"></div>
     <img src="fftf_heart.png" width="64" height="64"/>
     <script type="text/javascript">
+        FFTFDonate.init({tag: 'hugewin-landing'});
         FFTFDonate.display(document.getElementById('donate'), 'entry', {
             checkoutFlow: 'stripe',
+            amount: 50,
+            cta: ''
+        });
+        FFTFDonate.display(document.getElementById('donate-5'), 'button', {
+            checkoutFlow: 'stripe',
+            buttonText: 'Donate $5',
             amount: 5,
+            cta: ''
+        });
+        FFTFDonate.display(document.getElementById('donate-10'), 'button', {
+            checkoutFlow: 'stripe',
+            buttonText: 'Donate $10',
+            amount: 10,
+            cta: ''
+        });
+        FFTFDonate.display(document.getElementById('donate-20'), 'button', {
+            checkoutFlow: 'stripe',
+            buttonText: 'Donate $20',
+            amount: 20,
             cta: ''
         });
     </script>
