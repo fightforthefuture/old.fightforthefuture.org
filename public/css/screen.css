@@ -195,6 +195,7 @@ form.donateask button:hover {background: #f69100; }
 	width: 100%;
 	float: left;
 	margin-top: 60px;
+	pointer-events: none;
 }
 
 @-moz-document url-prefix() {
@@ -225,6 +226,28 @@ h1 a {
 	margin-top: 55px; 
 	margin-bottom: 8px;
 	text-shadow: 2px 2px 2px rgba(0,0,0,.75);
+}
+.banner h2 a {
+	font-size: 100px;
+}
+.banner h2 a:hover {
+	color: #900;
+}
+.banner a {
+	color: white;
+	transition: color .5s linear;
+	-ms-transition: color .5s linear;
+	-webkit-transition: color .5s linear;
+	-moz-transition: color .5s linear;
+	-o-transition: color .5s linear;
+}
+.banner a:hover {
+	color: #900;
+}
+.banner a.status {
+	display: block;
+	text-align: center;
+
 }
 
 div.xoxo {
@@ -653,6 +676,12 @@ text-decoration: none;
     .storelink {
     	width: auto;
     }
+
+	.banner h2 a {
+		font-size: 40px;
+		color: white;
+
+	}
 
 	form.donateask {height: 40px;}
 	.donateask fieldset {
