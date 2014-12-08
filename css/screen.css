@@ -80,6 +80,7 @@ em {font-style: italic;}
 
 body {
 	background: url('/images/new/diag-striped.png');
+	background-color: #202020;
 	color: #fff;
 
 	margin: 0 auto;
