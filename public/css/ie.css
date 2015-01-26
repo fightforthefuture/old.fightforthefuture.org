@@ -1,0 +1,30 @@
+.donateask fieldset {width: 230px;}
+
+.project p {font-size: 11px;}
+
+.project h5 {font-size: 13px;}
+
+.person p {font-size: 12px;}
+
+form.donateask button {
+	padding-bottom: 0px;
+	padding-top: 0px;
+	width: 73px;
+	}
+
+.signup input {
+	padding-bottom: 11px;
+}
+
+.signup button {
+	padding-top: 0;
+	padding-bottom: 0px;
+}
+
+.top_border {
+    margin-top: 55px;
+}
+
+.superfluous {
+    margin-top: 327px;
+}

@@ -1,0 +1,129 @@
+ @font-face {font-family: 'Calluna-Regular';src: url('/apology/webfonts/220C84_0_0.eot');src: url('/apology/webfonts/220C84_0_0.eot?#iefix') format('embedded-opentype'),url('/apology/webfonts/220C84_0_0.woff') format('woff'),url('/apology/webfonts/220C84_0_0.ttf') format('truetype');}
+
+      html, body {
+         font-family: 'Calluna-Regular'; 
+         color: #333;
+         font-size: 18px;
+         margin: 0 0 80px 0;
+         padding: 0;
+      }
+      body {
+         background: url(images/bg.gif) repeat;
+         color: #222;
+		 font-family: 'Calluna-Regular'; 
+      }
+      h1 {
+         font-family: 'Calluna-Regular'; 
+         font-size: 54pt;
+         line-height: 54pt;
+         font-weight: normal;
+         margin-left: -60px;
+      }
+      h2, h3, h4, h5 {
+         font-family: 'Calluna-Regular'; 
+         color: #777;
+         font-weight: normal;
+         border-bottom: 1px dotted #ccc;
+         margin-top: 50px; clear: both;
+      }
+      
+      h2:before { content:"< "; }
+      h2:after { content:" >"; }
+      
+      p {
+         line-height: 24px;
+         text-indent: 60px;
+      }
+      p.first {
+         line-height: 24px;
+         text-indent: 0px;
+         clear: both;
+         margin-top: 150px;
+      }
+      a { color: #900; }
+      a:visited { color: #666; }
+      a:hover { color: #000; text-decoration: underline; }
+
+      em {
+      }
+      #container {
+         /* border: 1px solid #000; */
+         width: 100%;
+      }
+      #content {
+         /* border: 1px solid #000; */
+         width: 700px;
+         margin-left: auto;
+         margin-right: auto;
+         text-align: left;
+      }
+        #content dl {
+           margin-left: 20px;
+        }
+        #content dt {
+           color: #000;
+           font-weight: bold;
+           display: block;
+           margin-left: 40px;
+		display: list-item; list-style-type: none;list-style-image:none;
+			
+		}
+        #content dd {
+           margin-bottom: 10px; margin-top: 10px;
+        }
+        
+        ul { margin-left: 40px;}
+        li { list-style-image: url(bullet.png); }
+        ul.alpha li {list-style-type: lower-alpha;list-style-image:none;}
+         .email {
+            background-color: #fff;
+            padding: 20px;
+            margin: 30px 0px;;
+            font-family: "Courier", sans-serif;
+            font-size: 10pt;
+            -moz-box-shadow: inset 0px 0px 5px #c2b9b6;
+            box-shadow: inset 0px 0px 5px #c2b9b6;
+            background-color: #eee;
+            color: #666;
+          }
+          .email .header {
+             display: block;
+             margin-bottom: 5px;
+          }
+          .email .prefix {
+             font-style: italic;
+             font-weight: bold;
+          }
+          .email p {
+             margin-top: 0px;
+             margin-bottom: 10px;
+             text-indent: 0px;
+          }
+          
+          hr { visibility: hidden; margin-bottom: 54px; }
+          
+	.dropcap {  
+	background-color: #fff;  
+	width: 65px;  
+	height: 49px;  
+	text-align: center;  
+	border: 3px solid #fff;  
+	font-size: 100px;  
+	line-height: 70px;  
+	padding-top: 6px;  
+	margin: 0px 6px 0px 0px; 
+	color: #900;  
+	text-decoration: none;  
+	font-weight: normal; 
+	float: left; } 
+	
+pre { font-size: 9pt; }	
+
+.projects { float: right;
+	background-color: #eee;
+	border: 1px solid #000;
+	 display: none; 
+ }	
+ 
+.project-item { border: 1px solid #fff; padding: 5px 20px; margin-top: -1px;}
+.clickme { color: #fff; position: absolute; top: 10px; right: 30px; cursor: pointer;}

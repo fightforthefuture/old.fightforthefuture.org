@@ -1,0 +1,19 @@
+{
+  "name": "fftf-org",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@heroku.com:fftforg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "coffee-script": "~1.7.0",
+    "express": "~3.4.8"
+  }
+}
