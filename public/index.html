@@ -19,6 +19,12 @@
 
     <link href='//fonts.googleapis.com/css?family=Montserrat|Oleo+Script' rel='stylesheet' type='text/css'>
 
+
+    <!-- RELATED TO CREDO MODAL, PLEASE REMOVE ASAP LOL -->
+    <link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <!-- // // // -->
+
     <link rel="icon" type="image/png" href="fav.png">
 </head>
 
@@ -489,6 +495,69 @@
             </div>
         </div><!-- close .wrap -->
     </footer>
+
+    <div class="overlay invisible" id="overlay">
+        <div class="gutter">
+            <div id="modal" class="round fadeInDown">
+                <div class="left">
+                    <h1>We're on the brink of a
+                    historic victory
+                    for free speech</h1>
+                    
+                    <span class="devider"></span>
+                    <p>
+                    We are doing the impossible and beating big cable! we're days away from saving net neutrality and free speech on the Internet, and we did it by organizing millions in the 
+                    <a class="highlight" href="http://battleforthenet.com">battleforthenet.com</a>
+                    </p>
+                
+                </div>
+                
+                <div class="right">
+                        <a class="close" href="#"><img src="images/close.png" alt="" /></a>
+                        <a class="butt" href="https://www.battleforthenet.com">TAKE ACTION</a>
+                </div>
+            
+            
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var hide_modal = function() {
+            var modal = document.getElementById('overlay');
+            modal.className = 'overlay invisible';
+            setTimeout(function() {
+                modal.style.display = 'none';
+            }, 400);
+        }
+
+        var ready = function() {
+            var modal = document.getElementById('overlay');
+            modal.style.display = 'table';
+            setTimeout(function() {
+                modal.className = 'overlay';
+            }, 200);
+
+            modal.querySelector('.gutter').addEventListener('click', function(e) {
+                if (e.target === e.currentTarget) {
+                    e.preventDefault();
+                    hide_modal();
+                }
+            }.bind(this), false);
+
+            modal.querySelector('.close').addEventListener('click', function(e) {
+                e.preventDefault();
+                hide_modal();
+            }.bind(this), false);
+        }
+
+        // Wait for DOM content to load.
+        var curState = document.readyState;
+        if (curState=="complete" || curState=="loaded" || curState=="interactive") {
+            ready();
+        } else if (document.addEventListener) {
+            document.addEventListener('DOMContentLoaded', ready, false);
+        }
+    </script>
 
     <script type="text/template" id="template-tumblr-regular">
         <div class="story tumblr-regular">
