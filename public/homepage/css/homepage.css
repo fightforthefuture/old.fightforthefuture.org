@@ -454,11 +454,8 @@ section.additional-sections .projects .project .fire {
     }
 }
 
-section.additional-sections #press-anchor {
-    padding: 48px 0 0;
-}
-
 section.additional-sections .quotes {
+    padding: 48px 0 0;
     text-align: center;
 }
 
