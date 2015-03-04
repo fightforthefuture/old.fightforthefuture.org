@@ -163,6 +163,20 @@ section.additional-sections {
             box-sizing: border-box;
 }
 
+section.additional-sections .feeds {
+    margin: 0 auto;
+    max-width: 918px;
+}
+
+section.additional-sections .feeds h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: lighter;
+    margin: 12px 0 40px;
+    text-align: left;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.75);
+}
+
 section.additional-sections .twitter-timeline-wrapper {
     height: 375px;
     float: left;
@@ -225,7 +239,7 @@ section.additional-sections .tumblr-wrapper .posts img {
 }
 
 section.additional-sections .tumblr-wrapper .posts .story {
-    box-shadow: 0 0 4px rgba(0,0,0,0.15) inset;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.15) inset;
     color: rgb(207, 207, 207);
     font-family: 'Helvetica Neue', Arial, sans-serif;
     font-size: 12px;
@@ -313,7 +327,7 @@ section.additional-sections .projects h4 {
     font-weight: lighter;
     margin: 12px 0 40px 16px;
     text-align: left;
-    text-shadow: 2px 2px 3px rgba(0,0,0,.75);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, .75);
 }
 
 section.additional-sections .projects.first h4 {
