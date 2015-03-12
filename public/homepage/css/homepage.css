@@ -275,24 +275,41 @@ section.additional-sections .tumblr-wrapper .posts .story p.date {
     margin: 0 0 10px;
 }
 
+section.additional-sections .twitter-timeline-wrapper .text-link,
+section.additional-sections .tumblr-wrapper .text-link {
+    color: white;
+    display: none;
+}
+
 @media screen and (max-width: 700px) {
     section.additional-sections .twitter-timeline-wrapper,
     section.additional-sections .tumblr-wrapper {
-        float: none;
-        margin-bottom: 84px;
-        width: 100%;
+        float: left;
+        height: 32px;
+        margin-bottom: 12px;
+        width: 130px;
     }
 
     section.additional-sections .twitter-timeline-wrapper .logo,
     section.additional-sections .tumblr-wrapper .logo {
-        left: 0;
-        right: auto;
-        top: 0;
+        position: static;
     }
 
     section.additional-sections .twitter-timeline-wrapper .spacer,
     section.additional-sections .tumblr-wrapper .spacer {
-        height: 64px;
+        display: none;
+    }
+
+    section.additional-sections .twitter-timeline-wrapper .text-link,
+    section.additional-sections .tumblr-wrapper .text-link {
+        display: inline-block;
+        position: relative;
+        top: -18px;
+    }
+
+    section.additional-sections .twitter-timeline-wrapper iframe,
+    section.additional-sections .tumblr-wrapper .posts {
+        display: none !important;
     }
 }
 
