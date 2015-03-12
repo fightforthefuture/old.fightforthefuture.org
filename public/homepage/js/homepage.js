@@ -190,7 +190,7 @@ AJAX.prototype.serializeForm = function(form) {
 
 
 // Preloading & fading in David background
-(function(){
+(function() {
     var url = 'homepage/images/david-by-michelangelo.jpg';
     var image = new Image();
     image.src = url;
@@ -202,7 +202,7 @@ AJAX.prototype.serializeForm = function(form) {
 
 
 // Form
-(function(){
+(function() {
     var form = document.getElementById('form-signup');
     var action = form.getAttribute('action');
     var method = form.getAttribute('method');
@@ -246,7 +246,7 @@ AJAX.prototype.serializeForm = function(form) {
 
 
 // Mobile navigation
-(function(){
+(function() {
     var header = document.querySelector('header');
     var cheeseburger = document.querySelector('.cheeseburger');
     var lines = document.querySelector('.cheeseburger .lines');
@@ -266,7 +266,7 @@ AJAX.prototype.serializeForm = function(form) {
 
 
 // Additional Sections
-(function(){
+(function() {
     var container = document.querySelector('.additional-sections');
 
     var queue = new AdditionalSectionQueue();
