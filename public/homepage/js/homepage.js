@@ -189,6 +189,30 @@ AJAX.prototype.serializeForm = function(form) {
 
 
 
+// Scroll events on desktop
+(function() {
+    if (navigator.userAgent.match(/mobile/)) {
+        return;
+    }
+
+    var largeLogo = document.querySelector('.logo-large');
+
+    var oldOpacity = 1;
+    window.addEventListener('scroll', function(e) {
+        var newOpacity = Math.max(1 - (scrollY / 300), 0);
+
+        if (newOpacity === oldOpacity) {
+            return;
+        }
+
+        largeLogo.style.opacity = newOpacity;
+        largeLogo.style.transition = 'none';
+        oldOpacity = newOpacity;
+    }, false);
+})();
+
+
+
 // Preloading & fading in David background
 (function() {
     var url = 'homepage/images/david-by-michelangelo.jpg';
