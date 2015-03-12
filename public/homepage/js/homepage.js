@@ -191,7 +191,7 @@ AJAX.prototype.serializeForm = function(form) {
 
 // Scroll events on desktop
 (function() {
-    if (navigator.userAgent.match(/mobile/)) {
+    if (navigator.userAgent.match(/mobile/i)) {
         return;
     }
 
@@ -199,7 +199,7 @@ AJAX.prototype.serializeForm = function(form) {
 
     var oldOpacity = 1;
     window.addEventListener('scroll', function(e) {
-        var newOpacity = Math.max(1 - (scrollY / 300), 0);
+        var newOpacity = Math.max(1 - (scrollY / 280), 0);
 
         if (newOpacity === oldOpacity) {
             return;
