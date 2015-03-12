@@ -199,7 +199,7 @@ AJAX.prototype.serializeForm = function(form) {
 
     var oldOpacity = 1;
     window.addEventListener('scroll', function(e) {
-        var newOpacity = Math.max(1 - (scrollY / 280), 0);
+        var newOpacity = Math.max(1 - (window.pageYOffset / 280), 0);
 
         if (newOpacity === oldOpacity) {
             return;
