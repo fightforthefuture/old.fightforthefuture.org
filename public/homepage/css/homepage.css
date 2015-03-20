@@ -200,8 +200,14 @@ section.additional-sections .twitter-timeline-wrapper .spacer {
 }
 
 section.additional-sections .twitter-timeline-wrapper iframe {
+    background-color: #11191f;
     height: 365px;
+    padding-left: 12px !important;
     width: 100% !important;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 section.additional-sections .tumblr-wrapper {
@@ -234,11 +240,15 @@ section.additional-sections .tumblr-wrapper .posts {
     overflow: auto;
 }
 
+section.additional-sections .tumblr-wrapper .posts iframe,
 section.additional-sections .tumblr-wrapper .posts img {
     max-width: 100%;
 }
 
 section.additional-sections .tumblr-wrapper .posts .story {
+    background: #11191f;
+    border: 1px solid #151515;
+    border-radius: 5px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.15) inset;
     color: rgb(207, 207, 207);
     font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -258,13 +268,15 @@ section.additional-sections .tumblr-wrapper .posts div:first-child .story {
 }
 
 section.additional-sections .tumblr-wrapper .posts .story a {
-    color: #14a767;
+    color: #23D79E;
     text-decoration: none;
 }
 
 section.additional-sections .tumblr-wrapper .posts .story h5 {
-    font-size: 18px;
-    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: lighter;
+    margin: 16px 0px 28px;
 }
 
 section.additional-sections .tumblr-wrapper .posts .story p.date {
