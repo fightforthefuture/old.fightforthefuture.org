@@ -195,20 +195,29 @@ AJAX.prototype.serializeForm = function(form) {
         return;
     }
 
-    var largeLogo = document.querySelector('.logo-large');
+    var headerElement = document.querySelector('header');
+    var zoomElement = document.querySelector('.zoom-out-intro');
 
     var oldOpacity = 1;
-    window.addEventListener('scroll', function(e) {
-        var newOpacity = Math.max(1 - (window.pageYOffset / 280), 0);
+    function onScroll() {
+        var newOpacity = Math.max(1 - (window.pageYOffset / 320), 0);
 
         if (newOpacity === oldOpacity) {
             return;
         }
 
-        largeLogo.style.opacity = newOpacity;
-        largeLogo.style.transition = 'none';
+        var newScale = (5 / 6) + (newOpacity / 6);
+
+        headerElement.style.opacity = newOpacity;
+        zoomElement.style.opacity = newOpacity;
+        zoomElement.style.transition = 'none';
+        zoomElement.style.transform = 'scale(' + newScale + ')';
+        zoomElement.style.webkitTransform = 'scale(' + newScale + ')';
+
         oldOpacity = newOpacity;
-    }, false);
+    }
+
+    window.addEventListener('scroll', onScroll, false);
 })();
 
 
