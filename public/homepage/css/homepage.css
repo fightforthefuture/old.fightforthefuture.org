@@ -113,7 +113,7 @@ header.mobile-navigation-is-expanded .mobile-navigation .cheeseburger .lines::af
         position: absolute;
         padding: 16px 0;
         width: 100%;
-        z-index: 1;
+        z-index: 2;
     }
 
     header.mobile-navigation-is-expanded nav a {
