@@ -31,12 +31,12 @@
     animation-name: fadeIn;
 }
 
-header .mobile-navigation .cheeseburger {
+.mobile-navigation .cheeseburger {
     cursor: pointer;
     position: relative;
 }
 
-header .mobile-navigation .cheeseburger .lines {
+.mobile-navigation .cheeseburger .lines {
     /* this span is the central line of the menu icon */
     display: inline-block;
     position: absolute;
@@ -58,8 +58,8 @@ header .mobile-navigation .cheeseburger .lines {
     /* these are the upper and lower lines in the menu icon */
 }
 
-header .mobile-navigation .cheeseburger .lines::before,
-header .mobile-navigation .cheeseburger .lines::after {
+.mobile-navigation .cheeseburger .lines::before,
+.mobile-navigation .cheeseburger .lines::after {
     content: '';
     width: 100%;
     height: 100%;
@@ -71,24 +71,24 @@ header .mobile-navigation .cheeseburger .lines::after {
     transition: transform .3s, top .3s, background-color 0s;
 }
 
-header .mobile-navigation .cheeseburger .lines::before {
+.mobile-navigation .cheeseburger .lines::before {
     top: -5px;
 }
 
-header .mobile-navigation .cheeseburger .lines::after {
+.mobile-navigation .cheeseburger .lines::after {
     top: 5px;
 }
 
-header.mobile-navigation-is-expanded .mobile-navigation .cheeseburger .lines {
+.mobile-navigation.mobile-navigation-is-expanded .cheeseburger .lines {
     background-color: rgba(255, 255, 255, 0);
 }
 
-header.mobile-navigation-is-expanded .mobile-navigation .cheeseburger .lines::before,
-header.mobile-navigation-is-expanded .mobile-navigation .cheeseburger .lines::after {
+.mobile-navigation.mobile-navigation-is-expanded .cheeseburger .lines::before,
+.mobile-navigation.mobile-navigation-is-expanded .cheeseburger .lines::after {
     background-color: white;
 }
 
-header.mobile-navigation-is-expanded .mobile-navigation .cheeseburger .lines::before {
+.mobile-navigation.mobile-navigation-is-expanded .cheeseburger .lines::before {
     top: 0;
     -webkit-transform: rotate(135deg);
     -moz-transform: rotate(135deg);
@@ -97,7 +97,7 @@ header.mobile-navigation-is-expanded .mobile-navigation .cheeseburger .lines::be
     transform: rotate(135deg);
 }
 
-header.mobile-navigation-is-expanded .mobile-navigation .cheeseburger .lines::after {
+.mobile-navigation.mobile-navigation-is-expanded .cheeseburger .lines::after {
     top: 0;
     -webkit-transform: rotate(225deg);
     -moz-transform: rotate(225deg);
@@ -107,34 +107,35 @@ header.mobile-navigation-is-expanded .mobile-navigation .cheeseburger .lines::af
 }
 
 @media screen and (max-width: 767px) {
-    header.mobile-navigation-is-expanded nav {
+    nav.mobile-navigation-is-expanded {
         background-color: #03263d;
         display: block;
-        position: absolute;
         padding: 16px 0;
+        position: absolute;
+        top: 50px;
         width: 100%;
         z-index: 2;
     }
 
-    header.mobile-navigation-is-expanded nav a {
+    nav.mobile-navigation-is-expanded a {
         display: block;
         margin: 0;
         padding: 0;
         width: 100%;
     }
 
-    header.mobile-navigation-is-expanded nav a:hover {
+    nav.mobile-navigation-is-expanded a:hover {
         background-color: white;
         color: black;
     }
 
-    header.mobile-navigation-is-expanded nav a.donate {
+    nav.mobile-navigation-is-expanded a.donate {
         border: none;
         border-radius: 0;
     }
 
-    header.mobile-navigation-is-expanded nav a.facebook,
-    header.mobile-navigation-is-expanded nav a.twitter {
+    nav.mobile-navigation-is-expanded a.facebook,
+    nav.mobile-navigation-is-expanded a.twitter {
         display: none;
     }
 

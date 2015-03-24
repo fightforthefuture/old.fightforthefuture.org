@@ -193,6 +193,8 @@ AJAX.prototype.serializeForm = function(form) {
 (function() {
     if (navigator.userAgent.match(/mobile/i)) {
         return;
+    } else {
+        document.body.className += ' desktop ';
     }
 
     var headerElement = document.querySelector('header');
@@ -280,16 +282,19 @@ AJAX.prototype.serializeForm = function(form) {
 
 // Mobile navigation
 (function() {
-    var header = document.querySelector('header');
     var cheeseburger = document.querySelector('.cheeseburger');
     var lines = document.querySelector('.cheeseburger .lines');
+    var navElement = document.querySelector('nav');
+    var mobileNavElement = document.querySelector('.mobile-navigation');
     var mobileNavigationIsExpanded = false;
 
     cheeseburger.addEventListener('click', function(e) {
         if (mobileNavigationIsExpanded) {
-            header.className = header.className.replace(' mobile-navigation-is-expanded ', '');
+            navElement.className = navElement.className.replace(' mobile-navigation-is-expanded ', '');
+            mobileNavElement.className = mobileNavElement.className.replace(' mobile-navigation-is-expanded ', '');
         } else {
-            header.className += ' mobile-navigation-is-expanded ';
+            navElement.className += ' mobile-navigation-is-expanded ';
+            mobileNavElement.className += ' mobile-navigation-is-expanded ';
         }
 
         mobileNavigationIsExpanded = !mobileNavigationIsExpanded;
