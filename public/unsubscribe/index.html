@@ -63,17 +63,9 @@
                 <div class="form">
                     <h3 class="montserrat">Add your email to unsubscribe here.</h3>
 
-                    <form method="post" action="https://action.fightforthefuture.org/api/movements/1/unsubscribe">
-                        <input type="hidden" value="fftfsite" name="tag" />
-                        <input type="hidden" value="en" name="member[language]" />
-                        <input type="hidden" value="true" name="salsa" />
-                        <input type="hidden" value="en" name="language_id" />
-                        <input type="hidden" value="1" name="member[movement_id]" />
-                        <input id="#user_agent" type="hidden" value="" name="member[user_agent]" />
-                        <input id="#ip_address" type="hidden" value="" name="member[ip_address]" />
-                        <input type="text" style="display: none;" placeholder="Please leave this field blank" name="guard" />
-                        <input type="hidden" value="1" name="action" />
-                        <input id="id_email" type="email" name="member[email]" placeholder="Your Email" required />
+                    <form method="post" action="https://queue.fightforthefuture.org/unsubscribe">
+                        <input id="email" name="email" type="email"  placeholder="Your Email" required />
+                        <input type="hidden" name="redirect" value="true"/>
                         <button type="submit" class="bebas">UNSUBSCRIBE</button>
                     </form>
                 </div>
@@ -81,12 +73,8 @@
 
             <div class="clear"></div>
 
-            <div class="next">
-                <p>Got an idea?</p>
-                <a href="http://www.reddit.com/r/internetdefense" class="btn">
-                    <span>Submit a Campaign</span>
-                </a>
-            </div>
+            <br/><br/>&nbsp;<br/><br/>
+            
         </div>
         <!-- close .wrap -->
     </div>
@@ -134,7 +122,7 @@
         <!-- close .wrap -->
     </footer>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="jquery.min.js"></script>
 
     <style type="text/css">
     input.placeholder {
