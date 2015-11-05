@@ -1,6 +1,2 @@
-
-*node_modules
-*sftp-config.json
-*bower_components
-*.sublime-*
-	
+node_modules/
+public/
