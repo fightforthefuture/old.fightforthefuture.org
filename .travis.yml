@@ -15,7 +15,7 @@ install:
 script:
   - npm run build
 after_success:
-  - npm run deploy
+  - npm run-script deploy
 env:
   - CXX=g++-4.8
 addons:
