@@ -1,0 +1,52 @@
+#################################################
+# Config: Development                           #
+#################################################
+# (production settings go in _config.build.yml) #
+
+#############
+# Meta info #
+#############
+
+name: Fight for the Future, defending our basic rights and freedoms
+url: https://fightforthefuture.org
+description: "Fight for the Future is dedicated to protecting and expanding the Internet's transformative power in our lives by creating civic campaigns that are engaging for millions of people."
+timezone: America/Los_Angeles # Should be formatted like formal tz database
+googleanalytics: UA-26576645-1
+
+favicon: '/homepage/images/heart.png' # replace this with path to favicon if that’s a thing you’re doing.
+
+author:
+    googleid: 102356128596404327231
+    twitterid: 382376904
+    twitter: fightfortheftr
+
+###########
+# Content #
+###########
+
+future: true
+show_drafts: true
+permalink: /:title/ # See Jekyll documentation for permalink styles
+
+#############
+# Compiling #
+#############
+
+exclude: [
+  'img', 'images'
+]
+
+# this is commented bc each page has its own assets O_O
+#exclude: [
+#  'img', 'css', 'fonts', '**.haml',
+#  '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico',
+#]
+#
+
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions:
+    - footnotes
+#    - autolink
+#    - smart
