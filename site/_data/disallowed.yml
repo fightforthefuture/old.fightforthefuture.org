@@ -1,0 +1,6 @@
+# Pages that go into the robots.txt and don't get included in the sitemap
+pages:
+  - '/google5033d6ab2e00df50.html'
+directories:
+  - '404'
+categories: ['disallowed']
