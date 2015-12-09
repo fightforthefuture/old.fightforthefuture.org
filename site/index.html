@@ -1,17 +1,13 @@
 ---
 layout: none
+label: homepage
+title: "Fight for the Future, defending our basic rights and freedoms"
+description: "Fight for the Future is dedicated to protecting and expanding the Internet's transformative power in our lives by creating civic campaigns that are engaging for millions of people."
 ---
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Fight for the Future, defending our basic rights and freedoms</title>
-    <link rel="icon" href="homepage/images/heart.png">
-
-    <meta name="description" content="Fight for the Future is dedicated to protecting and expanding the Internet's transformative power in our lives by creating civic campaigns that are engaging for millions of people.">
-    <meta name="google-site-verification" content="RA_POCdgh3gHSCy5g8X6xhMuu-t03xSQDWID-vbkhJ4">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+  {% include meta.html %}
     <!-- Above the fold styles -->
     <style>
     html, body {
@@ -433,5 +429,6 @@ layout: none
         document.getElementsByTagName('body')[0].appendChild(idl);
     })();
     </script>
+    {% include scripts.html %}
 </body>
 </html>
