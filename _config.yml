@@ -43,10 +43,8 @@ exclude: [
 #]
 #
 
-highlighter: pygments
-markdown: rdiscount
-rdiscount:
-  extensions:
-    - footnotes
-#    - autolink
-#    - smart
+highlighter: rouge
+
+markdown: kramdown
+kramdown:
+  input: GFM

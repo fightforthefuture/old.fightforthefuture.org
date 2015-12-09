@@ -1,0 +1,84 @@
+# Please sort press by date, newest pieces at the top. If a piece falls under
+# multiple categories, use best judgement?
+
+#- short: 'cisa'
+#  pretty: 'CISA'
+#  coverage:
+#    - title: 'Everything You Need to Know About the Recently Passed, Privacy-Decimating CISA Bill'
+#      date: 2015-11-03
+#      publication: Vice
+#      link: http://www.vice.com/read/everything-you-need-to-know-about-the-recently-passed-privacy-decimating-cisa-bill-1029
+#    - title: 'Cybersecurity bill sails through Senate despite tech opposition'
+#      date: 2015-10-28
+#      publication: COMPUTERWORLD
+#      link: http://www.computerworld.com/article/2998404/cybercrime-hacking/cybersecurity-bill-sails-through-senate-despite-tech-opposition.html
+#    - title: 'CISA cyber security bill passes US Senate despite protests'
+#      date: 2015-10-28
+#      publication: v3.co.uk
+#      link: http://www.v3.co.uk/v3-uk/news/2432306/cisa-cyber-security-bill-passes-us-senate-despite-protests
+- short: 'tpp'
+  pretty: 'Trans-Pacific Partnership'
+  coverage:
+    - title: 'Leaked (final?) TPP Intellectual Property chapter spells doom for free speech online'
+      date: 2015-10-09
+      publication: boingboing
+      link: http://boingboing.net/2015/10/09/leaked-final-tpp-intellectu.html
+    - title: 'Wikileaks release of TPP deal text stokes ‘freedom of expression’ fears'
+      date: 2015-10-09
+      publication: the guardian
+      link: http://www.theguardian.com/business/2015/oct/09/wikileaks-releases-tpp-intellectual-property-rights-chapter
+    - title: Senate takes step toward Trans-Pacific Partnership approval
+      date: 2015-05-15
+      publication: PCWorld
+      link: http://www.pcworld.com/article/2923252/senate-takes-step-toward-transpacific-partnership-approval.html
+    - title: 'Buoyed By Net-Neutrality Win, Internet Activists Prepare Next Campaign'
+      date: 2015-03-01
+      publication: National Journal
+      link: http://www.nationaljournal.com/s/30934/buoyed-net-neutrality-win-internet-activists-prepare-next-campaign
+- short: 'nn'
+  pretty: 'Net Neutrality'
+  coverage:
+    - title: 'Not Everyone Thinks T-Mobile’s ‘Binge On’ Streaming Is a Good Idea'
+      date: 2015-11-13
+      publication: NBC News
+      link: http://www.nbcnews.com/tech/mobile/not-everyone-thinks-t-mobiles-binge-streaming-good-idea-n461066
+    - title: 'Evan Greer: defending net neutrality as a ‘basic principle’'
+      date: 2015-10-29
+      publication: The Irish Times
+      link: http://www.irishtimes.com/business/technology/evan-greer-defending-net-neutrality-as-a-basic-principle-1.2408903
+    - title: 'The Women Who Won Net Neutrality'
+      date: 2015-09-22
+      publication: Slate
+      link: http://www.slate.com/blogs/future_tense/2015/09/22/barbara_van_schewick_susan_crawford_and_other_women_who_won_net_neutrality.html
+    - title: 'How the net was won: Inside the war with US cable'
+      date: 2015-07-02
+      publication: Informa Telecoms & Media
+      link: http://www.iptv-news.com/2015/07/how-the-net-was-won-inside-fight-for-the-futures-war-with-us-cable/
+    - title: 'Net neutrality activists score landmark victory in fight to govern the internet'
+      date: 2015-02-26
+      publication: the guardian
+      link: http://www.theguardian.com/technology/2015/feb/26/net-neutrality-activists-landmark-victory-fcc
+    - title: 'F.C.C. Net Neutrality Rules Clear Hurdle as Republicans Concede to Obama'
+      date: 2015-02-24
+      publication: The New York Times
+      link: http://www.nytimes.com/2015/02/25/technology/path-clears-for-net-neutrality-ahead-of-fcc-vote.html
+    - title: 'Group from Mass. helped shift net neutrality fight'
+      date: 2015-02-19
+      publication: Boston Globe
+      link: https://www.bostonglobe.com/news/nation/2015/02/19/outsider-group-from-massachusetts-helped-shift-net-neutrality-fight/G08DYw0RiWFQEckTH2e3XI/story.html
+    - title: 'Net neutrality battle pitches activists and FCC against Big Cable and GOP'
+      date: 2015-02-02
+      publication: the guardian
+      link: http://www.theguardian.com/technology/2015/feb/02/net-neutrality-activists-fcc-big-cable-republicans
+    - title: 'Congress: You can’t fool the public on net neutrality'
+      date: 2015-01-27
+      publication: The Hill
+      link: http://thehill.com/blogs/congress-blog/technology/230776-congress-you-cant-fool-the-public-on-net-neutrality
+    - title: 'The fight for net neutrality: a right or a luxury?'
+      date: 2014-11-15
+      publication: The Telegram
+      link: http://www.telegram.com/article/20141115/NEWS/311159837
+    - title: 'Net neutrality: why Fight for the Future is hosting Internet Slowdown'
+      date: 2014-09-10
+      publication: the guardian
+      link: http://www.theguardian.com/media-network/media-network-blog/2014/sep/10/internet-slowdown-net-neutrality-reddit-mozilla-netflix
