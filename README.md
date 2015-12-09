@@ -1,16 +1,134 @@
 # Fight for the Future: the website
 
-## Campaign and Content folks!
+Content is, as a general rule, meant to be able to be written in [markdown][a1].
+In the long run, there will be several layouts available in `site/_layouts`
+which can be thought of as campaign templates. This README will grow with
+documentation written on a per-template basis. The templating language we use
+here is called [liquid][a2], which gives you lots of power without requiring
+knowing a coding language in the traditional sense. There are also some [custom
+liquid tags][a3] available just for Fight for the Future. They were written to
+go along with the templates that Vasjen designed.
 
-- Generally, content is written in Markdown format. You can find documentation
-for this wonderful plain text formatting syntax all over:
-    - [daringfireball][07], the source of markdown
-    - [github][08]'s docs are super easy to follow
-    - [Discount][09] documents some extra features we have available to us
-- Any content that is blog-post-like in nature can be found in `site/_posts`.
-- Any new page should be created in `site/posts` following the naming convention
-`YYYY-MM-DD-post-title.md`—its URL will be fightforthefuture.org/post-title/
-- If you are unclear on updating the html, ask a dev and we’re happy to help!
+_the following directions will apply for about 95% of new pages. new pages with
+a parent directory **may** have a slightly different process._
+
+To generate a new CMS page, create a new file in `site/_posts` entitled
+`YYYY-MM-DD-post-title.md`. The CMS page URL will be
+fightforthefuture.org/post-title/
+
+***
+
+**TODO:**
+
+- [ ] Independent instructions for each layout
+- [ ] (…build each layout)
+
+[a1]: http://kramdown.gettalong.org/quickref.html
+[a2]: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
+[a3]: #custom-tags
+
+## Front Matter Options
+
+### All posts/pages
+
+| Option      | Type    |  Possible values                | Notes                                                    |
+| :---------: | :-----: | :------------------------------ | :------------------------------------------------------- |
+| layout      | string  | any filename in `site/_layouts` | _required_ remove `.html` from value                     |
+| title       | string  |                                 | If absent, uses title cased file name less date          |
+| description | string  |                                 | Important—used by search engines, twitter, facebook      |
+| permalink   | string  |                                 | If page URL should be anything other than its file name  |
+| date        | string  |                                 | CSS class added to classlist on body element             |
+| class       | string  |                                 | CSS class added to classlist on body element             |
+| evergreen   | boolean | true or false                   | True if this is a page that will be referenced long-term |
+| share       | object  | See [share][21] table below     |                                                          |
+| categories  | array   |                                 | Use 'disallowed' to hide from search engines             |
+| changefreq  | string  | See [sitemap changefreq][20]    | Use 'never' for archived pages. Don't use 'always'.      |
+
+### Using “default” layout
+
+Boolean options assumed to be false when excluded.
+
+| Option        | Type    | Values        | Note                                                             |
+| :-----------: | :-----: | :------------ | :--------------------------------------------------------------- |
+| header        | boolean | true or false | Determines presence of 160px fftf logo in addition to donate ask |
+| footer-topper | boolean | true or false | Determines presence of additional links above footer             |
+
+### Share object
+
+| Option |  Type   | Notes                                                                     |
+| :----: | :-----: | :------------------------------------------------------------------------ |
+| title  | string  | Can differ from page title. Shows up for twitter & facebook shares.       |
+| image  | string  | Filename of a share image that exists in `site/img/share/`                |
+| width  | integer | Width of share image. Should be ≥ 1200                                    |
+| height | integer | Height of share image. Should be ≥ 630                                    |
+| tweet  | string  | Text for default tweet. Should be ≤ 115 characters (url will be appended) |
+
+
+#### Example `share` object
+
+```yml
+share:
+  title: "Enjoying your internet freedom? Say thanks by donating today."
+  image: fftf-share.jpg
+  width: 1400
+  height: 553
+  tweet: "I just donated to @fightfortheftr, and you should too. Do your part to keep the internet free & open for all."
+```
+
+[20]: http://www.sitemaps.org/protocol.html#xmlTagDefinitions
+[21]: #share-object
+
+## Custom Tags
+
+### `{% readmore %}` tag
+
+To be used in situations where some text is hidden with a jump. For example,
+
+![Learn more…](site/img/documentation/readmore.png)
+
+Intended usage:
+
+```liquid
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a velit nisl. Cras
+ex velit, semper a bibendum in, suscipit eget sem. Donec maximus enim ut rutrum
+pellentesque. Morbi ut magna quis dui maximus dignissim in vitae tellus. Fusce
+id laoreet arcu, eu iaculis dolor. Phasellus augue ex, aliquet vel consectetur
+et, lacinia at dui. Duis justo nunc, cursus ut lacus nec, rhoncus varius arcu.
+Duis in pharetra velit.
+
+{% readmore Teaser Text %}
+In eget diam varius, sodales turpis vitae, egestas nunc. Cras nec lacus mi.
+Curabitur in libero ipsum. Curabitur at lorem sed arcu egestas venenatis quis ut
+purus. Cras pharetra libero at mi rhoncus ultrices. Donec elementum rutrum risus
+sed vulputate. Aliquam rutrum lectus dolor, at varius ante elementum eu.
+Praesent tincidunt quam eu orci bibendum sagittis porttitor sed ante.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+mus. Nulla vehicula est quis lectus laoreet, eu egestas libero dignissim. Morbi
+lacinia fermentum imperdiet. Duis auctor tortor quis diam egestas, eu tempus
+dolor convallis. Nullam erat metus, lobortis a leo ac, convallis tincidunt
+ipsum. Sed sed pellentesque quam.
+{% endreadmore %}
+```
+
+`Teaser Text` might be "Read more…" or "Learn More" (no quotation marks
+necessary) or whatever you wish. The text starting with `In eget diam…` above
+would be the entirety of the text meant to be hidden after a "read more" link.
+
+### `{% snapshot %}` tag
+
+For use in templates which include a skeumorphic photograph element. For
+example,
+
+![snapshot](site/img/documentation/snapshot.png)
+
+Intended usage:
+
+```liquid
+{% snapshot img/page/campaign-name/photo.jpg A brief caption describing the photo or graphic %}
+```
+
+(Note: this tag is self-closing, does **not** require `{% endsnapshot %}`)
 
 ## Developers:
 
@@ -91,22 +209,6 @@ real performance hit as a result of good organization
 - This all compiles down to `dist/js/core.js` via grunt, which also uglifies it
 - If you’re adding a javascript file that ought to be included in `core.js`,
 make sure to add its path to the files array around L167 of `Gruntfile.js`
-
-### Sample jekyll/liquid code
-
-Cycle through markdown files in `_posts` directory
-
-```liquid
-{% for post in site.posts %}
-
-# [{{ post.title }}](#{{ post.slug }})
-
-<time datetime="{{ post.date | date_to_rfc822 }}"></time>
-
-{{ post.content }}
-
-{% endfor %}
-```
 
 [01]: https://github.com/sstephenson/rbenv
 [02]: https://lyonbros.github.io/composer.js/
