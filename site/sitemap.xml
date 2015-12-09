@@ -61,9 +61,13 @@ layout: none
     {% if public %}
     <url>
       <loc>{{ site.url }}{{ page.url | remove:'index.html' }}</loc>
+      {% if post.evergreen %}
       <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {% elsif page.date %}
+      <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+      {% endif %}
       {% if page.changefreq %}
-      <changefreq>monthly</changefreq>
+      <changefreq>{{ page.changefreq }}</changefreq>
       {% endif %}
     </url>
     {% endif %}
