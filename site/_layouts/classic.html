@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{% assign key = page.url | uppercase | remove:'/' %}
+<div role="main">
+  <div class="wrap">
+    <div class="sidebar">
+      <ul class="bebas nav">
+        <li>
+          <a href="/">HOME</a> /
+        </li>
+        <li>
+          <a href="/{{ key }}/" class="current">{{ key }}</a>
+        </li>
+      </ul>
+      {{ site.data.classic-sidebar[key] | markdownify }}
+    </div>
+    <div class="content">
+      {{ content }}
+    </div>
+  </div>
+</div>

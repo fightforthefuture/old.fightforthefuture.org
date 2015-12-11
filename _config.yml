@@ -8,9 +8,9 @@
 #############
 
 name: Fight for the Future, defending our basic rights and freedoms
-url: https://fightforthefuture.org
+url: https://www.fightforthefuture.org
 description: "Fight for the Future is dedicated to protecting and expanding the Internet's transformative power in our lives by creating civic campaigns that are engaging for millions of people."
-timezone: America/Los_Angeles # Should be formatted like formal tz database
+timezone: America/New_York # Should be formatted like formal tz database
 googleanalytics: UA-26576645-1
 
 favicon: '/homepage/images/heart.png' # replace this with path to favicon if that’s a thing you’re doing.
@@ -43,10 +43,8 @@ exclude: [
 #]
 #
 
-highlighter: pygments
-markdown: rdiscount
-rdiscount:
-  extensions:
-    - footnotes
-#    - autolink
-#    - smart
+highlighter: rouge
+
+markdown: kramdown
+kramdown:
+  input: GFM

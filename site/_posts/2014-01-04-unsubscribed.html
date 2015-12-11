@@ -1,3 +1,7 @@
+---
+layout: none
+categories: [disallowed]
+---
 <!doctype html>
 <html>
 <head>
@@ -31,15 +35,14 @@
 <div id="signupmodal-container">
 </div><!-- close #signupmodal-container -->
 <iframe src="https://www.fightforthefuture.org" style="position: absolute; height: 100%; width: 100%;"></iframe>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>
-  (function ($) {
-    $("#close").on('click', function (e) {
+<script type="text/javascript">
+  (function (doc, win) {
+    doc.getElementById('close').addEventListener('click', function (e) {
       e.preventDefault();
 
-      window.location = 'https://www.fightforthefuture.org';
-    });
-  })(jQuery);
+      win.location = 'https://www.fightforthefuture.org';
+    })
+  }(document, window))
 </script>
 </body>
 </html>

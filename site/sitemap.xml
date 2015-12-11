@@ -1,0 +1,75 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for post in site.posts %}
+    {% assign public = true %}
+
+    {% if site.data.disallowed.pages contains post.url %}
+      {% assign public = false %}
+    {% endif %}
+
+    {% assign path = post.url | remove:'index.html' | split:'/' %}
+    {% for directory in path %}
+      {% if site.data.disallowed.directories contains directory %}
+        {% assign public = false %}
+      {% endif %}
+    {% endfor %}
+
+    {% for category in post.categories %}
+      {% if site.data.disallowed.categories contains category %}
+       {% assign public = false %}
+      {% endif %}
+    {% endfor %}
+
+    {% if public %}
+    <url>
+      <loc>{{ site.url }}{{ post.url | remove: 'index.html' }}</loc>
+      {% if post.evergreen %}
+      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {% else %}
+      <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      {% if post.changefreq %}
+      <changefreq>{{ post.changefreq }}</changefreq>
+      {% endif %}
+    </url>
+    {% endif %}
+  {% endfor %}
+
+  {% for page in site.pages %}
+    {% assign public = true %}
+
+    {% if site.data.disallowed.pages contains page.url %}
+      {% assign current_page = false %}
+    {% endif %}
+
+    {% assign path = page.url | remove:'index.html' | split:'/' %}
+    {% for directory in path %}
+      {% if site.data.disallowed.directories contains directory %}
+        {% assign current_page = false %}
+      {% endif %}
+    {% endfor %}
+
+    {% for category in page.categories %}
+      {% if site.data.disallowed.categories contains category %}
+       {% assign current_page = false %}
+      {% endif %}
+    {% endfor %}
+
+    {% if public %}
+    <url>
+      <loc>{{ site.url }}{{ page.url | remove:'index.html' }}</loc>
+      {% if post.evergreen %}
+      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {% elsif page.date %}
+      <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      {% if page.changefreq %}
+      <changefreq>{{ page.changefreq }}</changefreq>
+      {% endif %}
+    </url>
+    {% endif %}
+  {% endfor %}
+</urlset>
