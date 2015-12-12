@@ -915,19 +915,17 @@
   }
 
   .teammember {
-    margin-top: 17px;
-    margin-bottom: 30px;
-    float: left;
+    dd {
+      border-bottom: #dfdfdf solid thin;
+      margin-bottom: 1.6rem;
+      min-height: 143px;
+      padding-bottom: 1.6rem;
+      &:last-of-type {
+        border-bottom: none;
+      }
+    }
   }
 
-  .teamdevider {
-    width: 650px;
-    height: 1px;
-    background-color: #dfdfdf;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    float: left;
-  }
 
   input.placeholder {
     color: #999;

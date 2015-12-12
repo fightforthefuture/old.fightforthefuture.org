@@ -1,1 +1,10 @@
-press: '[Press Releases](https://fightfortheftr.wordpress.com/press-releases/)'
+press:
+  - text: 'Press Releases'
+  - link: 'https://fightfortheftr.wordpress.com/press-releases/'
+aboutus:
+  - text: 'About'
+    link: '#about-us'
+  - text: 'Staff'
+    link: '#staff'
+  - text: 'Board'
+    link: '#board'
