@@ -29,7 +29,7 @@ AdditionalSectionQueue.prototype.next = function() {
 
 
 function AdditionalSection(name, callback) {
-    var container = document.querySelector('.additional-sections');
+    var container = document.getElementsByClassName('additional-sections')[0];
     var element = document.createElement('div');
     container.appendChild(element);
 
@@ -51,26 +51,6 @@ function AdditionalSection(name, callback) {
 
     return element;
 }
-
-
-
-function Footer() {
-    var container = document.querySelector('.footer');
-    var element = document.createElement('div');
-    container.appendChild(element);
-
-    new AJAX({
-        url: 'homepage/sections/Footer.html',
-        success: function(e) {
-            element.className = ' fadeIn ';
-            element.innerHTML = e.target.responseText;
-        }
-    });
-
-    return element;
-}
-
-
 
 function AJAX(params) {
     this.async = params.async || true;
@@ -389,35 +369,6 @@ AJAX.prototype.serializeForm = function(form) {
             queue.next();
         };
     });
-
-    queue.push('Projects', function(el) {
-        // Make entire projects clickable
-        el.addEventListener('click', function(e) {
-            e.preventDefault();
-
-            var target = e.target;
-
-            if (target.tagName === 'A') {
-                return;
-            }
-
-            while (target.parentNode) {
-                if (target.className === 'project') {
-                    var link = target.querySelector('a');
-                    window.open(link.href, '_blank');
-                    break;
-                }
-
-                target = target.parentNode;
-            }
-        }, true);
-
-        queue.next();
-    });
-
-    queue.push('Press');
-
-    new Footer();
 
     queue.next();
 })();

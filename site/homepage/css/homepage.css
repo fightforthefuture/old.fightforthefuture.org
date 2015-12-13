@@ -155,7 +155,6 @@ section.additional-sections {
     font-weight: lighter;
     margin: 0 auto;
     max-width: 100%;
-    min-height: 900px; /* Adds consistency during loading phase */
     padding: 24px 16px;
     width: 980px;
 

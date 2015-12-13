@@ -1,22 +1,7 @@
 # Please sort press by date, newest pieces at the top. If a piece falls under
 # multiple categories, use best judgement?
 
-#- short: 'cisa'
-#  pretty: 'CISA'
-#  coverage:
-#    - title: 'Everything You Need to Know About the Recently Passed, Privacy-Decimating CISA Bill'
-#      date: 2015-11-03
-#      publication: Vice
-#      link: http://www.vice.com/read/everything-you-need-to-know-about-the-recently-passed-privacy-decimating-cisa-bill-1029
-#    - title: 'Cybersecurity bill sails through Senate despite tech opposition'
-#      date: 2015-10-28
-#      publication: COMPUTERWORLD
-#      link: http://www.computerworld.com/article/2998404/cybercrime-hacking/cybersecurity-bill-sails-through-senate-despite-tech-opposition.html
-#    - title: 'CISA cyber security bill passes US Senate despite protests'
-#      date: 2015-10-28
-#      publication: v3.co.uk
-#      link: http://www.v3.co.uk/v3-uk/news/2432306/cisa-cyber-security-bill-passes-us-senate-despite-protests
-- short: 'tpp'
+- campaign: 'tpp'
   pretty: 'Trans-Pacific Partnership'
   coverage:
     - title: 'Leaked (final?) TPP Intellectual Property chapter spells doom for free speech online'
@@ -35,7 +20,7 @@
       date: 2015-03-01
       publication: National Journal
       link: http://www.nationaljournal.com/s/30934/buoyed-net-neutrality-win-internet-activists-prepare-next-campaign
-- short: 'nn'
+- campaign: 'nn'
   pretty: 'Net Neutrality'
   coverage:
     - title: 'Not Everyone Thinks T-Mobile’s ‘Binge On’ Streaming Is a Good Idea'
