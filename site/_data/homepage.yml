@@ -11,12 +11,6 @@ fftf:
     image: 'homepage/images/projects/rubber.png'
     title: 'Operation: Rubberstamp'
     description: 'We got creative to fight Fast Track for the TPP by sending rubber stamps to every Republican office in the House.'
-  - id: sunsetpatriotact
-    fire: true
-    url: https://www.sunsetthepatriotact.com/
-    image: homepage/images/projects/sunset.png
-    title: Landmark sunset on Patriot Act’s mass surveillance.
-    description: 'We made history against the impossible! This was our first stop to draw a line in the sand for generations to come.'
   - id: internetvote
     url: https://www.battleforthenet.com/internetvote/
     image: homepage/images/projects/internetvote.png
@@ -140,37 +134,17 @@ fftf:
     image: homepage/images/projects/secrets.png
     title: Do You Have a Secret?
     description: We’re drawing the line to prevent government spying from becoming legal.
-  - id: privacyisawesome
-    url: http://www.privacyisawesome.com/
-    image: homepage/images/projects/privacyisawesome.png
-    title: Privacy is Awesome
-    description: Congress is trying to end privacy. We have the game plan to stop them. Can you help?
   - id: billboard
     url: https://www.fightforthefuture.org/billboard
     image: homepage/images/projects/billboard.png
     title: Don’t mess with the internet
     description: SOPA author Lamar Smith (R-TX) gets a crowd-funded billboard… right outside his San Antonio office.
-  - id: sopastrike
-    url: http://sopastrike.com
-    image: homepage/images/projects/sopastrike.png
-    title: Sopa Strike
-    description: We organized the largest online protest in history, with over 24 million people taking action to defend the internet. Victory!
-  - id: americancensorship
-    url: http://americancensorship.net
-    image: homepage/images/projects/americancensorship.png
-    title: American Censorship Day
-    description: Our massive protest in November 2011 drove 1M emails to Congress, and established both the message and tactics that defeated SOPA.
-  - id: freebieber
-    url: http://freebieber.org
-    image: homepage/images/projects/freebieber.png
-    title: Free Bieber
-    description: Did you know that copyright law is so extreme, singing cover songs on YouTube is illegal? We actually got Justin Bieber himself to speak out!
   - id: bocottgodaddy
     url: http://godaddyboycott.org/
     image: homepage/images/projects/godaddy.png
     title: Boycott GoDaddy
     description: We helped pull Godaddy’s support of SOPA during the GoDaddy boycott.
-otherLinks:
+otherlinks:
   - text: Defund the NSA
     url: http://DefundTheNsa.com
   - text: Stop the War on Journalism
@@ -224,36 +198,11 @@ fftfef:
     image: homepage/images/projects/ic.png
     title: Stop the ITU’s Internet Coup!
     description: Think we should give governments and big companies more control over the Internet? Neither do we.
-  - id: killacta
-    url: http://killacta.org/
-    image: homepage/images/projects/killacta.png
-    title: Stop ACTA and the TPP
-    description: After SOPA, protests against ACTA erupted across Europe and killed it. The battle for the free Internet rages on. What's next?
-  - id: whatistheitu
-    url: http://www.whatistheitu.org
-    image: homepage/images/projects/itu.png
-    title: 'VIDEO: What is the ITU?'
-    description: The ITU could put the Internet behind closed doors. People must demand an open Internet.
-  - id: yourexcusesucks
-    url: http://yourexcusesucks.com
-    image: homepage/images/projects/yes.png
-    title: Your Excuse Sucks
-    description: Getting those excuse makers out to vote—even if it means shaming them into it.
   - id: votewithfriends
     url: http://www.votewithfriends.net
     image: homepage/images/projects/vwf.png
     title: Vote with Friends
     description: Just because YOU’RE voting doesn’t mean you’re doing everything you can this election.
-  - id: workforthenet
-    url: http://iworkfortheinternet.org
-    image: homepage/images/projects/iwfti.png
-    title: I Work For The Internet
-    description: We wanted to show politicians that the internet is a major employer in *every* hometown. It worked!
-  - id: getyourcensoron
-    url: http://www.getyourcensoron.com/
-    image: homepage/images/projects/censoron.png
-    title: Get Your Censor On
-    description: Get Your War On comic nails Hollywood. Why the world is doomed if Hollywood controlled the web.
   - id: pipac3
     url: https://www.fightforthefuture.org/pipa/
     image: homepage/images/projects/pipa.png
@@ -267,48 +216,38 @@ otherlinksc3:
 featuredpress:
   detail:
     - quote: This movement started from somewhere. The group behind the largest online protest in history is Fight for the Future, which began in October.
-      image: homepage/images/letters/s.png
       publication: San Francisco Chronicle
+      url: http://www.sfgate.com/news/article/The-Largest-Online-Protest-In-History-Started-Here-2629811.php
     - quote: Fight for the Future, a nonprofit organization that helped organize the protests, said more than 115,000 Web sites participated, and three million people e-mailed Congress to voice their opposition to the bills.
-      image: homepage/images/letters/t.png
       publication: The New York Times
+      url: http://www.nytimes.com/2012/01/20/technology/public-outcry-over-antipiracy-bills-began-as-grass-roots-grumbling.html
     - quote: A Worcester activist group that helped stage the biggest Internet protest in history
-      image: homepage/images/letters/b.png
       publication: The Boston Globe
+      url: https://www.bostonglobe.com/metro/2012/01/27/worcester-fight-for-future-helped-ignite-internet-revolt-against-antipiracy-bills/cEZNoCuuHI7mk6eADQ4lZK/story.html
   list:
+    - url: http://www.nytimes.com/2015/02/27/technology/net-neutrality-fcc-vote-internet-utility.html
+      publication: The New York Times
     - url: http://edition.cnn.com/2012/05/29/tech/web/internet-defense-league/
-      image: homepage/images/publications/cnn.png
       publication: CNN
     - url: http://www.latimes.com/business/technology/la-fi-tn-internet-defense-league-bat-signal-20120525,0,6915426.story
-      image: homepage/images/publications/latimes.png
       publication: Los Angeles Times
     - url: http://mashable.com/2013/02/15/cispa-petitions/
-      image: homepage/images/publications/mashable.png
       publication: Mashable
     - url: http://www.politico.com/news/stories/0412/75034.html
-      image: homepage/images/publications/politico.png
       publication: Politico
     - url: http://www.huffingtonpost.com/2012/05/25/internet-defense-league-online-protests_n_1546551.html
-      image: homepage/images/publications/huffington.png
       publication: The Huffington Post
     - url: http://www.guardian.co.uk/technology/2013/jan/23/google-transparency-report-government-data-privacy
-      image: homepage/images/publications/theguardian.png
       publication: The Guardian
     - url: http://articles.washingtonpost.com/2013-01-18/business/36475364_1_copyright-law-video-sites-vimeo
-      image: homepage/images/publications/twp.png
       publication: The Washington Post
     - url: http://www.economist.com/news/briefing/21569041-can-internet-activism-turn-real-political-movement-everything-connected
-      image: homepage/images/publications/theecinomist.png
       publication: The Economist
     - url: http://www.cbsnews.com/8301-205_162-57564766/one-year-later-sopa-activists-reignite-copyright-conversation/?tag=socsh
-      image: homepage/images/publications/cbs.png
       publication: CBS News
     - url: http://www.wired.co.uk/news/archive/2013-02/12/school-copyrights-students-work
-      image: homepage/images/publications/wired.png
       publication: WIRED
     - url: http://stream.aljazeera.com/story/201301182153-0022491
-      image: homepage/images/publications/al.png
       publication: AlJazeera
     - url: http://www.rollingstone.com/politics/news/congress-is-trying-to-kill-internet-privacy-again-20130213
-      image: homepage/images/publications/rs.png
       publication: Rolling Stone

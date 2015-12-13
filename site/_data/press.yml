@@ -67,3 +67,54 @@
       date: 2014-09-10
       publication: the guardian
       link: http://www.theguardian.com/media-network/media-network-blog/2014/sep/10/internet-slowdown-net-neutrality-reddit-mozilla-netflix
+- campaign: 'cispa'
+  pretty: 'CISPA is Back'
+  coverage:
+    - title: The President Revives an Old Debate About Privacy
+      date: 2013-02-14
+      publication: The New York Times
+      link: http://bits.blogs.nytimes.com/2013/02/14/the-president-revives-an-old-debate-about-privacy/
+    - title: Digital rights activists vow to fight CISPA
+      date: 2013-02-14
+      publication: The Washington Post
+      link: http://articles.washingtonpost.com/2013-02-14/business/37094234_1_cispa-cybersecurity-and-privacy-privacy-advocates
+    - title: Congress is Trying to Kill Privacy Again
+      date: 2013-02-13
+      publication: Rolling Stone
+      link: http://www.rollingstone.com/politics/news/congress-is-trying-to-kill-internet-privacy-again-20130213
+    - title: CISPA resurrected, privacy concerns continue
+      date: 2013-02-14
+      publication: Al Jazeera, The Stream
+      link: http://stream.aljazeera.com/story/201302150111-0022549
+    - title: 'OVERNIGHT TECH: <br/>Privacy groups prepare to hit back on cybersecurity bill'
+      date: 2013-02-14
+      publication: The Hill
+      link: http://thehill.com/blogs/hillicon-valley/technology/283349-overnight-tech-privacy-groups-prepare-to-hit-back-on-cybersecurity-bill
+    - title: Internet Activists Deliver Over 300,000 Anti-CISPA Signatures to Congress
+      date: 2013-02-14
+      publication: Mashable
+      link: http://mashable.com/2013/02/15/cispa-petitions/
+    - title: Controversial cybersecurity bill CISPA returns to Congress for debate, same as before
+      date: 2013-02-13
+      publication: The Verge
+      link: http://www.theverge.com/2013/2/13/3984442/cispa-back-in-congress
+    - title: Is CISPA the new SOPA? Groups harness social media to battle cyber-security bill in Congress
+      date: 2013-02-14
+      publication: Adweek
+      link: http://www.adweek.com/news/technology/cispa-new-sopa-147284
+    - title: Privacy groups protest CISPA bill.
+      date: 2013-02-14
+      publication: Computer World
+      link: http://www.computerworld.com/s/article/9236800/Privacy_groups_protest_CISPA_bill_?taxonomyId=17&pageNumber=2
+    - title: Obama, Cybersecurity, and the Return of CISPA
+      date: 2013-02-14
+      publication: ReadWriteWeb
+      link: http://readwrite.com/2013/02/14/obama-orders-cybersecurity-bill-cispa-returns
+    - title: 'State of the Web: Zombie CISPA Will Rise from the Grave (But Don’t Freak Out Yet)'
+      date: 2013-02-12
+      publicaton: Digital Trends
+      link: http://www.digitaltrends.com/opinion/why-you-have-crappy-expensive-internet-service/
+    - title: Activists will troll CISPA’s sponsors with 1 million tweets
+      date: 2013-02-14
+      publication: The Daily Dot
+      link: http://www.dailydot.com/politics/cispa-petition-signatures-1-million-tweets/

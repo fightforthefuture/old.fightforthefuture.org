@@ -504,6 +504,18 @@ section.additional-sections .quotes .publication {
     width: 280px;
 }
 
+.publication a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.8;
+  display: block;
+  transition: opacity 200ms;
+}
+
+.publication a:hover, .publication a:active {
+  opacity: 1;
+}
+
 section.additional-sections .quotes .publication .quote {
     padding: 0 0 16px;
 }
