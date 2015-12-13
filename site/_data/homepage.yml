@@ -170,7 +170,7 @@ fftf:
     image: homepage/images/projects/godaddy.png
     title: Boycott GoDaddy
     description: We helped pull Godaddy’s support of SOPA during the GoDaddy boycott.
-otherLinks:
+otherlinks:
   - text: Defund the NSA
     url: http://DefundTheNsa.com
   - text: Stop the War on Journalism
@@ -267,48 +267,36 @@ otherlinksc3:
 featuredpress:
   detail:
     - quote: This movement started from somewhere. The group behind the largest online protest in history is Fight for the Future, which began in October.
-      image: homepage/images/letters/s.png
       publication: San Francisco Chronicle
+      url: http://www.sfgate.com/news/article/The-Largest-Online-Protest-In-History-Started-Here-2629811.php
     - quote: Fight for the Future, a nonprofit organization that helped organize the protests, said more than 115,000 Web sites participated, and three million people e-mailed Congress to voice their opposition to the bills.
-      image: homepage/images/letters/t.png
       publication: The New York Times
+      url: http://www.nytimes.com/2012/01/20/technology/public-outcry-over-antipiracy-bills-began-as-grass-roots-grumbling.html
     - quote: A Worcester activist group that helped stage the biggest Internet protest in history
-      image: homepage/images/letters/b.png
       publication: The Boston Globe
+      url: https://www.bostonglobe.com/metro/2012/01/27/worcester-fight-for-future-helped-ignite-internet-revolt-against-antipiracy-bills/cEZNoCuuHI7mk6eADQ4lZK/story.html
   list:
     - url: http://edition.cnn.com/2012/05/29/tech/web/internet-defense-league/
-      image: homepage/images/publications/cnn.png
       publication: CNN
     - url: http://www.latimes.com/business/technology/la-fi-tn-internet-defense-league-bat-signal-20120525,0,6915426.story
-      image: homepage/images/publications/latimes.png
       publication: Los Angeles Times
     - url: http://mashable.com/2013/02/15/cispa-petitions/
-      image: homepage/images/publications/mashable.png
       publication: Mashable
     - url: http://www.politico.com/news/stories/0412/75034.html
-      image: homepage/images/publications/politico.png
       publication: Politico
     - url: http://www.huffingtonpost.com/2012/05/25/internet-defense-league-online-protests_n_1546551.html
-      image: homepage/images/publications/huffington.png
       publication: The Huffington Post
     - url: http://www.guardian.co.uk/technology/2013/jan/23/google-transparency-report-government-data-privacy
-      image: homepage/images/publications/theguardian.png
       publication: The Guardian
     - url: http://articles.washingtonpost.com/2013-01-18/business/36475364_1_copyright-law-video-sites-vimeo
-      image: homepage/images/publications/twp.png
       publication: The Washington Post
     - url: http://www.economist.com/news/briefing/21569041-can-internet-activism-turn-real-political-movement-everything-connected
-      image: homepage/images/publications/theecinomist.png
       publication: The Economist
     - url: http://www.cbsnews.com/8301-205_162-57564766/one-year-later-sopa-activists-reignite-copyright-conversation/?tag=socsh
-      image: homepage/images/publications/cbs.png
       publication: CBS News
     - url: http://www.wired.co.uk/news/archive/2013-02/12/school-copyrights-students-work
-      image: homepage/images/publications/wired.png
       publication: WIRED
     - url: http://stream.aljazeera.com/story/201301182153-0022491
-      image: homepage/images/publications/al.png
       publication: AlJazeera
     - url: http://www.rollingstone.com/politics/news/congress-is-trying-to-kill-internet-privacy-again-20130213
-      image: homepage/images/publications/rs.png
       publication: Rolling Stone

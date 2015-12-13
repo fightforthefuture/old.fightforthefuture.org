@@ -378,7 +378,7 @@ description: "Fight for the Future is dedicated to protecting and expanding the 
     <section class="additional-sections">
       <div id="projects" class="projects first">
         <h4>Our Projects</h4>
-        {% for project in site.data.projects.fftf %}
+        {% for project in site.data.homepage.fftf %}
         <div class="project">
           {% if project.fire %}
           <img onload="this.style.opacity = 1;" class="fire" src="homepage/images/fire.png" style="opacity: 1;">
@@ -396,7 +396,7 @@ description: "Fight for the Future is dedicated to protecting and expanding the 
         {% endfor %}
         <div class="project other-links">
           <img onload="this.style.opacity = 1;" src="homepage/images/projects/ol.png" style="opacity: 1;">
-          {% for link in site.data.projects.otherLinks %}
+          {% for link in site.data.homepage.otherlinks %}
           <span>
             <a href="{{ link.url }}">{{ link.text }}</a>
           </span>
@@ -408,7 +408,7 @@ description: "Fight for the Future is dedicated to protecting and expanding the 
           <a href="http://www.thecenterforrights.org">Center for Rights</a>
           Projects (our related 501(c)3)
         </h4>
-        {% for project in site.data.projects.fftfef %}
+        {% for project in site.data.homepage.fftfef %}
         <div class="project">
           {% if project.fire %}
           <img onload="this.style.opacity = 1;" class="fire" src="homepage/images/fire.png" style="opacity: 1;">
@@ -426,7 +426,7 @@ description: "Fight for the Future is dedicated to protecting and expanding the 
         {% endfor %}
         <div class="project other-links">
           <img onload="this.style.opacity = 1;" src="homepage/images/projects/ol.png" style="opacity: 1;">
-          {% for link in site.data.projects.otherlinksc3 %}
+          {% for link in site.data.homepage.otherlinksc3 %}
           <span>
             <a href="{{ link.url }}">{{ link.text }}</a>
           </span>
@@ -436,24 +436,25 @@ description: "Fight for the Future is dedicated to protecting and expanding the 
       <div class="fadeIn" id="press">
         <div class="quotes">
           <h4>As Covered By</h4>
-
-          {% for press in site.data.projects.featuredpress.detail %}
+          {% for press in site.data.homepage.featuredpress.detail %}
           <div class="publication">
-            <div class="quote">
-              {{ press.quote }}
-            </div>
+            <a href="{{ press.url }}">
+              <div class="quote">
+                {{ press.quote }}
+              </div>
 
-            <div class="name">
-              <img onload="this.style.opacity = 1;" src="{{ press.image }}" style="opacity: 1;">
-              {{ press.publication }}
-            </div>
+              <div class="name">
+                <img onload="this.style.opacity = 1;" src="homepage/images/letters/{{ press.publication | truncate: 1, '' | downcase }}.png" style="opacity: 1;">
+                {{ press.publication }}
+              </div>
+            </a>
           </div>
           {% endfor %}
         </div>
 
         <div class="publications">
-          {% for press in site.data.projects.featuredpress.list %}
-          <a href="{{ press.url }}" target="blank"><img onload="this.style.opacity = 1;" src="{{ press.image }}" alt="{{ press.publication }}" style="opacity: 1;"></a>
+          {% for press in site.data.homepage.featuredpress.list %}
+          <a href="{{ press.url }}" target="blank"><img onload="this.style.opacity = 1;" src="homepage/images/publications/{{ press.publication | replace: ' ', '' | downcase }}.png" alt="{{ press.publication }}" style="opacity: 1;"></a>
           {% endfor %}
         </div>
       </div>
