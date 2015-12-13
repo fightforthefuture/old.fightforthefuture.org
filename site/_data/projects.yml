@@ -190,7 +190,7 @@ otherLinks:
 fftfef:
   - id: unblockturkey
     url: https://unblockturkey.fightforthefuture.org/fight-censorship-and-spying-in-turkey
-    image: images/projects/turkey.png
+    image: homepage/images/projects/turkey.png
     title: Unblock Turkey!
     description: We crowdfunded privacy tools & distributed them to activists & journalists fighting censorship.
   - id: nsavideoc3
