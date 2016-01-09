@@ -2,6 +2,11 @@
 <html>
 <head>
   {% include meta.html %}
+  {% if page.styles %}
+  <link rel="stylesheet" type="text/css" href="/css/{{ page.styles }}.css">
+  {% else %}
+  <link rel="stylesheet" type="text/css" href="/css/core.css">
+  {% endif %}
 </head>
 <body class="{{ page.class }}">
 
