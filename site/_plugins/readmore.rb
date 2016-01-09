@@ -20,9 +20,7 @@ module Jekyll
       site = context.registers[:site]
       converter = site.find_converter_instance(Jekyll::Converters::Markdown)
 (<<-MARKUP)
-<div class=\"read-more\">
-  <span>#{@text}</span>
-</div>
+<button class=\"expand-text\">#{@text}</button>
 <div class=\"expanded-text\">
   #{converter.convert(text)}
 </div>
