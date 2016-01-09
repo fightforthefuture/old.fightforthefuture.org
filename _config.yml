@@ -8,17 +8,19 @@
 #############
 
 name: Fight for the Future, defending our basic rights and freedoms
-url: https://www.fightforthefuture.org
+url: http://0.0.0.0:9084
+petitions_api: http://0.0.0.0:9104
 description: "Fight for the Future is dedicated to protecting and expanding the Internet's transformative power in our lives by creating civic campaigns that are engaging for millions of people."
-timezone: America/New_York # Should be formatted like formal tz database
+tweet: 'Help keep freedom of expression online a right extended to all people—join forces with @fightforthftr today.'
+timezone: America/New_York
 googleanalytics: UA-26576645-1
+favicon: '/img/brand/heart.png'
 
-favicon: '/homepage/images/heart.png' # replace this with path to favicon if that’s a thing you’re doing.
 
 author:
-    googleid: 102356128596404327231
-    twitterid: 382376904
-    twitter: fightfortheftr
+  googleid: 102356128596404327231
+  twitterid: 382376904
+  twitter: fightfortheftr
 
 #############
 # Authoring #
@@ -31,16 +33,16 @@ permalink: /:categories/:title/
 collections:
   legacy_pages:
     output: true
-    permalink: /:path/
+    permalink: :path/
   petitions:
     output: true
-    permalink: /:categories/:path/
+    permalink: :categories/:path/
   redirects:
     output: true
-    permalink: /:title/
+    permalink: :title/
   static_pages:
     output: true
-    permalink: /:path/
+    permalink: :path/
 
 prose:
   rooturl: 'site'
@@ -51,10 +53,12 @@ prose:
     - '_less'
     - '_plugins'
     - 'css'
-    - 'google5033d6ab2e00df50.html'
     - 'js'
     - 'webfonts'
+    - 'google5033d6ab2e00df50.html'
+    - 'robots.txt'
     - 'sitemap.xml'
+    - 'style.css'
 
   siteurl: 'https://www.fightforthefuture.org'
   media: 'site/img'
@@ -65,6 +69,138 @@ prose:
           element: "text"
           label: "title"
           value: ''
+    'site/_petitions':
+      - name: 'title'
+        field:
+          element: 'text'
+          label: 'title'
+          value: ''
+      - name: 'search_description'
+        field:
+          element: 'textarea'
+          label: 'Search engine description'
+      - name: 'layout'
+        field:
+          element: 'select'
+          label: 'Template'
+          help: 'Choose which template style you want'
+          options:
+            - name: 'White Two Column'
+              value: 'white-two-column-petition'
+            - name: 'Big blue bar'
+              value: 'big-blue-bar-petition'
+            - name: 'Big blue image'
+              value: 'big-blue-image-petition'
+      - name: 'headline'
+        field:
+          element: 'text'
+          label: 'Page headline'
+          placeholder: 'President Obama is withholding free pizza. Put a stop to it now.'
+      - name: 'tags'
+        field:
+          element: 'multiselect'
+          label: 'Tags'
+          alterable: true
+          help: 'This is for Action Network tags—make sure to add any tags you wish to be assigned to signers here.'
+      - name: 'petition_title'
+        field:
+          element: 'text'
+          label: 'Petition title'
+          placeholder: 'Tell President Obama:'
+          help: 'The petition title in Action Network (important—this must be copied exactly)'
+      - name: 'petition_copy'
+        field:
+          element: 'textarea'
+          label: 'Petition copy'
+          placeholder: 'Fridays should be free pizza day. Push legislation today to bring pizza into the lives of all Americans!'
+          help: 'Accepts markdown formatted text'
+      - name: 'opt_in'
+        field:
+          element: checkbox
+          label: Opt-in required
+          help: 'If this box is checked, visitors WON’T HAVE THE OPTION to opt-out when submitting a petition.'
+          value: true
+      - name: 'allow_comments'
+        field:
+          element: checkbox
+          label: 'Allow a text field for additional comments?'
+          value: false
+      - name: 'additional_fields'
+        field:
+          element: multiselect
+          label: 'Additional form fields'
+          options:
+            - name: 'Name'
+              value: name
+            - name: 'Street address'
+              value: street_address
+            - name: 'City'
+              value: city
+      - name: 'required_fields'
+        field:
+          element: 'multiselect'
+          label: 'Required fields'
+          options:
+            - name: 'Name'
+              value: name
+            - name: 'Street address'
+              value: street_address
+            - name: 'City'
+              value: city
+      - name: 'petition_slug'
+        field:
+          element: 'text'
+          label: 'Petition slug'
+          help: '(Optional) Provides a fallback enabling form submission just in case the scripts fail to load properly.'
+          placeholder: 'free-pizza-day'
+          value: ''
+      - name: 'tweet'
+        field:
+          element: 'textarea'
+          label: 'Tweet text'
+          help: 'The tweet text will include the url to the shared page. That leaves you with 116 characters.'
+          placeholder: 'Help keep freedom of expression online a right extended to all people—join forces with @fightforthftr today.'
+      - name: 'social_title'
+        field:
+          element: 'text'
+          label: 'Social Media Title'
+          help: 'OPTIONAL Title for social media sites. If left blank, page will use primary title.'
+      - name: 'social_description'
+        field:
+          element: 'text'
+          label: 'Social Media Description'
+          help: 'OPTIONAL Share content for social media sites. If left blank, page will use primary description.'
+      - name: 'share_image'
+        field:
+          element: 'text'
+          label: 'Share image path'
+          placeholder: '/img/brand/heart.png'
+          help: 'Starts with "/img" (everything before that gets tossed)'
+      - name: 'share_image_dims'
+        field:
+          element: 'text'
+          label: 'Share image dimensions'
+          placeholder: 1200 x 630
+          help: 'Use an "x" with a space on either side to denote image dimensions. Facebook recommends a minimum of 1200 x 630.'
+      - name: 'default_donation_amount'
+        field:
+          element: 'number'
+          label: 'Default donation amount'
+          help: 'Dollar amount in the top right corner donation link. If you change this, be sure to test it—the sky is *not* the limit thanks to limitations of Stripe’s subscription model.'
+          value: '5'
+      - name: 'default_donation_frequency'
+        field:
+          element: 'select'
+          label: 'Default donation frequency'
+          help: 'Donation frequency for donation link'
+          options:
+            - name: Once
+              value: 'just-once'
+            - name: Monthly
+              value: monthly
+            - name: Annual
+              value: annual
+          value: 'just-once'
 
 #############
 # Compiling #
@@ -72,14 +208,6 @@ prose:
 
 exclude: ['img', 'images', 'css', 'js']
 keep_files: ['img', 'images', 'css', 'js']
-
-
-# this is commented bc each page has its own assets O_O
-#exclude: [
-#  'img', 'css', 'fonts', '**.haml',
-#  '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico',
-#]
-#
 
 highlighter: rouge
 

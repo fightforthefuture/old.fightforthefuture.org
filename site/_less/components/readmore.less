@@ -1,0 +1,41 @@
+.expand-text {
+  background-color: transparent;
+  border: none;
+  color: @blue-800;
+  cursor: pointer;
+  display: block;
+  font-size: 1.4rem;
+  font-variant: small-caps;
+  font-weight: bold;
+  height: 1.5em;
+  text-align: left;
+  text-transform: uppercase;
+  transition: color 150ms;
+  width: 100%;
+
+  &:hover {
+    color: lighten(@blue-800, 10%);
+
+    &::before {
+      text-decoration: none;
+    }
+  }
+
+  &:active {
+    outline: none;
+  }
+
+  &::before {
+    content: '\25BE';
+    font-size: 2.6rem;
+    line-height: 0;
+    margin-right: 0.6rem;
+    vertical-align: sub;
+  }
+}
+
+.expanded-text {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1500ms;
+}
