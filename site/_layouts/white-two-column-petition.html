@@ -3,40 +3,24 @@ layout: core-only
 styles: petitions
 ---
 
-<header class="minimalist-sticky-bar">
-  <span class="minimalist-fftf-logo">
-    Fight for the Future
-  </span>
-  <ul class="minimalist-share-donate">
-    <li class="minimalist-share-links">
-      <a href="https://facebook.com/sharer.php?u={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}" class="minimalist-facebook-share">
-        facebook
-      </a>
-      <a href="https://twitter.com/intent/tweet?text={% if page.share.tweet %}{{ page.share.tweet | cgi_escape }}{% else %}{{ site.description | cgi_escape }}{% endif %}&amp;url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&amp;via=fightfortheftr" class="minimalist-twitter-share">
-        Twitter
-      </a>
-    </li>
-    <li class="minimalist-donate">
-      <a href="https://donate.fightforthefuture.org?amount={{ page.default-donation-amount }}&amp;frequency={{ page.default-donation-frequency }}">
-        <span class="hover-heart">&#x2665;</span>
-        Donate $5
-      </a>
-    </li>
-  </ul>
-</header>
+{% include an-petitions/sticky-bar.html %}
 
 <h1>{{ page.headline }}</h1>
 
 <main class="white-two-column">
-  <section class="petition">
+  <section class="petition-box">
     <h2>{{ page.petition-title }}</h2>
     <blockquote>
       {{ page.petition-copy | markdownify }}
     </blockquote>
-    <figure id="signature-progress">
-      <span id="signatures"></span> supporters
-      <progress id="signatures-progress"></progress>
-      <figcaption id="signatures-to-go"></figcaption>
+    <figure class="signatures">
+      <figcaption class="progress-top">
+        <span id="total-sigs">100</span> supporters
+      </figcaption>
+      <progress id="signatures-progress-bar" value="100" max="400"></progress>
+      <figcaption class="progress-bottom" id="sigs-to-go">
+        300 needed to reach 400
+      </figcaption>
     </figure>
   </section>
   <article>

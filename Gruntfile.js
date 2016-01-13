@@ -158,7 +158,7 @@ module.exports = function (grunt) {
       jekyll: {
         files: [
           '_*.*',
-          '<%= site.app %>/**/*.{xml,html,yml,md,mkd,markdown,txt}'
+          '<%= site.app %>/**/*.{xml,html,yml,md,mkd,markdown,rb,txt}'
         ],
         tasks: ['jekyll:server']
       }
