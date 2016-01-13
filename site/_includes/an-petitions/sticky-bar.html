@@ -1,0 +1,21 @@
+<header class="stickybar">
+  <span class="stickybar-fftf-logo">
+    Fight for the Future
+  </span>
+  <ul class="stickybar-share-donate">
+    <li class="stickybar-share-links">
+      <a href="https://facebook.com/sharer.php?u={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}" class="stickybar-facebook-share">
+        facebook
+      </a>
+      <a href="https://twitter.com/intent/tweet?text={% if page.share.tweet %}{{ page.share.tweet | cgi_escape }}{% else %}{{ site.description | cgi_escape }}{% endif %}&amp;url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&amp;via=fightfortheftr" class="stickybar-twitter-share">
+        Twitter
+      </a>
+    </li>
+    <li class="stickybar-donate">
+      <a href="https://donate.fightforthefuture.org?amount={{ page.default-donation-amount }}&amp;frequency={{ page.default-donation-frequency }}">
+        <span class="hover-heart">&#x2665;</span>
+        Donate $5
+      </a>
+    </li>
+  </ul>
+</header>

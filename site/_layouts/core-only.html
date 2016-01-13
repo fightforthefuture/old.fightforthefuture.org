@@ -2,11 +2,16 @@
 <html>
 <head>
   {% include meta.html %}
-  {% if page.styles %}
-  <link rel="stylesheet" type="text/css" href="/css/{{ page.styles }}.css">
-  {% else %}
-  <link rel="stylesheet" type="text/css" href="/css/core.css">
-  {% endif %}
+  {% capture stylesheet %}
+    {% if page.styles %}
+      {{ page.styles }}
+    {% elsif layout.styles %}
+      {{ layout.styles }}
+    {% else %}
+      core
+    {% endif %}
+  {% endcapture %}
+  <link rel="stylesheet" type="text/css" href="/css/{{ stylesheet | strip_newlines | replace: ' ', '' }}.css">
 </head>
 <body class="{{ page.class }}">
 
