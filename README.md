@@ -1,4 +1,4 @@
-# Fight for the Future: the website
+# Fight for the Future: the website 
 
 Lots of work is being done to make it as easy as possible to update content on
 fightforthefuture.org. It's still a work in progress, but progress is being
