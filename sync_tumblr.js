@@ -32,9 +32,11 @@ if (!process.env.TUMBLR_API_KEY) {
 
 var fs      = require('fs');
 var request = require('request');
-var path    = 'site/blog_posts/'
+var path    = 'site/_blog_posts/'
 
 var getPosts = function(offset) {
+
+  console.log('Asking Tumblr API for 20 posts, offset: '+ offset + '...')
 
   var url = 'https://api.tumblr.com/v2/blog/fight4future.tumblr.com/posts/text?api_key='+process.env.TUMBLR_API_KEY.trim()+'&offset='+offset;
 
@@ -45,6 +47,8 @@ var getPosts = function(offset) {
     }
     var data = JSON.parse(body);
     var posts = data.response.posts;
+
+    console.log('Parsing results...');
 
     for (var i = 0; i < posts.length; i++) {
 
@@ -59,8 +63,8 @@ var getPosts = function(offset) {
 
       try {
         fs.accessSync(path + file);
-        console.log('  - POST EXISTS: ' + path + file);
-        console.log('  - done lol');
+        console.log('  - POST ALREADY EXISTS: ' + path + file);
+        console.log('  - nothing else to do lol');
         return;
       } catch (err) {
         console.log('  - Post does not exist. Writing:' + path + file);
@@ -71,13 +75,12 @@ var getPosts = function(offset) {
             }
         });
       }
-
       console.log(' ');
-
     }
     if (posts.length == 20) getPosts(offset + 20);
   });
 }
+console.log('Syncing Tumblr posts to this project.');
 getPosts(0);
 
 
