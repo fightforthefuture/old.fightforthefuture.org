@@ -26,8 +26,6 @@ class: default
     width: 100%;
     height: 4460px;
     padding-bottom: 200px;
-    background-image: url(/img/page/supporters/patt.png);
-    background-repeat: repeat;
   }
 
   .middle {
@@ -411,22 +409,16 @@ class: default
   }
 
   .smallth {
-    width: 850px;
-    float: left;
-    margin-left: 100px;
-  }
-
-  .smallthh {
-    width: 800px;
-    float: left;
-    margin-left: 190px;
+    width: 940px;
+    text-align: center;
   }
 
   .smalll {
     height: 40px;
-    float: left;
+    display: inline-block;
     margin-top: 30px;
-    margin-left: 15px;
+    margin-left: 7px;
+    margin-right: 7px;
     -webkit-transition: 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out;
     -ms-transition: 0.3s ease-in-out;
@@ -434,18 +426,7 @@ class: default
     transition: 0.3s ease-in-out;
   }
 
-  .smalll-single {
-    height: 40px;
-    float: left;
-    margin-top: 30px;
-    margin-left: 220px;
 
-    -webkit-transition: 0.3s ease-in-out;
-    -moz-transition: 0.3s ease-in-out;
-    -ms-transition: 0.3s ease-in-out;
-    -o-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
-  }
 
   .smalll:hover {
     -webkit-transform: scale(1.05);
@@ -471,32 +452,6 @@ class: default
   }
 
   .smallth a {
-    float: left;
-    font-family: Montserrat, "Raleway", "Proxima Nova", "Verdana", "Lucida Grande", "Gill Sans", "Arial", "Helvetica", sans-serif;
-    font-size: 16px;
-    color: #363e3f;
-    text-decoration: none;
-    line-height: 55px;
-    padding-left: 15px;
-
-  }
-
-  .smallthh img {
-    height: 40px;
-    width: 40px;
-    float: left;
-    border: 6px solid #efefef; /* stroke */
-    -moz-border-radius: 11px;
-    -webkit-border-radius: 11px;
-    border-radius: 11px; /* border radius */
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box; /* prevents bg color from leaking outside the border */
-    background-color: #fc6656; /* layer fill content */
-
-  }
-
-  .smallthh a {
     float: left;
     font-family: Montserrat, "Raleway", "Proxima Nova", "Verdana", "Lucida Grande", "Gill Sans", "Arial", "Helvetica", sans-serif;
     font-size: 16px;
@@ -845,6 +800,10 @@ class: default
   .copyleft p.lastask a {
     color: #14a767;
   }
+
+  article {
+    padding-bottom: 250px;
+  }
 </style>
 
 {% include donate-ask-bar.html %}
@@ -916,7 +875,7 @@ class: default
             <a href="http://voqal.org/">Voqal</a>
           </div>
 
-          <div class="smalll-single">
+          <div class="smalll">
             <a href="http://www.publicinterestprojects.org/funds-projects/partner-and-collaborative-funds/state-infrastructure-fund/"><img src="/img/page/supporters/avatars/publicinterestprojects.png" alt=""/></a>
             <a href="http://www.publicinterestprojects.org/funds-projects/partner-and-collaborative-funds/state-infrastructure-fund/">State
               Infrastructure Fund</a>
@@ -1123,6 +1082,26 @@ class: default
               and put bitcoin's usefulness in focus. </p>
           </div>
 
+          <div class="sup">
+            <a href="https://twitter.com/daveglassco" id="thumb">
+              <img src="/img/page/supporters/avatars/dave.jpg" alt=""/>
+            </a>
+
+            <a href="https://twitter.com/daveglassco">Dave Glassco</a>
+
+            <p>CEO of Neone, Board member of Mother Jones, the Participatory Culture Foundation, and Progress Texas.</p>
+          </div>
+
+          <div class="sup">
+            <a href="https://twitter.com/tucows" id="thumb">
+              <img src="/img/page/supporters/avatars/tucows.jpg" alt=""/>
+            </a>
+
+            <a href="https://twitter.com/tucows">Tucows</a>
+
+            <p>Tucows seeks to provide simple, useful services that help people unlock the power of the Internet.</p>
+          </div>
+
 
         </div>
         <div class="suppp"></div>
@@ -1136,7 +1115,7 @@ class: default
 
         </div>
 
-        <div class="smallthh">
+        <div class="smallth">
 
 
           <div class="smalll">
@@ -1183,6 +1162,18 @@ class: default
             <a href="https://Minds.com">Minds</a>
           </div>
 
+          <div class="smalll">
+            <a href="#">Guthrie Miller</a>
+          </div>
+
+          <div class="smalll">
+            <a href="#">Jim Kelley</a>
+          </div>
+
+          <div class="smalll">
+            <a href="#">Derek Slater and Lila Bailey</a>
+          </div>
+
 
         </div>
 
@@ -1199,8 +1190,8 @@ class: default
             We can't thank them enough!</h3>
 
         </div>
-        <div class="items-s">
-          <div class="sups">
+        <div class="items">
+          <div class="sup">
             <a href="http://www.reddit.com/" id="thumb">
               <img src="/img/page/supporters/avatars/reddit.png" alt=""/>
             </a>
@@ -1211,6 +1202,18 @@ class: default
               campaigns on net neutrality, privacy, and Internet freedom. We're
               so
               thankful for everything they do!</p>
+          </div>
+
+          <div class="sup">
+            <a href="http://www.twilio.com/" id="thumb">
+              <img src="/img/page/supporters/avatars/twilio.png" alt=""/>
+            </a>
+
+            <a href="http://www.twilio.com/">Twilio</a>
+
+            <p>Twilio is the game-changing technology that powers all of our call campaigns.
+            Using their service, we're
+            able to flood the government with thousands of phone calls. Thank you!</p>
           </div>
 
 
@@ -1293,6 +1296,7 @@ class: default
             <a href="http://www.bitcointrust.co/"><img src="/img/page/supporters/avatars/bit.png" alt=""/></a>
             <a href="http://www.bitcointrust.co/">Bitcoin Investment Trust</a>
           </div>
+
         </div>
       </div>
     </div>
