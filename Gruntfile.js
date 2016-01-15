@@ -19,6 +19,12 @@ module.exports = function (grunt) {
       }
     },
 
+    execute: {
+      sync_tumblr: {
+        src: ['sync_tumblr.js']
+      }
+    },
+
     jekyll: {
       options: {
         bundleExec: true,
@@ -200,12 +206,14 @@ module.exports = function (grunt) {
     concurrent: {
       server: [
         'copy:assets',
+        'execute:sync_tumblr',
         'jekyll:server',
         'less:css',
         'concat:javascript'
       ],
       build: [
         'copy:assets',
+        'execute:sync_tumblr',
         'jekyll:build',
         'less:css',
         'concat:javascript'
