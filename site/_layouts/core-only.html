@@ -13,7 +13,7 @@
   {% endcapture %}
   <link rel="stylesheet" type="text/css" href="/css/{{ stylesheet | strip_newlines | replace: ' ', '' }}.css">
 </head>
-<body class="{{ page.class }}" data-scripts="{{ layout.extra-scripts }} {{ page.extra-scripts }}">
+<body class="{{ page.class }}" data-components="{{ layout.component-scripts }} {{ page.component-scripts }}">
 
 {{ content }}
 
