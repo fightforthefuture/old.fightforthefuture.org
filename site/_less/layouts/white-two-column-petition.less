@@ -1,3 +1,15 @@
+.text-form-elements() {
+  border: none;
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  padding: 1.2rem;
+  width: 100%;
+  &::-webkit-input-placeholder {
+    font-size: 1.4rem;
+  }
+}
+
 .white-two-column {
   color: @black;
   font-weight: 300;
@@ -22,48 +34,31 @@
     font-weight: bold;
   }
 
-  input, textarea {
+  input {
     &[type="text"],
-    *[type="email"] {
+    &[type="email"] {
+      .text-form-elements();
+    }
+    &[type="submit"] {
+      background-color: #f5315f;
       border: none;
-      display: block;
-      font-size: 1.5rem;
-      margin-bottom: 0.5rem;
-      padding: 1.2rem;
+      bottom: -6rem;
+      color: @white;
+      font-family: @body-font;
+      font-size: 2.4rem;
+      font-weight: 900;
+      left: 0;
+      letter-spacing: 1px;
+      padding: 1.4rem 0;
+      position: absolute;
+      right: 0;
+      text-transform: uppercase;
       width: 100%;
-      &::-webkit-input-placeholder {
-        font-size: 1.4rem;
-      }
-      &[type="submit"] {
-        background-color: #f5315f;
-        border: none;
-        bottom: -6rem;
-        color: @white;
-        font-family: @body-font;
-        font-size: 2.4rem;
-        font-weight: 900;
-        left: 0;
-        letter-spacing: 1px;
-        padding: 1.4rem 0;
-        position: absolute;
-        right: 0;
-        text-transform: uppercase;
-        width: 100%;
-      }
     }
   }
 
-  .petition-text {
-    background-color: #2F3C5B;
-    padding: 1.5rem;
-    text-align: center;
-  }
-
-  .petition-form {
-    position: relative;
-    margin-bottom: 80px;
-    background-color: #2A3857;
-    padding: 0;
+  textarea {
+    .text-form-elements();
   }
 
   a {
@@ -88,36 +83,8 @@
     margin-bottom: 1em;
   }
 
-  .petition-box {
-    background-color: @blue-800;
-    color: @white;
-    margin: 2.5rem auto;
-    padding: 1.5rem;
-  }
-
   blockquote {
     margin-bottom: 2.5rem;
-  }
-
-  .expand-text {
-    background-color: transparent;
-    border: none;
-    color: @blue-850;
-    cursor: pointer;
-    display: block;
-    font-size: 1.8rem;
-    font-weight: 400;
-    height: 1.5em;
-    text-align: center;
-    width: 100%;
-    &:hover {
-      font-weight: bold;
-    }
-  }
-
-  .expanded-text {
-    height: 0;
-    overflow: hidden;
   }
 }
 
@@ -157,16 +124,35 @@
     }
   }
 
-  .progress-top {
-
-  }
-
-  .progress-bottom {
-    text-align: right;
-  }
-
   figcaption {
     font-size: 1.4rem;
     font-style: italic;
   }
+}
+
+.progress-top {
+  text-align: left;
+}
+
+.progress-bottom {
+  text-align: right;
+}
+
+.petition-text {
+  background-color: #2F3C5B;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.petition-form {
+  position: relative;
+  margin-bottom: 80px;
+  background-color: #2A3857;
+  padding: 1.5rem;
+}
+
+.petition-box {
+  background-color: @blue-800;
+  color: @white;
+  margin: 2.5rem auto;
 }

@@ -1,0 +1,25 @@
+.expand-text {
+  background-color: transparent;
+  border: none;
+  color: @blue-850;
+  cursor: pointer;
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 400;
+  height: 1.5em;
+  text-align: center;
+  width: 100%;
+
+  &::before {
+    content: '\25BE';
+  }
+
+  &:hover {
+    font-weight: bold;
+  }
+}
+
+.expanded-text {
+  height: 0;
+  overflow: hidden;
+}
