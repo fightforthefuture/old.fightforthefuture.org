@@ -27,7 +27,7 @@ author:
 
 future: true
 show_drafts: true
-permalink: /:categories/:title/
+permalink: /blog/summaries/:path/
 
 collections:
   legacy_pages:
