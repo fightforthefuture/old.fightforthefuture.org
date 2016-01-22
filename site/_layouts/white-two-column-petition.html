@@ -1,27 +1,83 @@
 ---
 layout: core-only
 styles: petitions
+component-scripts: petitions
 ---
-
 {% include an-petitions/sticky-bar.html %}
 
 <h1>{{ page.headline }}</h1>
 
 <main class="white-two-column">
   <section class="petition-box">
-    <h2>{{ page.petition-title }}</h2>
-    <blockquote>
-      {{ page.petition-copy | markdownify }}
-    </blockquote>
-    <figure class="signatures">
-      <figcaption class="progress-top">
-        <span id="total-sigs">100</span> supporters
-      </figcaption>
-      <progress id="signatures-progress-bar" value="100" max="400"></progress>
-      <figcaption class="progress-bottom" id="sigs-to-go">
-        300 needed to reach 400
-      </figcaption>
-    </figure>
+    <article class="petition-text">
+      <h2 id="petition-title">{{ page.petition_title }}</h2>
+      <blockquote>
+        {{ page.petition_copy | markdownify }}
+      </blockquote>
+      <figure class="signatures">
+        <figcaption class="progress-top">
+          <span id="total-sigs">0</span> supporters
+        </figcaption>
+        <progress id="signatures-progress-bar" value="0" max="25"></progress>
+        <figcaption class="progress-bottom" id="sigs-to-go">
+          25 needed to reach 25
+        </figcaption>
+      </figure>
+    </article>
+
+    <form class="petition-form" accept-charset="UTF-8" action="https://actionnetwork.org/petitions/{% if page.petition_slug != '' %}{{ page.petition_slug }}{% else %}{{ page.petition_title | slugify }}{% endif %}/signatures" method="post" data-host="{{ site.petitions_api }}">
+
+      {% if page.additional_fields contains 'name' %}
+      <label for="form-first_name">Name:</label>
+      <input type="text" id="form-first_name" name="signature[first_name]" placeholder="Name{% if page.required_fields contains 'name' %} (required){% endif %}" {% if page.required_fields contains
+      'name' %} required{% endif %}/>
+      {% endif %}
+
+      <label for="form-email">Email:</label>
+      <input type="email" id="form-email" name="signature[email]" placeholder="Email (required)" required/>
+
+      {% if page.additional_fields contains 'street_address' %}
+      <label for="form-street_address">Street address:</label>
+      <input type="text" id="form-street_address" name="signature[street_address]" placeholder="Street address{% if page.required_fields contains 'street_address' %} (required){% endif %}" {% if page.required_fields contains
+      'street_address' %} required{% endif %} />
+      {% endif %}
+
+      {% if page.additional_fields contains 'city' %}
+      <label for="form-city">City:</label>
+      <input type="text" id="form-city" name="signature[city]" placeholder="City{% if page.required_fields contains 'city' %} (required){% endif %}" {% if page.required_fields contains
+      'city' %} required{% endif %} />
+      {% endif %}
+
+      <label for="form-zip_code">ZIP/Post code:</label>
+      <input type="text" id="form-zip_code" name="signature[zip_code]" placeholder="ZIP/Post Code (required)" required/>
+
+      {% if page.allow_comments %}
+      <textarea cols="40" id="form-comments" name="signature[message_to_target]" placeholder="Comments" rows="20"></textarea>
+      {% endif %}
+
+      <input type="hidden" name="signature[country]" value="US"/>
+      <input type="hidden" name="utf8" value="✓">
+      <input type="hidden" name="authenticity_token" value="0T4Obtb0NSc88GcP+W4S67iTV1B9UhTVWbk6UjKj7+o="/>
+      <input type="hidden" name="subscription[sub_group_id]" value="13162">
+      <input type="hidden" name="subscription[http_referer]" value="{{ site.url }}"/>
+      <input type="hidden" name="subscription[source]" value="www"/>
+      {% capture tags %}{% for tag in page.tags %}&quot;{{ tag }}&quot;{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+      <input type="hidden" name="subscription[tag_list]" value="[{{ tags }}]"/>
+      <input type="submit" name="commit" value="Take action"/>
+      {% if page.opt_in == true %}
+      <input type="hidden" name="subscription[group]" value="13162"/>
+      <a href="https://fightforthefuture.org">Fight for the Future</a> will
+      email you with campaign updates.
+      (<a href="https://fightforthefuture.org/privacy">privacy policy</a>)
+      {% else %}
+      <label for="opt-in">
+        <input type="checkbox" name="subscription[group]" value="13162" id="opt-in" checked="checked"/>
+        <a href="https://fightforthefuture.org">Fight for the Future</a>
+        will email you with campaign updates.
+        (<a href="https://fightforthefuture.org/privacy">privacy policy</a>)
+      </label>
+      {% endif %}
+    </form>
   </section>
   <article>
     {{ content }}

@@ -8,6 +8,64 @@
     flex-direction: row-reverse;
   }
 
+  h1 {
+    color: #2c3650;
+  }
+
+  label {
+    overflow: hidden;
+    height: 0;
+    display: block;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  input, textarea {
+    &[type="text"],
+    *[type="email"] {
+      border: none;
+      display: block;
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      padding: 1.2rem;
+      width: 100%;
+      &::-webkit-input-placeholder {
+        font-size: 1.4rem;
+      }
+      &[type="submit"] {
+        background-color: #f5315f;
+        border: none;
+        bottom: -6rem;
+        color: @white;
+        font-family: @body-font;
+        font-size: 2.4rem;
+        font-weight: 900;
+        left: 0;
+        letter-spacing: 1px;
+        padding: 1.4rem 0;
+        position: absolute;
+        right: 0;
+        text-transform: uppercase;
+        width: 100%;
+      }
+    }
+  }
+
+  .petition-text {
+    background-color: #2F3C5B;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .petition-form {
+    position: relative;
+    margin-bottom: 80px;
+    background-color: #2A3857;
+    padding: 0;
+  }
+
   a {
     color: @blue-850;
     font-weight: bold;
@@ -69,12 +127,15 @@
 }
 
 .heart-progress-inner() {
-  background-color: @heart;
-  border-radius: 0.6rem;
+  background-image: linear-gradient(-45deg, hsla(0, 0%, 100%, .2) 25%, transparent 0, transparent 50%, hsla(0, 0%, 100%, .2) 0, hsla(0, 0%, 100%, .2) 75%, transparent 0, transparent), linear-gradient(90deg, #f1453b, firebrick);
+  background-size: 3.5rem 3.7rem, 100%;
+  border-radius: 0.5rem;
 }
 
 .signatures {
   max-width: 34rem;
+  margin-bottom: 1.5rem;
+
   progress {
     background-color: @blue-850;
     border-radius: 0.4rem;

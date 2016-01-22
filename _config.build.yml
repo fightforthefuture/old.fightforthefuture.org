@@ -2,6 +2,16 @@
 # Config: Production #
 ######################
 
+#############
+# Meta info #
+#############
+
+petitions_api: https://info.fightforthefuture.org
+
+#############
+# Authoring #
+#############
+
 future: false
 show_drafts: false
 production: true
