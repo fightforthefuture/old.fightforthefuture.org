@@ -2,6 +2,7 @@
 layout: core-only
 styles: petitions
 component-scripts: petitions
+class: clean-edge petition
 ---
 
 {% include an-petitions/sticky-bar.html %}
@@ -78,7 +79,7 @@ component-scripts: petitions
       {% endif %}
     </form>
   </section>
-  <article>
+  <article class="petition-info">
     {{ content }}
   </article>
 </main>

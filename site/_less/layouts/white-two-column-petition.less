@@ -14,10 +14,15 @@
   color: @black;
   font-weight: 300;
   line-height: 1.5;
+  margin: 0 auto 2rem;
+  max-width: @large-tablet;
 
   @media screen and (min-width: @large-phone) {
+    align-items: flex-start;
     display: flex;
     flex-direction: row-reverse;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
   }
 
   h1 {
@@ -112,7 +117,7 @@
 
 .signatures {
   max-width: 34rem;
-  margin-bottom: 1.5rem;
+  margin: 0 auto 1.5rem;
 
   progress {
     background-color: @blue-850;
@@ -156,14 +161,26 @@
 }
 
 .petition-form {
-  position: relative;
-  margin-bottom: 80px;
   background-color: #2A3857;
+  margin-bottom: 8rem;
   padding: 1.5rem;
+  position: relative;
+
+  @media screen and (min-width: @large-phone) {
+    margin-bottom: 5rem;
+  }
 }
 
 .petition-box {
   background-color: @blue-800;
   color: @white;
   margin: 2.5rem auto;
+
+  @media screen and (min-width: @large-phone) {
+    margin-top: 0;
+  }
+}
+
+.petition-info {
+  padding: 0 1rem;
 }
