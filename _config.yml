@@ -8,12 +8,14 @@
 #############
 
 name: Fight for the Future, defending our basic rights and freedoms
-url: https://www.fightforthefuture.org
+url: http://0.0.0.0:9084
 petitions_api: http://0.0.0.0:9104
 description: "Fight for the Future is dedicated to protecting and expanding the Internet's transformative power in our lives by creating civic campaigns that are engaging for millions of people."
+tweet: 'Help keep freedom of expression online a right extended to all people—join forces with @fightforthftr today.'
 timezone: America/New_York
 googleanalytics: UA-26576645-1
 favicon: '/img/brand/heart.png'
+
 
 author:
   googleid: 102356128596404327231
@@ -31,16 +33,16 @@ permalink: /:categories/:title/
 collections:
   legacy_pages:
     output: true
-    permalink: /:path/
+    permalink: :path/
   petitions:
     output: true
-    permalink: /:categories/:path/
+    permalink: :categories/:path/
   redirects:
     output: true
-    permalink: /:title/
+    permalink: :title/
   static_pages:
     output: true
-    permalink: /:path/
+    permalink: :path/
 
 prose:
   rooturl: 'site'
@@ -97,7 +99,7 @@ prose:
           element: 'multiselect'
           label: 'Tags'
           alterable: true
-          help: 'Make sure to add any tags you wish to be assigned to signers here'
+          help: 'This is for Action Network tags—make sure to add any tags you wish to be assigned to signers here.'
       - name: 'petition_title'
         field:
           element: 'text'
@@ -147,9 +149,14 @@ prose:
         field:
           element: 'text'
           label: 'Petition slug'
-          helper: '(Optional) Provides a fallback enabling form submission just in case the scripts fail to load properly.'
+          help: '(Optional) Provides a fallback enabling form submission just in case the scripts fail to load properly.'
           placeholder: 'free-pizza-day'
           value: ''
+      - name: 'tweet'
+        field:
+          element: 'textarea'
+          label: 'Tweet.'
+          help: 'The tweet text will include the url to the shared page as well as "via @fightfortheftr". That leaves you with only 88 characters.'
       - name: 'default_donation_amount'
         field:
           element: 'number'

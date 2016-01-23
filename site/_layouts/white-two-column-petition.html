@@ -3,6 +3,7 @@ layout: core-only
 styles: petitions
 component-scripts: petitions
 ---
+
 {% include an-petitions/sticky-bar.html %}
 
 <h1>{{ page.headline }}</h1>
@@ -29,8 +30,7 @@ component-scripts: petitions
 
       {% if page.additional_fields contains 'name' %}
       <label for="form-first_name">Name:</label>
-      <input type="text" id="form-first_name" name="signature[first_name]" placeholder="Name{% if page.required_fields contains 'name' %} (required){% endif %}" {% if page.required_fields contains
-      'name' %} required{% endif %}/>
+      <input type="text" id="form-first_name" name="signature[first_name]" placeholder="Name{% if page.required_fields contains 'name' %} (required){% endif %}" {% if page.required_fields contains 'name' %} required{% endif %}/>
       {% endif %}
 
       <label for="form-email">Email:</label>
@@ -44,8 +44,7 @@ component-scripts: petitions
 
       {% if page.additional_fields contains 'city' %}
       <label for="form-city">City:</label>
-      <input type="text" id="form-city" name="signature[city]" placeholder="City{% if page.required_fields contains 'city' %} (required){% endif %}" {% if page.required_fields contains
-      'city' %} required{% endif %} />
+      <input type="text" id="form-city" name="signature[city]" placeholder="City{% if page.required_fields contains 'city' %} (required){% endif %}" {% if page.required_fields contains 'city' %} required{% endif %} />
       {% endif %}
 
       <label for="form-zip_code">ZIP/Post code:</label>
