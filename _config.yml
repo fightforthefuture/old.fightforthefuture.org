@@ -77,6 +77,10 @@ prose:
           element: 'text'
           label: 'title'
           value: ''
+      - name: 'search_description'
+        field:
+          element: 'textarea'
+          label: 'Search engine description'
       - name: 'layout'
         field:
           element: 'select'
@@ -155,8 +159,29 @@ prose:
       - name: 'tweet'
         field:
           element: 'textarea'
-          label: 'Tweet.'
-          help: 'The tweet text will include the url to the shared page as well as "via @fightfortheftr". That leaves you with only 88 characters.'
+          label: 'Tweet text'
+          help: 'The tweet text will include the url to the shared page. That leaves you with 116 characters.'
+          placeholder: 'Help keep freedom of expression online a right extended to all people—join forces with @fightforthftr today.'
+      - name: 'social_title'
+        field:
+          element: 'text'
+          label: 'Social Media Title'
+          help: 'OPTIONAL Title for social media sites. If left blank, page will use primary title.'
+      - name: 'social_description'
+        field:
+          element: 'text'
+          label: 'Social Media Description'
+          help: 'OPTIONAL Share content for social media sites. If left blank, page will use primary description.'
+      - name: 'share_image'
+        field:
+          element: 'text'
+          label: 'Share image path'
+      - name: 'share_image_dims'
+        field:
+          element: 'text'
+          label: 'Share image dimensions'
+          placeholder: 1200 x 630
+          help: 'Use an "x" with a space on either side to denote image dimensions. Facebook recommends a minimum of 1200 x 630.'
       - name: 'default_donation_amount'
         field:
           element: 'number'
