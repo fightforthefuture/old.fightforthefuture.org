@@ -50,10 +50,6 @@ window.components.petitions = function (doc, win) {
     }, 30);
   }
 
-  var
-    title = doc.getElementById('petition-title').innerText,
-    anRequest = new XMLHttpRequest();
-
   function handleError() {
     /**
      * Sets values for the progress bar even if there's a server or XHR error
@@ -61,18 +57,61 @@ window.components.petitions = function (doc, win) {
     progressBar(972, 1600);
   }
 
-  anRequest.open('GET', doc.forms[0].dataset.host + '/petition?title=' + title, true);
-  anRequest.addEventListener('load', function () {
-    if (anRequest.status >= 200 && anRequest.status < 400) {
-      var
-        apiData = JSON.parse(anRequest.responseText);
+  function readMoreButtons() {
+    /**
+     * Makes content visible!
+     * */
+    var
+      buttons = doc.getElementsByClassName('expand-text'),
+      text = doc.getElementsByClassName('expanded-text'),
+      i = buttons.length;
 
-      progressBar(apiData.signatures, apiData.goal);
-      doc.forms[0].setAttribute('action', apiData.action);
-    } else {
-      handleError();
+    function expandText(e) {
+      /**
+       * Changes max-height on a given post.
+       * */
+      var
+        targetOrder = e.target.dataset.order;
+
+      text[targetOrder].style.maxHeight = 10000 + 'px';
+      buttons[targetOrder].setAttribute('class', 'hidden');
     }
-  });
-  anRequest.addEventListener('error', handleError);
-  anRequest.send();
+
+    while (i--) {
+      buttons[i].dataset.order = i;
+      text[i].dataset.order = i;
+      buttons[i].addEventListener('click', expandText);
+    }
+  }
+
+  function requestAPIInfo() {
+    /**
+     * Builds and sends request to API server
+     * */
+    var
+      title = doc.getElementById('petition-title').innerText,
+      anRequest = new XMLHttpRequest();
+
+    anRequest.open('GET', doc.forms[0].dataset.host + '/petition?title=' + title, true);
+    anRequest.addEventListener('load', function () {
+      if (anRequest.status >= 200 && anRequest.status < 400) {
+        var
+          apiData = JSON.parse(anRequest.responseText);
+
+        progressBar(apiData.signatures, apiData.goal);
+        doc.forms[0].setAttribute('action', apiData.action);
+      } else {
+        handleError();
+      }
+    });
+    anRequest.addEventListener('error', handleError);
+    anRequest.send();
+  }
+
+  function init() {
+    requestAPIInfo();
+    readMoreButtons();
+  }
+
+  init();
 };
