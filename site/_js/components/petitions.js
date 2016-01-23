@@ -24,7 +24,7 @@ window.components.petitions = function (doc, win) {
       value = 0,
       progressbar = doc.getElementById('signatures-progress-bar'),
       max = parseInt(targetGoal),
-      step = (guardedTargetVal / 2000) * 30; // 2000 ms total, 30ms minimum interval
+      step = (guardedTargetVal / 1500) * 30; // 1500 ms total, 30ms minimum interval
 
     function loading() {
       value += step;
@@ -37,6 +37,7 @@ window.components.petitions = function (doc, win) {
       var
         commafiedNumber = numberCommafier(value);
 
+      progressbar.setAttribute('max', max);
       progressbar.setAttribute('value', value);
       progressbar.setAttribute('title', commafiedNumber + ' signatures');
       doc.getElementById('total-sigs').innerText = commafiedNumber;
@@ -53,6 +54,13 @@ window.components.petitions = function (doc, win) {
     title = doc.getElementById('petition-title').innerText,
     anRequest = new XMLHttpRequest();
 
+  function handleError() {
+    /**
+     * Sets values for the progress bar even if there's a server or XHR error
+     * */
+    progressBar(972, 1600);
+  }
+
   anRequest.open('GET', doc.forms[0].dataset.host + '/petition?title=' + title, true);
   anRequest.addEventListener('load', function () {
     if (anRequest.status >= 200 && anRequest.status < 400) {
@@ -61,10 +69,10 @@ window.components.petitions = function (doc, win) {
 
       progressBar(apiData.signatures, apiData.goal);
       doc.forms[0].setAttribute('action', apiData.action);
+    } else {
+      handleError();
     }
   });
-  anRequest.addEventListener('error', function () {
-    console.log('fail')
-  });
+  anRequest.addEventListener('error', handleError);
   anRequest.send();
 };
