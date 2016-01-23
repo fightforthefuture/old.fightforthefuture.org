@@ -44,6 +44,7 @@
       border: none;
       bottom: -6rem;
       color: @white;
+      cursor: pointer;
       font-family: @body-font;
       font-size: 2.4rem;
       font-weight: 900;
@@ -53,7 +54,17 @@
       position: absolute;
       right: 0;
       text-transform: uppercase;
+      transition: background-color 300ms, bottom 100ms;
       width: 100%;
+      &:focus {
+        outline: 0;
+      }
+      &:hover {
+        background-color: darken(#f5315f, 10%);
+      }
+      &:active {
+        bottom: -6.1rem;
+      }
     }
   }
 
