@@ -64,10 +64,6 @@ prose:
   media: 'site/img'
   metadata:
     'site/_petitions':
-      - name: 'search_description'
-        field:
-          element: 'textarea'
-          label: 'Search engine description'
       - name: 'layout'
         field:
           element: 'select'
@@ -76,10 +72,10 @@ prose:
           options:
             - name: 'White Two Column'
               value: 'white-two-column-petition'
-            - name: 'Big blue bar'
-              value: 'big-blue-bar-petition'
-            - name: 'Big blue image'
-              value: 'big-blue-image-petition'
+#            - name: 'Big blue bar'
+#              value: 'big-blue-bar-petition'
+#            - name: 'Big blue image'
+#              value: 'big-blue-image-petition'
       - name: 'headline'
         field:
           element: 'text'
@@ -116,14 +112,10 @@ prose:
           label: Opt-in required
           help: 'If this box is checked, visitors WON’T HAVE THE OPTION to opt-out when submitting a petition.'
           value: true
-      - name: 'allow_comments'
-        field:
-          element: checkbox
-          label: 'Allow a text field for additional comments?'
-          value: false
       - name: 'additional_fields'
         field:
           element: multiselect
+          help: 'By default, all forms include Email and ZIP/Post Code. Select additional fields to appear on the petition here.'
           label: 'Additional form fields'
           options:
             - name: 'Name'
@@ -132,10 +124,13 @@ prose:
               value: street_address
             - name: 'City'
               value: city
+            - name: 'Comments'
+              value: comments
       - name: 'required_fields'
         field:
           element: 'multiselect'
           label: 'Required fields'
+          help: 'If any of the additional fields selected above are meant to be required, choose them here.'
           options:
             - name: 'Name'
               value: name
@@ -619,7 +614,7 @@ prose:
               name: 'United Arab Emirates'
             - value: GB
               name: 'United Kingdom'
-            - value: US" selected="selected
+            - value: US
               name: 'United States'
             - value: UM
               name: 'United States Minor Outlying Islands'
@@ -647,6 +642,10 @@ prose:
               name: 'Zambia'
             - value: ZW
               name: 'Zimbabwe'
+      - name: 'search_description'
+        field:
+          element: 'textarea'
+          label: 'Search engine description'
       - name: 'tweet'
         field:
           element: 'textarea'
