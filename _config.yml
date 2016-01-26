@@ -10,10 +10,10 @@
 name: Fight for the Future, defending our basic rights and freedoms
 url: https://www.fightforthefuture.org
 description: "Fight for the Future is dedicated to protecting and expanding the Internet's transformative power in our lives by creating civic campaigns that are engaging for millions of people."
-timezone: America/New_York # Should be formatted like formal tz database
+timezone: America/New_York
 googleanalytics: UA-26576645-1
 
-favicon: '/homepage/images/heart.png' # replace this with path to favicon if that’s a thing you’re doing.
+favicon: '/favicon.ico'
 
 author:
     googleid: 102356128596404327231
