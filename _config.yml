@@ -85,12 +85,6 @@ prose:
           element: 'text'
           label: 'Page headline'
           placeholder: 'President Obama is withholding free pizza. Put a stop to it now.'
-      - name: 'tags'
-        field:
-          element: 'multiselect'
-          label: 'Tags'
-          alterable: true
-          help: 'This is for Action Network tags—make sure to add any tags you wish to be assigned to signers here.'
       - name: 'petition_title'
         field:
           element: 'text'
@@ -103,6 +97,19 @@ prose:
           label: 'Petition copy'
           placeholder: 'Fridays should be free pizza day. Push legislation today to bring pizza into the lives of all Americans!'
           help: 'Accepts markdown formatted text'
+      - name: 'petition_slug'
+        field:
+          element: 'text'
+          label: 'Petition slug'
+          help: '(Optional) Provides a fallback enabling form submission just in case the scripts fail to load properly.'
+          placeholder: 'free-pizza-day'
+          value: ''
+      - name: 'tags'
+        field:
+          element: 'multiselect'
+          label: 'Tags'
+          alterable: true
+          help: 'This is for Action Network tags—make sure to add any tags you wish to be assigned to signers here.'
       - name: 'opt_in'
         field:
           element: checkbox
@@ -136,13 +143,6 @@ prose:
               value: street_address
             - name: 'City'
               value: city
-      - name: 'petition_slug'
-        field:
-          element: 'text'
-          label: 'Petition slug'
-          help: '(Optional) Provides a fallback enabling form submission just in case the scripts fail to load properly.'
-          placeholder: 'free-pizza-day'
-          value: ''
       - name: 'target_country'
         field:
           element: 'select'
