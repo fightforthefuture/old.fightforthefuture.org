@@ -14,7 +14,7 @@ additional_fields:
 required_fields: 
   - name
   - street_address
-target_country: "US\" selected=\"selected"
+target_country: US
 petition_slug: "this-is-a-petition-title"
 default_donation_amount: 5
 default_donation_frequency: "just-once"
@@ -26,6 +26,7 @@ social_description: ""
 share_image: ""
 share_image_dims: ""
 ---
+
 
 
 ![Mass graves](/img/page/scratch/Untitled-1.jpg)
