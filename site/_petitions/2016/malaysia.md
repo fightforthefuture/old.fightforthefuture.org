@@ -1,18 +1,32 @@
 ---
-layout: white-two-column-petition
-headline: 'Nothing to see here: just mass graves of trafficked woman'
-tags: ['foo', 'bar']
-petition_title: 'Updated title here'
-petition_copy: '“Stop trying to sweep Malaysia’s human rights abuses under the rug just to pass the dangerous Trans-Pacific Partnership (TPP).”'
+layout: "white-two-column-petition"
+headline: "Nothing to see here: just mass graves of trafficked woman"
+tags: 
+  - foo
+  - bar
+petition_title: Tell President Obama
+petition_copy: "“Stop trying to sweep Malaysia’s human rights abuses under the rug just to pass the dangerous Trans-Pacific Partnership (TPP).”"
 opt_in: false
 allow_comments: false
-additional_fields: [name, street_address]
-required_fields: [name, street_address]
-target_country: US
-petition_slug: this-is-a-petition-title
+additional_fields: 
+  - name
+  - street_address
+required_fields: 
+  - name
+  - street_address
+target_country: "US\" selected=\"selected"
+petition_slug: "this-is-a-petition-title"
 default_donation_amount: 5
-default_donation_frequency: just-once
+default_donation_frequency: "just-once"
+published: true
+search_description: null
+tweet: null
+social_title: ""
+social_description: ""
+share_image: ""
+share_image_dims: ""
 ---
+
 
 ![Mass graves](/img/page/scratch/Untitled-1.jpg)
 
