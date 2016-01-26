@@ -2,6 +2,11 @@ window.components = window.components || {};
 window.components.petitions = function (doc, win) {
   "use strict";
 
+  var
+    body = doc.getElementsByTagName('body')[0],
+    countrySelect = doc.getElementById('country'),
+    countryLabel = doc.querySelector('[for="country"]');
+
   function numberCommafier(number) {
     /**
      * Returns a string representing a number with commas
@@ -108,9 +113,45 @@ window.components.petitions = function (doc, win) {
     anRequest.send();
   }
 
+  function updateZIPPlaceholder(e) {
+    /**
+     * Updates placeholder on ZIP/Post Code field to be appropriate for country
+     * selected
+     * @param {event} e - Doesn't do anything atm.
+     * */
+    var
+      ZIPLabel = doc.getElementById('form-zip_code');
+
+    if (countrySelect.value !== 'US') {
+      ZIPLabel.setAttribute('placeholder', 'Post Code');
+    } else {
+      ZIPLabel.setAttribute('placeholder', 'ZIP');
+    }
+  }
+
+  function toggleCountryField(e) {
+    /**
+     * Hides the label and shows the select when someone changes their signature
+     * country.
+     * @param {event} e - Doesn't do anything atm.
+     * */
+
+    countryLabel.classList.toggle('hidden');
+    countrySelect.classList.toggle('visible');
+  }
+
+  function addEventListeners() {
+    /**
+     * Attaches all the listeners all the places
+     * */
+    countryLabel.addEventListener('click', toggleCountryField);
+    countrySelect.addEventListener('change', updateZIPPlaceholder);
+  }
+
   function init() {
     requestAPIInfo();
     readMoreButtons();
+    addEventListeners();
   }
 
   init();
