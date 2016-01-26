@@ -78,7 +78,7 @@ Our accomplishments are testament to the notion that with the right approach and
 ![Charlie Furman][cf0]{: .aboutpic}
 : ### Charlie Furman
 
-  #### Lead Designer
+  #### Campaigns Manager
 
   [Charlie][cf1] is our campaign manager and came to Fight for the Future after running the digital program for a series of mass mobilizations, including the 400,000 person [People’s Climate March][cf2].
 
