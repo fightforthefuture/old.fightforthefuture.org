@@ -30,30 +30,38 @@ class: clean-edge petition
     <form class="petition-form" accept-charset="UTF-8" action="https://actionnetwork.org/petitions/{% if page.petition_slug != '' %}{{ page.petition_slug }}{% else %}{{ page.petition_title | slugify }}{% endif %}/signatures" method="post" data-host="{{ site.petitions_api }}">
 
       {% if page.additional_fields contains 'name' %}
-      <label for="form-first_name">Name:</label>
-      <input type="text" id="form-first_name" name="signature[first_name]" placeholder="Name{% if page.required_fields contains 'name' %} (required){% endif %}" {% if page.required_fields contains 'name' %} required{% endif %}/>
+      <label for="form-first_name">Name{% unless page.required_fields contains 'name' %} (optional){% endunless %}:</label>
+      <input type="text" id="form-first_name" name="signature[first_name]" placeholder="Name{% unless page.required_fields contains 'name' %} (optional){% endunless %}" {% if page.required_fields contains 'name' %} required{% endif %}/>
       {% endif %}
 
       <label for="form-email">Email:</label>
-      <input type="email" id="form-email" name="signature[email]" placeholder="Email (required)" required/>
+      <input type="email" id="form-email" name="signature[email]" placeholder="Email" required/>
 
       {% if page.additional_fields contains 'street_address' %}
-      <label for="form-street_address">Street address:</label>
-      <input type="text" id="form-street_address" name="signature[street_address]" placeholder="Street address{% if page.required_fields contains 'street_address' %} (required){% endif %}" {% if page.required_fields contains
-      'street_address' %} required{% endif %} />
+      <label for="form-street_address">Street address{% unless page.required_fields contains 'street_address' %} (optional){% endunless %}:</label>
+      <input type="text" id="form-street_address" name="signature[street_address]" placeholder="Street address{% unless page.required_fields contains 'street_address' %} (optional){% endunless %}"{% if page.required_fields contains 'street_address' %} required{% endif%} />
       {% endif %}
 
       {% if page.additional_fields contains 'city' %}
-      <label for="form-city">City:</label>
-      <input type="text" id="form-city" name="signature[city]" placeholder="City{% if page.required_fields contains 'city' %} (required){% endif %}" {% if page.required_fields contains 'city' %} required{% endif %} />
+      <label for="form-city">City{% unless page.required_fields contains 'city' %} (optional){% endunless %}:</label>
+      <input type="text" id="form-city" name="signature[city]" placeholder="City{% unless page.required_fields contains 'city' %} (optional){% endunless %}" {% if page.required_fields contains 'city' %} required{% endif %} />
       {% endif %}
 
-      <label for="form-zip_code">ZIP/Post code:</label>
-      <input type="text" id="form-zip_code" name="signature[zip_code]" placeholder="ZIP/Post Code (required)" required/>
+      <label for="form-zip_code">{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code:</label>
+      <input type="text" id="form-zip_code" name="signature[zip_code]" placeholder="{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code" required/>
 
       {% if page.allow_comments %}
-      <textarea cols="40" id="form-comments" name="signature[message_to_target]" placeholder="Comments" rows="20"></textarea>
+      <textarea cols="40" id="form-comments" name="signature[message_to_target]" placeholder="Comments" rows="6"></textarea>
       {% endif %}
+
+      <label for="country">
+        Not in {{ site.data.countries[page.target_country] }}?
+      </label>
+
+      <select name="signature[country]" id="country">
+        {% for country in site.data.countries %}
+        <option value="{{ country[0] }}"{% if country[0] == page.target_country %} selected{% endif %}>{{ country[1] }}</option>{% endfor %}
+      </select>
 
       <input type="hidden" name="signature[country]" value="US"/>
       <input type="hidden" name="utf8" value="✓">
