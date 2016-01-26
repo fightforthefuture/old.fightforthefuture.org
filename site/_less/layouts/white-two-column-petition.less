@@ -35,6 +35,27 @@
     display: block;
   }
 
+  [for="country"] {
+    cursor: pointer;
+    margin: 1.5rem auto 0.5rem;
+    height: auto;
+    text-align: center;
+    &:hover, &:active, &:focus {
+      text-decoration: underline;
+    }
+    &.hidden {
+      height: 0;
+    }
+  }
+
+  #country {
+    display: none;
+    margin: 0 auto;
+    &.visible {
+      display: block;
+    }
+  }
+
   strong {
     font-weight: bold;
   }
