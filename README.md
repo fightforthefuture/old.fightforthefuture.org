@@ -311,6 +311,8 @@ Intended usage:
 
 ## Developers:
 
+Here’s a thing—this is not a willy-nilly slapdash combination of underscores, dashes, and camelCase. There is a method to its madness. Underscores are used in Ruby variables. All over the place in `yml` and Liquid. Dashes are used in Less/CSS. Because that is how it is done. And camelCase is BFFs with Javascript. They are meant for each other.
+
 ### Frameworks and libraries
 
 - [Composer.js][02] JavaScript MVC
