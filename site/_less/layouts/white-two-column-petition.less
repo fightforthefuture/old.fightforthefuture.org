@@ -25,6 +25,10 @@
     margin-top: 2rem;
   }
 
+  img {
+    display: block;
+  }
+
   h1 {
     color: #2c3650;
   }
@@ -190,6 +194,10 @@
   @media screen and (min-width: @large-phone) {
     margin-bottom: 5rem;
   }
+
+  select {
+    max-width: 100%;
+  }
 }
 
 .petition-box {
@@ -199,9 +207,12 @@
 
   @media screen and (min-width: @large-phone) {
     margin-top: 0;
+    min-width: 30rem;
+    width: 34rem;
   }
 }
 
 .petition-info {
+  overflow: hidden;
   padding: 0 1rem;
 }
