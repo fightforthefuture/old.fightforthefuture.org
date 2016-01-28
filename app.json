@@ -9,15 +9,15 @@
   "env": {
     "TUMBLR_API_KEY": {
       "description": "API key for generating news posts",
-      "value": ""
+      "value": "secret"
     },
     "ENVIRONMENT": {
       "description": "where does this build live rn?",
       "value": "review"
     },
     "PORT": {
-      "value": "4040",
-      "description":"What port is the server running on?"
+      "description": "What port is the server running on?",
+      "value": "4040"
     }
   },
   "addons": [
