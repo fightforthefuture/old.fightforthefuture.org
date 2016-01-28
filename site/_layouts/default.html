@@ -2,40 +2,13 @@
 <html>
 <head>
   {% include meta.html %}
-  <link rel="stylesheet" type="text/css" href="/css/core.css">
 </head>
 <body class="default {{ page.class }}">
-{% include donate-ask-bar.html %}
+{% include header.html %}
 
-<article class="white classic">
-  {% if page.header %}
-  <header>
-    {% if page.share.twitter %}
-    {% include socialize.html %}
-    {% endif %}
-    <div class="top_border"></div>
-    <a href="/" id="homelinkage">Home</a>
-
-    <div class="banner">
-      <div class="wrap">
-        <h2 class="palatino">a project of the Center for Rights, a nonprofit
-          working to expand the internet's power for good</h2>
-
-        <h1><a href="https://www.fightforthefuture.org">Fight for the Future</a>
-        </h1>
-      </div><!-- close .wrap -->
-    </div>
-  </header>
-  {% endif %}
-
-  <div class="wrap">
-    {{ content }}
-  </div>
-</article>
-
-{% if page.footer-topper %}
-{% include footer-topper.html %}
-{% endif %}
+<div class="content">
+  {{ content }}
+</div>
 
 {% include fftf-footer.html %}
 {% include scripts.html %}

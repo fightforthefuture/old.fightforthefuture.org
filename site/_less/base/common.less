@@ -10,37 +10,18 @@ html, body {
 body {
   font-size: 1.6rem;
   font-family: @body-font;
-  padding: 5.5rem 1rem 1rem;
   position: relative;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: @display-font;
-  line-height: 1;
-  font-weight: bold;
-
-  @media screen and (min-width: @large-phone) {
-    line-height: 1.2;
-  }
+a {
+  color: @link-color;
 }
 
-h1 {
-  font-size: 5.5rem;
+h1, h2, h3, h4, h5, h6 {
+  font-family: @heading-font;
 }
 
 img {
   height: auto;
   max-width: 100%;
-}
-
-.hidden {
-  display: none;
-}
-
-.visually-hidden {
-  color: transparent;
-  font: 0/0;
-  height: 0;
-  overflow: hidden;
-  width: 0;
 }

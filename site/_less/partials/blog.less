@@ -1,0 +1,351 @@
+.blog {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  max-width: @max-blog-width;
+
+  article {
+    position: relative;
+    padding: 20px 10px;
+    text-align: left;
+    font-family: @serif-font;
+    border-bottom: 1px solid #d7e5f1;
+    color: #1a212a;
+
+    img {
+      max-width: 100%;
+      max-height: 300px;
+      width: auto;
+      height: auto;
+    }
+
+    h1 {
+      font-family: @heading-font;
+      font-size: 20px;
+      font-weight: 600;
+
+      background: url(/images/blog/heading_emphasis.png) left top repeat-y;
+      width: 105%;
+      margin-left: -5%;
+      padding-left: 5%;
+      border-left: 1% solid #aae;
+      border-width: 1%;
+      margin-bottom: 15px;
+
+      a {
+        color: black;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      font-weight: bold;
+    }
+
+    strong {
+      font-weight: bold;
+    }
+
+    em, i {
+      font-style: italic;
+    }
+
+    h2, h3, h4, h5, h6 {
+      font-family: @serif-font;
+    }
+
+    span.date {
+      display: block;
+      font-family: @heading-font;
+      font-size: 14px;
+      color: #8b96a4;
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    a.readmore {
+      font-family: @heading-font;
+      font-size: 17px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    div.sharea {
+      position: absolute;
+      right: 10px;
+      bottom: 20px;
+
+      span {
+        display: none;
+        line-height: 30px;
+        vertical-align: top;
+        color: #8aa1b4;
+        text-transform: uppercase;
+        font-family: @heading-font;
+        font-weight: 100;
+        font-size: 17px;
+      }
+
+      button {
+        border: 0px;
+        font-size: 0px;
+        color: transparent;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        margin-left: 5px;
+        vertical-align: top;
+
+        &.facebook {
+          background: url(/images/blog/facebook.png);
+          background-size: 30px 30px;
+        }
+
+        &.twitter {
+          background: url(/images/blog/twitter.png);
+          background-size: 30px 30px;
+        }
+      }
+
+      &.block {
+        span {
+          display: inline;
+        }
+        position: static;
+      }
+    }
+
+    img {
+      margin-bottom: 15px;
+    }
+
+    @media screen and (min-width: @large-phone) {
+
+      padding: 40px 10px;
+      font-size: 19px;
+
+      h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        margin-bottom: 30px;
+      }
+
+      span.date {
+        margin-bottom: 30px;
+      }
+
+      p {
+        margin-bottom: 30px;
+      }
+
+      div.sharea {
+        position: absolute;
+        right: 10px;
+        bottom: 40px;
+
+        span {
+          display: inline;
+        }
+
+        &.block {
+          position: static;
+        }
+      }
+    }
+
+
+  }
+
+  hr {
+    border: 0px;
+    border-bottom: 1px solid #d7e5f1;
+  }
+
+  .pagination {
+
+    font-family: @heading-font;
+    font-size: 17px;
+
+    font-weight: 600;
+    width: 100%;
+    padding: 20px 10px 40px 10px;
+    margin: 0px auto;
+    color: #a2b0bd;
+
+    a {
+      margin: 0px 10px;
+      text-transform: uppercase;
+    }
+
+    @media screen and (min-width: @large-phone) {
+      padding: 30px 10px 70px 10px;
+    }
+  }
+
+  .breadcrumbs {
+    color: #637b98;
+    font-family: @heading-font;
+    font-size: 13px;
+    font-weight: 100;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 8px 10px 8px 10px;
+    border-bottom: 1px solid #d7e5f1;
+    position: relative;
+
+    @media screen and (min-width: @large-phone) {
+      padding-top: 25px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #637b98;
+      margin: 0px 10px 0px 0px;
+
+      &.current {
+        margin-left: 10px;
+        color: @link-color;
+        font-weight: 600;
+      }
+
+      &.rss {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        font-size: 0px;
+        color: transparent;
+        background: url(/images/blog/rss.png);
+        background-size: 100% 100%;
+        vertical-align: top;
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+.sidebar {
+  display: block;
+  vertical-align: top;
+
+  margin: 0px auto 0px auto;
+  max-width: @max-blog-width;
+  width: 100%;
+
+  .panel {
+    border: 1px solid #d7e5f1;
+    padding: 0px;
+    margin-bottom: 30px;
+
+    h3 {
+      height: 55px;
+      line-height: 55px;
+      text-align: center;
+      background: @header-color;
+      color: white;
+      font-family: @heading-font;
+      font-size: 15px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    ul {
+      li {
+        text-align: left;
+
+        &:hover {
+          background: #f3f3f3;
+        }
+
+        a {
+          display: block;
+          padding: 20px;
+          border-bottom: 1px solid #d7e5f1;
+          color: black;
+          text-decoration: none;
+          font-family: @body-font;
+          font-size: 15px;
+
+          span {
+            display: block;
+            font-family: @heading-font;
+            font-size: 12px;
+            color: #8b96a4;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+
+    &.button {
+      display: inline-block;
+      max-width: 235px;
+      background: #1978c8;
+      height: 75px;
+      color: white;
+      font-family: @heading-font;
+      font-size: 15px;
+      text-align: left;
+      font-weight: 600;
+      padding: 15px 10px 0px 95px;
+      position: relative;
+      text-decoration: none;
+      transition: background-color .2s linear;
+
+      div.icon {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 73px;
+        height: 73px;
+        line-height: 75px;
+        background: #1666aa;
+        margin-right: 20px;
+        transition: background-color .2s linear;
+
+        img {
+          width: 40px;
+          height: 40px;
+          margin: 15px 0px 0px 15px;
+          transform: rotate(20deg);
+          transition: transform .2s linear;
+        }
+      }
+
+      &:hover {
+        background: #2e95ec;
+
+        div.icon {
+          background: #0d4371;
+          img {
+            transform: rotate(0deg);
+          }
+        }
+      }
+
+
+    }
+  }
+
+  @media screen and (min-width: @small-laptop) {
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 105px;
+    width: 235px;
+    span {
+      margin-top: 15px;
+    }
+  }
+}

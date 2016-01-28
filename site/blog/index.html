@@ -1,30 +1,49 @@
 ---
 layout: default
 title: My Blog
+header: true
 ---
 
-<!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-  <h2><a href="{{ post.path | remove:'_posts/' | remove:'.html'}}">{{ post.title }}</a></h2>
-  <p class="author">
-    <span class="date">{{ post.date }}</span>
-  </p>
-  <div class="content">
-    {{ post.content }}
+<div class="blog">
+  <div class="breadcrumbs">
+    <a href="feed.xml" class="rss">RSS Feed<br/></a>
+    <a href="/blog">Blog</a>
+    &gt;
+    <a href="/blog" class="current">Recent</a>
   </div>
-{% endfor %}
 
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
+  <!-- This loops through the paginated posts -->
+  {% for post in paginator.posts %}
+    <article>
+      <h1><a href="/blog/{{ post.path | remove:'_posts/' | remove:'.html'}}">{{ post.title }}</a></h1>
+
+        <span class="date">Posted {{ post.date  | date: '%H:%M %Z on %B %-d, %Y' }}</span>
+
+
+        {{ post.content }}
+
+        <a href="/blog/{{ post.path | remove:'_posts/' | remove:'.html'}}" class="readmore">Read More...</a>
+
+        <div class="sharea">
+          <span>Share on:</span>
+          <button class="facebook">Facebook</button>
+          <button class="twitter">Twitter</button>
+        </div>
+
+    </article>
+  {% endfor %}
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">&laquo; Back</a>
+    {% endif %}
+    <span class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Next &raquo;</a>
+    {% endif %}
+  </div>
+</div>
+<div class="sidebar">
+  {% include recommended_posts.html %}
+  {% include notifications_button.html %}
 </div>

@@ -1,0 +1,20 @@
+<div class="panel">
+  <h3>Recent stories:</h3>
+  <ul>
+    {% assign skipped_self = false %}
+    {% for post in site.posts limit:3 %}
+      {% if post.title == page.title %}
+        {% assign skipped_self = true %}
+      {% else %}
+        <li>
+          <a href="/blog/{{ post.path | remove:'_posts/' | remove:'.html'}}">{{ post.title }} <span>{{ post.date  | date: '%H:%M %Z on %b %-d, %Y' }}</span></a>
+        </li>
+      {% endif %}
+    {% endfor %}
+    {% if skipped_self and site.posts[3] %}
+      <li>
+        <a href="/blog/{{ site.posts[3].path | remove:'_posts/' | remove:'.html'}}">{{ site.posts[3].title }} <span>{{ site.posts[3].date  | date: '%H:%M %Z on %b %-d, %Y' }}</span></a>
+      </li>
+    {% endif %}
+  </ul>
+</div>

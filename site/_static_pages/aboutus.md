@@ -1,6 +1,7 @@
 ---
 layout: classic
 header: true
+class: aboutus
 title: "Fight for the Future | a nonprofit working to expand the internet's power for good"
 ---
 
@@ -19,76 +20,75 @@ Our accomplishments are testament to the notion that with the right approach and
 
 ## Staff
 
-![Jessica Bruno](/img/page/aboutus/teampic/jessica.png){: .aboutpic}
+![Jessica Bruno](/img/page/aboutus/teampic/jessica.png)
 : ### Jessica Bruno
 
   #### Accounting
 
   Jessica joined as our bookkeeper in 2013 with over 15 years experience in public and private accounting & is also involved in helping to facilitate bringing high-speed Internet to underserved rural areas.
 
-![Tiffiniy Cheng][tc0]{: .aboutpic}
+![Tiffiniy Cheng][tc0]
 : ### Tiffiniy Cheng
 
   #### Co-Founder and Co-Director
 
   Tiffiniy is our co-founder and co-director. She started [Open Congress][tc1], [Miro][tc2], almost got the SAFE Act passed until Chris Dodd pulled a late night vote. Her work is on art, culture and structural power issues.
 
-![Holmes Wilson][hw0]{: .aboutpic}
+![Holmes Wilson][hw0]
 : ### Holmes Wilson
 
   #### Co-Director
 
   Holmes is a co-founder of Fight for the Future. He also co-founded [Miro][tc2], [Open Congress][tc1], and [Amara][hw1], and ran online campaigns for the [FSF][hw2].
 
-![Evan Greer][eg0]{: .aboutpic}
+![Evan Greer][eg0]
 : ### Evan Greer
 
   #### Campaign Director
 
   [Evan][eg1] is our campaign director and joined our team after years traveling internationally as a professional musician and workshop facilitator. She’s been organizing creative campaigns for more than a decade and helped found [Rising Tide North America][eg2] and [Free Tarek][eg3].
 
-![Sarah Roth-Gaudette](/img/page/aboutus/teampic/sarah.png){: .aboutpic}
+![Sarah Roth-Gaudette](/img/page/aboutus/teampic/sarah.png)
 : ### Sarah Roth-Gaudette
 
   #### Chief Operating Officer
 
   Sarah is our fundraising and operations guru. Before joining the team, she spent 15 plus years running a nationwide canvass operation that raised millions of dollars and built winning people’s organizations.
 
-![Jeff Lyon][jl0]{: .aboutpic}
+![Jeff Lyon][jl0]
 : ### Jeff Lyon
 
   #### Chief Technical Officer
 
   [Jeff][jl1] has been building web sites since the age of 12. He spent the last decade working at startups and big tech companies in Silicon Valley, and recently graduated from UC Santa Cruz with a BA in Mathematics. Jeff likes [writing][jl2], security research and [making music][jl3].
 
-![Sarena Neyman](/img/page/aboutus/teampic/serena.png){: .aboutpic}
+![Sarena Neyman](/img/page/aboutus/teampic/serena.png)
 : ### Sarena Neyman
 
   #### Grant Writer
 
   Sarena Neyman writes our grants and other fundraising materials. She’s been helping non-profit groups raise money for over 25 years and is thrilled to be doing work that protects her beloved Internet.
 
-![Vasjen Katro][vk0]{: .aboutpic}
+![Vasjen Katro][vk0]
 : ### Vasjen Katro
 
   #### Lead Designer
 
-  [Vasjen][vk1] is our Lead Designer from Albania—he loves to craft great UI/UX and making the Internet a better place. You can see his work on [Dribbble][vk2] and follow him on [Twitter][vk3]
+  [Vasjen][vk1] is our Lead Designer from Albania—he loves to craft great UI / UX and making the Internet a better place. You can see his work on [Dribbble][vk2] and follow him on [Twitter][vk3]
 
-![Charlie Furman][cf0]{: .aboutpic}
+![Charlie Furman][cf0]
 : ### Charlie Furman
 
   #### Campaigns Manager
 
   [Charlie][cf1] is our campaign manager and came to Fight for the Future after running the digital program for a series of mass mobilizations, including the 400,000 person [People’s Climate March][cf2].
 
-![Aki Rose][ab0]{: .aboutpic}
+![Aki Rose][ab0]
 : ### Aki Braun
 
   #### Programmer
 
   [Aki][ab1] joins us as developer after spending much of her career working on problems that make a difference. She mostly spends her free time [on twitter][ab2], but also traveling the country in her RV and working on her Southern Californian homestead.
-{: .teammember}
 
 
 [tc0]: /img/page/aboutus/teampic/tiff.png
@@ -109,66 +109,59 @@ Our accomplishments are testament to the notion that with the right approach and
 [vk1]: http://vasjenkatro.com/
 [vk2]: http://dribbble.com/Katro/
 [vk3]: https://twitter.com/VasjenKatro/
-[cf0]: /img/page/aboutus/teampic/charlie.png
-[cf1]: https://twitter.com/DigitalCharlie_
-[cf2]: http://peoplesclimate.org/wrap-up/
-[ab0]: /img/page/aboutus/teampic/aki.png
-[ab1]: https://akibraun.com/
-[ab2]: https://twitter.com/gesa/
 
 
 ## Fight for the Future 501(c)4 Board
-{: #board}
 
-![Matt Feinstein](/img/page/aboutus/teampic/matt.png){: .aboutpic}
+![Matt Feinstein](/img/page/aboutus/teampic/matt.png)
 : ### Matt Feinstein
 
   #### President
 
   Documentary Filmmaker and Community Organizer with Worcester Roots Project
 
-![Lana Swartz](/img/page/aboutus/teampic/lana.png){: .aboutpic}
+![Lana Swartz](/img/page/aboutus/teampic/lana.png)
 : ### Deja Elana (“Lana”) Swartz
 
   #### Treasurer
 
   Wallis Annenberg Research Fellow, Annenberg School of Communication and Journalism, USC
 
-![Darren Bridenbeck](/img/page/aboutus/teampic/darren.png){: .aboutpic}
+![Darren Bridenbeck](/img/page/aboutus/teampic/darren.png)
 : ### Darren Bridenbeck
 
   #### Clerk / Secretary
 
   Founder of Potlatch Presents, a music production and marketing studio for independent artists & Support and Community Advocacy at Participatory Culture Foundation
-{: .teammember}
+
 
 ## Fight for the Future Education Fund 501(c)3 Board
 
-![Zephyr Teachout](/img/page/aboutus/teampic/zephyr.png){: .aboutpic}
+![Zephyr Teachout](/img/page/aboutus/teampic/zephyr.png)
 : ### Zephyr Teachout
 
   #### Director
 
   Antitrust Scholar, Associate Professor of Law at Fordham University, NY Gubernatorial Candidate 2014
 
-![Marvin Ammori](/img/page/aboutus/teampic/marvin.png){: .aboutpic}
+![Marvin Ammori](/img/page/aboutus/teampic/marvin.png)
 : ### Marvin Ammori
 
   #### President
 
   Internet Policy and First Amendment Lawyer and Scholar, Ammori Group, Free Press
 
-![Hannah Sassman](/img/page/aboutus/teampic/hannah.png){: .aboutpic}
+![Hannah Sassman](/img/page/aboutus/teampic/hannah.png)
 : ### Hannah Sassaman
 
   #### Treasurer
 
   Media Reform Activist passing Low-Power FM rules, Policy Director of Media Mobilizing Project and Campaign Director at the Prometheus Radio Project
 
-![Yochai Benkler](/img/page/aboutus/teampic/benkler.png){: .aboutpic}
+![Yochai Benkler](/img/page/aboutus/teampic/benkler.png)
 : ### Yochai Benkler
 
   #### Secretary
 
   Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School and author of The Wealth of Networks: How social production transforms markets and freedom
-{: .teammember}
+

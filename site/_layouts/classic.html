@@ -2,8 +2,11 @@
 layout: default
 ---
 
+{{ content }}
+<!--
 <div role="main">
   <div class="wrap">
+
     {% capture currentPage %}{{ page.url | remove:'/' | remove:'index.html' }}{% endcapture %}
 
     <div class="sidebar">
@@ -18,8 +21,7 @@ layout: default
         {% endfor %}
       </ul>
     </div>
-    <div class="content">
-      {{ content }}
-    </div>
+    <div class="content">{ content }</div>
   </div>
 </div>
+-->

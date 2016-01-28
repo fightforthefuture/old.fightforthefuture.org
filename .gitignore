@@ -1,5 +1,4 @@
 node_modules/
 public/
-vendor/
-.env
 npm-debug.log
+.env

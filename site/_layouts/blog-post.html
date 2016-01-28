@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+  {% include meta.html %}
+</head>
+<body class="default {{ page.class }}">
+{% include header.html %}
+
+<div class="content">
+  <div class="blog">
+    <div class="breadcrumbs">
+      <a href="../feed.xml" class="rss">RSS Feed<br/></a>
+      <a href="/blog">Blog</a>
+      &gt;
+      <a href="/blog/{{ page.path | remove:'_posts/' | remove:'.html'}}" class="current">{{ page.date  | date: '%b %-d, %Y at %H:%M %Z' }}</a>
+    </div>
+    <article>
+      <h1>{{ page.title }}</h1>
+
+        <span class="date">Posted {{ page.date  | date: '%H:%M %Z on %B %-d, %Y' }}</span>
+
+
+        {{ content }}
+        <hr/>
+        <div class="sharea block">
+          <span>Share on:</span>
+          <button class="facebook">Facebook</button>
+          <button class="twitter">Twitter</button>
+        </div>
+
+    </article>
+
+  </div>
+  <div class="sidebar">
+    {% include recommended_posts.html %}
+    {% include notifications_button.html %}
+  </div>
+</div>
+
+{% include fftf-footer.html %}
+{% include scripts.html %}
+</body>
+</html>

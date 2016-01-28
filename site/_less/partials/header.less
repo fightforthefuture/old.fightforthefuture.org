@@ -1,0 +1,241 @@
+header {
+  background: @header-darker-color;
+  font-size: 0px;
+
+  div {
+    max-width: @max-content-width;
+    width: 100%;
+    margin: 0px auto;
+    background: @header-color;
+    position: relative;
+    min-height: 50px;
+    text-align: right;
+
+    h1 {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      font-size: 0px;
+      color: rgba(0, 0, 0, 0);
+      height: 50px;
+      width: 217px;
+      background: @header-color url(../images/header/logo.png) right center no-repeat;
+      background-size: 174px 30px;
+      margin: 0px;
+
+      &::before {
+        content: " ";
+        display: block;
+        width: 43px;
+        height: 50px;
+        background: @header-color url(../images/header/heart.png) center center no-repeat;
+        background-size: 26px 26px;
+      }
+
+    }
+
+    a.donate {
+      display: none;
+    }
+
+    hr {
+      display: none;
+    }
+
+    button.hamburgler {
+      font-size: 0px;
+      color: rgba(0, 0, 0, 0);
+      display: inline-block;
+      border: 0px;
+      width: 40px;
+      height: 40px;
+      border-radius: 5px;
+      background: transparent url(../images/header/hamburgler.png) center center no-repeat;
+      margin: 5px 5px 5px 0px;
+      background-size: 30px 30px;
+      vertical-align: top;
+      opacity: .5;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      &.focused {
+        background-color: @header-darker-color;
+        opacity: 1;
+      }
+    }
+
+    nav {
+      display: none;
+      ul {
+        padding: 10px;
+        background: #15558b;
+        li {
+          text-align: left;
+          font-size: 15.5px;
+          font-family: @nav-font;
+          font-weight: 600;
+          text-transform: uppercase;
+
+          a {
+            color: white;
+            text-shadow: 0px 1px 2px rgba(0, 0, 0, .1);
+          }
+        }
+      }
+
+      &.visible {
+        display: block;
+      }
+    }
+
+    button.share {
+      display: none;
+    }
+
+    @media screen and (min-width: @small-phone) {
+      min-height: 65px;
+
+      h1 {
+        width: 270px;
+        height: 65px;
+        background: @header-color url(../images/header/logo.png) right center no-repeat;
+        background-size: 220px 38px;
+
+        &::before {
+          height: 65px;
+          width: 50px;
+          background-size: 30px 30px;
+        }
+      }
+
+      button.hamburgler {
+        width: 40px;
+        height: 40px;
+        margin: 12px 10px 13px 0px;
+      }
+    }
+
+    @media screen and (min-width: @small-tablet) {
+
+      h1 {
+
+        width: 293px;
+
+        &::before {
+          width: 55px;
+          background-color: @header-darker-color;
+        }
+      }
+
+      button.hamburgler {
+        display: none;
+      }
+
+      nav {
+        display: inline-block;
+        vertical-align: top;
+
+        ul {
+          padding: 0px 15px 0px 0px;
+          background: @header-color;
+
+          li {
+            display: inline-block;
+            line-height: 65px;
+
+            a {
+              text-decoration: none;
+
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+
+            &::before {
+              color: #1664b3;
+              content: '|\00a0';
+              display: inline-block;
+              padding: 0px 8px 0px 10px;
+            }
+            &:first-child {
+              &::before {
+                content: '';
+                display: none;
+              }
+            }
+          }
+        }
+
+        &.visible {
+          display: inline-block;
+        }
+      }
+    }
+
+    @media screen and (min-width: @large-tablet) {
+      h1 {
+        width: 303px;
+
+        &::before {
+          width: 65px;
+          background-color: @header-darker-color;
+        }
+      }
+
+      a.donate {
+        display: inline-block;
+        width: 164px;
+        height: 65px;
+        font-family: @nav-font;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 65px;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        background: #166bb3;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, .1);
+        letter-spacing: 1px;
+
+        &:hover {
+          background: #855773;
+        }
+      }
+    }
+
+    @media screen and (min-width: @small-laptop) {
+
+      button.share {
+        display: inline-block;
+
+        height: 65px;
+        border: 0px;
+        cursor: pointer;
+        font-size: 0px;
+        color: transparent;
+        vertical-align: top;
+        background: @header-darker-color;
+
+        &.facebook {
+          background: @header-darker-color url(../images/header/facebook.png) 15px 18px no-repeat;
+          background-size: 30px 30px;
+          width: 50px;
+        }
+        &.twitter {
+          background: @header-darker-color url(../images/header/twitter.png) 5px 18px no-repeat;
+          background-size: 30px 30px;
+          width: 50px;
+        }
+
+        &:hover {
+          background-color: black;
+        }
+      }
+    }
+
+  }
+}
