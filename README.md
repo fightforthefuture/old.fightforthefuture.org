@@ -1,4 +1,4 @@
-# Fight for the Future: the website 
+# Fight for the Future: the website
 
 Lots of work is being done to make it as easy as possible to update content on
 fightforthefuture.org. It's still a work in progress, but progress is being
@@ -310,6 +310,8 @@ Intended usage:
 (Note: this tag is self-closing, does **not** require `{% endsnapshot %}`)
 
 ## Developers:
+
+Review apps are launched on Heroku automatically. The site itself lives on github, but there is a clone on Heroku. We don’t currently have any failover automation, but we could if we set it up.
 
 ### Frameworks and libraries
 
