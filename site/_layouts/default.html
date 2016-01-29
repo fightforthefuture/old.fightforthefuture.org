@@ -5,9 +5,12 @@
 </head>
 <body class="default {{ page.class }}">
 {% include header.html %}
+{% if page.header_extension %}{% include {{page.header_extension}} %}{% endif %}
 
 <div class="content">
-  {{ content }}
+  <div class="wrap">
+    {{ content }}
+  </div>
 </div>
 
 {% include fftf-footer.html %}

@@ -76,6 +76,11 @@ footer {
             font-weight: 400;
             text-decoration: none;
 
+            strong {
+              font-weight: 600;
+              text-decoration: underline;
+            }
+
             &:hover {
               text-decoration: underline;
             }
@@ -91,6 +96,12 @@ footer {
         top: 60px;
 
 
+      }
+    }
+
+    @media screen and (min-width: @large-tablet) {
+      .copyright {
+        float: right;
       }
     }
 

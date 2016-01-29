@@ -1,9 +1,13 @@
 header {
   background: @header-darker-color;
   font-size: 0px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, .2);
+  position: fixed;
+  width: 100%;
+  z-index: 9001;
 
   div {
-    max-width: @max-content-width;
+    max-width: @max-header-width;
     width: 100%;
     margin: 0px auto;
     background: @header-color;

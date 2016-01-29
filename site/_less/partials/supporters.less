@@ -1,0 +1,159 @@
+body.supporters {
+
+  background: @background-color url(/homepage/images/david-by-michelangelo.jpg) center top no-repeat;
+  @media screen and (min-width: @large-tablet) {
+    background-size: 100% auto;
+    background-attachment: fixed;
+  }
+
+  .content {
+    padding-top: 0px;
+    width: 100%;
+
+    .wrap {
+      max-width: 100%;
+
+      .classic {
+        max-width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+    }
+  }
+
+  dl {
+    padding: 40px 10px;
+    margin: 0px auto;
+    &:nth-of-type(2n) {
+      background: #fafafa;
+    }
+
+    dt {
+      strong {
+        display: block;
+        color: #1b3c57;
+        font-family: @heading-font;
+        font-weight: normal;
+        font-size: 40px;
+        margin-bottom: 20px;
+
+        @media screen and (min-width: @large-phone) {
+          font-size: 60px;
+          line-height: 60px;
+        }
+      }
+    }
+    dd {
+      margin: 0px auto;
+      max-width: @max-classic-width;
+
+      p {
+        font-family: @body-font;
+        font-weight: 100;
+        font-size: 24px;
+        color: #4a5056;
+        margin: 0px auto 40px auto;
+        max-width: (@max-blog-width - 150px);
+      }
+
+      ul {
+        margin: 0px auto;
+        max-width: @max-classic-width;
+
+        li {
+
+          p {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: @body-font;
+
+            a {
+              color: #4a5056;
+              text-decoration: none;
+
+              img {
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                border-radius: 100px;
+                border: 1px solid #1b3c57;
+                vertical-align: middle;
+                margin-right: 7px;
+              }
+
+              &:hover {
+                color: black;
+
+                img {
+                  border-color: black;
+                }
+              }
+            }
+          }
+
+
+
+          @media screen and (min-width: @large-phone) {
+            display: inline-block;
+            margin: 0px 20px;
+          }
+
+        }
+      }
+      dl {
+        .card;
+        &:nth-of-type(2n) {
+          background: white;
+        }
+        @media screen and (min-width: @large-phone) {
+          height: 180px;
+
+          h3 {
+            margin-bottom: 5px;
+          }
+        }
+      }
+
+    }
+  }
+
+  hr {
+    display: none;
+  }
+}
+.header_supporters {
+  background: rgba(13, 83, 142, .6);
+  text-align: center;
+  color: white;
+  padding: (@content-padding-slash-header-height+20px) 10px 30px 10px;
+
+  h1 {
+    @media screen and (min-width: @large-phone) {
+      font-size: 60px;
+      line-height: 60px;
+    }
+  }
+
+  p {
+    font-family: @body-font;
+    max-width: @max-blog-width;
+    margin: 30px auto 0px auto;
+    font-size: 21.5px;
+    color: white;
+    font-weight: 100;
+
+    a {
+      color: white;
+      font-weight: 600;
+    }
+  }
+
+  @media screen and (min-width: @large-phone) {
+    padding: (@content-padding-slash-header-height+50px) 10px 60px 10px;
+  }
+
+}

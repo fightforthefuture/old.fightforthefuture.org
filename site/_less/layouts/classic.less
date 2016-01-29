@@ -1,0 +1,43 @@
+div.classic {
+  margin: 0px auto;
+  width: 100%;
+  max-width: @max-classic-width;
+  padding: @classic-top-padding 10px;
+  position: relative;
+  text-align: center;
+
+  > ul:first-child {
+    display: block;
+    margin: 0px 0px 0px 0px;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 40px;
+    text-align: left;
+
+    li {
+      display: inline-block;
+      height: 43px;
+
+      a {
+        display: inline-block;
+        height: 44px;
+        line-height: 47px;
+        font-family: @nav-font;
+        font-size: 16px;
+        color: #858585;
+        text-decoration: none;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 0px 5px;
+        margin-right: 20px;
+      }
+
+      &:first-child {
+        a {
+          border-bottom: 3px solid @header-color;
+          color: #474747;
+        }
+      }
+
+    }
+  }
+}

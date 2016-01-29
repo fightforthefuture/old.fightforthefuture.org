@@ -1,5 +1,90 @@
 .content {
-  margin: 0px auto;
-  max-width: @max-content-width;
-  text-align: center;
+  background: @white;
+  padding-top: @content-padding-slash-header-height;
+
+  .wrap {
+    margin: 0px auto;
+    max-width: @max-content-width;
+    text-align: center;
+  }
+}
+.card {
+  display: inline-block;
+  max-width: 474px;
+  width: 100%;
+  border: 1px solid #e5ebec;
+  border-radius: 10px;
+  padding: 15px;
+  background: white;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, .1);
+  margin: 0px 0px 25px 0px;
+
+  dt {
+    display: inline-block;
+    vertical-align: top;
+
+    img {
+      max-width: 83px;
+      height: auto;
+      border-radius: 100px;
+    }
+  }
+
+  dd {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 320px;
+    padding: 0px 0px 10px 0px;
+
+    p {
+      padding-right: 0px;
+      color: #5d676f;
+      font-size: 15px;
+      font-weight: 400;
+      margin-bottom: 0px;
+      text-align: center;
+    }
+
+    h3 {
+      color: #4a5056;
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    h4 {
+      color: #a3aeb7;
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (min-width: @large-phone) {
+    margin: 0px 7px 25px 6px;
+    height: 230px;
+
+    dt {
+      margin-right: 25px;
+    }
+
+    dd {
+      p {
+        text-align: left;
+      }
+    }
+
+    h3 {
+      text-align: left;
+    }
+
+    h4 {
+      text-align: left;
+    }
+
+    dd {
+      padding-top: 10px;
+    }
+  }
 }
