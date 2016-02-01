@@ -9,16 +9,16 @@
 
 name: Fight for the Future, defending our basic rights and freedoms
 url: https://www.fightforthefuture.org
-description: "Fight for the Future is dedicated to protecting and expanding the Internet's transformative power in our lives by creating civic campaigns that are engaging for millions of people."
+description: "Fight for the Future is dedicated to protecting and expanding the Internet’s transformative power in our lives by creating civic campaigns that are engaging for millions of people."
 timezone: America/New_York
 googleanalytics: UA-26576645-1
 
 favicon: '/favicon.ico'
 
 author:
-    googleid: 102356128596404327231
-    twitterid: 382376904
-    twitter: fightfortheftr
+  googleid: 102356128596404327231
+  twitterid: 382376904
+  twitter: fightfortheftr
 
 #############
 # Authoring #
@@ -51,7 +51,6 @@ prose:
     - '_less'
     - '_plugins'
     - 'css'
-    - 'google5033d6ab2e00df50.html'
     - 'js'
     - 'webfonts'
     - 'sitemap.xml'
