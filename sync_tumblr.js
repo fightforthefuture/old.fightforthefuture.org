@@ -24,7 +24,7 @@ if (!process.env.TUMBLR_API_KEY) {
   console.log('');
   console.log('You don\'t have a TUMBLR_API_KEY environment variable set. That means');
   console.log('your build isn\'t syncing posts from Tumblr API. Check out example.env');
-  console.log('for instructions on what to do!')
+  console.log('for instructions on what to do!');
   console.log('');
   console.log('-----------------------------------------------------------------------');
   process.exit();
@@ -32,11 +32,11 @@ if (!process.env.TUMBLR_API_KEY) {
 
 var fs      = require('fs');
 var request = require('request');
-var path    = 'site/_blog_posts/'
+var path    = 'site/_blog_posts/';
 
 var getPosts = function(offset) {
 
-  console.log('Asking Tumblr API for 20 posts, offset: '+ offset + '...')
+  console.log('Asking Tumblr API for 20 posts, offset: '+ offset + '...');
 
   var url = 'https://api.tumblr.com/v2/blog/fight4future.tumblr.com/posts/text?api_key='+process.env.TUMBLR_API_KEY.trim()+'&offset='+offset;
 
@@ -79,7 +79,7 @@ var getPosts = function(offset) {
     }
     if (posts.length == 20) getPosts(offset + 20);
   });
-}
+};
 console.log('Syncing Tumblr posts to this project.');
 getPosts(0);
 
