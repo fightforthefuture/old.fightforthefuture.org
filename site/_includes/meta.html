@@ -1,33 +1,34 @@
 {% capture social_title %}{% if page.social_title != '' %}{{ page.social_title }}{% else %}{{ page.title }}{% endif %}{% endcapture %}
 {% capture social_description %}{% if page.social_description != '' %}{{ page.social_description }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+{% if page.share_image != '' %}
+  {% assign share_img = page.share_image %}
+{% else %}
+  {% capture share_img %}{{ site.url }}/img/share/fftf-share.jpg{% endcapture %}
+{% endif %}
+{% if page.share_image_dims != '' %}
+  {% assign dims = page.share_image_dims | split: ' x ' %}
+{% else %}
+  {% assign dims = '1400|553' | split: '|' %}
+{% endif %}
 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
 <title>{{ page.title }}</title>
-<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="description" content="{% if page.search_description != null and page.search_description != '' %}{{ page.search_description }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
 <!-- *** social meta *** -->
 <!-- facebook -->
 <meta property="og:type" content="website"/>
-{% if page.share_image %}
-<meta property="og:image" content="{{ page.share_image }}"/>
-  {% if page.share_image_dims %}
-  {% assign dims = page.share_image_dims | split: ' x ' %}
-  <meta property="og:image:width" content="{{ dims[0] }}"/>
-  <meta property="og:image:height" content="{{ dims[0] }}"/>
-  {% endif %}
-{% else %}
-<meta property="og:image" content="{{ site.url }}/img/share/fftf-share.jpg"/>
-<meta property="og:image:width" content="1400"/>
-<meta property="og:image:height" content="553"/>
-{% endif %}
+<meta property="og:image" content="{{ share_img }}"/>
+<meta property="og:image:width" content="{{ dims[0] }}"/>
+<meta property="og:image:height" content="{{ dims[1] }}"/>
 <meta property="og:site_name" content="{{ site.name }}"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:locale:alternate" content="en_GB"/>
-<meta property="og:title" content="{{ title }}"/>
-<meta property="og:description" content="{{ description }}"/>
+<meta property="og:title" content="{{ social_title }}"/>
+<meta property="og:description" content="{{ social_description }}"/>
 
 <!-- twitter -->
 <meta name="twitter:card" content="summary_large_image">
@@ -36,20 +37,12 @@
 <meta name="twitter:description" content="{{ social_description }}"/>
 <meta name="twitter:domain" content="{{ site.url | remove:'http://' | remove:'https://' }}">
 <meta name="twitter:account_id" content="{{ site.author.twitterid }}"/>
-{% if page.share_image %}
-<meta name="twitter:image:src" content="{{ page.share_image }}">
-{% else %}
-<meta name="twitter:image:src" content="{{ site.url }}/img/share/fftf-share.jpg"/>
-{% endif %}
+<meta name="twitter:image:src" content="{{ share_img }}">
 
 <!-- google+ -->
 <meta itemprop="name" content="{{ social_title }}">
 <meta itemprop="description" content="{{ social_description }}">
-{% if page.share_image %}
-<meta itemprop="image" content="{{ page.share_image }}">
-{% else %}
-<meta itemprop="image" content="{{ site.url }}/img/share/fftf-share.jpg"/>
-{% endif %}
+<meta itemprop="image" content="{{ share_img }}">
 <!-- /*** social meta *** -->
 
 <link rel="publisher" href="https://plus.google.com/{{ site.author.googleid }}">
