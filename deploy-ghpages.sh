@@ -10,6 +10,6 @@ if  [ "$TRAVIS" = "true" -a "$TRAVIS_PULL_REQUEST" = "false"  -a "$TRAVIS_BRANCH
       cp ../CNAME ./CNAME
       git add .
       git commit -m "Deployed to Github Pages"
-      git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
+      git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master > /dev/null 2>&1
     )
 fi
