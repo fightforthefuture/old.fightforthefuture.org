@@ -13,7 +13,7 @@
     },
     "ENVIRONMENT": {
       "description": "where does this build live rn?",
-      "value": "review"
+      "value": "REVIEW"
     },
     "PORT": {
       "description": "What port is the server running on?",
