@@ -171,7 +171,6 @@ window.components.petitions = function (doc, win) {
     }
 
     var
-      formValues = doc.forms[0],
       signatureSubmission = new XMLHttpRequest(),
       petitionSignaturePayload = {
         identifier: objectIdentifier.split(':')[1],
@@ -208,7 +207,7 @@ window.components.petitions = function (doc, win) {
 
     signatureSubmission.addEventListener('load', function () {
       if (signatureSubmission.status >= 200 && signatureSubmission.status < 400) {
-        new win.models.modals.ShareDaisyModalController({
+        new win.controllers.modals.ShareDaisyModalController({
           modal_content: '<h2>Thanks for signing</h2>\n<p>Now, share this page to spread the word.</p>\n<p><small>…or, <a href="https://donate.fightforthefuture.org/?amount=5&frequency=just-once">chip in $5</a> to help us spread the message.</small></p>'
         });
       } else {
