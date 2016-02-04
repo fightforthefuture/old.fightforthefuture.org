@@ -50,7 +50,7 @@ class: clean-edge petition
       <label for="form-zip_code">{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code:</label>
       <input type="text" id="form-zip_code" name="signature[zip_code]" placeholder="{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code" required/>
 
-      {% if page.additional_fields contains comments %}
+      {% if page.allow_comments %}
       <textarea cols="40" id="form-comments" name="signature[message_to_target]" placeholder="Comments" rows="6"></textarea>
       {% endif %}
 
