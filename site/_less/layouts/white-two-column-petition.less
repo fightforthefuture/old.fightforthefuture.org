@@ -33,33 +33,6 @@
     color: #2c3650;
   }
 
-  label {
-    overflow: hidden;
-    height: 0;
-    display: block;
-  }
-
-  [for="country"] {
-    cursor: pointer;
-    margin: 1.5rem auto 0.5rem;
-    height: auto;
-    text-align: center;
-    &:hover, &:active, &:focus {
-      text-decoration: underline;
-    }
-    &.hidden {
-      height: 0;
-    }
-  }
-
-  #country {
-    display: none;
-    margin: 0 auto;
-    &.visible {
-      display: block;
-    }
-  }
-
   strong {
     font-weight: bold;
   }
@@ -193,6 +166,49 @@
 
   @media screen and (min-width: @large-phone) {
     margin-bottom: 5rem;
+  }
+
+  label {
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
+
+  [for="opt-in"] {
+    font-size: 0.75em;
+    font-weight: 300;
+    height: auto;
+    margin: 1rem auto 0.5rem;
+    text-align: center;
+    a {
+      color: fade(@white, 90%);
+      &:hover, &:active, &:focus {
+        color: @white;
+      }
+    }
+  }
+
+  [for="select-country"] {
+    cursor: pointer;
+    font-size: 0.85em;
+    font-style: italic;
+    height: auto;
+    margin: 1.5rem auto 0.5rem;
+    text-align: center;
+    &:hover, &:active, &:focus {
+      text-decoration: underline;
+    }
+    &.hidden {
+      height: 0;
+    }
+  }
+
+  #country {
+    display: none;
+    margin: 0 auto;
+    &.visible {
+      display: block;
+    }
   }
 
   select {

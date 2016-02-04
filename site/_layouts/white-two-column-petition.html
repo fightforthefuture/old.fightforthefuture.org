@@ -54,37 +54,34 @@ class: clean-edge petition
       <textarea cols="40" id="form-comments" name="signature[message_to_target]" placeholder="Comments" rows="6"></textarea>
       {% endif %}
 
-      <label for="country">
+      <label for="select-country">
         Not in {{ site.data.countries[page.target_country] }}?
       </label>
 
-      <select name="signature[country]" id="country">
+      <select id="select-country" class="hidden">
         {% for country in site.data.countries %}
         <option value="{{ country[0] }}"{% if country[0] == page.target_country %} selected{% endif %}>{{ country[1] }}</option>{% endfor %}
       </select>
 
-      <input type="hidden" name="signature[country]" value="US"/>
+      <input type="hidden" value="US" id="hidden-country" />
       <input type="hidden" name="utf8" value="✓">
       <input type="hidden" name="authenticity_token" value="0T4Obtb0NSc88GcP+W4S67iTV1B9UhTVWbk6UjKj7+o="/>
       <input type="hidden" name="subscription[sub_group_id]" value="13162">
-      <input type="hidden" name="subscription[http_referer]" value="{{ site.url }}"/>
+      <input type="hidden" name="subscription[http_referer]" value="{{ site.url }}{{ page.url }}"/>
       <input type="hidden" name="subscription[source]" value="www"/>
       {% capture tags %}{% for tag in page.tags %}&quot;{{ tag }}&quot;{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
       <input type="hidden" name="subscription[tag_list]" value="[{{ tags }}]"/>
       <input type="submit" name="commit" value="Take action"/>
-      {% if page.opt_in == true %}
-      <input type="hidden" name="subscription[group]" value="13162"/>
-      <a href="https://fightforthefuture.org">Fight for the Future</a> will
-      email you with campaign updates.
-      (<a href="https://fightforthefuture.org/privacy">privacy policy</a>)
-      {% else %}
       <label for="opt-in">
+      {% if page.opt_in == true %}
+        <input type="hidden" name="subscription[group]" value="13162"/>
+      {% else %}
         <input type="checkbox" name="subscription[group]" value="13162" id="opt-in" checked="checked"/>
+      {% endif %}
         <a href="https://fightforthefuture.org">Fight for the Future</a>
         will email you with campaign updates.
         (<a href="https://fightforthefuture.org/privacy">privacy policy</a>)
       </label>
-      {% endif %}
     </form>
   </section>
   <article class="petition-info">
