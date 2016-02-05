@@ -313,6 +313,8 @@ Intended usage:
 
 Review apps are launched on Heroku automatically. The site itself lives on github, but there is a clone on Heroku. We don’t currently have any failover automation, but we could if we set it up.
 
+Here’s a thing—this is not a willy-nilly slapdash combination of underscores, dashes, and camelCase. There is a method to its madness. Underscores are used in Ruby variables. All over the place in `yml` and Liquid. Dashes are used in Less/CSS. Because that is how it is done. And camelCase is BFFs with Javascript. They are meant for each other.
+
 ### Frameworks and libraries
 
 - [Composer.js][02] JavaScript MVC

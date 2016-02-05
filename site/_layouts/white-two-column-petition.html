@@ -1,30 +1,96 @@
 ---
 layout: core-only
+styles: petitions
+component-scripts: petitions
+class: clean-edge petition
 ---
 
-<header class="minimalist-sticky-bar">
-  <span class="minimalist-fftf-logo">
-    Fight for the Future
-  </span>
-  <ul class="minimalist-share-donate">
-    <li class="minimalist-share-links">
-      <a href="https://facebook.com/sharer.php?u={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}" class="minimalist-facebook-share">
-        facebook
-      </a>
-      <a href="https://twitter.com/intent/tweet?text={% if page.share.tweet %}{{ page.share.tweet | cgi_escape }}{% else %}{{ site.description | cgi_escape }}{% endif %}&amp;url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&amp;via=fightfortheftr" class="minimalist-twitter-share">
-        Twitter
-      </a>
-    </li>
-    <li class="minimalist-donate">
-      <a href="https://donate.fightforthefuture.org?amount=5&amp;frequency=annual">
-      <span class="hover-heart">
-        &#x2665;
-      </span>
-        Donate $5
-      </a>
-    </li>
-  </ul>
-</header>
-{{ content }}
+{% include an-petitions/sticky-bar.html %}
+
+<h1>{{ page.headline }}</h1>
+
+<main class="white-two-column">
+  <section class="petition-box">
+    <article class="petition-text">
+      <h2 id="petition-title">{{ page.petition_title }}</h2>
+      <blockquote>
+        {{ page.petition_copy | markdownify }}
+      </blockquote>
+      <figure class="signatures">
+        <figcaption class="progress-top">
+          <span id="total-sigs">0</span> supporters
+        </figcaption>
+        <progress id="signatures-progress-bar" value="0" max="25"></progress>
+        <figcaption class="progress-bottom" id="sigs-to-go">
+          25 needed to reach 25
+        </figcaption>
+      </figure>
+    </article>
+
+    <form class="petition-form" accept-charset="UTF-8" action="https://actionnetwork.org/petitions/{% if page.petition_slug != '' %}{{ page.petition_slug }}{% else %}{{ page.petition_title | slugify }}{% endif %}/signatures" method="post" data-host="{{ site.petitions_api }}">
+
+      {% if page.additional_fields contains 'name' %}
+      <label for="form-first_name">Name{% unless page.required_fields contains 'name' %} (optional){% endunless %}:</label>
+      <input type="text" id="form-first_name" name="signature[first_name]" placeholder="Name{% unless page.required_fields contains 'name' %} (optional){% endunless %}" {% if page.required_fields contains 'name' %} required{% endif %}/>
+      {% endif %}
+
+      <label for="form-email">Email:</label>
+      <input type="email" id="form-email" name="signature[email]" placeholder="Email" required/>
+
+      {% if page.additional_fields contains 'street_address' %}
+      <label for="form-street_address">Street address{% unless page.required_fields contains 'street_address' %} (optional){% endunless %}:</label>
+      <input type="text" id="form-street_address" name="signature[street_address]" placeholder="Street address{% unless page.required_fields contains 'street_address' %} (optional){% endunless %}"{% if page.required_fields contains 'street_address' %} required{% endif%} />
+      {% endif %}
+
+      {% if page.additional_fields contains 'city' %}
+      <label for="form-city">City{% unless page.required_fields contains 'city' %} (optional){% endunless %}:</label>
+      <input type="text" id="form-city" name="signature[city]" placeholder="City{% unless page.required_fields contains 'city' %} (optional){% endunless %}" {% if page.required_fields contains 'city' %} required{% endif %} />
+      {% endif %}
+
+      <label for="form-zip_code">{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code:</label>
+      <input type="text" id="form-zip_code" name="signature[zip_code]" placeholder="{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code" required/>
+
+      {% if page.additional_fields contains comments %}
+      <textarea cols="40" id="form-comments" name="signature[message_to_target]" placeholder="Comments" rows="6"></textarea>
+      {% endif %}
+
+      <label for="country">
+        Not in {{ site.data.countries[page.target_country] }}?
+      </label>
+
+      <select name="signature[country]" id="country">
+        {% for country in site.data.countries %}
+        <option value="{{ country[0] }}"{% if country[0] == page.target_country %} selected{% endif %}>{{ country[1] }}</option>{% endfor %}
+      </select>
+
+      <input type="hidden" name="signature[country]" value="US"/>
+      <input type="hidden" name="utf8" value="✓">
+      <input type="hidden" name="authenticity_token" value="0T4Obtb0NSc88GcP+W4S67iTV1B9UhTVWbk6UjKj7+o="/>
+      <input type="hidden" name="subscription[sub_group_id]" value="13162">
+      <input type="hidden" name="subscription[http_referer]" value="{{ site.url }}"/>
+      <input type="hidden" name="subscription[source]" value="www"/>
+      {% capture tags %}{% for tag in page.tags %}&quot;{{ tag }}&quot;{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+      <input type="hidden" name="subscription[tag_list]" value="[{{ tags }}]"/>
+      <input type="submit" name="commit" value="Take action"/>
+      {% if page.opt_in == true %}
+      <input type="hidden" name="subscription[group]" value="13162"/>
+      <a href="https://fightforthefuture.org">Fight for the Future</a> will
+      email you with campaign updates.
+      (<a href="https://fightforthefuture.org/privacy">privacy policy</a>)
+      {% else %}
+      <label for="opt-in">
+        <input type="checkbox" name="subscription[group]" value="13162" id="opt-in" checked="checked"/>
+        <a href="https://fightforthefuture.org">Fight for the Future</a>
+        will email you with campaign updates.
+        (<a href="https://fightforthefuture.org/privacy">privacy policy</a>)
+      </label>
+      {% endif %}
+    </form>
+  </section>
+  <article class="petition-info">
+    {{ content }}
+  </article>
+</main>
+
 {% include an-petitions/share-this-button-links.html %}
 {% include an-petitions/an-footer-style-1.html %}
