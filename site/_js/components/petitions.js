@@ -207,7 +207,6 @@ window.components.petitions = function (doc, win) {
       signatureSubmission = new XMLHttpRequest(),
       petitionSignaturePayload = {
         identifier: objectIdentifier,
-        referrer: win.location.toString(),
         website: win.location.origin,
         ZIP: doc.getElementById('form-zip_code').value,
         country: doc.getElementById('select-country').value,
