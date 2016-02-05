@@ -3,6 +3,7 @@ window.components.petitions = function (doc, win) {
   "use strict";
 
   var
+    loadingModal,
     apiHost = doc.forms[0].dataset.host,
     body = doc.getElementsByTagName('body')[0],
     objectIdentifier = false,
@@ -154,8 +155,34 @@ window.components.petitions = function (doc, win) {
     }
   }
 
-  function handleSigningError(error) {
-    console.log(error);
+  function handleSigningError(e) {
+    /**
+     * Figures out what to say at just the right moment
+     * @param {event|XMLHttpRequest} e - Might be an event, might be a response
+     * from an XMLHttpRequest
+     * */
+
+    loadingModal.hide();
+
+    var
+      errorMessageContainer = $c('div'),
+      errorMessage = $c('h2'),
+      errorMessageInfo = $c('p');
+
+    errorMessage.textContent = 'Something went wrong';
+    if (e.type) {
+      errorMessageInfo.textContent = 'There seems to be a problem somewhere in between your computer and our server. Might not be a bad idea to give it another try.';
+    } else if (e.status) {
+      errorMessageInfo.textContent = '(the nerdy info is that the server returned a status of "' + e.status + '" and said "' + e.statusText + '".)'
+    } else {
+      errorMessageInfo.textContent = 'this seems to be a weird error. the nerds have been alerted.';
+    }
+
+    errorMessageContainer.appendChild(errorMessage);
+    errorMessageContainer.appendChild(errorMessageInfo);
+    new win.controllers.modals.PlainModalController({
+      modal_content: errorMessageContainer
+    });
   }
 
   function submitForm(event) {
@@ -171,6 +198,9 @@ window.components.petitions = function (doc, win) {
     }
 
     var
+      loadingContainer = $c('div'),
+      loadingCopy = $c('h2'),
+      loadingSpinner = $c('div'),
       signatureSubmission = new XMLHttpRequest(),
       petitionSignaturePayload = {
         identifier: objectIdentifier.split(':')[1],
@@ -181,6 +211,13 @@ window.components.petitions = function (doc, win) {
         email: doc.getElementById('form-email').value,
         tags: JSON.parse(doc.querySelector('[name="subscription[tag_list]"]').value)
       };
+
+    loadingSpinner.classList.add('circle-spinner', 'large');
+    loadingCopy.textContent = 'Hang on a tick, reticulating splines…';
+
+    loadingContainer.classList.add('loading');
+    loadingContainer.appendChild(loadingCopy);
+    loadingContainer.appendChild(loadingSpinner);
 
     if (doc.getElementById('opt-in').checked === false &&
       doc.getElementById('opt-in').getAttribute('type') === 'checkbox') {
@@ -204,19 +241,31 @@ window.components.petitions = function (doc, win) {
     }
 
     signatureSubmission.open('POST', doc.forms[0].dataset.host + '/signature', true);
-    signatureSubmission.setRequestHeader('Content-Type', 'application/json');
 
-    signatureSubmission.addEventListener('load', function () {
-      if (signatureSubmission.status >= 200 && signatureSubmission.status < 400) {
-        new win.controllers.modals.ShareDaisyModalController({
-          modal_content: '<h2>Thanks for signing</h2>\n<p>Now, share this page to spread the word.</p>\n<p><small>…or, <a href="https://donate.fightforthefuture.org/?amount=5&frequency=just-once">chip in $5</a> to help us spread the message.</small></p>'
-        });
-      } else {
-        handleSigningError();
-      }
+    loadingModal = new win.controllers.modals.PlainModalController({
+      modal_content: loadingContainer
     });
 
+    signatureSubmission.setRequestHeader('Content-Type', 'application/json');
     signatureSubmission.addEventListener('error', handleSigningError);
+    signatureSubmission.addEventListener('load', function (e) {
+      if (signatureSubmission.status >= 200 && signatureSubmission.status < 400) {
+
+        var
+          modalContent = $c('div');
+
+        modalContent.innerHTML = '<h2>Thanks for signing</h2>\n<p>Now, share this page to spread the word.</p>\n<p><small>…or, <a href="https://donate.fightforthefuture.org/?amount=5&frequency=just-once">chip in $5</a> to help us spread the message.</small></p>';
+        modalContent.appendChild(doc.getElementById('share-modal'));
+
+        loadingModal.hide();
+        new win.controllers.modals.PlainModalController({
+          modal_content: modalContent
+        });
+
+      } else {
+        handleSigningError(signatureSubmission);
+      }
+    });
     signatureSubmission.send(JSON.stringify(petitionSignaturePayload));
   }
 
@@ -233,12 +282,6 @@ window.components.petitions = function (doc, win) {
     requestAPIInfo();
     readMoreButtons();
     addEventListeners();
-
-    /*
-     new win.controllers.modals.ShareDaisyModalController({
-     modal_content: '<h2>Thanks for signing</h2>\n<p>Now, share this page to spread the word.</p>\n<p><small>…or, <a href="https://donate.fightforthefuture.org/?amount=5&frequency=just-once&utm">chip in $5</a> to help us spread the message.</small></p>'
-     });
-     */
   }
 
   init();
