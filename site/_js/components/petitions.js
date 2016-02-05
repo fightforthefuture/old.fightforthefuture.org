@@ -182,8 +182,9 @@ window.components.petitions = function (doc, win) {
         tags: JSON.parse(doc.querySelector('[name="subscription[tag_list]"]').value)
       };
 
-    if (doc.getElementById('opt-in').checked !== false) {
-      petitionSignaturePayload.optin = 'subscribed';
+    if (doc.getElementById('opt-in').checked === false &&
+      doc.getElementById('opt-in').getAttribute('type') === 'checkbox') {
+      petitionSignaturePayload.noOptIn = true;
     }
 
     if (doc.getElementById('form-street_address')) {
