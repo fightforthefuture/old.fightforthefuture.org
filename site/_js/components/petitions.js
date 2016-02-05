@@ -1,5 +1,10 @@
 window.components = window.components || {};
 window.components.petitions = function (doc, win) {
+  /**
+   * Retrieves petition data from Action Network API, then submits signature
+   * @param {object} doc - Document object
+   * @param {object} win - Window object
+   * */
   "use strict";
 
   var
@@ -46,8 +51,8 @@ window.components.petitions = function (doc, win) {
       var
         commafiedNumber = numberCommafier(value);
 
-      progressbar.setAttribute('max', max);
-      progressbar.setAttribute('value', value);
+      progressbar.setAttribute('max', max.toString(10));
+      progressbar.setAttribute('value', value.toString(10));
       progressbar.setAttribute('title', commafiedNumber + ' signatures');
       doc.getElementById('total-sigs').innerText = commafiedNumber;
       doc.getElementById('sigs-to-go').innerText = numberCommafier(targetGoal - value) + ' needed to reach ' + numberCommafier(targetGoal);
@@ -119,11 +124,10 @@ window.components.petitions = function (doc, win) {
     anRequest.send();
   }
 
-  function updateZIPPlaceholder(event) {
+  function updateZIPPlaceholder() {
     /**
      * Updates placeholder on ZIP/Post Code field to be appropriate for country
      * selected
-     * @param {event} e - Doesn't do anything atm.
      * */
     var
       ZIPLabel = doc.getElementById('form-zip_code');
@@ -135,11 +139,10 @@ window.components.petitions = function (doc, win) {
     }
   }
 
-  function toggleCountryField(event) {
+  function toggleCountryField() {
     /**
      * Hides the label and shows the select when someone changes their signature
      * country.
-     * @param {event} e - Doesn't do anything atm.
      * */
 
     if (countryInput.getAttribute('name')) {
@@ -203,7 +206,7 @@ window.components.petitions = function (doc, win) {
       loadingSpinner = $c('div'),
       signatureSubmission = new XMLHttpRequest(),
       petitionSignaturePayload = {
-        identifier: objectIdentifier.split(':')[1],
+        identifier: objectIdentifier,
         referrer: win.location.toString(),
         website: win.location.origin,
         ZIP: doc.getElementById('form-zip_code').value,
