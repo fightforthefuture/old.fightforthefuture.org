@@ -30,49 +30,11 @@
   }
 
   h1 {
-    color: #2c3650;
+    color: @blue-850;
   }
 
   strong {
     font-weight: bold;
-  }
-
-  input {
-    &[type="text"],
-    &[type="email"] {
-      .text-form-elements();
-    }
-    &[type="submit"] {
-      background-color: #f5315f;
-      border: none;
-      bottom: -6rem;
-      color: @white;
-      cursor: pointer;
-      font-family: @body-font;
-      font-size: 2.4rem;
-      font-weight: 900;
-      left: 0;
-      letter-spacing: 1px;
-      padding: 1.4rem 0;
-      position: absolute;
-      right: 0;
-      text-transform: uppercase;
-      transition: background-color 300ms, bottom 100ms;
-      width: 100%;
-      &:focus {
-        outline: 0;
-      }
-      &:hover {
-        background-color: darken(#f5315f, 10%);
-      }
-      &:active {
-        bottom: -6.1rem;
-      }
-    }
-  }
-
-  textarea {
-    .text-form-elements();
   }
 
   a {
@@ -82,6 +44,12 @@
     &:hover, &:active {
       text-decoration: underline;
     }
+  }
+
+  article {
+    overflow: hidden;
+    padding: 0 1rem;
+
   }
 
   h1 {
@@ -98,7 +66,7 @@
   }
 
   blockquote {
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -108,7 +76,7 @@
 }
 
 .heart-progress-inner() {
-  background-image: linear-gradient(-45deg, hsla(0, 0%, 100%, .2) 25%, transparent 0, transparent 50%, hsla(0, 0%, 100%, .2) 0, hsla(0, 0%, 100%, .2) 75%, transparent 0, transparent), linear-gradient(90deg, #f1453b, firebrick);
+  background-image: linear-gradient(-45deg, hsla(0, 0%, 100%, .2) 25%, transparent 0, transparent 50%, hsla(0, 0%, 100%, .2) 0, hsla(0, 0%, 100%, .2) 75%, transparent 0, transparent), linear-gradient(90deg, @red-100, firebrick);
   background-size: 3.5rem 3.7rem, 100%;
   border-radius: 0.5rem;
 }
@@ -152,72 +120,9 @@
   text-align: right;
 }
 
-.petition-text {
-  background-color: #2F3C5B;
-  padding: 1.5rem;
-  text-align: center;
-}
-
-.petition-form {
-  background-color: #2A3857;
-  margin-bottom: 8rem;
-  padding: 1.5rem;
-  position: relative;
-
-  @media screen and (min-width: @large-phone) {
-    margin-bottom: 5rem;
-  }
-
-  label {
-    display: block;
-    height: 0;
-    overflow: hidden;
-  }
-
-  [for="opt-in"] {
-    font-size: 0.75em;
-    font-weight: 300;
-    height: auto;
-    margin: 1rem auto 0.5rem;
-    text-align: center;
-    a {
-      color: fade(@white, 90%);
-      &:hover, &:active, &:focus {
-        color: @white;
-      }
-    }
-  }
-
-  [for="select-country"] {
-    cursor: pointer;
-    font-size: 0.85em;
-    font-style: italic;
-    height: auto;
-    margin: 1.5rem auto 0.5rem;
-    text-align: center;
-    &:hover, &:active, &:focus {
-      text-decoration: underline;
-    }
-    &.hidden {
-      height: 0;
-    }
-  }
-
-  #country {
-    display: none;
-    margin: 0 auto;
-    &.visible {
-      display: block;
-    }
-  }
-
-  select {
-    max-width: 100%;
-  }
-}
-
 .petition-box {
   background-color: @blue-800;
+  border-bottom: @red-100 solid 6rem;
   color: @white;
   margin: 2.5rem auto;
 
@@ -228,7 +133,100 @@
   }
 }
 
-.petition-info {
-  overflow: hidden;
-  padding: 0 1rem;
+.petition-text {
+  padding: 1.5rem 1.5rem 0;
+  text-align: center;
+}
+
+.petition-form {
+  background-color: fade(@black, 25%);
+  opacity: 1;
+  padding: 2rem 1.5rem 1.5rem;
+  position: relative;
+  transition: opacity 250ms, visibility 0ms 300ms;
+  visibility: visible;
+
+  &.submitted {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  textarea {
+    .text-form-elements();
+  }
+
+  label {
+    display: block;
+    height: 0;
+    font-size: 0.7em;
+    overflow: hidden;
+  }
+
+  [type="text"],
+  [type="email"] {
+    .text-form-elements();
+  }
+  [type="submit"] {
+    background-color: @red-100;
+    border: none;
+    bottom: -6rem;
+    color: @white;
+    cursor: pointer;
+    font-family: @body-font;
+    font-size: 2.4rem;
+    font-weight: 900;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 1.4rem 0;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    transition: background-color 300ms, bottom 100ms;
+    width: 100%;
+    &:focus {
+      outline: 0;
+    }
+    &:hover {
+      background-color: darken(@red-100, 10%);
+    }
+    &:active {
+      bottom: -6.1rem;
+    }
+  }
+
+  [for="opt-in"], [for="select-country"] {
+    cursor: pointer;
+    height: auto;
+    margin: 1rem auto 0.5rem;
+    text-align: center;
+  }
+
+  [for="opt-in"] {
+    font-weight: 300;
+    a {
+      color: fade(@white, 90%);
+      &:hover, &:active, &:focus {
+        color: @white;
+      }
+    }
+  }
+
+  [for="select-country"] {
+    font-style: italic;
+    text-align: center;
+    &:hover, &:active, &:focus {
+      text-decoration: underline;
+    }
+    &.hidden {
+      height: 0;
+    }
+  }
+  [name="select-country"] {
+    display: none;
+    margin: 0 auto;
+    max-width: 100%;
+    &.visible {
+      display: block;
+    }
+  }
 }
