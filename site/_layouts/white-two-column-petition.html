@@ -89,18 +89,5 @@ class: clean-edge petition
   </article>
 </main>
 
-{% include an-petitions/share-this-button-links.html %}
+{% include an-petitions/share-this-button-links.html element_id='share-modal' %}
 {% include an-petitions/an-footer-style-1.html %}
-
-{% capture tweet %}
-{% if page.tweet %}
-  {{ page.tweet }}
-{% else %}
-  {{ site.tweet }}
-{% endif %}
-{% endcapture %}
-
-<section id="share-modal"
-  data-tweet="{{ tweet | strip_newlines | strip | cgi_escape }}"
-  data-share-url="{{ site.url | cgi_escape }}{{ page.url | cgi_escape }}">
-</section>

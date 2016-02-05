@@ -5,7 +5,8 @@
 {{ site.tweet }}
 {% endif %}
 {% endcapture %}
-<section class="share-this-button-links">
+
+<section class="share-this-button-links"{%if include.element_id %} id="{{ include.element_id }}"{% endif %}>
   <a class="share-this-fb" href="https://facebook.com/sharer.php?u={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}">
     Share this
   </a>
