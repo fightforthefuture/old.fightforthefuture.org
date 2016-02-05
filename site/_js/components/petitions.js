@@ -9,9 +9,11 @@ window.components.petitions = function (doc, win) {
 
   var
     loadingModal,
+    objectIdentifier = false,
     apiHost = doc.forms[0].dataset.host,
     body = doc.getElementsByTagName('body')[0],
-    objectIdentifier = false,
+    petitionSignatureForm = doc.forms[0],
+    submitButton = body.querySelector('[type="submit"]'),
     countryInput = doc.getElementById('hidden-country'),
     countrySelect = doc.getElementById('select-country'),
     countryLabel = doc.querySelector('[for="select-country"]');
@@ -115,7 +117,7 @@ window.components.petitions = function (doc, win) {
 
         objectIdentifier = apiData.objectID;
         progressBar(apiData.signatures, apiData.goal);
-        doc.forms[0].setAttribute('action', apiData.action);
+        petitionSignatureForm.setAttribute('action', apiData.action);
       } else {
         handleProgressBarError();
       }
@@ -145,17 +147,10 @@ window.components.petitions = function (doc, win) {
      * country.
      * */
 
-    if (countryInput.getAttribute('name')) {
-      countryInput.removeAttribute('name');
-      countrySelect.setAttribute('name', 'signature[country]');
-      countrySelect.classList.add('hidden');
-      countryLabel.classList.remove('hidden');
-    } else {
-      countrySelect.removeAttribute('name');
-      countryInput.setAttribute('name', 'signature[country]');
-      countrySelect.classList.remove('hidden');
-      countryLabel.classList.add('hidden');
-    }
+    countryInput.parentNode.removeChild(countryInput);
+    countrySelect.setAttribute('name', 'signature[country]');
+    countrySelect.classList.add('visible');
+    countryLabel.classList.add('hidden');
   }
 
   function handleSigningError(e) {
@@ -186,6 +181,9 @@ window.components.petitions = function (doc, win) {
     new win.controllers.modals.PlainModalController({
       modal_content: errorMessageContainer
     });
+
+    petitionSignatureForm.classList.remove('submitted');
+    submitButton.removeAttribute('disabled');
   }
 
   function submitForm(event) {
@@ -201,56 +199,77 @@ window.components.petitions = function (doc, win) {
     }
 
     var
-      loadingContainer = $c('div'),
-      loadingCopy = $c('h2'),
-      loadingSpinner = $c('div'),
       signatureSubmission = new XMLHttpRequest(),
-      petitionSignaturePayload = {
-        identifier: objectIdentifier,
-        website: win.location.origin,
-        ZIP: doc.getElementById('form-zip_code').value,
-        country: doc.getElementById('select-country').value,
-        email: doc.getElementById('form-email').value,
-        tags: JSON.parse(doc.querySelector('[name="subscription[tag_list]"]').value)
-      };
+      loadingScreen = preSubmit();
 
-    loadingSpinner.classList.add('circle-spinner', 'large');
-    loadingCopy.textContent = 'Hang on a tick, reticulating splines…';
+    function compilePayload() {
+      /**
+       * Compiles the form data into a JSON payload for Ajax submission
+       * @return {object} petitionFormData - just the info the API needs
+       * */
 
-    loadingContainer.classList.add('loading');
-    loadingContainer.appendChild(loadingCopy);
-    loadingContainer.appendChild(loadingSpinner);
+      var
+        petitionFormData = {
+          identifier: objectIdentifier,
+          website: win.location.origin,
+          ZIP: doc.getElementById('form-zip_code').value,
+          country: countrySelect.value,
+          email: doc.getElementById('form-email').value,
+          tags: JSON.parse(doc.querySelector('[name="subscription[tag_list]"]').value)
+        };
 
-    if (doc.getElementById('opt-in').checked === false &&
-      doc.getElementById('opt-in').getAttribute('type') === 'checkbox') {
-      petitionSignaturePayload.noOptIn = true;
+      if (doc.getElementById('opt-in').checked === false &&
+        doc.getElementById('opt-in').getAttribute('type') === 'checkbox') {
+        petitionFormData.noOptIn = true;
+      }
+
+      if (doc.getElementById('form-street_address')) {
+        petitionFormData.address = [doc.getElementById('form-street_address').value];
+      }
+
+      if (doc.getElementById('form-first_name')) {
+        petitionFormData.name = doc.getElementById('form-first_name').value;
+      }
+
+      if (doc.getElementById('form-city')) {
+        petitionFormData.city = doc.getElementById('form-city').value;
+      }
+
+      if (doc.getElementById('form-comments')) {
+        petitionFormData.comments = doc.getElementById('form-comments').value;
+      }
+
+      return JSON.stringify(petitionFormData);
     }
 
-    if (doc.getElementById('form-street_address')) {
-      petitionSignaturePayload.address = [doc.getElementById('form-street_address').value];
+    function preSubmit() {
+      /**
+       * Fires up the loading modal and disables the form
+       * @return {object} - modal with spinner
+       * */
+      var
+        loadingContainer = $c('div'),
+        loadingCopy = $c('h2'),
+        loadingSpinner = $c('div');
+
+      loadingSpinner.classList.add('circle-spinner', 'large');
+      loadingCopy.textContent = 'Hang on a tick, reticulating splines…';
+
+      loadingContainer.classList.add('loading');
+      loadingContainer.appendChild(loadingCopy);
+      loadingContainer.appendChild(loadingSpinner);
+      petitionSignatureForm.classList.add('submitted');
+      submitButton.setAttribute('disabled', true);
+      return loadingModal = new win.controllers.modals.PlainModalController({
+        modal_content: loadingContainer
+      });
     }
 
-    if (doc.getElementById('form-first_name')) {
-      petitionSignaturePayload.name = doc.getElementById('form-first_name').value;
-    }
+    function loadSignatureResponse() {
+      /**
+       * Does the thing after we get a response from the API server
+       * */
 
-    if (doc.getElementById('form-city')) {
-      petitionSignaturePayload.city = doc.getElementById('form-city').value;
-    }
-
-    if (doc.getElementById('form-comments')) {
-      petitionSignaturePayload.comments = doc.getElementById('form-comments').value;
-    }
-
-    signatureSubmission.open('POST', doc.forms[0].dataset.host + '/signature', true);
-
-    loadingModal = new win.controllers.modals.PlainModalController({
-      modal_content: loadingContainer
-    });
-
-    signatureSubmission.setRequestHeader('Content-Type', 'application/json');
-    signatureSubmission.addEventListener('error', handleSigningError);
-    signatureSubmission.addEventListener('load', function (e) {
       if (signatureSubmission.status >= 200 && signatureSubmission.status < 400) {
 
         var
@@ -259,7 +278,7 @@ window.components.petitions = function (doc, win) {
         modalContent.innerHTML = '<h2>Thanks for signing</h2>\n<p>Now, share this page to spread the word.</p>\n<p><small>…or, <a href="https://donate.fightforthefuture.org/?amount=5&frequency=just-once">chip in $5</a> to help us spread the message.</small></p>';
         modalContent.appendChild(doc.getElementById('share-modal'));
 
-        loadingModal.hide();
+        loadingScreen.hide();
         new win.controllers.modals.PlainModalController({
           modal_content: modalContent
         });
@@ -267,8 +286,13 @@ window.components.petitions = function (doc, win) {
       } else {
         handleSigningError(signatureSubmission);
       }
-    });
-    signatureSubmission.send(JSON.stringify(petitionSignaturePayload));
+    }
+
+    signatureSubmission.open('POST', petitionSignatureForm.dataset.host + '/signature', true);
+    signatureSubmission.setRequestHeader('Content-Type', 'application/json');
+    signatureSubmission.addEventListener('error', handleSigningError);
+    signatureSubmission.addEventListener('load', loadSignatureResponse);
+    signatureSubmission.send(compilePayload());
   }
 
   function addEventListeners() {
@@ -277,7 +301,7 @@ window.components.petitions = function (doc, win) {
      * */
     countryLabel.addEventListener('click', toggleCountryField);
     countrySelect.addEventListener('change', updateZIPPlaceholder);
-    doc.forms[0].addEventListener('submit', submitForm);
+    petitionSignatureForm.addEventListener('submit', submitForm);
   }
 
   function init() {
