@@ -1,3 +1,13 @@
+var Habitat = require('habitat');
+
+Habitat.load('.env');
+
+var
+  env = new Habitat('', {
+    url: 'http://0.0.0.0:9084',
+    petitions_api: 'http://0.0.0.0:9104'
+  });
+
 module.exports = function (grunt) {
   require('time-grunt')(grunt);
   require('jit-grunt')(grunt, {});
@@ -35,6 +45,11 @@ module.exports = function (grunt) {
       build: {
         options: {
           config: '_config.yml,_config.build.yml'
+        }
+      },
+      review: {
+        options: {
+          raw: 'url: "' + env.get('url') + '"\npetitions_api: "' + env.get('petitions_api') + '"'
         }
       },
       server: {
@@ -205,17 +220,9 @@ module.exports = function (grunt) {
     },
 
     concurrent: {
-      server: [
-        'copy:assets',
-        'execute:sync_tumblr',
-        'jekyll:server',
-        'less:css',
-        'concat:javascript'
-      ],
       build: [
         'copy:assets',
         'execute:sync_tumblr',
-        'jekyll:build',
         'less:css',
         'concat:javascript'
       ]
@@ -224,13 +231,22 @@ module.exports = function (grunt) {
 
   grunt.registerTask('dev', [
     'clean:init',
-    'concurrent:server',
+    'jekyll:server',
+    'concurrent:build',
     'connect:local',
     'watch'
   ]);
 
   grunt.registerTask('build', [
     'clean:init',
+    'jekyll:build',
+    'concurrent:build',
+    'postcss:build'
+  ]);
+
+  grunt.registerTask('review', [
+    'clean:init',
+    'jekyll:review',
     'concurrent:build',
     'postcss:build'
   ]);
