@@ -25,8 +25,8 @@
     "verbose": "grunt build -vvv",
     "build": "grunt build",
     "deploy": "./deploy-ghpages.sh",
-    "prereview": "grunt review",
-    "review": "node review-apps"
+    "review": "grunt review",
+    "postreview": "node review-apps"
   },
   "dependencies": {
     "autoprefixer": "^6.1.0",
