@@ -49,7 +49,7 @@ module.exports = function (grunt) {
       },
       review: {
         options: {
-          raw: 'url: "' + env.get('url') + '"\npetitions_api: "' + env.get('petitions_api') + '"'
+          raw: 'url: "' + (env.get('url') || ('http://' + env.get('heroku').app_name + '.herokuapp.com') || 'http://0.0.0.0:9084') + '"\npetitions_api: "' + env.get('petitions_api') + '"'
         }
       },
       server: {
