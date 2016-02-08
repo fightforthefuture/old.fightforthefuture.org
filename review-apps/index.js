@@ -12,3 +12,4 @@ var
 
 app.use(express.static(path.join(__dirname, '../public')));
 app.listen(env.get('port'));
+console.log('Server running on port ' + env.get('port'));

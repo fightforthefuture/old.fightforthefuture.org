@@ -65,7 +65,7 @@ module.exports = function (grunt) {
     },
 
     copy: {
-      assets: {
+      legacy: {
         files: [
           {
             expand: true,
@@ -73,9 +73,21 @@ module.exports = function (grunt) {
             cwd: '<%= site.app %>',
             src: [
               'images/**/*',
-              'img/**/*',
               'css/**/*',
               'js/**/*'
+            ],
+            dest: '<%= site.dist %>'
+          }
+        ]
+      },
+      assets: {
+        files: [
+          {
+            expand: true,
+            dot: true,
+            cwd: '<%= site.app %>',
+            src: [
+              'img/**/*'
             ],
             dest: '<%= site.dist %>'
           }
@@ -161,10 +173,17 @@ module.exports = function (grunt) {
           reload: true
         }
       },
+      legacy: {
+        files: [
+          '<%= site.app %>/images/**/*',
+          '<%= site.app %>/css/**/*',
+          '<%= site.app %>/js/**/*'
+        ],
+        tasks: ['copy:legacy']
+      },
       images: {
         files: [
-          '<%= site.app %>/images/**/*.*',
-          '<%= site.app %>/img/**/*.*' // late 2015 attempt to clean house
+          '<%= site.app %>/img/**/*.*'
         ],
         tasks: ['copy:assets']
       },
@@ -221,7 +240,7 @@ module.exports = function (grunt) {
 
     concurrent: {
       build: [
-        'copy:assets',
+        'copy',
         'execute:sync_tumblr',
         'less:css',
         'concat:javascript'
