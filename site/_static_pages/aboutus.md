@@ -109,10 +109,10 @@ Our accomplishments are testament to the notion that with the right approach and
 [vk1]: http://vasjenkatro.com/
 [vk2]: http://dribbble.com/Katro/
 [vk3]: https://twitter.com/VasjenKatro/
-[cf0]: /img/page/aboutus/teampic/charlie.jpg
+[cf0]: /img/page/aboutus/teampic/charlie.png
 [cf1]: https://twitter.com/DigitalCharlie_
 [cf2]: http://peoplesclimate.org/wrap-up/
-[ab0]: /img/page/aboutus/teampic/aki.jpg
+[ab0]: /img/page/aboutus/teampic/aki.png
 [ab1]: https://akibraun.com/
 [ab2]: https://twitter.com/gesa/
 
