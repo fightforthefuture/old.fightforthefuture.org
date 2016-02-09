@@ -1,3 +1,13 @@
+var Habitat = require('habitat');
+
+Habitat.load('.env');
+
+var
+  env = new Habitat('', {
+    url: 'http://0.0.0.0:9084',
+    petitions_api: 'http://0.0.0.0:9104'
+  });
+
 module.exports = function (grunt) {
   require('time-grunt')(grunt);
   require('jit-grunt')(grunt, {});
@@ -37,6 +47,11 @@ module.exports = function (grunt) {
           config: '_config.yml,_config.build.yml'
         }
       },
+      review: {
+        options: {
+          raw: 'url: "' + (env.get('url') || ('http://' + env.get('heroku').app_name + '.herokuapp.com') || 'http://0.0.0.0:9084') + '"\npetitions_api: "' + env.get('petitions_api') + '"'
+        }
+      },
       server: {
         options: {
           config: '_config.yml'
@@ -50,7 +65,7 @@ module.exports = function (grunt) {
     },
 
     copy: {
-      assets: {
+      legacy: {
         files: [
           {
             expand: true,
@@ -58,9 +73,21 @@ module.exports = function (grunt) {
             cwd: '<%= site.app %>',
             src: [
               'images/**/*',
-              'img/**/*',
               'css/**/*',
               'js/**/*'
+            ],
+            dest: '<%= site.dist %>'
+          }
+        ]
+      },
+      assets: {
+        files: [
+          {
+            expand: true,
+            dot: true,
+            cwd: '<%= site.app %>',
+            src: [
+              'img/**/*'
             ],
             dest: '<%= site.dist %>'
           }
@@ -146,10 +173,17 @@ module.exports = function (grunt) {
           reload: true
         }
       },
+      legacy: {
+        files: [
+          '<%= site.app %>/images/**/*',
+          '<%= site.app %>/css/**/*',
+          '<%= site.app %>/js/**/*'
+        ],
+        tasks: ['copy:legacy']
+      },
       images: {
         files: [
-          '<%= site.app %>/images/**/*.*',
-          '<%= site.app %>/img/**/*.*' // late 2015 attempt to clean house
+          '<%= site.app %>/img/**/*.*'
         ],
         tasks: ['copy:assets']
       },
@@ -164,7 +198,7 @@ module.exports = function (grunt) {
       jekyll: {
         files: [
           '_*.*',
-          '<%= site.app %>/**/*.{xml,html,yml,md,mkd,markdown,txt}'
+          '<%= site.app %>/**/*.{xml,html,yml,md,mkd,markdown,rb,txt}'
         ],
         tasks: ['jekyll:server']
       }
@@ -179,9 +213,10 @@ module.exports = function (grunt) {
         files: [
           {
             src: [
-              '<%= site.app %>/_js/controllers/**/*.js',
               '<%= site.app %>/_js/models/**/*.js',
               '<%= site.app %>/_js/views/**/*.js',
+              '<%= site.app %>/_js/controllers/**/*.js',
+              '<%= site.app %>/_js/components/**/*.js',
               '<%= site.app %>/_js/main.js'
             ],
             dest: '<%= site.dist %>/js/core.js'
@@ -204,17 +239,9 @@ module.exports = function (grunt) {
     },
 
     concurrent: {
-      server: [
-        'copy:assets',
-        'execute:sync_tumblr',
-        'jekyll:server',
-        'less:css',
-        'concat:javascript'
-      ],
       build: [
-        'copy:assets',
+        'copy',
         'execute:sync_tumblr',
-        'jekyll:build',
         'less:css',
         'concat:javascript'
       ]
@@ -223,13 +250,22 @@ module.exports = function (grunt) {
 
   grunt.registerTask('dev', [
     'clean:init',
-    'concurrent:server',
+    'jekyll:server',
+    'concurrent:build',
     'connect:local',
     'watch'
   ]);
 
   grunt.registerTask('build', [
     'clean:init',
+    'jekyll:build',
+    'concurrent:build',
+    'postcss:build'
+  ]);
+
+  grunt.registerTask('review', [
+    'clean:init',
+    'jekyll:review',
     'concurrent:build',
     'postcss:build'
   ]);

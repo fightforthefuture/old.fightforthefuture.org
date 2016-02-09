@@ -1,6 +1,6 @@
 {
   "name": "fftf-org",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Primary website for Fight for the Future",
   "main": "app",
   "license": "GPL-3.0",
@@ -16,16 +16,17 @@
     "npm": "^3.4.0"
   },
   "private": "true",
-  "repository": "fightforthefuture/fftf-www",
+  "repository": "fightforthefuture/fightforthefuture.github.io",
   "scripts": {
     "preinstall": "gem install bundler",
-    "postinstall": "bundle && grunt build",
+    "postinstall": "bundle",
     "start": "grunt",
     "test": "grunt test",
     "verbose": "grunt build -vvv",
     "build": "grunt build",
     "deploy": "./deploy-ghpages.sh",
-    "review": "node review-apps"
+    "review": "grunt review",
+    "postreview": "node review-apps"
   },
   "dependencies": {
     "autoprefixer": "^6.1.0",
@@ -37,14 +38,14 @@
     "grunt-contrib-clean": "^0.7.0",
     "grunt-contrib-concat": "^0.5.0",
     "grunt-contrib-copy": "^0.8.0",
-    "grunt-contrib-less": "^1.1.0",
-    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-contrib-less": "^1.2.0",
+    "grunt-contrib-uglify": "^0.11.1",
     "grunt-execute": "^0.2.2",
     "grunt-jekyll": "^0.4.2",
     "grunt-postcss": "^0.7.1",
     "habitat": "^3.1.2",
     "jit-grunt": "^0.9.1",
-    "request": "^2.67.0",
+    "request": "^2.69.0",
     "time-grunt": "^1.1.0"
   },
   "devDependencies": {
