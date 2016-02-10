@@ -56,9 +56,9 @@ window.components.petitions = function (doc, win) {
       progressbar.setAttribute('max', max.toString(10));
       progressbar.setAttribute('value', value.toString(10));
       progressbar.setAttribute('title', commafiedNumber + ' signatures');
-      doc.getElementById('total-sigs').innerText = commafiedNumber;
-      doc.getElementById('sigs-to-go').innerText = numberCommafier(targetGoal - value) + ' needed to reach ' + numberCommafier(targetGoal);
-      progressbar.innerHTML = commafiedNumber + ' signatures';
+      doc.getElementById('total-sigs').textContent = commafiedNumber;
+      doc.getElementById('sigs-to-go').textContent = numberCommafier(targetGoal - value) + ' needed to reach ' + numberCommafier(targetGoal);
+      progressbar.textContent = commafiedNumber + ' signatures';
     }
 
     animate = setInterval(function () {
@@ -106,7 +106,7 @@ window.components.petitions = function (doc, win) {
      * Builds and sends request to API server
      * */
     var
-      title = doc.getElementById('petition-title').innerText,
+      title = doc.getElementById('petition-title').textContent,
       anRequest = new XMLHttpRequest();
 
     anRequest.open('GET', apiHost + '/petition?title=' + title, true);
