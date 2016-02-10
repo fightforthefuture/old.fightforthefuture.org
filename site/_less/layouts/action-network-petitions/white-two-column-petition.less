@@ -10,6 +10,17 @@
   }
 }
 
+.heart-progress-outer() {
+  background-color: @blue-850;
+  border-radius: 0.4rem;
+}
+
+.heart-progress-inner() {
+  background-image: linear-gradient(-45deg, hsla(0, 0%, 100%, .2) 25%, transparent 0, transparent 50%, hsla(0, 0%, 100%, .2) 0, hsla(0, 0%, 100%, .2) 75%, transparent 0, transparent), linear-gradient(90deg, @red-100, firebrick);
+  background-size: 3.5rem 3.7rem, 100%;
+  border-radius: 0.5rem;
+}
+
 .white-two-column {
   color: @black;
   font-weight: 300;
@@ -62,22 +73,11 @@
   blockquote {
     margin-bottom: 1.5rem;
   }
-}
 
-.heart-progress-outer() {
-  background-color: @blue-850;
-  border-radius: 0.4rem;
-}
-
-.heart-progress-inner() {
-  background-image: linear-gradient(-45deg, hsla(0, 0%, 100%, .2) 25%, transparent 0, transparent 50%, hsla(0, 0%, 100%, .2) 0, hsla(0, 0%, 100%, .2) 75%, transparent 0, transparent), linear-gradient(90deg, @red-100, firebrick);
-  background-size: 3.5rem 3.7rem, 100%;
-  border-radius: 0.5rem;
-}
-
-.signatures {
-  max-width: 34rem;
-  margin: 0 auto 1.5rem;
+  .signatures {
+    max-width: 34rem;
+    margin: 0 auto 1.5rem;
+  }
 
   progress {
     background-color: @blue-850;
@@ -104,45 +104,45 @@
     font-size: 1.4rem;
     font-style: italic;
   }
-}
 
-.progress-top {
-  text-align: left;
-}
-
-.progress-bottom {
-  text-align: right;
-}
-
-.petition-box {
-  background-color: @blue-800;
-  border-bottom: @red-100 solid 6rem;
-  color: @white;
-  margin: 2.5rem auto;
-
-  @media screen and (min-width: @large-phone) {
-    margin-top: 0;
-    min-width: 30rem;
-    width: 34rem;
+  .progress-top {
+    text-align: left;
   }
-}
 
-.petition-text {
-  padding: 1.5rem 1.5rem 0;
-  text-align: center;
-}
+  .progress-bottom {
+    text-align: right;
+  }
 
-.petition-form {
-  background-color: fade(@black, 25%);
-  opacity: 1;
-  padding: 2rem 1.5rem 1.5rem;
-  position: relative;
-  transition: opacity 250ms, visibility 0ms 300ms;
-  visibility: visible;
+  .petition-box {
+    background-color: @blue-800;
+    border-bottom: @red-100 solid 6rem;
+    color: @white;
+    margin: 2.5rem auto;
 
-  &.submitted {
-    opacity: 0;
-    visibility: hidden;
+    @media screen and (min-width: @large-phone) {
+      margin-top: 0;
+      min-width: 30rem;
+      width: 34rem;
+    }
+  }
+
+  .petition-text {
+    padding: 1.5rem 1.5rem 0;
+    text-align: center;
+  }
+
+  .petition-form {
+    background-color: fade(@black, 25%);
+    opacity: 1;
+    padding: 2rem 1.5rem 1.5rem;
+    position: relative;
+    transition: opacity 250ms, visibility 0ms 300ms;
+    visibility: visible;
+
+    &.submitted {
+      opacity: 0;
+      visibility: hidden;
+    }
   }
 
   textarea {
@@ -225,9 +225,9 @@
       display: block;
     }
   }
-}
 
-.petition-info {
-  overflow: hidden;
-  padding: 0 1rem;
+  .petition-info {
+    overflow: hidden;
+    padding: 0 1rem;
+  }
 }

@@ -182,9 +182,7 @@ module.exports = function (grunt) {
         tasks: ['copy:legacy']
       },
       images: {
-        files: [
-          '<%= site.app %>/img/**/*.*'
-        ],
+        files: ['<%= site.app %>/img/**/*.*'],
         tasks: ['copy:assets']
       },
       less: {
