@@ -65,16 +65,20 @@ prose:
     'site/_petitions':
       - name: 'layout'
         field:
+          element: 'hidden'
+          value: 'action-network-petition'
+      - name: 'design'
+        field:
           element: 'select'
           label: 'Template'
           help: 'Choose which template style you want'
           options:
             - name: 'White Two Column'
-              value: 'white-two-column-petition'
-#            - name: 'Big blue bar'
-#              value: 'big-blue-bar-petition'
-#            - name: 'Big blue image'
-#              value: 'big-blue-image-petition'
+              value: 'white-two-column'
+            - name: 'Big Snowden Head'
+              value: 'big-snowden-head'
+            - name: 'Blue Two Column'
+              value: 'blue-two-column'
       - name: 'headline'
         field:
           element: 'text'

@@ -1,5 +1,5 @@
 .stickybar {
-  background: #f8fafe;
+  background-color: #f8fafe;
   display: flex;
   height: 5rem;
   justify-content: space-between;
@@ -33,7 +33,7 @@
   a {
     background-color: transparent;
     background-repeat: no-repeat;
-    background-position-x: center;
+    background-position: center;
     display: block;
     font: 0/0 transparent;
     height: 3rem;
@@ -98,3 +98,32 @@
   margin-right: 0.3rem;
 }
 
+.navy-sticky-bar {
+  background-color: @blue-950;
+
+  .stickybar-fftf-logo {
+    background-image: url('/img/brand/512X66_large_white_color.png');
+  }
+
+  .stickybar-facebook-share {
+    background-image: url('/img/share/little-fb-f-white.png');
+    border-right: 0.1rem solid fade(#eaeef7, 80);
+  }
+
+  .stickybar-twitter-share {
+    background-image: url('/img/share/little-tw-t-white.png');
+  }
+
+  .stickybar-donate {
+    background-color: @blue-700;
+    a {
+      &:link, &:visited {
+        color: @white;
+      }
+      &:hover, &:active {
+        color: @white;
+      }
+    }
+  }
+
+}
