@@ -1,5 +1,5 @@
 ---
-layout: "white-two-column-petition"
+layout: "action-network/white-two-column-petition"
 headline: "Nothing to see here: just mass graves of trafficked woman"
 tags:
   - foo

@@ -16,15 +16,7 @@ class: clean-edge petition
       <blockquote>
         {{ page.petition_copy | markdownify }}
       </blockquote>
-      <figure class="signatures">
-        <figcaption class="progress-top">
-          <span id="total-sigs">0</span> supporters
-        </figcaption>
-        <progress id="signatures-progress-bar" value="0" max="25"></progress>
-        <figcaption class="progress-bottom" id="sigs-to-go">
-          25 needed to reach 25
-        </figcaption>
-      </figure>
+      {% include an-petitions/signatures-figure.html split=true %}
     </article>
 
     <form class="petition-form" accept-charset="UTF-8" action="https://actionnetwork.org/petitions/{% if page.petition_slug != '' %}{{ page.petition_slug }}{% else %}{{ page.petition_title | slugify }}{% endif %}/signatures" method="post" data-host="{{ site.petitions_api }}">

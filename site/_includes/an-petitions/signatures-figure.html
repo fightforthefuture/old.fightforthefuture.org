@@ -1,0 +1,16 @@
+<figure class="signatures">
+  <figcaption class="progress-top">
+    <span id="total-sigs">0</span> supporters
+    {% unless include.split %}
+    <span class="progress-bottom" id="sigs-to-go">
+      25 needed to reach 25
+    </span>
+    {% endunless %}
+  </figcaption>
+  <progress id="signatures-progress-bar" value="0" max="25"></progress>
+  {% if include.split %}
+  <figcaption class="progress-bottom" id="sigs-to-go">
+    25 needed to reach 25
+  </figcaption>
+  {% endif %}
+</figure>
