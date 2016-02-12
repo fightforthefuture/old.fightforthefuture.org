@@ -73,34 +73,6 @@ window.components.petitions = function (doc, win) {
     progressBar(972, 1600);
   }
 
-  function readMoreButtons() {
-    /**
-     * Makes content visible!
-     * */
-    var
-      buttons = doc.getElementsByClassName('expand-text'),
-      text = doc.getElementsByClassName('expanded-text'),
-      i = buttons.length;
-
-    function expandText(e) {
-      /**
-       * Changes max-height on a given post.
-       * @param {event} e - Event passed from listener
-       * */
-      var
-        targetOrder = e.target.dataset.order;
-
-      text[targetOrder].style.maxHeight = 10000 + 'px';
-      buttons[targetOrder].setAttribute('class', 'hidden');
-    }
-
-    while (i--) {
-      buttons[i].dataset.order = i;
-      text[i].dataset.order = i;
-      buttons[i].addEventListener('click', expandText);
-    }
-  }
-
   function requestAPIInfo() {
     /**
      * Builds and sends request to API server
@@ -306,7 +278,6 @@ window.components.petitions = function (doc, win) {
 
   function init() {
     requestAPIInfo();
-    readMoreButtons();
     addEventListeners();
   }
 
