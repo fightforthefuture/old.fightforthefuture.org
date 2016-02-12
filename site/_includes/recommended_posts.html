@@ -16,5 +16,8 @@
         <a href="/blog/{{ site.posts[3].path | remove:'_posts/' | remove:'.html'}}">{{ site.posts[3].title }} <span>{{ site.posts[3].date  | date: '%H:%M %Z on %b %-d, %Y' }}</span></a>
       </li>
     {% endif %}
+    <li class="more">
+      <a href="/blog">More posts...</a>
+    </li>
   </ul>
 </div>

@@ -50,3 +50,7 @@
 <link rel="publisher" href="https://plus.google.com/{{ site.author.googleid }}">
 
 <link rel="icon" type="image/png" href="{{ site.url }}{{ site.favicon }}"/>
+
+{% unless page.layout == 'homepage' %}
+<link rel="stylesheet" type="text/css" href="/css/core.css">
+{% endunless %}
