@@ -5,7 +5,7 @@ component-scripts: petitions
 class: clean-edge petition
 ---
 
-<header class="stickybar {{ site.data.layout-designs[page.design].color }}">
+<header class="stickybar {{ page.design }}">
   <span class="stickybar-fftf-logo">
     Fight for the Future
   </span>
@@ -27,10 +27,11 @@ class: clean-edge petition
   </ul>
 </header>
 
-<header class="{{ page.design }}">
+<header class="hero {{ page.design }}">
   <h1>{{ page.headline }}</h1>
 </header>
 
+{% capture fields_class %}length-{{ page.additional_fields | size }}{% endcapture %}
 <main class="{{ page.design }}">
   <section class="petition-box">
     <article class="petition-text">
@@ -50,31 +51,30 @@ class: clean-edge petition
       <progress id="signatures-progress-bar" value="0" max="25"></progress>
     </figure>
 
-   <form id="petition-form" class="petition-form{% if page.additional_fields | size > 0 %} long{% endif %}" accept-charset="UTF-8" action="https://actionnetwork.org/petitions/{% if page.petition_slug != '' %}{{ page.petition_slug }}{% else %}{{ page.petition_title | slugify }}{% endif %}/signatures" method="post" data-host="{{ site.petitions_api }}">
-
+    <form id="petition-form" class="petition-form" accept-charset="UTF-8" action="https://actionnetwork.org/petitions/{% if page.petition_slug != '' %}{{ page.petition_slug }}{% else %}{{ page.petition_title | slugify }}{% endif %}/signatures" method="post" data-host="{{ site.petitions_api }}">
       {% if page.additional_fields contains 'name' %}
-      <label for="form-first_name">Name{% unless page.required_fields contains 'name' %} (optional){% endunless %}:</label>
-      <input type="text" id="form-first_name" name="signature[first_name]" placeholder="Name{% unless page.required_fields contains 'name' %} (optional){% endunless %}" {% if page.required_fields contains 'name' %} required{% endif %}/>
+      <label class="visually-hidden" for="form-first_name">Name{% unless page.required_fields contains 'name' %} (optional){% endunless %}:</label>
+      <input type="text" id="form-first_name" class="name {{ fields_class }}" name="signature[first_name]" placeholder="Name{% unless page.required_fields contains 'name' %} (optional){% endunless %}" {% if page.required_fields contains 'name' %} required{% endif %}/>
       {% endif %}
 
-      <label for="form-email">Email:</label>
-      <input type="email" id="form-email" name="signature[email]" placeholder="Email" required/>
+      <label class="visually-hidden" for="form-email">Email:</label>
+      <input type="email" id="form-email" name="signature[email]" class="email {{ fields_class }}" placeholder="Email" required/>
 
       {% if page.additional_fields contains 'street_address' %}
-      <label for="form-street_address">Street address{% unless page.required_fields contains 'street_address' %} (optional){% endunless %}:</label>
-      <input type="text" id="form-street_address" name="signature[street_address]" placeholder="Street address{% unless page.required_fields contains 'street_address' %} (optional){% endunless %}" {% if page.required_fields contains 'street_address' %} required{% endif %} />
+      <label class="visually-hidden" for="form-street_address">Street address{% unless page.required_fields contains 'street_address' %} (optional){% endunless %}:</label>
+      <input type="text" id="form-street_address" name="signature[street_address]" class="address {{ fields_class }}" placeholder="Street address{% unless page.required_fields contains 'street_address' %} (optional){% endunless %}" {% if page.required_fields contains 'street_address' %} required{% endif %} />
       {% endif %}
 
       {% if page.additional_fields contains 'city' %}
-      <label for="form-city">City{% unless page.required_fields contains 'city' %} (optional){% endunless %}:</label>
-      <input type="text" id="form-city" name="signature[city]" placeholder="City{% unless page.required_fields contains 'city' %} (optional){% endunless %}" {% if page.required_fields contains 'city' %} required{% endif %} />
+      <label class="visually-hidden" for="form-city">City{% unless page.required_fields contains 'city' %} (optional){% endunless %}:</label>
+      <input type="text" id="form-city" name="signature[city]" class="city {{ fields_class }}" placeholder="City{% unless page.required_fields contains 'city' %} (optional){% endunless %}" {% if page.required_fields contains 'city' %} required{% endif %} />
       {% endif %}
 
-      <label for="form-zip_code">{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code:</label>
-      <input type="text" id="form-zip_code" name="signature[zip_code]" placeholder="{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code" required/>
+      <label class="visually-hidden" for="form-zip_code">{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code:</label>
+      <input type="text" id="form-zip_code" name="signature[zip_code]" class="zip {{ fields_class }}" placeholder="{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code" required/>
 
       {% if page.allow_comments %}
-      <textarea cols="40" id="form-comments" name="signature[message_to_target]" placeholder="Comments" rows="6"></textarea>
+      <textarea cols="40" id="form-comments" name="signature[message_to_target]" class="comment" placeholder="Comments" rows="6"></textarea>
       {% endif %}
 
       <label for="select-country">
@@ -97,7 +97,7 @@ class: clean-edge petition
       <input type="hidden" name="subscription[source]" value="www"/>
       {% capture tags %}{% for tag in page.tags %}&quot;{{ tag }}&quot;{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
       <input type="hidden" name="subscription[tag_list]" value="[{{ tags }}]"/>
-      <input type="submit" name="commit" value="Take action"/>
+      <input type="submit" name="commit" class="{{ fields_class }}" value="Take action"/>
     </form>
 
     <label for="opt-in">
@@ -125,34 +125,35 @@ class: clean-edge petition
 {% endif %}
 {% endcapture %}
 
-<section class="share-this-button-links" id="share-modal">
-  <a class="share-this-fb" href="https://facebook.com/sharer.php?u={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}">
-    Share this
-  </a>
-  <a class="share-this-tw" href="https://twitter.com/share?text={{ tweet | strip_newlines | strip | cgi_escape }}&amp;url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}">
-    Tweet this
-  </a>
-  <a class="share-this-donate" href="https://donate.fightforthefuture.org/?utm_source=share-this-buttons&amp;utm_medium=web&amp;utm_campaign={{ page.title | slugify }}">
-    Donate $5
-  </a>
-</section>
+<footer class="action-network-footer {{ page.design }}">
+  <p class="an-footer-cta">Help us spread the word:</p>
+  <section class="share-this-button-links" id="share-modal">
+    <a class="share-this-fb" href="https://facebook.com/sharer.php?u={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}">
+      Share this
+    </a>
+    <a class="share-this-tw" href="https://twitter.com/share?text={{ tweet | strip_newlines | strip | cgi_escape }}&amp;url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}">
+      Tweet this
+    </a>
+    <a class="share-this-donate" href="https://donate.fightforthefuture.org/?utm_source=share-this-buttons&amp;utm_medium=web&amp;utm_campaign={{ page.title | slugify }}">
+      Donate $5
+    </a>
+  </section>
 
-<footer class="an-style-{{ site.data.layout-designs[page.design].footer }}">
-  <div class="an-footer-logo">
-    <a href="/">
+  <section class="footer-meta-links">
+    <a href="/" class="an-footer-logo">
       <h2>Fight for the Future</h2>
     </a>
-  </div>
-  <div class="an-footer-info">
-    <p>
-      For press inquiries, please contact us at:<br/>
-      <a href="tel:+1-978-852-6457">978-852-6457</a>
-      or <a href="tel:+1-617-690-9547">617-690-9547</a>
-      or <a href="mailto:press@fightforthefuture.org">press@fightforthefuture.org</a>
-    </p>
-    <p>
-      For all other inquiries, contact:<br/>
-      <a href="mailto:team@fightforthefuture.org">team@fightforthefuture.org</a>
-    </p>
-  </div>
+    <div class="an-footer-info">
+      <p>
+        For press inquiries, please contact us at:<br/>
+        <a href="tel:+1-978-852-6457">978-852-6457</a>
+        or <a href="tel:+1-617-690-9547">617-690-9547</a>
+        or <a href="mailto:press@fightforthefuture.org">press@fightforthefuture.org</a>
+      </p>
+      <p>
+        For all other inquiries, contact:<br/>
+        <a href="mailto:team@fightforthefuture.org">team@fightforthefuture.org</a>
+      </p>
+    </div>
+  </section>
 </footer>

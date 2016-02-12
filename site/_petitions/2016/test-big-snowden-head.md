@@ -1,6 +1,6 @@
 ---
 layout: "action-network-petitions"
-design: "blue-snowden-head"
+design: "big-snowden-head"
 headline: "Nothing to see here: just mass graves of trafficked woman"
 tags:
   - foo
@@ -12,6 +12,7 @@ allow_comments: false
 additional_fields:
   - name
   - street_address
+  - city
 required_fields:
   - name
   - street_address
@@ -28,9 +29,7 @@ share_image: ""
 share_image_dims: ""
 ---
 
-
-
-![Mass graves](/img/page/scratch/Untitled-1.jpg)
+## This is a big ass headline, up to two lines
 
 President Obama just gave Malaysia a thumbs up on human rights so that he can pass the TPP—despite finding mass graves of sex trafficking victims.
 
