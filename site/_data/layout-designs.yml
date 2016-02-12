@@ -1,12 +1,15 @@
 white-two-column:
   color: white
-  signature: true
+  signature_counter: true
+  signature_location: top
   footer: 1
 big-snowden-head:
   color: blue
-  signature: false
+  signature_counter: false
+  signature_location: bottom
   footer: 2
 blue-two-column:
   color: blue
-  signature: true
+  signature_counter: true
+  signature_location: top
   footer: 1

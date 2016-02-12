@@ -1,6 +1,6 @@
 ---
 layout: core-only
-styles: petitions
+stylesheet: petitions
 component-scripts: petitions
 class: clean-edge petition
 ---
@@ -38,25 +38,19 @@ class: clean-edge petition
       <blockquote>
         {{ page.petition_copy | markdownify }}
       </blockquote>
-      <figure class="signatures">
-        <figcaption class="progress-top">
-          <span id="total-sigs">0</span> supporters
-          {% unless site.data.layout-designs[page.design].signature %}
-          <span class="progress-bottom" id="sigs-to-go">
-            25 needed to reach 25
-          </span>
-          {% endunless %}
-        </figcaption>
-        <progress id="signatures-progress-bar" value="0" max="25"></progress>
-        {% if site.data.layout-designs[page.design].signature %}
-        <figcaption class="progress-bottom" id="sigs-to-go">
-          25 needed to reach 25
-        </figcaption>
-        {% endif %}
-      </figure>
     </article>
 
-    <form class="petition-form" accept-charset="UTF-8" action="https://actionnetwork.org/petitions/{% if page.petition_slug != '' %}{{ page.petition_slug }}{% else %}{{ page.petition_title | slugify }}{% endif %}/signatures" method="post" data-host="{{ site.petitions_api }}">
+    <figure class="signatures">
+      <figcaption class="progress-top">
+        <span id="total-sigs">0</span> supporters
+      </figcaption>
+      <figcaption id="sigs-to-go" class="progress-bottom">
+        25 needed to reach 25
+      </figcaption>
+      <progress id="signatures-progress-bar" value="0" max="25"></progress>
+    </figure>
+
+   <form id="petition-form" class="petition-form{% if page.additional_fields | size > 0 %} long{% endif %}" accept-charset="UTF-8" action="https://actionnetwork.org/petitions/{% if page.petition_slug != '' %}{{ page.petition_slug }}{% else %}{{ page.petition_title | slugify }}{% endif %}/signatures" method="post" data-host="{{ site.petitions_api }}">
 
       {% if page.additional_fields contains 'name' %}
       <label for="form-first_name">Name{% unless page.required_fields contains 'name' %} (optional){% endunless %}:</label>
@@ -87,7 +81,7 @@ class: clean-edge petition
         Not in {{ site.data.countries[page.target_country] }}?
       </label>
 
-      <select id="select-country" class="hidden">
+      <select id="select-country">
         {% for country in site.data.countries %}
         <option value="{{ country[0] }}" {% if country[0] == page.target_country %} selected{% endif %}>
           {{ country[1] }}
@@ -104,17 +98,19 @@ class: clean-edge petition
       {% capture tags %}{% for tag in page.tags %}&quot;{{ tag }}&quot;{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
       <input type="hidden" name="subscription[tag_list]" value="[{{ tags }}]"/>
       <input type="submit" name="commit" value="Take action"/>
-      <label for="opt-in">
-        {% if page.opt_in == true %}
-        <input type="hidden" name="subscription[group]" value="13162"/>
-        {% else %}
-        <input type="checkbox" name="subscription[group]" value="13162" id="opt-in" checked="checked"/>
-        {% endif %}
-        <a href="/">Fight for the Future</a>
-        will email you with campaign updates.
-        (<a href="/privacy">privacy policy</a>)
-      </label>
     </form>
+
+    <label for="opt-in">
+      {% if page.opt_in == true %}
+      <input type="hidden" name="subscription[group]" value="13162" form="petition-form"/>
+      {% else %}
+      <input type="checkbox" name="subscription[group]" value="13162" form="petition-form" id="opt-in" checked="checked"/>
+      {% endif %}
+      <a href="/">Fight for the Future</a>
+      will email you with campaign updates.
+      (<a href="/privacy">privacy policy</a>)
+    </label>
+
   </section>
   <article class="petition-info">
     {{ content }}
@@ -142,7 +138,7 @@ class: clean-edge petition
 </section>
 
 <footer class="an-style-{{ site.data.layout-designs[page.design].footer }}">
-  <div class="an-footer-logo-{{ site.data.layout-designs[page.design].footer }}">
+  <div class="an-footer-logo">
     <a href="/">
       <h2>Fight for the Future</h2>
     </a>
