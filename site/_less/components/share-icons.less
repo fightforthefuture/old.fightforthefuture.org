@@ -1,0 +1,27 @@
+.renderShareIcon(@x; @y; @dim; @bgw: 120px; @bgh: 60px) {
+    background-position: @x @y;
+    width: @dim;
+    height: @dim;
+    background-image: url('../images/share-icons.png');
+    background-repeat: no-repeat;
+    background-size: @bgw @bgh;
+}
+
+.renderTwitter(@dim: 6rem; @bgw: 120px; @bgh: 60px) {
+    .renderShareIcon(0; 0; @dim; @bgw; @bgh);
+}
+
+.renderFacebook(@dim: 6rem; @bgw: 120px; @bgh: 60px) {
+    .renderShareIcon(-50%; 0; @dim; @bgw; @bgh);
+}
+
+.share-icon {
+    &.twitter {
+        .renderTwitter();
+    }
+
+    &.facebook {
+        .renderFacebook();
+    }
+}
+

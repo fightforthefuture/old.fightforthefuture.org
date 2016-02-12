@@ -89,8 +89,10 @@ var getPosts = function(offset) {
       front += 'layout: blog-post\n';
       front += 'header: true\n';
 
-      if (posts[i].title)
+      if (posts[i].title) {
         front += 'title: \''+safeQuote(posts[i].title)+'\'\n';
+        front += 'twittertext: \''+safeQuote(posts[i].title)+'\'\n';
+      }
 
       front += 'date: '+posts[i].date+'\n';
       front += '---\n';

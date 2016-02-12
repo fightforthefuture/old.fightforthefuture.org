@@ -40,4 +40,30 @@
 
   triggerComponents();
 
+  var signups = document.querySelectorAll('form.signup');
+
+  for (var i = 0; i < signups.length; i++) {
+    signups[i].addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      var page_id = this.id || 'www-signup';
+      var email = this.querySelector('input[name="email"]');
+
+      if (!email.value) {
+        email.className = 'error';
+        alert('Please enter an email address :)');
+        return email.focus();
+      }
+
+      new OrgReferralController({page_id: page_id}).submit({
+        email: email.value
+      });
+
+      new ShareModalController({
+        headline: 'Thanks for signing up!',
+        text: 'We\'re looking forward to sharing our work with you. Together we will make sure the Internet always wins! Please continue exploring this site to learn more about Fight for the Future. You are a wonderful person <3'
+      });
+    });
+  }
+
 })(document, window);
