@@ -79,10 +79,10 @@ prose:
           options:
             - name: 'White Two Column'
               value: 'white-two-column'
-            - name: 'Big Snowden Head'
-              value: 'big-snowden-head'
-            - name: 'Blue Two Column'
-              value: 'blue-two-column'
+            - name: 'Snowden Header'
+              value: 'snowden-header'
+            - name: 'Obamas Header'
+              value: 'obamas-header'
       - name: 'headline'
         field:
           element: 'text'
