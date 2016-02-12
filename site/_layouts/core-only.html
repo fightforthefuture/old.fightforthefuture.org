@@ -3,10 +3,10 @@
 <head>
   {% include meta.html %}
   {% capture stylesheet %}
-    {% if page.styles %}
-      {{ page.styles }}
-    {% elsif layout.styles %}
-      {{ layout.styles }}
+    {% if page.stylesheet %}
+      {{ page.stylesheet }}
+    {% elsif layout.stylesheet %}
+      {{ layout.stylesheet }}
     {% else %}
       core
     {% endif %}

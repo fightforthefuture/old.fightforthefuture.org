@@ -1,10 +1,232 @@
+.text-form-elements() {
+  border: none;
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  padding: 1.2rem;
+  width: 100%;
+  &::-webkit-input-placeholder {
+    font-size: 1.4rem;
+  }
+}
+
 .petition {
+  font-weight: 300;
+  line-height: 1.5;
   padding: 5rem 0 0;
+
+  main {
+    margin: 0 auto 2rem;
+    max-width: @large-tablet;
+  }
 
   h1 {
     margin: 0 auto;
     max-width: @large-tablet;
     padding: 0 1rem;
     text-align: center;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  blockquote {
+    margin-bottom: 1.5rem;
+  }
+
+  .signatures {
+    display: flex;
+    margin: 0 auto 1.5rem;
+  }
+
+  progress {
+    border: 0;
+    width: 100%;
+  }
+
+  figcaption {
+    font-size: 1.4rem;
+    font-style: italic;
+  }
+
+  .petition-box {
+    background-color: @blue-800;
+    color: @white;
+    margin: 2.5rem auto;
+  }
+
+  .petition-text {
+    text-align: center;
+  }
+
+  textarea {
+    .text-form-elements();
+  }
+
+  label {
+    display: block;
+    height: 0;
+    font-size: 0.7em;
+    overflow: hidden;
+  }
+
+  [type="text"],
+  [type="email"] {
+    .text-form-elements();
+  }
+
+  [type="submit"] {
+    background-color: @red-100;
+    border: none;
+    color: @white;
+    cursor: pointer;
+    font-family: @body-font;
+    font-size: 2.4rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding: 1.4rem 0;
+    text-transform: uppercase;
+    transition: background-color 300ms, bottom 100ms;
+    width: 100%;
+    &:focus {
+      outline: 0;
+    }
+    &:hover {
+      background-color: darken(@red-100, 10%);
+    }
+    &:active {
+    }
+  }
+  [for="opt-in"], [for="select-country"] {
+    cursor: pointer;
+    height: auto;
+    margin: 1rem auto 0.5rem;
+    text-align: center;
+  }
+
+  [for="opt-in"] {
+    font-weight: 300;
+    a {
+      color: fade(@white, 90%);
+      &:hover, &:active, &:focus {
+        color: @white;
+      }
+    }
+  }
+
+  [for="select-country"] {
+    font-style: italic;
+    text-align: center;
+    &:hover, &:active, &:focus {
+      text-decoration: underline;
+    }
+    &.hidden {
+      height: 0;
+      margin: 0;
+    }
+  }
+
+  select {
+    display: none;
+    margin: 1.5rem auto;
+    max-width: 100%;
+    &.visible {
+      display: block;
+    }
+  }
+
+  .petition-info {
+    overflow: hidden;
+    padding: 0 1rem;
+  }
+}
+
+.footer-meta-links {
+  background-color: @blue-950;
+  color: @blue-800;
+  font-variant: small-caps;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+
+  .cta {
+    display: none;
+  }
+}
+
+.an-footer-logo {
+  background-color: @blue-850;
+  padding: 3rem 0;
+  h2 {
+    background: url('/img/brand/512X66_large_white_color.png') no-repeat center center;
+    background-size: contain;
+    border: 0;
+    color: transparent;
+    display: block;
+    font: 0/0 a;
+    height: 6.6rem;
+    margin: 0 auto;
+    max-width: 90%;
+    width: 512px;
+  }
+}
+
+.an-footer-info {
+  background-color: @blue-700;
+  color: @blue-200;
+  padding: 1.5rem;
+  a {
+    color: @white;
+    opacity: 0.8;
+    text-decoration: none;
+    transition: opacity 150ms;
+    &:hover, &:active {
+      opacity: 1;
+    }
+  }
+}
+
+.action-network-footer-dark() {
+  background-color: @blue-900;
+  padding: 2rem;
+
+  .footer-meta-links {
+    align-items: center;
+    margin: 0 auto;
+    max-width: @large-tablet;
+
+    @media screen and (min-width: @large-phone) {
+      background-color: #2c3650;
+      display: flex;
+    }
+  }
+
+  .share-this-button-links,
+  .an-footer-logo {
+    margin: 0 auto;
+    max-width: @large-tablet;
+  }
+
+  .an-footer-logo {
+    display: block;
+    @media screen and (min-width: @large-phone) {
+      max-width: 40%;
+    }
+  }
+
+  .an-footer-cta {
+    color: @white;
+    display: block;
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 0;
+    padding: 0 1rem 2rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .an-footer-info {
+    background-color: desaturate(lighten(@blue-900, 7%), 3%);
   }
 }

@@ -1,0 +1,265 @@
+.big-snowden-head {
+  .progress-outer() {
+    background-color: lighten(@blue-850, 20%);
+  }
+
+  .progress-inner() {
+    background-color: @red-100;
+  }
+
+  .stickybar& {
+    .sticky-bar-dark();
+  }
+
+  .hero& {
+    background-color: @blue-900;
+    background-image: url('/img/layout/big-snowden-head/header.jpg');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: auto 115%;
+    color: @white;
+    padding: 2rem 2rem 10rem;
+    text-align: center;
+
+    @media screen and (min-width: @small-phone) {
+      padding-bottom: 25rem;
+    }
+    @media screen and (min-width: @large-phone) {
+      padding-bottom: 15rem;
+    }
+  }
+
+  .petition-box {
+    background-color: @blue-850;
+    border-bottom: 3.5rem @white solid;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    margin-top: -5.5rem;
+    max-width: @large-phone;
+    padding: 1.5rem;
+    position: relative;
+
+    @media screen and (min-width: @small-phone) {
+      margin-top: -18.5rem;
+    }
+    @media screen and (min-width: @large-phone) {
+      margin: -10.5rem auto 2rem;
+      min-width: 60rem;
+    }
+  }
+
+  .petition-text {
+    order: 20;
+    h2 {
+      .visually-hidden;
+    }
+  }
+
+  .email {
+    @media screen and (min-width: @large-phone) {
+
+      margin-right: 2%;
+      width: 38%;
+    }
+  }
+
+  .zip {
+    @media screen and (min-width: @large-phone) {
+      margin-right: 2%;
+      width: 23%;
+    }
+  }
+
+  [type="submit"] {
+    @media screen and (min-width: @large-phone) {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      padding: 0.4rem 0;
+      width: 35%;
+    }
+  }
+
+  [for="opt-in"], [for="select-country"] {
+  }
+
+  [for="select-country"] {
+    order: 40;
+    &:hover, &:active, &:focus {
+    }
+  }
+
+  select {
+    order: 40;
+  }
+
+  [for="opt-in"] {
+    background: @white;
+    color: @black;
+    left: 0;
+    margin: 0;
+    order: 30;
+    padding: 1.5rem 1rem;
+    position: absolute;
+    right: 0;
+    a {
+      &:link, &:visited, &:hover, &:active, &:focus {
+        color: @black;
+      }
+    }
+  }
+
+  [type="text"],
+  [type="submit"],
+  [type="email"] {
+    border-radius: 0.4rem;
+  }
+
+  .petition-form {
+    margin-bottom: 1.5rem;
+    order: 20;
+    @media screen and (min-width: @large-phone) {
+      display: flex;
+      flex-wrap: wrap;
+      .length-1 {
+        &[type="text"],
+        &[type="email"] {
+          margin: 0 1%;
+          width: 31%;
+        }
+      }
+
+      .length-2 {
+        &[type="text"],
+        &[type="email"] {
+          margin: 0 1% 1rem;
+          width: 48%;
+        }
+      }
+
+      .length-3 {
+        &[type="text"],
+        &[type="email"] {
+          margin: 0 1% 1rem;
+          width: 48%;
+        }
+        &.name, &.email {
+        }
+        &.address {
+          width: 100%;
+        }
+        &.city {
+          width: 65%;
+        }
+        &.zip {
+          width: 31%;
+        }
+      }
+    }
+
+    .length-1, .length-2, .length-3 {
+      &[type="submit"] {
+        margin: 0 auto;
+        order: 50;
+        width: 98%;
+      }
+      &[for="select-country"] {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  .signatures {
+    color: @white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    left: 0;
+    margin: 0;
+    order: 10;
+    position: absolute;
+    right: 0;
+    top: -2.9rem;
+  }
+
+  .progress-top, .progress-bottom {
+    text-align: center;
+    width: 100%;
+  }
+
+  .progress-top {
+    order: 10;
+    text-align: left;
+    width: auto;
+  }
+
+  .progress-bottom {
+    order: 20;
+    text-align: right;
+    width: auto;
+  }
+
+  progress {
+    height: 0.8rem;
+    order: 30;
+    padding: 0;
+    &::-webkit-progress-value {
+      .big-snowden-head .progress-inner();
+    }
+    &::-webkit-progress-bar {
+      .big-snowden-head .progress-outer();
+    }
+  }
+
+  .petition-info {
+    margin: 0 auto;
+    max-width: @large-phone;
+  }
+
+  .expand-text {
+    text-align: center;
+  }
+
+  main& {
+    h2 {
+      color: @blue-800;
+      font-size: 4rem;
+      text-align: center;
+      text-transform: uppercase;
+      &::after {
+        content: '\0023E4';
+        display: block;
+        font-weight: 100;
+        margin-bottom: 1rem;
+      }
+    }
+
+    p {
+      position: relative;
+      &:nth-last-of-type(2) {
+        &::after {
+          background-image: linear-gradient(transparent, @white);
+          bottom: 0;
+          content: ' ';
+          left: 0;
+          position: absolute;
+          right: 0;
+          top: 0;
+          .text-expanded& {
+            &::after {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  footer& {
+    .action-network-footer-dark();
+  }
+}
+
+.text-expanded p:nth-last-of-type(2)::after {
+  display: none;
+}
