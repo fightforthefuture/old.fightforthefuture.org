@@ -23,7 +23,7 @@ Fight for the Future is dedicated to protecting and expanding the Internet's tra
   ---
 {% endfor %}
 
-![Other Links](homepage/images/projects/ol.png)
+![Other Links](/images/projects/ol.png)
 : {% for link in site.data.homepage.otherlinks %}
     * [{{ link.text }}]({{ link.url }}){% endfor %}
 {:.other}
@@ -40,7 +40,7 @@ Fight for the Future is dedicated to protecting and expanding the Internet's tra
   ---
 {% endfor %}
 
-![Other Links](homepage/images/projects/ol.png)
+![Other Links](/images/projects/ol.png)
 : {% for link in site.data.homepage.otherlinksc3 %}
     * [{{ link.text }}]({{ link.url }}){% endfor %}
 {:.other}
@@ -50,9 +50,9 @@ Fight for the Future is dedicated to protecting and expanding the Internet's tra
 {% for press in site.data.homepage.featuredpress.detail %}
   * “{{ press.quote }}”
 
-    _![](homepage/images/letters/{{ press.publication | truncate: 1, '' | downcase }}.png){{ press.publication | slice: 1, 100 }}_{% endfor %}
+    _![](/images/homepage/letters/{{ press.publication | truncate: 1, '' | downcase }}.png){{ press.publication | slice: 1, 100 }}_{% endfor %}
 {:.press}
 
 {% for press in site.data.homepage.featuredpress.list %}
-  * ![{{ press.publication }}](homepage/images/publications/{{ press.publication | replace: ' ', '' | downcase }}.png){% endfor %}
+  * ![{{ press.publication }}](/images/homepage/publications/{{ press.publication | replace: ' ', '' | downcase }}.png){% endfor %}
 {:.logos}

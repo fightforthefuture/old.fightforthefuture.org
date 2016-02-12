@@ -2,173 +2,173 @@ fftf:
   - id: faxbigbrother
     fire: true
     url: https://www.faxbigbrother.com/
-    image: 'homepage/images/projects/fax.png'
+    image: '/images/projects/fax.jpg'
     title: '#FaxBigBrother to stop CISA'
     description: 'Congress is stuck in 1984, so we helped Internet users generate 6 million faxes to stop the worst spying bill yet.'
 
   - id: rubberstamp
     fire: true
     url: https://cms.fightforthefuture.org/rubberstamp/
-    image: 'homepage/images/projects/rubber.png'
+    image: '/images/projects/rubber.jpg'
     title: 'Operation: Rubberstamp'
     description: 'We got creative to fight Fast Track for the TPP by sending rubber stamps to every Republican office in the House.'
 
   - id: internetvote
     url: https://www.battleforthenet.com/internetvote/
-    image: homepage/images/projects/internetvote.png
+    image: /images/projects/internetvote.jpg
     title: Internet Vote to stop the TPP
     description: Join thousands of websites protesting Fast Track for the Trans-Pacific Partnership.
 
   - id: internetcountdown
     url: https://www.battleforthenet.com/countdown/
-    image: homepage/images/projects/widget.png
+    image: /images/projects/widget.jpg
     title: The Internet Countdown
     description: We are closer than ever to winning real net neutrality, and the Internet is literally counting down the seconds.
 
   - id: battleforthenet
     fire: true
     url: https://www.battleforthenet.com/
-    image: homepage/images/projects/battle.png
+    image: /images/projects/battle.jpg
     title: Battle for the Net!
     description: Cable companies are spending millions to gut net neutrality and slow your Internet to a crawl. We can’t let them.
 
   - id: stopfasttrack
     url: http://www.stopfasttrack.com/
-    image: homepage/images/projects/tpp.png
+    image: /images/projects/tpp.jpg
     title: Stop Fast Track for the TPP!
     description: The TPP is a secret agreement that’s bad for everything you care about. Here’s our plan to stop it.
 
   - id: resetthenet
     fire: true
     url: https://www.resetthenet.org/
-    image: homepage/images/projects/reset.png
+    image: /images/projects/reset.jpg
     title: 'June 5: We will Reset the Net'
     description: 'Don’t ask for your privacy, take it back. On June 5th we’ll turn off govt spying and turn on freedom.'
 
   - id: internetslowdown
     url: https://www.battleforthenet.com/sept10th/#infographic
-    image: homepage/images/projects/slowdown.png
+    image: /images/projects/slowdown.jpg
     title: The Internet Slowdown
     description: 'We organized the largest protest for net neutrality in history. Millions took action, but it’s only the beginning.'
 
   - id: ferguson
     url: https://cms.fightforthefuture.org/ferguson
-    image: homepage/images/projects/ferguson.png
+    image: /images/projects/ferguson.jpg
     title: De-militarize the police
     description: Ferguson showed that we have to fight to prevent technology from being used to stifle free speech.
 
   - id: obamapromise
     url: https://cms.fightforthefuture.org/obama/
-    image: homepage/images/projects/obama.png
+    image: /images/projects/obama.jpg
     title: 'Obama: keep your promise!'
     description: 'President Obama campaigned on a promise to "take a backseat to no one" on the issue of net neutrality.'
 
   - id: occupythefcc
     url: http://www.occupythefcc.com/
-    image: homepage/images/projects/occ.png
+    image: /images/projects/occ.jpg
     title: Occupy the FCC
     description: We camped in tents on the FCC’s doorstep for 9 days and changed the game for net neutrality.
 
   - id: fasttrackobsolete
     url: http://cms.fightforthefuture.org/wyden/
-    image: homepage/images/projects/wy.png
+    image: /images/projects/wy.jpg
     title: Fast Track is obsolete!
     description: Help us remind Sen Ron Wyden that Fast Track is as obsolete as a floppy disk! Save the Internet from the TPP.
 
   - id: tellfcc
     url: http://cms.fightforthefuture.org/tellfcc/
-    image: homepage/images/projects/netneutrality.png
+    image: /images/projects/netneutrality.jpg
     title: Help us Save Net Neutrality
     description: Telecoms got their wish & struck down net neutrality. Censorship is inevitable unless we get it back.
 
   - id: colbert
     url: http://cms.fightforthefuture.org/colbert/
-    image: homepage/images/projects/colbert.png
+    image: /images/projects/colbert.jpg
     title: 'Stephen Colbert: Boycott RSA!'
     description: This company took a $10 million bribe from the NSA. Tell Stephen Colbert to teach them a lesson.
 
   - id: thensavideo
     url: http://www.thensavideo.com/
-    image: homepage/images/projects/nsavideo.png
+    image: /images/projects/nsavideo.jpg
     title: The NSA Video
     description: We made a definitive video about NSA spying, and it’s funny enough to share with your mom.
 
   - id: sopasback
     url: http://cms.fightforthefuture.org/sopas-back
-    image: homepage/images/projects/stopcispa.png
+    image: /images/projects/stopcispa.jpg
     title: We’ll stop SOPA again.
     description: One of the most ridiculous parts of SOPA is on the table again. Over 30,000 have already said NO!
 
   - id: internetvsnsa
     url: http://callforfreedom.org
-    image: homepage/images/projects/callforfreedom.png
+    image: /images/projects/callforfreedom.jpg
     title: The Internet VS. the NSA
     description: On July 4th we organized the largest online privacy protest in history. But we’re just getting started.
 
   - id: stopwatchingus
     url: https://optin.stopwatching.us/
-    image: homepage/images/projects/swu.png
+    image: /images/projects/swu.jpg
     title: Stop Watching Us!
     description: We helped launch this coalition of more than 580,000 people fighting unconstitutional surveillance.
 
   - id: barretbrown
     url: http://cms.fightforthefuture.org/barrett-brown/
-    image: homepage/images/projects/fbb.png
+    image: /images/projects/fbb.jpg
     title: Free Barrett Brown
     description: Join 20,000+ demanding freedom for a journalist who faces 105 years in prison for sharing a link.
 
   - id: idl
     fire: true
     url: http://internetdefenseleague.org
-    image: homepage/images/projects/idl.png
+    image: /images/projects/idl.jpg
     title: Internet Defense League
     description: Together, we can mobilize the planet to defend the internet from bad laws and monopolies. You in?
 
   - id: cispanotdead
     url: http://cms.fightforthefuture.org/cispa-not-dead/
-    image: homepage/images/projects/infographic.png
+    image: /images/projects/infographic.jpg
     title: 'Infographic: CISPA is NOT dead.'
     description: We made a shareable graphic to explain what’s wrong with the cybersecurity bill that won’t die.
 
   - id: saveyourpp
     url: http://www.saveyourprivacypolicy.org/
-    image: homepage/images/projects/saveyourprivacypolicy.png
+    image: /images/projects/saveyourprivacypolicy.jpg
     title: Save Your Privacy Policy
     description: Why did Alexis Ohanian call Larry Page at Google to talk privacy? Find out!
 
   - id: cispaback
     url: http://www.cispaisback.org/
-    image: homepage/images/projects/cispaisback.png
+    image: /images/projects/cispaisback.jpg
     title: CISPA is Back
     description: There’s a law in Congress that completely breaks the 4th Amendment. We must stop it.
 
   - id: fixcopyright
     url: http://www.fightforthefuture.org/fixcopyright
-    image: homepage/images/projects/fx.png
+    image: /images/projects/fx.jpg
     title: Time to Fix Copyright!
     description: Now that we killed SOPA, we can fix the unintended but massive consequences of copyright law.
 
   - id: mlk
     url: https://www.fightforthefuture.org/mlk
-    image: homepage/images/projects/mlk.png
+    image: /images/projects/mlk.jpg
     title: Never Censor MLK
     description: Dr. Martin Luther King Jr.’s call for racial justice is too important to be censored by copyright law. Share it.
 
   - id: doyouhaveasecret
     url: http://www.doyouhaveasecret.org
-    image: homepage/images/projects/secrets.png
+    image: /images/projects/secrets.jpg
     title: Do You Have a Secret?
     description: We’re drawing the line to prevent government spying from becoming legal.
 
   - id: billboard
     url: https://www.fightforthefuture.org/billboard
-    image: homepage/images/projects/billboard.png
+    image: /images/projects/billboard.jpg
     title: Don’t mess with the internet
     description: SOPA author Lamar Smith (R-TX) gets a crowd-funded billboard… right outside his San Antonio office.
 
   - id: bocottgodaddy
     url: http://godaddyboycott.org/
-    image: homepage/images/projects/godaddy.png
+    image: /images/projects/godaddy.jpg
     title: Boycott GoDaddy
     description: We helped pull Godaddy’s support of SOPA during the GoDaddy boycott.
 
@@ -193,56 +193,56 @@ otherlinks:
 fftfef:
   - id: unblockturkey
     url: https://unblockturkey.fightforthefuture.org/fight-censorship-and-spying-in-turkey
-    image: homepage/images/projects/turkey.png
+    image: /images/projects/turkey.jpg
     title: Unblock Turkey!
     description: We crowdfunded privacy tools & distributed them to activists & journalists fighting censorship.
 
   - id: nsavideoc3
     fire: true
     url: http://www.thensavideo.com/
-    image: homepage/images/projects/nsavideo.png
+    image: /images/projects/nsavideo.jpg
     title: The NSA Video
     description: 'We made a definitive video about NSA spying, and it’s funny enough to share with your mom.'
 
   - id: freecameron
     url: http://www.freecameron.org
-    image: homepage/images/projects/FreeCamhashtag.png
+    image: /images/projects/FreeCamhashtag.jpg
     title: Teen Locked up for FB post!
     description: Our viral petition for Cameron D’Ambrosio, a teenage rapper locked up for posting lyrics on FB.
 
   - id: idlc3
     url: http://internetdefenseleague.org
-    image: homepage/images/projects/idl.png
+    image: /images/projects/idl.jpg
     title: Internet Defense League
     description: Together, we can mobilize the planet to defend the internet from bad laws and monopolies. You in?
 
   - id: wtfitu
     url: http://www.fightforthefuture.org/wtfitu
-    image: homepage/images/projects/polln.png
+    image: /images/projects/polln.jpg
     title: 'Who should run the net?'
     description: The last night of the ITU meetings in Dubai proved that this UN agency is no place to govern the net.
 
   - id: internetfreedomday
     url: http://www.internetfreedomday.net
-    image: homepage/images/projects/ifd.png
+    image: /images/projects/ifd.jpg
     title: Internet Freedom Day
     description: On the one year anniversary of the blackout that killed SOPA, we had a party where we shared links to our favorite stuff that should never be censored.
 
   - id: internetcoup
     url: http://www.internetcoup.org/en/
-    image: homepage/images/projects/ic.png
+    image: /images/projects/ic.jpg
     title: Stop the ITU’s Internet Coup!
     description: Think we should give governments and big companies more control over the Internet? Neither do we.
 
   - id: votewithfriends
     url: http://www.votewithfriends.net
-    image: homepage/images/projects/vwf.png
+    image: /images/projects/vwf.jpg
     title: Vote with Friends
     description: Just because YOU’RE voting doesn’t mean you’re doing everything you can this election.
 
   - id: pipac3
     url: https://www.fightforthefuture.org/pipa/
-    image: homepage/images/projects/pipa.png
+    image: /images/projects/pipa.jpg
     title: PIPA Video
     description: We made the video that introduced millions of internet users to SOPA & PIPA, the internet censorship bills.
 

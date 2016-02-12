@@ -1,5 +1,5 @@
 .homepage {
-  background-color: #16212a;
+  background-color: lighten(#16212a, 0.1%);
 
 
   a {
@@ -25,7 +25,7 @@
     }
 
     div.david-by-michelangelo {
-      background-image: url(../homepage/images/david-by-michelangelo.jpg);
+      background-image: url(/images/homepage/david-by-michelangelo.jpg);
       background-size: cover;
       height: 100%;
       opacity: 0;
@@ -126,12 +126,12 @@
       }
 
       &.facebook {
-        background-image: url(../homepage/images/social-facebook.png);
+        background-image: url(../images/homepage/social-facebook.png);
         margin-left: 20px;
       }
 
       &.twitter {
-        background-image: url(../homepage/images/social-twitter.png);
+        background-image: url(../images/homepage/social-twitter.png);
         margin-left: 4px;
       }
     }
@@ -457,24 +457,26 @@
     position: relative;
     margin: 6px;
 
+
     &::before {
       content: " ";
       display: block;
       position: absolute;
-      left: 11px;
+      left: 9px;
       top: 11px;
       width: 208px;
       height: 129px;
       border-radius: 2px;
       z-index: 9004;
-      box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.5);
+      background: url(/images/homepage/project_frame.png);
     }
 
     img {
-      margin-top: 10px;
-      width: 208px;
-      height: 129px;
-      border-radius: 3px;
+      margin-top: 11px;
+      margin-left: 2px;
+      width: 206px;
+      height: 127px;
+      border-radius: 4px;
       display: inline-block;
     }
 
@@ -531,6 +533,7 @@
         font-size: 18px;
         font-weight: bold;
         color: #7e7e7e;
+        font-family: @serif-font;
 
         img {
           vertical-align: middle;
