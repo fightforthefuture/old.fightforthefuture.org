@@ -2,10 +2,13 @@
 layout: classic
 header: true
 title: Fight for the Future in the press
-footer-topper: true
+class: press
 ---
 
 ## Press
+
+If you are a member of the press and wish to contact us, please email [press@fightforthefuture.org](mailto:press@fightforthefuture.org) or call [(508) 368-3026](tel://15083683026).
+
 
 {% for campaign in site.data.press %}
 <h3 id="{{ campaign.campaign }}">{{ campaign.pretty }}</h3>

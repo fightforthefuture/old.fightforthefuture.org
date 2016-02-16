@@ -1,22 +1,28 @@
 .aboutus {
   div.classic {
     > ul:first-child {
-      max-width: @max-blog-width;
+      margin-left: 0px;
     }
   }
   .content {
     padding-bottom: 30px;
     h1 {
-      margin: 50px 0px 30px 0px;
+      margin: 50px auto 30px auto;
       color: #1b3c57;
+      text-align: center;
+    }
+    h2 {
+      margin-top: 40px;
     }
     h2, dl.stats dt {
       font-family: @heading-font;
       font-weight: bold;
       font-size: 18px;
       text-align: left;
-      margin-bottom: 30px;
+      margin-bottom: 25px;
       text-transform: uppercase;
+      max-width: 100%;
+      line-height: auto;
     }
     p {
       font-family: @body-font;
@@ -25,6 +31,7 @@
       text-align: left;
       color: #4a5056;
       margin-bottom: 30px;
+      max-width: 100%;
 
       @media screen and (min-width: @large-tablet) {
         padding-right: 330px;
@@ -34,7 +41,11 @@
     dl.stats {
       margin-bottom: 30px;
       ul {
+        list-style: none;
         li {
+          list-style: none;
+          margin-left: 0px;
+          margin-bottom: 0px;
           padding: 15px 0px;
           border-bottom: 1px solid #d7e5f1;
           color: #a3aeb7;

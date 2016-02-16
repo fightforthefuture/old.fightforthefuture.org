@@ -308,6 +308,14 @@
       text-decoration: none;
       transition: background-color .2s linear;
 
+      &#notifications_button {
+        display: none;
+
+        &.enabled {
+          display: inline-block;
+        }
+      }
+
       div.icon {
         position: absolute;
         left: 0px;

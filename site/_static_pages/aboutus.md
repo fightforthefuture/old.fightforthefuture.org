@@ -2,7 +2,7 @@
 layout: classic
 header: true
 class: aboutus
-title: "Fight for the Future | a nonprofit working to expand the internet's power for good"
+title: "About Us"
 ---
 
 * [About](#)
