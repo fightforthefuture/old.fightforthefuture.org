@@ -28,10 +28,10 @@ window.components.homepage = function (doc, win) {
   function loadDavid() {
     // Preloading & fading in David background
     var
-      url = '/images/homepage/david-by-michelangelo.jpg',
+      imageUrl = '/images/homepage/david-by-michelangelo.jpg',
       image = new Image();
 
-    image.src = url;
+    image.src = imageUrl;
     image.onload = function () {
       doc.querySelector('.david-by-michelangelo').className += ' loaded ';
     }
