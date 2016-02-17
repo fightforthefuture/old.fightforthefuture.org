@@ -11,6 +11,22 @@
       "description": "API key for generating news posts",
       "value": "secret"
     },
+    "AWS_ACCESS_KEY": {
+      "description": "",
+      "value": "secret"
+    },
+    "AWS_SECRET_KEY": {
+      "description": "",
+      "value": "secret"
+    },
+    "AWS_S3_BUCKET": {
+      "description": "Where the images we snag from tumblr go",
+      "value": "s3.fightforthefuture.org"
+    },
+    "AWS_S3_FOLDER": {
+      "description": "Where the images we snag from tumblr go",
+      "value": "images/blog"
+    },
     "ENVIRONMENT": {
       "description": "where does this build live rn?",
       "value": "REVIEW"
