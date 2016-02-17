@@ -37,7 +37,7 @@
     margin: 2rem;
     margin-top: -5.5rem;
     max-width: @large-phone;
-    padding: 1.5rem;
+    padding: 1.5rem 1.5rem 0;
     position: relative;
 
     @media screen and (min-width: @small-phone) {
@@ -96,12 +96,12 @@
   [for="opt-in"] {
     background: @white;
     color: @black;
-    left: 0;
+    left: -1.5rem;
     margin: 0;
     order: 30;
     padding: 1.5rem 1rem;
-    position: absolute;
-    right: 0;
+    position: relative;
+    width: ~'calc(100% + 3rem)';
     a {
       &:link, &:visited, &:hover, &:active, &:focus {
         color: @black;
@@ -213,7 +213,7 @@
 
   .petition-info {
     margin: 0 auto;
-    max-width: @large-phone;
+    max-width: 65ch;
   }
 
   .expand-text {

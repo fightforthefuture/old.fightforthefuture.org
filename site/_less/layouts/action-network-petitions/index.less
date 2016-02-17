@@ -143,12 +143,17 @@
 }
 
 .footer-meta-links {
-  background-color: @blue-950;
+  background-color: @blue-850;
   color: @blue-800;
   font-variant: small-caps;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
+
+  @media screen and (min-width: @large-phone) {
+    align-items: stretch;
+    display: flex;
+  }
 
   .cta {
     display: none;
@@ -156,19 +161,18 @@
 }
 
 .an-footer-logo {
-  background-color: @blue-850;
-  padding: 3rem 0;
-  h2 {
-    background: url('/img/brand/512X66_large_white_color.png') no-repeat center center;
-    background-size: contain;
-    border: 0;
-    color: transparent;
-    display: block;
-    font: 0/0 a;
-    height: 6.6rem;
-    margin: 0 auto;
-    max-width: 90%;
-    width: 512px;
+  background: url('/img/brand/512X66_large_white_color.png') no-repeat center center @blue-850;
+  background-size: 95% auto;
+  border: 0;
+  color: transparent;
+  display: block;
+  font: 0/0 a;
+  height: 6.6rem;
+  margin: 0 auto;
+  max-width: 512px;
+  width: 90%;
+  @media screen and (min-width: @large-phone) {
+    height: auto;
   }
 }
 
@@ -176,6 +180,7 @@
   background-color: @blue-700;
   color: @blue-200;
   padding: 1.5rem;
+
   a {
     color: @white;
     opacity: 0.8;
@@ -192,13 +197,11 @@
   padding: 2rem;
 
   .footer-meta-links {
-    align-items: center;
     margin: 0 auto;
     max-width: @large-tablet;
 
     @media screen and (min-width: @large-phone) {
       background-color: #2c3650;
-      display: flex;
     }
   }
 
@@ -206,13 +209,6 @@
   .an-footer-logo {
     margin: 0 auto;
     max-width: @large-tablet;
-  }
-
-  .an-footer-logo {
-    display: block;
-    @media screen and (min-width: @large-phone) {
-      max-width: 40%;
-    }
   }
 
   .an-footer-cta {
@@ -228,5 +224,10 @@
 
   .an-footer-info {
     background-color: desaturate(lighten(@blue-900, 7%), 3%);
+    font-size: 1.4rem;
+
+    @media screen and (min-width: @small-phone) {
+      font-size: 1.6rem;
+    }
   }
 }

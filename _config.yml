@@ -7,14 +7,13 @@
 # Meta info #
 #############
 
-name: Fight for the Future, defending our basic rights and freedoms
+name: Fight for the Future
+description: "Fight for the Future is dedicated to protecting and expanding the Internet's transformative power in our lives by creating civic campaigns that are engaging for millions of people."
 url: http://0.0.0.0:9084
 petitions_api: http://0.0.0.0:9104
-description: "Fight for the Future is dedicated to protecting and expanding the Internet’s transformative power in our lives by creating civic campaigns that are engaging for millions of people."
 tweet: 'Help keep freedom of expression online a right extended to all people—join forces with @fightforthftr today.'
 timezone: America/New_York
 googleanalytics: UA-26576645-1
-favicon: '/favicon.ico'
 
 author:
   googleid: 102356128596404327231
@@ -27,7 +26,7 @@ author:
 
 future: true
 show_drafts: true
-permalink: /:categories/:title/
+permalink: /blog/summaries/:path/
 
 collections:
   legacy_pages:
@@ -42,6 +41,12 @@ collections:
   static_pages:
     output: true
     permalink: :path/
+  posts_full:
+    output: true
+    permalink: /blog/:path/
+
+paginate: 5
+paginate_path: "/blog/page:num/"
 
 prose:
   rooturl: 'site'
@@ -54,10 +59,8 @@ prose:
     - 'css'
     - 'js'
     - 'webfonts'
-    - 'google5033d6ab2e00df50.html'
     - 'robots.txt'
     - 'sitemap.xml'
-    - 'style.css'
 
   siteurl: 'https://www.fightforthefuture.org'
   media: 'site/img'
@@ -709,3 +712,5 @@ highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
+
+gems: ['jekyll-paginate']

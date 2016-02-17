@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "autoprefixer": "^6.1.0",
+    "aws-sdk": "^2.2.32",
     "cssnano": "^3.3.2",
     "express": "^4.13.4",
     "grunt": "^0.4.5",
