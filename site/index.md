@@ -50,9 +50,9 @@ Fight for the Future is dedicated to protecting and expanding the Internet's tra
 {% for press in site.data.homepage.featuredpress.detail %}
   * “{{ press.quote }}”
 
-    _![](/img/homepage/letters/{{ press.publication | truncate: 1, '' | downcase }}.png){{ press.publication | slice: 1, 100 }}_{% endfor %}
+    _![](/img/page/homepage/letters/{{ press.publication | truncate: 1, '' | downcase }}.png){{ press.publication | slice: 1, 100 }}_{% endfor %}
 {:.press}
 
 {% for press in site.data.homepage.featuredpress.list %}
-  * ![{{ press.publication }}](/img/homepage/publications/{{ press.publication | replace: ' ', '' | downcase }}.png){% endfor %}
+  * ![{{ press.publication }}](/img/page/homepage/publications/{{ press.publication | replace: ' ', '' | downcase }}.png){% endfor %}
 {:.logos}
