@@ -14,7 +14,7 @@ if (
   ||
   !awsKeys.secret_key
   ||
-  awsKeys.s3_bucket
+  !awsKeys.s3_bucket
   ||
   !awsKeys.s3_folder
   ) {
