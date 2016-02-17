@@ -1,4 +1,4 @@
-window.components = win.components || {};
+window.components = window.components || {};
 window.components.homepage = function (doc, win) {
   var
     headerElement = doc.querySelector('header'),
@@ -28,7 +28,7 @@ window.components.homepage = function (doc, win) {
   function loadDavid() {
     // Preloading & fading in David background
     var
-      imageUrl = '/images/homepage/david-by-michelangelo.jpg',
+      imageUrl = '/img/page/homepage/david-by-michelangelo.jpg',
       image = new Image();
 
     image.src = imageUrl;
