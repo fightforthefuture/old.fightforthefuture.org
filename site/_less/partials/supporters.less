@@ -1,10 +1,13 @@
 body.supporters {
 
-  background: @background-color url(../img/page/homepage/david-by-michelangelo.jpg) center top no-repeat;
-  @media screen and (min-width: @large-tablet) {
-    background-size: 100% auto;
-    background-attachment: fixed;
+  &.default {
+    background: @background-color url(../img/page/homepage/david-by-michelangelo.jpg) center top no-repeat;
+    @media screen and (min-width: @large-tablet) {
+      background-size: 100% auto;
+      background-attachment: fixed;
+    }
   }
+
 
   .content {
     padding-top: 0px;
@@ -48,6 +51,7 @@ body.supporters {
       max-width: @max-classic-width;
 
       p {
+        text-align: center;
         font-family: @body-font;
         font-weight: 100;
         font-size: 24px;
@@ -61,6 +65,8 @@ body.supporters {
         max-width: @max-classic-width;
 
         li {
+
+          margin: 0px auto;
 
           p {
             white-space: nowrap;
