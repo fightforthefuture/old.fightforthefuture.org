@@ -97,13 +97,10 @@ module.exports = function (grunt) {
 
     less: {
       options: {
-        compress: true
+        compress: false,
+        sourceMap: true
       },
       css: {
-        options: {
-          compress: false,
-          sourceMap: true
-        },
         files: [
           {
             expand: true,
