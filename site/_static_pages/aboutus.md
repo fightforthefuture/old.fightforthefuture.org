@@ -102,12 +102,16 @@ Stats
 
   [Vasjen][vk1] is our Lead Designer from Albania—he loves to craft great UI / UX and making the Internet a better place. You can see his work on [Dribbble][vk2] and follow him on [Twitter][vk3]
 
+---
+
 ![Charlie Furman][cf0]
 : ### Charlie Furman
 
   #### Campaigns Manager
 
   [Charlie][cf1] is our campaign manager and came to Fight for the Future after running the digital program for a series of mass mobilizations, including the 400,000 person [People’s Climate March][cf2].
+
+---
 
 ![Aki Rose][ab0]
 : ### Aki Braun
@@ -135,6 +139,12 @@ Stats
 [vk1]: http://vasjenkatro.com/
 [vk2]: http://dribbble.com/Katro/
 [vk3]: https://twitter.com/VasjenKatro/
+[cf0]: /img/page/aboutus/teampic/charlie.png
+[cf1]: https://twitter.com/DigitalCharlie_
+[cf2]: http://peoplesclimate.org/wrap-up/
+[ab0]: /img/page/aboutus/teampic/aki.png
+[ab1]: https://akibraun.com/
+[ab2]: https://twitter.com/gesa/
 
 
 # Fight for the Future 501(c)4 Board
