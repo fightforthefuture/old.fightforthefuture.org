@@ -12,12 +12,32 @@
 .white-two-column {
   color: @black;
 
-  @media screen and (min-width: @large-phone) {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: row-reverse;
-    margin-bottom: 3rem;
-    margin-top: 2rem;
+  main& {
+    @media screen and (min-width: @large-phone) {
+      align-items: flex-start;
+      display: flex;
+      flex-direction: row-reverse;
+      margin-bottom: 3rem;
+      margin-top: 2rem;
+    }
+
+    a {
+      color: @blue-850;
+      font-weight: bold;
+
+      &:link, &:visited {
+        text-decoration: none;
+      }
+
+      &:hover, &:active, &:focus {
+        text-decoration: underline;
+      }
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1em;
+    }
   }
 
   img {
@@ -32,22 +52,8 @@
     font-weight: bold;
   }
 
-  a {
-    color: @blue-850;
-    font-weight: bold;
-    text-decoration: none;
-    &:hover, &:active {
-      text-decoration: underline;
-    }
-  }
-
   h1 {
     color: @blue-850;
-  }
-
-  h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1em;
   }
 
   .signatures {
@@ -140,5 +146,9 @@
         bottom: -12rem
       }
     }
+  }
+
+  .an-footer-cta {
+    display: none;
   }
 }
