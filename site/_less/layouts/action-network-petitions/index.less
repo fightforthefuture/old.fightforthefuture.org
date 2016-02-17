@@ -169,8 +169,8 @@
   font: 0/0 a;
   height: 6.6rem;
   margin: 0 auto;
-  max-width: 90%;
-  width: 512px;
+  max-width: 512px;
+  width: 90%;
   @media screen and (min-width: @large-phone) {
     height: auto;
   }
@@ -211,15 +211,6 @@
     max-width: @large-tablet;
   }
 
-  /*
-  .an-footer-logo {
-    display: block;
-    @media screen and (min-width: @large-phone) {
-      max-width: 40%;
-    }
-  }
-
-  */
   .an-footer-cta {
     color: @white;
     display: block;
@@ -233,5 +224,10 @@
 
   .an-footer-info {
     background-color: desaturate(lighten(@blue-900, 7%), 3%);
+    font-size: 1.4rem;
+
+    @media screen and (min-width: @small-phone) {
+      font-size: 1.6rem;
+    }
   }
 }
