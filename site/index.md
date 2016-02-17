@@ -2,14 +2,8 @@
 layout: homepage
 title: "Fight for the Future, defending our basic rights and freedoms"
 description: "Fight for the Future is dedicated to protecting and expanding the Internet's transformative power in our lives by creating civic campaigns that are engaging for millions of people."
+intro_paragraph: "Fight for the Future is dedicated to protecting and expanding the Internet's transformative power in our lives by creating civic campaigns that are engaging for millions of people. Alongside internet users everywhere we beat back attempts to limit our basic rights and freedoms, and empower people to demand technology (and policy) that serves their interests. Activating the internet for the public good can only lead to a more vibrant and awesome world. More coming soon."
 ---
-
-Fight for the Future is dedicated to protecting and expanding the Internet's transformative power in our lives by creating civic campaigns that are engaging for millions of people. Alongside internet users everywhere we beat back attempts to limit our basic rights and freedoms, and empower people to demand technology (and policy) that serves their interests. Activating the internet for the public good can only lead to a more vibrant and awesome world. More coming soon.
-
-## Latest News
-
-{% include recommended_posts.html %}
-{% include recent_tweets.html %}
 
 ## Our Projects                                                      {#projects}
 
@@ -48,11 +42,11 @@ Fight for the Future is dedicated to protecting and expanding the Internet's tra
 ## As Covered By
 
 {% for press in site.data.homepage.featuredpress.detail %}
-  * “{{ press.quote }}”
+  * > {{ press.quote }}
 
-    _![](/img/page/homepage/letters/{{ press.publication | truncate: 1, '' | downcase }}.png){{ press.publication | slice: 1, 100 }}_{% endfor %}
+    [_![](/img/page/homepage/letters/{{ press.publication | truncate: 1, '' | downcase }}.png){{ press.publication | slice: 1, 100 }}_]({{ press.url }}){: target="_blank"}{% endfor %}
 {:.press}
 
 {% for press in site.data.homepage.featuredpress.list %}
-  * ![{{ press.publication }}](/img/page/homepage/publications/{{ press.publication | replace: ' ', '' | downcase }}.png){% endfor %}
+  * [![{{ press.publication }}](/img/page/homepage/publications/{{ press.publication | replace: ' ', '' | downcase }}.png)]({{ press.url }}){: target="_blank"}{% endfor %}
 {:.logos}

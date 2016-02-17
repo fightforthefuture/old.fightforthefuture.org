@@ -5,7 +5,9 @@ window.components.homepage = function (doc, win) {
     zoomElement = doc.querySelector('.zoom-out-intro'),
     oldOpacity = 1,
     cheeseburger = doc.querySelector('.cheeseburger'),
-    mobileNavigationIsExpanded = false;
+    mobileNavigationIsExpanded = false,
+    navElement = doc.querySelector('nav.top'),
+    mobileNavElement = doc.querySelector('.mobile-nav');
 
   function onScroll() {
     var newOpacity = Math.max(1 - (win.pageYOffset / 320), 0);
@@ -39,8 +41,6 @@ window.components.homepage = function (doc, win) {
 
   function mobileNavigation() {
     // Mobile navigation
-    var navElement = doc.querySelector('nav.top');
-    var mobileNavElement = doc.querySelector('.mobile-nav');
 
     if (mobileNavigationIsExpanded) {
       navElement.className = navElement.className.replace(' expanded ', '');
@@ -52,6 +52,14 @@ window.components.homepage = function (doc, win) {
     mobileNavigationIsExpanded = !mobileNavigationIsExpanded;
   }
 
+  function hideMobileOnResize() {
+    if (win.innerWidth >= 768) {
+      navElement.className = navElement.className.replace(' expanded ', '');
+      mobileNavElement.className = mobileNavElement.className.replace(' expanded ', '');
+      mobileNavigationIsExpanded = !mobileNavigationIsExpanded;
+    }
+  }
+
   function makeProjectsClickable() {
     // make the projects section clickable
     var dls = doc.querySelectorAll('dl:not(.other)');
@@ -61,9 +69,9 @@ window.components.homepage = function (doc, win) {
         e.preventDefault();
         win.open(this.querySelector('a').href);
       });
-
   }
 
+  win.addEventListener('resize', hideMobileOnResize);
   win.addEventListener('scroll', onScroll, false);
   cheeseburger.addEventListener('click', mobileNavigation);
 

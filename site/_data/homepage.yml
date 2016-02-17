@@ -257,12 +257,12 @@ featuredpress:
     - quote: This movement started from somewhere. The group behind the largest online protest in history is Fight for the Future, which began in October.
       publication: San Francisco Chronicle
       url: http://www.sfgate.com/news/article/The-Largest-Online-Protest-In-History-Started-Here-2629811.php
-    - quote: Fight for the Future, a nonprofit organization that helped organize the protests, said more than 115,000 Web sites participated, and three million people e-mailed Congress to voice their opposition to the bills.
-      publication: The New York Times
-      url: http://www.nytimes.com/2012/01/20/technology/public-outcry-over-antipiracy-bills-began-as-grass-roots-grumbling.html
     - quote: A Worcester activist group that helped stage the biggest Internet protest in history
       publication: Boston Globe
       url: https://www.bostonglobe.com/metro/2012/01/27/worcester-fight-for-future-helped-ignite-internet-revolt-against-antipiracy-bills/cEZNoCuuHI7mk6eADQ4lZK/story.html
+    - quote: Fight for the Future, a nonprofit organization that helped organize the protests, said more than 115,000 Web sites participated, and three million people e-mailed Congress to voice their opposition to the bills.
+      publication: The New York Times
+      url: http://www.nytimes.com/2012/01/20/technology/public-outcry-over-antipiracy-bills-began-as-grass-roots-grumbling.html
   list:
     - url: http://www.nytimes.com/2015/02/27/technology/net-neutrality-fcc-vote-internet-utility.html
       publication: The New York Times
