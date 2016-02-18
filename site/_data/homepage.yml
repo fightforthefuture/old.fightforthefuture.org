@@ -1,6 +1,39 @@
 fftf:
-  - id: faxbigbrother
+  - id: phones
     fire: true
+    url: https://www.dontbreakourphones.org/
+    image: '/img/projects/phones.jpg'
+    title: '#DontBreakOurPhones'
+    description: 'We''re organizing rallies all over the country to stop the FBI''s plan to put government backdoors in all our phones and computers.'
+
+  - id: dtf
+    fire: true
+    url: https://www.decidethefuture.org/
+    image: '/img/projects/dtf.jpg'
+    title: 'Decide the Future'
+    description: 'Do we want a future of unlimited mass surveillance, or a future where the government respects human rights? It''s time to decide.'
+
+  - id: naked
+    url: https://www.ifeelnaked.org/
+    image: '/img/projects/naked.png'
+    title: '#ifeelnaked'
+    description: 'NSA spying makes us feel violated. It’s like a strip search, online. Hold Congress accountable for enabling mass surveillance.'
+
+  - id: sunset
+    url: https://www.endsurveillance.com/
+    image: '/img/projects/patriot.jpg'
+    title: 'Sunset the PATRIOT Act'
+    description: 'We organized protests all over the country to sunset the PATRIOT Act.'
+
+  - id: blackoutcongress
+    fire: true
+    url: https://www.blackoutcongress.org
+    image: '/img/projects/blackout.jpg'
+    title: 'Congress Blackout'
+    description: 'Internet Defense League participants are blocking Congress'' access to the Internet until they vote to end mass surveillance laws.'
+
+  - id: faxbigbrother
+    fire: false
     url: https://www.faxbigbrother.com/
     image: '/img/projects/fax.jpg'
     title: '#FaxBigBrother to stop CISA'
