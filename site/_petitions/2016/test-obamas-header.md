@@ -1,6 +1,6 @@
 ---
 layout: "action-network-petitions"
-design: "blue-two-column"
+design: "obamas-header"
 headline: "Nothing to see here: just mass graves of trafficked woman"
 tags:
   - foo
