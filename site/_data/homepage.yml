@@ -4,7 +4,7 @@ fftf:
     url: https://www.dontbreakourphones.org/
     image: '/img/projects/phones.jpg'
     title: '#DontBreakOurPhones'
-    description: 'We''re organizing rallies all over the country to stop the FBI''s plan to put government backdoors in all our phones and computers.'
+    description: 'We''re organizing rallies all over the country to stop the FBI''s plan to put government backdoors in our phones and computers.'
 
   - id: dtf
     fire: true

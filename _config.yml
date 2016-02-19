@@ -27,7 +27,7 @@ author:
 
 future: true
 show_drafts: true
-permalink: /blog/summaries/:path/
+permalink: /news/summaries/:path/
 
 collections:
   legacy_pages:
@@ -44,10 +44,10 @@ collections:
     permalink: :path/
   posts_full:
     output: true
-    permalink: /blog/:path/
+    permalink: /news/:path/
 
 paginate: 5
-paginate_path: "/blog/page:num/"
+paginate_path: "/news/page:num/"
 
 prose:
   rooturl: 'site'

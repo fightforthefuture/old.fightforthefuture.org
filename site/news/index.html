@@ -1,28 +1,28 @@
 ---
 layout: default
-title: Blog
+title: News
 header: true
 ---
 
 <div class="blog">
   <div class="breadcrumbs">
     <a href="feed.xml" class="rss">RSS Feed<br/></a>
-    <a href="/blog">Blog</a>
+    <a href="/news">News</a>
     &gt;
-    <a href="/blog" class="current">Recent</a>
+    <a href="/news" class="current">Recent</a>
   </div>
 
   <!-- This loops through the paginated posts -->
   {% for post in paginator.posts %}
     <article>
-      <h1><a href="/blog/{{ post.path | remove:'_posts/' | remove:'.html'}}">{{ post.title }}</a></h1>
+      <h1><a href="/news/{{ post.path | remove:'_posts/' | remove:'.html'}}">{{ post.title }}</a></h1>
 
         <span class="date">Posted {{ post.date  | date: '%H:%M %Z on %B %-d, %Y' }}</span>
 
 
         {{ post.content }}
 
-        <a href="/blog/{{ post.path | remove:'_posts/' | remove:'.html'}}" class="readmore">Read More...</a>
+        <a href="/news/{{ post.path | remove:'_posts/' | remove:'.html'}}" class="readmore">Read More...</a>
 
         <div class="sharea">
           <span>Share on:</span>
