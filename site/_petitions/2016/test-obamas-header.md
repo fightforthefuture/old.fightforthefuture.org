@@ -28,9 +28,7 @@ share_image: ""
 share_image_dims: ""
 ---
 
-
-
-![Mass graves](/img/page/scratch/Untitled-1.jpg)
+## This is a big ass headline, up to two lines
 
 President Obama just gave Malaysia a thumbs up on human rights so that he can pass the TPP—despite finding mass graves of sex trafficking victims.
 
