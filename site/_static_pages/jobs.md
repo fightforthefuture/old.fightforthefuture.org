@@ -3,8 +3,8 @@ layout: classic
 class: jobs
 ---
 * [Jobs](#)
-* [Executive Managing Director](#executive-director)
-* [Campaign Manager](#campaign-manager)
+* [Executive Managing Director](#executive-managing-director)
+* [Campaign Manager/Evangelist](#campaign-manager--evangelist)
 
 ## Brief
 
@@ -12,7 +12,7 @@ Fight for the Future is a non-profit organization whose mission is to ensure tha
 
 ------
 
-# Executive Managing Director                              {#executive-director}
+# Executive Managing Director
 
 Our organization is focused on developing high-impact campaigns that resonate with people and help them band together to exert their power. The Executive Director/Operations position is central to the organization's operations and its and its effectiveness, though we will consider candidates who are more comfortable with operations management only. If you ever wanted to build online experiences that reach out, grab people, and help them them change the world, then this is the job for you.
 
@@ -66,7 +66,7 @@ If you're interested, send links to work you've done to [tycheng+edoper@gmail.co
 
 ------
 
-# Campaign Manager / Evangelist                              {#campaign-manager}
+# Campaign Manager / Evangelist
 
 Our organization is focused on developing high-impact campaigns that resonate with people and help them band together to exert their power. The Campaign Manager/ Evangelist position is one of the most important roles in our work - it is central to the organization and its effectiveness. If you ever wanted to build online experiences that reach out, grab people, and help them change the world, then this is the job for you. We're looking for someone to continue to build that organization with us, from the ground up.
 
