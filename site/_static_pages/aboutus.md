@@ -114,7 +114,7 @@ Stats
 ---
 
 ![Aki Rose][ab0]
-: ### Aki Braun
+: ### Aki Rose
 
   #### Programmer
 
