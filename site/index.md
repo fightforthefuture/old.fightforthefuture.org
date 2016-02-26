@@ -6,7 +6,7 @@ description: "Fight for the Future is dedicated to protecting and expanding the 
 
 ## Our Projects                                                      {#projects}
 
-{% for project in site.data.homepage.fftf %}
+{% for project in site.data.homepage.fftf %}{% if forloop.index0 < 15 %}
   ![{{ project.title }}]({{ project.image }})
   : ### [{{ project.title }}]({{ project.url }})
 
@@ -14,12 +14,14 @@ description: "Fight for the Future is dedicated to protecting and expanding the 
   {% if project.fire %}{:.fire}{% endif %}
 
   ---
-{% endfor %}
+{% endif %}{% endfor %}
 
 ![Other Links](/img/projects/ol.png)
 : {% for link in site.data.homepage.otherlinks %}
     * [{{ link.text }}]({{ link.url }}){% endfor %}
 {:.other}
+
+[See more projects...](/projects){:.morelink}
 
 ## [Fight for the Future Education Fund](https://www.fftfef.org) (our related 501(c)3)
 
