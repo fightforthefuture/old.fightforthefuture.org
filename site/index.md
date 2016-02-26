@@ -40,7 +40,7 @@ description: "Fight for the Future is dedicated to protecting and expanding the 
     * [{{ link.text }}]({{ link.url }}){% endfor %}
 {:.other}
 
-## As Covered By
+## As Covered By                                                        {#press}
 
 {% for press in site.data.homepage.featuredpress.detail %}
   * > {{ press.quote }}
