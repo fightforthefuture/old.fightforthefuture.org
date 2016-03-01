@@ -3,7 +3,7 @@ layout: classic
 header: true
 class: supporters
 header_extension: header_supporters.html
-title: "Fight for the Future | a nonprofit working to expand the internet's power for good"
+title: "Fight for the Future | a nonprofit working to expand the internet’s power for good"
 ---
 
 **Foundations**

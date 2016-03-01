@@ -29,6 +29,13 @@ future: true
 show_drafts: true
 permalink: /news/summaries/:path/
 
+defaults:
+  -
+    scope:
+      path: ''
+    values:
+      layout: 'default'
+
 collections:
   legacy_pages:
     output: true
@@ -713,5 +720,6 @@ highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
+  smart_quotes: ["apos", "apos", "quot", "quot"]
 
 gems: ['jekyll-paginate']

@@ -32,32 +32,7 @@
   <a href="https://twitter.com/fightfortheftr" class="twitter" target="_blank"></a>
 </nav>
 
-<section class="below-the-fold">
-  <form id="www-homepage" class="signup">
-    <h2>Find out about threats to our basic rights.</h2>
-
-    <input name="email" placeholder="Your Email" type="email">
-    <button type="submit">SIGN UP</button>
-
-    <div class="privacy">
-      We will only email when we have something important or awesome to tell
-      you. <a href="/privacy/">Privacy.</a>
-    </div>
-    <hr/>
-  </form>
-  <p>
-    {{ site.data.homepage.introduction_text }}
-  </p>
-
-  <h2>Latest News</h2>
-
-  {% include recent_tweets.html %}
-  {% include recommended_posts.html %}
-</section>
-
-<section class="feature-content">
-  {{ content }}
-</section>
+{{ content }}
 
 {% include fftf-footer.html %}
 {% include scripts.html %}
