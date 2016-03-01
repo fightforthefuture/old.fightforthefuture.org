@@ -1,6 +1,6 @@
 @spinner_blade_width: 25%;
 @spinner_blade_color: @heart;
-@spinner_animation_duration: 2500s;
+@spinner_animation_duration: 2500ms;
 
 .circle-spinner {
 // Thanks to Martin Grubinger http://codepen.io/mgrubinger/pen/MYWQRx
@@ -157,15 +157,6 @@
     }
   }
 }
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
 
 @keyframes fadeIn {
   0% {
@@ -177,11 +168,12 @@
   }
 }
 
-.fadeIn {
-  -webkit-animation-duration: 1s;
-  -webkit-animation-fill-mode: forwards;
-  -webkit-animation-name: fadeIn;
-  animation-duration: 1s;
+.fade(@duration) {
+  animation-duration: @duration;
   animation-fill-mode: forwards;
   animation-name: fadeIn;
+}
+
+.fadeIn {
+  .fade(1000ms);
 }

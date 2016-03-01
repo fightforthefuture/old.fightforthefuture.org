@@ -1,0 +1,184 @@
+.obamas-header {
+  .progress-outer() {
+    background-color: @blue-850;
+    border-radius: 0.4rem;
+  }
+
+  .progress-inner() {
+    background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 0, transparent 50%, rgba(255, 255, 255, 0.2) 0, rgba(255, 255, 255, 0.2) 75%, transparent 0, transparent), linear-gradient(90deg, @blue-150, @blue-100);
+    background-size: 3.5rem 3.7rem, 100%;
+    border-radius: 0.5rem;
+  }
+
+  .stickybar& {
+    .sticky-bar-dark();
+  }
+
+  .hero& {
+    background-image: url('/img/action-network/obamas-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    color: @white;
+    padding: 2rem 1rem 1rem;
+
+    @media screen and (min-width: @large-phone) {
+      padding: 4rem 1rem 4rem;
+    }
+
+    @media screen and (min-width: @small-tablet) {
+      padding: 5rem 1rem 7rem;
+    }
+
+    h1 {
+      line-height: 1.1;
+      margin-bottom: 1.5rem;
+      padding: 0;
+      @media screen and (min-width: @small-phone) {
+        margin-bottom: 2.5rem;
+      }
+    }
+
+    blockquote {
+      font-weight: 300;
+    }
+  }
+
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .petition-box {
+    background-color: @blue-900;
+    margin: 0 0 2.5rem;
+    max-width: 40rem;
+    min-width: 30rem;
+    padding: 2rem 1.5rem;
+    text-align: center;
+
+    @media screen and (min-width: @large-phone) {
+      position: relative;
+      top: -4rem;
+    }
+
+    @media screen and (min-width: @small-tablet) {
+      top: -7rem;
+    }
+
+    h2 {
+      color: @blue-100;
+      margin-bottom: 1.5rem;
+      text-transform: none;
+
+      @media screen and (min-width: @small-phone) {
+        margin-bottom: 2.5rem;
+      }
+
+      &::after {
+        content: none;
+      }
+    }
+  }
+
+  .signatures {
+    flex-direction: column;
+  }
+
+  .progress-top {
+    text-align: left;
+  }
+
+  .progress-bottom {
+    order: 30;
+    text-align: right;
+  }
+
+  progress {
+    height: 0.8rem;
+    padding: 0;
+    &::-webkit-progress-value {
+      .obamas-header .progress-inner();
+    }
+    &::-webkit-progress-bar {
+      .obamas-header .progress-outer();
+    }
+    &::-moz-progress-bar {
+      .obamas-header .progress-inner();
+    }
+    &::-ms-fill {
+      .obamas-header .progress-inner();
+    }
+  }
+
+  [type="text"], [type="email"] {
+    border-radius: 4px;
+  }
+
+  [type="submit"] {
+    background-color: @blue-150;
+    border-radius: 4px;
+
+    &:hover, &:active, &:focus {
+      background-color: @blue-100;
+    }
+  }
+
+  [for="opt-in"] {
+    color: @blue-650;
+    a {
+      color: @blue-200;
+    }
+  }
+
+  .petition-info {
+    max-width: 60ch;
+    padding-top: 2rem;
+  }
+
+  main& {
+    @media screen and (min-width: @large-phone) {
+      align-items: flex-start;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+    }
+
+    h2 {
+      color: @blue-800;
+      font-size: 4rem;
+      text-align: center;
+      text-transform: uppercase;
+      &::after {
+        content: '\0023E4';
+        display: block;
+        font-weight: 100;
+        margin-bottom: 1rem;
+      }
+    }
+
+    p {
+      position: relative;
+      &:nth-last-of-type(2) {
+        &::after {
+          background-image: linear-gradient(transparent, @white);
+          bottom: 0;
+          content: ' ';
+          left: 0;
+          position: absolute;
+          right: 0;
+          top: 0;
+          .text-expanded& {
+            &::after {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  footer& {
+    .action-network-footer-dark();
+  }
+}

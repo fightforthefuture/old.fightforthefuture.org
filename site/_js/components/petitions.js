@@ -8,7 +8,7 @@ window.components.petitions = function (doc, win) {
   "use strict";
 
   var
-    loadingModal,
+    loadingScreen,
     objectIdentifier = false,
     apiHost = doc.forms[0].dataset.host,
     body = doc.getElementsByTagName('body')[0],
@@ -132,7 +132,7 @@ window.components.petitions = function (doc, win) {
      * from an XMLHttpRequest
      * */
 
-    loadingModal.hide();
+    loadingScreen.hide();
 
     var
       errorMessageContainer = $c('div'),
@@ -158,6 +158,30 @@ window.components.petitions = function (doc, win) {
     submitButton.removeAttribute('disabled');
   }
 
+  function preSubmit() {
+    /**
+     * Fires up the loading modal and disables the form
+     * @return {object} - modal with spinner
+     * */
+    var
+      loadingContainer = $c('div'),
+      loadingCopy = $c('h2'),
+      loadingSpinner = $c('div');
+
+    loadingSpinner.classList.add('circle-spinner', 'large');
+    loadingCopy.textContent = 'Hang on a tick, reticulating splines…';
+
+    loadingContainer.classList.add('loading');
+    loadingContainer.appendChild(loadingCopy);
+    loadingContainer.appendChild(loadingSpinner);
+    petitionSignatureForm.classList.add('submitted');
+    submitButton.setAttribute('disabled', true);
+
+    return new win.controllers.modals.PlainModalController({
+      modal_content: loadingContainer
+    });
+  }
+
   function submitForm(event) {
     /**
      * Submits the form to ActionNetwork. If the script doesn’t, by now, know
@@ -171,8 +195,9 @@ window.components.petitions = function (doc, win) {
     }
 
     var
-      signatureSubmission = new XMLHttpRequest(),
-      loadingScreen = preSubmit();
+      signatureSubmission = new XMLHttpRequest();
+
+    loadingScreen = preSubmit();
 
     function compilePayload() {
       /**
@@ -214,29 +239,6 @@ window.components.petitions = function (doc, win) {
       return JSON.stringify(petitionFormData);
     }
 
-    function preSubmit() {
-      /**
-       * Fires up the loading modal and disables the form
-       * @return {object} - modal with spinner
-       * */
-      var
-        loadingContainer = $c('div'),
-        loadingCopy = $c('h2'),
-        loadingSpinner = $c('div');
-
-      loadingSpinner.classList.add('circle-spinner', 'large');
-      loadingCopy.textContent = 'Hang on a tick, reticulating splines…';
-
-      loadingContainer.classList.add('loading');
-      loadingContainer.appendChild(loadingCopy);
-      loadingContainer.appendChild(loadingSpinner);
-      petitionSignatureForm.classList.add('submitted');
-      submitButton.setAttribute('disabled', true);
-      return loadingModal = new win.controllers.modals.PlainModalController({
-        modal_content: loadingContainer
-      });
-    }
-
     function loadSignatureResponse() {
       /**
        * Does the thing after we get a response from the API server
@@ -245,15 +247,30 @@ window.components.petitions = function (doc, win) {
       if (signatureSubmission.status >= 200 && signatureSubmission.status < 400) {
 
         var
-          modalContent = $c('div');
-
-        modalContent.innerHTML = '<h2>Thanks for signing</h2>\n<p>Now, share this page to spread the word.</p>\n<p><small>…or, <a href="https://donate.fightforthefuture.org/?amount=5&frequency=just-once">chip in $5</a> to help us spread the message.</small></p>';
-        modalContent.appendChild(doc.getElementById('share-modal'));
+          shareOverlay = $c('div'),
+          shareContent = $c('div'),
+          shareThis = $c('div'),
+          shareCopy = $c('p'),
+          donateCopy = $c('p');
 
         loadingScreen.hide();
-        new win.controllers.modals.PlainModalController({
-          modal_content: modalContent
-        });
+
+        shareCopy.textContent = 'Now, share this page to spread the word.';
+        donateCopy.innerHTML = '<small>…or, <a href="https://donate.fightforthefuture.org/?amount=5&frequency=just-once">chip in $5</a> to help us spread the message.</small>';
+
+        shareOverlay.classList.add('after-action-overlay');
+
+        shareContent.setAttribute('id', 'after-action');
+        shareContent.innerHTML = '<h1>Thanks for signing</h1>';
+        shareContent.appendChild(shareThis);
+        shareContent.appendChild(donateCopy);
+
+        shareThis.classList.add('share-this-button-links');
+        shareThis.appendChild(doc.getElementsByClassName('share-this-fb')[0]);
+        shareThis.appendChild(doc.getElementsByClassName('share-this-tw')[0]);
+
+        body.appendChild(shareOverlay);
+        body.appendChild(shareContent);
 
       } else {
         handleSigningError(signatureSubmission);

@@ -13,7 +13,7 @@ before_install:
 install:
   - npm install
 script:
-  - npm run build
+  - npm run-script build
 after_success:
   - npm run-script deploy
 env:

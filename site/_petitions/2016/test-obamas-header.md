@@ -1,6 +1,6 @@
 ---
 layout: "action-network-petitions"
-design: "big-snowden-head"
+design: "obamas-header"
 headline: "Nothing to see here: just mass graves of trafficked woman"
 tags:
   - foo
@@ -12,7 +12,6 @@ allow_comments: false
 additional_fields:
   - name
   - street_address
-  - city
 required_fields:
   - name
   - street_address

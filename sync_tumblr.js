@@ -1,6 +1,6 @@
 var Habitat = require('habitat');
 
-Habitat.load('.env');
+Habitat.load();
 
 var
   env = new Habitat('', {}),

@@ -1,4 +1,4 @@
-.big-snowden-head {
+.snowden-header {
   .progress-outer() {
     background-color: lighten(@blue-850, 20%);
   }
@@ -13,7 +13,7 @@
 
   .hero& {
     background-color: @blue-900;
-    background-image: url('/img/layout/big-snowden-head/header.jpg');
+    background-image: url('/img/action-network/snowden-header.jpg');
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: auto 115%;
@@ -80,13 +80,8 @@
     }
   }
 
-  [for="opt-in"], [for="select-country"] {
-  }
-
   [for="select-country"] {
     order: 40;
-    &:hover, &:active, &:focus {
-    }
   }
 
   select {
@@ -204,10 +199,10 @@
     order: 30;
     padding: 0;
     &::-webkit-progress-value {
-      .big-snowden-head .progress-inner();
+      .snowden-header .progress-inner();
     }
     &::-webkit-progress-bar {
-      .big-snowden-head .progress-outer();
+      .snowden-header .progress-outer();
     }
   }
 
