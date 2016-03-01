@@ -4,41 +4,24 @@ title: "Fight for the Future, defending our basic rights and freedoms"
 description: "Fight for the Future is dedicated to protecting and expanding the Internet's transformative power in our lives by creating civic campaigns that are engaging for millions of people."
 ---
 
-## Our Projects                                                      {#projects}
+<section class="below-the-fold" markdown="1">
+{% include homepage/signup.html %}
 
-{% for project in site.data.homepage.fftf %}{% if forloop.index0 < 15 %}
-  ![{{ project.title }}]({{ project.image }})
-  : ### [{{ project.title }}]({{ project.url }})
+Fight for the Future is dedicated to protecting and expanding the Internet’s transformative power in our lives by creating civic campaigns that are engaging for millions of people. Alongside internet users everywhere we beat back attempts to limit our basic rights and freedoms, and empower people to demand technology (and policy) that serves their interests. Activating the internet for the public good can only lead to a more vibrant and awesome world. More coming soon.
 
-    {{ project.description }}
-  {% if project.fire %}{:.fire}{% endif %}
+## Latest News
 
-  ---
-{% endif %}{% endfor %}
+{% include homepage/recent_tweets.html %}
+{% include homepage/recommended_posts.html %}
 
-![Other Links](/img/projects/ol.png)
-: {% for link in site.data.homepage.otherlinks %}
-    * [{{ link.text }}]({{ link.url }}){% endfor %}
-{:.other}
+</section>
+<section class="feature-content" markdown="1">
 
-[See more projects...](/projects){:.morelink}
+{% capture projects %}
+{% include homepage/projects.html %}
+{% endcapture %}
 
-## [Fight for the Future Education Fund](https://www.fftfef.org) (our related 501(c)3)
-
-{% for project in site.data.homepage.fftfef %}
-  ![{{ project.title }}]({{ project.image }})
-  : ### [{{ project.title }}]({{ project.url }})
-
-    {{ project.description }}
-  {% if project.fire %}{:.fire}{% endif %}
-
-  ---
-{% endfor %}
-
-![Other Links](/img/projects/ol.png)
-: {% for link in site.data.homepage.otherlinksc3 %}
-    * [{{ link.text }}]({{ link.url }}){% endfor %}
-{:.other}
+{{ projects | markdownify }}
 
 ## As Covered By                                                        {#press}
 
@@ -51,3 +34,5 @@ description: "Fight for the Future is dedicated to protecting and expanding the 
 {% for press in site.data.homepage.featuredpress.list %}
   * [![{{ press.publication }}](/img/page/homepage/publications/{{ press.publication | replace: ' ', '' | downcase }}.png)]({{ press.url }}){: target="_blank"}{% endfor %}
 {:.logos}
+
+</section>

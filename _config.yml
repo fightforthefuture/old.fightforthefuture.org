@@ -720,5 +720,6 @@ highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
+  smart_quotes: ["apos", "apos", "quot", "quot"]
 
 gems: ['jekyll-paginate']
