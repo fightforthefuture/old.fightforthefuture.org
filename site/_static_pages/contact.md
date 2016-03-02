@@ -16,8 +16,8 @@ You can also reach us by snail mail:
 
   Fight for the Future  
   PO Box 55071 #95005  
-  Boston, MA 0220 
+  Boston, MA 02204
 
-Or if you're really old-school, you can fax us at **[857-488-4063](fax:18574884063).**
+Or if you’re really old-school, you can fax us at **[857-488-4063](fax:18574884063).**
 
 
