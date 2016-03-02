@@ -25,7 +25,7 @@ Stats
 : * **3,200,000** Supporters
   * **98** Campaigns
   * **30** Campaign Wins
-  * **5 Years** Fighting
+  * **{{ site.time | date: '%Y' | minus: 2011 }} Years** Fighting
 {: .stats}
 
 
