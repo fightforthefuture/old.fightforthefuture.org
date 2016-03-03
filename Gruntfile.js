@@ -9,6 +9,8 @@ var
   });
 
 module.exports = function (grunt) {
+  "use strict";
+
   require('time-grunt')(grunt);
   require('jit-grunt')(grunt, {});
 
@@ -117,7 +119,10 @@ module.exports = function (grunt) {
     postcss: {
       build: {
         options: {
-          map: true,
+          map: {
+            prev: 'css/',
+            inline: false
+          },
           processors: [
             require('autoprefixer')({browsers: 'last 2 versions'}),
             require('cssnano')()
@@ -184,7 +189,7 @@ module.exports = function (grunt) {
       },
       less: {
         files: ['<%= site.app %>/_less/**/*.less'],
-        tasks: ['less:css']
+        tasks: ['less:css', 'postcss:build']
       },
       javascript: {
         files: ['<%= site.app %>/_js/**/*.js'],
@@ -247,6 +252,7 @@ module.exports = function (grunt) {
     'clean:init',
     'jekyll:server',
     'concurrent:build',
+    'postcss:build',
     'connect:local',
     'watch'
   ]);
