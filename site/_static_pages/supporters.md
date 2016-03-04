@@ -10,6 +10,8 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 : ---
   Fight for the Future and Center for Rights have received support from several amazing foundations:
 
+  * [![The Shuttleworth Foundation](/img/page/supporters/avatars/shutter.png) The Shuttleworth Foundation](http://www.shuttleworthfoundation.org/)
+
   * [![Proteus Fund](/img/page/supporters/avatars/proteus.png) Proteus Fund](http://www.proteusfund.org/)
 
   * [![Ford Foundation](/img/page/supporters/avatars/ford.png) Ford Foundation](http://www.fordfoundation.org/)
