@@ -46,16 +46,16 @@ Stats
 
   #### Co-Founder and Co-Director
 
-  Tiffiniy is our co-founder and co-director. She started [Open Congress][tc1], [Miro][tc2], almost got the SAFE Act passed until Chris Dodd pulled a late night vote. Her work is on art, culture and structural power issues.
+  Tiffiniy is our co-founder and co-director. She started [Open Congress][tc1], [Miro][tc2], and almost got the SAFE Act passed until Chris Dodd pulled a late night vote. Her work is on art, culture and structural power issues. She is a current [Shuttleworth Foundation Fellow] (https://shuttleworthfoundation.org/fellows/tiffiniy-cheng).  
 
 ---
 
 ![Holmes Wilson][hw0]
 : ### Holmes Wilson
 
-  #### Co-Director
+  #### Co-Founder and Co-Director
 
-  Holmes is a co-founder of Fight for the Future. He also co-founded [Miro][tc2], [Open Congress][tc1], and [Amara][hw1], and ran online campaigns for the [FSF][hw2].
+  Holmes is the other co-founder and co-director of Fight for the Future. He also co-founded [Miro][tc2], [Open Congress][tc1], and [Amara][hw1], and ran online campaigns for the [FSF][hw2].
 
 ---
 
