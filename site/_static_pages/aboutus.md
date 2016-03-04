@@ -64,7 +64,7 @@ Stats
 
   #### Campaign Director
 
-  [Evan][eg1] is our campaign director and joined our team after years traveling internationally as a professional musician. She’s been organizing hard-hitting campaigns for more than a decade, is a regular contributor to The Guardian and Huffington Post, and has been a guest on All Things Considered, CNN Headline News, and Good Morning America. 
+  [Evan][eg1] is our campaign director and joined our team after years traveling internationally as a professional musician. She’s been organizing hard-hitting campaigns for more than a decade, is a regular contributor to The Guardian and Huffington Post. 
 
 ---
 
@@ -118,7 +118,7 @@ Stats
 
   #### Programmer
 
-  [Aki][ab1] joins us as developer with experience drawn from her work at Apple, Mozilla and the Obama 2012 campaign, where she was part of the small team that developed the campaign’s online fundraising machine. She mostly spends her free time [on twitter][ab2], but also traveling the country in her RV and working on her Southern Californian homestead.
+  [Aki][ab1] joins us as developer with experience drawn from her work at Apple, Mozilla and the Obama 2012 campaign. She mostly spends her free time [on twitter][ab2], but also traveling the country in her RV.
 
 
 [tc0]: /img/page/aboutus/teampic/tiff.png
