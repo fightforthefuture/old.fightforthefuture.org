@@ -46,7 +46,7 @@ Stats
 
   #### Co-Founder and Co-Director
 
-  Tiffiniy is our co-founder and co-director. She started [Open Congress][tc1], [Miro][tc2], and almost got the SAFE Act passed until Chris Dodd pulled a late night vote. Her work is on art, culture and structural power issues. She is a current [Shuttleworth Foundation Fellow] (https://shuttleworthfoundation.org/fellows/tiffiniy-cheng).  
+  Tiffiniy is our co-founder and co-director. She started [Open Congress][tc1], [Miro][tc2], and almost got the SAFE Act passed until Chris Dodd pulled a late night vote. Her work is on art, culture and structural power issues. She is a current [Shuttleworth Foundation Fellow](https://shuttleworthfoundation.org/fellows/tiffiniy-cheng).  
 
 ---
 
