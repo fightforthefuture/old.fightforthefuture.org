@@ -64,7 +64,7 @@ Stats
 
   #### Campaign Director
 
-  [Evan][eg1] is our campaign director and joined our team after years traveling internationally as a professional musician. She’s been organizing hard-hitting campaigns for more than a decade, is a regular contributor to The Guardian and Huffington Post. 
+  [Evan][eg1] is our campaign director. She’s been organizing campaigns for more than a decade, is a regular contributor to The Guardian and Huffington Post, and has been a guest on All Things Considered, CNN Headline News, and Good Morning America.   
 
 ---
 
