@@ -64,7 +64,7 @@ Stats
 
   #### Campaign Director
 
-  [Evan][eg1] is our campaign director. She’s been organizing hard-hitting campaigns for more than a decade, is a regular contributor to The Guardian and Huffington Post.   
+  [Evan][eg1] is our campaign director. She’s been organizing hard-hitting campaigns for more than a decade and is a regular contributor to The Guardian and Huffington Post.   
 
 ---
 
