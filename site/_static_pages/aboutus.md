@@ -21,13 +21,6 @@ Our accomplishments are testament to the notion that with the right approach and
 [01]: https://www.battleforthenet.com/how-we-won/
 [02]: http://www.fightforthefuture.org/timeline/
 
-Stats
-: * **3,200,000** Supporters
-  * **98** Campaigns
-  * **30** Campaign Wins
-  * **{{ site.time | date: '%Y' | minus: 2011 }} Years** Fighting
-{: .stats}
-
 
 # Staff
 {: #staff}
