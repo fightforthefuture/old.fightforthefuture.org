@@ -2,8 +2,12 @@
 # multiple categories, use best judgement?
 
 - campaign: dont-break-our-phones
-  pretty: Don’t Break Our Phones
+  pretty: Don’t Break Our Phones / Save Security
   coverage:
+    - title: 'A week that will define Apple, with iPhone at center: analysis'
+      date: 2016-03-18
+      publication: USA Today
+      link: http://www.usatoday.com/story/tech/columnist/2016/03/18/apple-iphone-fbi-court-launch-doj/81862698/
     - title: Activists plan rally on Tuesday at dozens of Apple Stores worldwide
       date: 2016-02-22
       publication: Ars Technica
