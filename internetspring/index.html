@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8"/>
+  <style>
+    body {
+      color: #E8E8E8;
+      background-image: url("../img/page/timeline/bg.jpg");
+      padding: 0;
+      margin: 0;
+    }
+
+    header {
+      background-color: #3ebbcf;
+      background-image: url(../img/page/timeline/back.jpg);
+      background-position: top center;
+      background-repeat: no-repeat;
+      display: block;
+      height: 425px;
+      text-align: center;
+      margin-bottom: 70px;
+    }
+
+    h1 {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 25px;
+      font-weight: 700;
+      color: #272822;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .info strong {
+      color: #4A9435;
+      display: block;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      font-weight: normal;
+      line-height: 22px;
+      margin-bottom: 6px;
+    }
+
+    .info strong a {
+      font-weight: bold;
+    }
+
+    a {
+      color: #4A9435;
+      text-decoration: none;
+
+      -webkit-transition: all 0.15s;
+      -moz-transition: all 0.15s;
+      -ms-transition: all 0.15s;
+      -o-transition: all 0.15s;
+      transition: all 0.15s;
+    }
+
+    a:hover {
+      color: #070;
+    }
+
+    footer {
+      clear: both;
+      display: block;
+      margin: 0 auto 120px;
+      padding-top: 30px;
+      width: 840px;
+    }
+
+    footer p {
+      margin-bottom: 25px;
+    }
+
+    header img {
+      margin-top: 20px;
+      margin-right: 30px;
+    }
+
+    .wrap {
+      margin: 5px auto 0;
+      width: 840px;
+    }
+
+    .wraptwo {
+      width: 840px;
+      margin: 0 auto;
+    }
+
+    .date {
+      margin-bottom: -30px;
+      height: 30px;
+      padding-right: 20px;
+      position: relative;
+      width: 200px;
+    }
+
+    .date h2 {
+      line-height: 50px;
+    }
+
+    .info {
+      float: left;
+      border-left: solid #B6B6B6 1px;
+      margin-left: 220px;
+      padding-left: 20px;
+      width: 445px;
+    }
+
+    h2 {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: #9D1617;
+      text-align: right;
+    }
+
+    p {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      color: #15171A;
+      line-height: 20px;
+    }
+
+    p + p {
+      margin-top: -15px;
+    }
+
+    .image_line {
+      border: 3px solid #fff;
+      /* stroke */
+      -moz-box-shadow: 0 1px 9px rgba(0, 0, 0, .45);
+      /* drop shadow */
+      -webkit-box-shadow: 0 1px 9px rgba(0, 0, 0, .45);
+      /* drop shadow */
+      box-shadow: 0 1px 9px rgba(0, 0, 0, .45);
+      /* drop shadow */
+      margin-bottom: 30px;
+    }
+
+    .line {
+      width: 650px;
+      height: 2px;
+      border-bottom: 2px dotted #fff;
+      margin: 0 auto;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    .headtop {
+      margin: 0 auto;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      margin-top: 5px;
+      color: #aae3e7;
+    }
+
+    a.btn, button, input {
+      border: none;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      /* border radius */
+      -moz-background-clip: padding;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box;
+      /* prevents bg color from leaking outside the border */
+      background-color: #fdc31d;
+      /* layer fill content */
+      background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RlYWIxOSIgc3RvcC1vcGFjaXR5PSIxIi8+CjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZkYzMxZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgIDwvbGluZWFyR3JhZGllbnQ+Cgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+);
+      /* gradient overlay */
+      background-image: -moz-linear-gradient(bottom, #deab19 0%, #fdc31d 100%);
+      /* gradient overlay */
+      background-image: -o-linear-gradient(bottom, #deab19 0%, #fdc31d 100%);
+      /* gradient overlay */
+      background-image: -webkit-linear-gradient(bottom, #deab19 0%, #fdc31d 100%);
+      /* gradient overlay */
+      background-image: linear-gradient(bottom, #deab19 0%, #fdc31d 100%);
+      /* gradient overlay */
+      color: #332500;
+      /* text color */
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      text-shadow: 0 1px 0 #ffe28e;
+      /* drop shadow */
+      width: 100px;
+      padding: 15px 0 15px 0;
+      text-align: center;
+      display: inline-block;
+    }
+
+    a.btn {
+      width: 200px;
+    }
+
+    input {
+      text-align: left;
+      font-weight: normal;
+      padding-left: 20px;
+      text-shadow: none;
+      background: white;
+    }
+
+    form input.email {
+      width: 240px;
+    }
+
+    form input.name {
+      width: 165px;
+    }
+
+    form input.amount {
+      width: 40px;
+    }
+
+    form button {
+      width: 120px;
+    }
+
+    .tophone {
+      margin-top: 30px;
+      padding-top: 0;
+      margin-bottom: 15px;
+      padding-bottom: 0;
+      color: #fff;
+    }
+
+    .details {
+      color: #fff;
+      margin-top: 10px;
+      padding-top: 0;
+    }
+
+    .headbig {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 26px;
+      line-height: 35px;
+      color: #fff;
+      width: 800px;
+      margin: 0 auto;
+      margin-top: 33px;
+    }
+
+    .buttons-b {
+      text-align: center;
+      margin-top: 45px;
+      margin-bottom: 60px;
+    }
+
+    .buttons-b a {
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      /* border radius */
+      -moz-background-clip: padding;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box;
+      /* prevents bg color from leaking outside the border */
+      background-color: #aec1ce;
+      /* layer fill content */
+      background-color: #3187a0;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 22px;
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-top: 13px;
+      padding-bottom: 13px;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .buttons-a {
+      height: 28px;
+      text-align: center;
+      margin-top: 80px;
+      margin-bottom: 50px;
+    }
+
+    .buttons-a a {
+      background: #09c;
+      background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.1)), color-stop(100%, rgba(0, 0, 0, 0.1)));
+      background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
+      background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
+      background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00aadd', endColorstr='#00cc99', GradientType=0);
+      border: 1px solid #0077aa;
+      border-radius: 5px;
+      box-shadow: 0 5px 5px rgba(0, 0, 0, 0.07), 0 1px 0 rgba(255, 255, 255, 0.75) inset;
+      color: white;
+
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 22px;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 14px;
+      padding-bottom: 14px;
+      text-decoration: none;
+      margin-left: 10px;
+      margin-right: 10px;
+
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+
+    .buttons-a a:hover {
+      background: #09d;
+      filter: none;
+      -webkit-transition: background 0.15s;
+      -moz-transition: background 0.15s;
+      -ms-transition: background 0.15s;
+      -o-transition: background 0.15s;
+      transition: background 0.15s;
+    }
+
+    .buttons-a a:active {
+      background: #069;
+      box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.5) inset;
+    }
+
+    @media screen and (min-width: 1000px) {
+      .scrolled-past-230 .buttons-a a {
+        display: block;
+        position: fixed;
+        right: 0;
+        top: 10px;
+        width: 80px;
+        z-index: 9;
+      }
+    }
+
+    .buttons-b a:hover {
+      opacity: 0.95;
+    }
+
+    nav {
+      display: block;
+    }
+
+    nav a {
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+
+    nav a.selected {
+      background-color: #207690;
+    }
+
+    .wrap.year {
+      display: none;
+    }
+
+    #year-of-2012 img {
+      width: 100%;
+    }
+
+    a.selected {
+      background-color: #3f5361;
+    }
+  </style>
+  <style>
+    /*FONTS*/
+    @font-face {
+      font-family: 'BevanRegular';
+      src: url('/webfonts/Bevan-webfont.eot');
+      src: url('/webfonts/Bevan-webfont.eot?#iefix') format('embedded-opentype'),
+      url('/webfonts/Bevan-webfont.woff') format('woff'),
+      url('/webfonts/Bevan-webfont.ttf') format('truetype'),
+      url('/webfonts/Bevan-webfont.svg#BevanRegular') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'BebasNeueRegular';
+      src: url('/webfonts/BebasNeue-webfont.eot');
+      src: url('/webfonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+      url('/webfonts/BebasNeue-webfont.woff') format('woff'),
+      url('/webfonts/BebasNeue-webfont.ttf') format('truetype'),
+      url('/webfonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    .oleo {
+      font-family: 'Oleo Script', cursive;
+    }
+
+    .palatino {
+      font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+    }
+
+    .montserrat {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .bebas {
+      font-family: 'BebasNeueRegular';
+    }
+
+    body header {
+      background: url('/img/page/internetspring/header_bg.png') repeat-x;
+      height: 105px;
+    }
+
+    body header h1 {
+      color: #fff; /* text color */
+      font-size: 40px;
+      display: inline-block;
+      float: left;
+      margin-left: 140px;
+      font-weight: normal;
+
+    }
+
+    body .wrapper, body .wrap {
+      width: 962px;
+      margin: 0 auto;
+    }
+
+    body .wrap {
+      margin-top: 120px;
+      padding-bottom: 200px;
+    }
+
+    body header form {
+      width: 640px;
+      float: right;
+      overflow: auto;
+      margin-top: 20px;
+    }
+
+    body header form p.details {
+      font-size: 12px;
+      color: #fff;
+      margin-top: 0px;
+      text-align: left;
+    }
+
+    a.banner {
+      display: block;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+
+    body .wrap h2 {
+      text-align: center;
+      color: #990031; /* text color */
+      font-family: "Helvetica";
+      font-size: 28px;
+      font-weight: bold;
+
+    }
+
+    ul {
+      list-style-type: none;
+      text-align: center;
+      margin: 0 auto;
+      width: 970px;
+    }
+
+    ul li {
+      display: inline;
+      float: left;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+
+    a.btn, button, input {
+      border: none;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      border-radius: 3px; /* border radius */
+      -moz-background-clip: padding;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box; /* prevents bg color from leaking outside the border */
+      background-color: #fdc31d; /* layer fill content */
+      background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RlYWIxOSIgc3RvcC1vcGFjaXR5PSIxIi8+CjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZkYzMxZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgIDwvbGluZWFyR3JhZGllbnQ+Cgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+); /* gradient overlay */
+      background-image: -moz-linear-gradient(bottom, #deab19 0%, #fdc31d 100%); /* gradient overlay */
+      background-image: -o-linear-gradient(bottom, #deab19 0%, #fdc31d 100%); /* gradient overlay */
+      background-image: -webkit-linear-gradient(bottom, #deab19 0%, #fdc31d 100%); /* gradient overlay */
+      background-image: linear-gradient(bottom, #deab19 0%, #fdc31d 100%); /* gradient overlay */
+
+      color: #332500; /* text color */
+      font-family: "Helvetica";
+      font-size: 18px;
+      font-weight: bold;
+      text-shadow: 0 1px 0 #ffe28e; /* drop shadow */
+      width: 100px;
+      padding: 15px 0 15px 0;
+      text-align: center;
+      display: inline-block;
+    }
+
+    a.btn {
+      width: 200px;
+    }
+
+    input {
+      text-align: left;
+      font-weight: normal;
+      padding-left: 20px;
+      text-shadow: none;
+      background: white;
+    }
+
+    form input.email {
+      width: 240px;
+    }
+
+    form input.name {
+      width: 165px;
+    }
+
+    form input.amount {
+      width: 40px;
+    }
+
+    form button {
+      width: 120px;
+    }
+
+  </style>
+
+  <link rel="icon" href="/favicon.png" type="image/x-icon"/>
+
+  <title>THE INTERNET SPRING - We're 3 for 3</title>
+  <meta property="og:title" content="THE INTERNET SPRING  - We're 3 for 3"/>
+  <meta property="og:description" content="24 million people and counting won internet freedom and stopped giant corrupted power this year...."/>
+  <meta property="og:image" content="http://www.fightforthefuture.org/img/page/internetspring/fb-share.png"/>
+  <meta property="og:url" content="http://www.fightforthefuture.org/internetspring/"/>
+  <meta property="og:type" content="article"/>
+</head>
+
+<body>
+
+<div class="socialize" style="position: fixed; height: 350px; margin-left: 10px; margin-top: 10px; z-index: 97;">
+
+  <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.fightforthefuture.org/internetspring/" data-text="THE INTERNET SPRING  - We're 3 for 3 - ">Tweet</a>
+  <script>!function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (!d.getElementById(id)) {
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }
+  }(document, "script", "twitter-wjs");</script>
+  <div id="fb-root"></div>
+  <script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {
+      return;
+    }
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <script type="text/javascript">var _sf_startpt = (new Date()).getTime()</script>
+  <div id="shareitup" style="overflow: visible">
+    <div class="fb-like" data-href="http://www.fightforthefuture.org/intenretspring/" data-send="true" data-layout="box_count" data-width="150" data-show-faces="true"></div>
+    <br/> <br/>
+  </div>
+</div>
+<header>
+  <div class="wrapper">
+    <h1 class="bebas">Join Us Now!</h1>
+
+    <form class="donateask" action="https://donate.fightforthefuture.org">
+      <div class="wrap topish">
+        <fieldset>
+          <p class="oleo">help out!</p>
+          <input type="number" placeholder="$40" name="amount"/>
+          <button class="bebas">Donate</button>
+        </fieldset>
+      </div>
+    </form>
+  </div>
+</header>
+<div class="wrap">
+  <img src="/img/page/internetspring/poster.png" alt="poster"/>
+
+  <a href="https://www.fightforthefuture.org" class="banner"><img src="/img/page/internetspring/banner.png" alt="Fight for the Future"/></a>
+
+  <h2>JOIN THE MOVEMENT. KEEP US FIGHTING</h2>
+
+  <ul>
+    <li><a href="https://donate.fightforthefuture.org" class="btn">Give</a></li>
+    <li>
+      <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Ffightforthefuture.dev%2Finternetspring%2F&text=THE%20INTERNET%20SPRING%20%20-%20We're%203%20for%203%20-%20&tw_p=tweetbutton&url=http%3A%2F%2Fwww.fightforthefuture.org%2Finternetspring%2F" class="btn">Share
+        on Twitter</a></li>
+    <li>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ffightforthefuture.org%2Finternetspring" class="btn">Share
+        on Facebook</a></li>
+    <li><a href="http://internetdefenseleague.org" class="btn">Enlist</a></li>
+  </ul>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="application/javascript">
+  function getip(json) {
+    //	      alert(json.ip); // alerts the ip address
+    $('#signup_ip').val(json.ip);
+  }
+
+  $("#user_agent").val(navigator.userAgent);
+</script>
+<script>
+  $("form.donateask button").click(function (event) {
+
+    event.preventDefault();
+    var amount_value = $("form.donateask input.amount").val();
+    var name_value = $("form.donateask input.name").val();
+    var email_value = $("form.donateask input.email").val();
+    window.location = "https://donate.fightforthefuture.org/donate/fftf?amount=" + amount_value + "&email=" + email_value + "&name=" + name_value;
+
+  });
+
+  $("form.donateask input").keyup(function (event) {
+    if (event.keyCode == 13) {
+      $("form.donateask button").click();
+    }
+  });
+</script>
+</body>
+
+</html>
+

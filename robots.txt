@@ -1,0 +1,10 @@
+User-agent: *
+
+Allow: *
+
+Disallow: /404Disallow: /unsubscribeDisallow: /unsubscribedDisallow: /thanksDisallow: /2016/test-obamas-headerDisallow: /2016/test-snowden-headerDisallow: /2016/test-white-two-column
+
+
+
+Sitemap: https://www.fightforthefuture.org/sitemap.xml
+

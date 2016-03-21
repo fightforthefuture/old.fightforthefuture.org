@@ -1,0 +1,298 @@
+<!doctype html>
+<html>
+<head>
+  <title>An informal poll... who here wants the ITU running the
+    Internet?</title>
+
+  <link rel="icon" type="image/png" href="/fav.png">
+
+  <meta property="og:title" content="Temperature test: should we give authoritarian governments control of the internet?"/>
+  <meta property="og:description" content="Quick poll: putting a 147-year-old UN organization, where censorship govts hold a majority, in charge of Internet. All good? fightforthefuture.org/wtfitu"/>
+  <meta property="og:image" content="http://www.fightforthefuture.org/img/page/wtfitu/room.jpg"/>
+  <meta property="og:url" content="http://www.fightforthefuture.org/wtfitu"/>
+  <meta property="og:type" content="article"/>
+  <meta property="fb:admins" content="678090273"/>
+
+  <style>
+    #tag {
+      width: 67px;
+      height: 228px;
+      position: fixed;
+      left: 0px;
+      z-index: 500;
+      margin-top: 240px;
+      background: url('//internetdefenseleague.org/images/fftf_tag.png');
+    }
+
+    .caption {
+      background: rgba(0, 0, 0, .85);
+      position: fixed;
+      bottom: -1px;
+      width: 100%;
+      font-size: 20px;
+      color: #fff;
+      padding: 0;
+      margin: 0;
+      margin-left: -8px;
+      z-index: 300000;
+
+    }
+
+    .caption p {
+      margin: 20px;
+      line-height: 1.5;
+      font-size: 14px;
+      font-family: 'helvetica neue', arial, sans-serif;
+      font-weight: normal;
+      float: left;
+      width: 55%;
+    }
+
+    .caption p a {
+      color: #fff;
+    }
+
+    button.donate, a.donate, a.facebook {
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      border-radius: 3px; /* future proofing */
+      font-size: 22px;
+      background: #FBC337;
+      color: #332503;
+      padding-bottom: 3px;
+      -webkit-transition: background 0.5s ease;
+      -moz-transition: background 0.5s ease;
+      -o-transition: background 0.5s ease;
+      transition: background 0.5s ease;
+      display: inline-block;
+      float: right;
+      margin: 20px;
+      padding: 10px;
+      font-family: 'helvetica neue', arial, sans-serif;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, .35);
+      cursor: pointer;
+      z-index: 9999999999;
+    }
+
+    a.donate:hover {
+      background: #d29600;
+    }
+
+    a.facebook {
+      background: #3b5998;
+    }
+
+    a.facebook:hover {
+      background: #1a3671;
+    }
+  </style>
+
+</head>
+<body>
+
+
+<div class="caption"><p><strong>Photo:</strong> Wednesday night in Dubai, the
+  <a href="http://www.whatistheITU.org">ITU</a> leadership both confused and
+  angered most of the world's democracies when it tried to use an informal
+  non-vote, "a temperature test", to give itself authority over the Internet.
+  Read more about it
+  <a href="http://www.techdirt.com/articles/20121214/23365121371/itu-goes-back-multiple-promises-makes-play-internet-governance-with-sneaky-surprise-vote.shtml">here</a>
+  or <a href="http://www.whatistheITU.org">watch this video</a> The meetings
+  ended in
+  <a href="http://news.cnet.com/8301-13578_3-57559034-38/u.n-summit-implodes-as-u.s-others-spurn-internet-treaty/">disarray</a>,
+  thanks to grassroots pressure many countries refused to sign the treaty.
+</p>
+  <a href="https://donate.fightforthefuture.org" class="donate">DONATE</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ffightforthefuture.org%2Fwtfitu" class="facebook">SHARE
+    ON FACEBOOK</a>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+  /*! Backstretch - v2.0.3 - 2012-11-30
+   * http://srobbin.com/jquery-plugins/backstretch/
+   * Copyright (c) 2012 Scott Robbin; Licensed MIT */
+  (function (e, t, n) {
+    "use strict";
+    e.fn.backstretch = function (r, s) {
+      return (r === n || r.length === 0) && e.error("No images were supplied for Backstretch"), e(t).scrollTop() === 0 && t.scrollTo(0, 0), this.each(function () {
+        var t = e(this), n = t.data("backstretch");
+        n && (s = e.extend(n.options, s), n.destroy(!0)), n = new i(this, r, s), t.data("backstretch", n)
+      })
+    }, e.backstretch = function (t, n) {
+      return e("body").backstretch(t, n).data("backstretch")
+    }, e.expr[":"].backstretch = function (t) {
+      return e(t).data("backstretch") !== n
+    }, e.fn.backstretch.defaults = {
+      centeredX: !0,
+      centeredY: !0,
+      duration: 5e3,
+      fade: 0
+    };
+    var r = {
+      wrap: {
+        left: 0,
+        top: 0,
+        overflow: "hidden",
+        margin: 0,
+        padding: 0,
+        height: "100%",
+        width: "100%",
+        zIndex: -999999
+      },
+      img: {
+        position: "absolute",
+        display: "none",
+        margin: 0,
+        padding: 0,
+        border: "none",
+        width: "auto",
+        height: "auto",
+        maxWidth: "none",
+        zIndex: -999999
+      }
+    }, i = function (n, i, o) {
+      this.options = e.extend({}, e.fn.backstretch.defaults, o || {}), this.images = e.isArray(i) ? i : [i], e.each(this.images, function () {
+        e("<img />")[0].src = this
+      }), this.isBody = n === document.body, this.$container = e(n), this.$wrap = e('<div class="backstretch"></div>').css(r.wrap).appendTo(this.$container), this.$root = this.isBody ? s ? e(t) : e(document) : this.$container;
+      if (!this.isBody) {
+        var u = this.$container.css("position"), a = this.$container.css("zIndex");
+        this.$container.css({
+          position: u === "static" ? "relative" : u,
+          zIndex: a === "auto" ? 0 : a,
+          background: "none"
+        }), this.$wrap.css({zIndex: -999998})
+      }
+      this.$wrap.css({position: this.isBody && s ? "fixed" : "absolute"}), this.index = 0, this.show(this.index), e(t).on("resize.backstretch", e.proxy(this.resize, this)).on("orientationchange.backstretch", e.proxy(function () {
+        this.isBody && t.pageYOffset === 0 && (t.scrollTo(0, 1), this.resize())
+      }, this))
+    };
+    i.prototype = {
+      resize: function () {
+        try {
+          var e = {
+            left: 0,
+            top: 0
+          }, n = this.isBody ? this.$root.width() : this.$root.innerWidth(), r = n, i = this.isBody ? t.innerHeight ? t.innerHeight : this.$root.height() : this.$root.innerHeight(), s = r / this.$img.data("ratio"), o;
+          s >= i ? (o = (s - i) / 2, this.options.centeredY && (e.top = "-" + o + "px")) : (s = i, r = s * this.$img.data("ratio"), o = (r - n) / 2, this.options.centeredX && (e.left = "-" + o + "px")), this.$wrap.css({
+            width: n,
+            height: i
+          }).find("img:not(.deleteable)").css({width: r, height: s}).css(e)
+        } catch (u) {
+        }
+        return this
+      }, show: function (t) {
+        if (Math.abs(t) > this.images.length - 1) {
+          return;
+        }
+        this.index = t;
+        var n = this, i = n.$wrap.find("img").addClass("deleteable"), s = e.Event("backstretch.show", {relatedTarget: n.$container[0]});
+        return clearInterval(n.interval), n.$img = e("<img />").css(r.img).bind("load", function (t) {
+          var r = this.width || e(t.target).width(), o = this.height || e(t.target).height();
+          e(this).data("ratio", r / o), e(this).fadeIn(n.options.speed || n.options.fade, function () {
+            i.remove(), n.paused || n.cycle(), n.$container.trigger(s, n)
+          }), n.resize()
+        }).appendTo(n.$wrap), n.$img.attr("src", n.images[t]), n
+      }, next: function () {
+        return this.show(this.index < this.images.length - 1 ? this.index + 1 : 0)
+      }, prev: function () {
+        return this.show(this.index === 0 ? this.images.length - 1 : this.index - 1)
+      }, pause: function () {
+        return this.paused = !0, this
+      }, resume: function () {
+        return this.paused = !1, this.next(), this
+      }, cycle: function () {
+        return this.images.length > 1 && (clearInterval(this.interval), this.interval = setInterval(e.proxy(function () {
+          this.paused || this.next()
+        }, this), this.options.duration)), this
+      }, destroy: function (n) {
+        e(t).off("resize.backstretch orientationchange.backstretch"), clearInterval(this.interval), n || this.$wrap.remove(), this.$container.removeData("backstretch")
+      }
+    };
+    var s = function () {
+      var e = navigator.userAgent, n = navigator.platform, r = e.match(/AppleWebKit\/([0-9]+)/), i = !!r && r[1], s = e.match(/Fennec\/([0-9]+)/), o = !!s && s[1], u = e.match(/Opera Mobi\/([0-9]+)/), a = !!u && u[1], f = e.match(/MSIE ([0-9]+)/), l = !!f && f[1];
+      return !((n.indexOf("iPhone") > -1 || n.indexOf("iPad") > -1 || n.indexOf("iPod") > -1) && i && i < 534 || t.operamini && {}.toString.call(t.operamini) === "[object OperaMini]" || u && a < 7458 || e.indexOf("Android") > -1 && i && i < 533 || o && o < 6 || "palmGetResource" in t && i && i < 534 || e.indexOf("MeeGo") > -1 && e.indexOf("NokiaBrowser/8.5.0") > -1 || l && l <= 6)
+    }()
+  })(jQuery, window);
+</script>
+<script> $.backstretch("/img/page/wtfitu/room.jpg");</script>
+<script>
+  var tweet_text = "Hey internet, just want to get the \"feel of the room.\" Think we should give the #ITU more control of the net? ";
+  var urlz = "http://www.fightforthefuture.org/wtfitu";
+  var tweet_link = "http://twitter.com/share?&source=tweetbutton&original_referer=" + encodeURIComponent(urlz) + "&text=" + encodeURIComponent(tweet_text) + "&hashtags=WCIT";
+
+
+  function setCookie(name, value, days) {
+    if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      var expires = "; expires=" + date.toGMTString();
+    }
+    else {
+      var expires = "";
+    }
+    document.cookie = name + "=" + value + expires + "; path=/";
+  }
+
+  function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+      if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+    }
+    return null;
+  }
+
+  function deleteCookie(name) {
+    setCookie(name, "", -1);
+  }
+
+  if (typeof global_displayAmericanCensorshipModal == 'undefined') {
+    var global_displayAmericanCensorshipModal = 0;
+  }
+
+  displayAmericanCensorshipModal = function () {
+    // Inject CSS
+    if (!global_displayAmericanCensorshipModal) {
+      global_displayAmericanCensorshipModal = 1;
+      var css = 'p.historic {color: #000    ; /* text color */font-size: 18px;line-height: 1.3;padding-left: 20px;padding-right: 20px;margin-bottom: 10px;}#logoz {display: block;text-indent: -99999px;width: 303px;height: 40px;background: url(/img/page/wtfitu/logo.png) no-repeat;margin-top: 20px;margin-bottom: 5px;margin-left: 70px;}#signupmodal-overlay{ display:none;position:fixed;top:20px;left:20px;width:100%;height:100%;z-index:1001;}#signupmodal-lightbox{display:block;position:relative;width:342px;height:300px;padding:0;background-color:#000;z-index:1500;overflow:hidden;box-shadow:0px 0px 25px #171717; border-radius: 5px; overflow:hidden; float: left; margin-top: 95px; margin-left: 70px; display: block;width: 500px;height: 250px; -moz-border-radius: 5px; /* from vector shape */ -webkit-border-radius: 5px; /* from vector shape */ border-radius: 5px; /* from vector shape */ -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; /* prevents bg color from leaking outside the border */ background-color: #000; /* layer fill content */ -moz-box-shadow: 0 5px 16px rgba(0,0,0,.89); /* drop shadow */ -webkit-box-shadow: 0 5px 16px rgba(0,0,0,.89); /* drop shadow */ box-shadow: 0 5px 16px rgba(0,0,0,.89); /* drop shadow */ /* inner stroke */ border-radius: 5px;border:0;padding:0;overflow:hidden;}#signupmodal-close{color:#000;font-family:"Helvetica","Arial",sans-serif;float:right;vertical-align:10px;position:absolute;margin-left:475px;margin-top: 5px;}#signupmodal-container{position:fixed;top:0;left:0;width:100%;height:100%;}#signupmodal-close-option{background: url(https://www.fightforthefuture.org/images/history/dismiss.png) right no-repeat; padding-right: 15px; text-decoration: none;font-family:"Helvetica","Arial",sans-serif;float:right;vertical-align:10px;color:#000;position:absolute;margin-left:170px;margin-top: 205px;}#signupmodal-lightbox {padding: 0;font-family: helvetica; /*background: black;*/background: rgba(255,255,255,0.92);}#signupmodal-lightbox button {float: left;margin-left: 10px;border: 0;color: #000; /* text color */text-shadow: 0 1px 0 #05300d; /* drop shadow */font-size: 18px;font-weight: bold;width: 94px;height: 38px;-moz-border-radius: 3px; /* from vector shape */-webkit-border-radius: 3px; /* from vector shape */ border-radius: 3px; /* from vector shape */ -moz-background-clip: padding;-webkit-background-clip: padding-box;background-clip: padding-box; /* prevents bg color from leaking outside the border */background-color: #000; /* layer fill content */-moz-box-shadow: 0 2px 1px rgba(0,0,0,.4); /* drop shadow */-webkit-box-shadow: 0 2px 1px rgba(0,0,0,.4); /* drop shadow */box-shadow: 0 2px 1px rgba(0,0,0,.4); /* drop shadow */ background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwZDcyMjIiIHN0b3Atb3BhY2l0eT0iMSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxZjkyMjQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICA8L2xpbmVhckdyYWRpZW50PgoKPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+); /* gradient fill */ background-image: -moz-linear-gradient(90deg, #0d7222 0%, #1f9224 100%); /* gradient fill */background-image: -o-linear-gradient(90deg, #0d7222 0%, #1f9224 100%); /* gradient fill */ background-image: -webkit-linear-gradient(90deg, #0d7222 0%, #1f9224 100%); /* gradient fill */ background-image: linear-gradient(90deg, #0d7222 0%, #1f9224 100%); /* gradient fill */} #signupmodal-lightbox input {margin-left: 20px;float: left;border: 0;text-indent: 5px;width: 196px;height: 38px;font-size: 18px;-moz-border-radius: 3px; /* from vector shape */ -webkit-border-radius: 3px; /* from vector shape */border-radius: 3px; /* from vector shape */-moz-background-clip: padding; -webkit-background-clip: padding-box;background-clip: padding-box; /* prevents bg color from leaking outside the border */background-color: #f0f0f0; /* layer fill content + solid fill */-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,.5); /* inner shadow */-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,.5); /* inner shadow */box-shadow: inset 0 1px 3px rgba(0,0,0,.5); /* inner shadow */}#signupmodal-lightbox form {margin-bottom: 25px; overflow: auto;}  #signupmodal-lightbox a {color: #000;}body #signupmodal-lightbox .circle a {text-decoration: none;border-radius: 50%;text-align: center; font-size: 14px;font-weight: bold; float: right; margin-right: 20px;width: 20px;height: 20px; color: black; background: #999;padding-top: 2px; color: #fff;}#signupmodal-lightbox a.btn:hover {background: #007542;}#signupmodal-lightbox a.btn{cursor: pointer; display: inline-block; padding-left: 5px; padding-right: 5px; -moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;float: left; background: #14a767; -webkit-transition: background 0.5s ease; -moz-transition: background 0.5s ease;  	-o-transition: background 0.5s ease; 	transition: background 0.5s ease;text-shadow: 2px 2px 2px rgba(0,0,0,.35);   	color: #fff;   	font-size: 15px; text-align: center;   	padding-top:13px; text-decoration: none; font-weight: bold; margin-right: 10px; width: 190px; height: 30px;} .linkage {padding-top: 20px; margin-left: 40px;color: white;}p.sidenote {display: block; clear: both; text-align: center; font-size: 13px; padding-top: 15px;}';
+      var style = document.createElement('style');
+      style.type = "text/css";
+      style.innerHTML = css;
+      document.body.appendChild(style);
+
+      // Inject HTML
+      var html = '<a id="signupmodal-overlay" href="javascript:void(0)" onclick="javascript:document.getElementById(\'signupmodal-overlay\').style.display=\'none\';document.getElementById(\'signupmodal-lightbox\').style.display=\'none\';"></a>'
+
+                 + '<div id="signupmodal-container">'
+                 + '<div id="signupmodal-lightbox">'
+                 + '<p class="historic"><strong>This is just an informal poll.</strong> Who here thinks that this 147-year-old UN agency built for regulating <a href=\"http://whatistheitu.org\" target=\"_new\">telegraphs</a>, run by a majority of countries that <a href=\"http://en.rsf.org/IMG/jpg/carte2012-2.jpg\" target=\"_new\">censor the press</a>, meeting in a country that <a href=\"http://www.equaltimes.org/news/teen-blogger-jailed-in-uae\" target=\"_new\">jails bloggers</a>, should be making decisions about the global Internet?'
+                 + '<div class=\"linkage\">'
+                 + '<a href=\"' + tweet_link + '\" class=\"btn\">Great idea!</a>'
+                 + '<a href=\"' + tweet_link + '\" class=\"btn\">TERRIBLE IDEA</a>'
+
+                 + '</div>'
+                 + '<p class=\"sidenote\">(We&apos;re just trying to get the feel of the room)</p>'
+                 + '</div>'
+                 + '</div>';
+
+      var injector = document.createElement('div');
+      injector.innerHTML = html;
+      document.body.appendChild(injector);
+    } else {
+      document.getElementById('signupmodal-overlay').style.display = 'block';
+      document.getElementById('signupmodal-lightbox').style.display = 'block';
+    }
+  };
+
+  displayAmericanCensorshipModal();
+
+</script>
+</body>
+</html>
+
