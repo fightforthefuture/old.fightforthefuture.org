@@ -140,7 +140,7 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   ![BestVPN](/img/page/supporters/avatars/bestvpn.png)
   : ### [BestVPN](https://www.bestvpn.com/)
 
-    BestVPN runs the ultimate VPN review site, where they've carefully reviewed over 100 VPN providers.
+    BestVPN is the ultimate VPN review site where they've carefully reviewed over 100 VPN providers.
 
 ---
 
