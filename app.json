@@ -1,0 +1,50 @@
+{
+  "name": "fftf-org",
+  "description": "Primary website for Fight for the Future",
+  "repository": "fightforthefuture/fftf-www",
+  "website": "https://www.fightforthefuture.org",
+  "logo": "https://www.fightforthefuture.org/img/brand/heart.png",
+  "success_url": "/",
+  "scripts": {},
+  "env": {
+    "TUMBLR_API_KEY": {
+      "description": "API key for generating news posts",
+      "value": "secret"
+    },
+    "AWS_ACCESS_KEY": {
+      "description": "",
+      "value": "secret"
+    },
+    "AWS_SECRET_KEY": {
+      "description": "",
+      "value": "secret"
+    },
+    "AWS_S3_BUCKET": {
+      "description": "Where the images we snag from tumblr go",
+      "value": "s3.fightforthefuture.org"
+    },
+    "AWS_S3_FOLDER": {
+      "description": "Where the images we snag from tumblr go",
+      "value": "images/blog"
+    },
+    "ENVIRONMENT": {
+      "description": "where does this build live rn?",
+      "value": "REVIEW"
+    },
+    "PORT": {
+      "description": "What port is the server running on?",
+      "value": "4040"
+    }
+  },
+  "addons": [
+    "papertrail:choklad"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/ruby"
+    }
+  ]
+}

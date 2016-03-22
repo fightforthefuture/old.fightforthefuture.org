@@ -1,0 +1,77 @@
+/*
+* Everything is relative.
+*
+* Including this component. To resize, overwrite the font-size of
+* div.share, button.social somewhere in your code.
+*
+* *****************
+* Don't touch this.
+* *****************
+*/
+
+div.share, button.social {
+    font-size: 1.4rem;
+}
+
+div.share {
+    border-radius: 7.142857143em;
+    display: inline-block;
+    text-align: center;
+
+    @media screen and (min-width: @small-phone) {
+        padding: 1rem;
+        background: rgba(0, 0, 0, .1);
+    }
+}
+
+button.social {
+    border: 0;
+    border-radius: 7.142857143em;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: @body-font;
+    font-weight: bold;
+    height: 2.142857143em;
+    line-height: 2;
+    margin-left: 0.357142857em;
+    margin-right: 0.357142857em;
+    padding: 0 1em 0 2.857142857em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &::before {
+        content: '';
+        display: block;
+        left: 1em;
+        position: absolute;
+        top: 0.357142857em;
+    }
+
+    &.twitter {
+        background: #17a1ce;
+
+        &::before {
+            .renderTwitter(1.428571429em; auto; 1.42857143em);
+        }
+    }
+    &.facebook {
+        background: #3b5a95;
+
+        @media screen and (min-width: @small-phone) {
+            margin-bottom: 0;
+        }
+        &::before {
+            .renderFacebook(1.428571429em; auto; 1.42857143em);
+            background-position: 100% 0;
+        }
+    }
+
+    &.donate {
+        padding-left: 1em;
+        background: #e6b520;
+    }
+
+}

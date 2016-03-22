@@ -1,0 +1,162 @@
+.heart-progress-outer() {
+  background-color: @blue-850;
+  border-radius: 0.4rem;
+}
+
+.heart-progress-inner() {
+  background-image: linear-gradient(-45deg, hsla(0, 0%, 100%, .2) 25%, transparent 0, transparent 50%, hsla(0, 0%, 100%, .2) 0, hsla(0, 0%, 100%, .2) 75%, transparent 0, transparent), linear-gradient(90deg, @red-100, firebrick);
+  background-size: 3.5rem 3.7rem, 100%;
+  border-radius: 0.5rem;
+}
+
+.white-two-column {
+  color: @black;
+
+  main& {
+    @media screen and (min-width: @large-phone) {
+      align-items: flex-start;
+      display: flex;
+      flex-direction: row-reverse;
+      margin-bottom: 3rem;
+      margin-top: 2rem;
+      padding: 0 1rem;
+    }
+
+    a {
+      color: @blue-850;
+      font-weight: bold;
+
+      &:link, &:visited {
+        text-decoration: none;
+      }
+
+      &:hover, &:active, &:focus {
+        text-decoration: underline;
+      }
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1em;
+    }
+  }
+
+  img {
+    display: block;
+  }
+
+  h1 {
+    color: @blue-850;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  h1 {
+    color: @blue-850;
+  }
+
+  .signatures {
+    flex-direction: column;
+    max-width: 34rem;
+    padding: 0 1.5rem;
+  }
+
+  .progress-top, .progress-bottom {
+    width: 100%;
+  }
+
+  .progress-top {
+    text-align: left;
+  }
+
+  .progress-bottom {
+    order: 4;
+    text-align: right;
+  }
+
+  progress {
+    background-color: @blue-850;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    padding: 0.3rem;
+    vertical-align: middle;
+    &::-webkit-progress-value {
+      .heart-progress-inner();
+    }
+    &::-moz-progress-bar {
+      .heart-progress-inner();
+    }
+    &::-ms-fill {
+      .heart-progress-inner();
+    }
+    &::-webkit-progress-bar {
+      .heart-progress-outer();
+    }
+  }
+
+  .petition-box {
+    border-bottom: @red-100 solid 6rem;
+    margin: 2.5rem 1rem;
+    padding-bottom: 1rem;
+    @media screen and (min-width: @large-phone) {
+      margin: 0 auto 2.5rem;
+      min-width: 30rem;
+      width: 34rem;
+    }
+  }
+
+  .petition-text {
+    padding: 1.5rem 1.5rem 0;
+  }
+
+  .petition-form {
+    background-color: fade(@black, 25%);
+    opacity: 1;
+    padding: 2rem 1.5rem 0;
+    position: relative;
+    transition: opacity 250ms, visibility 0ms 300ms;
+    visibility: visible;
+
+    &.submitted {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+
+  [type="submit"] {
+    bottom: -12rem;
+    left: 0;
+    position: absolute;
+    right: 0;
+
+    @media screen and (min-width: @small-phone) {
+      bottom: -10.1rem;
+    }
+    @media screen and (min-width: @large-phone) {
+      bottom: -11.9rem
+    }
+
+    &:active {
+      bottom: -12.1rem;
+
+      @media screen and (min-width: @small-phone) {
+        bottom: -10.2rem;
+      }
+      @media screen and (min-width: @large-phone) {
+        bottom: -12rem
+      }
+    }
+  }
+
+  .petition-info {
+    @media screen and (min-width: @large-phone) {
+      padding: 0 1rem 0 0;
+    }
+  }
+
+  .an-footer-cta {
+    display: none;
+  }
+}

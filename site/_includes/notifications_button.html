@@ -1,0 +1,15 @@
+<a class="panel button" href="javascript:_roost.register();" id="notifications_button">
+  <div class="icon"><img src="/img/blog/bell.png" width="0" height="0"/></div>
+  Turn on Notifications
+</a>
+<script src='//cdn.goroost.com/roostjs/lo4qjr79fz73s44hpjojvzb26qrne4ix' async></script>
+<script>
+  var _roost = _roost || [];
+  _roost.push(["autoprompt", false]);
+  _roost.push(["segments_add", "Fight for the Future"]);
+  _roost.push(["bellopts", {"offset":{"bottom": 0}}]);
+  _roost.push(['onload', function(data) {
+      if (data.promptable)
+        document.getElementById('notifications_button').className += ' enabled';
+  }]);
+</script>

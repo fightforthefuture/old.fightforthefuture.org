@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  {% include meta.html %}
+</head>
+<body class="default homepage projects" data-components="homepage">
+<div class="mobile-nav">
+  <div class="cheeseburger">
+    <div class="lines fadeIn"></div>
+  </div>
+</div>
+
+<header class="main-site">
+  <div class="david-by-michelangelo"></div>
+  <div class="zoom-out-intro">
+    <img src="/img/page/homepage/logo.png" class="logo-large" onload="this.style.opacity = 1;">
+    <div class="motto fadeIn">A nonprofit working to expand the internet's power
+      for good
+    </div>
+  </div>
+</header>
+
+<nav class="top">
+  <a href="/aboutus/">about us</a>
+  <a href="/projects">projects</a>
+  <a href="/news/">News</a>
+  <a href="/press/">press</a>
+  <a href="/supporters/">supporters</a>
+  <a href="http://shop.fightforthefuture.org/?utm_source=www&amp;utm_medium=web&amp;utm_campaign=headerlinks">store</a>
+  <a href="https://donate.fightforthefuture.org/?utm_source=www&amp;utm_medium=web&amp;utm_campaign=headerlinks" class="donate">donate</a>
+  <a href="https://www.facebook.com/fightfortheftr" class="facebook" target="_blank"></a>
+  <a href="https://twitter.com/fightfortheftr" class="twitter" target="_blank"></a>
+</nav>
+
+{{ content }}
+
+{% include fftf-footer.html %}
+{% include scripts.html %}
+</body>
+</html>
