@@ -1,0 +1,987 @@
+# Please sort press by date, newest pieces at the top. If a piece falls under
+# multiple categories, use best judgement?
+
+- campaign: dont-break-our-phones
+  pretty: Don’t Break Our Phones / Save Security
+  coverage:
+    - title: 'A week that will define Apple, with iPhone at center: analysis'
+      date: 2016-03-18
+      publication: USA Today
+      link: http://www.usatoday.com/story/tech/columnist/2016/03/18/apple-iphone-fbi-court-launch-doj/81862698/
+    - title: Activists plan rally on Tuesday at dozens of Apple Stores worldwide
+      date: 2016-02-22
+      publication: Ars Technica
+      link: http://arstechnica.com/tech-policy/2016/02/want-to-support-apple-in-its-fight-against-doj-show-up-at-an-apple-store-tuesday/
+    - title: Apple’s fight with FBI to get support from global protests to be held by Internet rights group
+      date: 2016-02-21
+      publication: Scroll.in
+      link: http://scroll.in/latest/803931/apples-fight-with-fbi-to-get-support-from-global-protests-held-by-internet-rights-group
+    - title: Protests to rally across US to back Apple
+      date: 2016-02-21
+      publication: Sky News
+      link: http://www.skynews.com.au/news/world/nthamerica/2016/02/21/protests-to-rally-across-us-to-back-apple.html
+    - title: Trump Calls for Apple Boycott Until It Unlocks San Bernardino Shooter’s Phone
+      date: 2016-02-21
+      publication: Nano News
+      link: http://nanonews.org/trump-calls-for-apple-boycott-until-it-unlocks-san/
+    - title: Apple Protest Supporters Are Outraged Over FBI Privacy Battle
+      date: 2016-02-21
+      publication: TechMalak
+      link: http://www.techmalak.com/apple-protest-supporters-outraged-fbi-privacy-battle/
+    - title: Will Tim Cook’s Stance on Privacy Define His Apple Legacy?
+      date: 2016-02-20
+      publication: Newsfactor
+      link: http://www.newsfactor.com/news/Tim-Cook-s-Apple-Legacy--Privacy-/story.xhtml?story_id=111006FHKCXX
+    - title:  Apple’s encryption battle with the FBI has implications well past the iPhone
+      date: 2016-02-20
+      publication: The Guardian
+      link: http://www.theguardian.com/technology/2016/feb/19/apple-fbi-privacy-encryption-fight-san-bernardino-shooting-syed-farook-iphone
+    - title: 'Protests planned across US to back Apple in battle with FBI'
+      date: 2016-02-20
+      publication: CNBC (AP)
+      link: http://www.cnbc.com/2016/02/20/the-associated-press-protests-planned-across-us-to-back-apple-in-battle-with-fbi.html
+    - title: 'Apple vs FBI Protest: Apple Store Rallies Planned In More Than 30 Cities To Protest FBI’s Demands'
+      date: 2016-02-20
+      publication: IB Times
+      link: http://www.ibtimes.com/apple-vs-fbi-protest-apple-store-rallies-planned-more-30-cities-protest-fbis-demands-2315983
+    - title: At Least 30 Rallies Planned Against FBI’s Demand for iPhone Backdoor
+      date: 2016-02-20
+      publication: Inverse
+      link: https://www.inverse.com/article/11807-at-least-30-rallies-planned-against-fbi-s-demand-for-iphone-backdoor
+    - title: Apple Sees Value in Its Stand to Protect Security
+      date: 2016-02-20
+      publication: New York Times
+      link: http://www.nytimes.com/2016/02/21/technology/apple-sees-value-in-privacy-vow.html
+    - title: The two sides of the Apple debate
+      date: 2016-02-19
+      publication: Washington Post
+      link: https://www.washingtonpost.com/news/the-switch/wp/2016/02/19/the-two-sides-of-the-apple-debate/
+    - title: Anger, praise for Apple for rebuffing FBI over San Bernardino killer’s phone
+      date: 2016-02-19
+      publication: CNN.com
+      link: http://edition.cnn.com/2016/02/18/us/san-bernardino-shooter-phone-apple-reaction/index.html
+    - title: Privacy Advocates Plan Demonstrations at Apple Stores
+      date: 2016-02-18
+      publication: Wall St Journal
+      link: http://blogs.wsj.com/digits/2016/02/18/privacy-advocates-plan-demonstrations-at-apple-stores/
+    - title: Privacy Activists Rally To Apple’s Defense Over FBI Data Demand
+      date: 2016-02-18
+      publication: Huffington Post
+      link: http://www.huffingtonpost.com/entry/apple-iphone-encryption-fbi_us_56c548dde4b08ffac127ae22
+    - title: Privacy supporters rally at Apple Store over iPhone order
+      date: 2016-02-18
+      publication: USA Today
+      link: http://www.usatoday.com/story/tech/2016/02/17/privacy-supporters-rally-san-francisco-support-apple/80527424/
+    - title: Protest Group ‘Fight for the Future’ Schedules Feb. 23 for Mass Protest Against the FBI Court Order to Hack an iPhone
+      date: 2016-02-18
+      publication: Patently Apple
+      link: http://www.patentlyapple.com/patently-apple/2016/02/protest-group-fight-for-the-future-schedules-feb-23-for-mass-protest-against-the-fbi-court-order-to-hack-an-iphone.html
+    - title: Apple Squares off Against the FBI—Sparking a Nationwide Controversy
+      date: 2016-02-18
+      publication: People
+      link: http://www.people.com/article/apple-squares-against-fbi-sparking-nationwide-controversy
+    - title: Privacy Activists Rally Around Apple in ‘Most Important Tech Case in a Decade’
+      date: 2016-02-18
+      publication: TruthDig
+      link: http://www.truthdig.com/report/item/privacy_activists_rally_around_apple_20160218
+    - title: 'Apple CEO Tim Cook: Health info at risk in FBI request to unlock iOS'
+      date: 2016-02-18
+      publication: MobiHealthNews
+      link: http://mobihealthnews.com/content/apple-ceo-tim-cook-health-info-risk-fbi-request-unlock-ios
+    - title: Protestors Gather At Apple’s Store To Support Their Stance On Privacy
+      date: 2016-02-18
+      publication: UberGizmo
+      link: http://www.ubergizmo.com/2016/02/apple-store-protestors-stand-up-for-privacy/
+    - title: Why Apple's CEO And The FBI Are Fighting Over Your Phone
+      date: 2016-02-17
+      publication: MotherJones
+      link: http://www.motherjones.com/politics/2016/02/apple-ceo-tim-cook-san-bernardino-iphone
+    - title: World Right Now with Hala Gorani
+      date: 2016-02-17
+      publication: CNN
+      link: http://transcripts.cnn.com/TRANSCRIPTS/1602/17/wrn.01.html
+    - title: Protests planned as Government demands iPhone backdoor from Apple
+      date: 2016-02-17
+      publication: SiliconAngle
+      link: http://siliconangle.com/blog/2016/02/17/protests-planned-as-government-demands-iphone-backdoor-from-apple/
+    - title: Security Expert Says FBI’s Request of Apple Is Technically Possible (If Objectionable)
+      date: 2016-02-17
+      publication: re/code
+      link: http://recode.net/2016/02/17/security-expert-says-fbis-request-of-apple-is-technically-possible-if-objectionable/
+    - title: Rallies planned at Apple stores to protest the FBI's crusade to hack your iPhone
+      date: 2016-02-17
+      publication: BoingBoing
+      link: https://boingboing.net/2016/02/17/rallies-planned-at-apple-store.html
+    - title: Rally Supporting Apple’s Decision To Fight FBI iPhone Hacking Request Planned For Tonight
+      date: 2016-02-17
+      publication: sfist
+      link: http://sfist.com/2016/02/17/apple_iphone_hack_fbi_san_bernardino_rally.php
+    - title: The first rally to support Apple’s fight with the FBI just happened at the Apple Store in San Francisco
+      date: 2016-02-17
+      publication: Business Insider
+      link: http://www.businessinsider.com/san-francisco-pro-apple-rally-2016-2
+    - title: Protestors gather at San Francisco Apple Store to support fight against government backdoors
+      date: 2016-02-17
+      publication: Apple Insider
+      link: http://appleinsider.com/articles/16/02/18/protestors-gather-at-san-francisco-apple-store-to-support-apples-fight-against-government-backdoors
+    - title: Nationwide Protests Are Being Planned Over Proposed Smartphone “Backdoor”
+      date: 2016-02-17
+      publication: Inverse
+      link: https://www.inverse.com/article/11647-nationwide-protests-are-being-planned-over-proposed-smartphone-backdoor
+    - title: 'Apple iPhone Hack: Demonstrators Rally To Protest Forced FBI Invasion, Privacy Activists Vow To Take Fight Nationwide'
+      date: 2016-02-16
+      publication: Inquisitr
+      link: http://www.inquisitr.com/2808040/apple-iphone-hack-protest/
+- campaign: 'tpp'
+  pretty: 'Trans-Pacific Partnership'
+  coverage:
+    - title: 'Leaked (final?) TPP Intellectual Property chapter spells doom for free speech online'
+      date: 2015-10-09
+      publication: boingboing
+      link: http://boingboing.net/2015/10/09/leaked-final-tpp-intellectu.html
+    - title: 'Wikileaks release of TPP deal text stokes ‘freedom of expression’ fears'
+      date: 2015-10-09
+      publication: the guardian
+      link: http://www.theguardian.com/business/2015/oct/09/wikileaks-releases-tpp-intellectual-property-rights-chapter
+    - title: Senate takes step toward Trans-Pacific Partnership approval
+      date: 2015-05-15
+      publication: PCWorld
+      link: http://www.pcworld.com/article/2923252/senate-takes-step-toward-transpacific-partnership-approval.html
+    - title: 'Buoyed By Net-Neutrality Win, Internet Activists Prepare Next Campaign'
+      date: 2015-03-01
+      publication: National Journal
+      link: http://www.nationaljournal.com/s/30934/buoyed-net-neutrality-win-internet-activists-prepare-next-campaign
+- campaign: 'nn'
+  pretty: 'Net Neutrality'
+  coverage:
+    - title: 'Not Everyone Thinks T-Mobile’s ‘Binge On’ Streaming Is a Good Idea'
+      date: 2015-11-13
+      publication: NBC News
+      link: http://www.nbcnews.com/tech/mobile/not-everyone-thinks-t-mobiles-binge-streaming-good-idea-n461066
+    - title: 'Evan Greer: defending net neutrality as a ‘basic principle’'
+      date: 2015-10-29
+      publication: The Irish Times
+      link: http://www.irishtimes.com/business/technology/evan-greer-defending-net-neutrality-as-a-basic-principle-1.2408903
+    - title: 'The Women Who Won Net Neutrality'
+      date: 2015-09-22
+      publication: Slate
+      link: http://www.slate.com/blogs/future_tense/2015/09/22/barbara_van_schewick_susan_crawford_and_other_women_who_won_net_neutrality.html
+    - title: 'How the net was won: Inside the war with US cable'
+      date: 2015-07-02
+      publication: Informa Telecoms & Media
+      link: http://www.iptv-news.com/2015/07/how-the-net-was-won-inside-fight-for-the-futures-war-with-us-cable/
+    - title: 'Net neutrality activists score landmark victory in fight to govern the internet'
+      date: 2015-02-26
+      publication: the guardian
+      link: http://www.theguardian.com/technology/2015/feb/26/net-neutrality-activists-landmark-victory-fcc
+    - title: 'F.C.C. Net Neutrality Rules Clear Hurdle as Republicans Concede to Obama'
+      date: 2015-02-24
+      publication: The New York Times
+      link: http://www.nytimes.com/2015/02/25/technology/path-clears-for-net-neutrality-ahead-of-fcc-vote.html
+    - title: 'Group from Mass. helped shift net neutrality fight'
+      date: 2015-02-19
+      publication: Boston Globe
+      link: https://www.bostonglobe.com/news/nation/2015/02/19/outsider-group-from-massachusetts-helped-shift-net-neutrality-fight/G08DYw0RiWFQEckTH2e3XI/story.html
+    - title: 'Net neutrality battle pitches activists and FCC against Big Cable and GOP'
+      date: 2015-02-02
+      publication: the guardian
+      link: http://www.theguardian.com/technology/2015/feb/02/net-neutrality-activists-fcc-big-cable-republicans
+    - title: 'Congress: You can’t fool the public on net neutrality'
+      date: 2015-01-27
+      publication: The Hill
+      link: http://thehill.com/blogs/congress-blog/technology/230776-congress-you-cant-fool-the-public-on-net-neutrality
+    - title: 'The fight for net neutrality: a right or a luxury?'
+      date: 2014-11-15
+      publication: The Telegram
+      link: http://www.telegram.com/article/20141115/NEWS/311159837
+    - title: 'Net neutrality: why Fight for the Future is hosting Internet Slowdown'
+      date: 2014-09-10
+      publication: the guardian
+      link: http://www.theguardian.com/media-network/media-network-blog/2014/sep/10/internet-slowdown-net-neutrality-reddit-mozilla-netflix
+- campaign: 'cispa'
+  pretty: 'CISPA is Back'
+  coverage:
+    - title: The President Revives an Old Debate About Privacy
+      date: 2013-02-14
+      publication: The New York Times
+      link: http://bits.blogs.nytimes.com/2013/02/14/the-president-revives-an-old-debate-about-privacy/
+    - title: Digital rights activists vow to fight CISPA
+      date: 2013-02-14
+      publication: The Washington Post
+      link: http://articles.washingtonpost.com/2013-02-14/business/37094234_1_cispa-cybersecurity-and-privacy-privacy-advocates
+    - title: Congress is Trying to Kill Privacy Again
+      date: 2013-02-13
+      publication: Rolling Stone
+      link: http://www.rollingstone.com/politics/news/congress-is-trying-to-kill-internet-privacy-again-20130213
+    - title: CISPA resurrected, privacy concerns continue
+      date: 2013-02-14
+      publication: Al Jazeera, The Stream
+      link: http://stream.aljazeera.com/story/201302150111-0022549
+    - title: 'OVERNIGHT TECH: <br/>Privacy groups prepare to hit back on cybersecurity bill'
+      date: 2013-02-14
+      publication: The Hill
+      link: http://thehill.com/blogs/hillicon-valley/technology/283349-overnight-tech-privacy-groups-prepare-to-hit-back-on-cybersecurity-bill
+    - title: Internet Activists Deliver Over 300,000 Anti-CISPA Signatures to Congress
+      date: 2013-02-14
+      publication: Mashable
+      link: http://mashable.com/2013/02/15/cispa-petitions/
+    - title: Controversial cybersecurity bill CISPA returns to Congress for debate, same as before
+      date: 2013-02-13
+      publication: The Verge
+      link: http://www.theverge.com/2013/2/13/3984442/cispa-back-in-congress
+    - title: Is CISPA the new SOPA? Groups harness social media to battle cyber-security bill in Congress
+      date: 2013-02-14
+      publication: Adweek
+      link: http://www.adweek.com/news/technology/cispa-new-sopa-147284
+    - title: Privacy groups protest CISPA bill.
+      date: 2013-02-14
+      publication: Computer World
+      link: http://www.computerworld.com/s/article/9236800/Privacy_groups_protest_CISPA_bill_?taxonomyId=17&pageNumber=2
+    - title: Obama, Cybersecurity, and the Return of CISPA
+      date: 2013-02-14
+      publication: ReadWriteWeb
+      link: http://readwrite.com/2013/02/14/obama-orders-cybersecurity-bill-cispa-returns
+    - title: 'State of the Web: Zombie CISPA Will Rise from the Grave (But Don’t Freak Out Yet)'
+      date: 2013-02-12
+      publicaton: Digital Trends
+      link: http://www.digitaltrends.com/opinion/why-you-have-crappy-expensive-internet-service/
+    - title: Activists will troll CISPA’s sponsors with 1 million tweets
+      date: 2013-02-14
+      publication: The Daily Dot
+      link: http://www.dailydot.com/politics/cispa-petition-signatures-1-million-tweets/
+- campaign: dont-copyright-me
+  pretty: 'dontcopyrightme.com (Prince George’s County Board of Education)'
+  coverage:
+    - title: Don’t Copyright Me launches to protect U.S. schoolkids’ homework
+      date: 2013-02-12
+      publication: Wired UK
+      link: http://www.wired.co.uk/news/archive/2013-02/12/school-copyrights-students-work
+    - title: Maryland proposal to claim copyright on student work prompts backlash, legal review
+      date: 2013-02-12
+      publication: Fox News
+      link: http://www.foxnews.com/politics/2013/02/12/maryland-proposal-to-claim-copyright-on-students-work-prompts-backlash-legal/
+    - title: School board’s proposal to claim copyright on students’ work prompts backlash from parents and forces review
+      date: 2013-02-12
+      publication: UK Daily Mail
+      link: http://www.dailymail.co.uk/news/article-2277806/School-boards-proposal-claim-copyright-students-work-prompts-backlash-parents-forces-review.html
+    - title: Digital-Rights Group Warns Against Copyrights on Student Work
+      date: 2013-02-13
+      publication: Business Week
+      link: http://www.businessweek.com/news/2013-02-13/monsanto-j-dot-c-dot-penney-elsevier-intellectual-property
+    - title: Maryland Pulls a Facebook, Wants to Claim Rights to Your Stuff
+      date: 2013-02-13
+      publication: Reason.com
+      link: http://reason.com/blog/2013/02/13/maryland-schools-pull-a-facebook
+- campaign: internet-freedom-day
+  pretty: Internet Freedom Day / MLK Video
+  coverage:
+    - title: One year later, SOPA activists reignite copyright conversation
+      date: 2013-01-18
+      publication: CBS News
+      link: http://www.cbsnews.com/8301-205_162-57564766/one-year-later-sopa-activists-reignite-copyright-conversation/?tag=socsh
+    - title: Sharing King’s ‘dream’
+      date: 2013-01-18
+      publication: Al Jazeera, The Stream
+      link: http://stream.aljazeera.com/story/201301182153-0022491
+    - title: ‘I Have a Dream’ Posted in Defiance of Copyright for “Internet Freedom Day”
+      date: 2013-01-18
+      publication: Mashable
+      link: http://mashable.com/2013/01/18/i-have-a-dream-internet-freedom/
+    - title: Internet Freedom Day
+      date: 2013-01-18
+      publication: Mashable
+      link: http://mashable.com/2013/01/18/internet-freedom-day/
+    - title: Web activists celebrate ‘Internet Freedom Day’
+      date: 2013-01-18
+      publication: Washington Post
+      link: http://articles.washingtonpost.com/2013-01-18/business/36409719_1_sopa-and-pipa-web-activists-internet-freedom
+    - title: Video posted to protest copyright law removed
+      date: 2013-01-18
+      publication: Washington Post
+      link: http://articles.washingtonpost.com/2013-01-18/business/36475364_1_copyright-law-video-sites-vimeo
+    - title: Internet Freedom Day, 5 ways your Internet Rights are Still at Risk
+      date: 2013-01-18
+      publication: Huffington Post.
+      link: http://www.huffingtonpost.com/2013/01/18/internet-freedom-day-internet-rights-at-risk_n_2505397.html?utm_hp_ref=technology&utm_hp_ref=technology#slide=2000787
+    - title: HuffPost Live TV interviews Holmes Wilson on Internet Freedom Day
+      date: 2013-01-18
+      publication: HuffPost Live TV
+      link: http://on.aol.com/video/one-year-since-sopa-was-defeated--whats-next--517647308
+    - title: ‘I Have a Dream’ speech inspires a copyright tug of war on the Web
+      date: 2013-01-18
+      publication: MSN Now
+      link: http://now.msn.com/martin-luther-king-jr-i-have-a-dream-speech-yanked-from-internet-in-copyright-fight
+    - title: Web Activists are Waging a Guerilla War to Free Martin Luther King from Copyright
+      date: 2013-01-18
+      publication: Vice Motherboard
+      link: http://motherboard.vice.com/blog/internet-activists-are-waging-a-guerrilla-war-to-free-martin-luther-king-from-copyright
+    - title: FCC, Commerce leaders to address mayors - Lofgren would support larger CFAA update, too - The anti-SOPA anniversary - Tech hosting several inaugural events
+      date: 2013-01-18
+      publication: Politico
+      link: http://www.politico.com/morningtech/0113/morningtech9850.html?hp=l6_b4
+    - title: Activists celebrate one year anniversary of SOPA / PIPA fight
+      date: 2013-01-18
+      publication: Talking Points Memo
+      link: http://idealab.talkingpointsmemo.com/2013/01/one-year-anniversary-of-sopa-and-pipa-fight-celebrated.php
+    - title: How SOPA could have hindered our democracy promotion efforts.
+      date: 2013-01-18
+      publication: The New Republic
+      link: http://www.newrepublic.com/article/politics/99871/sopa-pipa-censorship-stopped-activists#
+    - title: 'OVERNIGHT TECH: Activists celebrate SOPA blackout anniversary'
+      date: 2013-01-18
+      publication: The Hill
+      link: http://thehill.com/blogs/hillicon-valley/technology/277891-overnight-tech-activists-celebrate-sopa-blackout-anniversary
+    - title: 'Ways to celebrate #InternetFreedomDay in Canada'
+      date: 2013-01-18
+      publication: Metro News Canada
+      link: http://metronews.ca/news/canada/514927/five-ways-to-celebrate-internetfreedomday-in-canada/
+    - title: Celebrate Internet freedom day by acknowledging how far we have to go
+      date: 2013-01-18
+      publication: Slate
+      link: http://www.slate.com/blogs/future_tense/2013/01/18/internet_freedom_day_celebrate_the_anniversary_of_the_sopa_blackout_by_continuing.html
+    - title: Why tweeting MLK’s ‘I have a dream’ speech is now civil disobedience
+      date: 2013-01-18
+      publication: Slate
+      link: http://www.slate.com/blogs/future_tense/2013/01/18/internet_freedom_day_why_tweeting_mlk_s_i_have_a_dream_speech_is_now_civil.html
+    - title: One Year After SOPA Blackout, Activists Celebrate ‘Internet Freedom Day’
+      date: 2013-01-18
+      publication: PC Mag
+      link: http://www.pcmag.com/article2/0,2817,2414468,00.asp
+    - title: U.S. Congress may not have stomach for another SOPA / PIPA fight
+      date: 2013-01-18
+      publication: PC World
+      link: http://www.pcworld.com/article/2023316/u-s-congress-may-not-have-stomach-for-another-sopa-pipa-fight.html
+    - title: Activists celebrate Internet Freedom Day by posting ‘I Have a Dream’ speech in defiance of copyright
+      date: 2013-01-18
+      publication: Boston Phoenix
+      link: http://blog.thephoenix.com/BLOGS/phlog/archive/2013/01/18/activists-celebrate-internetfreedomday-posting-quot-i-have-a-dream-quot-in-defiance-of-copyright-law.aspx
+    - title: Vimeo censored MLK’s ‘I have a Dream’ speech on Internet Freedom Day
+      date: 2013-01-18
+      publication: Top News New Zealand
+      link: http://topnews.net.nz/content/225879-vimeo-censored-mlk-s-i-have-dream-web-internet-freedom-day
+    - title: Web advocates celebrate first annual Internet Freedom Day
+      date: 2013-01-18
+      publication: SF Examiner
+      link: http://www.examiner.com/article/web-advocates-celebrate-first-annual-internet-freedom-day
+    - title: 'Internet Freedom Day: First Anniversary of SOPA Defeat Becomes A Rallying Cry For Digital Rights Activists'
+      date: 2013-01-18
+      publication: International Business Times.
+      link: http://www.ibtimes.com/internet-freedom-day-first-anniversary-sopa-defeat-becomes-rallying-cry-digital-rights-activists
+    - title: News, censorship, and defiance on Internet Freedom Day
+      date: 2013-01-18
+      publication: ZDNet
+      link: http://www.zdnet.com/news-censorship-and-defiance-on-internet-freedom-day-7000010020/
+    - title: Tweet! It’s Internet Freedom Day, Celebration of the Largest Website Blackout in US History
+      date: 2013-01-18
+      publication: AdWeek
+      link: http://www.adweek.com/news/technology/tweet-its-internet-freedom-day-146638
+    - title: Celebrate ‘Internet Freedom Day’ on the anniversary of SOPA’s defeat
+      date: 2013-01-18
+      publication: Venture Beat
+      link: http://venturebeat.com/2013/01/18/internet-freedom-day/
+    - title: The day the internet beat congress
+      date: 2013-01-18
+      publication: Daily Finance
+      link: http://m.aol.com/dailyfinance/default/articleStory.do?category=main&url=http://www.dailyfinance.com/2013/01/18/the-day-the-internet-beat-congress/&icid=dsk_df_news
+    - title: Martin Luther King’s ‘I Have a Dream’ video taken down on Internet Freedom Day
+      date: 2013-01-18
+      publication: Techdirt
+      link: http://www.techdirt.com/articles/20130118/11244621727/martin-luther-kings-i-have-dream-video-taken-down-internet-freedom-day.shtml
+    - title: It’s Internet Freedom Day. Time to share MLK’s ‘I Have a Dream’ speech.
+      date: 2013-01-18
+      publication: BoingBoing
+      link: http://boingboing.net/2013/01/18/its-internet-freedom-day-ti.html
+- campaign: internet-votes
+  pretty: 'Internet Votes / Internet Voter Registration Day'
+  coverage:
+    - title: Can a social media campaign get people to vote in the real world?
+      date: 2012-10-03
+      publication: PBS’ Mediashift
+      link: http://www.pbs.org/mediashift/2012/10/can-a-social-media-campaign-get-people-to-vote-in-the-real-world277.html
+    - title: US web giants push back
+      date: 2012-09-26
+      publication: The Inquirer
+      link: http://www.theinquirer.net/inquirer/news/2208206/us-web-giants-back-voter-push
+    - title: 'Internet Voter Registration Day: pledge to vote, and get your friends to pledge, and scare the piss out of SOPA-loving DC insiders'
+      date: 2012-09-24
+      publication: BoingBoing
+      link: http://boingboing.net/2012/09/24/internet-voter-registration-da.html
+    - title: How To Register to Vote Online
+      date: 2012-09-22
+      publication: DigitalTrends
+      link: http://www.digitaltrends.com/web/how-to-register-to-vote-online/
+    - title: 'Hey! We’re working with Fight for the Future on ‘The #InternetVotes’'
+      date: 2012-09-19
+      publication: TechPresident
+      link: http://techpresident.com/news/22875/editorial-pdm-and-fight-future-announce-internet-votes-engagement-project
+- campaign: do-you-have-a-secret
+  pretty: Do You Have a Secret / CISPA death
+  coverage:
+    - title: Who Blocked Obama’s Cybersecurity Bill? Unlikely Allies
+      date: 2012-08-07
+      publication: Texas Insider
+      link: http://www.texasinsider.org/who-blocked-obamas-cyber-security-bill-unlikely-allies/
+    - title: Unlikely allies who blocked Obama’s Cybersecurity bill
+      date: 2012-08-03
+      publication: The Atlantic Wire
+      link: http://www.theatlanticwire.com/politics/2012/08/unlikely-allies-who-blocked-obamas-cyber-security-bill/55405/
+    - title: As Cybersecurity bill fails in the Senate, privacy advocates rejoice
+      date: 2012-08-02
+      publication: TPM
+      link: http://idealab.talkingpointsmemo.com/2012/08/as-cybersecurity-bill-fails-in-senate-advocates-rejoice.php
+    - title: 'When gridlock works: Cybersecurity bill stuffed for now'
+      date: 2012-08-02
+      publication: Firedog Lake
+      link: http://news.firedoglake.com/2012/08/02/when-gridlock-works-cybersecurity-bill-stuffed-for-now/
+    - title: Senate kills Cybersecurity Act of 2012
+      date: 2012-08-02
+      publication: DigitalTrends
+      link: http://www.digitaltrends.com/web/senate-votes-against-cybersecurity-act-of-2012/
+    - title: Internet rights group asks Senate to adopt Franken-Paul amendment
+      date: 2012-08-02
+      publication: Game Politics
+      link: http://www.gamepolitics.com/2012/08/02/internet-rights-groups-ask-senate-leaders-adopt-franken-paul-amendment-cybersecurity-act#.USZFuqugnA8
+    - title: Campaign to stop Cybersecurity Bill asks, “do you have a secret?”
+      date: 2012-08-01
+      publication: Yahoo News
+      link: http://news.yahoo.com/campaign-stop-cybersecurity-bill-asks-secret-163459214.html
+    - title: Senate working on Cybersecurity bills
+      date: 2012-07-03
+      publication: The New American
+      link: http://www.thenewamerican.com/usnews/politics/item/11940-senate-working-on-cybersecurity-bills
+- campaign: declaration-freedom
+  pretty: Declaration of Internet Freedom
+  coverage:
+    - title: For July 4th, a Declaration of Internet Freedom
+      date: 2012-07-06
+      publication: ABC News
+      link: http://abcnews.go.com/Technology/july-4th-declaration-internet-freedom/story?id=16707082
+    - title: The Declaration of Internet Freedom
+      date: 2012-07-02
+      publication: BoingBoing
+      link: http://boingboing.net/2012/07/02/declaration-of-internet-freedo.html
+    - title: Silicon Valley needs a foreign policy
+      date: 2012-06-20
+      publication: Foreign Affairs
+      link: http://www.foreignaffairs.com/articles/137736/ernest-j-wilson-iii/silicon-valley-needs-a-foreign-policy
+    - title: How to protect free speech online
+      date: 2012-06-16
+      publication: Gigaom
+      link: http://gigaom.com/2012/06/16/how-to-protect-free-speech-online/
+- campaign: idl
+  pretty: Internet Defense League
+  coverage:
+    - title: New Organization vows to protect the Internet from freedom threats
+      date: 2012-08-13
+      publication: Carolina News 14 [News Video]
+      link: http://sandhills.news14.com/content/top_stories/662287/new-organization-vows-to-protect-internet-from-freedom-threats
+    - title: First a cat signal, now a bus tour?
+      date:  2012-08-23
+      publication: BetaBeat
+      link: http://betabeat.com/2012/08/first-the-cat-signal-now-a-bus-tour-alexis-ohanian-raising-money-for-cross-country-open-internet-campaign/
+    - title: New Orginization vows to protect Internet freedom from threats
+      date:  2012-08-07
+      publication: Your News Now Buffalo
+      link: http://buffalo.ynn.com/content/features/594277/tech-beat--new-organization-vows-to-protect-internet-from-freedom-threats/
+    - title: Site dos eua ajuda internautas contra censura na internet
+      date:  2012-08-07
+      publication: Info.Abril [Portugese]
+      link: http://info.abril.com.br/noticias/internet/site-dos-eua-ajuda-internautas-contra-censura-na-internet-07082012-29.shl
+    - title: New organization vows to protect Internet from freedom threats
+      date:  2012-08-02
+      publication: NY1 [News Video]
+      link: http://brooklyn.ny1.com/content/ny1_living/technology/165938/new-organization-vows-to-protect-internet-from-freedom-threats
+    - title: Darell Issa - Super Marketer
+      date:  2012-07-30
+      publication: Rollcall
+      link: http://hoh.rollcall.com/darrell-issa-super-marketer/
+    - title: Tech at Night for July 26th
+      date:  2012-07-26
+      publication: RedState
+      link: http://www.redstate.com/neil_stevens/2012/07/26/tech-at-night-lieberman-collins-is-dangerously-wrong-republican-governors-backing-sales-tax-compact-new-internet-policy-alliances-forming/
+    - title: Why conservatives must heed Congressman Issa’s call
+      date:  2012-07-26
+      publication: Yahoo Finance
+      link: http://finance.yahoo.com/news/why-conservatives-must-heed-congressman-202800044.html
+    - title: So-far secret group to promote internet freedom and economic interests
+      date:  2012-07-26
+      publication: The Daily Caller
+      link: http://dailycaller.com/2012/07/26/so-far-secret-group-to-promote-internet-freedom-and-economic-interests/
+    - title: A League of Our Own
+      date:  2012-07-26
+      publication: Huffington Post
+      link: http://www.huffingtonpost.com/leslie-harris/cybersecurity_b_1703479.html
+    - title: Don’t be evil? Google, Facebook, eBay, Amazon form D.C. lobbying group
+      date:  2012-07-26
+      publication: Digital Trends
+      link: http://www.digitaltrends.com/web/google-facebook-ebay-amazon-form-washington-dc-lobbying-group/
+    - title: Darryl Issa’s call the the internet’s right
+      date:  2012-07-25
+      publication: Yahoo! Finance
+      link: http://finance.yahoo.com/news/congressman-darrell-issas-call-internets-091554169.html
+    - title: Congressman Darrell Issa’s call the the internet’s right
+      date:  2012-07-25
+      publication: NextGov
+      link: http://www.nextgov.com/emerging-tech/2012/07/congressman-darrell-issas-call-internets-right-side/56994/
+    - title: 6 Ways to Support Internet Rights
+      date:  2012-07-25
+      publication: The Daily Dot
+      link: http://www.dailydot.com/politics/6-ways-support-internet-rights/
+    - title: 'Dissappointing: Craigslist sues Padmapper for making Craigslist more useful and valuable'
+      date:  2012-07-25
+      publication: Tech Dirt
+      link: http://www.techdirt.com/articles/20120724/18071219816/disappointing-craigslist-sues-padmapper-making-craigslist-more-useful-valuable.shtml
+    - title: Congressman Darrell Issa’s call to the internet’s right side
+      date:  2012-07-25
+      publication: The Atlantic
+      link: http://www.theatlantic.com/technology/archive/2012/07/congressman-darrell-issas-call-to-the-internets-right-side/260132/
+    - title: Updated Cybersecurity Act Unveiled in US
+      date:  2012-07-23
+      publication: ITProPortal
+      link: http://www.itproportal.com/2012/07/23/updated-cybersecurity-act-unveiled-in-us/
+    - title: Issa, the viper super hero, Fighting Internet Regulations
+      date:  2012-07-23
+      publication: NationalJournal
+      link: http://www.nationaljournal.com/blogs/influencealley/2012/07/issa-the-viper-super-hero-fighting-internet-restrictions-23
+    - title: Internet accueille ses super heros
+      date:  2012-07-22
+      publication: L’essential online
+      link: http://www.lessentiel.lu/fr/hi_tech/actualites/story/Internet-accueille-ses-super-heros-25446690
+    - title: Una Lega difende il web libero Censura? C'è il "Cat-Segnale"
+      date:  2012-07-22
+      publication: la Republica
+      link: http://www.repubblica.it/tecnologia/2012/07/22/news/una_lega_difende_il_web_libero_censura_c_il_cat-segnale-39514099/
+    - title: Internet’s cat signal is offically live
+      date:  2012-07-27
+      publication: Fox News
+      link: http://www.foxnews.com/tech/2012/07/21/internet-cat-signal-is-officially-live/
+    - title: Advocacy group deploys internet ‘bat signal’ to protect the open web
+      date:  2012-07-20
+      publication: ITProPortal
+      link: http://www.itproportal.com/2012/07/20/advocacy-group-deploys-internet-bat-signal-to-protect-open-web/
+    - title: Internet Defense League deploys ‘cat signal’ in New York
+      date:  2012-07-25
+      publication: Huffington Post
+      link: http://www.huffingtonpost.com/2012/07/20/internet-defense-league-cat-symbol_n_1689469.html
+    - title: It’s a bird, it’s a plane, it’s—The Internet Defense League
+      date:  2012-07-25
+      publication: Info World
+      link: http://www.infoworld.com/t/cringely/its-bird-its-plane-its-the-internet-defense-league-198306
+    - title: Feline for Freedom
+      date:  2012-07-20
+      publication: Global Times
+      link: http://www.globaltimes.cn/NEWS/tabid/99/ID/722356/722356.aspx
+    - title: Internett får sin egen vaktkatt
+      date:  2012-07-20
+      publication: teknofil.no
+      link: http://www.teknofil.no/artikler/internett-far-sin-egen-vaktkatt/111172
+    - title: Internet Defense League’s ‘cat signal’ to be used to fight for internet freedom
+      date:  2012-07-20
+      publication: Wired UK
+      link: http://www.wired.co.uk/news/archive/2012-07/20/cat-signal
+    - title: Cat signal celebrates launch of Internet group
+      date:  2012-07-20
+      publication: ABC News 7 San Francisco [TV news video]
+      link: http://abclocal.go.com/kgo/story?section=news/technology&id=8742801
+    - title: Internet Defense League’s cat signal shines in San Francisco
+      date:  2012-07-20
+      publication: NBC News Bay Area [TV news video]
+      link: http://www.nbcbayarea.com/news/local/Internet-Defense-League-Cat-Signal-Shines-in-SF-163138386.html
+    - title: Morning Tech 7/19
+      date:  2012-07-19
+      publication: Politico Morning Tech Policy News Letter
+      link: http://www.politico.com/morningtech/0712/morningtech514.html
+    - title: 'Hello Kitty: Internet Defense League assembles to fight copyright lobby'
+      date:  2012-07-19
+      publication: ZDNet
+      link: http://www.zdnet.com/hello-kitty-internet-defense-league-assembles-to-fight-copyright-lobby-7000001199/
+    - title: Nerds launch obnoxiously nerdy ‘Internet Defense League’
+      date:  2012-07-19
+      publication: Gawker
+      link: http://gawker.com/5927422/nerds-launch-obnoxiously-nerdy-internet-defense-league
+    - title: Internet Defense League launches as policy watchdogs
+      date:  2012-07-19
+      publication: CBS News
+      link: http://www.cbsnews.com/8301-501465_162-57475777-501465/internet-defense-league-launches-as-policy-watchdogs/
+    - title: Internet Defense League starts iniative today
+      date:  2012-07-19
+      publication: Washington Post
+      link: http://www.washingtonpost.com/business/technology/internet-defense-league-starts-initiative-today/2012/07/19/gJQAdsD2vW_story.html
+    - title: Internet Defense League to save web from evil governments
+      date:  2012-07-19
+      publication: The Register UK
+      link: http://www.theregister.co.uk/2012/07/19/internet_defense_league_launch/
+    - title: Bat Signal heralds the launch of the Internet Defense League
+      date:  2012-07-19
+      publication: Torrent Freak
+      link: http://torrentfreak.com/bat-signal-heralds-launch-of-internet-defense-league-120719/
+    - title: 'Internet Defense League: Coalaition to protect Internet Freeom launches Batman-inspired cat signal'
+      date:  2012-07-19
+      publication: Huffington Post UK
+      link: http://www.huffingtonpost.co.uk/2012/07/19/internet-defense-league-cat-signal_n_1685236.html
+    - title: Internet Defenders launch cat signal
+      date:  2012-07-19
+      publication: Information Week
+      link: http://www.informationweek.com/government/policy/internet-defenders-launch-cat-signal-to/240003971
+    - title: Internet Defense League forms with support of EFF and Mozilla, bills self as ‘bat signal’ for the web
+      date:  2012-07-19
+      publication: Engadget
+      link: http://www.engadget.com/2012/07/19/internet-defense-league-forms-bat-signal-web/
+    - title: Internet Defense League to lead cry for Internet Freedom
+      date:  2012-07-19
+      publication: Fierce CIO
+      link: http://www.fiercecio.com/story/internet-defense-league-lead-cry-online-freedom/2012-07-19
+    - title: PostTech roundup
+      date:  2012-07-19
+      publication: Washington Post Blogs
+      link: http://www.washingtonpost.com/blogs/post-tech/post/former-doj-antitrust-head-sharis-pozen-to-skadden-arps-thecircuit/2012/07/19/gJQAYrmrvW_blog.html
+    - title: The Internet gets its very own bat signal
+      date:  2012-07-18
+      publication: WebProNews
+      link: http://www.webpronews.com/the-internet-gets-its-very-own-bat-signal-2012-07
+    - title: Mozilla, EFF help launch Internet Defense League, a bat signal for the internet
+      date:  2012-07-18
+      publication: ThreatPost
+      link: http://threatpost.com/en_us/blogs/mozilla-eff-help-launch-internet-defense-league-bat-signal-internet-071812
+    - title: Mozilla, EFF, Rep. Issa to launch ‘Internet Defense League’
+      date:  2012-07-18
+      publication: The Hill
+      link: http://thehill.com/blogs/hillicon-valley/technology/238719-reddit-mozzilla-rep-issa-to-launch-internet-defense-league
+    - title: Internet Defnese League to launch on opening night of new Batman movie
+      date:  2012-07-17
+      publication: The Examiner
+      link: http://www.examiner.com/article/internet-defense-league-to-launch-on-opening-night-of-new-batman-movie
+    - title: KAPOW! Internet gets a batsignal for fighting government and Hollywood bad guys
+      date:  2012-07-17
+      publication: Wired
+      link: http://www.wired.com/threatlevel/2012/07/internet-defense-league/
+    - title: The Internet Gets Its Very Own Batsignal
+      date:  2012-07-18
+      publication: WebProNews
+      link: http://www.webpronews.com/the-internet-gets-its-very-own-bat-signal-2012-07
+    - title: 'State of the Web: Will the Web wilt when it’s no longer wild?'
+      date:  2012-07-17
+      publication: Digital Trends
+      link: http://www.digitaltrends.com/features/state-of-the-web-will-the-web-wilt-when-its-no-longer-wild/
+    - title: Internet Defense League to launch on opening night of new Batman movie
+      date:  2012-07-17
+      publication: The Examiner
+      link: http://www.examiner.com/article/internet-defense-league-to-launch-on-opening-night-of-new-batman-movie
+    - title: Look in the sky! It’s a cat signal for internet freedom!
+      date:  2012-07-17
+      publication: CNET
+      link: http://news.cnet.com/8301-17938_105-57474176-1/look-in-the-sky-its-a-cat-signal-for-net-freedom/
+    - title: Internet Defenders Mobilize Cat Signal
+      date:  2012-07-17
+      publication: AdWeek
+      link: http://www.adweek.com/news/technology/internet-defenders-mobilize-cat-signal-141947
+    - title: SOPA foes launch what they bill as early Internet threat warning system
+      date:  2012-07-17
+      publication: Broadcasting Cable
+      link: http://www.broadcastingcable.com/article/487315-SOPA_Foes_Launch_What_They_Bill_as_Early_Internet_Threat_Warning_System.php
+    - title: Internet Defense League lighting ‘cat signal’ for internet freedom
+      date:  2012-07-13
+      publication: Mashable
+      link: http://mashable.com/2012/07/13/internet-defense-league-catsignal/
+    - title: The Internet Defense League
+      date:  2012-07-07
+      publication: OWNI.eu
+      link: http://owni.eu/2012/07/05/the-internet-defense-league/
+    - title: 'Netizen Report: Edición Primavera mexicana'
+      date:  2012-06-15
+      publication: Global Voice Online
+      link: http://es.globalvoicesonline.org/2012/06/15/netizen-report-edicion-primavera-mexicana/
+    - title: 'Reddit co-founder: “You are the hero The Internet needs”'
+      date:  2012-06-11
+      publication: Mashable
+      link: http://mashable.com/2012/06/11/ohanian-hero/
+    - title: Isolationist no more—The Internet goes to Washington
+      date:  2012-06-04
+      publication: Gigaom
+      link: http://gigaom.com/2012/06/04/isolationist-no-more-the-internet-goes-to-washington/
+    - title: Holy Crap Batman
+      date:  2012-06-01
+      publication: PopMatters - Flashpoints
+      link: http://www.popmatters.com/pm/feature/159240-flash-points/
+    - title: How to save the internet—again
+      date:  2012-05-31
+      publication: The American Prospect
+      link: http://prospect.org/article/how-save-internet%E2%80%94again
+    - title: Game Change?
+      date:  2012-05-30
+      publication: The Boston Phoenix
+      link: http://thephoenix.com/Boston/news/139391-game-change/
+    - title: Protest group launches bat signal for the web
+      date:  2012-05-29
+      publication: TG Daily
+      link: http://www.tgdaily.com/software-features/63670-protest-group-launches-bat-signal-for-the-web
+    - title: Sites shine bat signal for online freedom
+      date:  2012-05-29
+      publication: CRN
+      link: http://www.crn.com.au/News/302616,sites-shine-bat-signal-for-online-freedom.aspx
+    - title: A ‘bat-signal’ to defend the open internet
+      date:  2012-05-29
+      publication: CNN.com
+      link: http://edition.cnn.com/2012/05/29/tech/web/internet-defense-league/
+    - title: Internet Defense League’s ‘bat signal’ to warn of threats to The Internet
+      date:  2012-05-29
+      publication: Geekwire
+      link: http://www.geekwire.com/2012/internet-defense-leagues-bat-signal-warn-threats-internet/
+    - title: Internet Defense League fights for freedom across the web
+      date:  2012-05-28
+      publication: Mashable [News Video]
+      link: http://mashable.com/2012/05/28/internet-defense-league/
+    - title: Internet Freedom advocates plan bat signal for Internet freedom
+      date:  2012-05-28
+      publication: TechWorld News
+      link: http://news.techworld.com/personal-tech/3360369/internet-freedom-advocates-plan-bat-signal-for-internet/
+    - title: Internet Defense League seeks to protect online freedom
+      date:  2012-05-28
+      publication: TechSpot
+      link: http://www.techspot.com/news/48771-internet-defense-league-seeks-to-protect-online-freedom.html
+    - title: Internet Defense League launches
+      date:  2012-05-28
+      publication: The Inquirer
+      link: http://www.theinquirer.net/inquirer/news/2180147/internet-defence-league-launches
+    - title: The Internet is getting a ‘Cat Signal’
+      date:  2012-05-27
+      publication: The AtlanticWire
+      link: http://www.theatlanticwire.com/technology/2012/05/internet-getting-cat-signal/52862/
+    - title: Internet Defense League—Fighting for a free Internet
+      date:  2012-05-27
+      publication: Digital Journal
+      link: http://www.digitaljournal.com/article/325586
+    - title: Online activists team up to create Internet ‘bat signal’
+      date:  2012-05-27
+      publication: RedOrbit news.
+      link: http://www.redorbit.com/news/technology/1112543027/online-activists-team-up-to-create-internet-bat-signal/
+    - title: Cute cat guards freedom of the Internet
+      date:  2012-05-27
+      publication: Tech Week Europe.
+      link: http://www.techweekeurope.co.uk/news/cute-cat-of-the-internet-79937
+    - title: 'E-Batman to the rescue: Reddit, Craigslist onbard Internet Defense League'
+      date:  2012-05-27
+      publication: RT News
+      link: http://www.rt.com/news/cispa-internet-league-reddit-336/
+    - title: Internet Defense League crafts ‘cat signal’ for the web
+      date: 2012-05-26
+      publication: PC Mag
+      link: http://www.pcmag.com/article2/0,2817,2404953,00.asp
+    - title: Reddit founder and Internet activists to build a ‘bat signal’ for The Internet
+      date:  2012-05-26
+      publication: pnosker.com
+      link: http://tech.pnosker.com/2012/05/26/reddit-founder-and-internet-activists-to-build-a-bat-signal-for-the-internet/
+    - title: Wordpress, Reddit, Cheezburger, and other join the new Internet Defense League
+      date:  2012-05-26
+      publication: All Things Digital
+      link: http://allthingsd.com/20120526/wordpress-reddit-cheezburger-and-others-join-new-internet-defense-league/
+    - title: Internet Defense League introduces ‘cat signal’ for websites
+      date:  2012-05-26
+      publication: The L.A Times
+      link: http://articles.latimes.com/2012/may/26/business/la-fi-tn-internet-defense-league-bat-signal-20120525
+    - title: Reddit founder plans Internet bat signal to defend the tubes
+      date:  2012-05-26
+      publication: Inquisitr
+      link: http://www.inquisitr.com/243180/reddit-founder-plans-internet-bat-signal-to-defend-the-tubes/
+    - title: Reddit Co-founder Creates ‘Bat Signal’ to Save the Internet
+      date:  2012-05-25
+      publication: Business Insider
+      link: http://www.businessinsider.com/alexis-ohanian-internet-defense-league-2012-5
+    - title: Internet Defense League aims to be the web’s “Bat Signal” for online protests
+      date:  2012-05-25
+      publication: The Huffington Post
+      link: http://www.huffingtonpost.com/2012/05/25/internet-defense-league-online-protests_n_1546551.html
+    - title: Reddit founder and Fight for the Future create Internet Defense League
+      date: 2012-05-25
+      publication: Game Politics
+      link: http://www.gamepolitics.com/2012/05/25/reddit-founder-and-fight-future-create-internet-defense-league
+    - title: Internet Defense League plans “bat signal” for the web to compat dangerous bills
+      date:  2012-05-25
+      publication: DigitalTrends
+      link: http://www.digitaltrends.com/web/internet-defense-league-plans-bat-signal-for-the-web-to-combat-dangerous-bills/
+    - title: 'Yochai Benkler: Blueprint for Democratic Participation'
+      date:  2012-05-03
+      publication: Yochai Benkler
+      link: http://fora.tv/2012/05/03/The_Guardian_Blueprint_for_Democratic_Participation
+    - title: Fight over online privacy set to continue in wake of CISPAs passage in The House
+      date:  2012-04-27
+      publication: TechPresident
+      link: http://techpresident.com/news/22122/fight-over-privacy-online-set-continue-wake-cispas-passage
+    - title: Obama says tech sanctions against
+      date:  2012-04-23
+      publication: FSRN
+      link: http://fsrn.org/audio/obama-says-tech-sanctions-target-syria-iran-us-record-privacy-criticized/10181
+    - title: 'CISPAcat: using memes to fight America’s terrible, net-breaking "cybersecurity" bill'
+      date:  2012-04-21
+      publication: BoingBoing
+      link: http://boingboing.net/2012/04/21/cispacat-using-memes-to-fight.html
+    - title: Nearing Vote, Fighting Over Cybersecurity Bill CISPA Intensifies
+      date:  2012-04-20
+      publication: TPM
+      link: http://idealab.talkingpointsmemo.com/2012/04/nearing-vote-cybersecurity-bill-cispa-fight-intensifies.php
+    - title: 'CISPA vote coming next week: how to fight back now'
+      date:  2012-04-20
+      publication: Digital Trends
+      link: http://www.digitaltrends.com/opinion/cispa-vote-coming-next-week-how-to-fight-back-now/
+    - title: As Controversial Cybersecurity Legislation Moves Through House, Activists Make a Quiet Start
+      date:  2012-04-18
+      publication: TechPresident
+      link: http://techpresident.com/news/22070/anti-cispa-twitter-campaign-quiet-start
+    - title: CISPA battle heats up as both sides fight to control the message
+      date:  2012-04-17
+      publication: Digital Trends
+      link: http://www.digitaltrends.com/web/cispa-battle-heats-up-as-both-sides-fight-to-control-the-message/
+    - title: Internet Advocacy Coalition Takes to Twitter to Fight Privacy-Invasive Bill CISPA
+      date:  2012-04-16
+      publication: The Dialy Disruption
+      link: http://www.dailydisruption.com/2012/04/internet-advocacy-coalition-takes-to-twitter-to-fight-privacy-invasive-bill-cispa/
+    - title: CISPA Bill Targeted by Activists
+      date:  2012-04-11
+      publication: POLITICO
+      link: http://www.politico.com/news/stories/0412/75034.html
+- campaign: sopa
+  pretty: SOPA
+  coverage:
+        - title: Big Victory on Internet Buoys Lobby
+          date: 2012-01-26
+          publication: The New York Times
+          link: http://www.nytimes.com/2012/01/27/technology/victory-on-antipiracy-issue-buoys-internet-lobby.html
+        - title: The Boston Globe - Small Worcester group plays large role in online protest
+          date: 2012-01-26
+          publication: The Boston Globe
+          link: http://articles.boston.com/2012-01-26/metro/30667660_1_wikipedia-editors-advocacy-groups-tiffiniy-cheng
+        - title: WIRED—guest post by Alexsis Ohanian
+          date: 2012-01-25
+          publication: WIRED
+          link: http://www.wired.com/epicenter/2012/01/guest-ohanian-sopapipa/
+        - title: After Public Drubbing on SOPA and PIPA, Schumer, Gillibrand Hit ‘Command Z’
+          date: 2012-01-21
+          publication: Politicker
+          link: http://www.politicker.com/2012/01/after-public-drubbing-schumer-gillibrand-hit-command-z/?show=all
+        - title: Know Your Meme—Protect IP / Stop Online Piracy
+          date: 2012-01-20
+          publication: Know Your Meme
+          link: http://knowyourmeme.com/memes/events/protect-ip-act-stop-online-piracy-act
+        - title: SOPA Anti-Piracy Bill Withdrawn
+          date: 2012-01-20
+          publication: MTV News
+          link: http://www.mtv.com/news/articles/1677625/sopa-bill.jhtml
+        - title: SOPA and PIPA Internet Blackout Aftermath—Staggering Numbers
+          date: 2012-01-19
+          publication: CBS News
+          link: http://www.cbsnews.com/8301-501465_162-57361906-501465/sopa-pipa-internet-blackout-aftermath-staggering-numbers/
+        - title: Did it work? Day After Results of the SOPA, PIPA blackout
+          date: 2012-01-19
+          publication: TIME’s TechLand
+          link: http://techland.time.com/2012/01/19/did-it-work-day-after-results-of-the-sopa-pipa-blackout/
+        - title: SF Gate—The Largest Online Protest In History Started Here
+          date: 2012-01-19
+          publication: The SF Gate
+          link: http://www.sfgate.com/cgi-bin/article.cgi?f=/g/a/2012/01/19/businessinsiderlargest-protest-in-h.DTL
+        - title: Dodd Calls for Hollywood and Silicon Valley to Meet
+          date: 2012-01-19
+          publication: The New York Times
+          link: https://www.nytimes.com/2012/01/20/technology/dodd-calls-for-hollywood-and-silicon-valley-to-meet.html?scp=1&sq=dodd%20arab%20spring&st=cse
+        - title: What Did SOPA Day Accomplish?
+          date: 2012-01-19
+          publication: The Daily Beast
+          link: http://andrewsullivan.thedailybeast.com/2012/01/what-did-sopa-day-accomplish.html
+        - title: Public Outcry Over Antipiracy Bills Began as Grass-Roots Grumbling
+          date: 2012-01-19
+          publication: The New York Times
+          link: http://www.nytimes.com/2012/01/20/technology/public-outcry-over-antipiracy-bills-began-as-grass-roots-grumbling.html?_r=1&pagewanted=all
+        - title: 'Paint it black: 7 ways you can protest SOPA and PIPA'
+          date: 2012-01-18
+          publication: TIME TechLand
+          link: http://techland.time.com/2012/01/18/paint-it-black-7-ways-you-can-protest-sopa-and-pipa/
+        - title: 'Censoring the Internet by SOPA & PIPA Bills: Google, Wikipedia blackout'
+          date: 2012-01-18
+          publication: NVO News
+          link: http://nvonews.com/2012/01/19/censoring-the-internet-by-sopa-pipa-bills-google-wikipedia-blackout/
+        - title: Reddit—These 61 senators are refusing to meet with their constituants
+          date: 2012-01-18
+          publication: Reddit
+          link: http://www.reddit.com/r/politics/comments/oe3mf/these_61_senators_are_refusing_to_meet_with_their/
+        - title: The Colbert Report
+          date: 2011-12-01
+          publication: The Colbert Report
+          link: http://www.colbertnation.com/the-colbert-report-videos/403466/december-01-2011/stop-online-piracy-act---danny-goldberg---jonathan-zittrain
+        - title: Slate - The Rise of The Geek Lobby
+          date: 2011-11-30
+          publication: Slate
+          link: http://www.slate.com/articles/technology/technocracy/2011/11/stop_online_piracy_act_can_the_geek_lobby_stop_hollywood_from_wrecking_the_internet_.html
+        - title: How Congress could break The Internet
+          date: 2011-11-17
+          publication: The Faster Times
+          link: http://www.thefastertimes.com/politics/2011/11/17/how-congress-could-break-the-internet/
+        - title: SOPA condemned by web giants as "Internet blacklist bill"
+          date: 2011-11-16
+          publication: The Guardian
+          link: http://www.guardian.co.uk/technology/2011/nov/16/sopa-condemned-internet-blacklist-bill
+        - title: Wikimedia Supports American Censorship Day
+          date: 2011-11-15
+          publication: WMF
+          link: https://blog.wikimedia.org/2011/11/15/wikimedia-supports-american-censorship-day/
+        - title: American Censorship Day is Tomorrow
+          date: 2011-11-15
+          publication: Buisness Insider
+          link: http://www.businessinsider.com/american-censorship-day-is-tomorrow-111611-2011-11
+        - title: Silicon Valley vs. Hollywood in Battle Over Piracy
+          date: 2011-11-14
+          publication: Forbes
+          link: http://www.forbes.com/sites/jeffbercovici/2011/11/16/silicon-valley-vs-hollywood-in-battle-over-piracy/
+        - title: Stop SOPA, save The Internet
+          date: 2011-11-11
+          publication: BoingBoing
+          link: http://boingboing.net/2011/11/11/stop-sopa-save-the-internet.html
+- campaign: free-bieber
+  pretty: Free Bieber
+  coverage:
+        - title: Group fights proposed bills on steaming music
+          date: 2011-11-01
+          publication: The Worchester Mag
+          link: http://www.worcestermag.com/home/top-stories/Fight-for-the-future-133555913.html
+        - title: 'Justin Bieber: Klobchar should be ‘locked up’'
+          date: 2011-10-28
+          publication: Star Tribune
+          link: http://www.startribune.com/politics/statelocal/132782298.html
+        - title: 'Justin Bieber: Senator Klobchar should be jailed'
+          date: 2011-10-28
+          publication: USA Today
+          link: http://content.usatoday.com/communities/onpolitics/post/2011/10/justin-bieber-amy-klobuchar-streaming-content-/1?csp=34news&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+usatoday-NewsTopStories+%28News+-+Top+Stories%29&utm_content=My+Yahoo
+        - title: Free Bieber campaign is not afraid of Justin Bieber or his lawyers
+          date: 2011-10-28
+          publication: Ars Technica
+          link: http://arstechnica.com/tech-policy/news/2011/10/freebieber-campaign-is-not-afraid-of-justin-bieber-or-his-lawyers.ars
+        - title: New Letter From Artists & Content Creators Against PROTECT IP/E-PARASITE Act
+          date: 2011-10-27
+          publication: TechDirt
+          link: http://www.techdirt.com/articles/20111026/14344016525/new-letter-artists-content-creators-against-protect-ipe-parasites-act.shtml
+        - title: 'JUSTIN BIEBER: Calls Out A MEMBER OF CONGRESS Over So Called "Bieber Bill"'
+          date: 2011-10-27
+          publication: Hot 95.5 FM
+          link: http://www.hot995.com/pages/toby.html?article=9316793
+        - title: Looks like Congress declared war on The Internet
+          date: 2011-10-27
+          publication: GigaOm
+          link: http://gigaom.com/2011/10/27/looks-like-congress-has-declared-war-on-the-internet/
+        - title: Justin Bieber tries to shut down anti-illegal streaming bill website
+          date: 2011-10-27
+          publication: RawStory
+          link: http://www.rawstory.com/rs/2011/10/27/justin-bieber-tries-to-shut-down-anti-illegal-streaming-bill-website/
+        - title: Justin Bieber tries to shut down Freebieber.org
+          date: 2011-10-27
+          publication: ReadWriteWeb
+          link: https://www.readwriteweb.com/archives/justin_bieber_tries_to_stop_freebieberorg.php
+        - title: Bieber Behind Bars with The Pulse
+          date: 2011-10-26
+          publication: ABC News
+          link: http://abcnews.go.com/blogs/headlines/2011/10/justin-bieber-behind-bars-atlanta-wrongful-arrest-cash-for-candy/
+        - title: 's978 Panic: Is Justin Bieber going to jail? In a word, no.'
+          date: 2011-10-26
+          publication: Mediaite
+          link: http://www.mediaite.com/online/s-978-panic-is-justin-bieber-going-to-jail-in-a-word-no/
+        - title: Could a new law put Justin Bieber in jail?
+          date: 2011-10-25
+          publication: Jezebel
+          link: http://jezebel.com/5853400/could-a-new-law-put-justin-bieber-in-jail

@@ -1,0 +1,52 @@
+.footer-topper {
+  background-image: url('/img/display/striped_background.png');
+  color: @white;
+  justify-content: space-between;
+  padding: 1.6rem 1.6rem 1.6rem 0.6rem;
+
+  @media screen and (min-width: @small-phone) {
+    display: flex;
+  }
+}
+
+.footer-topper-links {
+  font-weight: 100;
+  a {
+    color: @white;
+    display: inline-block;
+    padding: 0 1rem;
+    &:link, &:visited {
+      text-decoration: none;
+    }
+    &:hover, &:active {
+      text-decoration: underline;
+    }
+  }
+}
+
+.footer-topper-social {
+  display: flex;
+  justify-content: space-around;
+  width: 14rem;
+  span {
+    padding: 0.4rem;
+  }
+}
+
+.follow-us-icon {
+  background-repeat: no-repeat;
+  color: transparent;
+  display: inline-block;
+  font: 0/0;
+  height: 3rem;
+  margin-left: 0.5rem;
+  overflow: hidden;
+  width: 3rem;
+
+  &.fb {
+    background-image: url('/img/share/icon_facebook.png');
+  }
+  &.tw {
+    background-image: url('/img/share/icon_twitter.png');
+  }
+}

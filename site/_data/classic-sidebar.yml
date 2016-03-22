@@ -1,0 +1,12 @@
+press:
+  - text: 'Press Releases'
+  - link: 'https://fightfortheftr.wordpress.com/press-releases/'
+aboutus:
+  - text: 'About'
+    link: '#about-us'
+  - text: 'Staff'
+    link: '#staff'
+  - text: 'FFTF Board'
+    link: '#fftf-board'
+  - text: 'FFTF Education Fund Board'
+    link: '#fftfef-board'

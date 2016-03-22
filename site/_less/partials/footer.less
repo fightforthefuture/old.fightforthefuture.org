@@ -1,0 +1,121 @@
+footer.main-site {
+  margin-bottom: 0;
+  background: @header-color;
+
+  .gutter {
+    position: relative;
+
+    padding: 25px 10px 30px 10px;
+    max-width: @max-footer-width;
+    width: 100%;
+    margin: 0 auto;
+
+
+    img {
+      width: 357px;
+      max-width: 100%;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      height: auto;
+    }
+
+    div.sharea {
+      margin-bottom: 10px;
+
+      span {
+        display: inline;
+        line-height: 30px;
+        vertical-align: top;
+        color: white;
+        text-transform: uppercase;
+        font-family: @heading-font;
+        font-weight: 600;
+        font-size: 15px;
+        margin-right: 5px;
+      }
+
+      button {
+        border: 0;
+        font-size: 0;
+        color: transparent;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        margin-left: 5px;
+        vertical-align: top;
+
+        &.facebook {
+          background: url(/img/header/facebook.png);
+          background-size: 30px 30px;
+        }
+
+        &.twitter {
+          background: url(/img/header/twitter.png);
+          background-size: 30px 30px;
+        }
+      }
+    }
+
+    hr {
+      border: 0;
+      border-bottom: 1px solid rgba(255, 255, 255, .2);
+    }
+
+    nav {
+      padding-top: 20px;
+      ul {
+        max-width: 800px;
+        li {
+          width: 180px;
+          font-size: 14px;
+          display: inline-block;
+          padding-bottom: 5px;
+
+          a {
+            color: white;
+            font-weight: 400;
+            text-decoration: none;
+
+            strong {
+              font-weight: 600;
+              text-decoration: underline;
+            }
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+
+    @media screen and (min-width: @large-phone) {
+      div.sharea {
+        position: absolute;
+        right: 10px;
+        top: 60px;
+
+
+      }
+    }
+
+    @media screen and (min-width: @large-tablet) {
+      .copyright {
+        float: right;
+      }
+    }
+
+  }
+
+  .dark {
+    background: darken(@header-color, 8%);
+    font-size: 14px;
+    color: rgba(255, 255, 255, .6);
+
+    a {
+      color: rgba(255, 255, 255, .8);
+    }
+  }
+
+
+}

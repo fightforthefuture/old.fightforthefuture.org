@@ -1,0 +1,56 @@
+{% capture social_title %}{% if page.social_title != '' %}{{ page.social_title }}{% else %}{{ page.title }}{% endif %}{% endcapture %}
+{% capture social_description %}{% if page.social_description != '' %}{{ page.social_description }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+{% if page.share_image != '' %}
+  {% assign share_img = page.share_image %}
+{% else %}
+  {% capture share_img %}{{ site.url }}/img/share/fftf-share.jpg{% endcapture %}
+{% endif %}
+{% if page.share_image_dims != '' %}
+  {% assign dims = page.share_image_dims | split: ' x ' %}
+{% else %}
+  {% assign dims = '1400|553' | split: '|' %}
+{% endif %}
+
+{% capture twittertext %}{% if page.twittertext %}{{ page.twittertext }}{% else %}{{ site.twittertext }}{% endif %}{% endcapture %}
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<script src="https://use.typekit.net/ldp0oqv.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+<title>{{ page.title }}</title>
+<meta name="description" content="{% if page.search_description != null and page.search_description != '' %}{{ page.search_description }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+<!-- *** social meta *** -->
+<!-- facebook -->
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="{{ share_img }}"/>
+<meta property="og:image:width" content="{{ dims[0] }}"/>
+<meta property="og:image:height" content="{{ dims[1] }}"/>
+<meta property="og:site_name" content="{{ site.name }}"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:locale:alternate" content="en_GB"/>
+<meta property="og:title" content="{{ social_title }}"/>
+<meta property="og:description" content="{{ social_description }}"/>
+
+<!-- twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="{{ site.author.twitter }}">
+<meta name="twitter:title" content="{{ social_title }}">
+<meta name="twitter:description" content="{{ social_description }}"/>
+<meta name="twitter:domain" content="{{ site.url | remove:'http://' | remove:'https://' }}">
+<meta name="twitter:account_id" content="{{ site.author.twitterid }}"/>
+<meta name="twittertext" content="{{ twittertext }}" />
+
+<!-- google+ -->
+<meta itemprop="name" content="{{ social_title }}">
+<meta itemprop="description" content="{{ social_description }}">
+<meta itemprop="image" content="{{ share_img }}">
+<!-- /*** social meta *** -->
+
+<link rel="publisher" href="https://plus.google.com/{{ site.author.googleid }}">
+
+<link rel="icon" type="image/png" href="{{ site.url }}{{ site.favicon }}"/>
+
+<link rel="stylesheet" type="text/css" href="/css/core.css">

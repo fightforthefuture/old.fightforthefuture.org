@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../bebas/BebasNeue-webfont.eot');
+    src: url('../bebas/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../bebas/BebasNeue-webfont.woff') format('woff'),
+         url('../bebas/BebasNeue-webfont.ttf') format('truetype'),
+         url('../bebas/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+#branding_stuff hr {
+	border-top: 1px dotted #777777;
+	color: #fff;
+	background-color: #fff;
+	height: 0px;
+	width:100%;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+#branding_stuff #wrap{
+	width: 675px;
+	margin: auto;
+}
+
+#branding_stuff .logo{
+float: left;
+width: 337px;
+margin-bottom: 30px;
+}
+
+#branding_stuff .caption{
+font-family: Helvetica, arial, Sans-Serif;
+font-size: 10pt;
+color: #666666;
+margin-top: 3px;
+}
+
+#branding_stuff p{
+font-family: Helvetica, arial, Sans-Serif;
+font-size: 11pt;
+color: #666666;
+}
+
+#branding_stuff .title{
+margin-top: 5px;
+font-family: Helvetica, arial, Sans-Serif;
+font-size: 11pt;
+font-weight: 700;
+color: #666666;
+}
+
+#branding_stuff .color_row{
+margin-bottom: 30px;
+}
+
+#branding_stuff .font_row{
+margin-bottom: 30px;
+}
+
+
+#branding_stuff h2{
+font-weight: 100;
+font-size: 14pt;
+color: #e4b100; /* text color */
+font-family: BebasNeueRegular, Helvetica, arial, Sans-Serif;
+margin-bottom: 10px;
+}
+
+#branding_stuff a{
+color: #00a967; /* text color */
+font-family: Helvetica, arial, Sans-Serif;
+font-size: 11pt;
+font-weight: 700;
+}
+
+#branding_stuff .download{
+margin-bottom: 22px;
+margin-top: 7px;
+display: block;
+font-family: Helvetica, Verdana, Sans-Serif;
+font-size: 10pt;
+text-align: center;
+padding-top: 8px;
+color: #fff; /* text color */
+text-decoration: none;
+font-weight: 600;
+width: 111px;
+height: 24px;
+-moz-border-radius: 3px; /* from vector shape */
+-webkit-border-radius: 3px; /* from vector shape */
+border-radius: 3px; /* from vector shape */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box; /* prevents bg color from leaking outside the border */
+background-color: #414141; /* layer fill content */
+background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDExMSAyNCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSItMS40MjEwODU0NzE1MjAyZS0xNCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDA4ZjU1IiBzdG9wLW9wYWNpdHk9IjEiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDBiMzZiIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgPC9saW5lYXJHcmFkaWVudD4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMTEiIGhlaWdodD0iMjQiIGZpbGw9InVybCgjaGF0MCkiIC8+Cjwvc3ZnPg==); /* gradient overlay */
+background-image: -moz-linear-gradient(90deg, #008f55 0%, #00b36b 100%); /* gradient overlay */
+background-image: -o-linear-gradient(90deg, #008f55 0%, #00b36b 100%); /* gradient overlay */
+background-image: -webkit-linear-gradient(90deg, #008f55 0%, #00b36b 100%); /* gradient overlay */
+background-image: linear-gradient(90deg, #008f55 0%, #00b36b 100%); /* gradient overlay */
+}
+
+#branding_stuff a.download:hover{
+width: 111px;
+height: 24px;
+-moz-border-radius: 3px; /* from vector shape */
+-webkit-border-radius: 3px; /* from vector shape */
+border-radius: 3px; /* from vector shape */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box; /* prevents bg color from leaking outside the border */
+background-color: #414141; /* layer fill content */
+background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDExMSAyNCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjUwJSIgeTE9Ii0xLjQyMTA4NTQ3MTUyMDJlLTE0JSIgeDI9IjUwJSIgeTI9IjEwMCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDA4ZjU1IiBzdG9wLW9wYWNpdHk9IjEiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDBiMzZiIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgPC9saW5lYXJHcmFkaWVudD4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMTEiIGhlaWdodD0iMjQiIGZpbGw9InVybCgjaGF0MCkiIC8+Cjwvc3ZnPg==); /* gradient overlay */
+background-image: -moz-linear-gradient(270deg, #008f55 0%, #00b36b 100%); /* gradient overlay */
+background-image: -o-linear-gradient(270deg, #008f55 0%, #00b36b 100%); /* gradient overlay */
+background-image: -webkit-linear-gradient(270deg, #008f55 0%, #00b36b 100%); /* gradient overlay */
+background-image: linear-gradient(270deg, #008f55 0%, #00b36b 100%); /* gradient overlay */
+
+}
+
+/* Fonts */
+#branding_stuff #Montserrat{
+font-family: 'Montserrat', sans-serif;
+font-size: 18pt;
+color: #000;
+font-weight: 400;
+letter-spacing: -1px;
+margin-bottom: -8px;
+margin-top: 20px;
+}
+
+#branding_stuff #oleoscript{
+font-family: 'Oleo Script', cursive;
+font-size: 18pt;
+color: #000;
+font-weight: 400;
+letter-spacing: -1px;
+margin-bottom: -8px;
+margin-top: 20px;
+}
+
+#branding_stuff #helveticabold{
+font-family: Helvetica, Verdana, Sans-Serif;
+font-size: 18pt;
+color: #000;
+font-weight: 800;
+letter-spacing: -1px;
+margin-bottom: -8px;
+margin-top: 20px;
+}
+
+#branding_stuff #helveticatt{
+font-family: Helvetica, Verdana, Sans-Serif;
+font-size: 18pt;
+color: #000;
+font-weight: 200;
+letter-spacing: -1px;
+margin-bottom: -8px;
+margin-top: 20px;
+}
