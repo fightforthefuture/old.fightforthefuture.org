@@ -128,6 +128,20 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
     Tucows seeks to provide simple, useful services that help people unlock the power of the Internet.
 
+  ---
+
+  ![ExpressVPN](/img/page/supporters/avatars/expressvpn.png)
+  : ### [ExpressVPN](https://www.expressvpn.com/)
+
+    ExpressVPN operates a high speed, ultra secure, and easy to use VPN. And they care a lot about Internet security, privacy, freedom too.
+
+  ---
+
+  ![BestVPN](/img/page/supporters/avatars/bestvpn.png)
+  : ### [BestVPN](https://www.bestvpn.com/)
+
+    BestVPN runs the ultimate VPN review site, where they've carefully reviewed over 100 VPN providers.
+
 ---
 
 **Rebels**
@@ -145,8 +159,6 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   * [![TestPac](/img/page/supporters/avatars/testpac.png) TestPac](http://testpacpleaseignore.org/)
 
   * [![Organic Consumers](/img/page/supporters/avatars/organic.png) Organic Consumers](https://www.organicconsumers.org/)
-
-  * [![ExpressVPN](/img/page/supporters/avatars/expressvpn.png) ExpressVPN](https://www.expressvpn.com/)
 
   * [![Minds](/img/page/supporters/avatars/minds.jpg) Minds](https://minds.com/)
 
