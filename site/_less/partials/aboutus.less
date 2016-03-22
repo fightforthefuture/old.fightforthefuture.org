@@ -1,7 +1,7 @@
 .aboutus {
   div.classic {
     > ul:first-child {
-      margin-left: 0px;
+      text-align: center;
     }
   }
   .content {
@@ -10,9 +10,6 @@
       margin: 50px auto 30px auto;
       color: #1b3c57;
       text-align: center;
-    }
-    h2 {
-      margin-top: 40px;
     }
     h2, dl.stats dt {
       font-family: @heading-font;
@@ -24,18 +21,19 @@
       max-width: 100%;
       line-height: auto;
     }
+    h2 {
+      margin-top: 40px;
+      text-align: center;
+    }
     p {
       font-family: @body-font;
       font-weight: 400;
       font-size: 18px;
-      text-align: left;
+      text-align: center;
       color: #4a5056;
       margin-bottom: 30px;
-      max-width: 100%;
+      max-width: @max-blog-width;
 
-      @media screen and (min-width: @large-tablet) {
-        padding-right: 330px;
-      }
     }
 
     dl.stats {

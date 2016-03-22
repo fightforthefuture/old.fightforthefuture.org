@@ -21,14 +21,6 @@ Our accomplishments are testament to the notion that with the right approach and
 [01]: https://www.battleforthenet.com/how-we-won/
 [02]: http://www.fightforthefuture.org/timeline/
 
-Stats
-: * **3,200,000** Supporters
-  * **98** Campaigns
-  * **30** Campaign Wins
-  * **{{ site.time | date: '%Y' | minus: 2011 }} Years** Fighting
-{: .stats}
-
-
 # Staff
 {: #staff}
 
@@ -46,7 +38,7 @@ Stats
 
   #### Co-Founder and Co-Director
 
-  Tiffiniy is our co-founder and co-director. She started [Open Congress][tc1], [Miro][tc2], and the advocacy organization, A New Way Forward. She is a current [Shuttleworth Foundation Fellow](https://shuttleworthfoundation.org/fellows/tiffiniy-cheng).  
+  Tiffiniy is our co-founder and co-director. She started [Open Congress][tc1], [Miro][tc2], and the advocacy organization, A New Way Forward. She is a current [Shuttleworth Foundation Fellow](https://shuttleworthfoundation.org/fellows/tiffiniy-cheng).
 
 ---
 
@@ -64,7 +56,7 @@ Stats
 
   #### Campaign Director
 
-  [Evan][eg1] is our campaign director. She’s been organizing hard-hitting campaigns for more than a decade and is a regular contributor to The Guardian and Huffington Post.   
+  [Evan][eg1] is our campaign director. She’s been organizing hard-hitting campaigns for more than a decade and is a regular contributor to The Guardian and Huffington Post.
 
 ---
 
