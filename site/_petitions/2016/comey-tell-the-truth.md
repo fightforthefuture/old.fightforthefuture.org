@@ -21,7 +21,7 @@ share_image: ""
 share_image_dims: ""
 default_donation_amount: 5
 default_donation_frequency: "just-once"
-published: false
+published: true
 ---
 
 
