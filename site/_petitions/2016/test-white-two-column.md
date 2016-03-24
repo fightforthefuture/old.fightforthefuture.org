@@ -2,17 +2,17 @@
 layout: "action-network-petitions"
 design: "white-two-column"
 headline: "Nothing to see here: just mass graves of trafficked woman"
-tags:
+tags: 
   - foo
   - bar
 petition_title: Test petition 3
 petition_copy: "“Stop trying to sweep Malaysia’s human rights abuses under the rug just to pass the dangerous Trans-Pacific Partnership (TPP).”"
 opt_in: false
 allow_comments: false
-additional_fields:
+additional_fields: 
   - name
   - street_address
-required_fields:
+required_fields: 
   - name
   - street_address
 target_country: US
@@ -29,6 +29,7 @@ share_image_dims: ""
 ---
 
 
+## This is a big ass headline, up to two lines
 
 ![Mass graves](/img/page/scratch/Untitled-1.jpg)
 
