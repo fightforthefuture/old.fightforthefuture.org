@@ -69,6 +69,11 @@ prose:
     - 'webfonts'
     - 'robots.txt'
     - 'sitemap.xml'
+    - 'news'
+    - '_posts'
+    - '_blog_posts'
+    - '_posts_full'
+    - 'favicon.ico'
 
   siteurl: 'https://www.fightforthefuture.org'
   media: 'img'
