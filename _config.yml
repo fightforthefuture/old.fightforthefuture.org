@@ -257,6 +257,8 @@ prose:
           label: 'Default country'
           value: 'US'
           options:
+            - value: US
+              name: 'United States'
             - value: AF
               name: 'Afghanistan'
             - value: AX
@@ -727,8 +729,6 @@ prose:
               name: 'United Arab Emirates'
             - value: GB
               name: 'United Kingdom'
-            - value: US
-              name: 'United States'
             - value: UM
               name: 'United States Minor Outlying Islands'
             - value: UY
