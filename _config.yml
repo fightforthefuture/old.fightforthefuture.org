@@ -690,22 +690,22 @@ prose:
           help: 'Use an "x" with a space on either side to denote image dimensions. Facebook recommends a minimum of 1200 x 630.'
       - name: 'default_donation_amount'
         field:
-          element: 'number'
+          element: 'hidden'
           label: 'Default donation amount'
           help: 'Dollar amount in the top right corner donation link. If you change this, be sure to test it—the sky is *not* the limit thanks to limitations of Stripe’s subscription model.'
           value: '5'
       - name: 'default_donation_frequency'
         field:
-          element: 'select'
+          element: 'hidden'
           label: 'Default donation frequency'
           help: 'Donation frequency for donation link'
-          options:
-            - name: Once
-              value: 'just-once'
-            - name: Monthly
-              value: monthly
-            - name: Annual
-              value: annual
+#          options:
+#            - name: Once
+#              value: 'just-once'
+#            - name: Monthly
+#              value: monthly
+#            - name: Annual
+#              value: annual
           value: 'just-once'
 
 #############
