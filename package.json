@@ -24,6 +24,7 @@
     "test": "grunt test",
     "verbose": "grunt build -vvv",
     "build": "grunt build",
+    "predeploy": "node generate_fp_token.js",
     "deploy": "./deploy-ghpages.sh",
     "review": "grunt review",
     "postreview": "node review-apps"
@@ -51,6 +52,7 @@
   },
   "devDependencies": {
     "grunt-contrib-connect": "~0.11.2",
-    "grunt-contrib-watch": "~0.6.1"
+    "grunt-contrib-watch": "~0.6.1",
+    "sha.js": "^2.4.5"
   }
 }
