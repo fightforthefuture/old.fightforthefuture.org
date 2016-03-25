@@ -77,7 +77,7 @@ prose:
       - name: 'layout'
         field:
           element: 'hidden'
-          value: 'action-network-petition'
+          value: 'action-network-petitions'
       - name: 'design'
         field:
           element: 'select'

@@ -31,7 +31,8 @@ class: clean-edge petition
   <h1>{{ page.headline }}</h1>
 </header>
 
-{% capture fields_class %}length-{{ page.additional_fields | size }}{% endcapture %}
+{% if page.additional_fields contains 'null' %}{% assign fields_class = 'length-0' %}{% else %}
+{% capture fields_class %}length-{{ page.additional_fields | size }}{% endcapture %}{% endif %}
 <main class="{{ page.design }}">
   <section class="petition-box">
     <article class="petition-text">
@@ -95,8 +96,8 @@ class: clean-edge petition
       <input type="hidden" name="subscription[sub_group_id]" value="13162">
       <input type="hidden" name="subscription[http_referer]" value="{{ site.url }}{{ page.url }}"/>
       <input type="hidden" name="subscription[source]" value="www"/>
-      {% capture tags %}{% for tag in page.tags %}&quot;{{ tag }}&quot;{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
-      <input type="hidden" name="subscription[tag_list]" value="[{{ tags }}]"/>
+      {% capture tags %}{% if tags and tags != "null" %}[{% for tag in page.tags %}&quot;{{ tag }}&quot;{% unless forloop.last %},{% endunless %}{% endfor %}]{% endif %}{% endcapture %}
+      <input type="hidden" name="subscription[tag_list]" value="{{ tags }}"/>
       <input type="submit" name="commit" class="{{ fields_class }}" value="Take action"/>
     </form>
 
