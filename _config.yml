@@ -71,7 +71,7 @@ prose:
     - 'sitemap.xml'
 
   siteurl: 'https://www.fightforthefuture.org'
-  media: 'site/img'
+  media: '../img'
   metadata:
     'site/_petitions':
       - name: 'layout'
