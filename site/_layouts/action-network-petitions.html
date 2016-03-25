@@ -5,6 +5,13 @@ component-scripts: petitions
 class: clean-edge petition
 ---
 
+{% if page.default_donation_amount and page.default_donation_frequency %}
+{% capture donation_information %}{{ page.default_donation_amount }}|{{ page.default_donation_frequency }}{% endcapture %}
+{% else %}
+{% assign donation_information = '5|just-once' %}
+{% endif %}
+{% assign donation_information = donation_information | split: '|' %}
+
 <header class="stickybar {{ page.design }}">
   <span class="stickybar-fftf-logo">
     Fight for the Future
@@ -19,10 +26,12 @@ class: clean-edge petition
       </a>
     </li>
     <li class="stickybar-donate">
-      <a href="https://donate.fightforthefuture.org?amount={{ page.default_donation_amount }}&amp;frequency={{ page.default_donation_frequency }}&amp;utm_source=petitions&amp;utm_medium=web&amp;utm_campaign={{ page.title | slugify }}">
+      <a href="https://donate.fightforthefuture.org?amount={{ donation_information[0] }}&amp;frequency={{ donation_information[1] }}&amp;utm_source=petitions&amp;utm_medium=web&amp;utm_campaign={{ page.title | slugify }}">
         <span class="hover-heart">&#x2665;</span>
-        Donate ${{ page.default_donation_amount }}
+        Donate ${{ donation_information[0] }}
       </a>
+      {% else %}
+      {% endif %}
     </li>
   </ul>
 </header>
