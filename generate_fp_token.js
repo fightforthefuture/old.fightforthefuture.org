@@ -16,7 +16,7 @@ var fs    = require('fs'),
 var token = process.env.FP_DOMAIN_SECURITY_TOKEN.trim();
 
 try {
-  var cname = fs.readFileSync('CNAME', 'utf8').trim();
+  var cname = fs.readFileSync('CNAME', 'utf8').trim().toLowerCase();
 } catch(err) {
   console.log('No CNAME for this project. Nothing to do here.');
   process.exit(0);
