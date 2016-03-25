@@ -118,7 +118,7 @@ prose:
         field:
           element: 'multiselect'
           label: 'Tags'
-          alterable: true
+          alterable: false
           help: 'This is for Action Network tags—make sure to add any tags you wish to be assigned to signers here.'
           options:
             - name: 'admin'
