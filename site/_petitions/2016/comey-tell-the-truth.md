@@ -1,6 +1,6 @@
 ---
 layout: "action-network-petitions"
-design: "snowden-header"
+design: "blue-one-column"
 headline: Comey just lied to us
 petition_title: Comey tell the truth
 petition_copy: "Comey is lying. The FBI had a way to access the iPhone all along. Now they&#x27;re backing down, and lying about it. Tell Comey to come clean!"

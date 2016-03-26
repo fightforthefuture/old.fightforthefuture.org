@@ -76,7 +76,7 @@ prose:
     - 'favicon.ico'
 
   siteurl: 'https://www.fightforthefuture.org'
-  media: 'img'
+  media: 'img/action-network'
   metadata:
     'site/_petitions':
       - name: 'layout'
@@ -87,14 +87,14 @@ prose:
         field:
           element: 'select'
           label: 'Template'
-          help: 'Choose which template style you want'
+          help: 'Choose which template style you want. You can find samples of each option on the wiki.'
           options:
             - name: 'White Two Column'
               value: 'white-two-column'
-            - name: 'Snowden Header'
-              value: 'snowden-header'
-            - name: 'Obamas Header'
-              value: 'obamas-header'
+            - name: 'Blue One Column'
+              value: 'blue-one-column'
+            - name: 'Blue Two Column'
+              value: 'blue-two-column'
       - name: 'headline'
         field:
           element: 'text'
