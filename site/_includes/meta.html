@@ -1,7 +1,11 @@
 {% capture social_title %}{% if page.social_title != '' %}{{ page.social_title }}{% else %}{{ page.title }}{% endif %}{% endcapture %}
 {% capture social_description %}{% if page.social_description != '' %}{{ page.social_description }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
 {% if page.share_image != '' %}
-  {% assign share_img = page.share_image %}
+  {% if page.share_image contains 'http' %}
+    {% assign share_img = page.share_image %}
+  {% else %}
+    {% capture share_img %}{{ site.url }}{{ page.share_image }}{% endcapture %}
+  {% endif %}
 {% else %}
   {% capture share_img %}{{ site.url }}/img/share/fftf-share.jpg{% endcapture %}
 {% endif %}
