@@ -82,12 +82,11 @@ module.exports = function (grunt) {
           }
         ]
       },
-      assets: {
+      images: {
         files: [
           {
             expand: true,
             dot: true,
-            cwd: '<%= site.app %>',
             src: [
               'img/**/*'
             ],
@@ -184,8 +183,8 @@ module.exports = function (grunt) {
         tasks: ['copy:legacy']
       },
       images: {
-        files: ['<%= site.app %>/img/**/*.*'],
-        tasks: ['copy:assets']
+        files: ['img/**/*.*'],
+        tasks: ['copy:images']
       },
       less: {
         files: ['<%= site.app %>/_less/**/*.less'],

@@ -5,6 +5,13 @@ component-scripts: petitions
 class: clean-edge petition
 ---
 
+{% if page.default_donation_amount and page.default_donation_frequency %}
+{% capture donation_information %}{{ page.default_donation_amount }}|{{ page.default_donation_frequency }}{% endcapture %}
+{% else %}
+{% assign donation_information = '5|just-once' %}
+{% endif %}
+{% assign donation_information = donation_information | split: '|' %}
+
 <header class="stickybar {{ page.design }}">
   <span class="stickybar-fftf-logo">
     Fight for the Future
@@ -19,9 +26,9 @@ class: clean-edge petition
       </a>
     </li>
     <li class="stickybar-donate">
-      <a href="https://donate.fightforthefuture.org?amount={{ page.default_donation_amount }}&amp;frequency={{ page.default_donation_frequency }}&amp;utm_source=petitions&amp;utm_medium=web&amp;utm_campaign={{ page.title | slugify }}">
+      <a href="https://donate.fightforthefuture.org?amount={{ donation_information[0] }}&amp;frequency={{ donation_information[1] }}&amp;utm_source=petitions&amp;utm_medium=web&amp;utm_campaign={{ page.title | slugify }}">
         <span class="hover-heart">&#x2665;</span>
-        Donate ${{ page.default_donation_amount }}
+        Donate ${{ donation_information[0] }}
       </a>
     </li>
   </ul>
@@ -31,7 +38,8 @@ class: clean-edge petition
   <h1>{{ page.headline }}</h1>
 </header>
 
-{% capture fields_class %}length-{{ page.additional_fields | size }}{% endcapture %}
+{% if page.additional_fields contains 'null' %}{% assign fields_class = 'length-0' %}{% else %}
+{% capture fields_class %}length-{{ page.additional_fields | size }}{% endcapture %}{% endif %}
 <main class="{{ page.design }}">
   <section class="petition-box">
     <article class="petition-text">
@@ -95,8 +103,8 @@ class: clean-edge petition
       <input type="hidden" name="subscription[sub_group_id]" value="13162">
       <input type="hidden" name="subscription[http_referer]" value="{{ site.url }}{{ page.url }}"/>
       <input type="hidden" name="subscription[source]" value="www"/>
-      {% capture tags %}{% for tag in page.tags %}&quot;{{ tag }}&quot;{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
-      <input type="hidden" name="subscription[tag_list]" value="[{{ tags }}]"/>
+      {% capture tags %}{% if tags and tags != "null" %}[{% for tag in page.tags %}&quot;{{ tag }}&quot;{% unless forloop.last %},{% endunless %}{% endfor %}]{% endif %}{% endcapture %}
+      <input type="hidden" name="subscription[tag_list]" value="{{ tags }}"/>
       <input type="submit" name="commit" class="{{ fields_class }}" value="Take action"/>
     </form>
 

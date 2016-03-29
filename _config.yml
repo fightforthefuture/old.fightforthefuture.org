@@ -69,27 +69,32 @@ prose:
     - 'webfonts'
     - 'robots.txt'
     - 'sitemap.xml'
+    - 'news'
+    - '_posts'
+    - '_blog_posts'
+    - '_posts_full'
+    - 'favicon.ico'
 
   siteurl: 'https://www.fightforthefuture.org'
-  media: 'site/img'
+  media: 'img/action-network'
   metadata:
     'site/_petitions':
       - name: 'layout'
         field:
           element: 'hidden'
-          value: 'action-network-petition'
+          value: 'action-network-petitions'
       - name: 'design'
         field:
           element: 'select'
           label: 'Template'
-          help: 'Choose which template style you want'
+          help: 'Choose which template style you want. You can find samples of each option on the wiki.'
           options:
             - name: 'White Two Column'
               value: 'white-two-column'
-            - name: 'Snowden Header'
-              value: 'snowden-header'
-            - name: 'Obamas Header'
-              value: 'obamas-header'
+            - name: 'Blue One Column'
+              value: 'blue-one-column'
+            - name: 'Blue Two Column'
+              value: 'blue-two-column'
       - name: 'headline'
         field:
           element: 'text'
@@ -118,7 +123,7 @@ prose:
         field:
           element: 'multiselect'
           label: 'Tags'
-          alterable: true
+          alterable: false
           help: 'This is for Action Network tags—make sure to add any tags you wish to be assigned to signers here.'
           options:
             - name: 'admin'
@@ -257,6 +262,8 @@ prose:
           label: 'Default country'
           value: 'US'
           options:
+            - value: US
+              name: 'United States'
             - value: AF
               name: 'Afghanistan'
             - value: AX
@@ -727,8 +734,6 @@ prose:
               name: 'United Arab Emirates'
             - value: GB
               name: 'United Kingdom'
-            - value: US
-              name: 'United States'
             - value: UM
               name: 'United States Minor Outlying Islands'
             - value: UY
@@ -787,25 +792,6 @@ prose:
           label: 'Share image dimensions'
           placeholder: 1200 x 630
           help: 'Use an "x" with a space on either side to denote image dimensions. Facebook recommends a minimum of 1200 x 630.'
-      - name: 'default_donation_amount'
-        field:
-          element: 'number'
-          label: 'Default donation amount'
-          help: 'Dollar amount in the top right corner donation link. If you change this, be sure to test it—the sky is *not* the limit thanks to limitations of Stripe’s subscription model.'
-          value: '5'
-      - name: 'default_donation_frequency'
-        field:
-          element: 'select'
-          label: 'Default donation frequency'
-          help: 'Donation frequency for donation link'
-          options:
-            - name: Once
-              value: 'just-once'
-            - name: Monthly
-              value: monthly
-            - name: Annual
-              value: annual
-          value: 'just-once'
 
 #############
 # Compiling #
