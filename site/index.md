@@ -18,7 +18,7 @@ Fight for the Future is dedicated to protecting and expanding the Internet’s t
 <section class="feature-content" markdown="1">
 
 {% capture projects %}
-{% include homepage/projects.html %}
+{% include homepage/projects.md limit=15 %}
 {% endcapture %}
 
 {{ projects | markdownify }}
