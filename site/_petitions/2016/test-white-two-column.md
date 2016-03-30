@@ -31,11 +31,9 @@ share_image_dims: 1400 x 553
 
 President Knowles Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do **eiusmod tempor incididunt** ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit [esse cillum dolore](https://www.fightforthefuture.org/) eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-{% readmore Expand text %}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a velit nisl. Cras ex velit, semper a bibendum in, suscipit eget sem. Donec maximus enim ut rutrum pellentesque. Morbi ut magna quis dui maximus dignissim in vitae tellus. Fusce id laoreet arcu, eu iaculis dolor. Phasellus augue ex, aliquet vel consectetu et, lacinia at dui. Duis justo nunc, cursus ut lacus nec, rhoncus varius arcu. Duis in pharetra velit. Cras eu tempus arcu. Sed at feugiat ante, sit amet congue nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In in diam in purus consectetur aliquet. Phasellus sem lectus, maximus vitae est vitae, feugiat ultrices ipsum.
 
 In eget diam varius, sodales turpis vitae, egestas nunc. Cras nec lacus mi. Curabitur in libero ipsum. Curabitur at lorem sed arcu egestas venenatis quis ut purus. Cras pharetra libero at mi rhoncus ultrices. Donec elementum rutrum risus sed vulputate. Aliquam rutrum lectus dolor, at varius ante elementum eu.
-{% endreadmore %}
 
 ### Now, for a “snapshot”
 
