@@ -1,35 +1,31 @@
 ---
 layout: "action-network-petitions"
 design: "blue-two-column"
-headline: "President Knowles is withholding free pizza. Put a stop to it now."
-tags:
-  - anti-corporate
+headline: President Knowles is withholding free pizza. Put a stop to it now.
+tags: 
+  - "anti-corporate"
   - developer
-petition_title: Test petition 3
+petition_title: Tell President Knowles
 petition_copy: "Fridays should be free pizza day. Push legislation today to bring pizza into the lives of all Americans!"
 opt_in: false
 allow_comments: false
-additional_fields:
+additional_fields: 
   - name
   - street_address
-required_fields:
+required_fields: 
   - name
 target_country: US
 petition_slug: "free-pizza-day"
-search_description: "Fridays should be free pizza day. Push legislation today to bring pizza into the lives of all Americans!"
+search_description: null
 default_donation_frequency: "just-once"
 published: true
-search_description: null
 tweet: "Fridays should be free pizza day. Push legislation today to bring pizza into the lives of all Americans!"
 social_title: "Don’t YOU deserve free pizza?"
 social_description: "President Knowles has the ability to push legislation today to bring pizza into the lives of all Americans! Make sure she hears your voice."
-share_image: /img/share/fftf-share.jpg
-share_image_dims: "1400 x 553"
+share_image: "/img/share/fftf-share.jpg"
+share_image_dims: 1400 x 553
 ---
 
-## This column will be rendered as the main portion of the page
-
-Below, I’ve included an image, which can be uploaded with the prose image uploader.
 
 ![Dat pizza action](/img/documentation/sample-image-1.jpg)
 
