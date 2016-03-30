@@ -20,6 +20,8 @@ share_image_dims: 1667 × 833
 published: false
 ---
 
+![Democracy and the TPP](http://www.sbs.com.au/news/sites/sbs.com.au.news/files/styles/body_image/public/gettyimages-508176728.jpg?itok=xwjraOu4&mtime=1454570870)
+
 Tech experts from [every](https://www.stopfasttrack.com/#orgs) major advocacy group working to defend Internet users’ rights vehemently oppose the Trans-Pacific Partnership (TPP) agreement, but a trade association that represents major web companies like Google, Facebook, Twitter, Netflix, and Uber just [endorsed](https://internetassociation.org/033016tpp/) it. 
 
 The TPP was negotiated in complete [secrecy](http://www.theguardian.com/media-network/2015/may/08/trans-pacific-partnership-obama-irony) by government bureaucrats and corporate lobbyists from industries that hate the [Internet](https://www.techdirt.com/articles/20150605/11483831239/revealed-emails-show-how-industry-lobbyists-basically-wrote-tpp.shtml)––including the ones that wrote terrible censorship bills like [SOPA](http://sopastrike.com). It’s great for incumbent corporations, but terrible for individual internet users, startups, and the tech economy as a whole.
