@@ -5,12 +5,12 @@ headline: The TPP is a bad deal for Internet users. But these tech companies jus
 petition_title: "Tell tech companies not to support the TPP:"
 petition_copy: "Don&amp;#x27;t betray your users. The TPP lacks transparency, undermines our basic rights, and harms free speech and innovation. Drop your support now."
 petition_slug: "the-tpp-is-a-bad-deal-for-internet-users-but-these-tech-companies-just-endorsed-it"
-tags: 
+tags:
   - tpp
 opt_in: true
-additional_fields: 
+additional_fields:
   - "null"
-required_fields: 
+required_fields:
   - "null"
 target_country: US
 search_description: null
@@ -47,41 +47,41 @@ If enough of us speak out, we can get these companies to drop their support for 
 
 The following companies are members of the Internet Association, who issued the statement in support of the TPP:
 
-- ![](https://internetassociation.org/wp-content/uploads/2013/06/airbnbnew.png)
-- ![](https://internetassociation.org/wp-content/uploads/2012/09/MemberLogos_220x100_0014_amazon.jpg)
-- ![](https://internetassociation.org/wp-content/uploads/2015/03/coinbase.jpg)
-- ![](https://internetassociation.org/wp-content/uploads/2016/03/DD_web_logo.png)
-- ![](https://internetassociation.org/wp-content/uploads/2015/09/dropbox1.png)
-- ![](https://internetassociation.org/wp-content/uploads/2012/09/ebayMemberLogos_220x100.png)
-- ![](https://internetassociation.org/wp-content/uploads/2014/07/etsy.png)
-- ![](https://internetassociation.org/wp-content/uploads/2013/05/expedia.png)
-- ![](https://internetassociation.org/wp-content/uploads/2013/05/facebook.png)
-- ![](https://internetassociation.org/wp-content/uploads/2015/06/fanduel.png)
-- ![](https://internetassociation.org/wp-content/uploads/2013/05/google.png)
-- ![](https://internetassociation.org/wp-content/uploads/2016/03/groupon.png)
-- ![](https://internetassociation.org/wp-content/uploads/2015/10/handy_logo.png)
-- ![](https://internetassociation.org/wp-content/uploads/2012/09/MemberLogos_220x100_0017_iac.jpg)
-- ![](https://internetassociation.org/wp-content/uploads/2015/05/intuit_small.png)
-- ![](https://internetassociation.org/wp-content/uploads/2012/09/MemberLogos_220x100_0001_linkedin.jpg)
-- ![](https://internetassociation.org/wp-content/uploads/2013/05/lyft.png)
-- ![](https://internetassociation.org/wp-content/uploads/2013/05/monster1.png)
-- ![](https://internetassociation.org/wp-content/uploads/2013/04/netflix.png)
-- ![](https://internetassociation.org/wp-content/uploads/2015/02/Pandora.png)
-- ![](https://internetassociation.org/wp-content/uploads/2013/07/paypal.png)
-- ![](https://internetassociation.org/wp-content/uploads/2015/03/Pinterest.jpg)
-- ![](https://internetassociation.org/wp-content/uploads/2016/03/practicefusion.png)
-- ![](https://internetassociation.org/wp-content/uploads/2012/09/MemberLogos_220x100_0012_rackspace.jpg)
+- ![](/images/petitions/2016/ia-tpp/airbnbnew.png)
+- ![](/images/petitions/2016/ia-tpp/MemberLogos_220x100_0014_amazon.jpg)
+- ![](/images/petitions/2016/ia-tpp/coinbase.jpg)
+- ![](/images/petitions/2016/ia-tpp/DD_web_logo.png)
+- ![](/images/petitions/2016/ia-tpp/dropbox1.png)
+- ![](/images/petitions/2016/ia-tpp/ebayMemberLogos_220x100.png)
+- ![](/images/petitions/2016/ia-tpp/etsy.png)
+- ![](/images/petitions/2016/ia-tpp/expedia.png)
+- ![](/images/petitions/2016/ia-tpp/facebook.png)
+- ![](/images/petitions/2016/ia-tpp/fanduel.png)
+- ![](/images/petitions/2016/ia-tpp/google.png)
+- ![](/images/petitions/2016/ia-tpp/groupon.png)
+- ![](/images/petitions/2016/ia-tpp/handy_logo.png)
+- ![](/images/petitions/2016/ia-tpp/MemberLogos_220x100_0017_iac.jpg)
+- ![](/images/petitions/2016/ia-tpp/intuit_small.png)
+- ![](/images/petitions/2016/ia-tpp/MemberLogos_220x100_0001_linkedin.jpg)
+- ![](/images/petitions/2016/ia-tpp/lyft.png)
+- ![](/images/petitions/2016/ia-tpp/monster1.png)
+- ![](/images/petitions/2016/ia-tpp/netflix.png)
+- ![](/images/petitions/2016/ia-tpp/Pandora.png)
+- ![](/images/petitions/2016/ia-tpp/paypal.png)
+- ![](/images/petitions/2016/ia-tpp/Pinterest.jpg)
+- ![](/images/petitions/2016/ia-tpp/practicefusion.png)
+- ![](/images/petitions/2016/ia-tpp/MemberLogos_220x100_0012_rackspace.jpg)
 - ![](/images/petitions/2016/ia-tpp/reddit_x.png)
-- ![](https://internetassociation.org/wp-content/uploads/2013/04/salesforce.png)
-- ![](https://internetassociation.org/wp-content/uploads/2015/03/Snapchat.jpg)
-- ![](https://internetassociation.org/wp-content/uploads/2016/03/spotify.png)
-- ![](https://internetassociation.org/wp-content/uploads/2016/03/surveymonkey.png)
-- ![](https://internetassociation.org/wp-content/uploads/2016/03/tenx.png)
-- ![](https://internetassociation.org/wp-content/uploads/2016/03/tripadvisor.png)
-- ![](https://internetassociation.org/wp-content/uploads/2014/01/twitter.png)
-- ![](https://internetassociation.org/wp-content/uploads/2016/03/uber.png)
-- ![](https://internetassociation.org/wp-content/uploads/2013/04/MemberLogos_220x100.jpg)
-- ![](https://internetassociation.org/wp-content/uploads/2016/03/yelp.png)
-- ![](https://internetassociation.org/wp-content/uploads/2015/06/zenefits_website.png)
-- ![](https://internetassociation.org/wp-content/uploads/2016/03/zynga.png)
+- ![](/images/petitions/2016/ia-tpp/salesforce.png)
+- ![](/images/petitions/2016/ia-tpp/Snapchat.jpg)
+- ![](/images/petitions/2016/ia-tpp/spotify.png)
+- ![](/images/petitions/2016/ia-tpp/surveymonkey.png)
+- ![](/images/petitions/2016/ia-tpp/tenx.png)
+- ![](/images/petitions/2016/ia-tpp/tripadvisor.png)
+- ![](/images/petitions/2016/ia-tpp/twitter.png)
+- ![](/images/petitions/2016/ia-tpp/uber.png)
+- ![](/images/petitions/2016/ia-tpp/MemberLogos_220x100.jpg)
+- ![](/images/petitions/2016/ia-tpp/yelp.png)
+- ![](/images/petitions/2016/ia-tpp/zenefits_website.png)
+- ![](/images/petitions/2016/ia-tpp/zynga.png)
 {: .logo-cloud }
