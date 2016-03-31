@@ -25,6 +25,7 @@ published: true
 
 
 
+
 ![Democracy and the TPP](/images/petitions/2016/ia-tpp/protest.jpg)
 
 Tech experts from [every](https://www.stopfasttrack.com/#orgs) major advocacy group working to defend Internet users’ rights vehemently oppose the Trans-Pacific Partnership (TPP) agreement, but a trade association that represents major web companies like Google, Facebook, Twitter, Netflix, and Uber just [endorsed](https://internetassociation.org/033016tpp/) it.
