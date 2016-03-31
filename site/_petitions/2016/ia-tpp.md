@@ -30,7 +30,7 @@ Tech experts from [every](https://www.stopfasttrack.com/#orgs) major advocacy gr
 
 The TPP was negotiated in complete [secrecy](http://www.theguardian.com/media-network/2015/may/08/trans-pacific-partnership-obama-irony) by government bureaucrats and corporate lobbyists from industries that hate the [Internet](https://www.techdirt.com/articles/20150605/11483831239/revealed-emails-show-how-industry-lobbyists-basically-wrote-tpp.shtml)––including the ones that wrote terrible censorship bills like [SOPA](http://sopastrike.com). It’s great for incumbent corporations, but terrible for individual internet users, startups, and the tech economy as a whole.
 
-## BREAKING UPDATE: reddit [comes out](http://reddit.com) saying they do not support the TPP, distances themselves from Internet Association statement.
+## BREAKING UPDATE: reddit [comes out](https://twitter.com/reddit/status/715349463628288002) saying they do not support the TPP, distances themselves from Internet Association statement.
 
 The TPP would:
 
