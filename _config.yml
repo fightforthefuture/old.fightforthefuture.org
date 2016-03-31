@@ -69,27 +69,32 @@ prose:
     - 'webfonts'
     - 'robots.txt'
     - 'sitemap.xml'
+    - 'news'
+    - '_posts'
+    - '_blog_posts'
+    - '_posts_full'
+    - 'favicon.ico'
 
   siteurl: 'https://www.fightforthefuture.org'
-  media: 'site/img'
+  media: 'img/action-network'
   metadata:
     'site/_petitions':
       - name: 'layout'
         field:
           element: 'hidden'
-          value: 'action-network-petition'
+          value: 'action-network-petitions'
       - name: 'design'
         field:
           element: 'select'
           label: 'Template'
-          help: 'Choose which template style you want'
+          help: 'Choose which template style you want. You can find samples of each option on the wiki.'
           options:
             - name: 'White Two Column'
               value: 'white-two-column'
-            - name: 'Snowden Header'
-              value: 'snowden-header'
-            - name: 'Obamas Header'
-              value: 'obamas-header'
+            - name: 'Blue One Column'
+              value: 'blue-one-column'
+            - name: 'Blue Two Column'
+              value: 'blue-two-column'
       - name: 'headline'
         field:
           element: 'text'
@@ -118,8 +123,107 @@ prose:
         field:
           element: 'multiselect'
           label: 'Tags'
-          alterable: true
+          alterable: false
           help: 'This is for Action Network tags—make sure to add any tags you wish to be assigned to signers here.'
+          options:
+            - name: 'admin'
+              value: 'admin'
+            - name: 'anti-corporate'
+              value: 'anti-corporate'
+            - name: 'bitcoin'
+              value: 'bitcoin'
+            - name: 'censorship'
+              value: 'censorship'
+            - name: 'civil-rights'
+              value: 'civil-rights'
+            - name: 'clicked'
+              value: 'clicked'
+            - name: 'copyright'
+              value: 'copyright'
+            - name: 'developer'
+              value: 'developer'
+            - name: 'donor'
+              value: 'donor'
+            - name: 'donor-anti-corporate'
+              value: 'donor-anti-corporate'
+            - name: 'donor-censorship'
+              value: 'donor-censorship'
+            - name: 'donor-civil-rights'
+              value: 'donor-civil-rights'
+            - name: 'donor-copyright'
+              value: 'donor-copyright'
+            - name: 'donor-fftf'
+              value: 'donor-fftf'
+            - name: 'donor-government-abuse'
+              value: 'donor-government-abuse'
+            - name: 'donor-high'
+              value: 'donor-high'
+            - name: 'donor-idl'
+              value: 'donor-idl'
+            - name: 'donor-internet-governance'
+              value: 'donor-internet-governance'
+            - name: 'donor-net-neutrality'
+              value: 'donor-net-neutrality'
+            - name: 'donor-recurring'
+              value: 'donor-recurring'
+            - name: 'donor-surveillance'
+              value: 'donor-surveillance'
+            - name: 'donor-tpp'
+              value: 'donor-tpp'
+            - name: 'donor-whistleblowers'
+              value: 'donor-whistleblowers'
+            - name: 'elections'
+              value: 'elections'
+            - name: 'encryption'
+              value: 'encryption'
+            - name: 'fftf'
+              value: 'fftf'
+            - name: 'government-abuse'
+              value: 'government-abuse'
+            - name: 'idl'
+              value: 'idl'
+            - name: 'international'
+              value: 'international'
+            - name: 'internet-governance'
+              value: 'internet-governance'
+            - name: 'irl'
+              value: 'irl'
+            - name: 'jobs'
+              value: 'jobs'
+            - name: 'journalism'
+              value: 'journalism'
+            - name: 'local'
+              value: 'local'
+            - name: 'net-neutrality'
+              value: 'net-neutrality'
+            - name: 'opened'
+              value: 'opened'
+            - name: 'partner'
+              value: 'partner'
+            - name: 'press'
+              value: 'press'
+            - name: 'purpose-clicked-180-days'
+              value: 'purpose-clicked-180-days'
+            - name: 'purpose-clicked-90-days'
+              value: 'purpose-clicked-90-days'
+            - name: 'purpose-eoy-primer-opener'
+              value: 'purpose-eoy-primer-opener'
+            - name: 'purpose-eoy-primer-recipient'
+              value: 'purpose-eoy-primer-recipient'
+            - name: 'purpose-stale'
+              value: 'purpose-stale'
+            - name: 'rr-petition'
+              value: 'rr-petition'
+            - name: 'surveillance'
+              value: 'surveillance'
+            - name: 'tpp'
+              value: 'tpp'
+            - name: 'volunteer'
+              value: 'volunteer'
+            - name: 'websites'
+              value: 'websites'
+            - name: 'whistleblowers'
+              value: 'whistleblowers'
       - name: 'opt_in'
         field:
           element: checkbox
@@ -158,6 +262,8 @@ prose:
           label: 'Default country'
           value: 'US'
           options:
+            - value: US
+              name: 'United States'
             - value: AF
               name: 'Afghanistan'
             - value: AX
@@ -628,8 +734,6 @@ prose:
               name: 'United Arab Emirates'
             - value: GB
               name: 'United Kingdom'
-            - value: US
-              name: 'United States'
             - value: UM
               name: 'United States Minor Outlying Islands'
             - value: UY
@@ -688,25 +792,6 @@ prose:
           label: 'Share image dimensions'
           placeholder: 1200 x 630
           help: 'Use an "x" with a space on either side to denote image dimensions. Facebook recommends a minimum of 1200 x 630.'
-      - name: 'default_donation_amount'
-        field:
-          element: 'number'
-          label: 'Default donation amount'
-          help: 'Dollar amount in the top right corner donation link. If you change this, be sure to test it—the sky is *not* the limit thanks to limitations of Stripe’s subscription model.'
-          value: '5'
-      - name: 'default_donation_frequency'
-        field:
-          element: 'select'
-          label: 'Default donation frequency'
-          help: 'Donation frequency for donation link'
-          options:
-            - name: Once
-              value: 'just-once'
-            - name: Monthly
-              value: monthly
-            - name: Annual
-              value: annual
-          value: 'just-once'
 
 #############
 # Compiling #

@@ -1,6 +1,6 @@
 ## Our Projects                                                      {#projects}
 
-{% for project in site.data.homepage.fftf %}{% if forloop.index0 < 15 %}
+{% for project in site.data.homepage.fftf %}
   ![{{ project.title }}]({{ project.image }})
   : ### [{{ project.title }}]({{ project.url }})
 
@@ -8,6 +8,7 @@
   {% if project.fire %}{:.fire}{% endif %}
 
   ---
+{% if forloop.index == include.limit  %}{% break %}
 {% endif %}{% endfor %}
 
 ![Other Links](/img/projects/ol.png)
