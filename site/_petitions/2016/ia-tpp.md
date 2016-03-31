@@ -25,11 +25,11 @@ published: true
 
 ![Democracy and the TPP](http://www.sbs.com.au/news/sites/sbs.com.au.news/files/styles/body_image/public/gettyimages-508176728.jpg?itok=xwjraOu4&mtime=1454570870)
 
-## BREAKING UPDATE: reddit [comes out](http://reddit.com) saying they do not support the TPP, distances themselves from Internet Association statement.
-
 Tech experts from [every](https://www.stopfasttrack.com/#orgs) major advocacy group working to defend Internet users’ rights vehemently oppose the Trans-Pacific Partnership (TPP) agreement, but a trade association that represents major web companies like Google, Facebook, Twitter, Netflix, and Uber just [endorsed](https://internetassociation.org/033016tpp/) it.
 
 The TPP was negotiated in complete [secrecy](http://www.theguardian.com/media-network/2015/may/08/trans-pacific-partnership-obama-irony) by government bureaucrats and corporate lobbyists from industries that hate the [Internet](https://www.techdirt.com/articles/20150605/11483831239/revealed-emails-show-how-industry-lobbyists-basically-wrote-tpp.shtml)––including the ones that wrote terrible censorship bills like [SOPA](http://sopastrike.com). It’s great for incumbent corporations, but terrible for individual internet users, startups, and the tech economy as a whole.
+
+## BREAKING UPDATE: reddit [comes out](http://reddit.com) saying they do not support the TPP, distances themselves from Internet Association statement.
 
 The TPP would:
 
@@ -43,6 +43,8 @@ There are powerful interests pushing to get the TPP passed through U.S. Congress
 Congress could vote on the TPP within a matter of weeks, and they’ll be watching closely how the public reacts to these companies’ statement.
 
 If enough of us speak out, we can get these companies to drop their support for this dangerous agreement, and stand up for the rights of their users and the future of the Internet we all love. **Please sign the petition and share this widely right now.**
+
+The following companies are members of the Internet Association, who issued the statement in support of the TPP:
 
 - ![](https://internetassociation.org/wp-content/uploads/2013/06/airbnbnew.png)
 - ![](https://internetassociation.org/wp-content/uploads/2012/09/MemberLogos_220x100_0014_amazon.jpg)
@@ -68,7 +70,7 @@ If enough of us speak out, we can get these companies to drop their support for 
 - ![](https://internetassociation.org/wp-content/uploads/2015/03/Pinterest.jpg)
 - ![](https://internetassociation.org/wp-content/uploads/2016/03/practicefusion.png)
 - ![](https://internetassociation.org/wp-content/uploads/2012/09/MemberLogos_220x100_0012_rackspace.jpg)
-- ![](https://internetassociation.org/wp-content/uploads/2013/07/reddit.png)
+- ![](/site/img/petitions/reddit_x.png)
 - ![](https://internetassociation.org/wp-content/uploads/2013/04/salesforce.png)
 - ![](https://internetassociation.org/wp-content/uploads/2015/03/Snapchat.jpg)
 - ![](https://internetassociation.org/wp-content/uploads/2016/03/spotify.png)
