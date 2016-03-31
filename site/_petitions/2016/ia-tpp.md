@@ -5,12 +5,12 @@ headline: The TPP is a bad deal for Internet users. But these tech companies jus
 petition_title: The TPP is a bad deal for Internet users. But these tech companies just endorsed it.
 petition_copy: "Don&#x27;t betray your users. The TPP lacks transparency, undermines our basic rights, and harms free speech and innovation. Drop your support now."
 petition_slug: "the-tpp-is-a-bad-deal-for-internet-users-but-these-tech-companies-just-endorsed-it"
-tags: 
+tags:
   - tpp
 opt_in: true
-additional_fields: 
+additional_fields:
   - "null"
-required_fields: 
+required_fields:
   - "null"
 target_country: US
 search_description: null
@@ -70,7 +70,7 @@ The following companies are members of the Internet Association, who issued the 
 - ![](https://internetassociation.org/wp-content/uploads/2015/03/Pinterest.jpg)
 - ![](https://internetassociation.org/wp-content/uploads/2016/03/practicefusion.png)
 - ![](https://internetassociation.org/wp-content/uploads/2012/09/MemberLogos_220x100_0012_rackspace.jpg)
-- ![](/site/img/petitions/reddit_x.png)
+- ![](/images/petitions/2016/ia-tpp/reddit_x.png)
 - ![](https://internetassociation.org/wp-content/uploads/2013/04/salesforce.png)
 - ![](https://internetassociation.org/wp-content/uploads/2015/03/Snapchat.jpg)
 - ![](https://internetassociation.org/wp-content/uploads/2016/03/spotify.png)
