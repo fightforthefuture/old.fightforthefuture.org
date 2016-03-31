@@ -3,14 +3,14 @@ layout: "action-network-petitions"
 design: "white-two-column"
 headline: The TPP is a bad deal for Internet users. But these tech companies just endorsed it.
 petition_title: "Tell tech companies not to support the TPP:"
-petition_copy: "Don&amp;#x27;t betray your users. The TPP lacks transparency, undermines our basic rights, and harms free speech and innovation. Drop your support now."
+petition_copy: "Don't betray your users. The TPP lacks transparency, undermines our basic rights, and harms free speech and innovation. Drop your support now."
 petition_slug: "the-tpp-is-a-bad-deal-for-internet-users-but-these-tech-companies-just-endorsed-it"
-tags:
+tags: 
   - tpp
 opt_in: true
-additional_fields:
+additional_fields: 
   - "null"
-required_fields:
+required_fields: 
   - "null"
 target_country: US
 search_description: null
@@ -21,6 +21,7 @@ share_image: /img/breaking google facebook etc.png
 share_image_dims: 1667 × 833
 published: true
 ---
+
 
 
 
