@@ -3,13 +3,15 @@ layout: "action-network-petitions"
 design: "white-two-column"
 headline: The TPP is a bad deal for Internet users. But these tech companies just endorsed it.
 petition_title: The TPP is a bad deal for Internet users. But these tech companies just endorsed it.
-petition_copy: "Don't betray your users. The TPP lacks transparency, undermines our basic rights, and harms free speech and innovation. Drop your support now."
+petition_copy: "Don&#x27;t betray your users. The TPP lacks transparency, undermines our basic rights, and harms free speech and innovation. Drop your support now."
 petition_slug: "the-tpp-is-a-bad-deal-for-internet-users-but-these-tech-companies-just-endorsed-it"
-tags:
+tags: 
   - tpp
 opt_in: true
-additional_fields: null
-required_fields: null
+additional_fields: 
+  - "null"
+required_fields: 
+  - "null"
 target_country: US
 search_description: null
 tweet: null
@@ -17,10 +19,13 @@ social_title: Big Internet companies like Google and Facebook just sold you out.
 social_description: Global Internet censorship could be right around the corner.
 share_image: /img/breaking google facebook etc.png
 share_image_dims: 1667 × 833
-published: false
+published: true
 ---
 
+
 ![Democracy and the TPP](http://www.sbs.com.au/news/sites/sbs.com.au.news/files/styles/body_image/public/gettyimages-508176728.jpg?itok=xwjraOu4&mtime=1454570870)
+
+## BREAKING UPDATE: reddit [comes out](http://reddit.com) saying they do not support the TPP, distances themselves from Internet Association statement.
 
 Tech experts from [every](https://www.stopfasttrack.com/#orgs) major advocacy group working to defend Internet users’ rights vehemently oppose the Trans-Pacific Partnership (TPP) agreement, but a trade association that represents major web companies like Google, Facebook, Twitter, Netflix, and Uber just [endorsed](https://internetassociation.org/033016tpp/) it.
 
