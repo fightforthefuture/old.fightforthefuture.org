@@ -161,7 +161,7 @@
 }
 
 .footer-meta-links {
-  background-color: @blue-850;
+  background-color: @blue-950;
   color: @blue-800;
   font-variant: small-caps;
   font-weight: bold;
@@ -171,6 +171,11 @@
   @media screen and (min-width: @large-phone) {
     align-items: stretch;
     display: flex;
+    justify-content: center;
+  }
+
+  @media screen and (min-width: @large-tablet) {
+    padding-bottom: 5rem;
   }
 
   .cta {
@@ -178,32 +183,53 @@
   }
 }
 
+.an-footer-meta {
+  background-color: @blue-925;
+  padding: 3.5rem;
+
+  @media screen and (min-width: @large-phone) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35rem;
+    min-width: 28rem;
+  }
+
+  p {
+    margin-bottom: 5px;
+  }
+}
+
 .an-footer-logo {
-  background: url('/img/brand/512X66_large_white_color.png') no-repeat center center @blue-850;
-  background-size: 95% auto;
+  background: url('/img/brand/512X66_large_white_color.png') no-repeat center center;
+  background-size: 21rem auto;
   border: 0;
   color: transparent;
   display: block;
   font: 0/0 a;
-  height: 6.6rem;
-  margin: 0 auto;
-  max-width: 512px;
-  width: 90%;
-  @media screen and (min-width: @large-phone) {
-    height: auto;
-  }
+  height: 2.7rem;
 }
 
 .an-footer-info {
   background-color: @blue-700;
   color: @blue-200;
-  padding: 1.5rem;
+  font-size: 1.4rem;
+  padding: 2.5rem 2.5rem 1rem;
+
+  @media screen and (min-width: @small-phone) {
+    font-size: 1.6rem;
+  }
+
+  @media screen and (min-width: @large-phone) {
+    width: 70rem;
+  }
 
   a {
     color: @white;
     opacity: 0.8;
     text-decoration: none;
     transition: opacity 150ms;
+
     &:hover, &:active {
       opacity: 1;
     }
@@ -211,7 +237,7 @@
 }
 
 .action-network-footer-dark() {
-  background-color: @blue-900;
+  background-color: @blue-901;
   padding: 2rem;
 
   .footer-meta-links {
@@ -241,12 +267,8 @@
   }
 
   .an-footer-info {
-    background-color: desaturate(lighten(@blue-900, 7%), 3%);
-    font-size: 1.3rem;
-
-    @media screen and (min-width: @small-phone) {
-      font-size: 1.6rem;
-    }
+    background-color: @blue-875;
+    color: fade(@white, 35%);
   }
 }
 
