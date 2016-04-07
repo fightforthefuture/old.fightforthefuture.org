@@ -101,12 +101,12 @@ prose:
           element: 'text'
           label: 'Page headline'
           placeholder: 'President Obama is withholding free pizza. Put a stop to it now.'
-      - name: 'petition_title'
+      - name: 'action_network_title'
         field:
           element: 'text'
-          label: 'Petition title'
+          label: 'Petition title in Action Network (important—this must be copied exactly)'
           placeholder: 'Tell President Obama:'
-          help: 'The petition title in Action Network (important—this must be copied exactly)'
+          label: 'Make sure to check the demo pages to get an idea how this will render.'
       - name: 'petition_copy'
         field:
           element: 'textarea'
