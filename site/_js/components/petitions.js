@@ -40,7 +40,8 @@ window.components.petitions = function (doc, win) {
       value = 0,
       progressbar = doc.getElementById('signatures-progress-bar'),
       max = parseInt(targetGoal),
-      step = (guardedTargetVal / 1500) * 30; // 1500 ms total, 30ms minimum interval
+      step = (guardedTargetVal / 1500) * 30; // 1500 ms total, 30ms minimum
+                                             // interval
 
     function loading() {
       value += step;
@@ -284,6 +285,36 @@ window.components.petitions = function (doc, win) {
     signatureSubmission.send(compilePayload());
   }
 
+  function slideInStickyBar() {
+    /**
+     * Does what it says on the tin.
+     * */
+    doc.querySelector('.stickybar').style.top = '0';
+  }
+
+  function slideOutStickyBar() {
+    /**
+     * Does what it says on the tin.
+     * */
+    doc.querySelector('.stickybar').style.top = '-5rem';
+  }
+
+  function manageStickyBar() {
+    /**
+     * Checks where the page is scrolled to, decides whether or not to slide the
+     * StickyBar back in.
+     * */
+    var
+      petitionBox = doc.querySelector('.petition-box'),
+      petitionBottom = petitionBox.offsetTop + petitionBox.clientHeight;
+
+    if (petitionBottom < win.scrollY) {
+      slideInStickyBar();
+    } else {
+      slideOutStickyBar();
+    }
+  }
+
   function addEventListeners() {
     /**
      * Attaches all the listeners all the places
@@ -291,6 +322,9 @@ window.components.petitions = function (doc, win) {
     countryLabel.addEventListener('click', toggleCountryField);
     countrySelect.addEventListener('change', updateZIPPlaceholder);
     petitionSignatureForm.addEventListener('submit', submitForm);
+    win.addEventListener('load', manageStickyBar);
+    win.addEventListener('scroll', manageStickyBar);
+    win.addEventListener('resize', manageStickyBar);
   }
 
   function init() {
