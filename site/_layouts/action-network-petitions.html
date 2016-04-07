@@ -86,7 +86,7 @@ class: clean-edge petition
       {% endif %}
 
       <label for="select-country">
-        Not in {{ site.data.countries[page.target_country] }}?
+        Not in {% if site.data.countries[page.target_country] == "United States" %}the {% endif %}{{ site.data.countries[page.target_country] }}?
       </label>
 
       <select id="select-country">

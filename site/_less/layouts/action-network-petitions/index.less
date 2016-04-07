@@ -105,38 +105,40 @@
     text-transform: uppercase;
     transition: background-color 300ms, bottom 100ms;
     width: 100%;
+
     &:focus {
       outline: 0;
     }
+
     &:hover {
       background-color: darken(@red-100, 10%);
     }
+
     &:active {
     }
   }
+
   [for="opt-in"], [for="select-country"] {
     cursor: pointer;
     height: auto;
-    margin: 1rem auto 0.5rem;
     text-align: center;
   }
 
   [for="opt-in"] {
-    font-weight: 300;
-    a {
-      color: fade(@white, 90%);
-      &:hover, &:active, &:focus {
-        color: @white;
-      }
-    }
+    background-color: white;
+    color: @blue-800;
+    padding: 1rem 5px;
   }
 
   [for="select-country"] {
-    font-style: italic;
-    text-align: center;
+    font-size: 9px;
+    margin: 1rem 0;
+    text-align: right;
+
     &:hover, &:active, &:focus {
       text-decoration: underline;
     }
+
     &.hidden {
       height: 0;
       margin: 0;
