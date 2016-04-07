@@ -11,9 +11,12 @@
     .sticky-bar-dark();
   }
 
+  h1 {
+    font-size: 3.4rem;
+  }
+
   .hero& {
-    background-color: @blue-900;
-    background-image: url('/img/action-network/snowden-header.jpg');
+    background-color: @blue-901;
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: auto 115%;
@@ -43,9 +46,19 @@
     @media screen and (min-width: @small-phone) {
       margin-top: -18.5rem;
     }
+
     @media screen and (min-width: @large-phone) {
       margin: -10.5rem auto 2rem;
       min-width: 60rem;
+    }
+
+    @media screen and (min-width: @small-tablet) {
+      max-width: 75rem;
+      padding: 3rem 3rem 0;
+    }
+
+    @media screen and (min-width: @small-laptop) {
+      max-width: 90rem;
     }
   }
 
@@ -53,6 +66,10 @@
     order: 20;
     h2 {
       .visually-hidden;
+    }
+
+    p {
+      font-size: 1.9rem;
     }
   }
 
@@ -75,13 +92,14 @@
     @media screen and (min-width: @large-phone) {
       font-weight: 600;
       margin-bottom: 0.5rem;
-      padding: 0.4rem 0;
       width: 35%;
     }
   }
 
   [for="select-country"] {
+    margin: 0 1rem 1rem 0;
     order: 40;
+    width: 100%;
   }
 
   select {
@@ -97,6 +115,12 @@
     padding: 1.5rem 1rem;
     position: relative;
     width: ~'calc(100% + 3rem)';
+
+    @media screen and (min-width: @small-tablet) {
+      left: -3rem;
+      width: ~'calc(100% + 6rem)';
+    }
+
     a {
       &:link, &:visited, &:hover, &:active, &:focus {
         color: @black;
@@ -113,53 +137,70 @@
   .petition-form {
     margin-bottom: 1.5rem;
     order: 20;
+
+    @media screen and (min-width: @small-tablet) {
+      margin-bottom: 3rem;
+    }
+
     @media screen and (min-width: @large-phone) {
       display: flex;
       flex-wrap: wrap;
-      .length-1 {
-        &[type="text"],
-        &[type="email"] {
-          margin: 0 1%;
-          width: 31%;
-        }
-      }
+    }
+  }
 
-      .length-2 {
-        &[type="text"],
-        &[type="email"] {
-          margin: 0 1% 1rem;
-          width: 48%;
-        }
-      }
+  .length-1, .length-2, .length-3 {
+    &[type="submit"] {
+      margin: 0 auto;
+      order: 50;
+      width: 98%;
+    }
+  }
 
-      .length-3 {
-        &[type="text"],
-        &[type="email"] {
-          margin: 0 1% 1rem;
-          width: 48%;
-        }
-        &.name, &.email {
-        }
-        &.address {
-          width: 100%;
-        }
-        &.city {
-          width: 65%;
-        }
-        &.zip {
-          width: 31%;
-        }
+  .length-1 {
+    @media screen and (min-width: @large-phone) {
+      &[type="text"],
+      &[type="email"] {
+        margin: 0 1%;
+        width: 31%;
       }
     }
 
-    .length-1, .length-2, .length-3 {
-      &[type="submit"] {
-        margin: 0 auto;
-        order: 50;
-        width: 98%;
+    @media screen and (min-width: @small-laptop) {
+
+    }
+  }
+
+  .length-2 {
+    @media screen and (min-width: @large-phone) {
+      &[type="text"],
+      &[type="email"] {
+        margin: 0 1% 1rem;
+        width: 48%;
       }
-      &[for="select-country"] {
-        margin-bottom: 1rem;
+    }
+  }
+
+  .length-3 {
+    @media screen and (min-width: @large-phone) {
+      &[type="text"],
+      &[type="email"] {
+        margin: 0 1% 1rem;
+        width: 48%;
+      }
+
+      &.name, &.email {
+      }
+
+      &.address {
+        width: 100%;
+      }
+
+      &.city {
+        width: 65%;
+      }
+
+      &.zip {
+        width: 31%;
       }
     }
   }
@@ -218,7 +259,7 @@
   main& {
     h2 {
       color: @blue-800;
-      font-size: 4rem;
+      font-size: 2.6rem;
       text-align: center;
       text-transform: uppercase;
       &::after {
