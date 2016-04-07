@@ -27,9 +27,7 @@
     max-width: @large-tablet;
     padding: 0 1rem;
     text-align: center;
-    @media screen and (min-width: @large-phone) {
-      margin: 3rem auto;
-    }
+    text-transform: uppercase;
   }
 
   h2 {
@@ -105,7 +103,7 @@
     cursor: pointer;
     font-family: @body-font;
     font-size: 2.4rem;
-    font-weight: 900;
+    font-weight: 400;
     letter-spacing: 1px;
     padding: 1.4rem 0;
     text-transform: uppercase;
@@ -163,6 +161,12 @@
   .petition-info {
     overflow: hidden;
     padding: 0 1rem;
+  }
+}
+
+.action-network-footer{
+  .an-footer-cta {
+    display: none;
   }
 }
 
@@ -245,6 +249,10 @@
 .action-network-footer-dark() {
   background-color: @blue-901;
   padding: 2rem;
+
+  .an-footer-cta {
+    display: block;
+  }
 
   .footer-meta-links {
     margin: 0 auto;

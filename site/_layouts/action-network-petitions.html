@@ -36,6 +36,7 @@ class: clean-edge petition
 
 <header class="hero {{ page.design }}">
   <h1>{{ page.headline }}</h1>
+  {% if page.design == 'blue-two-column' %}<h2 id="petition-title">{{ page.petition_title }}</h2>{% endif %}
 </header>
 
 {% if page.additional_fields contains 'null' %}{% assign fields_class = 'length-0' %}{% else %}
@@ -43,7 +44,7 @@ class: clean-edge petition
 <main class="{{ page.design }}">
   <section class="petition-box">
     <article class="petition-text">
-      <h2 id="petition-title">{{ page.petition_title }}</h2>
+      {% unless page.design == 'blue-two-column' %}<h2 id="petition-title">{{ page.petition_title }}</h2>{% endunless %}
       <blockquote>
         {{ page.petition_copy | markdownify }}
       </blockquote>
