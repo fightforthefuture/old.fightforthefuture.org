@@ -56,7 +56,7 @@ module.exports = function (grunt) {
       },
       server: {
         options: {
-          config: '_config.yml'
+          incremental: true
         }
       },
       check: {
