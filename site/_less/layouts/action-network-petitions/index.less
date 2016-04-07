@@ -21,10 +21,13 @@
   }
 
   h1 {
-    margin: 0 auto;
+    margin: 3rem auto;
     max-width: @large-tablet;
     padding: 0 1rem;
     text-align: center;
+    @media screen and (min-width: @large-phone) {
+      margin: 3rem auto;
+    }
   }
 
   p {
@@ -40,11 +43,11 @@
 
     &.logo-cloud {
       list-style-type: none;
-    }
 
-    li {
-      margin-left: 20px;
-      margin-bottom: 1em;
+      li {
+        height: 100%;
+        margin-left: 2rem;
+      }
     }
   }
 

@@ -16,7 +16,7 @@
   display: block;
   font: 0/0 transparent;
   height: 4rem;
-  margin: 0.5rem;
+  margin: 0.5rem 0.5rem 0.5rem 2rem;
   width: 23rem;
 }
 
@@ -35,7 +35,7 @@
   a {
     background-color: transparent;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center 2px;
     display: block;
     font: 0/0 transparent;
     height: 3rem;
@@ -45,19 +45,18 @@
       padding: 0 3rem;
     }
   }
-}
 
-.stickybar-facebook-share {
-  background-image: url('/img/share/little-fb-f.png');
-  background-position: 0.1rem 0.1rem;
-  background-size: 2.5rem auto;
-  border-right: 0.1rem solid #eaeef7;
-}
+  .stickybar-facebook-share {
+    background-image: url('/img/share/little-fb-f.png');
+    background-size: 2.5rem auto;
+    border-right: 0.1rem solid #eaeef7;
+  }
 
-.stickybar-twitter-share {
-  background-image: url('/img/share/little-tw-t.png');
-  background-position-y: center;
-  background-size: 3rem auto;
+  .stickybar-twitter-share {
+    background-image: url('/img/share/little-tw-t.png');
+    background-position: center 2px;
+    background-size: 3rem auto;
+  }
 }
 
 .stickybar-donate {
@@ -80,14 +79,14 @@
   a {
     display: block;
     font-weight: bold;
-    line-height: 0;
-    padding: 2.5rem;
+    padding: 0 1.3rem;
     transition: top 100ms;
     text-transform: uppercase;
+    white-space: nowrap;
 
 
     @media screen and (min-width: @large-phone) {
-      padding: 2.5rem 4rem;
+      padding: 0 4rem;
     }
 
     &:link, &:visited, &:hover, &:active, &:focus {
@@ -107,7 +106,10 @@
 
 .hover-heart {
   display: inline-block;
+  font-size: 2.6rem;
   margin-right: 0.3rem;
+  position: relative;
+  top: 2px;
 }
 
 .sticky-bar-dark() {
