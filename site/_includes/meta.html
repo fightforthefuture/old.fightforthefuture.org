@@ -57,4 +57,13 @@
 
 <link rel="icon" type="image/png" href="{{ site.url }}{{ site.favicon }}"/>
 
-<link rel="stylesheet" type="text/css" href="/css/core.css">
+{% capture stylesheet %}
+  {% if page.stylesheet_name %}
+    {{ page.stylesheet_name }}
+  {% elsif layout.stylesheet_name %}
+    {{ layout.stylesheet_name }}
+  {% else %}
+    core
+  {% endif %}
+{% endcapture %}
+<link rel="stylesheet" type="text/css" href="/css/{{ stylesheet | strip_newlines | remove: ' ' }}.css">

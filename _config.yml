@@ -35,6 +35,7 @@ defaults:
       path: ''
     values:
       layout: 'default'
+      stylesheet_name: core
 
 collections:
   legacy_pages:
