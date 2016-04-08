@@ -56,7 +56,7 @@
       <progress id="signatures-progress-bar" value="0" max="25"></progress>
     </figure>
 
-    <form id="petition-form" class="petition-form" accept-charset="UTF-8" action="https://actionnetwork.org/petitions/{% if page.petition_slug != '' %}{{ page.petition_slug }}{% else %}{{ page.action_network_title | slugify }}{% endif %}/signatures" method="post" data-host="{{ site.petitions_api }}">
+    <form id="petition-form" class="petition-form" accept-charset="UTF-8" action="https://actionnetwork.org/petitions/{% if page.action_network_petition_slug != '' %}{{ page.action_network_petition_slug }}{% else %}{{ page.action_network_title | slugify }}{% endif %}/signatures" method="post" data-host="{{ site.petitions_api }}">
       {% if page.additional_fields contains 'name' %}
       <label class="visually-hidden" for="form-first_name">Name{% unless page.required_fields contains 'name' %} (optional){% endunless %}:</label>
       <input type="text" id="form-first_name" class="name {{ fields_class }}" name="signature[first_name]" placeholder="Name{% unless page.required_fields contains 'name' %} (optional){% endunless %}" {% if page.required_fields contains 'name' %} required{% endif %}/>

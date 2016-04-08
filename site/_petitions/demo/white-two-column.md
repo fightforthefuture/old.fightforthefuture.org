@@ -15,7 +15,7 @@ additional_fields:
 required_fields:
   - name
 target_country: US
-petition_slug: "free-pizza-day"
+action_network_petition_slug: "free-pizza-day"
 search_description: null
 default_donation_frequency: "just-once"
 published: true

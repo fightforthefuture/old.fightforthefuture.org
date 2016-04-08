@@ -4,7 +4,7 @@ design: "white-two-column"
 headline: The TPP is a bad deal for Internet users. But these tech companies just endorsed it.
 action_network_title: "Tell tech companies not to support the TPP:"
 petition_copy: "Do not betray your users. The TPP lacks transparency, undermines our basic rights, and harms free speech and innovation. Drop your support now."
-petition_slug: "the-tpp-is-a-bad-deal-for-internet-users-but-these-tech-companies-just-endorsed-it"
+action_network_petition_slug: "the-tpp-is-a-bad-deal-for-internet-users-but-these-tech-companies-just-endorsed-it"
 tags:
   - tpp
 opt_in: true

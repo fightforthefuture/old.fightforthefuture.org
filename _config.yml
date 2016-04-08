@@ -96,36 +96,25 @@ prose:
               value: 'blue-one-column'
             - name: 'Blue Two Column'
               value: 'blue-two-column'
-      - name: 'headline'
-        field:
-          element: 'text'
-          label: 'Page headline'
-          placeholder: 'President Obama is withholding free pizza. Put a stop to it now.'
       - name: 'action_network_title'
         field:
           element: 'text'
-          label: 'Petition title in Action Network (important—this must be copied exactly)'
+          label: 'Petition title'
           placeholder: 'Tell President Obama:'
-          label: 'Make sure to check the demo pages to get an idea how this will render.'
-      - name: 'petition_copy'
-        field:
-          element: 'textarea'
-          label: 'Petition copy'
-          placeholder: 'Fridays should be free pizza day. Push legislation today to bring pizza into the lives of all Americans!'
-          help: 'Accepts markdown formatted text'
-      - name: 'petition_slug'
+          help: '**Copy from Action Network** Make sure to check the demo pages to get an idea how this will render.'
+      - name: 'action_network_petition_slug'
         field:
           element: 'text'
-          label: 'Petition slug'
-          help: '(Optional) Provides a fallback enabling form submission just in case the scripts fail to load properly.'
+          label: 'Action Network Slug'
+          help: '**Copy from Action Network** looks like the title with hyphens.'
           placeholder: 'free-pizza-day'
           value: ''
       - name: 'tags'
         field:
           element: 'multiselect'
-          label: 'Tags'
+          label: 'Action Network Tags'
           alterable: false
-          help: 'This is for Action Network tags—make sure to add any tags you wish to be assigned to signers here.'
+          help: '**Copy from Action Network** Any tags you wish to be assigned to signers.'
           options:
             - name: 'admin'
               value: 'admin'
@@ -225,6 +214,17 @@ prose:
               value: 'websites'
             - name: 'whistleblowers'
               value: 'whistleblowers'
+      - name: 'headline'
+        field:
+          element: 'text'
+          label: 'Page headline'
+          placeholder: 'President Obama is withholding free pizza. Put a stop to it now.'
+      - name: 'petition_copy'
+        field:
+          element: 'textarea'
+          label: 'Petition copy'
+          placeholder: 'Fridays should be free pizza day. Push legislation today to bring pizza into the lives of all Americans!'
+          help: 'Accepts markdown formatted text'
       - name: 'opt_in'
         field:
           element: checkbox
