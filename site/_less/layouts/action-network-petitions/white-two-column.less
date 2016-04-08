@@ -114,7 +114,7 @@
   .petition-form {
     background-color: fade(@black, 25%);
     opacity: 1;
-    padding: 2rem 1.5rem 0;
+    padding: 2rem 1.5rem 5.2rem;
     position: relative;
     transition: opacity 250ms, visibility 0ms 300ms;
     visibility: visible;
@@ -126,9 +126,11 @@
   }
 
   [type="submit"] {
-    left: -1.5rem;
-    position: relative;
-    width: ~'calc(100% + 30px)';
+    height: 5.2rem;
+    left: 0;
+    line-height: 0;
+    position: absolute;
+    right: 0;
 
     &:active {
       bottom: -1px;
