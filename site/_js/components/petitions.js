@@ -18,6 +18,11 @@ window.components.petitions = function (doc, win) {
     countrySelect = doc.getElementById('select-country'),
     countryLabel = doc.querySelector('[for="select-country"]');
 
+  var
+    petitionBox = doc.querySelector('.petition-box'),
+    petitionBottom = petitionBox.offsetTop + petitionBox.clientHeight;
+
+
   function numberCommafier(number) {
     /**
      * Returns a string representing a number with commas
@@ -304,15 +309,18 @@ window.components.petitions = function (doc, win) {
      * Checks where the page is scrolled to, decides whether or not to slide the
      * StickyBar back in.
      * */
-    var
-      petitionBox = doc.querySelector('.petition-box'),
-      petitionBottom = petitionBox.offsetTop + petitionBox.clientHeight;
 
     if (petitionBottom < win.scrollY) {
       slideInStickyBar();
     } else {
       slideOutStickyBar();
     }
+  }
+
+  function scrollToForm(e) {
+    e.preventDefault();
+
+    win.smoothScroll(petitionBox);
   }
 
   function addEventListeners() {
@@ -325,6 +333,7 @@ window.components.petitions = function (doc, win) {
     win.addEventListener('load', manageStickyBar);
     win.addEventListener('scroll', manageStickyBar);
     win.addEventListener('resize', manageStickyBar);
+    doc.querySelector('.stickybar-take-action').addEventListener('click', scrollToForm);
   }
 
   function init() {

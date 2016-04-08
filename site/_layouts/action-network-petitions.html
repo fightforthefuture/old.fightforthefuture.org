@@ -16,6 +16,9 @@ class: clean-edge petition
   <span class="stickybar-fftf-logo">
     Fight for the Future
   </span>
+  <a class="stickybar-take-action" href="#petition-box">
+    Take action
+  </a>
   <ul class="stickybar-share-donate">
     <li class="stickybar-share-links">
       <a href="https://facebook.com/sharer.php?u={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}" class="stickybar-facebook-share">
@@ -42,7 +45,7 @@ class: clean-edge petition
 {% if page.additional_fields contains 'null' %}{% assign fields_class = 'length-0' %}{% else %}
 {% capture fields_class %}length-{{ page.additional_fields | size }}{% endcapture %}{% endif %}
 <main class="{{ page.design }}">
-  <section class="petition-box">
+  <section class="petition-box" id="petition-box">
     <article class="petition-text">
       {% unless page.design == 'blue-two-column' %}<h2 id="petition-title">{{ page.petition_title }}</h2>{% endunless %}
       <blockquote>

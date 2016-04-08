@@ -14,18 +14,74 @@
 .stickybar-fftf-logo {
   background: url('/img/brand/512X66_large_black_color.png') no-repeat center center;
   background-size: contain;
-  display: block;
+  display: none;
   font: 0/0 transparent;
   height: 4rem;
   margin: 0.5rem 0.5rem 0.5rem 2rem;
   width: 23rem;
+
+  @media screen and (min-width: @large-tablet) {
+    display: block;
+  }
+}
+
+.stickybar-take-action {
+  background-color: @red-100;
+  border-bottom: darken(@red-100, 25%) solid 2px;
+  color: @white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  font-variant: small-caps;
+  font-weight: 100;
+  justify-content: center;
+  letter-spacing: 2px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: top 150ms;
+  width: 100%;
+
+  @media screen and (min-width: @large-phone) {
+    width: 50%;
+  }
+
+  @media screen and (min-width: @large-tablet) {
+    margin-left: auto;
+    max-width: 26rem;
+    width: 33%;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:hover, &:active {
+    background-color: darken(@red-100, 10%);
+  }
+
+  &:hover {
+    border-bottom-width: 1px;
+  }
+
+  &:active {
+    border-bottom: none;
+    border-top: darken(@red-100, 25%) solid 1px;
+    top: 2px;
+  }
 }
 
 .stickybar-share-donate {
-  display: flex;
-  overflow: hidden;
+  display: none;
   height: 5rem;
   min-width: 8rem;
+  overflow: hidden;
+
+  @media screen and (min-width: @small-phone) {
+    display: flex;
+  }
 }
 
 .stickybar-share-links {
@@ -65,7 +121,7 @@
   display: none;
   transition: background-color 200ms, color 200ms;
 
-  @media screen and (min-width: @small-phone) {
+  @media screen and (min-width: @large-phone) {
     display: block;
   }
 
