@@ -57,13 +57,10 @@
 
 <link rel="icon" type="image/png" href="{{ site.url }}{{ site.favicon }}"/>
 
-{% capture stylesheet %}
-  {% if page.stylesheet_name %}
-    {{ page.stylesheet_name }}
-  {% elsif layout.stylesheet_name %}
-    {{ layout.stylesheet_name }}
-  {% else %}
-    core
-  {% endif %}
-{% endcapture %}
-<link rel="stylesheet" type="text/css" href="/css/{{ stylesheet | strip_newlines | remove: ' ' }}.css">
+{% if include.stylesheet_name %}
+<link rel="stylesheet" type="text/css" href="/css/{{ include.stylesheet_name }}.css">
+{% endif %}
+
+{% unless include.omit_core %}
+<link rel="stylesheet" type="text/css" href="/css/core.css">
+{% endunless %}
