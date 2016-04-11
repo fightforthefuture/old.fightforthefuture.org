@@ -212,6 +212,7 @@ module.exports = function (grunt) {
         files: [
           {
             src: [
+              'node_modules/smoothscroll/smoothscroll.min.js',
               '<%= site.app %>/_js/models/**/*.js',
               '<%= site.app %>/_js/views/**/*.js',
               '<%= site.app %>/_js/controllers/**/*.js',
