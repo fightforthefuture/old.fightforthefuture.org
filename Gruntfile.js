@@ -56,7 +56,7 @@ module.exports = function (grunt) {
       },
       server: {
         options: {
-          config: '_config.yml'
+          incremental: true
         }
       },
       check: {
@@ -240,7 +240,6 @@ module.exports = function (grunt) {
     concurrent: {
       build: [
         'copy',
-        'execute:sync_tumblr',
         'less:css',
         'concat:javascript'
       ]
@@ -259,6 +258,7 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'clean:init',
     'jekyll:build',
+    'execute:sync_tumblr',
     'concurrent:build',
     'postcss:build'
   ]);
