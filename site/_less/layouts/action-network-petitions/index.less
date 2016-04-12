@@ -22,12 +22,29 @@
   }
 
   h1 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
+    hyphens: auto;
     margin: 3rem auto;
     max-width: @large-tablet;
     padding: 0 1rem;
     text-align: center;
     text-transform: uppercase;
+
+    @media screen and (min-width: @large-phone) {
+      font-size: 5rem;
+    }
+
+    @media screen and (min-width: @large-tablet) {
+      font-size: 5.5rem;
+    }
+
+    @media screen and (min-width: @large-laptop) {
+      font-size: 6rem;
+    }
+
+    @media screen and (min-width: @large-desktop) {
+      font-size: 6.4rem;
+    }
   }
 
   h2 {
@@ -204,7 +221,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 35rem;
+    width: 34.6rem;
     min-width: 28rem;
   }
 

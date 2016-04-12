@@ -14,19 +14,6 @@
     .sticky-bar-dark();
   }
 
-  .stickybar-take-action {
-    background-color: @blue-100;
-    border-bottom-color: darken(@blue-100, 25%);
-
-    &:hover, &:active {
-      background-color: darken(@blue-100, 10%);
-    }
-
-    &:active {
-      border-top-color: darken(@blue-100, 25%);
-    }
-  }
-
   .hero& {
     background-color: @blue-925;
     background-repeat: no-repeat;
@@ -73,7 +60,7 @@
     margin: 0 auto 2.5rem;
     max-width: 93.75%;
     min-width: 30rem;
-    padding: 2rem 1.5rem;
+    padding: 2rem;
     text-align: center;
     width: 40rem;
 
@@ -165,6 +152,19 @@
     @media screen and (min-width: @small-tablet) {
       margin-right: 3rem;
     }
+
+    h2 {
+      color: @blue-800;
+      text-align: center;
+      text-transform: uppercase;
+
+      &::after {
+        content: '\0023E4';
+        display: block;
+        font-weight: 100;
+        margin-bottom: 1rem;
+      }
+    }
   }
 
   main& {
@@ -181,19 +181,6 @@
 
     @media screen and (min-width: @small-tablet) {
       padding: 0 2rem;
-    }
-
-    h2 {
-      color: @blue-800;
-      font-size: 4rem;
-      text-align: center;
-      text-transform: uppercase;
-      &::after {
-        content: '\0023E4';
-        display: block;
-        font-weight: 100;
-        margin-bottom: 1rem;
-      }
     }
 
     p {

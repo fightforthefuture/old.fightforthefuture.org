@@ -27,25 +27,24 @@
 
 .stickybar-take-action {
   background-color: @red-100;
-  border-bottom: darken(@red-100, 25%) solid 2px;
   color: @white;
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-variant: small-caps;
   font-weight: 100;
   justify-content: center;
   letter-spacing: 2px;
-  position: relative;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  transition: top 150ms;
+  transition: background-color 200ms;
   width: 100%;
 
   @media screen and (min-width: @large-phone) {
-    width: 50%;
+    flex-grow: 1;
+    width: auto;
   }
 
   @media screen and (min-width: @large-tablet) {
@@ -61,16 +60,6 @@
   &:hover, &:active {
     background-color: darken(@red-100, 10%);
   }
-
-  &:hover {
-    border-bottom-width: 1px;
-  }
-
-  &:active {
-    border-bottom: none;
-    border-top: darken(@red-100, 25%) solid 1px;
-    top: 2px;
-  }
 }
 
 .stickybar-share-donate {
@@ -78,9 +67,20 @@
   height: 5rem;
   min-width: 8rem;
   overflow: hidden;
+  text-align: center;
 
   @media screen and (min-width: @small-phone) {
     display: flex;
+  }
+
+  @media screen and (min-width: @large-phone) {
+    flex-grow: 1;
+    justify-content: space-between;
+    width: 50%;
+  }
+
+  @media screen and (min-width: @large-tablet) {
+    justify-content: flex-end;
   }
 }
 
@@ -123,6 +123,7 @@
 
   @media screen and (min-width: @large-phone) {
     display: block;
+    width: 21rem;
   }
 
   &:hover {
@@ -193,6 +194,14 @@
       &:hover, &:active {
         color: @white;
       }
+    }
+  }
+
+  .stickybar-take-action {
+    background-color: @blue-100;
+
+    &:hover, &:active {
+      background-color: darken(@blue-100, 10%);
     }
   }
 }
