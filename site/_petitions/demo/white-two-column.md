@@ -26,11 +26,11 @@ share_image: "/img/share/fftf-share.jpg"
 share_image_dims: 1400 x 553
 ---
 
+![Dat pizza action](/img/documentation/sample-image-1.jpg)
+
 ## This column will be rendered as the main portion of the page
 
 Below, I’ve included an image, which can be uploaded with the prose image uploader.
-
-![Dat pizza action](/img/documentation/sample-image-1.jpg)
 
 President Knowles Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do **eiusmod tempor incididunt** ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit [esse cillum dolore](https://www.fightforthefuture.org/) eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
