@@ -8,17 +8,20 @@ petition_slug: ""
 tags: 
   - encryption
 opt_in: true
-additional_fields: null
-required_fields: null
+additional_fields: 
+  - "null"
+required_fields: 
+  - "null"
 target_country: US
 search_description: Open Letter telling FBI Director James Comey to Resign
-tweet: "Tell @FBI Director Comey he's out of control. It's time to resign!"
+tweet: "Tell @FBI Director Comey he&#x27;s out of control. It&#x27;s time to resign!"
 social_title: ""
 social_description: ""
 share_image: ""
 share_image_dims: ""
-published: false
+published: true
 ---
+
 
 ## It's bigger than an iPhone. 
 ### FBI Director James Comey has been expanding illegal surveillance for over a decade.
