@@ -99,13 +99,11 @@ var getPosts = function(offset) {
 
       console.log("• " + date + ': ' + posts[i].title);
 
-      try {
-        fs.accessSync(postPath + file);
-        // fs.accessSync(postPath + file + 'LOOLL'); // JL HACK ~ always resync
+      if (fs.existsSync(postPath + file)) {
         console.log('  - POST ALREADY EXISTS: ' + postPath + file);
         console.log('  - nothing else to do lol');
         return;
-      } catch (err) {
+      } else {
 
         // oh tumblr is cranky about hotlinking images, so we have to re-host
         var regexp  = /<img[^>]+src="?([^"\s]+)"?\s*\/>/g;
