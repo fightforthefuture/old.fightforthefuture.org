@@ -1,17 +1,7 @@
 <!doctype html>
 <html>
 <head>
-  {% include meta.html %}
-  {% capture stylesheet %}
-    {% if page.stylesheet %}
-      {{ page.stylesheet }}
-    {% elsif layout.stylesheet %}
-      {{ layout.stylesheet }}
-    {% else %}
-      core
-    {% endif %}
-  {% endcapture %}
-  <link rel="stylesheet" type="text/css" href="/css/{{ stylesheet | strip_newlines | replace: ' ', '' }}.css">
+{% include meta.html stylesheet_name=layout.stylesheet_name omit_core=layout.omit_core %}
 </head>
 <body class="{{ page.class }} {{ layout.class }}" data-components="{{ layout.component-scripts }} {{ page.component-scripts }}">
 

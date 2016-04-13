@@ -1,6 +1,7 @@
 ---
 layout: core-only
-stylesheet: petitions
+omit_core: true
+stylesheet_name: petitions
 component-scripts: petitions
 class: clean-edge petition
 ---
@@ -32,6 +33,9 @@ class: clean-edge petition
       </a>
     </li>
   </ul>
+  <a class="stickybar-take-action" href="#petition-box">
+    Take action
+  </a>
 </header>
 
 <header class="hero {{ page.design }}">
@@ -41,7 +45,7 @@ class: clean-edge petition
 {% if page.additional_fields contains 'null' %}{% assign fields_class = 'length-0' %}{% else %}
 {% capture fields_class %}length-{{ page.additional_fields | size }}{% endcapture %}{% endif %}
 <main class="{{ page.design }}">
-  <section class="petition-box">
+  <section class="petition-box" id="petition-box">
     <article class="petition-text">
       <h2 id="petition-title">{{ page.petition_title }}</h2>
       <blockquote>
@@ -86,7 +90,7 @@ class: clean-edge petition
       {% endif %}
 
       <label for="select-country">
-        Not in {{ site.data.countries[page.target_country] }}?
+        Not in {% if site.data.countries[page.target_country] == "United States" %}the {% endif %}{{ site.data.countries[page.target_country] }}?
       </label>
 
       <select id="select-country">
@@ -148,9 +152,12 @@ class: clean-edge petition
   </section>
 
   <section class="footer-meta-links">
-    <a href="/" class="an-footer-logo">
-        Fight for the Future
-    </a>
+    <div class="an-footer-meta">
+      <p>Built by:</p>
+      <a href="/" class="an-footer-logo">
+          Fight for the Future
+      </a>
+    </div>
     <div class="an-footer-info">
       <p>
         For press inquiries, please contact us at:<br/>

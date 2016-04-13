@@ -10,10 +10,10 @@
     font-size: 2.28rem;
     font-variant: small-caps;
     opacity: 0.9;
-    padding: 0.9rem 0 1.2rem;
+    padding: 1.4rem 0;
     text-align: center;
     text-decoration: none;
-    text-transform: lowercase;
+    text-transform: uppercase;
     transition: opacity 150ms;
     width: 100%;
 
@@ -57,10 +57,13 @@
 
     &.share-this-donate {
       background-color: @blue-600;
+      padding-top: 0.8rem;
 
       &::before {
         content: '\2665';
-        top: 0.1rem;
+        top: 3px;
+        font-size: 3.3rem;
+        line-height: inherit;
       }
     }
   }
