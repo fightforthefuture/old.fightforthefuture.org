@@ -84,6 +84,10 @@ prose:
         field:
           element: 'hidden'
           value: 'action-network-petitions'
+      - name: 'date'
+        field:
+          element: 'hidden'
+          value: CURRENT_DATETIME
       - name: 'design'
         field:
           element: 'select'
@@ -765,28 +769,29 @@ prose:
         field:
           element: 'textarea'
           label: 'Search engine description'
+          help: 'A description of the page that will show up on a search engine beneath the title.'
       - name: 'tweet'
         field:
           element: 'textarea'
           label: 'Tweet text'
-          help: 'The tweet text will include the url to the shared page. That leaves you with 116 characters.'
+          help: 'If someone wants to tweet this page, what do you want the twitter pop-up (sample tweet) to say? The tweet text will automatically include the url to the shared page, which leaves you with 116 characters.'
           placeholder: 'Help keep freedom of expression online a right extended to all people—join forces with @fightforthftr today.'
       - name: 'social_title'
         field:
           element: 'text'
           label: 'Social Media Title'
-          help: 'OPTIONAL Title for social media sites. If left blank, page will use primary title.'
+          help: 'Title used on facebook shares and in the Twitter card.'
       - name: 'social_description'
         field:
-          element: 'text'
+          element: 'textarea'
           label: 'Social Media Description'
-          help: 'OPTIONAL Share content for social media sites. If left blank, page will use primary description.'
+          help: 'Share content for facebook and twitter.'
       - name: 'share_image'
         field:
           element: 'text'
           label: 'Share image path'
           placeholder: '/img/brand/heart.png'
-          help: 'Starts with "/img" (everything before that gets tossed)'
+          help: 'Can be uploaded via Prose or via github.'
       - name: 'share_image_dims'
         field:
           element: 'text'
