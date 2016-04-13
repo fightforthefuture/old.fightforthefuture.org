@@ -35,7 +35,7 @@
   <h1>{{ page.headline }}</h1>
 </header>
 
-{% if page.additional_fields == empty %}{% assign fields_class = 'length-0' %}{% else %}
+{% if page.additional_fields contains 'null' %}{% assign fields_class = 'length-0' %}{% else %}
 {% capture fields_class %}length-{{ page.additional_fields | size }}{% endcapture %}{% endif %}
 
 <main class="{{ page.design }}">
