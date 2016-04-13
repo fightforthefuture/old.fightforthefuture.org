@@ -2,6 +2,7 @@
 <html>
 <head>
   {% include meta.html stylesheet_name='petitions' omit_core=true %}
+  {% capture tweet %}text={{ page.twittertext | default: site.description | cgi_escape }}&amp;url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&amp;via=fightfortheftr{% endcapture %}
 </head>
 <body class="{{ page.class }} petition" data-components="petitions {{ page.component-scripts }}">
 
@@ -14,7 +15,7 @@
       <a href="https://facebook.com/sharer.php?u={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}" class="stickybar-facebook-share">
         facebook
       </a>
-      <a href="https://twitter.com/intent/tweet?text={{ page.tweet | default: site.description | cgi_escape }}&amp;url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&amp;via=fightfortheftr" class="stickybar-twitter-share">
+      <a href="https://twitter.com/intent/tweet?{{ tweet | strip_newlines | strip }}" class="stickybar-twitter-share">
         Twitter
       </a>
     </li>
@@ -34,13 +35,13 @@
   <h1>{{ page.headline }}</h1>
 </header>
 
-{% if page.additional_fields == empty %}{% assign fields_class = 'length-0' %}{% else %}
+{% if page.additional_fields contains 'null' %}{% assign fields_class = 'length-0' %}{% else %}
 {% capture fields_class %}length-{{ page.additional_fields | size }}{% endcapture %}{% endif %}
 
 <main class="{{ page.design }}">
   <section class="petition-box" id="petition-box">
     <article class="petition-text">
-      <h2 id="petition-title">{{ page.petition_title }}</h2>
+      <h2 id="petition-title">{{ page.action_network_title }}</h2>
       <blockquote>
         {{ page.petition_copy | default: '' | markdownify }}
       </blockquote>
@@ -56,7 +57,7 @@
       <progress id="signatures-progress-bar" value="0" max="25"></progress>
     </figure>
 
-    <form id="petition-form" class="petition-form" accept-charset="UTF-8" action="https://actionnetwork.org/petitions/{% if page.petition_slug != '' %}{{ page.petition_slug }}{% else %}{{ page.petition_title | slugify }}{% endif %}/signatures" method="post" data-host="{{ site.petitions_api }}">
+    <form id="petition-form" class="petition-form" accept-charset="UTF-8" action="https://actionnetwork.org/petitions/{% if page.action_network_petition_slug != '' %}{{ page.action_network_petition_slug }}{% else %}{{ page.action_network_title | slugify }}{% endif %}/signatures" method="post" data-host="{{ site.petitions_api }}">
       {% if page.additional_fields contains 'name' %}
       <label class="visually-hidden" for="form-first_name">Name{% unless page.required_fields contains 'name' %} (optional){% endunless %}:</label>
       <input type="text" id="form-first_name" class="name {{ fields_class }}" name="signature[first_name]" placeholder="Name{% unless page.required_fields contains 'name' %} (optional){% endunless %}" {% if page.required_fields contains 'name' %} required{% endif %}/>
@@ -122,21 +123,13 @@
   </article>
 </main>
 
-{% capture tweet %}
-{% if page.tweet %}
-{{ page.tweet }}
-{% else %}
-{{ site.tweet }}
-{% endif %}
-{% endcapture %}
-
 <footer class="action-network-footer {{ page.design }}">
   <p class="an-footer-cta">Help us spread the word:</p>
   <section class="share-this-button-links">
     <a class="share-this-fb" href="https://facebook.com/sharer.php?u={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}">
       Share this
     </a>
-    <a class="share-this-tw" href="https://twitter.com/share?text={{ tweet | strip_newlines | strip | cgi_escape }}&amp;url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}">
+    <a class="share-this-tw" href="https://twitter.com/share?{{ tweet | strip_newlines | strip }}">
       Tweet this
     </a>
     <a class="share-this-donate" href="https://donate.fightforthefuture.org/?utm_source=share-this-buttons&amp;utm_medium=web&amp;utm_campaign={{ page.title | slugify }}">

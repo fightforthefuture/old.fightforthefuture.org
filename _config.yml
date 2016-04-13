@@ -84,6 +84,10 @@ prose:
         field:
           element: 'hidden'
           value: 'action-network-petitions'
+      - name: 'date'
+        field:
+          element: 'hidden'
+          value: CURRENT_DATETIME
       - name: 'design'
         field:
           element: 'select'
@@ -96,36 +100,25 @@ prose:
               value: 'blue-one-column'
             - name: 'Blue Two Column'
               value: 'blue-two-column'
-      - name: 'headline'
-        field:
-          element: 'text'
-          label: 'Page headline'
-          placeholder: 'President Obama is withholding free pizza. Put a stop to it now.'
-      - name: 'petition_title'
+      - name: 'action_network_title'
         field:
           element: 'text'
           label: 'Petition title'
-          placeholder: 'Tell President Obama:'
-          help: 'The petition title in Action Network (important—this must be copied exactly)'
-      - name: 'petition_copy'
-        field:
-          element: 'textarea'
-          label: 'Petition copy'
-          placeholder: 'Fridays should be free pizza day. Push legislation today to bring pizza into the lives of all Americans!'
-          help: 'Accepts markdown formatted text'
-      - name: 'petition_slug'
+          placeholder: 'Tell President Knowles:'
+          help: '**Copy from Action Network** Make sure to check the demo pages to get an idea how this will render.'
+      - name: 'action_network_petition_slug'
         field:
           element: 'text'
-          label: 'Petition slug'
-          help: '(Optional) Provides a fallback enabling form submission just in case the scripts fail to load properly.'
+          label: 'Action Network Slug'
+          help: '**Copy from Action Network** looks like the title with hyphens.'
           placeholder: 'free-pizza-day'
           value: ''
       - name: 'tags'
         field:
           element: 'multiselect'
-          label: 'Tags'
+          label: 'Action Network Tags'
           alterable: false
-          help: 'This is for Action Network tags—make sure to add any tags you wish to be assigned to signers here.'
+          help: '**Copy from Action Network** Any tags you wish to be assigned to signers.'
           options:
             - name: 'admin'
               value: 'admin'
@@ -225,6 +218,23 @@ prose:
               value: 'websites'
             - name: 'whistleblowers'
               value: 'whistleblowers'
+      - name: 'search_title'
+        field:
+          element: 'text'
+          label: 'Window/search title'
+          help: 'Text that will appear as the title of the window, and also the link in a search engine.'
+          placeholder: 'President Knowles has the pizza.'
+      - name: 'headline'
+        field:
+          element: 'text'
+          label: 'Page headline'
+          placeholder: 'President Knowles is withholding free pizza. Put a stop to it now.'
+      - name: 'petition_copy'
+        field:
+          element: 'textarea'
+          label: 'Petition copy'
+          placeholder: 'Fridays should be free pizza day. Push legislation today to bring pizza into the lives of all Americans!'
+          help: 'Accepts markdown formatted text'
       - name: 'opt_in'
         field:
           element: checkbox
@@ -765,28 +775,29 @@ prose:
         field:
           element: 'textarea'
           label: 'Search engine description'
-      - name: 'tweet'
+          help: 'A description of the page that will show up on a search engine beneath the title.'
+      - name: 'twittertext'
         field:
           element: 'textarea'
           label: 'Tweet text'
-          help: 'The tweet text will include the url to the shared page. That leaves you with 116 characters.'
+          help: 'If someone wants to tweet this page, what do you want the twitter pop-up (sample tweet) to say? The tweet text will automatically include the url to the shared page, which leaves you with 116 characters.'
           placeholder: 'Help keep freedom of expression online a right extended to all people—join forces with @fightforthftr today.'
       - name: 'social_title'
         field:
           element: 'text'
           label: 'Social Media Title'
-          help: 'OPTIONAL Title for social media sites. If left blank, page will use primary title.'
+          help: 'Title used on facebook shares and in the Twitter card.'
       - name: 'social_description'
         field:
-          element: 'text'
+          element: 'textarea'
           label: 'Social Media Description'
-          help: 'OPTIONAL Share content for social media sites. If left blank, page will use primary description.'
+          help: 'Share content for facebook and twitter.'
       - name: 'share_image'
         field:
           element: 'text'
           label: 'Share image path'
           placeholder: '/img/brand/heart.png'
-          help: 'Starts with "/img" (everything before that gets tossed)'
+          help: 'Can be uploaded via Prose or via github.'
       - name: 'share_image_dims'
         field:
           element: 'text'

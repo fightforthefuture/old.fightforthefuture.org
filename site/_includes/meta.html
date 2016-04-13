@@ -1,5 +1,3 @@
-{% capture social_title %}{% if page.social_title != '' %}{{ page.social_title }}{% else %}{{ page.title }}{% endif %}{% endcapture %}
-{% capture social_description %}{% if page.social_description != '' %}{{ page.social_description }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
 {% if page.share_image != '' %}
   {% if page.share_image contains 'http' %}
     {% assign share_img = page.share_image %}
@@ -9,13 +7,9 @@
 {% else %}
   {% capture share_img %}{{ site.url }}/img/share/fftf-share.jpg{% endcapture %}
 {% endif %}
-{% if page.share_image_dims != '' %}
-  {% assign dims = page.share_image_dims | split: ' x ' %}
-{% else %}
-  {% assign dims = '1400|553' | split: '|' %}
-{% endif %}
 
-{% capture twittertext %}{% if page.twittertext %}{{ page.twittertext }}{% else %}{{ site.twittertext }}{% endif %}{% endcapture %}
+{% assign dims = page.share_image_dims | default: '1400 x 553' | split: ' x ' %}
+
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -23,8 +17,8 @@
 <script src="https://use.typekit.net/ldp0oqv.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-<title>{{ page.title }}</title>
-<meta name="description" content="{% if page.search_description != null and page.search_description != '' %}{{ page.search_description }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<title>{{ page.search_title | default: page.headline | default: page.title }}</title>
+<meta name="description" content="{{ page.search_description | default: page.description | default: site.description }}">
 
 <!-- *** social meta *** -->
 <!-- facebook -->
@@ -35,21 +29,21 @@
 <meta property="og:site_name" content="{{ site.name }}"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:locale:alternate" content="en_GB"/>
-<meta property="og:title" content="{{ social_title }}"/>
-<meta property="og:description" content="{{ social_description }}"/>
+<meta property="og:title" content="{{ page.social_title | default: page.title }}"/>
+<meta property="og:description" content="{{ page.social_description | default: page.description | default: site.description }}"/>
 
 <!-- twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="{{ site.author.twitter }}">
-<meta name="twitter:title" content="{{ social_title }}">
-<meta name="twitter:description" content="{{ social_description }}"/>
+<meta name="twitter:title" content="{{ page.social_title | default: page.title }}">
+<meta name="twitter:description" content="{{ page.social_description | default: page.description | default: site.description }}"/>
 <meta name="twitter:domain" content="{{ site.url | remove:'http://' | remove:'https://' }}">
 <meta name="twitter:account_id" content="{{ site.author.twitterid }}"/>
-<meta name="twittertext" content="{{ twittertext }}" />
+<meta name="twitter:text" content="{{ page.twittertext | default: site.tweet }}" />
 
 <!-- google+ -->
-<meta itemprop="name" content="{{ social_title }}">
-<meta itemprop="description" content="{{ social_description }}">
+<meta itemprop="name" content="{{ page.social_title | default: page.title }}">
+<meta itemprop="description" content="{{ page.social_description | default: page.description | default: site.description }}">
 <meta itemprop="image" content="{{ share_img }}">
 <!-- /*** social meta *** -->
 
