@@ -57,10 +57,10 @@
 
 <link rel="icon" type="image/png" href="{{ site.url }}{{ site.favicon }}"/>
 
-{% if include.stylesheet_name %}
-<link rel="stylesheet" type="text/css" href="/css/{{ include.stylesheet_name }}.css">
-{% endif %}
-
 {% unless include.omit_core %}
 <link rel="stylesheet" type="text/css" href="/css/core.css">
 {% endunless %}
+
+{% if include.stylesheet_name %}
+<link rel="stylesheet" type="text/css" href="/css/{{ include.stylesheet_name }}.css">
+{% endif %}

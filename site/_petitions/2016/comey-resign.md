@@ -5,20 +5,20 @@ headline: Tell FBI Director James Comey to Resign
 petition_title: Resign
 petition_copy: null
 petition_slug: "comey-resign"
-tags: 
+tags:
   - encryption
 opt_in: true
-additional_fields: 
+additional_fields:
   - "null"
-required_fields: 
+required_fields:
   - "null"
 target_country: US
 search_description: Open Letter telling FBI Director James Comey to Resign
-tweet: "Tell @FBI Director Comey he&amp;amp;#x27;s out of control. It&amp;amp;#x27;s time to resign!"
+tweet: "Tell @FBI Director Comey he’s out of control. It’s time to resign!"
 social_title: ""
 social_description: "Hacking iPhones is just his most recent offense. FBI Director James Comey’s war on privacy has been endangering communities and security technology for decades. Tell him it's time to resign."
-share_image: "img/action-network/ComeyShame.jpg"
-share_image_dims: ""
+share_image: "/img/action-network/ComeyShame.jpg"
+share_image_dims: "1160 x 629"
 published: true
 ---
 

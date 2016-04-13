@@ -1,17 +1,9 @@
----
-layout: core-only
-omit_core: true
-stylesheet_name: petitions
-component-scripts: petitions
-class: clean-edge petition
----
-
-{% if page.default_donation_amount and page.default_donation_frequency %}
-{% capture donation_information %}{{ page.default_donation_amount }}|{{ page.default_donation_frequency }}{% endcapture %}
-{% else %}
-{% assign donation_information = '5|just-once' %}
-{% endif %}
-{% assign donation_information = donation_information | split: '|' %}
+<!doctype html>
+<html>
+<head>
+  {% include meta.html stylesheet_name='petitions' omit_core=true %}
+</head>
+<body class="{{ page.class }} petition" data-components="petitions {{ page.component-scripts }}">
 
 <header class="stickybar {{ page.design }}">
   <span class="stickybar-fftf-logo">
@@ -22,14 +14,14 @@ class: clean-edge petition
       <a href="https://facebook.com/sharer.php?u={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}" class="stickybar-facebook-share">
         facebook
       </a>
-      <a href="https://twitter.com/intent/tweet?text={% if page.share.tweet %}{{ page.share.tweet | cgi_escape }}{% else %}{{ site.description | cgi_escape }}{% endif %}&amp;url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&amp;via=fightfortheftr" class="stickybar-twitter-share">
+      <a href="https://twitter.com/intent/tweet?text={{ page.tweet | default: site.description | cgi_escape }}&amp;url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&amp;via=fightfortheftr" class="stickybar-twitter-share">
         Twitter
       </a>
     </li>
     <li class="stickybar-donate">
-      <a href="https://donate.fightforthefuture.org?amount={{ donation_information[0] }}&amp;frequency={{ donation_information[1] }}&amp;utm_source=petitions&amp;utm_medium=web&amp;utm_campaign={{ page.title | slugify }}">
+      <a href="https://donate.fightforthefuture.org?amount={{ page.default_donation_amount | default: '5' }}&amp;frequency={{ page.default_donation_frequency | default: 'just-once'}}&amp;utm_source=petitions&amp;utm_medium=web&amp;utm_campaign={{ page.title | slugify }}">
         <span class="hover-heart">&#x2665;</span>
-        Donate ${{ donation_information[0] }}
+        Donate ${{ page.default_donation_amount | default: '5' }}
       </a>
     </li>
   </ul>
@@ -42,14 +34,15 @@ class: clean-edge petition
   <h1>{{ page.headline }}</h1>
 </header>
 
-{% if page.additional_fields contains 'null' %}{% assign fields_class = 'length-0' %}{% else %}
+{% if page.additional_fields == empty %}{% assign fields_class = 'length-0' %}{% else %}
 {% capture fields_class %}length-{{ page.additional_fields | size }}{% endcapture %}{% endif %}
+
 <main class="{{ page.design }}">
   <section class="petition-box" id="petition-box">
     <article class="petition-text">
       <h2 id="petition-title">{{ page.petition_title }}</h2>
       <blockquote>
-        {{ page.petition_copy | markdownify }}
+        {{ page.petition_copy | default: '' | markdownify }}
       </blockquote>
     </article>
 
@@ -172,3 +165,7 @@ class: clean-edge petition
     </div>
   </section>
 </footer>
+
+{% include scripts.html %}
+</body>
+</html>
