@@ -27,7 +27,6 @@ published: true
 ![ComeyShame.jpg]({{site.baseurl}}/img/action-network/ComeyShame.jpg)
 
 ## It's bigger than an iPhone.
-**FBI Director James Comey has been expanding illegal surveillance for over a decade.**
 
 FBI Director James Comey,
 
@@ -36,7 +35,7 @@ We’re afraid that after all these years unchecked, you’ve lost sight of what
 
 **We know that Apple v. FBI was about more than just one iPhone in San Bernadino.** It was your latest of many attempts to circumvent the constitution in the name of national security. Forcing Apple to build a universal backdoor into the iPhone iOS would have set a precedent that put all of us in danger. Encryption protects our hospitals, airports, and power plants. Your obsession with other people’s secrets could have seriously harmed our national security.
 
-We’re not the only people who are concerned for you. [Current](https://theintercept.com/2016/01/21/nsa-chief-stakes-out-pro-encryption-position-in-contrast-to-fbi/) and http://money.cnn.com/2016/01/13/technology/nsa-michael-hayden-encryption/index.html NSA directors have spoken out against you. NSA Director Adm. Mike Rogers has called the FBI’s campaign against encryption a “[waste of time.](https://youtu.be/wnTGO6OFgCo?t=25m30s)” Rogers believes that end-to-end encryption is foundational to this country’s future.
+We’re not the only people who are concerned for you. [Current](https://theintercept.com/2016/01/21/nsa-chief-stakes-out-pro-encryption-position-in-contrast-to-fbi/) and [former](http://money.cnn.com/2016/01/13/technology/nsa-michael-hayden-encryption/index.html) NSA directors have spoken out against you. NSA Director Adm. Mike Rogers has called the FBI’s campaign against encryption a “[waste of time.](https://youtu.be/wnTGO6OFgCo?t=25m30s)” Rogers believes that end-to-end encryption is foundational to this country’s future.
 
 **When even the [NSA](http://www.thensavideo.com/) thinks you’re spying too hard, it’s time to resign.**
 
