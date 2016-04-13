@@ -770,7 +770,7 @@ prose:
           element: 'textarea'
           label: 'Search engine description'
           help: 'A description of the page that will show up on a search engine beneath the title.'
-      - name: 'tweet'
+      - name: 'twittertext'
         field:
           element: 'textarea'
           label: 'Tweet text'
