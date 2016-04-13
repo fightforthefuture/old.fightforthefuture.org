@@ -3,14 +3,14 @@ layout: "action-network-petitions"
 design: "blue-one-column"
 headline: Tell FBI Director James Comey to Resign
 petition_title: Resign
-petition_copy: null
+petition_copy: 'JL NOTE ~ If "null" then the build failed. Why was it null?'
 petition_slug: ""
-tags: 
+tags:
   - encryption
 opt_in: true
-additional_fields: 
+additional_fields:
   - "null"
-required_fields: 
+required_fields:
   - "null"
 target_country: US
 search_description: Open Letter telling FBI Director James Comey to Resign
@@ -23,12 +23,12 @@ published: true
 ---
 
 
-## It's bigger than an iPhone. 
+## It's bigger than an iPhone.
 ### FBI Director James Comey has been expanding illegal surveillance for over a decade.
 
 FBI Director James Comey,
 
-**We’re writing because we’re concerned.** Over the years you’ve done some truly disappointing things and have managed to come out looking pretty clean. Even after you helped to create and authorize Bush’s massive, illegal domestic surveillance program, even after you approved torture techniques like waterboarding, you moved effortlessly from the DOJ to hedge fund boards and now to the FBI. 
+**We’re writing because we’re concerned.** Over the years you’ve done some truly disappointing things and have managed to come out looking pretty clean. Even after you helped to create and authorize Bush’s massive, illegal domestic surveillance program, even after you approved torture techniques like waterboarding, you moved effortlessly from the DOJ to hedge fund boards and now to the FBI.
 We’re afraid that after all these years unchecked, you’ve lost sight of what’s good for American Democracy. Director Comey, you’re off the rails and now you’re trying to take us with you.
 ![ComeyShame.jpg]({{site.baseurl}}/img/action-network/ComeyShame.jpg)
 
