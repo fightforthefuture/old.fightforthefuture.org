@@ -3,8 +3,8 @@ layout: "action-network-petitions"
 design: "blue-one-column"
 headline: Tell FBI Director James Comey to Resign
 petition_title: Resign
-petition_copy: "JL NOTE ~ If &quot;null&quot; then the build failed. Why was it null?"
-petition_slug: ""
+petition_copy: Sign this open letter telling FBI Director Comey he should resign. Even the NSA thinks his spying is  out of control
+petition_slug: "comey-resign"
 tags: 
   - encryption
 opt_in: true
