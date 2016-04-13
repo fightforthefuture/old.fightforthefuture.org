@@ -104,7 +104,7 @@ prose:
         field:
           element: 'text'
           label: 'Petition title'
-          placeholder: 'Tell President Obama:'
+          placeholder: 'Tell President Knowles:'
           help: '**Copy from Action Network** Make sure to check the demo pages to get an idea how this will render.'
       - name: 'action_network_petition_slug'
         field:
@@ -218,11 +218,17 @@ prose:
               value: 'websites'
             - name: 'whistleblowers'
               value: 'whistleblowers'
+      - name: 'search_title'
+        field:
+          element: 'text'
+          label: 'Window/search title'
+          help: 'Text that will appear as the title of the window, and also the link in a search engine.'
+          placeholder: 'President Knowles has the pizza.'
       - name: 'headline'
         field:
           element: 'text'
           label: 'Page headline'
-          placeholder: 'President Obama is withholding free pizza. Put a stop to it now.'
+          placeholder: 'President Knowles is withholding free pizza. Put a stop to it now.'
       - name: 'petition_copy'
         field:
           element: 'textarea'

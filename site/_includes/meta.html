@@ -17,7 +17,7 @@
 <script src="https://use.typekit.net/ldp0oqv.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-<title>{{ page.headline | default: page.title }}</title>
+<title>{{ page.search_title | default: page.headline | default: page.title }}</title>
 <meta name="description" content="{{ page.search_description | default: page.description | default: site.description }}">
 
 <!-- *** social meta *** -->
