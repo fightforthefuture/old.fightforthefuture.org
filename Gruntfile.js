@@ -13,6 +13,7 @@ module.exports = function (grunt) {
 
   require('time-grunt')(grunt);
   require('jit-grunt')(grunt, {});
+  var saveLicense = require('uglify-save-license');
 
   grunt.initConfig({
     site: {
@@ -192,7 +193,7 @@ module.exports = function (grunt) {
       },
       javascript: {
         files: ['<%= site.app %>/_js/**/*.js'],
-        tasks: ['concat:javascript']
+        tasks: ['concat:javascript', 'uglify']
       },
       jekyll: {
         files: [
@@ -206,13 +207,13 @@ module.exports = function (grunt) {
     concat: {
       options: {
         sourceMap: true,
-        separator: grunt.util.linefeed + ';'
+        // separator: grunt.util.linefeed + ';'
       },
       javascript: {
         files: [
           {
             src: [
-              'node_modules/smoothscroll/smoothscroll.min.js',
+              '<%= site.app %>/_js/LICENSE',
               '<%= site.app %>/_js/models/**/*.js',
               '<%= site.app %>/_js/views/**/*.js',
               '<%= site.app %>/_js/controllers/**/*.js',
@@ -220,6 +221,14 @@ module.exports = function (grunt) {
               '<%= site.app %>/_js/main.js'
             ],
             dest: '<%= site.dist %>/js/core.js'
+          },
+          {
+            src: [
+              '<%= site.app %>/_js/licenses/x11.js',
+              'node_modules/smoothscroll/smoothscroll.min.js',
+              '<%= site.app %>/_js/licenses/license-end.js',
+            ],
+            dest: '<%= site.dist %>/js/smoothscroll.min.js'
           }
         ]
       }
@@ -229,7 +238,8 @@ module.exports = function (grunt) {
       options: {
         sourceMap: true,
         sourceMapIncludeSources: true,
-        check: 'gzip'
+        check: 'gzip',
+        preserveComments: saveLicense
       },
       build: {
         files: {
@@ -242,7 +252,8 @@ module.exports = function (grunt) {
       build: [
         'copy',
         'less:css',
-        'concat:javascript'
+        'concat:javascript',
+        'uglify'
       ]
     }
   });

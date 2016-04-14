@@ -66,4 +66,13 @@
     });
   }
 
+  var logo = document.querySelector('.logo-large');
+  if (logo)
+    if (logo.complete)
+      logo.style.opacity = 1;
+    else
+      logo.onload = function() {
+        logo.style.opacity = 1;
+      };
+
 })(document, window);

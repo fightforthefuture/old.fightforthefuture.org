@@ -334,6 +334,18 @@ window.components.petitions = function (doc, win) {
     win.addEventListener('scroll', manageStickyBar);
     win.addEventListener('resize', manageStickyBar);
     doc.querySelector('.stickybar-take-action').addEventListener('click', scrollToForm);
+    var share = function(e) {
+      e.preventDefault();
+      FreeProgress.share();
+    };
+    var tweet = function(e) {
+      e.preventDefault();
+      FreeProgress.tweet();
+    };
+    doc.querySelector('.stickybar-facebook-share').addEventListener('click', share);
+    doc.querySelector('.stickybar-twitter-share').addEventListener('click', tweet);
+    doc.querySelector('.share-this-fb').addEventListener('click', share);
+    doc.querySelector('.share-this-tw').addEventListener('click', tweet);
   }
 
   function init() {
