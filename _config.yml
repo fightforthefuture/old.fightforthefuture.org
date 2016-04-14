@@ -267,6 +267,13 @@ prose:
               value: street_address
             - name: 'City'
               value: city
+      - name: 'action_text'
+        field:
+          element: 'text'
+          label: 'Submit button text'
+          placeholder: 'Take action'
+          value: 'Take action'
+          help: 'Text on button to submit petition'
       - name: 'target_country'
         field:
           element: 'select'
