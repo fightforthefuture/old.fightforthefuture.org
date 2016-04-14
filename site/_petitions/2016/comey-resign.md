@@ -27,7 +27,8 @@ action_network_petition_slug: ""
 ---
 
 
-Sign to add your name to the open letter below.
+## Sign to add your name to the open letter below.
+
 ![ComeyShame.jpg]({{site.baseurl}}/img/action-network/ComeyShame.jpg)
 
 ## Open letter to FBI Director James Comey: You're out of control. It's time to resign.
