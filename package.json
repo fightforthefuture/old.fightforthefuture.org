@@ -25,7 +25,7 @@
     "test": "grunt test",
     "verbose": "grunt build -vvv",
     "build": "grunt build",
-    "predeploy": "node generate_fp_token.js",
+    "predeploy": "node scripts/generate_fp_token.js",
     "deploy": "./deploy-ghpages.sh",
     "review": "grunt review",
     "postreview": "node review-apps"

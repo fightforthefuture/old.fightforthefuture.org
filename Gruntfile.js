@@ -18,7 +18,8 @@ module.exports = function (grunt) {
   grunt.initConfig({
     site: {
       app: 'site',
-      dist: 'public'
+      dist: 'public',
+      scripts: 'scripts'
     },
 
     clean: {
@@ -34,7 +35,7 @@ module.exports = function (grunt) {
 
     execute: {
       sync_tumblr: {
-        src: ['sync_tumblr.js']
+        src: ['<%= site.scripts %>/sync_tumblr.js']
       }
     },
 
