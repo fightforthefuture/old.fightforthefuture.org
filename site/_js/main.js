@@ -55,13 +55,60 @@
         return email.focus();
       }
 
-      new OrgReferralController({page_id: page_id}).submit({
-        email: email.value
+      var formData = new FormData();
+      formData.append('guard', '');
+      formData.append('hp_enabled', true);
+      formData.append('member[email]', email.value);
+      formData.append('org', 'fftf');
+      formData.append('tag', page_id);
+
+      var url = 'https://queue.fightforthefuture.org/action';
+
+      var xhr = new XMLHttpRequest();
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4) {
+          console.log('response:', xhr.response);
+        }
+      }.bind(this);
+      xhr.open("post", url, true);
+      xhr.send(formData);
+
+      var
+        thanksContainer = $c('div'),
+        thanksHeadline  = $c('h2'),
+        thanksMessage   = $c('p'),
+        shareContainer  = $c('div'),
+        tweet           = $c('button'),
+        share           = $c('button'),
+        donate          = $c('button');
+
+      thanksHeadline.textContent  = 'Thanks for signing up!';
+      thanksMessage.textContent   = 'We\'re looking forward to sharing our work with you. Together we will make sure the Internet always wins! Please continue exploring this site to learn more about Fight for the Future. You are a wonderful person <3';
+
+      tweet.textContent = 'Tweet';
+      tweet.className   = 'social twitter';
+
+      share.textContent = 'Share';
+      share.className   = 'social facebook';
+
+      donate.textContent = 'Donate';
+      donate.className   = 'social donate';
+
+      tweet.addEventListener('click', function() { FreeProgress.tweet(); });
+      share.addEventListener('click', function() { FreeProgress.share(); });
+      donate.addEventListener('click', function() {
+        window.open('https://donate.fightforthefuture.org?tag='+page_id);
       });
 
-      new ShareModalController({
-        headline: 'Thanks for signing up!',
-        text: 'We\'re looking forward to sharing our work with you. Together we will make sure the Internet always wins! Please continue exploring this site to learn more about Fight for the Future. You are a wonderful person <3'
+      shareContainer.appendChild(share);
+      shareContainer.appendChild(tweet);
+      shareContainer.appendChild(donate);
+
+      thanksContainer.appendChild(thanksHeadline);
+      thanksContainer.appendChild(thanksMessage);
+      thanksContainer.appendChild(shareContainer);
+      new win.controllers.modals.PlainModalController({
+        modal_content: thanksContainer
       });
     });
   }
