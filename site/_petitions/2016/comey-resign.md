@@ -14,6 +14,7 @@ additional_fields:
 required_fields:
   - "null"
 target_country: US
+action_text: "Sign now!"
 search_description: Open Letter telling FBI Director James Comey to Resign
 twittertext: "Tell @FBI Director Comey he’s out of control. It’s time to resign!"
 social_title: ""

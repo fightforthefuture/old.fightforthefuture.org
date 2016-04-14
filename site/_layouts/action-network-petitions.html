@@ -103,7 +103,7 @@
       <input type="hidden" name="subscription[source]" value="www"/>
       {% capture tags %}{% if tags and tags != "null" %}[{% for tag in page.tags %}&quot;{{ tag }}&quot;{% unless forloop.last %},{% endunless %}{% endfor %}]{% endif %}{% endcapture %}
       <input type="hidden" name="subscription[tag_list]" value="{{ tags }}"/>
-      <input type="submit" name="commit" class="{{ fields_class }}" value="Take action"/>
+      <input type="submit" name="commit" class="{{ fields_class }}" value="{{ page.action_text | default: 'Take action' }}"/>
     </form>
 
     <label for="opt-in">
