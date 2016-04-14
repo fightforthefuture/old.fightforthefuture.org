@@ -16,7 +16,7 @@ Some Fight for the Future spaces may have additional rules in place, which will 
 
 **Harassment includes:**
 
-- Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, race, or religion
+- Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, age, body size, race, or religion
 - Unwelcome comments regarding a person’s lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment.
 - Deliberate misgendering or use of “dead” or rejected names
 - Gratuitous or off-topic sexual images or behaviour in spaces where they’re not appropriate
