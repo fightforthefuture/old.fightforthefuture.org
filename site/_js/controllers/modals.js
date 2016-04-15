@@ -1,51 +1,86 @@
 (function (doc, win) {
-  win.controllers = win.controllers || {};
-  win.controllers.modals = {
-    PlainModalController: BaseModalController.extend({
-      /**
-       * This is for when we skip "Donate" in the daisy chain and go straight
-       * to "Share".
-       * @param {string} args.modal_content - Accepts content for the modal in
-       * HTML form.
-       * */
-      modal_content: '<h2>Thanks!</h2>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>',
+  "use strict";
 
-      init: function () {
-        this.render();
-        this.show();
-      },
-      render: function() {
-        var overlay = this.base_render();
+  win.modals = win.modals || {};
 
-        overlay.firstChild.appendChild(
-          win.views.modals.PlainModalView(this.modal_content)
-        );
+  var
+    i,
+    body = doc.getElementsByTagName('body')[0],
+    modalParent = doc.createElement('div');
 
-        this.html(overlay);
+  modalParent.classList.add('modal-parent');
+
+  function dismissModal() {
+    /**
+     * Removes modal from DOM
+     * */
+
+    var
+      modal = doc.getElementsByClassName('modal-parent')[0];
+
+    modal.setAttribute('style', 'opacity: 0');
+
+    win.setTimeout(function () {
+      while (modal.firstChild) {
+        modal.removeChild(modal.firstChild);
       }
-    }),
-    ShareDaisyModalController: BaseModalController.extend({
-      /**
-       * This is for when we skip "Donate" in the daisy chain and go straight
-       * to "Share".
-       * @param {string} args.modal_content - Accepts content for the modal in
-       * HTML form.
-       * */
-      modal_content: '<h2>Thanks!</h2>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>',
+      modal.remove();
+    }, 420);
+  }
 
-      init: function () {
-        this.render();
-        this.show();
-      },
-      render: function() {
-        var overlay = this.base_render();
+  function generateModal(contents, disableOverlayClick) {
+    /**
+     * Triggers a modal
+     *
+     * @param {node} contents - any HTML to be used as modal content (also
+     *   accepts array of nodes)
+     * @param {boolean} disableOverlayClick - if false (or absent), function
+     *   adds event listener to allow dismissal of modal by clicking on
+     *   overlay.
+     * */
 
-        overlay.firstChild.appendChild(
-          win.views.modals.ShareDaisyModalView(this.modal_content)
-        );
+    var
+      overlay = doc.createElement('div'),
+      modal = doc.createElement('div'),
+      closeModal;
 
-        this.html(overlay);
-      }
-    })
-  };
+    if (contents.length === undefined) {
+      contents = [contents];
+    }
+
+    if (typeof disableOverlayClick !== 'boolean') {
+      disableOverlayClick = false;
+    }
+
+    overlay.id = disableOverlayClick ? 'no-click-for-you' : 'dismiss-me';
+    overlay.classList.add('overlay');
+    modal.classList.add('modal-content');
+
+    if (!disableOverlayClick) {
+      closeModal = doc.createElement('button');
+      closeModal.classList.add('close-modal');
+      closeModal.innerHTML = '&times;';
+      modal.appendChild(closeModal);
+      closeModal.addEventListener('click', dismissModal);
+      overlay.addEventListener('click', dismissModal);
+    }
+
+    for (i = 0; i < contents.length; i++) {
+      modal.appendChild(contents[i]);
+    }
+
+    modalParent.appendChild(overlay);
+    modalParent.appendChild(modal);
+    body.appendChild(modalParent);
+
+    win.setTimeout(function () {
+      modalParent.setAttribute('style', 'opacity: 1');
+    }, 50);
+  }
+
+
+  win.modals.dismissModal = dismissModal;
+  win.modals.generateModal = generateModal;
+
+
 }(document, window));

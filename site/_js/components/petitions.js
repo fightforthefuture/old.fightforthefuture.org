@@ -8,7 +8,6 @@ window.components.petitions = function (doc, win) {
   "use strict";
 
   var
-    loadingScreen,
     objectIdentifier = false,
     apiHost = doc.forms[0].dataset.host,
     body = doc.getElementsByTagName('body')[0],
@@ -138,7 +137,7 @@ window.components.petitions = function (doc, win) {
      * from an XMLHttpRequest
      * */
 
-    loadingScreen.hide();
+    win.modals.dismissModal();
 
     var
       errorMessageContainer = $c('div'),
@@ -156,9 +155,7 @@ window.components.petitions = function (doc, win) {
 
     errorMessageContainer.appendChild(errorMessage);
     errorMessageContainer.appendChild(errorMessageInfo);
-    new win.controllers.modals.PlainModalController({
-      modal_content: errorMessageContainer
-    });
+    new win.modals.generateModal(errorMessageContainer);
 
     petitionSignatureForm.classList.remove('submitted');
     submitButton.removeAttribute('disabled');
@@ -183,9 +180,7 @@ window.components.petitions = function (doc, win) {
     petitionSignatureForm.classList.add('submitted');
     submitButton.setAttribute('disabled', true);
 
-    return new win.controllers.modals.PlainModalController({
-      modal_content: loadingContainer
-    });
+    return new win.modals.generateModal(loadingContainer);
   }
 
   function submitForm(event) {
@@ -203,7 +198,7 @@ window.components.petitions = function (doc, win) {
     var
       signatureSubmission = new XMLHttpRequest();
 
-    loadingScreen = preSubmit();
+    preSubmit();
 
     function compilePayload() {
       /**
@@ -259,7 +254,7 @@ window.components.petitions = function (doc, win) {
           shareCopy = $c('p'),
           donateCopy = $c('p');
 
-        loadingScreen.hide();
+        win.modals.dismissModal();
 
         shareCopy.textContent = 'Now, share this page to spread the word.';
         donateCopy.innerHTML = '<small>…or, <a href="https://donate.fightforthefuture.org/?amount=5&frequency=just-once">chip in $5</a> to help us spread the message.</small>';

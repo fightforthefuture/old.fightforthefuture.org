@@ -1,0 +1,69 @@
+.modal-parent {
+  background: fade(@white, 70%);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  overflow: auto;
+  right: 0;
+  position: fixed;
+  top: 0;
+  transition: opacity 400ms ease-out;
+  width: 100%;
+  z-index: 9001;
+  opacity: 0;
+}
+
+.overlay {
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  padding: 1rem;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+  transition: margin-top .4s ease-out;
+  vertical-align: middle;
+}
+
+.modal-content {
+  background: @white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.2rem 2rem fade(@black, 30%);
+  color: @black;
+  display: block;
+  margin: 5rem auto 0;
+  max-width: 60rem;
+  padding: 2rem;
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  h2 {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    text-align: center;
+    margin-bottom: 1.2em;
+    color: gray;
+    font-weight: 600;
+  }
+
+  p {
+    margin-bottom: 15px;
+    line-height: 22px;
+  }
+}
+
+.close-modal {
+  background: transparent;
+  border: none;
+  color: @black;
+  cursor: pointer;
+  font-size: 2.5rem;
+  opacity: 0.4;
+  position: absolute;
+  right: 0.5rem;
+  text-decoration: none;
+  top: 0;
+}

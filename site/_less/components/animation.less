@@ -1,5 +1,5 @@
 @spinner_blade_width: 25%;
-@spinner_blade_color: @heart;
+@spinner_blade_color: @gray;
 @spinner_animation_duration: 2500ms;
 
 .circle-spinner {
@@ -8,8 +8,7 @@
   animation-duration: @spinner_animation_duration;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  border: dashed 0.1rem @spinner_blade_color;
-  border-radius: 50%;
+  border: dotted 0.1rem @spinner_blade_color;
   height: 2.2rem;
   margin: 2rem auto;
   width: 2.2rem;
@@ -21,11 +20,11 @@
   }
 }
 
-@-webkit-keyframes loader-spin {
-  from {
+@keyframes loader-spin {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
 }

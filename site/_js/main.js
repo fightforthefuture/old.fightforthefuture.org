@@ -1,6 +1,7 @@
 (function (doc, win) {
   "use strict";
 
+  /*
   function hashChange() {
     // the hashChange thing only matters for "inner" pages. we shall nudge inline
     // links so the fixed header won't partially obscure them
@@ -14,6 +15,7 @@
           scrollTo(0, top - 75);
         }, 10);
   }
+  */
 
   function triggerComponents() {
     win.components = win.components || {};
@@ -25,10 +27,12 @@
       components = components.split(' ');
       i = components.length;
 
+      /*
       if (components.indexOf('homepage') >= 0) {
         win.onhashchange = hashChange;
         hashChange();
       }
+      */
 
       while (i--) {
         if (components[i] !== '' && win.components[components[i]] !== undefined) {
@@ -107,9 +111,7 @@
       thanksContainer.appendChild(thanksHeadline);
       thanksContainer.appendChild(thanksMessage);
       thanksContainer.appendChild(shareContainer);
-      new win.controllers.modals.PlainModalController({
-        modal_content: thanksContainer
-      });
+      new win.modals.generateModal(thanksContainer);
     });
   }
 

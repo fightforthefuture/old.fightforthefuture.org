@@ -214,6 +214,7 @@ module.exports = function (grunt) {
           {
             src: [
               '<%= site.app %>/_js/LICENSE',
+              '<%= site.app %>/_js/lib/util.js',
               '<%= site.app %>/_js/models/**/*.js',
               '<%= site.app %>/_js/views/**/*.js',
               '<%= site.app %>/_js/controllers/**/*.js',
