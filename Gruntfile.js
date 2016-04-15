@@ -193,7 +193,7 @@ module.exports = function (grunt) {
       },
       javascript: {
         files: ['<%= site.app %>/_js/**/*.js'],
-        tasks: ['concat:javascript', 'uglify']
+        tasks: ['concat:javascript']
       },
       jekyll: {
         files: [
@@ -241,7 +241,7 @@ module.exports = function (grunt) {
         check: 'gzip',
         preserveComments: saveLicense
       },
-      build: {
+      js: {
         files: {
           '<%= site.dist %>/js/core.js': '<%= site.dist %>/js/core.js'
         }
@@ -249,11 +249,10 @@ module.exports = function (grunt) {
     },
 
     concurrent: {
-      build: [
+      compile: [
         'copy',
         'less:css',
-        'concat:javascript',
-        'uglify'
+        'concat:javascript'
       ]
     }
   });
@@ -261,7 +260,7 @@ module.exports = function (grunt) {
   grunt.registerTask('dev', [
     'clean:init',
     'jekyll:server',
-    'concurrent:build',
+    'concurrent:compile',
     'postcss:build',
     'connect:local',
     'watch'
@@ -271,14 +270,16 @@ module.exports = function (grunt) {
     'clean:init',
     'jekyll:build',
     'execute:sync_tumblr',
-    'concurrent:build',
+    'concurrent:compile',
+    'uglify:js',
     'postcss:build'
   ]);
 
   grunt.registerTask('review', [
     'clean:init',
     'jekyll:review',
-    'concurrent:build',
+    'concurrent:compile',
+    'uglify:js',
     'postcss:build'
   ]);
 
