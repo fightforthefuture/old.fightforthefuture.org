@@ -264,26 +264,6 @@
         margin-bottom: 1rem;
       }
     }
-
-    p {
-      position: relative;
-      &:nth-last-of-type(2) {
-        &::after {
-          background-image: linear-gradient(transparent, @white);
-          bottom: 0;
-          content: ' ';
-          left: 0;
-          position: absolute;
-          right: 0;
-          top: 0;
-          .text-expanded& {
-            &::after {
-              display: none;
-            }
-          }
-        }
-      }
-    }
   }
 
   footer& {
@@ -297,8 +277,4 @@
   .share-this-button-links a.share-this-donate {
     background-color: lighten(@blue-800, 10%);
   }
-}
-
-.text-expanded p:nth-last-of-type(2)::after {
-  display: none;
 }
