@@ -1,8 +1,11 @@
 <!doctype html>
+{% capture tags %}{% if page.tags and page.tags != "null" %}[{% for tag in page.tags %}"{{ tag }}"{% unless forloop.last %},{% endunless %}{% endfor %}]{% endif %}{% endcapture %}
+{% capture tweet %}text={{ page.twittertext | default: site.description | cgi_escape }}&amp;url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&amp;via=fightfortheftr{% endcapture %}
+{% if page.additional_fields contains 'null' %}{% assign fields_class = 'length-0' %}{% else %}
+{% capture fields_class %}length-{{ page.additional_fields | size }}{% endcapture %}{% endif %}
 <html>
 <head>
   {% include meta.html stylesheet_name='petitions' omit_core=true %}
-  {% capture tweet %}text={{ page.twittertext | default: site.description | cgi_escape }}&amp;url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&amp;via=fightfortheftr{% endcapture %}
 </head>
 <body class="{{ page.class }} petition" data-components="petitions {{ page.component-scripts }}">
 
@@ -35,9 +38,6 @@
   <h1>{{ page.headline }}</h1>
 </header>
 
-{% if page.additional_fields contains 'null' %}{% assign fields_class = 'length-0' %}{% else %}
-{% capture fields_class %}length-{{ page.additional_fields | size }}{% endcapture %}{% endif %}
-
 <main class="{{ page.design }}">
   <section class="petition-box" id="petition-box">
     <article class="petition-text">
@@ -57,7 +57,7 @@
       <progress id="signatures-progress-bar" value="0" max="25"></progress>
     </figure>
 
-    <form id="petition-form" class="petition-form" accept-charset="UTF-8" action="https://actionnetwork.org/petitions/{% if page.action_network_petition_slug != '' %}{{ page.action_network_petition_slug }}{% else %}{{ page.action_network_title | slugify }}{% endif %}/signatures" method="post" data-host="{{ site.petitions_api }}">
+    <form id="petition-form" class="petition-form" accept-charset="UTF-8" action="https://actionnetwork.org/petitions/{% if page.action_network_petition_slug != '' %}{{ page.action_network_petition_slug }}{% else %}{{ page.action_network_title | slugify }}{% endif %}/" method="post" data-host="{{ site.petitions_api }}">
       {% if page.additional_fields contains 'name' %}
       <label class="visually-hidden" for="form-first_name">Name{% unless page.required_fields contains 'name' %} (optional){% endunless %}:</label>
       <input type="text" id="form-first_name" class="name {{ fields_class }}" name="signature[first_name]" placeholder="Name{% unless page.required_fields contains 'name' %} (optional){% endunless %}" {% if page.required_fields contains 'name' %} required{% endif %}/>
@@ -101,8 +101,7 @@
       <input type="hidden" name="subscription[sub_group_id]" value="13162">
       <input type="hidden" name="subscription[http_referer]" value="{{ site.url }}{{ page.url }}"/>
       <input type="hidden" name="subscription[source]" value="www"/>
-      {% capture tags %}{% if tags and tags != "null" %}[{% for tag in page.tags %}&quot;{{ tag }}&quot;{% unless forloop.last %},{% endunless %}{% endfor %}]{% endif %}{% endcapture %}
-      <input type="hidden" name="subscription[tag_list]" value="{{ tags }}"/>
+      <input type="hidden" name="subscription[tag_list]" value='{{ tags }}'/>
       <input type="submit" name="commit" class="{{ fields_class }}" value="{{ page.action_text | default: 'Take action' }}"/>
     </form>
 
