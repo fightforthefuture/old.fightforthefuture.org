@@ -5,7 +5,7 @@ design: "blue-one-column"
 search_title: Tell FBI Director James Comey to Resign
 headline: Tell FBI Director James Comey to Resign
 action_network_title: Resign
-petition_copy: ""
+petition_copy: "Sign to add your name to the open letter below."
 action_network_petition_slug: "comey-resign"
 tags:
   - encryption
