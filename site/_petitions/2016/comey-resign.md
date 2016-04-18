@@ -16,7 +16,7 @@ search_description: Open Letter telling FBI Director James Comey to Resign
 twittertext: "The Director of the FBI is losing it. Tell him to resign: https://www.fightforthefuture.org/2016/comey-resign/"
 social_title: The director of the FBI is losing it
 social_description: The Apple vs FBI case is just his latest disaster. James Comey is out of control.
-share_image: "/action-network/comey1.jpeg"
+share_image: "/img/action-network/comey1.jpeg"
 share_image_dims: 1160 x 629
 published: true
 additional_fields: null
