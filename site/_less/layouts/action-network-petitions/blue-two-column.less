@@ -174,25 +174,5 @@
     @media screen and (min-width: @small-tablet) {
       padding: 0 2rem;
     }
-
-    p {
-      position: relative;
-      &:nth-last-of-type(2) {
-        &::after {
-          background-image: linear-gradient(transparent, @white);
-          bottom: 0;
-          content: ' ';
-          left: 0;
-          position: absolute;
-          right: 0;
-          top: 0;
-          .text-expanded& {
-            &::after {
-              display: none;
-            }
-          }
-        }
-      }
-    }
   }
 }
