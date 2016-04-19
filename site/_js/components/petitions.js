@@ -11,7 +11,7 @@ window.components.petitions = function (doc, win) {
     objectIdentifier = false,
     apiHost = doc.forms[0].dataset.host,
     body = doc.getElementsByTagName('body')[0],
-    petitionSignatureForm = doc.forms[0],
+    petitionSignatureForm = doc.getElementById('petition-form'),
     submitButton = body.querySelector('[type="submit"]'),
     countryInput = doc.getElementById('hidden-country'),
     countrySelect = doc.getElementById('select-country'),
@@ -137,12 +137,12 @@ window.components.petitions = function (doc, win) {
      * from an XMLHttpRequest
      * */
 
-    win.modals.dismissModal();
+    //win.modals.dismissModal();
 
     var
-      errorMessageContainer = $c('div'),
-      errorMessage = $c('h2'),
-      errorMessageInfo = $c('p');
+      errorMessageContainer = doc.createElement('div'),
+      errorMessage = doc.createElement('h2'),
+      errorMessageInfo = doc.createElement('p');
 
     errorMessage.textContent = 'Something went wrong';
     if (e.type) {
@@ -155,10 +155,11 @@ window.components.petitions = function (doc, win) {
 
     errorMessageContainer.appendChild(errorMessage);
     errorMessageContainer.appendChild(errorMessageInfo);
-    new win.modals.generateModal(errorMessageContainer);
 
     petitionSignatureForm.classList.remove('submitted');
     submitButton.removeAttribute('disabled');
+
+    return new win.modals.generateModal(errorMessageContainer);
   }
 
   function preSubmit() {
@@ -166,10 +167,11 @@ window.components.petitions = function (doc, win) {
      * Fires up the loading modal and disables the form
      * @return {object} - modal with spinner
      * */
+
     var
-      loadingContainer = $c('div'),
-      loadingCopy = $c('h2'),
-      loadingSpinner = $c('div');
+      loadingContainer = doc.createElement('div'),
+      loadingCopy = doc.createElement('h2'),
+      loadingSpinner = doc.createElement('div');
 
     loadingSpinner.classList.add('circle-spinner', 'large');
     loadingCopy.textContent = 'Hang on a tick, reticulating splines…';
@@ -216,8 +218,8 @@ window.components.petitions = function (doc, win) {
           tags: JSON.parse(doc.querySelector('[name="subscription[tag_list]"]').value)
         };
 
-      if (doc.getElementById('opt-in').checked === false &&
-        doc.getElementById('opt-in').getAttribute('type') === 'checkbox') {
+      if (doc.getElementById('opt-in').getAttribute('type') === 'checkbox' &&
+          doc.getElementById('opt-in').checked === false) {
         petitionFormData.noOptIn = true;
       }
 
@@ -248,11 +250,11 @@ window.components.petitions = function (doc, win) {
       if (signatureSubmission.status >= 200 && signatureSubmission.status < 400) {
 
         var
-          shareOverlay = $c('div'),
-          shareContent = $c('div'),
-          shareThis = $c('div'),
-          shareCopy = $c('p'),
-          donateCopy = $c('p');
+          shareOverlay = doc.createElement('div'),
+          shareContent = doc.createElement('div'),
+          shareThis = doc.createElement('div'),
+          shareCopy = doc.createElement('p'),
+          donateCopy = doc.createElement('p');
 
         win.modals.dismissModal();
 
