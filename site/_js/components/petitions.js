@@ -140,9 +140,9 @@ window.components.petitions = function (doc, win) {
     //win.modals.dismissModal();
 
     var
-      errorMessageContainer = doc.createElement('div'),
-      errorMessage = doc.createElement('h2'),
-      errorMessageInfo = doc.createElement('p');
+      errorMessageContainer = $c('div'),
+      errorMessage = $c('h2'),
+      errorMessageInfo = $c('p');
 
     errorMessage.textContent = 'Something went wrong';
     if (e.type) {
@@ -169,9 +169,9 @@ window.components.petitions = function (doc, win) {
      * */
 
     var
-      loadingContainer = doc.createElement('div'),
-      loadingCopy = doc.createElement('h2'),
-      loadingSpinner = doc.createElement('div');
+      loadingContainer = $c('div'),
+      loadingCopy = $c('h2'),
+      loadingSpinner = $c('div');
 
     loadingSpinner.classList.add('circle-spinner', 'large');
     loadingCopy.textContent = 'Hang on a tick, reticulating splines…';
@@ -250,11 +250,11 @@ window.components.petitions = function (doc, win) {
       if (signatureSubmission.status >= 200 && signatureSubmission.status < 400) {
 
         var
-          shareOverlay = doc.createElement('div'),
-          shareContent = doc.createElement('div'),
-          shareThis = doc.createElement('div'),
-          shareCopy = doc.createElement('p'),
-          donateCopy = doc.createElement('p');
+          shareOverlay = $c('div'),
+          shareContent = $c('div'),
+          shareThis = $c('div'),
+          shareCopy = $c('p'),
+          donateCopy = $c('p');
 
         win.modals.dismissModal();
 
