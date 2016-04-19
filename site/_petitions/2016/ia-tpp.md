@@ -1,20 +1,20 @@
 ---
+date: "2016-03-30 23:30:14 -0500"
 layout: "action-network-petitions"
 design: "white-two-column"
-headline: The TPP is a bad deal for Internet users. But these tech companies just endorsed it.
-action_network_title: "Tell tech companies not to support the TPP:"
-petition_copy: "Do not betray your users. The TPP lacks transparency, undermines our basic rights, and harms free speech and innovation. Drop your support now."
+search_title: The TPP is a bad deal for Internet users.
+headline: "The TPP is a bad deal for Internet users."
+action_network_title: "The TPP is a bad deal for Internet users. But these tech companies just endorsed it."
+petition_copy: |
+  ### Tell tech companies not to support the TPP:
+  Do not betray your users. The TPP lacks transparency, undermines our basic rights, and harms free speech and innovation. Drop your support now.
 action_network_petition_slug: "the-tpp-is-a-bad-deal-for-internet-users-but-these-tech-companies-just-endorsed-it"
 tags:
   - tpp
 opt_in: true
-additional_fields:
-  - "null"
-required_fields:
-  - "null"
 target_country: US
-search_description: null
-tweet: null
+search_description: The TPP is a bad deal for Internet users. But these tech companies just endorsed it.
+twittertext: "Big Internet companies like Google and Facebook just sold you out—Global Internet censorship could be right around the corner."
 social_title: Big Internet companies like Google and Facebook just sold you out.
 social_description: Global Internet censorship could be right around the corner.
 share_image: /img/breaking google facebook etc.png
@@ -22,15 +22,11 @@ share_image_dims: 1667 × 833
 published: true
 ---
 
-
-
-
-
 ![Democracy and the TPP](/images/petitions/2016/ia-tpp/protest.jpg)
 
 Tech experts from [every](https://www.stopfasttrack.com/#orgs) major advocacy group working to defend Internet users’ rights vehemently oppose the Trans-Pacific Partnership (TPP) agreement, but a trade association that represents major web companies like Google, Facebook, Twitter, Netflix, and Uber just [endorsed](https://internetassociation.org/033016tpp/) it.
 
-The TPP was negotiated in complete [secrecy](http://www.theguardian.com/media-network/2015/may/08/trans-pacific-partnership-obama-irony) by government bureaucrats and corporate lobbyists from industries that hate the [Internet](https://www.techdirt.com/articles/20150605/11483831239/revealed-emails-show-how-industry-lobbyists-basically-wrote-tpp.shtml)––including the ones that wrote terrible censorship bills like [SOPA](http://sopastrike.com). It’s great for incumbent corporations, but terrible for individual internet users, startups, and the tech economy as a whole.
+The TPP was negotiated in complete [secrecy](http://www.theguardian.com/media-network/2015/may/08/trans-pacific-partnership-obama-irony) by government bureaucrats and corporate lobbyists from industries that hate the [Internet](https://www.techdirt.com/articles/20150605/11483831239/revealed-emails-show-how-industry-lobbyists-basically-wrote-tpp.shtml)—including the ones that wrote terrible censorship bills like [SOPA](http://sopastrike.com). It’s great for incumbent corporations, but terrible for individual internet users, startups, and the tech economy as a whole.
 
 ## BREAKING UPDATE: reddit [comes out](https://twitter.com/reddit/status/715349463628288002) saying they do not support the TPP, distances themselves from Internet Association statement.
 
