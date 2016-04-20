@@ -15,12 +15,9 @@ window.components.petitions = function (doc, win) {
     submitButton = body.querySelector('[type="submit"]'),
     countryInput = doc.getElementById('hidden-country'),
     countrySelect = doc.getElementById('select-country'),
-    countryLabel = doc.querySelector('[for="select-country"]');
-
-  var
+    countryLabel = doc.querySelector('[for="select-country"]'),
     petitionBox = doc.querySelector('.petition-box'),
     petitionBottom = petitionBox.offsetTop + petitionBox.clientHeight;
-
 
   function numberCommafier(number) {
     /**
@@ -137,7 +134,7 @@ window.components.petitions = function (doc, win) {
      * from an XMLHttpRequest
      * */
 
-    //win.modals.dismissModal();
+    win.modals.dismissModal();
 
     var
       errorMessageContainer = $c('div'),
@@ -159,7 +156,7 @@ window.components.petitions = function (doc, win) {
     petitionSignatureForm.classList.remove('submitted');
     submitButton.removeAttribute('disabled');
 
-    return new win.modals.generateModal(errorMessageContainer);
+    win.modals.generateModal({contents: errorMessageContainer});
   }
 
   function preSubmit() {
@@ -179,10 +176,11 @@ window.components.petitions = function (doc, win) {
     loadingContainer.classList.add('loading');
     loadingContainer.appendChild(loadingCopy);
     loadingContainer.appendChild(loadingSpinner);
+
+    win.modals.generateModal({contents: loadingContainer, disableOverlayClick: true});
+
     petitionSignatureForm.classList.add('submitted');
     submitButton.setAttribute('disabled', true);
-
-    return new win.modals.generateModal(loadingContainer);
   }
 
   function submitForm(event) {
@@ -250,30 +248,29 @@ window.components.petitions = function (doc, win) {
       if (signatureSubmission.status >= 200 && signatureSubmission.status < 400) {
 
         var
-          shareOverlay = $c('div'),
           shareContent = $c('div'),
-          shareThis = $c('div'),
+          shareHeadline = $c('h3'),
           shareCopy = $c('p'),
+          shareThis = $c('div'),
           donateCopy = $c('p');
 
         win.modals.dismissModal();
 
+        shareHeadline.textContent = 'Thanks for signing';
         shareCopy.textContent = 'Now, share this page to spread the word.';
-        donateCopy.innerHTML = '<small>…or, <a href="https://donate.fightforthefuture.org/?amount=5&frequency=just-once">chip in $5</a> to help us spread the message.</small>';
-
-        shareOverlay.classList.add('after-action-overlay');
-
-        shareContent.setAttribute('id', 'after-action');
-        shareContent.innerHTML = '<h1>Thanks for signing</h1>';
-        shareContent.appendChild(shareThis);
-        shareContent.appendChild(donateCopy);
 
         shareThis.classList.add('share-this-button-links');
         shareThis.appendChild(doc.getElementsByClassName('share-this-fb')[0]);
         shareThis.appendChild(doc.getElementsByClassName('share-this-tw')[0]);
 
-        body.appendChild(shareOverlay);
-        body.appendChild(shareContent);
+        donateCopy.innerHTML = '&hellip;or, <a href="https://donate.fightforthefuture.org/?amount=5&frequency=just-once">chip in $5</a> to help us spread the message.';
+
+        shareContent.appendChild(shareHeadline);
+        shareContent.appendChild(shareCopy);
+        shareContent.appendChild(shareThis);
+        shareContent.appendChild(donateCopy);
+
+        win.modals.generateModal({contents: shareContent});
 
       } else {
         handleSigningError(signatureSubmission);

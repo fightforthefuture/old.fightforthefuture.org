@@ -111,7 +111,7 @@
       thanksContainer.appendChild(thanksHeadline);
       thanksContainer.appendChild(thanksMessage);
       thanksContainer.appendChild(shareContainer);
-      new win.modals.generateModal(thanksContainer);
+      new win.modals.generateModal({contents: thanksContainer});
     });
   }
 

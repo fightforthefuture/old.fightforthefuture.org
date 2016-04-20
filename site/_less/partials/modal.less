@@ -1,29 +1,13 @@
-.modal-parent {
-  background: fade(@white, 70%);
-  bottom: 0;
-  height: 100%;
-  left: 0;
-  overflow: auto;
-  right: 0;
-  position: fixed;
-  top: 0;
-  transition: opacity 400ms ease-out;
-  width: 100%;
-  z-index: 9001;
-  opacity: 0;
-}
-
 .overlay {
+  background: fade(@black, 50%);
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
   bottom: 0;
   left: 0;
-  height: 100%;
-  padding: 1rem;
-  position: fixed;
-  right: 0;
-  text-align: center;
-  top: 0;
-  transition: margin-top .4s ease-out;
-  vertical-align: middle;
+  transition: opacity 400ms ease-in-out;
+  z-index: 10;
 }
 
 .modal-content {
@@ -37,21 +21,26 @@
   padding: 2rem;
   position: relative;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
 
-  h2 {
-    font-size: 1.4em;
-    line-height: 1.4em;
+  h3 {
+    font-size: 4.5rem;
+    line-height: 1.4;
     text-align: center;
-    margin-bottom: 1.2em;
-    color: gray;
+    color: @gray;
     font-weight: 600;
+
+    @media screen and (min-width: @large-phone) {
+      font-size: 5rem;
+    }
   }
 
   p {
-    margin-bottom: 15px;
-    line-height: 22px;
+    line-height: 1.375;
+    margin-bottom: 1.5rem;
+  }
+
+  .share-this-button-links {
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -66,4 +55,35 @@
   right: 0.5rem;
   text-decoration: none;
   top: 0;
+}
+
+#after-action {
+  background-color: rgba(255, 255, 255, 0.95);
+  background-clip: content-box;
+  border-style: solid;
+  border-bottom-width: 2rem;
+  border-color: transparent;
+  border-image-source: linear-gradient(to bottom, @black, rgba(0, 0, 0, 0.8) 2%, rgba(0, 0, 0, 0.2) 25%, @black, rgba(0, 0, 0, 0.2) 75%, rgba(0, 0, 0, 0.8) 98%, @black 100%);
+  border-image-slice: 50% 0 50% 0;
+  border-top-width: 2rem;
+  bottom: auto;
+  color: @black;
+  opacity: 0;
+  position: fixed;
+  top: 5rem;
+  z-index: 20;
+  .fade(1000ms);
+
+  @media screen and (min-height: @small-phone) {
+    top: 10rem;
+  }
+
+  h1, p {
+    margin: 0 auto;
+    max-width: 60ch;
+    padding: 2rem;
+    @media screen and (min-width: @small-phone) {
+      text-align: center;
+    }
+  }
 }
