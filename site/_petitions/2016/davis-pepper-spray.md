@@ -22,6 +22,10 @@ share_image: ""
 share_image_dims: ""
 published: false
 ---
-## A New Post
+## UC Davis spent at least $175,000 to scrub references of the incident from the Internet. That’s not right.
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+In November 2011, UC Davis police officer John Pike pepper sprayed, at point-blank range, dozens of students who were peacefully protesting against a tuition hike. Officer Pike used military-grade MK-9, one of the most potent pepper sprays available, and he conducted the operation with a casual diregard for public safety, as if we was in his yard killing weeds.  
+
+The [Sacramento Bee](http://www.sacbee.com/news/local/education/article71659992.html) recently reported that UC Davis has been paying consultants at least $175,000 to try to erase the incident from the Internet. According to the documents they obtained, they paid the firm to "clean up the negative attention the Univesity of California, Davis and Chancellor Katehi have received" and "expedite the eradication of references to the pepper spray incident in search results."
+
+Censoring history will only make violence against peaceful protestors more likely in the future. As an educational institution, UC Davis should place education and truth above branding public relations. Rather than covering it up, UC Davis Chancellor Linda Katehi should commemorate the pepper-spraying incident by erecting a permanent statue of Office Pike in his infamous casual pepper-spraying pose.  
