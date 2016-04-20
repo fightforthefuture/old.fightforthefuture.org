@@ -83,7 +83,7 @@ window.components.petitions = function (doc, win) {
      * Builds and sends request to API server
      * */
     var
-      title = doc.getElementById('petition-title').textContent,
+      title = doc.getElementById('action-network-title').textContent,
       anRequest = new XMLHttpRequest();
 
     anRequest.open('GET', apiHost + '/petition?title=' + title, true);
