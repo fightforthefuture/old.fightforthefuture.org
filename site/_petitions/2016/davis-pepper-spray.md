@@ -2,12 +2,12 @@
 date: "2016-04-20 10:34 -0400"
 layout: "action-network-petitions"
 design: "white-two-column"
-action_network_title: "Tell Chancellor Katehi:"
+action_network_title: "UC Davis wants you to forget that time they casually pepper-sprayed their students."
 action_network_petition_slug: "uc-davis-wants-you-to-forget-that-time-they-casually-pepper-sprayed-their-students"
 tags: 
   - censorship
 search_title: "Erect a statue of the pepper-spraying cop on UC Davis campus. "
-headline: "UC Davis wants you to forget that time they casually pepper-sprayed their students."
+petition_title: "Tell Chancellor Katehi:"
 petition_copy: "Keep the memory of the pepper-spraying incident alive by erecting a statue of Officer Pike on campus."
 opt_in: false
 additional_fields: 
