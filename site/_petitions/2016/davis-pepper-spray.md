@@ -20,7 +20,8 @@ target_country: US
 search_description: "UC Davis is trying to scrub references to a 2011 pepper-spraying incident from the Internet. Instead they should memorialize the event with a statue of the pepper-spraying cop on campus."
 twittertext: "Don't let UC Davis hide history. Tell @lindakatehi to erect a statue of the pepper-spraying cop on campus."
 social_title: "Erect a statue of the pepper-spraying cop on UC Davis campus. "
-social_description: "UC Davis wants you to forget that time they casually pepper-sprayed their students. Instead they should commemorate it with a statue on campus."
+social_description: 
+  Tell UC Davis Chancellor Katehi: "erect a statue of the pepper-spraying cop on campus to keep the memory alive."
 share_image: ""
 share_image_dims: ""
 published: true
