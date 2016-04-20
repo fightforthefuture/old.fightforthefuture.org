@@ -22,7 +22,7 @@ social_title: "Erect a statue of the pepper-spraying cop on UC Davis campus. "
 social_description: "UC Davis wants you to forget that time they casually pepper-sprayed their students. Instead they should commemorate it with a statue on campus."
 share_image: ""
 share_image_dims: ""
-published: false
+published: true
 ---
 ![2016-04-19_15-28-35.jpg]({{site.baseurl}}/img/action-network/2016-04-19_15-28-35.jpg)
 
