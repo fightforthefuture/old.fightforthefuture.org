@@ -215,6 +215,8 @@ window.components.petitions = function (doc, win) {
           email: doc.getElementById('form-email').value,
           tags: JSON.parse(doc.querySelector('[name="subscription[tag_list]"]').value)
         };
+        if (util.getReferrerTag())
+          petitionFormData['tags'].push(util.getReferrerTag());
 
       if (doc.getElementById('opt-in').getAttribute('type') === 'checkbox' &&
           doc.getElementById('opt-in').checked === false) {
