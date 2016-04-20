@@ -2,7 +2,7 @@
 date: "2016-04-20 10:34 -0400"
 layout: "action-network-petitions"
 design: "white-two-column"
-action_network_title: Tell Chancellor Katehi
+action_network_title: "Tell Chancellor Katehi\""
 action_network_petition_slug: "uc-davis-wants-you-to-forget-that-time-they-casually-pepper-sprayed-their-students"
 tags: 
   - censorship
@@ -11,10 +11,11 @@ headline: "UC Davis wants you to forget that time they casually pepper-sprayed t
 petition_copy: "Keep the memory of the pepper-spraying incident alive by erecting a statue of Officer Pike on campus."
 opt_in: false
 additional_fields: 
+  - name
   - "null"
 required_fields: 
   - "null"
-action_text: Take action
+action_text: Sign the petition
 target_country: US
 search_description: "UC Davis is trying to scrub references to a 2011 pepper-spraying incident from the Internet. Instead they should memorialize the event with a statue of the pepper-spraying cop on campus."
 twittertext: "Don't let UC Davis hide history. Tell @lindakatehi to erect a statue of the pepper-spraying cop on campus."
