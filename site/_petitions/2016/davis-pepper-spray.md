@@ -22,8 +22,10 @@ social_title: "Erect a statue of the pepper-spraying cop on UC Davis campus. "
 social_description: "UC Davis wants you to forget that time they casually pepper-sprayed their students. Instead they should commemorate it with a statue on campus."
 share_image: ""
 share_image_dims: ""
-published: true
+published: false
 ---
+![2016-04-19_15-28-35.jpg]({{site.baseurl}}/img/action-network/2016-04-19_15-28-35.jpg)
+
 ## UC Davis spent at least $175,000 to scrub references of the incident from the Internet. That’s not right.
 
 In November 2011, UC Davis police officer John Pike pepper sprayed, at point-blank range, dozens of students who were peacefully protesting against a tuition hike. Officer Pike used military-grade MK-9, one of the most potent pepper sprays available, and he conducted the operation with a casual diregard for public safety, as if we was in his yard killing weeds.  
