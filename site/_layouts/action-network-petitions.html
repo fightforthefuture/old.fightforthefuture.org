@@ -35,13 +35,13 @@
 </header>
 
 <header class="hero {{ page.design }}">
-  <h1>{{ page.headline }}</h1>
+  <h1 id="action-network-title">{{ page.action_network_title }}</h1>
 </header>
 
 <main class="{{ page.design }}">
   <section class="petition-box" id="petition-box">
     <article class="petition-text">
-      <h2 id="petition-title">{{ page.action_network_title }}</h2>
+      <h2>{{ page.petition_title }}</h2>
       <blockquote>
         {{ page.petition_copy | default: '' | markdownify }}
       </blockquote>

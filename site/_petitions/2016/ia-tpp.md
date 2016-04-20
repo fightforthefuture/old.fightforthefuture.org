@@ -3,12 +3,10 @@ date: "2016-03-30 23:30:14 -0500"
 layout: "action-network-petitions"
 design: "white-two-column"
 search_title: The TPP is a bad deal for Internet users.
-headline: "The TPP is a bad deal for Internet users."
 action_network_title: "The TPP is a bad deal for Internet users. But these tech companies just endorsed it."
-petition_copy: |
-  ### Tell tech companies not to support the TPP:
-  Do not betray your users. The TPP lacks transparency, undermines our basic rights, and harms free speech and innovation. Drop your support now.
 action_network_petition_slug: "the-tpp-is-a-bad-deal-for-internet-users-but-these-tech-companies-just-endorsed-it"
+petition_title: "Tell tech companies not to support the TPP"
+petition_copy: Do not betray your users. The TPP lacks transparency, undermines our basic rights, and harms free speech and innovation. Drop your support now.
 tags:
   - tpp
 opt_in: true
