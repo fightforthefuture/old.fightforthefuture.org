@@ -103,22 +103,22 @@ prose:
       - name: 'action_network_title'
         field:
           element: 'text'
-          label: 'Action Network title'
+          label: 'Copy from Action Network: Petition Title'
           placeholder: 'Tell President Knowles:'
-          help: '**Copy from Action Network** This renders as the title of the page.'
+          help: 'This renders as the title of the page, is also used to look up petition information.'
       - name: 'action_network_petition_slug'
         field:
           element: 'text'
-          label: 'Action Network Slug'
-          help: '**Copy from Action Network** looks like the title with hyphens.'
+          label: 'Copy from Action Network: Slug'
+          help: 'Looks like the title with hyphens.'
           placeholder: 'free-pizza-day'
           value: ''
       - name: 'tags'
         field:
           element: 'multiselect'
-          label: 'Action Network Tags'
+          label: 'Copy from Action Network: Tags'
           alterable: false
-          help: '**Copy from Action Network** Any tags you wish to be assigned to signers.'
+          help: 'Any tags you wish to be assigned to signers.'
           options:
             - name: 'admin'
               value: 'admin'
