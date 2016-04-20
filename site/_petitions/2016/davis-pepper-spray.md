@@ -26,7 +26,7 @@ share_image: ""
 share_image_dims: ""
 published: true
 ---
-![2016-04-19_15-28-35.jpg]({{site.baseurl}}/img/action-network/2016-04-19_15-28-35.jpg)
+![pepper-spray-statue.jpg]({{site.baseurl}}/img/action-network/pepper-spray-statue.jpg)
 
 ## UC Davis spent at least $175,000 to scrub references of the incident from the Internet. That’s not right.
 
