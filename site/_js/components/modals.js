@@ -11,7 +11,7 @@
     var
       modal = doc.getElementsByClassName('overlay')[0];
 
-    modal.setAttribute('style', 'opacity: 0');
+    modal.classList.remove('visible');
 
     win.setTimeout(function () {
       while (modal.firstChild) {
@@ -67,7 +67,9 @@
     overlay.appendChild(modal);
     body.appendChild(overlay);
 
-    overlay.classList.add('visible');
+    win.setTimeout(function () {
+      overlay.classList.add('visible');
+    }, 50);
   }
 
   win.modals.dismissModal = dismissModal;
