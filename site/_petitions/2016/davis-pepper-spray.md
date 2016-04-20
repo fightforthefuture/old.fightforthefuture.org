@@ -2,7 +2,7 @@
 date: "2016-04-20 10:34 -0400"
 layout: "action-network-petitions"
 design: "white-two-column"
-action_network_title: "Tell Chancellor Katehi\""
+action_network_title: "Tell Chancellor Katehi:"
 action_network_petition_slug: "uc-davis-wants-you-to-forget-that-time-they-casually-pepper-sprayed-their-students"
 tags: 
   - censorship
