@@ -1,4 +1,5 @@
 var Habitat = require('habitat');
+var saveLicense = require('uglify-save-license');
 
 Habitat.load('.env');
 
@@ -13,12 +14,12 @@ module.exports = function (grunt) {
 
   require('time-grunt')(grunt);
   require('jit-grunt')(grunt, {});
-  var saveLicense = require('uglify-save-license');
 
   grunt.initConfig({
     site: {
       app: 'site',
-      dist: 'public'
+      dist: 'public',
+      scripts: 'scripts'
     },
 
     clean: {
@@ -34,7 +35,10 @@ module.exports = function (grunt) {
 
     execute: {
       sync_tumblr: {
-        src: ['sync_tumblr.js']
+        src: ['<%= site.scripts %>/sync_tumblr.js']
+      },
+      sync_petitions: {
+        src: ['<%= site.scripts %>/prefetch_ids.js']
       }
     },
 
@@ -42,12 +46,14 @@ module.exports = function (grunt) {
       options: {
         bundleExec: true,
         config: '_config.yml',
+        //config: '_config.yml,_config_petition_ids.yml',
         dest: '<%= site.dist %>',
         src: '<%= site.app %>'
       },
       build: {
         options: {
           config: '_config.yml,_config.build.yml'
+          //config: '_config.yml,_config.build.yml,_config_petition_ids.yml'
         }
       },
       review: {
@@ -206,8 +212,7 @@ module.exports = function (grunt) {
 
     concat: {
       options: {
-        sourceMap: true,
-        // separator: grunt.util.linefeed + ';'
+        sourceMap: true
       },
       javascript: {
         files: [
@@ -250,6 +255,10 @@ module.exports = function (grunt) {
     },
 
     concurrent: {
+      external_scripts: [
+        //'execute:sync_petitions',
+        'execute:sync_tumblr'
+      ],
       compile: [
         'copy',
         'less:css',
@@ -269,8 +278,8 @@ module.exports = function (grunt) {
 
   grunt.registerTask('build', [
     'clean:init',
+    'concurrent:external_scripts',
     'jekyll:build',
-    'execute:sync_tumblr',
     'concurrent:compile',
     'uglify:js',
     'postcss:build'
