@@ -6,7 +6,7 @@ action_network_title: "UC Davis wants you to forget that time they casually pepp
 action_network_petition_slug: "uc-davis-wants-you-to-forget-that-time-they-casually-pepper-sprayed-their-students"
 tags: 
   - censorship
-search_title: "Erect a statue of the pepper-spraying cop on UC Davis campus. "
+search_title: "Let's put a statue of the pepper-spraying cop on UC Davis campus. "
 petition_title: "Tell Chancellor Katehi:"
 petition_copy: "Keep the memory of the pepper-spraying incident alive by erecting a statue of Officer Pike on campus."
 opt_in: false
