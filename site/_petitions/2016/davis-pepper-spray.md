@@ -4,16 +4,16 @@ layout: "action-network-petitions"
 design: "white-two-column"
 action_network_title: "UC Davis wants you to forget that time they casually pepper-sprayed their students."
 action_network_petition_slug: "uc-davis-wants-you-to-forget-that-time-they-casually-pepper-sprayed-their-students"
-tags: 
+tags:
   - censorship
 search_title: "Let's put a statue of the pepper-spraying cop on UC Davis campus. "
 petition_title: "Tell Chancellor Katehi:"
 petition_copy: "Keep the memory of the pepper-spraying incident alive by erecting a statue of Officer Pike on campus."
 opt_in: false
-additional_fields: 
+additional_fields:
   - name
   - "null"
-required_fields: 
+required_fields:
   - "null"
 action_text: Sign the petition
 target_country: US
@@ -35,3 +35,4 @@ The [Sacramento Bee](http://www.sacbee.com/news/local/education/article71659992.
 
 Censoring history will only make violence against peaceful protestors more likely in the future. As an educational institution, UC Davis should place knowledge and truth above branding public relations. Rather than covering it up, UC Davis Chancellor Linda Katehi should keep the memory of the pepper-spraying incident alive by erecting a permanent statue of Office Pike on campus.
 
+{% embed_video video_provider='facebook' video_id='1134173226602802' %}

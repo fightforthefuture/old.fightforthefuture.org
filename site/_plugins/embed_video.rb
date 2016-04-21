@@ -1,8 +1,8 @@
 # Creates a Liquid embed_video tag. The usage should follow:
 #
-#   {% embed_video video_id=VIDEO video_provider=YOUTUBEorVIMEO %}
-
-# This will embed a responsive video from YouTube or Vimeo.
+#   {% embed_video video_id=VIDEO video_provider=YOUTUBEorVIMEOorFACEBOOK %}
+#
+# This will embed a responsive video from YouTube, Vimeo, or Facebook.
 # ------------------------------------------------------------------------------
 
 module Jekyll
@@ -24,13 +24,16 @@ module Jekyll
     end
 
     def render(context)
-      video_url = '#'
-      if @attributes['video_provider'] == 'youtube'
-        video_url = "https://www.youtube-nocookie.com/embed/#{@attributes['video_id']}?rel=0"
-      elsif @attributes['video_provider'] == 'vimeo'
-        video_url = "https://vimeo.com/" + @attributes['video_id']
+      video_url = case @attributes['video_provider'].downcase
+        when 'youtube'
+          "https://www.youtube-nocookie.com/embed/#{@attributes['video_id']}?rel=0"
+        when 'vimeo'
+          "https://vimeo.com/" + @attributes['video_id']
+        when 'facebook'
+          "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffightfortheftr%2Fvideos%2F" + @attributes['video_id'] + "%2F%3Ftype%3D3&show_text=0&width=1280"
+        else
+          "#"
       end
-
       (<<-MARKUP)
 <div class="video">
   <iframe width="1280" height="720" src="#{video_url}" frameborder="0" allowfullscreen></iframe>
