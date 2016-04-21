@@ -8,7 +8,7 @@ tags:
   - censorship
 search_title: "Erect a statue of the pepper-spraying cop on UC Davis campus. "
 petition_title: "Tell Chancellor Katehi:"
-petition_copy: "Keep the memory of the pepper-spraying incident alive by erecting a statue of Lt. Pike on campus."
+petition_copy: "Keep the memory of the pepper-spraying incident alive by erecting a statue of Officer Pike on campus."
 opt_in: false
 additional_fields: 
   - name
@@ -27,7 +27,7 @@ published: true
 ---
 ![pepper-spray-statue.jpg]({{site.baseurl}}/img/action-network/pepper-spray-statue.jpg)
 
-## The University has spent $175,000 to scrub the incident from the Internet. Instead they should commemorate it by erecting a statue of the pepper-spraying cop on campus.
+## The University has spent $175,000 to scrub the incident from the Internet. Instead they should commemorate it by putting a statue of the pepper-spraying cop on campus.
 
 In November 2011, UC Davis police officer John Pike pepper sprayed, at point-blank range, dozens of students who were peacefully protesting against a tuition hike. Officer Pike used military-grade MK-9, one of the most potent pepper sprays available, and he conducted the operation with a casual diregard for public safety.
 
