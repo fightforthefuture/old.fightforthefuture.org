@@ -205,7 +205,44 @@ window.components.petitions = function (doc, win) {
        * Compiles the form data into a JSON payload for Ajax submission
        * @return {object} petitionFormData - just the info the API needs
        * */
+      var tags = JSON.parse(doc.querySelector('[name="subscription[tag_list]"]').value);
+      if (util.getReferrerTag())
+        tags.push(util.getReferrerTag());
 
+      var formData = new FormData();
+      formData.append('guard', '');
+      formData.append('hp_enabled', true);
+      formData.append('org', 'fftf');
+      formData.append('an_id', objectIdentifier);
+      formData.append('an_website', win.location.origin);
+      formData.append('an_tags', JSON.stringify(tags));
+      formData.append('member[email]', doc.getElementById('form-email').value);
+      formData.append('member[postcode]', doc.getElementById('form-zip_code').value);
+      formData.append('member[country]', countrySelect.value);
+
+      if (doc.getElementById('opt-in').getAttribute('type') === 'checkbox' &&
+        doc.getElementById('opt-in').checked === false) {
+        formData.append('opt_out', false);
+      }
+
+      if (doc.getElementById('form-street_address')) {
+        formData.append('member[street_address]', doc.getElementById('form-street_address').value);
+      }
+
+      if (doc.getElementById('form-first_name')) {
+        formData.append('member[first_name]', doc.getElementById('form-first_name').value);
+      }
+
+      if (doc.getElementById('form-comments')) {
+        formData.append('action_comment', doc.getElementById('form-comments').value);
+      }
+
+      return formData;
+
+      //////////////////////////////////////////////////////////////////////////
+      // JL NOTE ~ DISABLED IN FAVOR OF MOTHERSHIP QUEUE LOL LOL LOL
+      //////////////////////////////////////////////////////////////////////////
+      /*
       var
         petitionFormData = {
           identifier: objectIdentifier,
@@ -240,6 +277,7 @@ window.components.petitions = function (doc, win) {
       }
 
       return JSON.stringify(petitionFormData);
+      */
     }
 
     function loadSignatureResponse() {
@@ -279,11 +317,12 @@ window.components.petitions = function (doc, win) {
       }
     }
 
-    signatureSubmission.open('POST', petitionSignatureForm.dataset.host + '/signature', true);
-    signatureSubmission.setRequestHeader('Content-Type', 'application/json');
+    signatureSubmission.open('POST', 'https://queue.fightforthefuture.org/action', true);
+    // signatureSubmission.open('POST', 'http://localhost:9001/action', true); // JL DEBUG ~
     signatureSubmission.addEventListener('error', handleSigningError);
     signatureSubmission.addEventListener('load', loadSignatureResponse);
     signatureSubmission.send(compilePayload());
+    console.log(compilePayload())
   }
 
   function slideInStickyBar() {
