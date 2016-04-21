@@ -33,5 +33,5 @@ In November 2011, UC Davis police officer John Pike [pepper sprayed](https://www
 
 The [Sacramento Bee](http://www.sacbee.com/news/local/education/article71659992.html) recently reported that UC Davis hired consultants to try to erase the incident from the Internet. According to documents they obtained, the University paid a public relatinos firm called Nevins & Associates to "clean up the negative attention the Univesity of California, Davis and Chancellor Katehi have received" and to "expedite the eradication of references to the pepper spray incident in search results."
 
-Censoring history will only make violence against peaceful protestors more likely in the future. As an educational institution, UC Davis should place knowledge and truth above branding public relations. Rather than covering it up, UC Davis Chancellor Linda Katehi should commemorate the pepper-spraying incident by erecting a permanent statue of Office Pike on campus.
+Censoring history will only make violence against peaceful protestors more likely in the future. As an educational institution, UC Davis should place knowledge and truth above branding public relations. Rather than covering it up, UC Davis Chancellor Linda Katehi should keep the memory of the pepper-spraying incident alive by erecting a permanent statue of Office Pike on campus.
 
