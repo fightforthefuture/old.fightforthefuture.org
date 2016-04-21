@@ -7,21 +7,21 @@ action_network_petition_slug: "comey-resign"
 action_network_title: Tell FBI Director James Comey to Resign
 petition_title: ""
 petition_copy: Sign to add your name to the open letter below.
-tags:
+tags: 
   - encryption
 opt_in: true
 target_country: US
 action_text: "Sign now!"
 search_description: Open Letter telling FBI Director James Comey to Resign
-twittertext: "The Director of the FBI is losing it. Tell him to resign https://www.fightforthefuture.org/2016/comey-resign/"
+twittertext: The Director of the FBI is losing it. Tell him to resign
 social_title: The director of the FBI is losing it
 social_description: The Apple vs FBI case is just his latest disaster. James Comey is out of control.
 share_image: "/img/action-network/comey1.jpeg"
 share_image_dims: 1160 x 629
 published: true
-additional_fields:
+additional_fields: 
   - name
-required_fields:
+required_fields: 
   - name
 ---
 
