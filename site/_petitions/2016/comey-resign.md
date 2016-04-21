@@ -7,7 +7,7 @@ action_network_petition_slug: "comey-resign"
 action_network_title: Tell FBI Director James Comey to Resign
 petition_title: ""
 petition_copy: Sign to add your name to the open letter below.
-tags: 
+tags:
   - encryption
 opt_in: true
 target_country: US
@@ -19,12 +19,11 @@ social_description: The Apple vs FBI case is just his latest disaster. James Com
 share_image: "/img/action-network/comey1.jpeg"
 share_image_dims: 1160 x 629
 published: true
-additional_fields: 
+additional_fields:
   - name
-required_fields: 
+required_fields:
   - name
 ---
-
 ![comey1.jpeg]({{site.baseurl}}/img/action-network/comey1.jpeg)
 
 ## Open letter to FBI Director James Comey: You're out of control. It's time to resign.

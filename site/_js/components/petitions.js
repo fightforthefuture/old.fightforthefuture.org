@@ -213,6 +213,7 @@ window.components.petitions = function (doc, win) {
       formData.append('guard', '');
       formData.append('hp_enabled', true);
       formData.append('org', 'fftf');
+      formData.append('tag', window.location.pathname);
       formData.append('an_id', objectIdentifier);
       formData.append('an_website', win.location.origin);
       formData.append('an_tags', JSON.stringify(tags));
