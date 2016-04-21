@@ -8,7 +8,7 @@ tags:
   - censorship
 search_title: "Erect a statue of the pepper-spraying cop on UC Davis campus. "
 petition_title: "Tell Chancellor Katehi:"
-petition_copy: "Keep the memory of the pepper-spraying incident alive by erecting a statue of Officer Pike on campus."
+petition_copy: "Keep the memory of the pepper-spraying incident alive by erecting a statue of the pepper-spraying cop on campus."
 opt_in: false
 additional_fields: 
   - name
