@@ -14,13 +14,13 @@ opt_in: true
 additional_fields: 
   - name
 required_fields: null
-action_text: Take action
+action_text: "Sign now!"
 target_country: US
 search_description: null
 twittertext: "The Senate Intelligence Committee is trying to outlaw encryption. Tell Congress, \"Digital security saves lives.\""
 social_title: Encryption Banned in US
 social_description: The Senate Intelligence Committee is trying to outlaw encryption. Tell Congress to vote NO on any bill that would weaken digital security.
-share_image: ""
+share_image: "/img/action-network/encryption.jpg"
 share_image_dims: ""
 published: false
 ---
