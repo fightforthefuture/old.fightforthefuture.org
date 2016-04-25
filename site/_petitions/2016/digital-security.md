@@ -8,8 +8,7 @@ tags:
   - encryption
 search_title: "Tell Congress, Save Digital Security"
 petition_title: Digital security is physical safety
-petition_copy: 
-  Tell Congress: “Encryption keeps us safe. Vote no on ANY bill that would weaken security or require government backdoors.”
+petition_copy: "Tell Congress, “Encryption keeps us safe. Vote no on ANY bill that would weaken security or require government backdoors.”"
 opt_in: true
 additional_fields: 
   - name
