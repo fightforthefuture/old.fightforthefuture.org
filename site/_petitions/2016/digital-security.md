@@ -8,7 +8,7 @@ tags:
   - encryption
 search_title: "Tell Congress, Save Digital Security"
 petition_title: The Senate Intelligence Committee is about to try to ban encryption
-petition_copy: 
+petition_copy: |
   Digital security is physical safety. Tell Congress: “Encryption keeps us safe. Vote no on ANY bill that would weaken security or require government backdoors.”
 opt_in: true
 additional_fields: 
@@ -21,7 +21,7 @@ twittertext: "The Senate Intelligence Committee is trying to outlaw encryption. 
 social_title: Encryption Banned in US
 social_description: The Senate Intelligence Committee is trying to outlaw encryption. Tell Congress to vote NO on any bill that would weaken digital security.
 share_image: "/img/action-network/encryption.jpg"
-share_image_dims: ""
+share_image_dims: "1924 x 1924"
 published: true
 ---
 ## A bill that would ban encryption in the U.S. is about to be introduced
