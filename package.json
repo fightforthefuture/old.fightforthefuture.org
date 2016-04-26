@@ -4,14 +4,19 @@
   "description": "Primary website for Fight for the Future",
   "main": "app",
   "license": "GPL-3.0",
-  "authors": [{
-      "name": "Aki Rose",
-      "email": "aki@fightforthefuture.org",
-      "url": "https://github.com/gesa/"
-    }],
+  "contributors": [
+    "Aki Rose <aki@fightforthefuture.org> (https://github.com/gesa/)",
+    "Jeff Lyon",
+    "Vasjen Katro",
+    "Holmes Wilson",
+    "Tiffiniy Cheng",
+    "Sarah Roth Gaudette",
+    "Evan Greer",
+    "Lizzy Jean"
+  ],
   "engines": {
-    "node": "^5.0.0",
-    "npm": "^3.4.0"
+    "node": "^5",
+    "npm": "^3.4"
   },
   "private": true,
   "repo": "fightforthefuture/fightforthefuture.github.io",
