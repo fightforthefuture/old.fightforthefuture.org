@@ -28,7 +28,7 @@
     "predeploy": "node scripts/generate_fp_token.js",
     "deploy": "./deploy-ghpages.sh",
     "review": "grunt review",
-    "postreview": "node review-apps"
+    "postreview": "node scripts/review-apps"
   },
   "dependencies": {
     "autoprefixer": "^6.1.0",
