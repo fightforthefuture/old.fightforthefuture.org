@@ -4,8 +4,8 @@ Habitat.load();
 
 var
   env = new Habitat('', {}),
-  tumblrKeys = env.get('tumblr'),
-  awsKeys = env.get('aws');
+  tumblrKeys = env.get('tumblr') || {},
+  awsKeys = env.get('aws') || {};
 
 if (
   !tumblrKeys.api_key
