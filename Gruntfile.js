@@ -256,7 +256,7 @@ module.exports = function (grunt) {
 
     concurrent: {
       external_scripts: [
-        //'execute:sync_petitions',
+        'execute:sync_petitions',
         'execute:sync_tumblr'
       ],
       compile: [
