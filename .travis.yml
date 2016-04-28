@@ -17,10 +17,7 @@ script:
 after_success:
   - npm run-script deploy
 env:
-  - CXX=g++-4.8
-  - AWS_S3_BUCKET=s3.fightforthefuture.org
-  - AWS_S3_FOLDER=images/blog
-  - PETITIONS_API=https://info.fightforthefuture.org
+  - CXX=g++-4.8 AWS_S3_BUCKET=s3.fightforthefuture.org AWS_S3_FOLDER=images/blog PETITIONS_API=https://info.fightforthefuture.org
 addons:
   apt:
     sources:
