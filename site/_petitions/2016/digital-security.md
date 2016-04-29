@@ -2,19 +2,19 @@
 date: "2016-04-22 10:17 -0500"
 layout: "action-network-petitions"
 design: "white-two-column"
-action_network_title: Never weaken digital security
+action_network_title: "Burr-Feinstein Bill Tries To Outlaw Encryption"
 action_network_petition_slug: "never-weaken-digital-security"
-tags:
+tags: 
   - encryption
 search_title: Tell Congress Save Digital Security
-headline: Never weaken digital security
-petition_title: Digital security is physical safety
-petition_copy: "The Senate Intelligence Committee is trying to outlaw life-saving security. **Sign now to tell Congress, “Encryption keeps us safe. Vote no on ANY bill that would weaken security or require government backdoors.”**"
+headline: "Burr-Feinstein Bill Tries To Outlaw Encryption"
+petition_title: "The Senate Intelligence Committee is trying to outlaw life-saving security."
+petition_copy: ""
 opt_in: true
-additional_fields:
+additional_fields: 
   - name
-required_fields:
-  - null
+required_fields: 
+  - "null"
 action_text: "Sign now!"
 target_country: US
 search_description: null
@@ -25,9 +25,9 @@ share_image: "/img/action-network/BF.jpg"
 share_image_dims: 1924 x 1924
 published: true
 ---
-## Burr-Feinstein Bill Tries To Outlaw Encryption
-
 ![BF.jpg]({{site.baseurl}}/img/action-network/BF.jpg)
+
+## Digital Security is Physical Safety
 
 The technically [inept](http://www.latimes.com/opinion/editorials/la-ed-encryption-back-door-20160420-story.html) co-chairs of the Senate Intelligence Committee have drafted a bill that would undo current digital security technologies instead of protecting our sensitive data and physical safety. Security experts are [saying](http://www.wired.com/2016/04/senates-draft-encryption-bill-privacy-nightmare/) this is one of the most “ridiculous, technologically illiterate, and outright dangerous pieces of legislation that Congress has cooked up. Ever.”
 
