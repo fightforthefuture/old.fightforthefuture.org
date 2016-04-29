@@ -1,10 +1,11 @@
 /**
- * words words words
+ * Sends a request to the Action Network middleman to fetch petition IDs.
  *
  * @param {string} apiUrl - fftf action network middleman api url
  * */
 
 var http = require('http');
+var https = require('https');
 var url = require('url');
 var Habitat = require('habitat');
 var fs = require('fs');
@@ -33,7 +34,7 @@ var
 
     fs.writeFile('_config_petition_ids.yml', petitionsConfig, 'utf-8', function (error) {
       if (error) {
-        console.error('it’s not good, Lin.');
+        console.error('it’s not good, Lin.', error);
         return false;
       }
 
@@ -48,18 +49,18 @@ var
   return new Promise(function (successCallback, failureCallback) {
     var
       location = url.parse(env.get('petitions').api),
+      protocol = location.protocol === 'https' ? https : http,
       options = {
         hostname: location.hostname,
         path: '/petition/list',
         method: 'GET',
-        protocol: location.protocol,
         port: location.port,
         headers: {
           'Content-Type': 'application/json'
         }
       },
       responseData = '',
-      request = http.request(options, function (response) {
+      request = protocol.request(options, function (response) {
         response.setEncoding('utf8');
 
         response.on('data', function (chunk) {
