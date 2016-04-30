@@ -12,18 +12,14 @@ var request = require('request');
 Habitat.load('.env');
 
 var
+  identifiers = [],
   env = new Habitat('', {
-    petitions_api: 'http://0.0.0.0:9104'
-  }),
-  location = url.parse(env.get('petitions').api + '/petition/list');
+    actionnetwork_url: 'https://actionnetwork.org',
+    actionnetwork_apikey: 'fff77784046dc3393ba51097511e011fdeb9f384' // definitely not 90's pop lyrics, nope.
+  });
 
-if (location.hostname === '0.0.0.0') {
-  console.info('Either your petitions api url isn’t set, or you thought ahead and set it to a local instance.')
-}
-
-function compilePetitionsConfig(responseData) {
+function compilePetitionsConfig(petitions) {
   var
-    petitions = JSON.parse(responseData),
     petitionsConfig = 'petition_identifiers:\n',
     i = petitions.length;
 
@@ -42,21 +38,50 @@ function compilePetitionsConfig(responseData) {
   });
 }
 
-request({
-  url: location,
-  headers: {'Content-Type': 'application/json'}
-}, function (error, response, body) {
-  "use strict";
+function sendPetitionsRequest(page) {
 
-  if (error || response.statusCode !== 200) {
-    console.error('Prefetching petition identifiers failed. The script attempted to connect to\n' +
-      location.host + ', but returned an error of', error);
-
-    if (env.get('travis')) {
-      process.exit(1);
+  request({
+    url: url.parse(env.get('actionnetwork').url + '/api/v2/petitions' + page),
+    headers: {
+      'Content-Type': 'application/json',
+      'OSDI-API-Token': env.get('actionnetwork').apikey
     }
-    return false;
-  }
+  }, function (error, response, body) {
+    "use strict";
 
-  compilePetitionsConfig(body);
-});
+    var
+      data = JSON.parse(body),
+      petitionsObject = data._embedded['osdi:petitions'],
+      i = petitionsObject.length;
+
+    if (error || response.statusCode !== 200) {
+      console.error('Prefetching petition identifiers failed. The script attempted to connect to\n' +
+        env.get('actionnetwork').url + ', but returned an error of ', error);
+
+      if (env.get('travis')) {
+        process.exit(1);
+      }
+      return false;
+    }
+
+    if (i > 0) {
+      while (i--) {
+        identifiers.push({
+          title: petitionsObject[i].title,
+          identifier: petitionsObject[i].identifiers[0].replace('action_network:', '')
+        });
+      }
+
+      if (data.page < data.total_pages) {
+        sendPetitionsRequest('?page=' + (data.page + 1));
+      } else {
+        compilePetitionsConfig(identifiers);
+      }
+
+    } else {
+      console.error('Action Network thinks there are zero petitions.');
+    }
+  });
+}
+
+sendPetitionsRequest('?page=1');
