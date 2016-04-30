@@ -12,10 +12,7 @@ petition_copy: "Fridays should be free pizza day. Push legislation today to brin
 opt_in: false
 allow_comments: false
 additional_fields:
-  - name
   - street_address
-required_fields:
-  - name
 target_country: US
 search_description: null
 default_donation_frequency: "just-once"

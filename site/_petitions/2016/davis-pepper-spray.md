@@ -11,8 +11,6 @@ search_title: "Let's put a statue of the pepper-spraying cop on UC Davis campus.
 petition_title: "Tell Chancellor Katehi:"
 petition_copy: "Keep the memory of the pepper-spraying incident alive by erecting a statue of Officer Pike on campus."
 opt_in: false
-additional_fields:
-  - name
 action_text: Sign the petition
 target_country: US
 search_description: "UC Davis is trying to scrub references to a 2011 pepper-spraying incident from the Internet. Instead they should memorialize the event with a statue of the pepper-spraying cop on campus."

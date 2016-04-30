@@ -254,8 +254,6 @@ prose:
           help: 'By default, all forms include Email and ZIP/Post Code. Select additional fields to appear on the petition here.'
           label: 'Additional form fields'
           options:
-            - name: 'Name'
-              value: name
             - name: 'Street address'
               value: street_address
             - name: 'City'
@@ -268,8 +266,6 @@ prose:
           label: 'Required fields'
           help: 'If any of the additional fields selected above are meant to be required, choose them here.'
           options:
-            - name: 'Name'
-              value: name
             - name: 'Street address'
               value: street_address
             - name: 'City'
