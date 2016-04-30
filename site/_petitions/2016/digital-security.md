@@ -9,7 +9,7 @@ tags:
 search_title: Tell Congress Save Digital Security
 headline: "Burr-Feinstein Bill Tries To Outlaw Encryption"
 petition_title: "The Senate Intelligence Committee is trying to outlaw life-saving security."
-petition_copy: ""
+petition_copy: "Sign now to tell Congress, “Encryption keeps us safe. Vote no on ANY bill that would weaken security or require government backdoors.”"
 opt_in: true
 additional_fields: 
   - name
