@@ -4,77 +4,59 @@
  * @param {string} apiUrl - fftf action network middleman api url
  * */
 
-var http = require('http');
-var https = require('https');
 var url = require('url');
 var Habitat = require('habitat');
 var fs = require('fs');
+var request = require('request');
 
 Habitat.load('.env');
 
 var
   env = new Habitat('', {
     petitions_api: 'http://0.0.0.0:9104'
-  });
+  }),
+  location = url.parse(env.get('petitions').api + '/petition/list');
 
-(function () {
-  "use strict";
+if (location.hostname === '0.0.0.0') {
+  console.info('Either your petitions api url isn’t set, or you thought ahead and set it to a local instance.')
+}
 
-  function compilePetitionsConfig(responseData) {
+function compilePetitionsConfig(responseData) {
+  var
+    petitions = JSON.parse(responseData),
+    petitionsConfig = 'petition_identifiers:\n',
+    i = petitions.length;
 
-    var
-      petitions = JSON.parse(responseData),
-      petitionsConfig = 'petition_identifiers:\n',
-      i = petitions.length;
+  while (i--) {
+    petitionsConfig += '  "' + petitions[i].title + '": "' + petitions[i].identifier + '"\n';
+  }
 
-
-    while (i--) {
-      petitionsConfig += '  "' + petitions[i].title + '": "' + petitions[i].identifier + '"\n';
+  fs.writeFile('_config_petition_ids.yml', petitionsConfig, 'utf-8', function (error) {
+    if (error) {
+      console.error('Writing the petition ids to a config file didn’t work.\n' +
+        'The error message was ', error);
+      return false;
     }
 
-    fs.writeFile('_config_petition_ids.yml', petitionsConfig, 'utf-8', function (error) {
-      if (error) {
-        console.error('it’s not good, Lin.', error);
-        return false;
-      }
+    console.info('Success! ' + petitions.length + ' petitions found & written to ./_config_petition_ids.yml');
+  });
+}
 
-      console.info(petitions.length + ' petitions found.');
-    });
+request({
+  url: location,
+  headers: {'Content-Type': 'application/json'}
+}, function (error, response, body) {
+  "use strict";
+
+  if (error || response.statusCode !== 200) {
+    console.error('Prefetching petition identifiers failed. The script attempted to connect to\n' +
+      location.host + ', but returned an error of', error);
+
+    if (env.get('travis')) {
+      process.exit(1);
+    }
+    return false;
   }
 
-  function displayError(error) {
-    console.error('error: ', error);
-  }
-
-  return new Promise(function (successCallback, failureCallback) {
-    var
-      location = url.parse(env.get('petitions').api),
-      protocol = location.protocol === 'https' ? https : http,
-      options = {
-        hostname: location.hostname,
-        path: '/petition/list',
-        method: 'GET',
-        port: location.port,
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      },
-      responseData = '',
-      request = protocol.request(options, function (response) {
-        response.setEncoding('utf8');
-
-        response.on('data', function (chunk) {
-          responseData += chunk;
-        });
-
-        response.on('end', function () {
-          successCallback(responseData);
-        });
-      });
-
-    request.on('error', function (error) {
-      failureCallback(error);
-    });
-    request.end();
-  }).then(compilePetitionsConfig, displayError);
-}());
+  compilePetitionsConfig(body);
+});
