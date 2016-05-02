@@ -8,10 +8,10 @@ window.components.petitions = function (doc, win) {
   "use strict";
 
   var
-    objectIdentifier = false,
-    apiHost = doc.forms[0].dataset.host,
     body = doc.getElementsByTagName('body')[0],
     petitionSignatureForm = doc.getElementById('petition-form'),
+    apiHost = petitionSignatureForm.dataset.host,
+    objectIdentifier = petitionSignatureForm.dataset['petition-id'],
     submitButton = body.querySelector('[type="submit"]'),
     countryInput = doc.getElementById('hidden-country'),
     countrySelect = doc.getElementById('select-country'),

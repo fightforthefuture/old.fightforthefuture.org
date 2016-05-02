@@ -42,7 +42,7 @@ if (
   console.log('-----------------------------------------------------------------------');
   console.log('');
   console.log('You are missing some environment variables. That means your build isn\'t');
-  console.log('syncing posts from Tumblr API. Check out example.env for instructions.');
+  console.log('syncing posts from Tumblr API. Check out .env.sample for instructions.');
   console.log('');
   console.log('-----------------------------------------------------------------------');
   process.exit();

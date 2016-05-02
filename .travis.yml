@@ -17,7 +17,7 @@ script:
 after_success:
   - npm run-script deploy
 env:
-  - CXX=g++-4.8
+  - CXX=g++-4.8 AWS_S3_BUCKET=s3.fightforthefuture.org AWS_S3_FOLDER=images/blog ACTIONNETWORK_URL=https://actionnetwork.org
 addons:
   apt:
     sources:

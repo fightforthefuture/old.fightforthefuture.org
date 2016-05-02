@@ -104,8 +104,8 @@ prose:
         field:
           element: 'text'
           label: 'Copy from Action Network: Petition Title'
-          placeholder: 'Tell President Knowles:'
-          help: 'This renders as the title of the page, is also used to look up petition information.'
+          placeholder: 'President Knowles is withholding free pizza'
+          help: 'Used to look up petition, does not render'
       - name: 'action_network_petition_slug'
         field:
           element: 'text'
@@ -224,11 +224,17 @@ prose:
           label: 'Window/search title'
           help: 'Text that will appear as the title of the window, and also the link in a search engine.'
           placeholder: 'President Knowles has the pizza.'
+      - name: 'headline'
+        field:
+          element: 'text'
+          label: 'Page headline'
+          placeholder: 'President Knowles is withholding free pizza. Put a stop to it now.'
+          help: 'The headline for the full page.'
       - name: 'petition_title'
         field:
           element: 'text'
           label: 'Petition title'
-          placeholder: 'President Knowles is withholding free pizza. Put a stop to it now.'
+          placeholder: 'Tell President Knowles'
           help: 'This will be the title text for the petition box itself.'
       - name: 'petition_copy'
         field:

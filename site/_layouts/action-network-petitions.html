@@ -25,7 +25,6 @@
     </li>
     <li class="stickybar-donate">
       <a href="https://donate.fightforthefuture.org?amount={{ page.default_donation_amount | default: '5' }}&amp;frequency={{ page.default_donation_frequency | default: 'just-once'}}&amp;utm_source=petitions&amp;utm_medium=web&amp;utm_campaign={{ page.title | slugify }}">
-        <span class="hover-heart">&#x2665;</span>
         Donate ${{ page.default_donation_amount | default: '5' }}
       </a>
     </li>
@@ -36,7 +35,7 @@
 </header>
 
 <header class="hero {{ page.design }}">
-  <h1 id="action-network-title">{{ page.action_network_title }}</h1>
+  <h1 id="action-network-title">{{ page.headline }}</h1>
 </header>
 
 <main class="{{ page.design }}">
@@ -113,8 +112,8 @@
       <input type="checkbox" name="subscription[group]" value="13162" form="petition-form" id="opt-in" checked="checked"/>
       {% endif %}
       <a href="/">Fight for the Future</a>
-      will email you with campaign updates.
-      (<a href="/privacy">privacy policy</a>)
+      will send you updates on this &amp; other campaigns.
+      <a href="/privacy">Privacy</a>
     </label>
 
   </section>

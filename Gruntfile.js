@@ -45,15 +45,13 @@ module.exports = function (grunt) {
     jekyll: {
       options: {
         bundleExec: true,
-        config: '_config.yml',
-        //config: '_config.yml,_config_petition_ids.yml',
+        config: '_config.yml,_config_petition_ids.yml',
         dest: '<%= site.dist %>',
         src: '<%= site.app %>'
       },
       build: {
         options: {
-          config: '_config.yml,_config.build.yml'
-          //config: '_config.yml,_config.build.yml,_config_petition_ids.yml'
+          config: '_config.yml,_config.build.yml,_config_petition_ids.yml'
         }
       },
       review: {
@@ -256,7 +254,7 @@ module.exports = function (grunt) {
 
     concurrent: {
       external_scripts: [
-        //'execute:sync_petitions',
+        'execute:sync_petitions',
         'execute:sync_tumblr'
       ],
       compile: [
