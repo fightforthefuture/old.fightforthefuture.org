@@ -142,12 +142,12 @@ Our accomplishments are testament to the notion that with the right approach and
 
 ---
 
-![Lana Swartz](/img/page/aboutus/teampic/lana.png)
-: ### Deja Elana (“Lana”) Swartz
+![Lana Swartz](/img/page/aboutus/teampic/npr.png)
+: ### Nick Reville
 
   #### Treasurer
 
-  Wallis Annenberg Research Fellow, Annenberg School of Communication and Journalism, USC
+  Co-Founder and Partner at Space Inch, LLC. Co-Founder of Fight for the Future. Co-Founder of [PCF](http://www.pculture.org) and [PPF](http://ppolitics.org). Ashoka Fellow for Social Entrepreneurship.
 
 ---
 
