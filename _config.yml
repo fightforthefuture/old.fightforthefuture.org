@@ -818,6 +818,26 @@ prose:
           label: 'Share image dimensions'
           placeholder: 1200 x 630
           help: 'Use an "x" with a space on either side to denote image dimensions. Facebook recommends a minimum of 1200 x 630.'
+      - name: 'opt_in'
+        field:
+          element: checkbox
+          label: Send delayed autoresponder
+          help: 'If this box is checked, petition signers will be sent a sharing reminder after 3 days.'
+          value: true
+      - name: 'autoresponder_subject'
+        field:
+          element: 'text'
+          label: 'Delayed share autoresponder subject'
+          help: 'Subject of the delayed autoresponder email that reminds the user to share the petition. {PETITION_TITLE} is automatically replaced with the ''Page headline'' title.'
+          placeholder: 'Autoresponder subject'
+          value: '{PETITION_TITLE} - help us reach the next level!'
+      - name: 'autoresponder_text'
+        field:
+          element: 'textarea'
+          label: 'Delayed share autoresponder text'
+          help: 'Text of the delayed autoresponder email that reminds the user to share the petition. {PETITION_TITLE} is automatically replaced with the ''Page headline'' title.'
+          placeholder: 'Autoresponder text'
+          value: 'Thanks again for taking action on {PETITION_TITLE}. We need more people like you who can take action on this issue. Can you please share it to help us reach the next level?'
 baseurl: ''
 
 #############
