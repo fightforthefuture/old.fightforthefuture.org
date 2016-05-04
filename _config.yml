@@ -230,6 +230,11 @@ prose:
           label: 'Page headline'
           placeholder: 'President Knowles is withholding free pizza. Put a stop to it now.'
           help: 'The headline for the full page.'
+      - name: 'smaller_headline'
+        field:
+          element: 'checkbox'
+          label: 'Use smaller font for headline'
+          help: 'If the headline is particularly long, select this option.'
       - name: 'petition_title'
         field:
           element: 'text'
