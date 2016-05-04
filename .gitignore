@@ -4,3 +4,4 @@ npm-debug.log
 .env
 .jekyll-metadata
 _config_petition_ids.yml
+.bundle/
