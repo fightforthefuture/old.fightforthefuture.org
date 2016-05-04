@@ -4,7 +4,7 @@ class: jobs
 ---
 * [Jobs](#)
 * [Executive Managing Director](#executive-managing-director)
-* [Campaign Manager/Evangelist](#campaign-manager--evangelist)
+* [Campaign Strategist Manager/Evangelist](#campaign-strategist-manager--evangelist)
 
 ## Brief
 
@@ -66,13 +66,17 @@ If you're interested, send links to work you've done to [sarah@fightforthefuture
 
 ------
 
-# Campaign Manager / Evangelist
+# Campaign Strategist Manager / Evangelist
 
 Our organization is focused on developing high-impact campaigns that resonate with people and help them band together to exert their power. The Campaign Manager/ Evangelist position is one of the most important roles in our work - it is central to the organization and its effectiveness. If you ever wanted to build online experiences that reach out, grab people, and help them change the world, then this is the job for you. We're looking for someone to continue to build that organization with us, from the ground up.
 
 We're looking for someone smart and savvy and who can be funny and playful with ideas; we're looking for someone who can speak to people's humor, fears and what gets them going; and we want someone who has purposeful humor and creativity as well as poignant ideas and language that can cut through political gridlock and debate.
 
 We look for people with a rigorous and thought-provoking perspective on a wide range of political issues, and especially on tech and policy. We want you to be a thinker and someone who can synthesize a problem or an idea out of ordinary interaction and frustrations / struggles.
+
+We’re hiring for senior to mid-level campaigners who have experience with digital or traditional organizing but generally want to innovate to win.
+
+We have several positions, so if you have skills and expertise with just one aspect of campaigning but truly excel at it -- from digital growth to on the ground activism -- we want to hear from you. 
 
 ## Desired Skills & Experience
 
