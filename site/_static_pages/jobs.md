@@ -142,6 +142,12 @@ We have several positions, so if you have skills and expertise with just one asp
 
 * Fighting hard for something
 
+## Bonus: Digital Growth Position available
+
+* We're looking for individuals who are email list managers, deliverability experts, or social media growth experts for a Digital Manager role.
+* You should be great at digital growth strategy, using CRM's and CMS', and social media. 
+* You need to be meticulous at getting deliverability right and ambitious at developing ideas for digital growth and impact.
+
 ## Compensation
 
 Market Rate / Commensurate with Experience
