@@ -20,10 +20,6 @@ social_description: The Apple vs FBI case is just his latest disaster. James Com
 share_image: "/img/action-network/comey1.jpeg"
 share_image_dims: 1160 x 629
 published: true
-additional_fields:
-  - name
-required_fields:
-  - name
 ---
 ![comey1.jpeg]({{site.baseurl}}/img/action-network/comey1.jpeg)
 

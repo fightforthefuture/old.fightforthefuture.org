@@ -4,17 +4,13 @@ layout: "action-network-petitions"
 design: "white-two-column"
 action_network_title: "Burr-Feinstein Bill Tries To Outlaw Encryption"
 action_network_petition_slug: "never-weaken-digital-security"
-tags: 
+tags:
   - encryption
 search_title: Tell Congress Save Digital Security
 headline: "Burr-Feinstein Bill Tries To Outlaw Encryption"
 petition_title: "The Senate Intelligence Committee is trying to outlaw life-saving security."
 petition_copy: "Sign now to tell Congress, “Encryption keeps us safe. Vote no on ANY bill that would weaken security or require government backdoors.”"
 opt_in: true
-additional_fields: 
-  - name
-required_fields: 
-  - "null"
 action_text: "Sign now!"
 target_country: US
 search_description: null

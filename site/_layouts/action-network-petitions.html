@@ -58,10 +58,8 @@
     </figure>
 
     <form id="petition-form" class="petition-form" accept-charset="UTF-8" action="https://actionnetwork.org/petitions/{% if page.action_network_petition_slug != '' %}{{ page.action_network_petition_slug }}{% else %}{{ page.action_network_title | slugify }}{% endif %}/signatures" method="post" data-host="{{ site.petitions_api }}" data-petition-id="{{ site.petition_identifiers[page.action_network_title] | default: 'undefined' }}">
-      {% if page.additional_fields contains 'name' %}
-      <label class="visually-hidden" for="form-first_name">Name{% unless page.required_fields contains 'name' %} (optional){% endunless %}:</label>
-      <input type="text" id="form-first_name" class="name {{ fields_class }}" name="signature[first_name]" placeholder="Name{% unless page.required_fields contains 'name' %} (optional){% endunless %}" {% if page.required_fields contains 'name' %} required{% endif %}/>
-      {% endif %}
+      <label class="visually-hidden" for="form-first_name">Name (optional):</label>
+      <input type="text" id="form-first_name" class="name {{ fields_class }}" name="signature[first_name]" placeholder="Name (optional)" />
 
       <label class="visually-hidden" for="form-email">Email:</label>
       <input type="email" id="form-email" name="signature[email]" class="email {{ fields_class }}" placeholder="Email" required/>
