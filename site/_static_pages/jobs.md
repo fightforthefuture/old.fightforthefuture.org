@@ -74,6 +74,10 @@ We're looking for someone smart and savvy and who can be funny and playful with 
 
 We look for people with a rigorous and thought-provoking perspective on a wide range of political issues, and especially on tech and policy. We want you to be a thinker and someone who can synthesize a problem or an idea out of ordinary interaction and frustrations / struggles.
 
+You should be able to think on your feet, be organized, optimize organizational and project plans and work load, manage/delegate the different pieces of a campaign (outreach, press, writing, product) and set up the organization for long term growth. You will also interface with others, so to some extent you should have smart, powerful ideas to share with others. You should understand and be able to express in ways that resonate with your audience the nuances and overarching themes of tech policy, free internet principles, and organizing on the ground and online.
+
+We'd especially enjoy someone who has a wide interest in pulling off tactics and strategy and using whatever resources are at their disposal -- you should have an interest in using law, policies, pop culture, music, philosophy, subcultural themes, memes, language, history, media, organizing playbooks, and whatever else is out there to pull off a really hard-hitting and exciting campaign for the right audience.
+
 We’re hiring for senior to mid-level campaigners who have experience with digital or traditional organizing but generally want to innovate to win.
 
 We have several positions, so if you have skills and expertise with just one aspect of campaigning but truly excel at it -- from digital growth to on the ground activism -- we want to hear from you. 
@@ -107,6 +111,8 @@ We have several positions, so if you have skills and expertise with just one asp
 ## Compensation
 
 Market Rate / Commensurate with Experience
+Full health and dental benefits
+Office support
 
 ## Location
 
