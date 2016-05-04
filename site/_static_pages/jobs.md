@@ -3,7 +3,7 @@ layout: classic
 class: jobs
 ---
 * [Jobs](#)
-* [Executive Managing Director](#executive-managing-director)
+* [Product Director + UX Generalist](#product-director-UX-generalist)
 * [Campaign Strategist Manager/Evangelist](#campaign-strategist-manager--evangelist)
 
 ## Brief
@@ -12,57 +12,78 @@ Fight for the Future is a non-profit organization whose mission is to ensure tha
 
 ------
 
-# Executive Managing Director
+# Product Director + UX generalist, for defending the Internet.
 
-Our organization is focused on developing high-impact campaigns that resonate with people and help them band together to exert their power. The Executive Director/Operations position is central to the organization's operations and its and its effectiveness, though we will consider candidates who are more comfortable with operations management only. If you ever wanted to build online experiences that reach out, grab people, and help them them change the world, then this is the job for you.
+Fight for the Future is a non-profit organization working to innovate and build the open tech tools that amplify individual power for change and are the future of organizing to 1. Ensure that the web continues to hold freedom of expression and creativity at its core and 2. To create the pathways and strategies that dismantle barriers set up by the status quo. We customize and build tech to win with very clear political goals and are looking for a talented, versatile, product developer or director to join a new effort for mobile platform for organizing. We're looking for a strong product person who has an interest in changing the world by making apps and software that make people laugh, share, act, and hunger for more.
 
-You will help evangelize, plan and execute our campaign and organizational development strategies. You will ensure that our projects are smoothly executed, while managing the operational needs of the organization. You will be responsible for setting up and analyzing the overall organizational metrics for reach, efficacy, and fundraising, which will include the assessment, research, design, and implementation of online campaigns of the organization. The ED is responsible for overseeing finance, legal, staff, projects, and board requirements.
+Check out our work so far: http://fightforthefuture.org/
 
-You should be able to think on your feet, be organized, optimize organizational and project plans and work load, manage/delegate the different pieces of a campaign (outreach, press, writing, product) and set up the organization for long term growth. As an ED, we expect that you will also interface with others, so to some extent you should have smart, powerful ideas to share with others. You should understand and be able to express in ways that resonate with your audience the nuances and overarching themes of tech policy, free internet principles, and organizing on the ground and online.
+For anyone who cares about defending and transforming the future of tech or politics, this could be a dream job.  We're aiming to defend the Internet against bad tech and other policy and to mobilize the grassroots in that charge.  Think the EFF, but focused on large public campaigns aimed at a mass audience (rather than strategic litigation or policy work). The Product Director position is central to the organization's campaign tech and the effectiveness of our work. If you ever wanted to build online experiences that reach out, grab people, and help them them change the world, then this is the job for you. 
 
-We'd especially enjoy someone who has a wide interest in pulling off tactics and strategy and using whatever resources are at their disposal -- you should have an interest in using law, policies, pop culture, music, philosophy, subcultural themes, memes, language, history, media, organizing playbooks, and whatever else is out there to pull off a really hard-hitting and exciting campaign for the right audience.
+This is crucial work, and we’re approaching it in the most fun and pioneering ways possible, with high-impact campaigns that resonate with people, make them laugh, change minds, and help people band together to exert their power.  You will be on the front lines, building pages and software millions of people see and interact with.  
 
-## Desired Skills & Experience
+We are looking for an individual who can help plan and execute our mobile and product development strategy for online engagement during the election season. If we decide to keep working together, you role will be to oversee our campaign tech strategies later in the year. 
 
-* Running campaigns on high-impact issues, managing campaigns and responses to a fast-changing, dynamic field, Play a key role in the planning and strategy of campaign organizing and organization growth
+Ideally, you're an innovator of products for user engagement with the ability to code and/or have management experience. If you're all three, fantastic, but we are open to a product + developer or a product + manager person.
 
-* Working with a large variety of people, groups, and companies and spreading the message to as many stakeholders as possible, Finding and securing new sources for campaigns, Leading or starting coalitions
+You will help conceptualize, develop, build and/or manage our tech product strategy, taking our goal-oriented tech strategy through each phase of development with a team. You will oversee product development with the goal of meeting campaign metrics of reach, efficacy, and fundraising, which will include the assessment, research, specifications, design, and implementation of product plans. 
 
-* Manage and systematize organizational financial management and reporting, marketing & communications, data analytics & reporting, and evaluation systems.
+We are open to contract-based work for our mobile strategy work this summer, or someone who would in addition want to work in house to run the product side of our organization as a Product Manager.
 
-* Cultivate, solicit, steward, manage, and grow a diverse portfolio of contributed revenue sources to meet the organization's annual fund development needs. The organization's contributed portfolio should include, but is not limited to, support from: foundations/trusts, businesses/corporations, government, individuals, and appropriate local/state agencies.
+## If you are a product director + manager:
 
-* Lead and implement fundraising strategies on behalf of the organization both offline and online.
+You should be well versed in current product innovations, messaging apps, social media, UI/UX, design, rapid protoyping and release, user adoption, and user testing, and be able to navigate or do a cost/benefits analysis of various technical solutions, coding languages, dev/ops, and architecture-based decisions.
 
-* Develop and manage the organization's annual fundraising calendar, prospect list, and list of activities. Inform any key staff members of meetings, deadlines, talking points, any prior conversations or history with the organization, ask amount target, and likelihood of support.
+You should be able to think on your feet, be organized, optimize project plans and work load, manage/delegate the different pieces of projects and user growth. You should have smart, powerful ideas to share to reach product goals. You ideally understand online organizing and user growth strategies and can bring that into your work defining the product as well as gaining users in the real world.  We'd especially enjoy someone who has a wide interest in pulling off technological tactics and strategy and using whatever resources are at their disposal -- you should have an interest in using law, policies, pop culture, music, philosophy, subcultural themes, memes, language, history, media, organizing playbooks, and whatever else is out there to build for the right audience.
 
-* We're looking for someone smart and savvy and who can be funny and playful with ideas; we're looking for someone who can speak to people's humor, fears and what gets them going; and we want someone who has purposeful humor and creativity as well as poignant ideas and language that can cut through political gridlock and debate.
+## If you are a product director + coder:
 
-* Maintain fundraising and individual donor dashboard to track and evaluate giving trends and opportunities.
+You should be an agile programmer / hacker that can make things work and work well for millions of users at the same time while also being able to make smaller apps that work quickly and smoothly. If you can understand the scope of a problem and devise solid tech solutions on your own, you're the person we want to talk to. 
 
-* Work with executive staff and any development committee on the Board in devising fundraising goals, strategies, tactics, and campaigns or initiatives.
+You don’t need to be an expert designer or have illustration skills.  If you can both faithfully implement others’ designs and make good decisions about layout, typography, and color when needed, that’s what we’re looking for.  It’s also important that you can build high quality user interaction with intuitive prompts, clear buttons, etc, spotting and fixing UI problems as you go.  
 
-## You should also have experience
+We’re looking for somebody who can bottom-line the creation of mobile platform, but who is also always using their full brain, putting themselves in a user or a reader’s shoes.  
 
-* Running online campaigns that grow fast
+## You’ll be building things like:
 
-* Crafting exciting and persuasive actions
+* Tools and apps that get used over and over by our organization and others.
+* Internet wide infrastructure for large, decentralized actions across a coalition of websites
+* Solutions that achieve our goals by leveraging and customizing existing services (CRM, publishing tools, etc).
+* Flawless HTML/CSS and clear, modern design that supports the message.  
 
-* Using online and traditional media to achieve broad visibility (including by talking with press)
+## Things that you might like about this job:
 
-* Fighting hard for something
+* It’s telecommute work with a 100% remote team
+* The work will be highly varied, like freelancing on a variety of projects
+* You can choose the framework and tools we use to get stuff done (we have some commitment to Django right now, but could switch).
+* We can give you a contractor budget to reduce/eliminate mundane work.  Responsibility for the final result is what matters.
+* Be a hero to many.  The “yeah, I made that” small talk in bars is fun.
 
-## Compensation
+## Requirements:
 
-Market Rate / Commensurate with Experience
+* Experience building applications with a modern web framework like Django, Rails, or Node.js
+* jQuery skills
+* Ability to develop iOS / Android applications (learning as you go is okay)
+* Experience managing large databases
+* Experience in HTML/CSS with awareness of common cross-browser problems
+* Proven ability to do clean and classy design
+* Ability to make good UI/UX decisions and spot problems
 
-## Location
+## Bonus points for:
 
-The team will be 100% remote-no need to commute or relocate. If you're interested in relocation, let us know. We'd start working with you on a contract basis at an hourly rate, but we will be able to offer full-time position with competitive salary and benefits to the right person.
+* Having conceived and launched your own product
+* Ability to build and manage teams
+* Strong participation in communities like Reddit or HN
+* Lots of remote / freelance experience solving problems on tight deadlines
 
-## To apply
+## Mega bonus points for:
 
-If you're interested, send links to work you've done to [sarah@fightforthefuture.org](mailto:sarah@fightforthefuture.org). Show us that you excel at the things we're looking for. If you like, include links to or samples of your writing--ideally in situations where you're writing to persuade a group of people too. Include as much relevant information as possible: significant things you've done, projects you've worked on, etc. Being well-rounded is a plus, so don't exclude significant skills or achievements just because they aren't activism related (e.g. starting a business, or being a musician).
+* Having started a successful open source project
+* Having been a leader—of anything—especially online, especially tech-related
+* Understanding and being able to hack on projects that push the limits of user freedom such as: TOR, Bitcoin, Bittorrent, GPG, OTR messaging, academic P2P work, etc. 
+
+To apply, email a brief resume with links to your public repos, sample code (as many examples as possible) and good examples of UI, design, and/or HTML/CSS work to: [sarah@fightforthefuture.org](mailto:sarah@fightforthefuture.org) with the subject “Product Director”.
+
 
 ------
 
