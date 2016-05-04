@@ -12,7 +12,8 @@ Fight for the Future is a non-profit organization whose mission is to ensure tha
 
 ------
 
-# Product Director / UX Generalist, for defending the Internet.
+# Product Director / Coder
+(A UX Generalist, for defending the Internet)
 
 We're working to innovate and build the open tech tools that amplify individual power for change and are the future of organizing to 1. Ensure that the web continues to hold freedom of expression and creativity at its core and 2. To create the pathways and strategies that dismantle barriers set up by the status quo. We customize and build tech to win with very clear political goals and are looking for a talented, versatile, product developer or director to join a new effort: a mobile platform for organizing. We're looking for a strong product person who has an interest in changing the world by making apps and software that make people laugh, share, act, and hunger for more.
 
