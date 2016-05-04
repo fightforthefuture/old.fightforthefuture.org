@@ -14,27 +14,43 @@ Fight for the Future is a non-profit organization whose mission is to ensure tha
 
 # Product Director + UX generalist, for defending the Internet.
 
-Fight for the Future is a non-profit organization working to innovate and build the open tech tools that amplify individual power for change and are the future of organizing to 1. Ensure that the web continues to hold freedom of expression and creativity at its core and 2. To create the pathways and strategies that dismantle barriers set up by the status quo. We customize and build tech to win with very clear political goals and are looking for a talented, versatile, product developer or director to join a new effort for mobile platform for organizing. We're looking for a strong product person who has an interest in changing the world by making apps and software that make people laugh, share, act, and hunger for more.
+We're working to innovate and build the open tech tools that amplify individual power for change and are the future of organizing to 1. Ensure that the web continues to hold freedom of expression and creativity at its core and 2. To create the pathways and strategies that dismantle barriers set up by the status quo. We customize and build tech to win with very clear political goals and are looking for a talented, versatile, product developer or director to join a new effort: a mobile platform for organizing. We're looking for a strong product person who has an interest in changing the world by making apps and software that make people laugh, share, act, and hunger for more.
 
-Check out our work so far: http://fightforthefuture.org/
+For anyone who cares about defending and transforming the future of tech or politics, this could be a dream job.  We're aiming to defend the Internet against bad tech and other policy and to mobilize the grassroots in that charge.  Think the large public campaigns aimed at a mass audience. The Product Director position is central to the organization's campaign tech and the effectiveness of our work. If you ever wanted to build online experiences that reach out, grab people, and help them them change the world, then this is the job for you. 
 
-For anyone who cares about defending and transforming the future of tech or politics, this could be a dream job.  We're aiming to defend the Internet against bad tech and other policy and to mobilize the grassroots in that charge.  Think the EFF, but focused on large public campaigns aimed at a mass audience (rather than strategic litigation or policy work). The Product Director position is central to the organization's campaign tech and the effectiveness of our work. If you ever wanted to build online experiences that reach out, grab people, and help them them change the world, then this is the job for you. 
+This is crucial work, and we’re approaching it in the most fun and pioneering ways possible, with high-impact campaigns that resonate with people, make them laugh, change minds, and help people band together to exert their power.  You will be on the front lines, building software millions of people see and interact with.  
 
-This is crucial work, and we’re approaching it in the most fun and pioneering ways possible, with high-impact campaigns that resonate with people, make them laugh, change minds, and help people band together to exert their power.  You will be on the front lines, building pages and software millions of people see and interact with.  
-
-We are looking for an individual who can help plan and execute our mobile and product development strategy for online engagement during the election season. If we decide to keep working together, you role will be to oversee our campaign tech strategies later in the year. 
+We are looking for an individual who can help plan and execute our mobile and product development strategy for online engagement during the election season. If we decide to keep working together, your work will be to oversee our campaign tech strategies as a Product Manager. 
 
 Ideally, you're an innovator of products for user engagement with the ability to code and/or have management experience. If you're all three, fantastic, but we are open to a product + developer or a product + manager person.
 
+You should be well versed in current product innovations, messaging apps, social media, UI/UX, design, rapid protoyping and release, user adoption, and user testing, and be able to navigate or do a cost/benefits analysis of various technical solutions, coding languages, dev/ops, and architecture-based decisions.
+
 You will help conceptualize, develop, build and/or manage our tech product strategy, taking our goal-oriented tech strategy through each phase of development with a team. You will oversee product development with the goal of meeting campaign metrics of reach, efficacy, and fundraising, which will include the assessment, research, specifications, design, and implementation of product plans. 
+
+You should be able to think on your feet, be organized, optimize project plans and work load, manage/delegate the different pieces of projects and user growth. You should have smart, powerful ideas to share to reach product goals. You ideally understand online organizing and user growth strategies and can bring that into your work defining the product as well as gaining users in the real world.  We'd especially enjoy someone who has a wide interest in pulling off technological tactics and strategy and using whatever resources are at their disposal -- you should have an interest in using law, policies, pop culture, music, philosophy, subcultural themes, memes, language, history, media, organizing playbooks, and whatever else is out there to build for the right audience.
 
 We are open to contract-based work for our mobile strategy work this summer, or someone who would in addition want to work in house to run the product side of our organization as a Product Manager.
 
 ## If you are a product director + manager:
 
-You should be well versed in current product innovations, messaging apps, social media, UI/UX, design, rapid protoyping and release, user adoption, and user testing, and be able to navigate or do a cost/benefits analysis of various technical solutions, coding languages, dev/ops, and architecture-based decisions.
+Project managers are skilled communicators and problems solvers who help our team to focus their efforts in the right places. You can expect to be working with team on innovative projects that leverage social networks, mobile applications, and more to help solve real world problems. 
 
-You should be able to think on your feet, be organized, optimize project plans and work load, manage/delegate the different pieces of projects and user growth. You should have smart, powerful ideas to share to reach product goals. You ideally understand online organizing and user growth strategies and can bring that into your work defining the product as well as gaining users in the real world.  We'd especially enjoy someone who has a wide interest in pulling off technological tactics and strategy and using whatever resources are at their disposal -- you should have an interest in using law, policies, pop culture, music, philosophy, subcultural themes, memes, language, history, media, organizing playbooks, and whatever else is out there to build for the right audience.
+Project managers are leaders in our delivery process, who work with Technical Leads and Internet Strategists to deliver outstanding tech solutions for our campaign goals. 
+
+Here's what we expect from someone in this role:
+*	Create and execute project plans and revise as appropriate to meet changing needs and requirements.
+*	Identify resources needed to complete individual tasks and assign responsibilities in conjunction with other key members of teams.
+* Conduct check-ins and ensure requirements documents are up to date to communicate progress, demonstrate the operations of web products and collect feedback where appropriate.
+* Manage project budget, monitor for overages and advises senior staff on impending budgetary events.
+* Inspire confidence in others to attain goals and perform to the best of their ability.
+* Identify opportunities for improvement, make constructive suggestions for change, and positively contribute to the culture of the company.
+*	Mitigate conflict and communication problems by interceding when necessary.
+
+Requirements:
+* 2 plus years experience in integrating W3C, XHTML 1.0, CSS (table-less layouts), DHTML, AJAX, and advanced JavaScript. 
+* UI intuition, attention to detail, and a solid understanding of browser performance and their various issues. 
+* Deep understanding of design, usability, and performance.
 
 ## If you are a product director + coder:
 
@@ -44,12 +60,21 @@ You don’t need to be an expert designer or have illustration skills.  If you c
 
 We’re looking for somebody who can bottom-line the creation of mobile platform, but who is also always using their full brain, putting themselves in a user or a reader’s shoes.  
 
-## You’ll be building things like:
-
+You’ll be building things like:
 * Tools and apps that get used over and over by our organization and others.
 * Internet wide infrastructure for large, decentralized actions across a coalition of websites
 * Solutions that achieve our goals by leveraging and customizing existing services (CRM, publishing tools, etc).
 * Flawless HTML/CSS and clear, modern design that supports the message.  
+
+Requirements:
+* Experience building applications with a modern web framework like Django, Rails, or Node.js
+* jQuery skills
+* Ability to develop iOS / Android applications (learning as you go is okay)
+* Experience managing large databases
+* Experience in HTML/CSS with awareness of common cross-browser problems
+* Proven ability to do clean and classy design
+* Ability to make good UI/UX decisions and spot problems
+
 
 ## Things that you might like about this job:
 
@@ -58,16 +83,6 @@ We’re looking for somebody who can bottom-line the creation of mobile platform
 * You can choose the framework and tools we use to get stuff done (we have some commitment to Django right now, but could switch).
 * We can give you a contractor budget to reduce/eliminate mundane work.  Responsibility for the final result is what matters.
 * Be a hero to many.  The “yeah, I made that” small talk in bars is fun.
-
-## Requirements:
-
-* Experience building applications with a modern web framework like Django, Rails, or Node.js
-* jQuery skills
-* Ability to develop iOS / Android applications (learning as you go is okay)
-* Experience managing large databases
-* Experience in HTML/CSS with awareness of common cross-browser problems
-* Proven ability to do clean and classy design
-* Ability to make good UI/UX decisions and spot problems
 
 ## Bonus points for:
 
