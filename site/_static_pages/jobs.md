@@ -118,6 +118,8 @@ We have several positions, so if you have skills and expertise with just one asp
 
 ## Desired Skills & Experience
 
+* Writing for a large audience
+
 * Running campaigns on high-impact issues
 
 * Managing campaigns and responses to a fast-changing, dynamic field
