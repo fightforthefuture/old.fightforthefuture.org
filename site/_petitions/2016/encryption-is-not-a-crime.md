@@ -8,12 +8,12 @@ tags:
   - encryption
 search_title: Encryption is not a crime
 headline: "Encryption is not a crime!"
-petition_title: Stand with WhatsApp
-petition_copy: "I support end-to-end encryption and oppose government attempts to ban online security."
+petition_title: Defend Encryption
+petition_copy: "I support services that use end-to-end encryption and oppose government attempts to block them."
 opt_in: true
 additional_fields: ""
 required_fields: ""
-action_text: I stand with WhatsApp
+action_text: Stand with WhatsApp
 target_country: US
 search_description: null
 twittertext: null
