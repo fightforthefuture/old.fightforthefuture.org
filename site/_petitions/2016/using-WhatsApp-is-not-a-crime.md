@@ -36,10 +36,10 @@ Earlier this week a judge in Brazil ordered ISPs to [block](https://theintercept
 
 The Brazilian Congress is close to passing a [cybercrime bill](https://theintercept.com/2016/04/26/brazilian-cybercrime-bills-threaten-open-internet-for-200-million-people/) that would codify shutdowns like what just happened to WhatsApp. In the United States, powerful senators are pushing [legislation](https://www.wired.com/2016/04/senates-draft-encryption-bill-privacy-nightmare/) that would make secure services like WhatsApp, Snapchat, and Apple iOS illegal unless they give the government a special backdoor portal for accessing user information. The United Kingdom is pushing an [encryption ban](http://www.theguardian.com/commentisfree/2015/jan/13/cameron-ban-encryption-digital-britain-online-shopping-banking-messaging-terror) as well. 
 
-**If we don’t stand up and show our support for companies like WhatsApp right now, we risk losing our digital privacy and security for good.** That means more of our personal data stolen by identity thieves and people who want to harm us, and it means our critical infrastructure -- from power plants to water treatments facilities -- will be less safe. 
+**If we don’t stand up and show our support for companies like WhatsApp right now, we risk losing our digital privacy and security for good.** That would mean more of our personal data stolen by identity thieves and people who want to harm us, and it would means our critical infrastructure -- from power plants to water treatments facilities -- becomes less secure from cyberattacks. 
 
 Thankfully, WhatsApp is not backing down from protecting its users. Here’s what their CEO said on Facebook:  
 
 ![2016-05-05_13-01-45.jpg]({{site.baseurl}}/img/action-network/2016-05-05_13-01-45.jpg)
 
-**But they won't be able keep protecting user sercurity if we stay silent.** Add your name and let the world know you support companies that protect their users against overzealous surveillance authorities.
+**But they won't be able keep protecting user sercurity if we stay silent.** Add your name above and let the world know that you support companies that protect their users against overzealous surveillance authorities.
