@@ -3,8 +3,8 @@ layout: classic
 class: jobs
 ---
 * [Jobs](#)
-* [Product Director / Coder ](#product-director-coder)
-* [Campaign Strategist / Manager](#campaign-strategist-manager)
+* [Product Director / Coder ](#product-director--coder)
+* [Campaign Strategist / Manager](#campaign-strategist--manager)
 
 ## Brief
 
@@ -15,21 +15,19 @@ Fight for the Future is a non-profit organization whose mission is to ensure tha
 # Product Director / Coder
 (A UX Generalist, for defending the Internet)
 
-We're working to innovate and build the open tech tools that amplify individual power for change and are the future of organizing to 1. Ensure that the web continues to hold freedom of expression and creativity at its core and 2. To create the pathways and strategies that dismantle barriers set up by the status quo. We customize and build tech to win with very clear political goals and are looking for a talented, versatile, product developer or director to join a new effort: a mobile platform for organizing. We're looking for a strong product person who has an interest in changing the world by making apps and software that make people laugh, share, act, and hunger for more.
+We're working to innovate and build the open tech tools that amplify individual power for change and are the future of organizing to 1. Ensure that the web continues to hold freedom of expression and creativity at its core and 2. To create the pathways and strategies that dismantle barriers to political change set up by the status quo. We customize and build tech to win with very clear political goals and are looking for a talented, versatile, product developer or director to join a new effort: a mobile platform for organizing. We're looking for a strong product person who has an interest in changing the world by making apps and software that make people laugh, share, act, and hunger for more.
 
-For anyone who cares about defending and transforming the future of tech or politics, this could be a dream job.  We're aiming to defend the Internet against bad tech and other policy and to mobilize the grassroots in that charge.  Think large public campaigns and social platforms aimed at a mass audience.  If you ever wanted to build platforms that reach out, grab people, and help them them change the world, then this is the job for you. 
-
-This is crucial work, and we’re approaching it in the most fun and pioneering ways possible, with high-impact campaigns that resonate with people and help them band together to exert their power.  You will be on the front lines, building software millions of people see and interact with.  
+For anyone who cares about defending and transforming the future of tech or politics, this could be a dream job. This is crucial work, and we’re approaching it in the most fun and pioneering ways possible, with high-impact campaigns that resonate with a mass audience and help them band together to exert their power. You will be on the front lines, building software millions of people see and interact with. If you ever wanted to build platforms that reach out, grab people, and help them them change the world, then this is the job for you. 
 
 We are looking for an individual who can help plan and execute our mobile and product development strategy for online engagement during the election season. If we decide to keep working together, your work will be to oversee our campaign tech strategies and online experiences. 
 
-Ideally, you're an innovator of products for user engagement with the ability to code and/or have management experience. If you're all three, fantastic, but we are open to a product + developer or a product + manager person.
+Ideally, you're an innovator of products for user engagement with the ability to code and/or have management experience. If you're all three, fantastic, but we are open to a product + developer person or a product + manager person.
 
 You should be well versed in current product innovations, messaging apps, social media, UI/UX, design, rapid protoyping and release, user adoption, and user testing, and be able to navigate or do a cost/benefits analysis of various technical solutions, coding languages, dev/ops, and architecture-based decisions.
 
-You will help conceptualize, develop, build and/or manage our tech product strategy, taking our goal-oriented tech strategy through each phase of development with a team. You will oversee product development with the goal of meeting campaign metrics of reach, efficacy, and fundraising, which will include the assessment, research, developing specifications, directing design, and implementation of product plans. 
+You will help conceptualize, develop, build and/or manage our tech product strategy, taking our goal-oriented tech strategy through each phase of development with a team. You will oversee product development with the goal of meeting campaign metrics of reach, efficacy, and fundraising, which will include the assessment, research, development of specifications, directing design, and implementation of product plans. 
 
-You should be able to think on your feet, be organized, optimize project plans and work load, manage/delegate the different pieces of projects and user growth. You should have smart, powerful ideas to share to reach product goals. You ideally understand online organizing and user growth strategies and can bring that into your work defining the product as well as gaining users in the real world.  We'd especially enjoy someone who has a wide interest in pulling off technological tactics and strategy and using whatever resources are at their disposal -- you should have an interest in using law, policies, pop culture, music, philosophy, subcultural themes, memes, language, history, media, organizing playbooks, and whatever else is out there to build for the right audience.
+You should be able to think on your feet, be organized, optimize project plans and work load, manage/delegate the different pieces of projects and user growth. You should have smart, powerful ideas to share to reach product goals. You ideally understand online organizing and user growth strategies and can bring that into your work defining the product as well as gaining users in the real world.  We'd especially enjoy someone who has a wide interest in pulling off technological tactics and strategy and using whatever resources are at their disposal.
 
 We are open to contract-based work for our mobile strategy work this summer, or someone who would want to work in house to run the product side of our organization as a Product Manager in addition later down the road.
 
@@ -47,7 +45,6 @@ Here's what we expect from someone in this role:
 *	Mitigate conflict and communication problems by interceding when necessary.
 
 Requirements:
-* 2 plus years experience in integrating W3C, XHTML 1.0, CSS (table-less layouts), DHTML, AJAX, and advanced JavaScript. 
 * UI intuition, attention to detail, and a solid understanding of browser performance and their various issues. 
 * Deep understanding of design, usability, and performance.
 
