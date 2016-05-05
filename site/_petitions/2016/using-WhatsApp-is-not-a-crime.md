@@ -24,7 +24,7 @@ share_image_dims: ""
 autoreponder_active: true
 autoresponder_subject: "{PETITION_TITLE} - help us reach the next level!"
 autoresponder_text: "Thanks again for taking action on {PETITION_TITLE}. We need more people like you who can take action on this issue. Can you please share it to help us reach the next level?"
-published: false
+published: true
 ---
 ##  WhatsApp was blocked in Brazil for protecting their users with encryption. They need your help.
 
