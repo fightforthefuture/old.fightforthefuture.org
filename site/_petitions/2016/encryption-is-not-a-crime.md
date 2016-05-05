@@ -1,7 +1,7 @@
 ---
 date: "2016-05-05 13:14 -0400"
 layout: "action-network-petitions"
-design: "blue-one-column"
+design: "white-two-column"
 action_network_title: "Encryption is not a crime! "
 action_network_petition_slug: "encryption-is-not-a-crime"
 tags: 
