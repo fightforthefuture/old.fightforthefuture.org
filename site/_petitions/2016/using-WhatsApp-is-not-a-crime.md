@@ -42,4 +42,6 @@ Thankfully, WhatsApp is not backing down from protecting its users. Here’s wha
 
 ![2016-05-05_13-01-45.jpg]({{site.baseurl}}/img/action-network/2016-05-05_13-01-45.jpg)
 
-**But they won't be able keep protecting user sercurity if we stay silent.** Add your name above and let the world know that you support companies that protect their users against overzealous surveillance authorities.
+**But they won't be able keep protecting user sercurity if we stay silent.** 
+
+Add your name above and let the world know that you support companies that protect their users against overzealous surveillance authorities.
