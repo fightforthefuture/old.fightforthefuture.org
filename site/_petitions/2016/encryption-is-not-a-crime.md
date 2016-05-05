@@ -24,7 +24,7 @@ share_image_dims: ""
 autoreponder_active: true
 autoresponder_subject: "{PETITION_TITLE} - help us reach the next level!"
 autoresponder_text: "Thanks again for taking action on {PETITION_TITLE}. We need more people like you who can take action on this issue. Can you please share it to help us reach the next level?"
-published: false
+published: true
 ---
 ## WhatsApp, and other services that protect their users with encryption, need a show of support.
 
@@ -37,3 +37,6 @@ The Brazilian Congress is close to passing a cybercrime bill that would codify s
 If we don’t stand with companies like WhatsApp right now, we risk losing our digital privacy and security for good. That means more of our personal data stolen by identity thieves and people who want to harm us, and it means our critical infrastructure -- from power plants to water treatments facilities -- will be less safe. 
 
 Thankfully, WhatsApp is not backing down from protecting its users. Here’s what their CEO said on Facebook:  
+![2016-05-05_13-01-45.jpg]({{site.baseurl}}/img/action-network/2016-05-05_13-01-45.jpg)
+
+
