@@ -13,7 +13,7 @@ petition_copy: "I support services that use end-to-end encryption and oppose gov
 opt_in: true
 additional_fields: ""
 required_fields: ""
-action_text: Stand with WhatsApp
+action_text: I stand with WhatsApp
 target_country: US
 search_description: null
 twittertext: WhatsApp was blocked in Brazil for protecting its users with encryption. They need your help.
