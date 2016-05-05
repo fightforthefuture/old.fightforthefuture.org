@@ -28,7 +28,7 @@ published: true
 ---
 ## WhatsApp and other services that protect their users with encryption need our support.
 
-Earlier this week a judge in Brazil ordered ISPs in that country to block the WhatsApp messaging service because it doesn’t retain information on its users. With the stroke of a pen, a single judge shut down one of the main forms of communications in the fifth largest country in the world. 
+Earlier this week a judge in Brazil ordered ISPs to block the WhatsApp messaging service because it doesn’t retain its users' personal information. With the stroke of a pen, a single judge shut down one of the main forms of communications in the fifth largest country in the world. 
 
 The WhatsApp shutdown in Brazil is part of a global movement by governments to criminalize services that protect their users with end-to-end encryption. Corrupt and power hungry governments around the world have begun to see any service that puts people’s communications out of reach for police and surveillance authorities as threats and are moving quickly to shut them down. 
 
@@ -38,5 +38,4 @@ If we don’t stand with companies like WhatsApp right now, we risk losing our d
 
 Thankfully, WhatsApp is not backing down from protecting its users. Here’s what their CEO said on Facebook:  
 ![2016-05-05_13-01-45.jpg]({{site.baseurl}}/img/action-network/2016-05-05_13-01-45.jpg)
-
 
