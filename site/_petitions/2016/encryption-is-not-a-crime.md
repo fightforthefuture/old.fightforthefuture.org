@@ -27,6 +27,8 @@ autoresponder_text: "Thanks again for taking action on {PETITION_TITLE}. We need
 published: true
 ---
 ## WhatsApp was blocked in Brazil for protecting their users with encryption. They need your help.
+![2016-05-05_12-51-51.jpg]({{site.baseurl}}/img/action-network/2016-05-05_12-51-51.jpg)
+
 
 Earlier this week a judge in Brazil ordered ISPs to block the WhatsApp messaging service because it doesn’t retain its users' personal information. With the stroke of a pen, a single judge shut down one of the main forms of communications in the fifth largest country in the world. 
 
