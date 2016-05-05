@@ -72,7 +72,7 @@ window.components.petitions = function (doc, win) {
     /**
      * Sets values for the progress bar even if there's a server or XHR error
      * */
-    progressBar(972, 1600);
+    progressBar(1519, 2500);
   }
 
   function requestAPIInfo() {
