@@ -26,7 +26,7 @@ autoresponder_subject: "{PETITION_TITLE} - help us reach the next level!"
 autoresponder_text: "Thanks again for taking action on {PETITION_TITLE}. We need more people like you who can take action on this issue. Can you please share it to help us reach the next level?"
 published: true
 ---
-## WhatsApp, and other services that protect their users with encryption, need a show of support.
+## WhatsApp and other services that protect their users with encryption need our support.
 
 Earlier this week a judge in Brazil ordered ISPs in that country to block the WhatsApp messaging service because it doesn’t retain information on its users. With the stroke of a pen, a single judge shut down one of the main forms of communications in the fifth largest country in the world. 
 
