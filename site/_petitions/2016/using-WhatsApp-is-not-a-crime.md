@@ -2,17 +2,18 @@
 date: "2016-05-05 14:59 -0400"
 layout: "action-network-petitions"
 design: "white-two-column"
-action_network_title: ""
-action_network_petition_slug: ""
-tags: ""
+action_network_title: "Using WhatsApp is not a crime! "
+action_network_petition_slug: "using-whatsapp-is-not-a-crime"
+tags: 
+  - encryption
 search_title: ""
-headline: ""
-petition_title: ""
-petition_copy: null
+headline: "Using WhatsApp is not a crime!"
+petition_title: Defend Encryption
+petition_copy: "I support services that use end-to-end encryption and oppose government attempts to block them."
 opt_in: true
 additional_fields: ""
 required_fields: ""
-action_text: Take action
+action_text: Stand with WhatsApp
 target_country: US
 search_description: null
 twittertext: null
