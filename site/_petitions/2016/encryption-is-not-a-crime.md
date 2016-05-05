@@ -30,7 +30,7 @@ published: true
 
 Earlier this week a judge in Brazil ordered ISPs to block the WhatsApp messaging service because it doesn’t retain its users' personal information. With the stroke of a pen, a single judge shut down one of the main forms of communications in the fifth largest country in the world. 
 
-**The WhatsApp shutdown in Brazil is part of a global movement by governments to criminalize services that protect their users with end-to-end encryption.** Corrupt and power hungry governments around the world have begun to see any service that puts people’s communications out of reach for police and surveillance authorities as threats and are moving quickly to shut them down. 
+**The WhatsApp shutdown in Brazil is part of a global movement by governments to criminalize services that use end-to-end encryption to protect their users.** Corrupt and power hungry governments around the world have begun to see any service that puts people’s communications out of reach for police and surveillance authorities as threats and are moving quickly to shut them down. 
 
 The Brazilian Congress is close to passing a cybercrime bill that would codify shutdowns like what happened to WhatsApp. And in the United States, powerful senators are pushing legislation that would make secure services like WhatsApp, Snapchat, and Apple iOS illegal unless they give the government a special backdoor portal for accessing user information. The United Kingdom is pushing an encryption ban as well. 
 
