@@ -19,4 +19,4 @@ util = {
     else if (ref.indexOf('google.com') !== -1)
       return 'from-google';
   }
-}
+};

@@ -11,7 +11,7 @@ window.components.petitions = function (doc, win) {
     body = doc.getElementsByTagName('body')[0],
     petitionSignatureForm = doc.getElementById('petition-form'),
     apiHost = petitionSignatureForm.dataset.host,
-    objectIdentifier = petitionSignatureForm.dataset['petition-id'],
+    objectIdentifier = petitionSignatureForm.dataset.petitionId,
     submitButton = body.querySelector('[type="submit"]'),
     countryInput = doc.getElementById('hidden-country'),
     countrySelect = doc.getElementById('select-country'),
@@ -83,7 +83,7 @@ window.components.petitions = function (doc, win) {
       title = doc.getElementById('action-network-title').textContent,
       anRequest = new XMLHttpRequest();
 
-    anRequest.open('GET', apiHost + '/petition?title=' + title, true);
+    anRequest.open('GET', apiHost + '/petition?identifier=' + objectIdentifier, true);
     anRequest.addEventListener('load', function () {
       if (anRequest.status >= 200 && anRequest.status < 400) {
         var
