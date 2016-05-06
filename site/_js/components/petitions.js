@@ -217,6 +217,7 @@ window.components.petitions = function (doc, win) {
       formData.append('an_id', objectIdentifier);
       formData.append('an_website', win.location.origin);
       formData.append('an_tags', JSON.stringify(tags));
+      formData.append('an_url', win.location.href);
       formData.append('member[email]', doc.getElementById('form-email').value);
       formData.append('member[postcode]', doc.getElementById('form-zip_code').value);
       formData.append('member[country]', countrySelect.value);
@@ -238,47 +239,11 @@ window.components.petitions = function (doc, win) {
         formData.append('action_comment', doc.getElementById('form-comments').value);
       }
 
+      var autoresponderHours = document.querySelector('meta[name="autoresponder_hours"]');
+
+      formData.append('autoresponder_hours', autoresponderHours ? autoresponderHours.content : 72);
+
       return formData;
-
-      //////////////////////////////////////////////////////////////////////////
-      // JL NOTE ~ DISABLED IN FAVOR OF MOTHERSHIP QUEUE LOL LOL LOL
-      //////////////////////////////////////////////////////////////////////////
-      /*
-      var
-        petitionFormData = {
-          identifier: objectIdentifier,
-          website: win.location.origin,
-          ZIP: doc.getElementById('form-zip_code').value,
-          country: countrySelect.value,
-          email: doc.getElementById('form-email').value,
-          tags: JSON.parse(doc.querySelector('[name="subscription[tag_list]"]').value)
-        };
-        if (util.getReferrerTag())
-          petitionFormData['tags'].push(util.getReferrerTag());
-
-      if (doc.getElementById('opt-in').getAttribute('type') === 'checkbox' &&
-          doc.getElementById('opt-in').checked === false) {
-        petitionFormData.noOptIn = true;
-      }
-
-      if (doc.getElementById('form-street_address')) {
-        petitionFormData.address = [doc.getElementById('form-street_address').value];
-      }
-
-      if (doc.getElementById('form-first_name')) {
-        petitionFormData.name = doc.getElementById('form-first_name').value;
-      }
-
-      if (doc.getElementById('form-city')) {
-        petitionFormData.city = doc.getElementById('form-city').value;
-      }
-
-      if (doc.getElementById('form-comments')) {
-        petitionFormData.comments = doc.getElementById('form-comments').value;
-      }
-
-      return JSON.stringify(petitionFormData);
-      */
     }
 
     function loadSignatureResponse() {
@@ -318,12 +283,13 @@ window.components.petitions = function (doc, win) {
       }
     }
 
-    signatureSubmission.open('POST', 'https://queue.fightforthefuture.org/action', true);
-    // signatureSubmission.open('POST', 'http://localhost:9001/action', true); // JL DEBUG ~
+    // signatureSubmission.open('POST', 'https://queue.fightforthefuture.org/action', true);
+    signatureSubmission.open('POST', 'http://localhost:9001/action', true); // JL DEBUG ~
     signatureSubmission.addEventListener('error', handleSigningError);
     signatureSubmission.addEventListener('load', loadSignatureResponse);
     signatureSubmission.send(compilePayload());
-    console.log(compilePayload())
+
+
   }
 
   function slideInStickyBar() {

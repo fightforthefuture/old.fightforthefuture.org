@@ -18,5 +18,28 @@ util = {
       return 'from-google-adwords';
     else if (ref.indexOf('google.com') !== -1)
       return 'from-google';
+  },
+
+  scheduleDelayedAutoresponder: function(email) {
+    var data = new FormData();
+    data.append('email', email);
+    data.append('url', window.location.href);
+
+    var xhr = new XMLHttpRequest();
+
+    var url = 'https://fftf.io/emails/schedule';
+    var url = 'http://localhost:9002/emails/schedule'; // JL DEBUG ~
+
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === 4)
+        if (xhr.status == 200)
+          console.log('Scheduled delayed autoresponder: ', xhr.response);
+        else
+          console.error('Error posting delayed autoresponder: ', xhr.response);
+    };
+    xhr.open("post", url, true);
+    xhr.send(data);
+
+    console.log('lol');
   }
 }
