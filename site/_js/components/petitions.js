@@ -17,7 +17,8 @@ window.components.petitions = function (doc, win) {
     countrySelect = doc.getElementById('select-country'),
     countryLabel = doc.querySelector('[for="select-country"]'),
     petitionBox = doc.querySelector('.petition-box'),
-    petitionBottom = petitionBox.offsetTop + petitionBox.clientHeight;
+    petitionBottom = petitionBox.offsetTop + petitionBox.clientHeight,
+    queryString = win.util.parseQueryString();
 
   function numberCommafier(number) {
     /**
@@ -215,8 +216,9 @@ window.components.petitions = function (doc, win) {
       formData.append('org', 'fftf');
       formData.append('tag', window.location.pathname);
       formData.append('an_id', objectIdentifier);
-      formData.append('an_website', win.location.origin);
+      formData.append('an_website', win.location.hostname);
       formData.append('an_tags', JSON.stringify(tags));
+      formData.append('member[first_name]', doc.getElementById('form-first_name').value);
       formData.append('member[email]', doc.getElementById('form-email').value);
       formData.append('member[postcode]', doc.getElementById('form-zip_code').value);
       formData.append('member[country]', countrySelect.value);
@@ -230,12 +232,16 @@ window.components.petitions = function (doc, win) {
         formData.append('member[street_address]', doc.getElementById('form-street_address').value);
       }
 
-      if (doc.getElementById('form-first_name')) {
-        formData.append('member[first_name]', doc.getElementById('form-first_name').value);
-      }
-
       if (doc.getElementById('form-comments')) {
         formData.append('action_comment', doc.getElementById('form-comments').value);
+      }
+
+      if (queryString.source) {
+        formData.append('subscription[source]', queryString.source);
+      }
+
+      if (queryString.can_id) {
+        formData.append('auth_hash', queryString.can_id);
       }
 
       return formData;
