@@ -18,5 +18,25 @@ util = {
       return 'from-google-adwords';
     else if (ref.indexOf('google.com') !== -1)
       return 'from-google';
+  },
+  parseQueryString: function () {
+    var
+      i,
+      pairs,
+      queryObject = {},
+      queryString = window.location.search;
+
+    if (queryString[0] === '?') {
+      queryString = queryString.substr(1);
+    }
+
+    pairs = queryString.split('&');
+    i = pairs.length;
+
+    while (i--) {
+      queryObject[pairs[i].split('=')[0]] = pairs[i].split('=')[1];
+    }
+
+    return queryObject;
   }
-}
+};
