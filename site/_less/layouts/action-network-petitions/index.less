@@ -28,7 +28,6 @@
     max-width: @large-tablet;
     padding: 0 1rem;
     text-align: center;
-    text-transform: uppercase;
 
     @media screen and (min-width: @large-phone) {
       font-size: 5rem;
@@ -44,6 +43,22 @@
 
     @media screen and (min-width: @large-desktop) {
       font-size: 6.4rem;
+    }
+
+    &.smaller {
+      font-size: 3rem;
+
+      @media screen and (min-width: @large-tablet) {
+        font-size: 3.1rem;
+      }
+
+      @media screen and (min-width: @large-laptop) {
+        font-size: 3.2rem;
+      }
+
+      @media screen and (min-width: @large-desktop) {
+        font-size: 3.25rem;
+      }
     }
   }
 
