@@ -3,7 +3,7 @@ date: "2016-04-14 11:28 -0500"
 layout: "action-network-petitions"
 design: "blue-one-column"
 search_title: Tell FBI Director James Comey to Resign
-action_network_petition_slug: "comey-resign"
+action_network_petition_slug: resign
 action_network_title: Tell FBI Director James Comey to Resign
 headline: Tell FBI Director James Comey to Resign
 petition_title: ""
