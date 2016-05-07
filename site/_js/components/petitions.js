@@ -81,18 +81,16 @@ window.components.petitions = function (doc, win) {
      * Builds and sends request to API server
      * */
     var
-      title = doc.getElementById('action-network-title').textContent,
+      apiData,
       anRequest = new XMLHttpRequest();
 
     anRequest.open('GET', apiHost + '/petition?identifier=' + objectIdentifier, true);
     anRequest.addEventListener('load', function () {
       if (anRequest.status >= 200 && anRequest.status < 400) {
-        var
+
           apiData = JSON.parse(anRequest.responseText);
 
-        objectIdentifier = apiData.objectID;
         progressBar(apiData.signatures, apiData.goal);
-        petitionSignatureForm.setAttribute('action', apiData.action);
       } else {
         handleProgressBarError();
       }
