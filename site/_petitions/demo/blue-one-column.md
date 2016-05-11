@@ -1,31 +1,34 @@
 ---
-date: "2016-04-13 16:17 -0700"
-layout: "action-network-petitions"
-design: "blue-one-column"
-tags:
-  - "anti-corporate"
-  - developer
-action_network_title: President Knowles is withholding free pizza. Put a stop to it now.
-action_network_petition_slug: "free-pizza-day"
+layout: 'action-network-petitions'
+date: 2016-05-10
+design: blue-one-column
+action_network_title: President Knowles is withholding free pizza
+action_network_petition_slug: free-pizza-day
+tags: admin
+search_title: 'President Knowles has the pizza.'
+headline: 'President Knowles is withholding free pizza. Put a stop to it now.'
+smaller_headline: false
 petition_title: Tell President Knowles
-petition_copy: "Fridays should be free pizza day. Push legislation today to bring pizza into the lives of all Americans!"
+petition_copy: 'Fridays should be free pizza day. Push legislation today to bring pizza into the lives of all Americans!'
 opt_in: false
-allow_comments: false
 additional_fields:
   - street_address
-target_country: US
-search_description: null
-default_donation_frequency: "just-once"
-published: true
-tweet: "Fridays should be free pizza day. Push legislation today to bring pizza into the lives of all Americans!"
-social_title: "Don’t YOU deserve free pizza?"
-social_description: "President Knowles has the ability to push legislation today to bring pizza into the lives of all Americans! Make sure she hears your voice."
+  - 'city'
+  - 'comments'
+required_fields:
+  - street_address
+action_text: 'Take action'
+target_country: 'US'
+search_description: 'It’s time to talk about our nation’s access to pizza'
+twittertext: 'Help keep freedom of expression online a right extended to all people—join forces with @fightforthftr today.'
+social_title: Help us send a message to President Knowles
+social_description: Fight for your right to pizza.
 share_image: "/img/share/fftf-share.jpg"
 share_image_dims: 1400 x 553
-search_title: ""
-twittertext: "Fridays should be free pizza day. Push legislation today to bring pizza into the lives of all Americans!"
+autoresponder_active: false
+autoresponder_subject: "{PETITION_TITLE} - help us reach the next level!"
+autoresponder_text: "Thanks again for taking action on {PETITION_TITLE}. We need more people like you who can take action on this issue. Can you please share it to help us reach the next level?"
 ---
-
 
 ## This column will be rendered as the main portion of the page
 
