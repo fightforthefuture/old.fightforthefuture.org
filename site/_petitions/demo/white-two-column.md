@@ -14,7 +14,6 @@ opt_in: false
 additional_fields:
   - street_address
   - 'city'
-  - 'comments'
 required_fields:
   - street_address
 action_text: 'Take action'

@@ -250,8 +250,8 @@ prose:
       - name: 'opt_in'
         field:
           element: checkbox
-          label: Opt-in required
-          help: 'If this box is checked, visitors WON’T HAVE THE OPTION to opt-out when submitting a petition.'
+          label: Automatic opt-in
+          help: 'Checking this box denies signers the opportunity to opt out.'
           value: true
       - name: 'additional_fields'
         field:
@@ -263,8 +263,6 @@ prose:
               value: street_address
             - name: 'City'
               value: city
-            - name: 'Comments'
-              value: comments
       - name: 'required_fields'
         field:
           element: 'multiselect'
@@ -275,6 +273,11 @@ prose:
               value: street_address
             - name: 'City'
               value: city
+      - name: 'include_comments'
+        field:
+          element: checkbox
+          label: 'Include comments area'
+          help: 'Should signers have space to include a custom comment?'
       - name: 'action_text'
         field:
           element: 'text'
