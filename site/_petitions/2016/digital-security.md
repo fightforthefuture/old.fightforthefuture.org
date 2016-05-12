@@ -2,7 +2,7 @@
 date: "2016-04-22 10:17 -0500"
 layout: "action-network-petitions"
 design: "white-two-column"
-action_network_title: "Burr-Feinstein Bill Tries To Outlaw Encryption"
+action_network_title: Remove Senators Burr and Feinstein from the Senate Select Committee on Intelligence
 action_network_petition_slug: "never-weaken-digital-security"
 tags: 
   - encryption
