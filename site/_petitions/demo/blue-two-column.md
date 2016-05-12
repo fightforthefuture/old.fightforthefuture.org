@@ -14,9 +14,7 @@ opt_in: false
 additional_fields:
   - street_address
   - 'city'
-  - 'comments'
-required_fields:
-  - street_address
+allow_comments: true
 action_text: 'Take action'
 target_country: 'US'
 search_description: 'It’s time to talk about our nation’s access to pizza'

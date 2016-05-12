@@ -69,31 +69,33 @@
     }
   }
 
-  .email {
-    @media screen and (min-width: @large-phone) {
+  .name, .address, .city, .email, .zip, textarea {
+    border-radius: 0.4rem;
+  }
 
-      margin-right: 2%;
-      width: 38%;
+  .email {
+    @media screen and (min-width: @small-phone) {
+      margin-right: 0.5rem;
+      width: ~'calc(70% - 0.5rem)';
     }
   }
 
   .zip {
-    @media screen and (min-width: @large-phone) {
-      margin-right: 2%;
-      width: 23%;
+    @media screen and (min-width: @small-phone) {
+      width: 30%;
     }
   }
 
   [type="submit"] {
-    @media screen and (min-width: @large-phone) {
+    order: 100;
+
+    @media screen and (min-width: @small-phone) {
       font-weight: 600;
-      margin-bottom: 0.5rem;
-      width: 35%;
     }
   }
 
   [for="select-country"] {
-    margin: 0 1rem 1rem 0;
+    margin: 0 0 0.5rem;
     order: 40;
     width: 100%;
   }
@@ -124,12 +126,6 @@
     }
   }
 
-  [type="text"],
-  [type="submit"],
-  [type="email"] {
-    border-radius: 0.4rem;
-  }
-
   .petition-form {
     margin-bottom: 1.5rem;
     order: 20;
@@ -137,66 +133,16 @@
     @media screen and (min-width: @small-tablet) {
       margin-bottom: 3rem;
     }
-
-    @media screen and (min-width: @large-phone) {
-      display: flex;
-      flex-wrap: wrap;
-    }
-  }
-
-  .length-1, .length-2, .length-3 {
-    &[type="submit"] {
-      margin: 0 auto;
-      order: 50;
-      width: 98%;
-    }
-  }
-
-  .length-1 {
-    @media screen and (min-width: @large-phone) {
-      &[type="text"],
-      &[type="email"] {
-        margin: 0 1%;
-        width: 31%;
-      }
-    }
-
-    @media screen and (min-width: @small-laptop) {
-
-    }
   }
 
   .length-2 {
     @media screen and (min-width: @large-phone) {
-      &[type="text"],
-      &[type="email"] {
-        margin: 0 1% 1rem;
-        width: 48%;
-      }
-    }
-  }
-
-  .length-3 {
-    @media screen and (min-width: @large-phone) {
-      &[type="text"],
-      &[type="email"] {
-        margin: 0 1% 1rem;
-        width: 48%;
-      }
-
-      &.name, &.email {
+      &.address, &.city {
+        width: ~'calc(50% - 0.25rem)';
       }
 
       &.address {
-        width: 100%;
-      }
-
-      &.city {
-        width: 65%;
-      }
-
-      &.zip {
-        width: 31%;
+        margin-right: 0.5rem;
       }
     }
   }
@@ -253,6 +199,8 @@
   }
 
   main& {
+    padding: 0 1rem;
+
     h2 {
       color: @blue-800;
       text-align: center;
