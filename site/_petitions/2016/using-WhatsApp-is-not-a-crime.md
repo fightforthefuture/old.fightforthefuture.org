@@ -1,9 +1,7 @@
 ---
 date: "2016-05-05 14:59 -0400"
-layout: "action-network-petitions"
 design: "white-two-column"
-action_network_title: "Using WhatsApp is not a crime! "
-action_network_petition_slug: "using-whatsapp-is-not-a-crime"
+action_network_url: "https://actionnetwork.org/petitions/using-whatsapp-is-not-a-crime"
 tags:
   - encryption
 search_title: ""
@@ -26,6 +24,7 @@ autoresponder_subject: "{PETITION_TITLE} - help us reach the next level!"
 autoresponder_text: "Thanks again for taking action to defend WhatsApp and protect encryption. We need more people like you who can take action on this issue. Can you please share it to help us reach the next level?"
 published: true
 ---
+
 ##  WhatsApp was blocked in Brazil for protecting its users with encryption. They need your help.
 
 ![2016-05-05_12-51-51.jpg]({{site.baseurl}}/img/action-network/2016-05-05_12-51-51.jpg)

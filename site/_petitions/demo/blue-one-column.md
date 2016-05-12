@@ -1,9 +1,7 @@
 ---
-layout: 'action-network-petitions'
 date: 2016-05-10
 design: blue-one-column
-action_network_title: President Knowles is withholding free pizza
-action_network_petition_slug: free-pizza-day
+action_network_url: https://actionnetwork.org/petitions/free-pizza-day
 tags: admin
 search_title: 'President Knowles has the pizza.'
 headline: 'President Knowles is withholding free pizza. Put a stop to it now.'

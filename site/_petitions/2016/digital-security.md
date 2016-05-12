@@ -1,10 +1,8 @@
 ---
 date: "2016-04-22 10:17 -0500"
-layout: "action-network-petitions"
 design: "white-two-column"
-action_network_title: Remove Senators Burr and Feinstein from the Senate Select Committee on Intelligence
-action_network_petition_slug: "never-weaken-digital-security"
-tags: 
+action_network_url: "https://actionnetwork.org/petitions/never-weaken-digital-security"
+tags:
   - encryption
 search_title: Remove Senators Burr and Feinstein from the Senate Select Committee on Intelligence
 headline: Remove Senators Burr and Feinstein from the Senate Select Committee on Intelligence
@@ -24,6 +22,7 @@ autoreponder_active: true
 autoresponder_subject: "{PETITION_TITLE} - help us reach the next level!"
 autoresponder_text: "Thanks again for taking action on {PETITION_TITLE}. We need more people like you who can take action on this issue. Can you please share it to help us reach the next level?"
 ---
+
 ![BF.jpg]({{site.baseurl}}/img/action-network/BF.jpg)
 
 ## Digital Security is Physical Safety

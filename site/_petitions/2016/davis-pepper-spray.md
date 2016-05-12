@@ -1,13 +1,11 @@
 ---
 date: "2016-04-20 10:34 -0400"
-layout: "action-network-petitions"
 design: "white-two-column"
-action_network_title: "UC Davis wants you to forget that time they casually pepper-sprayed their students."
-action_network_petition_slug: "uc-davis-wants-you-to-forget-that-time-they-casually-pepper-sprayed-their-students"
+action_network_url: "https://actionnetwork.org/petitions/uc-davis-wants-you-to-forget-that-time-they-casually-pepper-sprayed-their-students"
 tags:
   - censorship
-headline: "UC Davis wants you to forget that time they casually pepper-sprayed their students."
 search_title: "Let's put a statue of the pepper-spraying cop on UC Davis campus. "
+headline: "UC Davis wants you to forget that time they casually pepper-sprayed their students."
 petition_title: "Tell Chancellor Katehi:"
 petition_copy: "Keep the memory of the pepper-spraying incident alive by erecting a statue of Officer Pike on campus."
 opt_in: false
@@ -21,6 +19,7 @@ share_image: ""
 share_image_dims: ""
 published: false
 ---
+
 ![pepper-spray-statue.jpg]({{site.baseurl}}/img/action-network/pepper-spray-statue.jpg)
 
 ## The University has spent $175,000 to scrub the incident from the Internet. Instead, they should commemorate it by putting a statue of the pepper-spraying cop on campus.
