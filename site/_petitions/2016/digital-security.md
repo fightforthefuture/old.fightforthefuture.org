@@ -7,7 +7,7 @@ action_network_petition_slug: "never-weaken-digital-security"
 tags: 
   - encryption
 search_title: Remove Senators Burr and Feinstein from the Senate Select Committee on Intelligence
-headline: "Burr-Feinstein Bill Tries To Outlaw Encryption"
+headline: Remove Senators Burr and Feinstein from the Senate Select Committee on Intelligence
 petition_title: "The Senate Intelligence Committee is trying to outlaw life-saving security."
 petition_copy: "Sign now to tell Senate Leadership, “Encryption keeps us safe. Remove Senators Burr and Feinstein from the Senate Select Committee on Intelligence.”"
 opt_in: true
@@ -19,7 +19,7 @@ social_description: "The Senate Intelligence Committee is trying to outlaw encry
 share_image: "/img/action-network/BF.jpg"
 share_image_dims: 1924 x 1924
 published: true
-smaller_headline: false
+smaller_headline: true
 autoreponder_active: true
 autoresponder_subject: "{PETITION_TITLE} - help us reach the next level!"
 autoresponder_text: "Thanks again for taking action on {PETITION_TITLE}. We need more people like you who can take action on this issue. Can you please share it to help us reach the next level?"
