@@ -57,8 +57,7 @@
       <progress id="signatures-progress-bar" value="0" max="25"></progress>
     </figure>
 
-    {% assign slug = page.action_network_title | slugify %}
-    <form id="petition-form" class="petition-form" accept-charset="UTF-8" action="https://actionnetwork.org/petitions/{{ page.action_network_petition_slug | default: slug }}/signatures" method="post" data-host="{{ site.petitions_api }}" data-petition-id="{{ site.petition_identifiers[page.action_network_title] | default: 'undefined' }}">
+    <form id="petition-form" class="petition-form" accept-charset="UTF-8" action="{{ page.action_network_url }}/signatures" method="post" data-host="{{ site.petitions_api }}" data-petition-id="{{ site.petition_identifiers[page.action_network_url] | default: 'undefined' }}">
       <label class="visually-hidden" for="form-first_name">Name (optional):</label>
       <input type="text" id="form-first_name" class="name {{ fields_class }}" name="signature[first_name]" placeholder="Name (optional)" />
 
