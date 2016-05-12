@@ -65,6 +65,9 @@
       <label class="visually-hidden" for="form-email">Email:</label>
       <input type="email" id="form-email" name="signature[email]" class="email {{ fields_class }}" placeholder="Email" required/>
 
+      <label class="visually-hidden" for="form-zip_code">{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code:</label>
+      <input type="text" id="form-zip_code" name="signature[zip_code]" class="zip {{ fields_class }}" placeholder="{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code" required/>
+
       {% if page.additional_fields contains 'street_address' %}
       <label class="visually-hidden" for="form-street_address">Street address{% unless page.required_fields contains 'street_address' %} (optional){% endunless %}:</label>
       <input type="text" id="form-street_address" name="signature[street_address]" class="address {{ fields_class }}" placeholder="Street address{% unless page.required_fields contains 'street_address' %} (optional){% endunless %}" {% if page.required_fields contains 'street_address' %} required{% endif %} />
@@ -74,9 +77,6 @@
       <label class="visually-hidden" for="form-city">City{% unless page.required_fields contains 'city' %} (optional){% endunless %}:</label>
       <input type="text" id="form-city" name="signature[city]" class="city {{ fields_class }}" placeholder="City{% unless page.required_fields contains 'city' %} (optional){% endunless %}" {% if page.required_fields contains 'city' %} required{% endif %} />
       {% endif %}
-
-      <label class="visually-hidden" for="form-zip_code">{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code:</label>
-      <input type="text" id="form-zip_code" name="signature[zip_code]" class="zip {{ fields_class }}" placeholder="{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code" required/>
 
       {% if page.allow_comments %}
       <textarea cols="40" id="form-comments" name="signature[message_to_target]" class="comment" placeholder="Comments" rows="6"></textarea>
