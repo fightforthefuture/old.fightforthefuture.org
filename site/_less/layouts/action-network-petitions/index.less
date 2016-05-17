@@ -1,15 +1,3 @@
-.text-form-elements() {
-  border: none;
-  display: block;
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-  padding: 1.2rem;
-  width: 100%;
-  &::-webkit-input-placeholder {
-    font-size: 1.4rem;
-  }
-}
-
 .petition {
   font-size: 1.9rem;
   font-weight: 300;
@@ -113,10 +101,6 @@
     text-align: center;
   }
 
-  textarea {
-    .text-form-elements();
-  }
-
   label {
     display: block;
     height: 0;
@@ -124,9 +108,16 @@
     overflow: hidden;
   }
 
-  [type="text"],
-  [type="email"] {
-    .text-form-elements();
+  .name, .address, .city, .email, .zip, textarea {
+    border: none;
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding: 1.2rem;
+    width: 100%;
+    &::-webkit-input-placeholder {
+      font-size: 1.4rem;
+    }
   }
 
   [type="submit"] {
@@ -176,9 +167,10 @@
   }
 
   [for="select-country"] {
-    font-size: 9px;
-    margin: 1rem 0;
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
     text-align: right;
+    width: 100%;
 
     &:hover, &:active, &:focus {
       text-decoration: underline;
@@ -203,6 +195,12 @@
     overflow: hidden;
     padding: 0 1rem;
   }
+}
+
+.petition-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .action-network-footer{
@@ -291,10 +289,6 @@
   background-color: @blue-901;
   padding: 2rem;
 
-  .an-footer-cta {
-    display: block;
-  }
-
   .footer-meta-links {
     margin: 0 auto;
     max-width: @large-tablet;
@@ -325,3 +319,46 @@
     color: fade(@white, 35%);
   }
 }
+
+.two-column-field-sizes() {
+  .email {
+    @media screen and (min-width: @small-phone) {
+      width: ~'calc(70% - 0.5rem)';
+    }
+  }
+
+  .zip {
+    @media screen and (min-width: @small-phone) {
+      width: 30%;
+    }
+  }
+
+  .email, .zip {
+    @media screen and (min-width: @large-phone) {
+      width: 100%;
+    }
+  }
+
+  .address, .city {
+    &.length-2 {
+      @media screen and (min-width: @small-phone) {
+        width: ~'calc(50% - 0.25rem)';
+      }
+      @media screen and (min-width: @large-phone) {
+        width: 100%;
+      }
+    }
+  }
+
+  .address {
+    &.length-2 {
+      @media screen and (min-width: @small-phone) {
+      margin-right: 0.5rem;
+      }
+      @media screen and (min-width: @large-phone) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+

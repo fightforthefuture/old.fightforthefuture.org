@@ -30,12 +30,16 @@ show_drafts: true
 permalink: /news/summaries/:path/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ''
     values:
       layout: 'default'
       stylesheet_name: core
+  - scope:
+      path: ''
+      type: petitions
+    values:
+      layout: action-network-petitions
 
 collections:
   legacy_pages:
@@ -80,10 +84,6 @@ prose:
   media: 'img/action-network'
   metadata:
     'site/_petitions':
-      - name: 'layout'
-        field:
-          element: 'hidden'
-          value: 'action-network-petitions'
       - name: 'date'
         field:
           element: 'hidden'
@@ -100,18 +100,11 @@ prose:
               value: 'blue-one-column'
             - name: 'Blue Two Column'
               value: 'blue-two-column'
-      - name: 'action_network_title'
+      - name: 'action_network_url'
         field:
           element: 'text'
-          label: 'Copy from Action Network: Petition Title'
-          placeholder: 'President Knowles is withholding free pizza'
-          help: 'Used to look up petition, does not render'
-      - name: 'action_network_petition_slug'
-        field:
-          element: 'text'
-          label: 'Copy from Action Network: Slug'
-          help: 'Looks like the title with hyphens.'
-          placeholder: 'free-pizza-day'
+          label: 'Copy from Action Network: petition url'
+          placeholder: 'https://actionnetwork.org/petitions/free-pizza-day'
           value: ''
       - name: 'tags'
         field:
@@ -250,8 +243,8 @@ prose:
       - name: 'opt_in'
         field:
           element: checkbox
-          label: Opt-in required
-          help: 'If this box is checked, visitors WON’T HAVE THE OPTION to opt-out when submitting a petition.'
+          label: Automatic opt-in
+          help: 'Checking this box denies signers the opportunity to opt out.'
           value: true
       - name: 'additional_fields'
         field:
@@ -263,8 +256,6 @@ prose:
               value: street_address
             - name: 'City'
               value: city
-            - name: 'Comments'
-              value: comments
       - name: 'required_fields'
         field:
           element: 'multiselect'
@@ -275,6 +266,11 @@ prose:
               value: street_address
             - name: 'City'
               value: city
+      - name: 'include_comments'
+        field:
+          element: checkbox
+          label: 'Include comments area'
+          help: 'Should signers have space to include a custom comment?'
       - name: 'action_text'
         field:
           element: 'text'

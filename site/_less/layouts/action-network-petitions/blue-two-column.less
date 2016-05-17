@@ -62,11 +62,11 @@
     min-width: 30rem;
     padding: 2rem;
     text-align: center;
-    width: 40rem;
 
     @media screen and (min-width: @large-phone) {
       margin-top: 0;
       padding: 2rem;
+      width: 40rem;
     }
 
     @media screen and (min-width: @small-tablet) {
@@ -108,9 +108,11 @@
     }
   }
 
-  [type="text"], [type="email"] {
+  .name, .address, .city, .email, .zip, textarea {
     border-radius: 4px;
   }
+
+  .two-column-field-sizes();
 
   [type="submit"] {
     background-color: @blue-100;

@@ -24,7 +24,7 @@ function compilePetitionsConfig(petitions) {
     i = petitions.length;
 
   while (i--) {
-    petitionsConfig += '  "' + petitions[i].title + '": "' + petitions[i].identifier + '"\n';
+    petitionsConfig += '  "' + petitions[i].url + '": "' + petitions[i].identifier + '"\n';
   }
 
   fs.writeFile('_config_petition_ids.yml', petitionsConfig, 'utf-8', function (error) {
@@ -41,18 +41,13 @@ function compilePetitionsConfig(petitions) {
 function sendPetitionsRequest(page) {
 
   request({
-    url: url.parse(env.get('actionnetwork').url + '/api/v2/petitions' + page),
+    url: url.parse(env.get('actionnetwork').url + '/api/v2/petitions/?page=' + page),
     headers: {
       'Content-Type': 'application/json',
       'OSDI-API-Token': env.get('actionnetwork').apikey
     }
   }, function (error, response, body) {
     "use strict";
-
-    var
-      data = JSON.parse(body),
-      petitionsObject = data._embedded['osdi:petitions'],
-      i = petitionsObject.length;
 
     if (error || response.statusCode !== 200) {
       console.error('Prefetching petition identifiers failed. The script attempted to connect to\n' +
@@ -64,16 +59,21 @@ function sendPetitionsRequest(page) {
       return false;
     }
 
+    var
+      data = JSON.parse(body),
+      petitionsObject = data._embedded['osdi:petitions'],
+      i = petitionsObject.length;
+
     if (i > 0) {
       while (i--) {
         identifiers.push({
-          title: petitionsObject[i].title,
+          url: petitionsObject[i].browser_url,
           identifier: petitionsObject[i].identifiers[0].replace('action_network:', '')
         });
       }
 
       if (data.page < data.total_pages) {
-        sendPetitionsRequest('?page=' + (data.page + 1));
+        sendPetitionsRequest(data.page + 1);
       } else {
         compilePetitionsConfig(identifiers);
       }
@@ -84,4 +84,4 @@ function sendPetitionsRequest(page) {
   });
 }
 
-sendPetitionsRequest('?page=1');
+sendPetitionsRequest(1);

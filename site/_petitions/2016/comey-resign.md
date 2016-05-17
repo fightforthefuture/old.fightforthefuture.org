@@ -1,18 +1,17 @@
 ---
 date: "2016-04-14 11:28 -0500"
-layout: "action-network-petitions"
 design: "blue-one-column"
-search_title: Tell FBI Director James Comey to Resign
-action_network_petition_slug: "comey-resign"
-action_network_title: Tell FBI Director James Comey to Resign
-headline: Tell FBI Director James Comey to Resign
-petition_title: ""
-petition_copy: Sign to add your name to the open letter below.
+action_network_url: https://actionnetwork.org/petitions/resign
 tags:
   - encryption
+search_title: Tell FBI Director James Comey to Resign
+headline: Tell FBI Director James Comey to Resign
+smaller_headline: false
+petition_title: ""
+petition_copy: Sign to add your name to the open letter below.
 opt_in: true
-target_country: US
 action_text: "Sign now!"
+target_country: US
 search_description: Open Letter telling FBI Director James Comey to Resign
 twittertext: The Director of the FBI is losing it. Tell him to resign
 social_title: The director of the FBI is losing it
@@ -21,6 +20,7 @@ share_image: "/img/action-network/comey1.jpeg"
 share_image_dims: 1160 x 629
 published: true
 ---
+
 ![comey1.jpeg]({{site.baseurl}}/img/action-network/comey1.jpeg)
 
 ## Open letter to FBI Director James Comey: You're out of control. It's time to resign.

@@ -2,7 +2,7 @@
   {% if page.share_image contains 'http' %}
     {% assign share_img = page.share_image | uri_escape %}
   {% else %}
-    {% capture share_img %}{{ site.url }}/{{ page.share_image | uri_escape }}{% endcapture %}
+    {% capture share_img %}{{ site.url }}{{ page.share_image | uri_escape }}{% endcapture %}
   {% endif %}
 {% else %}
   {% capture share_img %}{{ site.url }}/img/share/fftf-share.jpg{% endcapture %}

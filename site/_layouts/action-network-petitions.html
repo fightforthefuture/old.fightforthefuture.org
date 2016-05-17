@@ -1,6 +1,6 @@
 <!doctype html>
 {% capture tags %}{% if page.tags and page.tags != "null" %}[{% for tag in page.tags %}"{{ tag }}"{% unless forloop.last %},{% endunless %}{% endfor %}]{% endif %}{% endcapture %}
-{% capture tweet %}text={{ page.twittertext | default: site.description | cgi_escape }}&amp;url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&amp;via=fightfortheftr{% endcapture %}
+{% capture tweet %}text={{ page.twittertext | default: site.description | cgi_escape }}&amp;url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}{% endcapture %}
 {% if page.additional_fields contains 'null' %}{% assign fields_class = 'length-0' %}{% else %}
 {% capture fields_class %}length-{{ page.additional_fields | size }}{% endcapture %}{% endif %}
 <html>
@@ -57,12 +57,15 @@
       <progress id="signatures-progress-bar" value="0" max="25"></progress>
     </figure>
 
-    <form id="petition-form" class="petition-form" accept-charset="UTF-8" action="https://actionnetwork.org/petitions/{% if page.action_network_petition_slug != '' %}{{ page.action_network_petition_slug }}{% else %}{{ page.action_network_title | slugify }}{% endif %}/signatures" method="post" data-host="{{ site.petitions_api }}" data-petition-id="{{ site.petition_identifiers[page.action_network_title] | default: 'undefined' }}">
+    <form id="petition-form" class="petition-form" accept-charset="UTF-8" action="{{ page.action_network_url }}/signatures" method="post" data-host="{{ site.petitions_api }}" data-petition-id="{{ site.petition_identifiers[page.action_network_url] | default: 'undefined' }}">
       <label class="visually-hidden" for="form-first_name">Name (optional):</label>
       <input type="text" id="form-first_name" class="name {{ fields_class }}" name="signature[first_name]" placeholder="Name (optional)" />
 
       <label class="visually-hidden" for="form-email">Email:</label>
       <input type="email" id="form-email" name="signature[email]" class="email {{ fields_class }}" placeholder="Email" required/>
+
+      <label class="visually-hidden" for="form-zip_code">{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code:</label>
+      <input type="text" id="form-zip_code" name="signature[zip_code]" class="zip {{ fields_class }}" placeholder="{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code" required/>
 
       {% if page.additional_fields contains 'street_address' %}
       <label class="visually-hidden" for="form-street_address">Street address{% unless page.required_fields contains 'street_address' %} (optional){% endunless %}:</label>
@@ -73,9 +76,6 @@
       <label class="visually-hidden" for="form-city">City{% unless page.required_fields contains 'city' %} (optional){% endunless %}:</label>
       <input type="text" id="form-city" name="signature[city]" class="city {{ fields_class }}" placeholder="City{% unless page.required_fields contains 'city' %} (optional){% endunless %}" {% if page.required_fields contains 'city' %} required{% endif %} />
       {% endif %}
-
-      <label class="visually-hidden" for="form-zip_code">{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code:</label>
-      <input type="text" id="form-zip_code" name="signature[zip_code]" class="zip {{ fields_class }}" placeholder="{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code" required/>
 
       {% if page.allow_comments %}
       <textarea cols="40" id="form-comments" name="signature[message_to_target]" class="comment" placeholder="Comments" rows="6"></textarea>
