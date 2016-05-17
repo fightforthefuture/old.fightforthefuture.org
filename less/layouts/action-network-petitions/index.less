@@ -168,9 +168,10 @@
 
   [for="select-country"] {
     font-size: 0.9rem;
-    margin: 0.5rem 0;
+    margin: 5px 0 15px 0; 
     text-align: right;
     width: 100%;
+    color: #cdcde7;
 
     &:hover, &:active, &:focus {
       text-decoration: underline;
@@ -186,6 +187,7 @@
     display: none;
     margin: 1.5rem auto;
     max-width: 100%;
+    width: 100%;
     &.visible {
       display: block;
     }
@@ -318,6 +320,11 @@
     background-color: @blue-875;
     color: fade(@white, 35%);
   }
+
+  .an-footer-info p{
+     line-height: 2.2rem;
+     font-size: 1.7rem;
+   }
 }
 
 .two-column-field-sizes() {
