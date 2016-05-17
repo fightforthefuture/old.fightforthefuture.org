@@ -1,27 +1,38 @@
 ---
 layout: classic
 header: true
-title: Privacy Policy
+title: Manage your subscription
+stylesheet_name: subscription
+one_off_script: subscription
 ---
 
 <h2>Manage Subscription</h2>
-<p>
-  Please enter your email address to make any changes:
-</p>
-<form action="https://queue.fightforthefuture.org/subscription">
+<div id="status"></div>
+<form action="https://queue.fightforthefuture.org/subscription" method="POST">
+<!--<form action="http://localhost:9001/subscription" method="POST">-->
+  <p>
+    Please enter your email address to make changes:
+  </p>
   <input type="hidden" name="redirect" value="https://www.fightforthefuture.org/subscription"/>
-  <h4>What do you want to do?</h4>
+  <input type="email" value="" name="email" placeholder="Your email address"/>
+  <h3>What do you want to do?</h3>
   <div class="field">
-    <input type="checkbox" name="subscription" value="subscribed"/>
-    Subscribe me to the Fight for the Future mailing list!
+    <input type="radio" name="subscription" value="subscribed" id="subscribed"/>
+    <label for="subscribed">
+      <strong>Subscribe me</strong> to the Fight for the Future mailing list!
+    </label>
   </div>
   <div class="field">
-    <input type="checkbox" name="subscription" value="less-emails"/>
-    Stay subscribed, but please send me less emails.
+    <input type="radio" name="subscription" value="less-emails" id="less-emails"/>
+    <label for="less-emails">
+      Stay subscribed, but <strong>please send me less emails.</strong>
+    </label>
   </div>
   <div class="field">
-    <input type="checkbox" name="subscription" value="unsubscribe"/>
-    Unsubscribe me from Fight for the Future emails.
+    <input type="radio" name="subscription" value="unsubscribe" id="unsubscribe"/>
+    <label for="unsubscribe">
+      <strong>Unsubscribe me</strong> from Fight for the Future emails.
+    </label>
   </div>
-  <button class="submit">Change preference</button>
+  <button type="submit">Change preference</button>
 </form>

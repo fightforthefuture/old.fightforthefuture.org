@@ -1,0 +1,108 @@
+.text-form-elements() {
+  appearance: none;
+  border: solid 1px @blue-600;
+  border-radius: 0.5rem;
+  display: block;
+  font-family: @body-font;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  max-width: 420px;
+  width: 100%;
+}
+
+.button() {
+  .text-form-elements();
+  background-color: @blue-600;
+  box-shadow: 0 0.25em 0.75em fade(@blue-600, 42%);
+  border: none;
+  color: @white;
+  cursor: pointer;
+  font-family: @body-font;
+  font-size: 2.4rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  padding: 0.583333333em 0;
+  position: relative;
+  text-transform: uppercase;
+  transition: background-color 300ms, bottom 100ms;
+  margin: 3rem 0rem 7rem 0rem;
+
+  &:focus {
+    box-shadow: 0 0 3px 3px @blue-900;
+    outline: 0;
+    top: 1px;
+  }
+
+  &:hover {
+    background-color: darken(@blue-600, 10%);
+  }
+
+  &:active {
+    top: 2px;
+  }
+}
+
+div.classic {
+
+  #status {
+    display: none;
+    font-size: 2rem;
+    background: #f9f9bb;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: @max-blog-width;
+    margin: 0px auto 5rem auto;
+
+    &.error {
+      background: #fee;
+    }
+  }
+
+  form {
+    max-width: @max-blog-width;
+    margin: 0px auto;
+    text-align: left;
+
+    p {
+      margin-bottom: 0px;
+    }
+
+    input[type="email"], input[type="text"] {
+      width: 100%;
+      max-width: 420px;
+      height: 50px;
+      line-height: 50px;
+      font-size: 2.5rem;
+      padding: 0px 10px;
+    }
+
+    h3 {
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+    }
+
+    label {
+      cursor: pointer;
+      padding: 0px 5px;
+      &:hover {
+        background: #eee;
+      }
+    }
+
+
+    div {
+      font-size: 1.8rem;
+      margin-top: 1rem;
+
+      strong {
+        font-weight: 600;
+        text-decoration: underline;
+      }
+    }
+
+    button {
+      .button();
+    }
+  }
+}

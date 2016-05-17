@@ -98,6 +98,19 @@ module.exports = function (grunt) {
             dest: '<%= site.dist %>'
           }
         ]
+      },
+      one_off_scripts: {
+        files: [
+          {
+            expand: true,
+            dot: true,
+            cwd: '<%= site.app %>/_js/one-off',
+            src: [
+              '*'
+            ],
+            dest: '<%= site.dist %>/js/one-off'
+          }
+        ]
       }
     },
 
@@ -191,6 +204,10 @@ module.exports = function (grunt) {
         files: ['img/**/*.*'],
         tasks: ['copy:images']
       },
+      one_off_scripts: {
+        files: ['<%= site.app %>/_js/one-off/*.*'],
+        tasks: ['copy:one_off_scripts']
+      },
       less: {
         files: ['<%= site.app %>/_less/**/*.less'],
         tasks: ['less:css', 'postcss:build']
@@ -228,9 +245,9 @@ module.exports = function (grunt) {
           },
           {
             src: [
-              '<%= site.app %>/_js/licenses/x11.js',
+              '<%= site.app %>/_js/_licenses/x11.js',
               'node_modules/smoothscroll/smoothscroll.min.js',
-              '<%= site.app %>/_js/licenses/license-end.js',
+              '<%= site.app %>/_js/_licenses/license-end.js',
             ],
             dest: '<%= site.dist %>/js/smoothscroll.min.js'
           }
