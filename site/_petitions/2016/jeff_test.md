@@ -3,18 +3,18 @@ date: "2016-03-30 23:30:14 -0500"
 layout: "action-network-petitions"
 design: "white-two-column"
 search_title: The TPP is a bad deal for Internet users.
-action_network_url: https://actionnetwork.org/petitions/test-petition-3-2
-action_network_title: "The TPP is a bad deal for Internet users. But these tech companies just endorsed it."
+action_network_url: "https://actionnetwork.org/petitions/test-petition-3-2"
+action_network_title: The TPP is a bad deal for Internet users. But these tech companies just endorsed it.
 action_network_petition_slug: "the-tpp-is-a-bad-deal-for-internet-users-but-these-tech-companies-just-endorsed-it"
-headline: "The TPP is a bad deal for Internet users. But these tech companies just endorsed it."
-petition_title: "Tell tech companies not to support the TPP"
-petition_copy: Do not betray your users. The TPP lacks transparency, undermines our basic rights, and harms free speech and innovation. Drop your support now.
-tags:
+headline: The TPP is a bad deal for Internet users. But these tech companies just endorsed it.
+petition_title: Tell tech companies not to support the TPP
+petition_copy: "Do not betray your users. The TPP lacks transparency, undermines our basic rights, and harms free speech and innovation. Drop your support now."
+tags: 
   - tpp
 opt_in: true
 target_country: US
 search_description: The TPP is a bad deal for Internet users. But these tech companies just endorsed it.
-twittertext: "Big Internet companies like Google and Facebook just sold you out—Global Internet censorship could be right around the corner."
+twittertext: Big Internet companies like Google and Facebook just sold you out—Global Internet censorship could be right around the corner.
 social_title: Big Internet companies like Google and Facebook just sold you out.
 social_description: Global Internet censorship could be right around the corner.
 share_image: /img/breaking google facebook etc.png
@@ -22,8 +22,12 @@ share_image_dims: 1667 × 833
 published: true
 autoresponder_active: true
 autoresponder_hours: 0
-autoresponder_subject: 'Help us reach the next level in our fight against TPP!'
-autoresponder_text: 'Thanks again for taking action on our petition to get Internet Association to withdraw from TPP.|We need your help to take this fight to the next level and send a clear message to the Internet Association. Let''s force them to drop their support for the TPP. Please share this petition now!'
+autoresponder_subject: "Help us reach the next level in our fight against TPP!"
+autoresponder_text: "Thanks again for taking action on our petition to get Internet Association to withdraw from TPP.|We need your help to take this fight to the next level and send a clear message to the Internet Association. Let's force them to drop their support for the TPP. Please share this petition now!"
+smaller_headline: false
+include_comments: false
+action_text: Take action
+autoreponder_active: true
 ---
 
 ![Democracy and the TPP](/images/petitions/2016/ia-tpp/protest.jpg)
