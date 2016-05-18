@@ -815,7 +815,7 @@ prose:
           label: 'Share image dimensions'
           placeholder: 1200 x 630
           help: 'Use an "x" with a space on either side to denote image dimensions. Facebook recommends a minimum of 1200 x 630.'
-      - name: 'autoreponder_active'
+      - name: 'autoresponder_active'
         field:
           element: checkbox
           label: Send delayed autoresponder
