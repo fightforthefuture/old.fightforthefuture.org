@@ -19,7 +19,7 @@ social_title: Stand with WhatsApp against government attempts to ban encryption
 social_description: "Earlier this week a judge in Brazil ordered ISPs to block the WhatsApp messaging service because it doesn’t retain its users' personal information. With the stroke of a pen, a single judge shut down one of the main forms of communications in the fifth largest country in the world."
 share_image: ""
 share_image_dims: ""
-autoresponder_active: true
+autoresponder_active: false
 autoresponder_subject: "{PETITION_TITLE} - help us reach the next level!"
 autoresponder_text: "Thanks again for taking action to defend WhatsApp and protect encryption. We need more people like you who can take action on this issue. Can you please share it to help us reach the next level?"
 published: true

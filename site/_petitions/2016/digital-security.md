@@ -18,7 +18,7 @@ share_image: "/img/action-network/BF.jpg"
 share_image_dims: 1924 x 1924
 published: true
 smaller_headline: true
-autoreponder_active: true
+autoreponder_active: false
 autoresponder_subject: "{PETITION_TITLE} - help us reach the next level!"
 autoresponder_text: "Thanks again for taking action on {PETITION_TITLE}. We need more people like you who can take action on this issue. Can you please share it to help us reach the next level?"
 ---

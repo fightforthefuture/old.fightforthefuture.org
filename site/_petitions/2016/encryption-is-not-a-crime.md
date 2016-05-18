@@ -17,7 +17,7 @@ social_title: ""
 social_description: null
 share_image: ""
 share_image_dims: ""
-autoresponder_active: true
+autoresponder_active: false
 autoresponder_subject: "{PETITION_TITLE} - help us reach the next level!"
 autoresponder_text: "Thanks again for taking action on {PETITION_TITLE}. We need more people like you who can take action on this issue. Can you please share it to help us reach the next level?"
 published: true
