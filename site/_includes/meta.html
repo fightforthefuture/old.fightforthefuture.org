@@ -54,6 +54,12 @@
 <link rel="icon" type="image/png" href="{{ site.url }}{{ site.favicon }}"/>
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
+{% if page.autoresponder_active %}
+<meta name="autoresponder_hours" content="{{ page.autoresponder_hours }}">
+<meta name="autoresponder_subject" content="{{ page.autoresponder_subject  | replace: '(PETITION_TITLE)', page.headline }}">
+<meta name="autoresponder_text" content="{{ page.autoresponder_text | replace: '(PETITION_TITLE)', page.headline }}">
+{% endif %}
+
 {% unless include.omit_core %}
 <link rel="stylesheet" type="text/css" href="/css/core.css">
 {% endunless %}

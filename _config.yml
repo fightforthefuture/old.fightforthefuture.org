@@ -820,7 +820,13 @@ prose:
           element: checkbox
           label: Send delayed autoresponder
           help: 'If this box is checked, petition signers will be sent a sharing reminder after 3 days.'
-          value: true
+          value: false
+      - name: 'autoresponder_hours'
+        field:
+          element: 'number'
+          label: 'Delayed share autoresponder hours until send'
+          help: 'How many hours should we wait until sending the sharing autoresponder?'
+          value: 72
       - name: 'autoresponder_subject'
         field:
           element: 'text'
@@ -830,9 +836,9 @@ prose:
           value: '{PETITION_TITLE} - help us reach the next level!'
       - name: 'autoresponder_text'
         field:
-          element: 'textarea'
+          element: 'text'
           label: 'Delayed share autoresponder text'
-          help: 'Text of the delayed autoresponder email that reminds the user to share the petition. {PETITION_TITLE} is automatically replaced with the ''Page headline'' title.'
+          help: 'Text of the delayed autoresponder email that reminds the user to share the petition. {PETITION_TITLE} is automatically replaced with the ''Page headline'' title. Use | to separate paragraphs.'
           placeholder: 'Autoresponder text'
           value: 'Thanks again for taking action on {PETITION_TITLE}. We need more people like you who can take action on this issue. Can you please share it to help us reach the next level?'
 baseurl: ''
