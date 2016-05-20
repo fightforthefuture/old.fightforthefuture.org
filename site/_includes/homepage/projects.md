@@ -16,7 +16,7 @@
     * [{{ link.text }}]({{ link.url }}){% endfor %}
 {:.other}
 
-[See more projects...](/projects){:.morelink}
+{% unless include.limit %}[See more projects...](/projects){:.morelink}{% endunless %}
 
 ## [Fight for the Future Education Fund](https://www.fftfef.org) (our related 501(c)3)
 
