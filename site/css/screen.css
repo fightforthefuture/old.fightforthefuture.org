@@ -471,7 +471,7 @@ a.btn:hover span {
   width: 236px;
   height: 40px;
   text-indent: -999px;
-  background: url(/images/new/logotwo.png) no-repeat;
+  background: url('/img/legacy/logotwo.png') no-repeat;
   margin-top: 20px;
   display: block;
 }
@@ -479,8 +479,8 @@ a.btn:hover span {
 .social li {display: inline-block;}
 .social li.oleo {font-size: 19px; text-shadow: 2px 2px 2px rgba(0,0,0,.75); float: left; margin-right: 10px;}
 .social li.thing a {width: 30px; height: 30px;text-indent: -9999px; display: inline-block; margin-left: 5px;}
-.social li.tw a {background: url(/images/new/social_twitter.png) no-repeat; }
-.social li.fb a {background: url(/images/new/social_facebook.png) no-repeat; text-indent: -9999px;}
+.social li.tw a {background: url('/img/legacy/social_twitter.png') no-repeat; }
+.social li.fb a {background: url('/img/legacy/social_facebook.png') no-repeat; text-indent: -9999px;}
 
 
 .info .nav {float: left; margin-top: 12px; }
@@ -535,7 +535,7 @@ padding-left: 30px;
 .copyleft p.lastask a {color: #14a767;}
 
 footer {
-  background: url(/images/new/striped_background.png);
+  background: url('/img/legacy/striped_background.png');
   margin-bottom: 0;
   padding-bottom: 50px;
   margin-top: -50px;
