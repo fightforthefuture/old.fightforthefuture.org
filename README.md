@@ -6,7 +6,7 @@ All your documentation has been moved to [the wiki][00].
 
 ## Developers:
 
-Review apps are launched on Heroku automatically. The site itself lives on github, but there is a clone on Heroku. We don’t currently have any failover automation, but it’s definitely something to aspire to.
+<https://www.fightforthefuture.org/> is hosted by github pages. There is a clone on Heroku with no _automated_ failover (at this time.) Review apps can be spun off on Heroku with a single click in the app pipeline on the Heroku dashboard.
 
 ### Housekeeping
 
@@ -19,7 +19,6 @@ Here’s a thing—this is not a willy-nilly slapdash combination of underscores
 
 #### Frameworks and libraries
 
-- [Composer.js][02] JavaScript MVC
 - [Jekyll][03]
 - [Grunt.js][04]
 
@@ -32,7 +31,7 @@ Here’s a thing—this is not a willy-nilly slapdash combination of underscores
 
 #### Production: GitHub Pages
 
-fightforthefuture.org is hosted on [GitHub Pages][06]. Here’s how it works: every time a commit is pushed, [Travis CI][01] runs a build. Every time a pull request is merged on the the `production` branch, the result of that build is committed and pushed to `master`.
+fightforthefuture.org is hosted on [GitHub Pages][06]. Here’s how it works: every time a commit is pushed, [Travis CI][01] runs a build. Every time a pull request is merged on the the `production` branch, the result of that build is committed and pushed to the github pages branch. (For org-level sites, such as this one, the github pages branch is `master`, _not_ `gh-pages`)
 
 #### Heroku
 
@@ -47,6 +46,7 @@ The other fun part about having the site connected to a Heroku pipeline is that 
 - All Less files compiled and minified to `public/css/core.css`
 - When in doubt, make a new Less file and import it in `core.less`—there’s no real performance hit as a result of good organization
 - Don’t worry about browser prefixes. Grunt handles that too.
+- Follow the [18F Front end style guide][08]
 
 #### Javascript
 
@@ -66,3 +66,4 @@ The other fun part about having the site connected to a Heroku pipeline is that 
 [05]: https://github.com/503.html
 [06]: https://help.github.com/articles/user-organization-and-project-pages/#user--organization-pages
 [07]: https://devcenter.heroku.com/articles/github-integration-review-apps
+[08]: https://pages.18f.gov/frontend/
