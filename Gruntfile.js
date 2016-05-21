@@ -87,7 +87,7 @@ module.exports = function (grunt) {
           }
         ]
       },
-      images: {
+      images_local: {
         files: [
           {
             expand: true,
@@ -110,6 +110,20 @@ module.exports = function (grunt) {
             ],
             dest: '<%= site.dist %>/js/one-off'
           }
+        ]
+      }
+    },
+
+    cdn: {
+      options: {
+        cdn: '//cdn.fightforthefuture.org/'
+      },
+      dist: {
+        cwd: './public/',
+        dest: './public/',
+        src: [
+          '**/*.html',
+          '*.css'
         ]
       }
     },

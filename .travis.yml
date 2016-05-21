@@ -8,22 +8,34 @@ cache:
   - node_modules
   - vendor
 before_install:
-  - rvm install `cat .ruby-version`
-  - gem install bundler
+- rvm install `cat .ruby-version`
+- gem install bundler
 install:
-  - npm install
+- npm install
 script:
-  - npm run-script build
+- npm run-script build
 after_success:
-  - npm run-script deploy
+- npm run-script deploy
 env:
-  - CXX=g++-4.8 AWS_S3_BUCKET=s3.fightforthefuture.org AWS_S3_FOLDER=images/blog ACTIONNETWORK_URL=https://actionnetwork.org
+- CXX=g++-4.8 AWS_S3_BUCKET=s3.fightforthefuture.org AWS_S3_FOLDER=images/blog ACTIONNETWORK_URL=https://actionnetwork.org
 addons:
   apt:
     sources:
-      - ubuntu-toolchain-r-test
+    - ubuntu-toolchain-r-test
     packages:
-      - g++-4.8
+    - g++-4.8
 branches:
   only:
-    - production
+  - production
+deploy:
+  provider: s3
+  access_key_id: AKIAIEKZSAT522A5YLOA
+  secret_access_key:
+    secure: FMdjjgF1IVETGGhsjO8cU8OO4gCjm3ShiFJvvpf/1nyqk79+n7IQ+02obDCQ9MqoTLACYO0BF5t+KLHCP9Aj5Ay53kGfs91e+VWLmyAoow9yDYf5kWokik6eJ7rSjrIQPzuL69VI8fg1LGyPUIEJ5Yrgd7jtjj1QCaJYGAOM+sc=
+  bucket: cdn.fightforthefuture.org
+  local-dir: img
+  upload-dir: img
+  acl: public_read
+  on:
+    repo: fightforthefuture/fightforthefuture.github.io
+    branch: production
