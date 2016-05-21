@@ -302,6 +302,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('review', [
     'clean:init',
+    'concurrent:external_scripts',
     'jekyll:review',
     'concurrent:compile',
     'uglify:js',
