@@ -69,6 +69,12 @@ var getPosts = function(offset) {
   request(url, function(err, httpResponse, body) {
     if (err || httpResponse.statusCode != 200) {
       console.log('TUMBLR API ERROR:', body);
+
+      if (env.get('environment').toLowerCase() === 'review') {
+        console.log('Tumblr API key not set, skipping sync because this is a review app.');
+        process.exit(0);
+      }
+
       process.exit(1);
     }
     var data = JSON.parse(body);
