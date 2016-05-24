@@ -176,13 +176,13 @@ fftf:
     description: There’s a law in Congress that completely breaks the 4th Amendment. We must stop it.
 
   - id: fixcopyright
-    url: http://www.fightforthefuture.org/fixcopyright
+    url: /fixcopyright
     image: /img/projects/fx.jpg
     title: Time to Fix Copyright!
     description: Now that we killed SOPA, we can fix the unintended but massive consequences of copyright law.
 
   - id: mlk
-    url: https://www.fightforthefuture.org/mlk
+    url: /mlk
     image: /img/projects/mlk.jpg
     title: Never Censor MLK
     description: Dr. Martin Luther King Jr.’s call for racial justice is too important to be censored by copyright law. Share it.
@@ -194,7 +194,7 @@ fftf:
     description: We’re drawing the line to prevent government spying from becoming legal.
 
   - id: billboard
-    url: https://www.fightforthefuture.org/billboard
+    url: /billboard
     image: /img/projects/billboard.jpg
     title: Don’t mess with the internet
     description: SOPA author Lamar Smith (R-TX) gets a crowd-funded billboard… right outside his San Antonio office.
@@ -219,7 +219,7 @@ otherlinks:
   - text: Cispa Cat
     url: http://www.cispacat.org
   - text: Colbert on SOPA
-    url: http://www.fightforthefuture.org/colbert-sopa/
+    url: /colbert-sopa/
   - text: Bad Luck Gen. Petraeus
     url: http://daveandpaulasemails.com
 
@@ -250,7 +250,7 @@ fftfef:
     description: Together, we can mobilize the planet to defend the internet from bad laws and monopolies. You in?
 
   - id: wtfitu
-    url: http://www.fightforthefuture.org/wtfitu
+    url: /wtfitu
     image: /img/projects/polln.jpg
     title: 'Who should run the net?'
     description: The last night of the ITU meetings in Dubai proved that this UN agency is no place to govern the net.
@@ -274,7 +274,7 @@ fftfef:
     description: Just because YOU’RE voting doesn’t mean you’re doing everything you can this election.
 
   - id: pipac3
-    url: https://www.fightforthefuture.org/pipa/
+    url: /pipa/
     image: /img/projects/pipa.jpg
     title: PIPA Video
     description: We made the video that introduced millions of internet users to SOPA & PIPA, the internet censorship bills.
