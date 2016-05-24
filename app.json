@@ -34,6 +34,18 @@
     "PORT": {
       "description": "What port is the server running on?",
       "value": "4040"
+    },
+    "FP_DOMAIN_SECURITY_TOKEN": {
+      "description": "Free progress token",
+      "value": "b10864d4b424b78968d8364525f6ad4188cb93b0"
+    },
+    "ACTIONNETWORK_URL": {
+      "description": "Domain for action network api",
+      "value": "https://actionnetwork.org"
+    },
+    "ACTIONNETWORK_APIKEY": {
+      "description": "fftf API key for Action Network",
+      "value": "f944d034faa1131435eef72ca0bfcdf2"
     }
   },
   "addons": [
