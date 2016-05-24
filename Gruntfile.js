@@ -72,43 +72,31 @@ module.exports = function (grunt) {
     },
 
     copy: {
-      legacy: {
-        files: [
-          {
-            expand: true,
-            dot: true,
-            cwd: '<%= site.app %>',
-            src: [
-              'images/**/*',
-              'css/**/*',
-              'js/**/*'
-            ],
-            dest: '<%= site.dist %>'
-          }
-        ]
-      },
       images_local: {
         files: [
           {
             expand: true,
             dot: true,
             src: [
-              'img/**/*'
+              'img/**/*.{gif,png,jpg,svg}',
+              'css/**/*.css',
+              'js/**/*.*'
             ],
             dest: '<%= site.dist %>'
           }
         ]
       },
-      one_off_scripts: {
+      deploy: {
         files: [
           {
             expand: true,
             dot: true,
-            cwd: '<%= site.app %>/_js/one-off',
             src: [
-              '*'
+              'img/**/*.{gif,png,jpg,svg}',
+              'css/**/*.css',
+              'js/**/*.*'
             ],
-            dest: '<%= site.dist %>/js/one-off'
+            dest: 'assets'
           }
         ]
       }
