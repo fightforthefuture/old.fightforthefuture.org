@@ -214,6 +214,7 @@ window.components.petitions = function (doc, win) {
       formData.append('org', 'fftf');
       formData.append('tag', window.location.pathname);
       formData.append('an_tags', JSON.stringify(tags));
+      formData.append('an_url', win.location.href);
       formData.append('an_petition', petitionSignatureForm.action.replace('/signatures', ''));
       formData.append('member[first_name]', doc.getElementById('form-first_name').value);
       formData.append('member[email]', doc.getElementById('form-email').value);
