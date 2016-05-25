@@ -179,7 +179,7 @@ window.components.petitions = function (doc, win) {
     win.modals.generateModal({contents: loadingContainer, disableOverlayClick: true});
 
     petitionSignatureForm.classList.add('submitted');
-    submitButton.setAttribute('disabled', true);
+    submitButton.setAttribute('disabled', true); // JL DEBUG ~ disable for testing
   }
 
   function submitForm(event) {
@@ -213,10 +213,8 @@ window.components.petitions = function (doc, win) {
       formData.append('hp_enabled', true);
       formData.append('org', 'fftf');
       formData.append('tag', window.location.pathname);
-      formData.append('an_id', objectIdentifier);
-      formData.append('an_website', win.location.hostname);
       formData.append('an_tags', JSON.stringify(tags));
-      formData.append('an_url', win.location.href);
+      formData.append('an_petition', petitionSignatureForm.action.replace('/signatures', ''));
       formData.append('member[first_name]', doc.getElementById('form-first_name').value);
       formData.append('member[email]', doc.getElementById('form-email').value);
       formData.append('member[postcode]', doc.getElementById('form-zip_code').value);
@@ -237,10 +235,6 @@ window.components.petitions = function (doc, win) {
 
       if (queryString.source) {
         formData.append('subscription[source]', queryString.source);
-      }
-
-      if (queryString.can_id) {
-        formData.append('auth_hash', queryString.can_id);
       }
 
       var autoresponderHours = document.querySelector('meta[name="autoresponder_hours"]');
