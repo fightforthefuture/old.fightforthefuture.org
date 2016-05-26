@@ -29,7 +29,7 @@
     "verbose": "grunt build -vvv",
     "build": "grunt build",
     "predeploy": "node scripts/generate_fp_token.js",
-    "deploy": "./deploy-ghpages.sh",
+    "deploy": "scripts/deploy-ghpages.sh",
     "review": "grunt review",
     "postreview": "node scripts/review-apps"
   },
@@ -39,6 +39,7 @@
     "cssnano": "^3.3.2",
     "express": "^4.13.4",
     "grunt": "^0",
+    "grunt-cdnify": "^1.0.2",
     "grunt-cli": "^1.2.0",
     "grunt-concurrent": "^2.1.0",
     "grunt-contrib-clean": "^1.0.0",
@@ -52,10 +53,10 @@
     "habitat": "^3.1.2",
     "jit-grunt": "^0.10.0",
     "request": "^2.69.0",
+    "sha.js": "^2.4.5",
     "smoothscroll": "^0.2.2",
     "time-grunt": "^1.1.0",
-    "uglify-save-license": "^0.4.1",
-    "sha.js": "^2.4.5"
+    "uglify-save-license": "^0.4.1"
   },
   "devDependencies": {
     "grunt-contrib-connect": "^1.0.1",
