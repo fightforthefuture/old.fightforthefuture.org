@@ -19,19 +19,21 @@ module.exports = function (grunt) {
     site: {
       app: 'site',
       dist: 'public',
-      scripts: 'scripts'
+      scripts: 'scripts',
+      assets: 'assets',
+      javascript_files: [
+        'js/LICENSE',
+        'js/lib/util.js',
+        'js/views/**/*.js',
+        'js/components/**/*.js',
+        'js/main.js'
+      ]
     },
 
-    clean: {
-      init: {
-        files: [
-          {
-            dot: true,
-            src: '<%= site.dist %>/*'
-          }
-        ]
-      }
-    },
+    clean: [
+      '<%= site.dist %>/*',
+      '<%= site.assets %>/*'
+    ],
 
     execute: {
       sync_tumblr: {
@@ -72,16 +74,12 @@ module.exports = function (grunt) {
     },
 
     copy: {
-      images_local: {
+      server: {
         files: [
           {
             expand: true,
             dot: true,
-            src: [
-              'img/**/*.{gif,png,jpg,svg}',
-              'css/**/*.css',
-              'js/**/*.*'
-            ],
+            src: 'img/**/*.{gif,png,jpg,jpeg,svg}',
             dest: '<%= site.dist %>'
           }
         ]
@@ -91,27 +89,9 @@ module.exports = function (grunt) {
           {
             expand: true,
             dot: true,
-            src: [
-              'img/**/*.{gif,png,jpg,svg}',
-              'css/**/*.css',
-              'js/**/*.*'
-            ],
-            dest: 'assets'
+            src: 'img/**/*.{gif,png,jpg,svg}',
+            dest: '<%= site.assets %>'
           }
-        ]
-      }
-    },
-
-    cdn: {
-      options: {
-        cdn: '//cdn.fightforthefuture.org/'
-      },
-      dist: {
-        cwd: './public/',
-        dest: './public/',
-        src: [
-          '**/*.html',
-          '*.css'
         ]
       }
     },
@@ -121,49 +101,167 @@ module.exports = function (grunt) {
         compress: false,
         sourceMap: true
       },
-      css: {
+      server: {
         files: [
           {
             expand: true,
-            cwd: '<%= site.app %>/_less',
+            cwd: 'less',
             src: '*.less',
             dest: '<%= site.dist %>/css',
             ext: '.css'
           }
         ]
       },
-      test: {}
+      deploy: {
+        files: [
+          {
+            expand: true,
+            cwd: 'less',
+            src: '*.less',
+            dest: '<%= site.assets %>/css',
+            ext: '.css'
+          }
+        ]
+      }
     },
 
     postcss: {
-      build: {
-        options: {
-          map: {
-            prev: 'css/',
-            inline: false
-          },
-          processors: [
-            require('autoprefixer')({browsers: 'last 2 versions'}),
-            require('cssnano')()
-          ]
+      options: {
+        map: {
+          prev: 'css/',
+          inline: false
         },
+        processors: [
+          require('autoprefixer')({browsers: 'last 2 versions'}),
+          require('cssnano')()
+        ]
+      },
+      server: {
         files: [
           {
             expand: true,
             cwd: '<%= site.dist %>/css',
-            src: [
-              '*.css',
-              '!animate.css',
-              '!branding.css',
-              '!ctu.css',
-              '!homepage.css',
-              '!ie.css',
-              '!screen.css'
-            ],
+            src: '*.css',
             dest: '<%= site.dist %>/css'
           }
         ]
+      },
+      deploy: {
+        files: [
+          {
+            expand: true,
+            cwd: '<%= site.assets %>/css',
+            src: '*.css',
+            dest: '<%= site.assets %>/css'
+          }
+        ]
       }
+    },
+
+    concat: {
+      options: {
+        sourceMap: true
+      },
+      server: {
+        files: [
+          {
+            src: '<%= site.javascript_files %>',
+            dest: '<%= site.dist %>/js/core.js'
+          },
+          {
+            src: [
+              'js/_licenses/x11.js',
+              'node_modules/smoothscroll/smoothscroll.min.js',
+              'js/_licenses/license-end.js'
+            ],
+            dest: '<%= site.dist %>/js/smoothscroll.min.js'
+          }
+        ]
+      },
+      deploy: {
+        files: [
+          {
+            src: '<%= site.javascript_files %>',
+            dest: '<%= site.assets %>/js/core.js'
+          },
+          {
+            src: [
+              'js/_licenses/x11.js',
+              'node_modules/smoothscroll/smoothscroll.min.js',
+              'js/_licenses/license-end.js'
+            ],
+            dest: '<%= site.assets %>/js/smoothscroll.min.js'
+          }
+        ]
+      }
+    },
+
+    uglify: {
+      options: {
+        sourceMap: true,
+        sourceMapIncludeSources: true,
+        check: 'gzip',
+        preserveComments: saveLicense
+      },
+      deploy: {
+        files: {
+          '<%= site.assets %>/js/core.js': '<%= site.assets %>/js/core.js'
+        }
+      }
+    },
+
+    cdnify: {
+      deploy: {
+        options: {
+          rewriter: function (url) {
+            var
+              stamp = Date.now();
+            if (url[0] === '/') {
+              return 'https://' + env.get('aws').s3_bucket + url + '?' + stamp;
+            }
+          }
+        },
+        files: [{
+          expand: true,
+          cwd: '<%= site.dist %>',
+          src: '**/*.html',
+          dest: '<%= site.dist %>'
+        }, {
+          expand: true,
+          cwd: '<%= site.assets %>',
+          src: '**/*.css',
+          dest: '<%= site.assets %>'
+        }]
+      }
+    },
+
+    concurrent: {
+      external_scripts: [
+        'execute:sync_petitions',
+        'execute:sync_tumblr'
+      ],
+      server: [
+        'jekyll:server',
+        'less:server',
+        'concat:server',
+        'copy:server'
+      ],
+      review: [
+        'jekyll:review',
+        'less:server',
+        'concat:server',
+        'copy:server'
+      ],
+      deploy1: [
+        'jekyll:build',
+        'less:deploy',
+        'concat:deploy',
+        'copy:deploy'
+      ],
+      deploy2: [
+        'uglify:deploy',
+        'cdnify:deploy'
+      ]
     },
 
     connect: {
@@ -194,29 +292,17 @@ module.exports = function (grunt) {
           reload: true
         }
       },
-      legacy: {
-        files: [
-          '<%= site.app %>/images/**/*',
-          '<%= site.app %>/css/**/*',
-          '<%= site.app %>/js/**/*'
-        ],
-        tasks: ['copy:legacy']
-      },
       images: {
         files: ['img/**/*.*'],
-        tasks: ['copy:images']
-      },
-      one_off_scripts: {
-        files: ['<%= site.app %>/_js/one-off/*.*'],
-        tasks: ['copy:one_off_scripts']
+        tasks: ['copy:server']
       },
       less: {
-        files: ['<%= site.app %>/_less/**/*.less'],
-        tasks: ['less:css', 'postcss:build']
+        files: ['less/**/*.less'],
+        tasks: ['less:server', 'postcss:server']
       },
       javascript: {
-        files: ['<%= site.app %>/_js/**/*.js'],
-        tasks: ['concat:javascript']
+        files: ['js/**/*.js'],
+        tasks: ['concat:server']
       },
       jekyll: {
         files: [
@@ -225,90 +311,29 @@ module.exports = function (grunt) {
         ],
         tasks: ['jekyll:server']
       }
-    },
-
-    concat: {
-      options: {
-        sourceMap: true
-      },
-      javascript: {
-        files: [
-          {
-            src: [
-              '<%= site.app %>/_js/LICENSE',
-              '<%= site.app %>/_js/lib/util.js',
-              '<%= site.app %>/_js/models/**/*.js',
-              '<%= site.app %>/_js/views/**/*.js',
-              '<%= site.app %>/_js/controllers/**/*.js',
-              '<%= site.app %>/_js/components/**/*.js',
-              '<%= site.app %>/_js/main.js'
-            ],
-            dest: '<%= site.dist %>/js/core.js'
-          },
-          {
-            src: [
-              '<%= site.app %>/_js/_licenses/x11.js',
-              'node_modules/smoothscroll/smoothscroll.min.js',
-              '<%= site.app %>/_js/_licenses/license-end.js',
-            ],
-            dest: '<%= site.dist %>/js/smoothscroll.min.js'
-          }
-        ]
-      }
-    },
-
-    uglify: {
-      options: {
-        sourceMap: true,
-        sourceMapIncludeSources: true,
-        check: 'gzip',
-        preserveComments: saveLicense
-      },
-      js: {
-        files: {
-          '<%= site.dist %>/js/core.js': '<%= site.dist %>/js/core.js'
-        }
-      }
-    },
-
-    concurrent: {
-      external_scripts: [
-        'execute:sync_petitions',
-        'execute:sync_tumblr'
-      ],
-      compile: [
-        'copy',
-        'less:css',
-        'concat:javascript'
-      ]
     }
   });
 
   grunt.registerTask('dev', [
-    'clean:init',
-    'jekyll:server',
-    'concurrent:compile',
-    'postcss:build',
+    'clean',
+    'concurrent:server',
+    'postcss:server',
     'connect:local',
     'watch'
   ]);
 
   grunt.registerTask('build', [
-    'clean:init',
+    'clean',
     'concurrent:external_scripts',
-    'jekyll:build',
-    'concurrent:compile',
-    'uglify:js',
-    'postcss:build'
+    'concurrent:deploy1',
+    'concurrent:deploy2'
   ]);
 
   grunt.registerTask('review', [
-    'clean:init',
+    'clean',
     'concurrent:external_scripts',
-    'jekyll:review',
-    'concurrent:compile',
-    'uglify:js',
-    'postcss:build'
+    'concurrent:review',
+    'postcss:server'
   ]);
 
   grunt.registerTask('test', [
