@@ -6,7 +6,8 @@ Habitat.load('.env');
 var
   env = new Habitat('', {
     url: 'http://0.0.0.0:9084',
-    petitions_api: 'http://0.0.0.0:9104'
+    petitions_api: 'http://0.0.0.0:9104',
+    aws_s3_bucket: 's3.fightforthefuture.org'
   });
 
 module.exports = function (grunt) {
@@ -217,7 +218,7 @@ module.exports = function (grunt) {
             var
               stamp = Date.now();
             if (url[0] === '/') {
-              return 'https://' + env.get('aws').s3_bucket + url + '?' + stamp;
+              return 'https://' + env.get('aws_s3_bucket') + url + '?' + stamp;
             }
           }
         },

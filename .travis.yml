@@ -29,11 +29,13 @@ branches:
   - production
 deploy:
   provider: s3
-  access_key_id: AKIAJBBAGXKYKCPXRRLA
+  access_key_id: AKIAJBUMOKIYAH4JO5FQ
   secret_access_key:
-    secure: DBCwtbugob//X1i0RtEIP8Ln6KUm+YlTKDTmftp4HOsgzjWwcDgceb808i7ydZaeQtxYviWD1Rx3xnQ4iGvJfCYhap4nVWcLd8RBxVzGXeSLgHFQ151MDtDjgIq3lS6+fQwcbJBsOK8rlVU18+NR030DNyt5pguS70wyGDJLNRw=
-  bucket: $AWS_S3_BUCKET
+    secure: b2QaR+6fuC6HD6iK4ABJtcFkYtnk9BhJ7R9uWgQVYtx6U6Y2fw3MqpFCywpyhsO0TY2c3M2K/wYyXE765aOBWEJpByK3AW1vSLlUZNJICBtraXSbAoyxCnTVd1wYAwAi2CR1EuvrTGXNynCt3X0SoyWwrQbUSMvO27T7ZVmVG4U=
+  bucket: s3.fightforthefuture.org
   local-dir: assets
+  acl: public_read
+  skip_cleanup: true
   on:
     repo: fightforthefuture/fightforthefuture.github.io
     branch: production
