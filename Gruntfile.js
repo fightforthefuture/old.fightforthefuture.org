@@ -219,6 +219,8 @@ module.exports = function (grunt) {
               stamp = Date.now();
             if (url[0] === '/') {
               return 'https://' + env.get('aws_s3_bucket') + url + '?' + stamp;
+            } else {
+              return url;
             }
           }
         },
