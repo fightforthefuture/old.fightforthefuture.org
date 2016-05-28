@@ -40,6 +40,11 @@ defaults:
       type: petitions
     values:
       layout: action-network-petitions
+  - scope:
+      path: ''
+      type: redirects
+    values:
+      layout: none
 
 collections:
   legacy_pages:
@@ -856,4 +861,6 @@ kramdown:
   input: GFM
   smart_quotes: ["apos", "apos", "quot", "quot"]
 
-gems: ['jekyll-paginate']
+gems:
+  - 'jekyll-paginate'
+  - 'jekyll-redirect-from'
