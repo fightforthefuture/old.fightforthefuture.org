@@ -30,7 +30,7 @@ window.components.homepage = function (doc, win) {
   function loadDavid() {
     // Preloading & fading in David background
     var
-      imageUrl = '/img/page/homepage/david-by-michelangelo.jpg',
+      imageUrl = 'https://s3.fightforthefuture.org/img/page/homepage/david-by-michelangelo.jpg',
       image = new Image();
 
     image.src = imageUrl;
