@@ -13,7 +13,7 @@ autoresponder_text: >-
   Thanks again for taking action on {PETITION_TITLE}. We need more people like
   you who can take action on this issue. Can you please share it to help us
   reach the next level?
-published: false
+published: true
 action_network_url: >-
   https://actionnetwork.org/petitions/if-you-post-a-negative-review-of-this-website-you-might-get-sued/
 tags:
@@ -42,4 +42,4 @@ This is censorship at its worst.
 
 The Internet makes it easier for people to speak their minds. It makes it easier for people to question power and challenge the establishment. It’s a great thing for millions of people, but for some politicians, business owners, and public figures, it means they may have to be accountable. And they hate that. 
 
-Some states have already passed laws to make it easier for judges to dismiss these bogus SLAPP lawsuits so that their victims don’t get tied up in time consuming and costly litigation. We think it’s time for Congress to pass federal law to ensure that no one who exercises their free speech on the Internet has to go through a lengthy legal process to defend themselves. 
+Some states have already passed laws to make it easier for judges to dismiss these bogus SLAPP lawsuits so that their victims don’t get tied up in time consuming and costly litigation. We think it’s time for Congress to pass federal law to ensure that no one who exercises their free speech on the Internet has to go through a lengthy legal process to defend themselves.
