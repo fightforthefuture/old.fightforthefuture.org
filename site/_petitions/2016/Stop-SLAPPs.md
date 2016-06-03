@@ -25,8 +25,8 @@ petition_copy: >-
   We're calling on House Judiciary Committee Chairman Bob Goodlatte to take up
   the SPEAK FREE Act immediately. Free speech on the Internet needs to be
   protected from bogus lawsuits.
-twittertext:
-  Don't say anything abd about this website or you might get sued: null
+twittertext: >-
+  Don't say anything bad about this website or you might get sued.
 social_title: 'If you post a negative review of this website, you might get sued. '
 social_description: >-
   Companies and powerful individuals are using bogus “strategic lawsuits against
