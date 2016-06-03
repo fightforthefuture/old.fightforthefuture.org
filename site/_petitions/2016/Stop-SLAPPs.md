@@ -33,7 +33,7 @@ social_description: >-
   their negative reviews. These lawsuits have no legal merit. They are simply
   ways for powerful entities to threaten and intimidate people into submission.
 ---
-## Okay, Okay… we’re not actually going to sue you if you say something bad about us. But this is exactly what’s happening to people who post negative comments on Yelp, Airbnb, and other sites. 
+## Okay, Okay… we’re not actually going to sue you if you say something bad about us. But that's exactly what’s happening to people who post negative comments on Yelp, Airbnb, and other sites. 
 
 Companies and powerful individuals are using bogus “strategic lawsuits against public participation,” or SLAPP suits, to intimidate people into taking down their negative reviews. These lawsuits have no legal merit. They are simply ways for powerful entities to threaten and intimidate people into submission. 
 
