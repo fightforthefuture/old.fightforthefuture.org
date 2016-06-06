@@ -1,0 +1,51 @@
+{% capture newline %}
+
+{% endcapture %}
+{% capture tags %}{% if page.tags and page.tags != "null" %}[{% for tag in page.tags %}"{{ tag }}"{% unless forloop.last %},{% endunless %}{% endfor %}]{% endif %}{% endcapture %}
+{% if page.additional_fields contains 'null' %}{% assign fields_class = 'length-0' %}{% else %}
+{% capture fields_class %}length-{{ page.additional_fields | size }}{% endcapture %}{% endif %}
+<form id="petition-form" class="petition-form" accept-charset="UTF-8" action="{{ page.action_network_url }}/signatures" method="post" data-host="{{ site.petitions_api }}" data-petition-id="{% if page.petition_id %}{{ page.petition_id }}{% else %}{{ site.petition_identifiers[page.action_network_url] | default: 'undefined' }}{% endif %}">
+  <label class="visually-hidden" for="form-first_name">Name (optional):</label>
+  <input type="text" id="form-first_name" class="name {{ fields_class }}" name="signature[first_name]" placeholder="Name (optional)" />
+
+  <label class="visually-hidden" for="form-email">Email:</label>
+  <input type="email" id="form-email" name="signature[email]" class="email {{ fields_class }}" placeholder="Email" required/>
+
+  {% if page.additional_fields contains 'street_address' %}
+  <label class="visually-hidden" for="form-street_address">Street address{% unless page.required_fields contains 'street_address' %} (optional){% endunless %}:</label>
+  <input type="text" id="form-street_address" name="signature[street_address]" class="address {{ fields_class }}" placeholder="Street address{% unless page.required_fields contains 'street_address' %} (optional){% endunless %}" {% if page.required_fields contains 'street_address' %} required{% endif %} />
+  {% endif %}
+
+  <label class="visually-hidden" for="form-zip_code">{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code:</label>
+  <input type="text" id="form-zip_code" name="signature[zip_code]" class="zip {{ fields_class }}" placeholder="{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code" required/>
+
+  {% if page.additional_fields contains 'city' %}
+  <label class="visually-hidden" for="form-city">City{% unless page.required_fields contains 'city' %} (optional){% endunless %}:</label>
+  <input type="text" id="form-city" name="signature[city]" class="city {{ fields_class }}" placeholder="City{% unless page.required_fields contains 'city' %} (optional){% endunless %}" {% if page.required_fields contains 'city' %} required{% endif %} />
+  {% endif %}
+
+  {% if page.allow_comments %}
+  <textarea cols="40" id="form-comments" name="signature[message_to_target]" class="comment" placeholder="Comments" rows="6">{{ page.action_comment | replace: '|', newline }}</textarea>
+  {% endif %}
+
+  <label for="select-country">
+    Not in {% if site.data.countries[page.target_country] == "United States" %}the {% endif %}{{ site.data.countries[page.target_country] }}?
+  </label>
+
+  <select id="select-country">
+    {% for country in site.data.countries %}
+    <option value="{{ country[0] }}" {% if country[0] == page.target_country %} selected{% endif %}>
+      {{ country[1] }}
+    </option>
+    {% endfor %}
+  </select>
+
+  <input type="hidden" value="US" id="hidden-country"/>
+  <input type="hidden" name="utf8" value="✓">
+  <input type="hidden" name="authenticity_token" value="0T4Obtb0NSc88GcP+W4S67iTV1B9UhTVWbk6UjKj7+o="/>
+  <input type="hidden" name="subscription[sub_group_id]" value="13162">
+  <input type="hidden" name="subscription[http_referer]" value="{{ site.url }}{{ page.url }}"/>
+  <input type="hidden" name="subscription[source]" value="www"/>
+  <input type="hidden" name="subscription[tag_list]" value='{{ tags }}'/>
+  <input type="submit" name="commit" class="{{ fields_class }}" value="{{ page.action_text | default: 'Take action' }}"/>
+</form>

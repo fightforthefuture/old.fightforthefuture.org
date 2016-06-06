@@ -27,6 +27,7 @@ module.exports = function (grunt) {
         'js/lib/util.js',
         'js/views/**/*.js',
         'js/components/**/*.js',
+        'js/callbacks/**/*.js',
         'js/main.js'
       ]
     },
