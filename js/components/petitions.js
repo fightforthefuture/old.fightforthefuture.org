@@ -166,9 +166,8 @@ window.components.petitions = function (doc, win) {
       formData.append('member[postcode]', doc.getElementById('form-zip_code').value);
       formData.append('member[country]', countrySelect.value);
 
-      if (doc.getElementById('opt-in').getAttribute('type') === 'checkbox' &&
-        doc.getElementById('opt-in').checked === false) {
-        formData.append('opt_out', false);
+      if (doc.getElementById('opt-in') && doc.getElementById('opt-in').getAttribute('type') === 'checkbox' && doc.getElementById('opt-in').checked === false) {
+        formData.append('opt_out', true);
       }
 
       if (doc.getElementById('form-street_address')) {
