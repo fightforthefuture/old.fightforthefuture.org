@@ -1,3 +1,6 @@
+{% capture newline %}
+
+{% endcapture %}
 {% capture tags %}{% if page.tags and page.tags != "null" %}[{% for tag in page.tags %}"{{ tag }}"{% unless forloop.last %},{% endunless %}{% endfor %}]{% endif %}{% endcapture %}
 {% if page.additional_fields contains 'null' %}{% assign fields_class = 'length-0' %}{% else %}
 {% capture fields_class %}length-{{ page.additional_fields | size }}{% endcapture %}{% endif %}
@@ -22,7 +25,7 @@
   {% endif %}
 
   {% if page.allow_comments %}
-  <textarea cols="40" id="form-comments" name="signature[message_to_target]" class="comment" placeholder="Comments" rows="6"></textarea>
+  <textarea cols="40" id="form-comments" name="signature[message_to_target]" class="comment" placeholder="Comments" rows="6">{{ page.action_comment | replace: '|', newline }}</textarea>
   {% endif %}
 
   <label for="select-country">
