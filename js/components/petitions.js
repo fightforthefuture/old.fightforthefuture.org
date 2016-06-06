@@ -16,8 +16,6 @@ window.components.petitions = function (doc, win) {
     countryInput = doc.getElementById('hidden-country'),
     countrySelect = doc.getElementById('select-country'),
     countryLabel = doc.querySelector('[for="select-country"]'),
-    petitionBox = doc.querySelector('.petition-box'),
-    petitionBottom = petitionBox.offsetTop + petitionBox.clientHeight,
     queryString = win.util.parseQueryString();
 
   function numberCommafier(number) {
