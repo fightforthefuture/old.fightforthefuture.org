@@ -1,3 +1,6 @@
+{% capture tags %}{% if page.tags and page.tags != "null" %}[{% for tag in page.tags %}"{{ tag }}"{% unless forloop.last %},{% endunless %}{% endfor %}]{% endif %}{% endcapture %}
+{% if page.additional_fields contains 'null' %}{% assign fields_class = 'length-0' %}{% else %}
+{% capture fields_class %}length-{{ page.additional_fields | size }}{% endcapture %}{% endif %}
 <form id="petition-form" class="petition-form" accept-charset="UTF-8" action="{{ page.action_network_url }}/signatures" method="post" data-host="{{ site.petitions_api }}" data-petition-id="{{ site.petition_identifiers[page.action_network_url] | default: 'undefined' }}">
   <label class="visually-hidden" for="form-first_name">Name (optional):</label>
   <input type="text" id="form-first_name" class="name {{ fields_class }}" name="signature[first_name]" placeholder="Name (optional)" />
