@@ -43,6 +43,9 @@ window.components.petitions = function (doc, win) {
       step = (guardedTargetVal / 1500) * 30; // 1500 ms total, 30ms minimum
                                              // interval
 
+    if (!progressbar)
+      return false;
+
     function loading() {
       value += step;
       value = Math.ceil(value);
