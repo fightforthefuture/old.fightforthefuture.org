@@ -33,6 +33,7 @@ social_description: >-
   their negative reviews. These lawsuits have no legal merit. They are simply
   ways for powerful entities to threaten and intimidate people into submission.
 share_image: /img/action-network/bad-food.jpg
+share_image_dims: 1200 x 630
 ---
 ![bad-food.jpg]({{site.baseurl}}/img/action-network/bad-food.jpg)
 
