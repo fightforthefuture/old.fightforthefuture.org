@@ -25,13 +25,13 @@ petition_copy: >-
   We're sending an open letter to House Judiciary Committee Chairman Bob
   Goodlatte, demanding that he take up legislation to ban bogus SLAPP suits
   immediately. Can you add your name?
-twittertext: 'If you post a negative review of this website, you will get sued'
-social_title: 'If you post a negative review of this website, we will sue you.'
-social_description: >-
-  This is an awesome website. Any remarks to the contrary will be prosecuted the
-  fullest extent of the law.
+twittertext: If you post a negative review of this website you may get sued.
+social_title: 'Check out my awesome website. '
 share_image: /img/action-network/bad-food.jpg
 share_image_dims: 1200 x 630
+social_description: >-
+  This website is awesome. Anything you say about it to the contrary will be
+  prosecuted to the fullest extent of the law.
 ---
 ![bad-food.jpg]({{site.baseurl}}/img/action-network/bad-food.jpg)
 
