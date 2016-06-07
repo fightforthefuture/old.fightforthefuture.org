@@ -28,10 +28,8 @@ petition_copy: >-
 twittertext: 'If you post a negative review of this website, you will get sued'
 social_title: 'If you post a negative review of this website, we will sue you.'
 social_description: >-
-  Companies and powerful individuals are using bogus “strategic lawsuits against
-  public participation,” or SLAPP suits, to intimidate people into taking down
-  their negative reviews. These lawsuits have no legal merit. They are simply
-  ways for powerful entities to threaten and intimidate people into submission.
+  This is an awesome website. Any remarks to the contrary will be prosecuted the
+  fullest extent of the law.
 share_image: /img/action-network/bad-food.jpg
 share_image_dims: 1200 x 630
 ---
