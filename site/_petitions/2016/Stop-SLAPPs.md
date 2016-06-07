@@ -19,21 +19,19 @@ action_network_url: >-
 tags:
   - censorship
 headline: 'If you post a negative review of this website, we will sue you.'
-search_title: 'If you post a negative review of this website, you might get sued.'
+search_title: 'If you post a negative review of this website, we will sue you.'
 petition_title: Sign up to protect yourself from lawsuits
 petition_copy: >-
   We're sending an open letter to House Judiciary Committee Chairman Bob
   Goodlatte, demanding that he take up legislation to ban bogus SLAPP suits
   immediately. Can you add your name?
-twittertext:
-  'If you post a negative review of this website, you will get sued': null
-social_title: 'If you post a negative review of this website, you might get sued. '
+twittertext: 'If you post a negative review of this website, you will get sued'
+social_title: 'If you post a negative review of this website, we will sue you.'
 social_description: >-
-  Companies and powerful individuals are using bogus “strategic lawsuits against
-  public participation,” or SLAPP suits, to intimidate people into taking down
-  their negative reviews. These lawsuits have no legal merit. They are simply
-  ways for powerful entities to threaten and intimidate people into submission.
+  This is an awesome website. Any remarks to the contrary will be prosecuted the
+  fullest extent of the law.
 share_image: /img/action-network/bad-food.jpg
+share_image_dims: 1200 x 630
 ---
 ![bad-food.jpg]({{site.baseurl}}/img/action-network/bad-food.jpg)
 
