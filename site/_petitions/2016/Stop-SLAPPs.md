@@ -37,8 +37,6 @@ social_description: >-
 
 Companies and powerful individuals are using bogus “strategic lawsuits against public participation,” or SLAPP suits, to intimidate people into taking down their negative reviews. These lawsuits have zero legal merit. They are simply ways for powerful entities to threaten and intimidate people into submission. 
 
-This is censorship at its worst. 
+This is censorship at its worst. The Internet makes it easier for people to speak their minds. It makes it easier for people to question power and challenge the establishment. It’s a great thing for millions of people, but for some business owners and public figures, it means they may have to be accountable. They hate that. 
 
-The Internet makes it easier for people to speak their minds. It makes it easier for people to question power and challenge the establishment. It’s a great thing for millions of people, but for some business owners and public figures, it means they may have to be accountable. And they hate that. 
-
-Some states have already passed laws to make it easier for judges to dismiss these bogus SLAPP lawsuits so that their victims don’t get tied up in time consuming and costly litigation. We think it’s time for Congress to pass federal law to ensure that no one who exercises their free speech on the Internet has to go through a lengthy legal process to defend themselves.
+Some states have already passed laws to make it easier for judges to dismiss these bogus SLAPP lawsuits so that their victims don’t get caught up in time consuming and costly litigation. It’s time for Congress to pass a federal law to ensure that no one who exercises their free speech on the Internet has to go through a lengthy legal process to defend themselves from bogus SLAPP suits.
