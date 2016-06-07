@@ -20,7 +20,7 @@ tags:
   - censorship
 headline: 'If you post a negative review of this website, we will sue you.'
 search_title: 'If you post a negative review of this website, you might get sued.'
-petition_title: Sign our open letter
+petition_title: Sign up to protect yourself from lawsuits
 petition_copy: >-
   We're sending an open letter to House Judiciary Committee Chairman Bob
   Goodlatte, demanding that he take up legislation to ban bogus SLAPP suits
