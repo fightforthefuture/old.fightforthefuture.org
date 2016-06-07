@@ -18,7 +18,7 @@ action_network_url: >-
   https://actionnetwork.org/petitions/if-you-post-a-negative-review-of-this-website-you-might-get-sued/
 tags:
   - censorship
-headline: 'If you post a negative review of this website, you might get sued.'
+headline: 'If you post a negative review of this website, we will sue you.'
 search_title: 'If you post a negative review of this website, you might get sued.'
 petition_title: Sign our open letter
 petition_copy: >-
