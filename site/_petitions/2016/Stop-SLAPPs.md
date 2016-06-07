@@ -25,13 +25,15 @@ petition_copy: >-
   We're sending an open letter to House Judiciary Committee Chairman Bob
   Goodlatte, demanding that he take up legislation to ban bogus SLAPP suits
   immediately. Can you add your name?
-twittertext: Don't say anything bad about this website or you might get sued.
+twittertext:
+  'If you post a negative review of this website, you will get sued': null
 social_title: 'If you post a negative review of this website, you might get sued. '
 social_description: >-
   Companies and powerful individuals are using bogus “strategic lawsuits against
   public participation,” or SLAPP suits, to intimidate people into taking down
   their negative reviews. These lawsuits have no legal merit. They are simply
   ways for powerful entities to threaten and intimidate people into submission.
+share_image: /img/action-network/bad-food.jpg
 ---
 ![bad-food.jpg]({{site.baseurl}}/img/action-network/bad-food.jpg)
 
