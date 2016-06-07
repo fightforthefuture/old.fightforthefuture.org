@@ -4,7 +4,7 @@ design: white-two-column
 smaller_headline: false
 opt_in: false
 include_comments: false
-action_text: Take action
+action_text: Add your name
 target_country: US
 autoresponder_active: false
 autoresponder_hours: 72
@@ -20,11 +20,11 @@ tags:
   - censorship
 headline: 'If you post a negative review of this website, you might get sued.'
 search_title: 'If you post a negative review of this website, you might get sued.'
-petition_title: End SLAPP suits now
+petition_title: Sign our open letter
 petition_copy: >-
-  We're calling on House Judiciary Committee Chairman Bob Goodlatte to take up
-  the SPEAK FREE Act immediately. Free speech on the Internet needs to be
-  protected from bogus lawsuits.
+  We're sending an open letter to House Judiciary Committee Chairman Bob
+  Goodlatte, demanding that he take up legislation to ban bogus SLAPP suits
+  immediately. Can you add your name?
 twittertext: Don't say anything bad about this website or you might get sued.
 social_title: 'If you post a negative review of this website, you might get sued. '
 social_description: >-
