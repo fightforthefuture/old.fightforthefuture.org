@@ -26,12 +26,12 @@ petition_copy: >-
   Goodlatte, demanding that he take up legislation to ban bogus SLAPP suits
   immediately. Can you add your name?
 twittertext: If you post a negative review of this website you may get sued.
-social_title: 'If you post a negative review of this website you will get sued. '
+social_title: >-
+  This site will scare you from ever complaining about stuff on the Internet
+  again. 
 share_image: /img/action-network/bad-food.jpg
 share_image_dims: 1200 x 630
-social_description: >-
-  This website is awesome. Anything you say about it to the contrary will be
-  prosecuted to the fullest extent of the law.
+social_description: 'Complain, complain, complain. Let''s see if you''ll complain about this site.'
 ---
 ![bad-food.jpg]({{site.baseurl}}/img/action-network/bad-food.jpg)
 
