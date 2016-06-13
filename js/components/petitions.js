@@ -185,6 +185,10 @@ window.components.petitions = function (doc, win) {
       var autoresponderHours = document.querySelector('meta[name="autoresponder_hours"]');
       formData.append('autoresponder_hours', autoresponderHours ? autoresponderHours.content : 72);
 
+      var mothershipTag = document.querySelector('input[name="_mothership_tag"]');
+      if (mothershipTag && mothershipTag.value)
+        formData.append('tag', mothershipTag.value);
+
       return formData;
     }
 

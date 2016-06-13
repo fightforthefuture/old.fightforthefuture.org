@@ -271,6 +271,8 @@ prose:
               value: street_address
             - name: 'City'
               value: city
+            - name: 'Zip Code'
+              value: zip
       - name: 'include_comments'
         field:
           element: checkbox
