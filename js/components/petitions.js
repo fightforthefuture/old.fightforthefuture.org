@@ -157,7 +157,6 @@ window.components.petitions = function (doc, win) {
       formData.append('guard', '');
       formData.append('hp_enabled', true);
       formData.append('org', 'fftf');
-      formData.append('tag', window.location.pathname);
       formData.append('an_tags', JSON.stringify(tags));
       formData.append('an_url', win.location.href);
       formData.append('an_petition', petitionSignatureForm.action.replace('/signatures', ''));
@@ -188,6 +187,8 @@ window.components.petitions = function (doc, win) {
       var mothershipTag = document.querySelector('input[name="_mothership_tag"]');
       if (mothershipTag && mothershipTag.value)
         formData.append('tag', mothershipTag.value);
+      else
+        formData.append('tag', window.location.pathname);
 
       return formData;
     }
