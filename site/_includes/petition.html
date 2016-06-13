@@ -47,5 +47,9 @@
   <input type="hidden" name="subscription[http_referer]" value="{{ site.url }}{{ page.url }}"/>
   <input type="hidden" name="subscription[source]" value="www"/>
   <input type="hidden" name="subscription[tag_list]" value='{{ tags }}'/>
+
+  <!-- mothership stuff here -->
+  <input type="hidden" name="_mothership_tag" value="{{ page.mothership_tag }}"/>
+
   <input type="submit" name="commit" class="{{ fields_class }}" value="{{ page.action_text | default: 'Take action' }}"/>
 </form>

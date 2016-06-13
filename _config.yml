@@ -846,6 +846,13 @@ prose:
           help: 'Text of the delayed autoresponder email that reminds the user to share the petition. {PETITION_TITLE} is automatically replaced with the ''Page headline'' title. Use | to separate paragraphs.'
           placeholder: 'Autoresponder text'
           value: 'Thanks again for taking action on {PETITION_TITLE}. We need more people like you who can take action on this issue. Can you please share it to help us reach the next level?'
+      - name: 'mothership_tag'
+        field:
+          element: 'text'
+          label: '(Developer) Mothership Tag'
+          help: 'This field can activate special functionality in Mothership'
+          placeholder: 'tag'
+          value: ''
 baseurl: ''
 
 #############
