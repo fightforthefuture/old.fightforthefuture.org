@@ -16,7 +16,7 @@ If you enter your information as part of a clearly-labeled “joint action” wi
 
 We sometimes carry out our business or operate our website using third party tools or services. Information may be shared with the operators of those tools or services in connection with our use of those tools or services to carry out business or operate our website.
 
-### Donations information                                           {#donations}
+### Donations information                                         
 
 Your credit card information will be used only for transactions through our secure online payment system. Fight for the Future does not retain credit card information.
 
