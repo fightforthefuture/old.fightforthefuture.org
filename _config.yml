@@ -34,7 +34,6 @@ defaults:
       path: ''
     values:
       layout: 'default'
-      stylesheet_name: core
   - scope:
       path: ''
       type: petitions
