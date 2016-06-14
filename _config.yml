@@ -34,6 +34,7 @@ defaults:
       path: ''
     values:
       layout: 'default'
+      share_image: /img/share/fftf-share.jpg
   - scope:
       path: ''
       type: petitions

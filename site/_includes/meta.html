@@ -1,11 +1,7 @@
-{% if page.share_image %}
-  {% if page.share_image contains 'http' %}
-    {% assign share_img = page.share_image | uri_escape %}
-  {% else %}
-    {% capture share_img %}{{ site.url }}{{ page.share_image | uri_escape }}{% endcapture %}
-  {% endif %}
+{% if page.share_image contains 'http' %}
+  {% assign share_img = page.share_image | uri_escape %}
 {% else %}
-  {% capture share_img %}{{ site.url }}/img/share/fftf-share.jpg{% endcapture %}
+  {% assign share_img = site.url | append: page.share_image | uri_escape %}
 {% endif %}
 
 {% assign dims = page.share_image_dims | split: " × " %}
