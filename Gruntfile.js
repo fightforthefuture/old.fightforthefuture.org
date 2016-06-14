@@ -91,7 +91,7 @@ module.exports = function (grunt) {
           {
             expand: true,
             dot: true,
-            src: 'img/**/*.{gif,png,jpg,svg}',
+            src: 'img/**/*.{gif,png,jpg,jpeg,svg}',
             dest: '<%= site.assets %>'
           }
         ]
