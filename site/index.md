@@ -26,13 +26,15 @@ Fight for the Future is dedicated to protecting and expanding the Internet’s t
 ## As Covered By                                                        {#press}
 
 {% for press in site.data.homepage.featuredpress.detail %}
+{% assign dimensions = press.dimensions | split: ' x ' %}
   * > {{ press.quote }}
 
-    [_![](/img/page/homepage/letters/{{ press.publication | truncate: 1, '' | downcase }}.png){{ press.publication | slice: 1, 100 }}_]({{ press.url }}){: target="_blank"}{% endfor %}
+    [_![](/img/page/homepage/letters/{{ press.publication | truncate: 1, '' | downcase }}.png){: alt="{{ press.publication | truncate: 1, '' }}" height="{{ dimensions[1] }}" width="{{ dimensions[0] }}"}{{ press.publication | slice: 1, 100 }}_]({{ press.url }}){: target="_blank"}{% endfor %}
 {:.press}
 
 {% for press in site.data.homepage.featuredpress.list %}
-  * [![{{ press.publication }}](/img/page/homepage/publications/{{ press.publication | replace: ' ', '' | downcase }}.png)]({{ press.url }}){: target="_blank"}{% endfor %}
+{% assign dimensions = press.dimensions | split: ' x ' %}
+  * [![{{ press.publication }}](/img/page/homepage/publications/{{ press.publication | replace: ' ', '' | downcase }}.png){: height="{{ dimensions[1] }}" width="{{ dimensions[0] }}"}]({{ press.url }}){: target="_blank"}{% endfor %}
 {:.logos}
 
 </section>

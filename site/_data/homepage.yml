@@ -290,36 +290,52 @@ featuredpress:
     - quote: This movement started from somewhere. The group behind the largest online protest in history is Fight for the Future, which began in October.
       publication: San Francisco Chronicle
       url: http://www.sfgate.com/news/article/The-Largest-Online-Protest-In-History-Started-Here-2629811.php
+      dimensions: 25 x 43
     - quote: A Worcester activist group that helped stage the biggest Internet protest in history
       publication: Boston Globe
       url: https://www.bostonglobe.com/metro/2012/01/27/worcester-fight-for-future-helped-ignite-internet-revolt-against-antipiracy-bills/cEZNoCuuHI7mk6eADQ4lZK/story.html
+      dimensions: 31 x 35
     - quote: Fight for the Future, a nonprofit organization that helped organize the protests, said more than 115,000 Web sites participated, and three million people e-mailed Congress to voice their opposition to the bills.
       publication: The New York Times
       url: http://www.nytimes.com/2012/01/20/technology/public-outcry-over-antipiracy-bills-began-as-grass-roots-grumbling.html
+      dimensions: 26 x 33
   list:
     - url: http://www.nytimes.com/2015/02/27/technology/net-neutrality-fcc-vote-internet-utility.html
       publication: The New York Times
+      dimensions: 220 x 32
     - url: http://edition.cnn.com/2012/05/29/tech/web/internet-defense-league/
       publication: CNN
+      dimensions: 67 x 34
     - url: http://www.latimes.com/business/technology/la-fi-tn-internet-defense-league-bat-signal-20120525,0,6915426.story
       publication: Los Angeles Times
+      dimensions: 204 x 30
     - url: http://mashable.com/2013/02/15/cispa-petitions/
       publication: Mashable
+      dimensions: 127 x 26
     - url: http://www.politico.com/news/stories/0412/75034.html
       publication: Politico
+      dimensions: 141 x 30
     - url: http://www.huffingtonpost.com/2012/05/25/internet-defense-league-online-protests_n_1546551.html
       publication: The Huffington Post
+      dimensions: 158 x 65
     - url: http://www.guardian.co.uk/technology/2013/jan/23/google-transparency-report-government-data-privacy
       publication: The Guardian
+      dimensions: 121 x 21
     - url: http://articles.washingtonpost.com/2013-01-18/business/36475364_1_copyright-law-video-sites-vimeo
       publication: The Washington Post
+      dimensions: 212 x 43
     - url: http://www.economist.com/news/briefing/21569041-can-internet-activism-turn-real-political-movement-everything-connected
       publication: The Economist
+      dimensions: 136 x 44
     - url: http://www.cbsnews.com/8301-205_162-57564766/one-year-later-sopa-activists-reignite-copyright-conversation/?tag=socsh
       publication: CBS News
+      dimensions: 67 x 47
     - url: http://www.wired.co.uk/news/archive/2013-02/12/school-copyrights-students-work
       publication: WIRED
+      dimensions: 105 x 40
     - url: http://stream.aljazeera.com/story/201301182153-0022491
       publication: AlJazeera
+      dimensions: 141 x 40
     - url: http://www.rollingstone.com/politics/news/congress-is-trying-to-kill-internet-privacy-again-20130213
       publication: Rolling Stone
+      dimensions: 159 x 40
