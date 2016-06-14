@@ -11,6 +11,7 @@
 
 .white-two-column {
   color: @black;
+  margin-bottom: 9rem;
 
   main& {
     @media screen and (min-width: @large-phone) {
@@ -23,8 +24,8 @@
     }
 
     a {
-      color: @blue-850;
-      font-weight: bold;
+      color: #2054b3;
+      font-weight: 600;
 
       &:link, &:visited {
         text-decoration: none;
@@ -36,7 +37,7 @@
     }
 
     h2 {
-      margin-bottom: 1em;
+      margin-bottom: 0.5em;
 
       a {
         &:link, &:visited {
@@ -64,18 +65,17 @@
   }
 
   .progress-top, .progress-bottom {
+    color: @blue-050;
     width: 100%;
   }
 
   .progress-top {
     text-align: left;
-    color: #c9cae0;
   }
 
   .progress-bottom {
     order: 4;
     text-align: right;
-    color: #c9cae0;
   }
 
   progress {
@@ -83,7 +83,7 @@
     border-radius: 3rem;
     overflow: hidden;
     padding: 0.1rem;
-    height: 10px;
+    height: 1rem;
     vertical-align: middle;
     &::-webkit-progress-value {
       .heart-progress-inner();
@@ -99,6 +99,26 @@
     }
   }
 
+  .petition {
+    .name, .address, .city, .email, .zip, textarea {
+      font-size: 1.8rem;
+      padding: 1.5rem;
+    }
+
+    p {
+      font-size: 2rem;
+      line-height: 2.9rem;
+    }
+
+    blockquote {
+      p {
+        color: #ecedfb;
+        font-size: 0.8em;
+        line-height: 2rem;
+      }
+    }
+  }
+
   .petition-box {
     margin: 2.5rem 1rem;
 
@@ -111,10 +131,16 @@
 
   .petition-text {
     padding: 1.5rem 1.5rem 0;
+
+    h2 {
+      font-size: 2.2rem;
+      font-weight: 600;
+    }
   }
 
   .petition-form {
     background-color: fade(@black, 30%);
+    box-shadow: 0 1.4rem 4rem -0.7rem fade(darken(@grey, 12%), 53%);
     opacity: 1;
     padding: 2rem 1.5rem 5.2rem;
     position: relative;
@@ -147,104 +173,25 @@
     @media screen and (min-width: @large-phone) {
       padding: 0 2rem 0 0;
     }
+
+    h2 {
+      font-weight: 400;
+    }
   }
 
-   [for="opt-in"] {
-     background-color: white;
-     color: @blue-800;
-     padding: 2rem 5px;
+  .name, .address, .city, .email, .zip, textarea {
+    &::placeholder {
+      color: #4f4f69;
+    }
+  }
+
+  [for="opt-in"] {
+    background-color: @white;
+    color: #8889a0;
+    padding: 2rem 0.5rem;
   }
 
   .an-footer-cta {
     display: none;
   }
 }
-
-  .petition blockquote p{
-     font-size: 0.8em;
-     color: #ecedfb;
-    line-height: 2rem;
-  }
- 
-   main.white-two-column h2{
-     margin-bottom: 0.5em;
-   }
- 
-   .white-two-column [for="opt-in"]{
-     color: #8889a0;
-   }
- 
-   .petition-info h2{
-     font-weight: 400;
-   }
- 
-   .petition [type=email], .petition [type=text]{
-     padding: 1.5rem;
-     font-size: 18px;
-   }
- 
- input[placeholder], [placeholder], *[placeholder] {
-   color: #4f4f69 !important;
- }
- 
- input::-webkit-input-placeholder {
-    color:  #4f4f69 !important;
- }
- 
- input:-moz-placeholder { /* Firefox 18- */
-    color:  #4f4f69 !important;  
- }
- 
- input::-moz-placeholder {  /* Firefox 19+ */
-    color:  #4f4f69 !important;  
- }
- 
- input:-ms-input-placeholder {  
-    color:  #4f4f69 !important;  
- }
- 
- main.white-two-column{
-   margin-bottom: 9rem;
- }
- 
- main.white-two-column a{
-   color: #2054b3;
-   font-weight: 600;
- }
- 
- .petition p{
-   line-height: 2.9rem;
-   font-size: 2rem;
- }
- .stickybar-take-action{
-   font-weight: 900;
-   font-size: 2rem;
- }
-   .an-footer-info p{
-     line-height: 2.2rem;
-     font-size: 1.7rem;
-   }
- 
-   .share-this-button-links a{
-     font-weight: 600;
-     letter-spacing: 0.09rem;
-     font-size: 2rem;
-   }
- 
-   .white-two-column img{
-     -webkit-box-shadow: 0px 14px 40px -22px rgba(139,139,139,1);
-    -moz-box-shadow: 0px 14px 40px -22px rgba(139,139,139,1);
-     box-shadow: 0px 14px 40px -22px rgba(139,139,139,1);
-  }
- 
- .white-two-column .petition-form{
-   -webkit-box-shadow: 0px 14px 40px -7px rgba(139,139,139,0.53);
- -moz-box-shadow: 0px 14px 40px -7px rgba(139,139,139,0.53);
- box-shadow: 0px 14px 40px -7px rgba(139,139,139,0.53);
- }
- 
-  .white-two-column .petition-text h2{
-   font-size: 2.2rem;
-   font-weight: 600;
-   }
-
