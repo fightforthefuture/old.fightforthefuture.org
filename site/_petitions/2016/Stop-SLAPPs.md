@@ -45,13 +45,14 @@ Some states have already passed laws to make it easier for judges to dismiss the
 
 ## Here are a few examples of people who have been SLAPPed for expressing their opinions online:
 
-* Michell Duchouquette, [sued](http://dfw.cbslocal.com/2016/05/04/yelp-review-could-cost-couple-1-million/) by Prestigious Pets for a Yelp review: "I don't think it was hateful, it didn't have bad intent, it's my opinion of a business. When I say it out loud saying I'm getting sued up to $1 million over this review, I can't believe it."
+- Michell Duchouquette, [sued](http://dfw.cbslocal.com/2016/05/04/yelp-review-could-cost-couple-1-million/) by Prestigious Pets for a Yelp review: "I don't think it was hateful, it didn't have bad intent, it's my opinion of a business. When I say it out loud saying I'm getting sued up to $1 million over this review, I can't believe it."
 
-* Jennifer Ujimori, [sued](https://www.washingtonpost.com/local/crime/negative-yelp-review-of-dog-obedience-class-spurs-lawsuit/2015/03/25/eb92dab6-d183-11e4-8fce-3941fc548f1c_story.html) by Burke's Dog Tranquility over Angie's List and Yelp reviews: "People should be free to express their feelings about their service providers. Companies using the legal system to silence their critics has a chilling effect on First Amendment rights."
+- Jennifer Ujimori, [sued](https://www.washingtonpost.com/local/crime/negative-yelp-review-of-dog-obedience-class-spurs-lawsuit/2015/03/25/eb92dab6-d183-11e4-8fce-3941fc548f1c_story.html) by Burke's Dog Tranquility over Angie's List and Yelp reviews: "People should be free to express their feelings about their service providers. Companies using the legal system to silence their critics has a chilling effect on First Amendment rights."
 
-* Matthew White, [sued](http://www.motherjones.com/politics/2015/07/yelp-slapp-lawsuit-legislation-speak-free-act) by Footprints Floors for a Yelp review: "People should not be threatened or have to pay a lot of money in attorney fees just because they relay a real-life experience. So what Amanda and I want to do is turn something that was very negative and costly for us into something positive for others."
+- Matthew White, [sued](http://www.motherjones.com/politics/2015/07/yelp-slapp-lawsuit-legislation-speak-free-act) by Footprints Floors for a Yelp review: "People should not be threatened or have to pay a lot of money in attorney fees just because they relay a real-life experience. So what Amanda and I want to do is turn something that was very negative and costly for us into something positive for others."
+ 
+- T. [was threatened](https://consumerist.com/2014/05/08/how-does-a-negative-amazon-review-result-in-threats-of-a-lawsuit/) with a lawsuit for leaving a one-star review on Amazon: "I just wanted to leave a review with information that I found useful for others who have to decide whether to purchase a product, and not have to worry about being threatened by lawyers. It makes me really nervous to leave a negative review in the future. At the very least I'll never use my real name when posting a review ever again."
 
-* T. [was threatened](https://consumerist.com/2014/05/08/how-does-a-negative-amazon-review-result-in-threats-of-a-lawsuit/) with a lawsuit for leaving a one-star review on Amazon: "I just wanted to leave a review with information that I found useful for others who have to decide whether to purchase a product, and not have to worry about being threatened by lawyers. It makes me really nervous to leave a negative review in the future. At the very least I'll never use my real name when posting a review ever again."
 
 
 
