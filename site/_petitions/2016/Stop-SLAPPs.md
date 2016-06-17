@@ -22,10 +22,9 @@ headline: 'If you post a negative review of this website, we will sue you.'
 search_title: 'If you post a negative review of this website, we will sue you.'
 petition_title: Sign up to protect yourself from lawsuits
 petition_copy: >-
-  We're sending an [open
-  letter](https://docs.google.com/forms/d/18XJedzLbXP1A9aMFn1fW5GxSKR6pkTRPbhCL9lkh2ow/viewform?c=0&w=1)
-  to House Judiciary Committee Chairman Bob Goodlatte, demanding that he take up
-  legislation to ban bogus SLAPP suits immediately. Can you add your name?
+  We're sending an open letter to House Judiciary Committee Chairman Bob
+  Goodlatte, demanding that he take up legislation to ban bogus SLAPP suits
+  immediately. Can you add your name?
 twittertext: If you post a negative review of this website you may get sued.
 social_title: >-
   This site will scare you from ever complaining about stuff on the Internet
