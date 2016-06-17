@@ -33,6 +33,33 @@ social_title: >-
 share_image: /img/action-network/bad-food.jpg
 share_image_dims: 1200 x 630
 social_description: 'Complain, complain, complain. Let''s see if you''ll complain about this site.'
+action_comment:
+  ? 'Dear Chairman Goodlatte:|We, the undersigned individuals, have been threatened or sued for publishing articles and editorials in news publications, leaving reviews on consumer advocacy sites, and sharing our experiences and ideas in social media forums. Through Strategic Lawsuits Against Public Participation (SLAPPs), abusive businesses and powerful individuals have attempted to intimidate us from sharing our honest experiences and opinions online.|We’re speaking up in support of the SPEAK FREE Act (HR 2304) to ensure that this does not happen to anyone else. This legislation will enhance free speech protections online and raise the stakes for bad businesses and individuals who would otherwise turn to meritless lawsuits to silence their critics. We urge the Judiciary Committee to expeditiously move this important bill forward to the House floor for a vote.|The internet is a powerful platform for free speech and open dialogue, providing its users with space to both share information and benefit from the knowledge of others. Not only does this result in greater civic participation, it also drives public discourse. Every day, more and more people are turning to news publications and blogs, online review sites, and other information-sharing platforms to spark conversation, read up on different topics, and make better informed decisions.|However, some businesses and individuals are uncomfortable with the internet as a platform for free speech and are attempting to silence their critics with SLAPPs. These lawsuits are a form of intimidation that allow bad actors to issue an ultimatum to whomever they want'
+  : >-
+    refrain from expressing your honest thoughts online or face hefty legal
+    fees, an invasion of privacy, and protracted legal proceedings to adjudicate
+    your experiences and opinions. This is a lose-lose situation for
+    individuals, and has potential to do significant harm to the internet and
+    growing online economy.|While some states have adopted statutes to protect
+    their citizens from SLAPPs, millions of Americans are still without access
+    to an affordable and robust way to defend themselves against these frivolous
+    lawsuits. The SPEAK FREE Act will level the playing field and provide
+    federal court judges with the authority to determine whether a lawsuit is a
+    SLAPP, and, if so, to dismiss it early on in the legal process. The bill
+    will also include a fee-shifting provision to ensure the defendants in these
+    cases are not burdened with legal costs if they prevail in
+    court.|Unfortunately, we have all been the victim of or threatened by SLAPPS
+    and, in many cases, experienced the burden of defending ourselves. We’ve
+    taken on expensive and time-consuming legal battles or pulled down our
+    speech in dispute, even though we believed it to be within our First
+    Amendment right to say or post. Through this letter, and by sharing our
+    stories, we’re letting underhanded businesses and individuals know that they
+    can’t silence our voices or take away our right to free speech.|The SPEAK
+    FREE Act will help ensure that no one else is forced to defend their right
+    to share their thoughts and ideas, whether positive or negative, online. The
+    right to free speech is too important to be taken lightly. We strongly
+    encourage the Committee to support this legislation and extend free speech
+    protections online.
 ---
 ![bad-food.jpg]({{site.baseurl}}/img/action-network/bad-food.jpg)
 
