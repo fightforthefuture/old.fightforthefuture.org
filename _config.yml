@@ -280,7 +280,7 @@ prose:
           help: 'Should signers have space to include a custom comment?'
       - name: 'action_comment'
         field:
-          element: 'textarea'
+          element: 'text'
           label: 'Default comment text'
           placeholder: ''
           help: 'Use vertical pipe | to separate paragraphs.'
