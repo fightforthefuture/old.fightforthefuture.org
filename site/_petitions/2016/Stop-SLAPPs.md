@@ -3,7 +3,7 @@ date: '2016-06-03 15:54 -0400'
 design: white-two-column
 smaller_headline: false
 opt_in: false
-include_comments: false
+include_comments: true
 action_text: Add your name
 target_country: US
 autoresponder_active: false
