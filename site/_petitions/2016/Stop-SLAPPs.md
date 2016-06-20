@@ -101,4 +101,4 @@ Some states have already passed laws to make it easier for judges to dismiss the
 
 ## Have you been hit with a SLAPP suit?
 
-If you have personally been affected by one of these bogus lawsuits, we want to hear from you. [Click here to share your story](https://docs.google.com/forms/d/18XJedzLbXP1A9aMFn1fW5GxSKR6pkTRPbhCL9lkh2ow/viewform?c=0&w=1). You can share your name or stay anonymous if you like. The important things is that we collect as many stories of SLAPP suits and how they hurt people so we can make Congress understand how serious this issue is. 
+If you have personally been affected by one of these bogus lawsuits, we want to hear from you. [Click here to share your story](https://docs.google.com/forms/d/18XJedzLbXP1A9aMFn1fW5GxSKR6pkTRPbhCL9lkh2ow/viewform?c=0&w=1). You can share your name or stay anonymous if you like. The important things is that we collect stories of SLAPP suits and how they hurt people so we can make Congress understand how serious this issue is. 
