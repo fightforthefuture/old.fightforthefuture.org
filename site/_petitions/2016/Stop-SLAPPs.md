@@ -98,3 +98,7 @@ Some states have already passed laws to make it easier for judges to dismiss the
 - Matthew White, [sued](http://www.motherjones.com/politics/2015/07/yelp-slapp-lawsuit-legislation-speak-free-act) by Footprints Floors for a Yelp review: "People should not be threatened or have to pay a lot of money in attorney fees just because they relay a real-life experience. So what Amanda and I want to do is turn something that was very negative and costly for us into something positive for others."
  
 - T. [was threatened](https://consumerist.com/2014/05/08/how-does-a-negative-amazon-review-result-in-threats-of-a-lawsuit/) with a lawsuit for leaving a one-star review on Amazon: "I just wanted to leave a review with information that I found useful for others who have to decide whether to purchase a product, and not have to worry about being threatened by lawyers. It makes me really nervous to leave a negative review in the future. At the very least I'll never use my real name when posting a review ever again."
+
+## Have you been hit with a SLAPP suit?
+
+If you have personally been affected by one of these bogus lawsuits, we want to hear from you. [Click here to share your story](https://docs.google.com/forms/d/18XJedzLbXP1A9aMFn1fW5GxSKR6pkTRPbhCL9lkh2ow/viewform?c=0&w=1). You can share your name or stay anonymous if you like. The important things is that we collect as many stories of SLAPP suits and how they hurt people so we can make Congress understand how serious this issue is. 
