@@ -251,6 +251,12 @@ prose:
           label: Automatic opt-in
           help: 'Checking this box denies signers the opportunity to opt out.'
           value: true
+      - name: 'disclosure_text'
+        field:
+          element: text
+          label: Disclosure text
+          help: Opt-in disclosure text. Accepts markdown.
+          value: '[Fight for the Future](/) will send you updates on this & other campaigns. [Privacy](/privacy/)'
       - name: 'additional_fields'
         field:
           element: multiselect
