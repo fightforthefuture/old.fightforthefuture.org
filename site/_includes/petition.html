@@ -24,7 +24,7 @@
   <input type="text" id="form-city" name="signature[city]" class="city {{ fields_class }}" placeholder="City{% unless page.required_fields contains 'city' %} (optional){% endunless %}" {% if page.required_fields contains 'city' %} required{% endif %} />
   {% endif %}
 
-  {% if page.allow_comments %}
+  {% if page.include_comments %}
   <textarea cols="40" id="form-comments" name="signature[message_to_target]" class="comment" placeholder="Comments" rows="6">{% if page.action_comment %}{{ page.action_comment | replace: '|', newline }}{% elsif page.action_comment_include %}{% include {{ page.action_comment_include }} %}{% endif %}</textarea>
   {% endif %}
 
