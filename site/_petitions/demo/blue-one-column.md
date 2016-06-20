@@ -10,6 +10,7 @@ petition_title: Tell President Knowles
 petition_copy: 'Fridays should be free pizza day. Push legislation today to bring pizza into the lives of all Americans!'
 opt_in: false
 additional_fields:
+  - street_address
   - city
 allow_comments: true
 action_text: 'Take action'
