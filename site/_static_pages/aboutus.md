@@ -161,14 +161,6 @@ Our accomplishments are testament to the notion that with the right approach and
 # FFTF Education Fund 501(c)3 Board
 {: #fftfef-board}
 
-![Zephyr Teachout](/img/page/aboutus/teampic/zephyr.png)
-: ### Zephyr Teachout
-
-  #### Director
-
-  Antitrust Scholar, Associate Professor of Law at Fordham University, NY Gubernatorial Candidate 2014
-
----
 
 ![Marvin Ammori](/img/page/aboutus/teampic/marvin.png)
 : ### Marvin Ammori
