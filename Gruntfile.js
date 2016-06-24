@@ -177,6 +177,10 @@ module.exports = function (grunt) {
               'js/_licenses/license-end.js'
             ],
             dest: '<%= site.dist %>/js/smoothscroll.min.js'
+          },
+          {
+            src: 'js/one-off/subscription.js',
+            dest: '<%= site.dist %>/js/one-off/subscription.js'
           }
         ]
       },
@@ -193,6 +197,10 @@ module.exports = function (grunt) {
               'js/_licenses/license-end.js'
             ],
             dest: '<%= site.assets %>/js/smoothscroll.min.js'
+          },
+          {
+            src: 'js/one-off/subscription.js',
+            dest: '<%= site.dist %>/js/one-off/subscription.js'
           }
         ]
       }
