@@ -119,7 +119,7 @@ var getPosts = function(offset) {
           var url      = m[1];
           var filename = url.substring(url.lastIndexOf('/')+1);
           var path     = awsKeys.s3_folder.trim()+'/'+filename;
-          var newUrl   = '//'+awsKeys.s3_bucket.trim()+'/'+path;
+          var newUrl   = 'https://'+awsKeys.s3_bucket.trim()+'/'+path;
 
           console.log('  - Rehosting image: ' + url + ' => ' + newUrl);
           copyImageToS3(url, path);
