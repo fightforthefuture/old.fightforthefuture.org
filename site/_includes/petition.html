@@ -17,7 +17,7 @@
   {% endif %}
 
   <label class="visually-hidden" for="form-zip_code">{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code:</label>
-  <input type="text" id="form-zip_code" name="signature[zip_code]" class="zip {{ fields_class }}" placeholder="{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code{% unless page.required_fields contains 'street_address' %} (optional){% endunless %}" {% if page.required_fields contains 'zip' %}required{% endif %}/>
+  <input type="text" id="form-zip_code" name="signature[zip_code]" class="zip {{ fields_class }}" placeholder="{% if page.target_country == 'US' %}ZIP{% else %}Post{% endif %} code{% unless page.required_fields contains 'zip' %} (optional){% endunless %}" {% if page.required_fields contains 'zip' %}required{% endif %}/>
 
   {% if page.additional_fields contains 'city' %}
   <label class="visually-hidden" for="form-city">City{% unless page.required_fields contains 'city' %} (optional){% endunless %}:</label>
