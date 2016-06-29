@@ -81,7 +81,10 @@ module.exports = function (grunt) {
           {
             expand: true,
             dot: true,
-            src: 'img/**/*.{gif,png,jpg,jpeg,svg}',
+            src: [
+              'js/one-off/**/*.js',
+              'img/**/*.{gif,png,jpg,jpeg,svg}'
+            ],
             dest: '<%= site.dist %>'
           }
         ]
@@ -91,7 +94,10 @@ module.exports = function (grunt) {
           {
             expand: true,
             dot: true,
-            src: 'img/**/*.{gif,png,jpg,jpeg,svg}',
+            src: [
+              'img/**/*.{gif,png,jpg,jpeg,svg}',
+              'js/one-off/**/*.js'
+            ],
             dest: '<%= site.assets %>'
           }
         ]
@@ -177,10 +183,6 @@ module.exports = function (grunt) {
               'js/_licenses/license-end.js'
             ],
             dest: '<%= site.dist %>/js/smoothscroll.min.js'
-          },
-          {
-            src: 'js/one-off/subscription.js',
-            dest: '<%= site.dist %>/js/one-off/subscription.js'
           }
         ]
       },
@@ -197,10 +199,6 @@ module.exports = function (grunt) {
               'js/_licenses/license-end.js'
             ],
             dest: '<%= site.assets %>/js/smoothscroll.min.js'
-          },
-          {
-            src: 'js/one-off/subscription.js',
-            dest: '<%= site.dist %>/js/one-off/subscription.js'
           }
         ]
       }
