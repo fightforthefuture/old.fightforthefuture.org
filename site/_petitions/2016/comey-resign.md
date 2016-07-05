@@ -1,24 +1,36 @@
 ---
-date: "2016-04-14 11:28 -0500"
-design: "blue-one-column"
-action_network_url: https://actionnetwork.org/petitions/resign
+date: '2016-04-14 11:28 -0500'
+design: blue-one-column
+action_network_url: 'https://actionnetwork.org/petitions/resign'
 tags:
   - encryption
 search_title: Tell FBI Director James Comey to Resign
 headline: Tell FBI Director James Comey to Resign
 smaller_headline: false
-petition_title: ""
 petition_copy: Sign to add your name to the open letter below.
 opt_in: true
-action_text: "Sign now!"
+action_text: Sign now!
 target_country: US
 search_description: Open Letter telling FBI Director James Comey to Resign
 twittertext: The Director of the FBI is losing it. Tell him to resign
 social_title: The director of the FBI is losing it
-social_description: The Apple vs FBI case is just his latest disaster. James Comey is out of control.
-share_image: "/img/action-network/comey1.jpeg"
+social_description: >-
+  The Apple vs FBI case is just his latest disaster. James Comey is out of
+  control.
 share_image_dims: 1160 x 629
 published: true
+disclosure_text: >-
+  [Fight for the Future](/) will send you updates on this & other campaigns.
+  [Privacy](/privacy/)
+include_comments: false
+autoresponder_active: false
+autoresponder_hours: 72
+autoresponder_subject: '{PETITION_TITLE} - help us reach the next level!'
+autoresponder_text: >-
+  Thanks again for taking action on {PETITION_TITLE}. We need more people like
+  you who can take action on this issue. Can you please share it to help us
+  reach the next level?
+share_image: /img/action-network/comey1.jpeg
 ---
 
 ![comey1.jpeg]({{site.baseurl}}/img/action-network/comey1.jpeg)
