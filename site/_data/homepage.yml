@@ -339,3 +339,6 @@ featuredpress:
     - url: http://www.rollingstone.com/politics/news/congress-is-trying-to-kill-internet-privacy-again-20130213
       publication: Rolling Stone
       dimensions: 159 x 40
+    - url: https://www.bostonglobe.com/news/nation/2015/02/19/outsider-group-from-massachusetts-helped-shift-net-neutrality-fight/G08DYw0RiWFQEckTH2e3XI/story.html
+      publication: The Boston Globe
+      dimensions: 211 x 33
