@@ -57,6 +57,13 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
     CREDO provides mobile phone service while using its revenue to fund social change and activism. They've been vital allies in fighting for net neutrality and Internet privacy.
 
+  ---
+
+  ![DuckDuckGo](/img/page/supporters/avatars/duckduckgo.png)
+  : ### [DuckDuckGo](https://duckduckgo.com/)
+
+    The search engine that doesn't track you. A superior search experience with smarter answers, less clutter and real privacy.
+
 ---
 
 **Heroes**
@@ -73,7 +80,7 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   ![Namecheap](/img/page/supporters/avatars/namecheap.png)
   : ### [Namecheap](http://www.namecheap.com)
 
-    Namecheap made this rad [video](https://www.fightforthefuture.org/supporters/www.netneutrality.com) and played it in front of the FCC on a [video billboard](http://tumblr.fightforthefuture.org/post/97569336053/fight-for-the-future-and-namecheap-have-parked-a) for net neutrality. They've been a great partner in our fight for Internet freedom.
+    Namecheap made this rad [video](https://www.netneutrality.com) and played it in front of the FCC on a [video billboard](http://tumblr.fightforthefuture.org/post/97569336053/fight-for-the-future-and-namecheap-have-parked-a) for net neutrality. They've been a great partner in our fight for Internet freedom.
 
   ---
 
@@ -102,7 +109,7 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
   ---
 
-  ![Data Foundry](https://www.fightforthefuture.org/img/page/supporters/avatars/data.png)
+  ![Data Foundry](/img/page/supporters/avatars/data.png)
   : ### [Data Foundry](https://datafoundry.com/)
 
     Data Foundry provides data center services, and are true believers in the power of the Internet to spread freedom and change the world.

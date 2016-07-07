@@ -103,6 +103,15 @@ Our accomplishments are testament to the notion that with the right approach and
 
   [Aki][ab1] joins us as developer with experience drawn from her work at Apple, Mozilla and the Obama 2012 campaign. She mostly spends her free time [on twitter][ab2], but also traveling the country in her RV.
 
+---
+
+![Lizzy Jean](/img/page/aboutus/teampic/lizzy.png)
+: ### Lizzy Jean
+
+  #### Campaigner
+
+  Lizzy Jean has been an organizer for the last ten years. She co-founded the Deep Abiding Love collective, which provides direct action training and movement infrastructure support. She authored the Coming to Ferguson curriculum.
+
 
 [tc0]: /img/page/aboutus/teampic/tiff.png
 [tc1]: http://www.opencongress.org/
