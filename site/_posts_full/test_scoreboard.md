@@ -15,7 +15,7 @@ special_tweet: 'No #BrowserSpying! Vote NO on McCain 4787!'
 A couple of weeks ago, the Senate tried to sneak a rider onto a spending bill that would [give the FBI sweeping new surveillance authority](https://www.fightforthefuture.org/news/2016-06-22-the-senate-is-one-vote-away-from-giving-the-fbi/), including warrantless access to browsing history (obtained from ISPs). This measure failed by <u>one vote</u> after thousands of people called their senators using a phone tool we set up at [www.decidethefuture.org](https://www.decidethefuture.org) and 1-919-FREEDOM.
 
 <blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-lang="en"><p lang="en" dir="ltr">ALERT: Senate will vote again TODAY to warrantlessly monitor your web activities. To stop it, call them right now: <a href="https://t.co/rmYPLWwr9u">https://t.co/rmYPLWwr9u</a></p>&mdash; Edward Snowden (@Snowden) <a href="https://twitter.com/Snowden/status/745644189455638528">June 22, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ##### (special thanks to Edward Snowden for helping make this viral!)
 
