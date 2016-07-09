@@ -43,6 +43,9 @@ module.exports = function (grunt) {
       },
       sync_petitions: {
         src: ['<%= site.scripts %>/prefetch_ids.js']
+      },
+      sync_congress: {
+        src: ['<%= site.scripts %>/sync_congress.js']
       }
     },
 
@@ -248,7 +251,8 @@ module.exports = function (grunt) {
     concurrent: {
       external_scripts: [
         'execute:sync_petitions',
-        'execute:sync_tumblr'
+        'execute:sync_tumblr',
+        'execute:sync_congress'
       ],
       server: [
         'jekyll:server',

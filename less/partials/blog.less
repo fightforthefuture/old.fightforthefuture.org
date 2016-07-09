@@ -11,7 +11,6 @@
     font-family: @serif-font;
     border-bottom: 1px solid #d7e5f1;
     color: #1a212a;
-    overflow-x: hidden;
 
     img {
       max-width: 100%;
@@ -25,11 +24,13 @@
       font-size: 20px;
       font-weight: 600;
 
-      background: url('/img/blog/heading_emphasis.png') left top repeat-y;
+      &:first-of-type {
+        background: url('/img/blog/heading_emphasis.png') left top repeat-y;
+      }
       width: 105%;
       margin-left: -5%;
       padding-left: 5%;
-      border-left: 1% solid #aae;
+      /* border-left: 1% solid #aae; */
       border-width: 1%;
       margin-bottom: 15px;
 
@@ -43,7 +44,7 @@
       }
     }
 
-    h2 {
+    h2, h3, h4, h5 {
       margin-bottom: 15px;
       font-weight: bold;
     }
@@ -146,8 +147,14 @@
         margin-bottom: 20px;
       }
 
-      h2 {
+      h2, h3, h4, h5 {
         margin-bottom: 30px;
+      }
+
+      h5 {
+        font-size: 14px;
+        padding-left: 15px;
+        color: gray;
       }
 
       span.date {
