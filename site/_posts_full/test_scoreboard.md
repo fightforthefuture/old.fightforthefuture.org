@@ -78,8 +78,7 @@ These politicians are the absolute worst on mass surveillance, and nothing will 
       "tweet_text": ".@FBI you should feel great shame for trying to spy on Americans without a warrant. NO #BrowserSpying!"
     },
     {
-      "bioguide": "B001135",
-      "bad_text": "He is by far the biggest fan of mass surveillance in recorded history."
+      "bioguide": "B001135"
     },
     {
       "bioguide": "M000355",
@@ -92,7 +91,7 @@ These politicians are the absolute worst on mass surveillance, and nothing will 
   "target_legislation": "mccain4787",
   "bill_name": "McCain 4787",
   "good_text": "{TITLE} {LASTNAME} took a stand against mass surveillance by voting NO on McCain 4787.",
-  "bad_text": "{TITLE} {LASTNAME} voted YES to FBI #BrowserSpying." ,
+  "bad_text": "{TITLE} {LASTNAME} voted YES to FBI #BrowserSpying. SHAME!" ,
   "neutral_text": "{TITLE} {LASTNAME} didn't show up for work that day and didn't vote.",
   "class": "large",
   "tweet_text": ".{USERNAME} No #BrowserSpying! Vote NO on McCain 4787! #SHAME pic.twitter.com/Nq5XI6WQeg"
