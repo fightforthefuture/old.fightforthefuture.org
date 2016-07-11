@@ -7,13 +7,13 @@
         {% assign skipped_self = true %}
       {% else %}
         <li>
-          <a href="/news/{{ post.path | remove:'_posts/' | remove:'.html'}}">{{ post.title }} <span>{{ post.date  | date: '%H:%M %Z on %b %-d, %Y' }}</span></a>
+          <a href="/news/{{ post.path | remove:'_posts/' | remove:'.html' | remove:'.md'}}">{{ post.title }} <span>{{ post.date  | date: '%H:%M %Z on %b %-d, %Y' }}</span></a>
         </li>
       {% endif %}
     {% endfor %}
     {% if skipped_self and site.posts[3] %}
       <li>
-        <a href="/news/{{ site.posts[3].path | remove:'_posts/' | remove:'.html'}}">{{ site.posts[3].title }} <span>{{ site.posts[3].date  | date: '%H:%M %Z on %b %-d, %Y' }}</span></a>
+        <a href="/news/{{ site.posts[3].path | remove:'_posts/' | remove:'.html' | remove:'.md'}}">{{ site.posts[3].title }} <span>{{ site.posts[3].date  | date: '%H:%M %Z on %b %-d, %Y' }}</span></a>
       </li>
     {% endif %}
     <li class="more">
