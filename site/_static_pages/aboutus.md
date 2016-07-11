@@ -65,7 +65,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Chief Operating Officer
 
-  Sarah is our fundraising and operations guru. Before joining the team, she spent 15 plus years running a nationwide canvass operation that raised millions of dollars and built winning people’s organizations.
+  [Sarah][sg1] is our fundraising and operations guru. Before joining the team, she spent 15 plus years running a nationwide canvass operation that raised millions of dollars and built winning people’s organizations.
 
 ---
 
@@ -110,7 +110,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Campaigner
 
-  Lizzy Jean has been an organizer for the last ten years. She co-founded the Deep Abiding Love collective, which provides direct action training and movement infrastructure support. She authored the Coming to Ferguson curriculum.
+  Lizzy Jean is our Campaigner. She co-founded the [Deep Abiding Love][lj1] collective, which provides direct action training and movement infrastructure support. She also authored the Coming to Ferguson curriculum.
 
 
 [tc0]: /img/page/aboutus/teampic/tiff.png
@@ -123,6 +123,7 @@ Our accomplishments are testament to the notion that with the right approach and
 [eg1]: http://twitter.com/evan_greer
 [eg2]: http://www.risingtidenorthamerica.org/
 [eg3]: http://www.freetarek.com/
+[sg1]: www.linkedin.com/in/sarah-roth-gaudette-4a432b5
 [jl0]: /img/page/aboutus/teampic/jeff.png
 [jl1]: http://rubbingalcoholic.com/
 [jl2]: http://blog.rubbingalcoholic.com/
@@ -137,6 +138,7 @@ Our accomplishments are testament to the notion that with the right approach and
 [ab0]: /img/page/aboutus/teampic/aki.png
 [ab1]: https://akibraun.com/
 [ab2]: https://twitter.com/gesa/
+[lj1]: http://www.deepabidinglove.com/
 
 
 # Fight for the Future 501(c)4 Board
