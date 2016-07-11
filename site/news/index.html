@@ -21,7 +21,7 @@ header: true
 
         {{ post.content }}
 
-        <a href="/news/{{ post.path | remove:'_posts/' | remove:'.html'}}" class="readmore">Read More...</a>
+        <a href="/news/{{ post.path | remove:'_posts/' | remove:'.html' | remove:'.md'}}" class="readmore">Read More...</a>
 
         <div class="sharea">
           <span>Share on:</span>

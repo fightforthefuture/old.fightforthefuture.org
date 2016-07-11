@@ -3,7 +3,7 @@
 <head>
   {% include meta.html %}
 </head>
-<body class="default {{ page.class }}">
+<body class="default {{ page.class }}" data-components="{{ page.component-scripts }}">
 {% include header.html %}
 {% if page.header_extension %}{% include {{page.header_extension}} %}{% endif %}
 

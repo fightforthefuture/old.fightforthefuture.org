@@ -46,6 +46,10 @@
       color: white;
       font-size: 15px;
       margin-bottom: 10px;
+
+      span {
+        display: none;
+      }
     }
 
     &.bad .bill-name {
@@ -57,7 +61,7 @@
     }
 
     &.good .bill-name {
-      background: url(/img/whiplist/neutral.png) left center no-repeat;
+      background: url(/img/whiplist/good.png) left center no-repeat;
     }
 
     div.photo {
@@ -208,60 +212,14 @@
 
     }
   }
-
-  /*
-  li {
+}
+.whip-sort {
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: @body-font;
+  font-size: 14px;
+  div {
     display: inline-block;
-    position: relative;
-    width: 185px;
-    margin: 5px;
-
-    div.photo {
-      width: 100%;
-      padding-bottom: 100%;
-      position: relative;
-      background-size: 100% auto;
-      background-position: center center;
-      background-repeat: no-repeat;
-
-      h4 {
-        position: absolute;
-        bottom: 0px;
-        margin-bottom: 0px;
-        left: 0px;
-        width: 100%;
-        padding: 5px;
-        font-size: 18px;
-        background: rgba(0, 0, 0, .5);
-        color: white;
-        font-weight: 600;
-        text-align: center;
-      }
-    }
-
-
-
-    strong.position {
-      display: block;
-      background: black;
-      padding: 5px;
-      font-weight: 600;
-      font-size: 14px;
-      color: white;
-      text-align: center;
-    }
-
-    &.bad strong.position {
-      color: #ff8082;
-    }
-
-    &.good strong.position {
-      color: rgba(44, 188, 155, 1);
-    }
-
-
+    margin: 0px 15px;
   }
-  */
-
-
 }

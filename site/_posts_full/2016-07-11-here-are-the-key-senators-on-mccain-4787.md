@@ -5,10 +5,10 @@ title: 'The Senate is one vote away from giving the FBI warrantless access to yo
 twittertext: 'The Senate is one vote away from giving the FBI warrantless access to your browsing history.'
 social_description: '...and your bank and credit card account history.'
 share_image: 'https://s3.fightforthefuture.org/img/blog/posts/shame.jpg'
-date: 2016-06-22 22:30:24 GMT
+date: 2016-07-11 13:30:24 GMT
+component-scripts:
+ - whiplist
 
-tweet_url: https://twitter.com/intent/tweet?text=
-special_tweet: 'No #BrowserSpying! Vote NO on McCain 4787!'
 ---
 ## Here are the key senators that could swing the vote either way.
 
@@ -19,7 +19,7 @@ A couple of weeks ago, the Senate tried to sneak a rider onto a spending bill th
 
 ##### (special thanks to Edward Snowden for helping make this viral!)
 
-Now, Republican leadership is planning to re-introduce the measure (<a href="https://www.congress.gov/congressional-record/2016/06/20/senate-section/article/S4335-2" target="_blank">McCain Amendment 4787</a>) and do a re-vote this week. Even though we won the first time, the razor-thin margin means this upcoming vote could really go either way. It all boils down to a few key senators who are undecided or likely to change their minds. Here’s what we know so far:
+Now, Republican leadership is planning to re-introduce the measure ([McCain Amendment 4787](https://www.congress.gov/congressional-record/2016/06/20/senate-section/article/S4335-2)) and do a re-vote this week. Even though we won the first time, the razor-thin margin means this upcoming vote could really go either way. It all boils down to a few key senators who are undecided or likely to change their minds. Here’s what we know so far:
 
 # Crucial Swing Voters
 
@@ -109,6 +109,6 @@ Here's how the whole Senate voted on this dangerous bill:
   "good_text": "{TITLE} {LASTNAME} voted NO on McCain 4787.",
   "bad_text": "{TITLE} {LASTNAME} voted YES on McCain 4787.",
   "neutral_text": "{TITLE} {LASTNAME} didn't vote.",
-  "class": "",
-  "tweet_text": ".{USERNAME} No #BrowserSpying! Vote NO on McCain 4787! pic.twitter.com/Nq5XI6WQeg"
+  "tweet_text": ".{USERNAME} No #BrowserSpying! Vote NO on McCain 4787! pic.twitter.com/Nq5XI6WQeg",
+  "sortable": true
 } %}

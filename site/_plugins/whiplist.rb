@@ -9,13 +9,17 @@
 require 'json'
 require 'yaml'
 require 'open-uri'
+require 'digest/md5'
 
 module Jekyll
   class WhipListTag < Liquid::Tag
 
     def initialize(tag_name, text, tokens)
       super
+
+      id = Digest::MD5.hexdigest(text.to_s)
       @attributes = JSON.parse(text.to_s)
+      @attributes["id"] = id
     end
 
     def render(context)
@@ -84,6 +88,8 @@ module Jekyll
 
       congress = YAML.load_file('site/_data/congress.yml')
 
+      id = @attributes["id"]
+
       if @attributes.has_key?("targets")
         targets = @attributes['targets']
       else
@@ -128,8 +134,15 @@ module Jekyll
 
       end
 
+      sort_html = ""
+
+      if @attributes.has_key?("sortable") && @attributes["sortable"] == true
+        sort_html = "<div id=\"sort_" + id + "\" class=\"whip-sort\"></div>"
+      end
+
       html = <<-HTML
-<ul class="whip #{class_name}">
+#{sort_html}
+<ul class="whip #{class_name}" id="#{id}">
       HTML
 
       whip.each do |person|
@@ -228,7 +241,15 @@ module Jekyll
         bill_name_html = ""
 
         if @attributes.has_key?("bill_name")
-          bill_name_html = "<div class=\"bill-name\">" + @attributes["bill_name"] + "</div>"
+          if person_class == 'good'
+            vote_mark = "✔"
+          elsif person_class == 'bad'
+            vote_mark = "✖"
+          else
+            vote_mark = "?"
+          end
+
+          bill_name_html = "<div class=\"bill-name\">" + @attributes["bill_name"] + " <span class=\"vote-mark\">#{vote_mark}</span></div>"
         end
 
         html += <<-HTML
@@ -244,6 +265,8 @@ module Jekyll
       <div>#{email_html}</div>
     </div>
   </div>
+  <input type="hidden" name="lastname" value="#{person["name"]}" />
+  <input type="hidden" name="state" value="#{person["state"]}" />
 </li>
         HTML
 
