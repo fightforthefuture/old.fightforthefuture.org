@@ -198,6 +198,9 @@ window.components.petitions = function (doc, win) {
     signatureSubmission.addEventListener('error', win.callbacks.petitions.handleSigningError);
     signatureSubmission.addEventListener('load',  win.callbacks.petitions.loadSignatureResponse);
     signatureSubmission.send(compilePayload());
+
+    if (typeof FreeProgress !== "undefined")
+      FreeProgress.convert();
   }
 
   function addEventListeners() {
