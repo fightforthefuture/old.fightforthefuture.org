@@ -1,6 +1,6 @@
 ---
 date: '2016-07-14 14:21 -0400'
-design: blue-one-column
+design: blue-two-column
 smaller_headline: false
 opt_in: true
 disclosure_text: >-
