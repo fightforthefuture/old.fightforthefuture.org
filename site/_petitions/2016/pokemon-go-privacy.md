@@ -24,10 +24,10 @@ headline: Pokémon GO is a Privacy Nightmare
 search_title: Pokémon GO is a Privacy Nightmare
 petition_title: Tell Niantic
 petition_copy: >-
-  Personal details of Pokémon GO players that are not essential for gameplay
-  should only be collected if players opt in. Change your privacy policy to
-  protect the millions of children and other individuals who want to play
-  Pokémon GO without sacrificing their privacy or safety.
+  Personal details that are not essential for gameplay should only be collected
+  if players choose to allow it. Change your privacy policy to protect the
+  millions of children and other individuals who want to play Pokémon GO without
+  sacrificing their privacy or safety.
 twittertext: If you play Pokémon GO take this one step to protect your privacy.
 social_title: Pokémon GO is a Privacy Nightmare
 social_description: >-
