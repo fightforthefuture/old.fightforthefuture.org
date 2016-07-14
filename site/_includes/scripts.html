@@ -1,5 +1,5 @@
 {% if page.class != 'four-oh-four' %}<script type="text/javascript" src="https://fftf.io/js/client.js"></script>{% endif %}
-{% if page.one_off_script %}<script type="text/javascript" src="/js/one-off/{{ page.one_off_script }}.js">{% endif %}
+{% if page.one_off_script %}<script type="text/javascript" src="/js/one-off/{{ page.one_off_script }}.js"></script>{% endif %}
 <script type="text/javascript" src="/js/smoothscroll.min.js"></script>
 <script type="text/javascript" src="/js/core.js"></script>
 <script>
@@ -15,7 +15,7 @@
     m.parentNode.insertBefore(a, m)
   })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', '{{ site.googleanalytics }}', 'auto');
+  ga('create', '{{ site.googleanalytics }}', '{{ site.url | remove: "http://" | remove: "https://" }}');
   ga('send', 'pageview');
 
 </script>
