@@ -20,8 +20,8 @@ published: true
 action_network_url: 'https://actionnetwork.org/petitions/pokemon-go-is-a-privacy-nightmare'
 tags:
   - surveillance
-headline: Pokémon GO is a Privacy Nightmare
-search_title: Pokémon GO is a Privacy Nightmare
+headline: The data you give out in Pokémon GO is as dangerous as it gets.
+search_title: The data you give out in Pokémon GO is as dangerous as it gets.
 petition_title: Tell Niantic
 petition_copy: >-
   Personal details that are not essential for gameplay should only be collected
