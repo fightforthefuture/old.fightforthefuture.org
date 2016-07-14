@@ -16,7 +16,7 @@ autoresponder_text: >-
   Thanks again for taking action on {PETITION_TITLE}. We need more people like
   you who can take action on this issue. Can you please share it to help us
   reach the next level?
-published: false
+published: true
 action_network_url: 'https://actionnetwork.org/petitions/pokemon-go-is-a-privacy-nightmare'
 tags:
   - surveillance
