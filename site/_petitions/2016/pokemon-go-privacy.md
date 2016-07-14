@@ -1,6 +1,6 @@
 ---
 date: '2016-07-14 14:21 -0400'
-design: white-two-column
+design: blue-one-column
 smaller_headline: false
 opt_in: true
 disclosure_text: >-
@@ -17,8 +17,26 @@ autoresponder_text: >-
   you who can take action on this issue. Can you please share it to help us
   reach the next level?
 published: false
+action_network_url: 'https://actionnetwork.org/petitions/pokemon-go-is-a-privacy-nightmare'
+tags:
+  - surveillance
+headline: Pokémon GO is a Privacy Nightmare
+search_title: Pokémon GO is a Privacy Nightmare
+petition_title: Tell Niantic
+petition_copy: >-
+  Personal details of Pokémon GO players that are not essential for gameplay
+  should only be collected if players opt in. Change your privacy policy to
+  protect the millions of children and other individuals who want to play
+  Pokémon GO without sacrificing their privacy or safety.
+twittertext: If you play Pokémon GO take this one step to protect your privacy.
+social_title: Pokémon GO is a Privacy Nightmare
+social_description: >-
+  Niantic is collecting and distributing personal details about Pokémon GO
+  players that have nothing to do with the game.
 ---
-Niantic automatically collects a wide range of personal data on all Pokémon GO players, including precise location data, profile and account information, and information obtained through Cookies and Web Beacons. The company considers players’ personal data to be “business assets,” and to play the game you must agree to having your information sold to third parties for advertising, research, and analysis purposes, or handed over to government or law enforcement officials.
+### Niantic is collecting and distributing personal details about Pokémon GO players that have nothing to do with the game
+
+Pokémon GO creator, Niantic, automatically collects a wide range of personal data on all players, including precise location data, profile and account information, and information obtained through Cookies and Web Beacons. The company considers players’ personal data to be “business assets,” and to play the game you must agree to having your information sold to third parties for advertising, research, and analysis purposes, or handed over to government or law enforcement officials.
 
 If Niantic gets hacked -- and you can be sure there are people out there trying to do just that -- the personal information of millions of people, including many children, would be compromised. That means identity thieves will have access to extremely intimate details about your lives -- where you live, what the inside of your house looks like, who you associate with, and more. 
 
