@@ -36,7 +36,7 @@ social_description: >-
 ---
 ![pokemonbathroom.jpg]({{site.baseurl}}/img/action-network/pokemonbathroom.jpg)
 
-##  Niantic is collecting and distributing personal details about Pokémon GO players that have nothing to do with the game
+##  Niantic is collecting and distributing personal details about Pokémon GO players that have nothing to do with the game.
 
 Pokémon GO creator, Niantic, automatically collects a wide range of personal data on all players, including precise location data, profile and account information, and information obtained through Cookies and Web Beacons. The company considers players’ personal data to be “business assets,” and to play the game you must agree to having your information sold to third parties for advertising, research, and analysis purposes, or handed over to government or law enforcement officials.
 
