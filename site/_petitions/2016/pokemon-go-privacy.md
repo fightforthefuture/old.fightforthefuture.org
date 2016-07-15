@@ -9,8 +9,8 @@ disclosure_text: >-
 include_comments: false
 action_text: Take action
 target_country: US
-autoresponder_active: false
-autoresponder_hours: 72
+autoresponder_active: true
+autoresponder_hours: 2
 autoresponder_subject: Pokémon GO privacy - help us reach the next level!
 autoresponder_text: >-
   Thanks again for taking action to protect the privacy and safety of Pokemon Go
