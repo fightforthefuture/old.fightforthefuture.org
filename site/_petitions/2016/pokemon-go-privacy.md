@@ -28,7 +28,7 @@ petition_copy: >-
   unless players explicitly opt in. Change your privacy policy to protect the
   millions of children and other individuals who want to play Pokémon GO without
   sacrificing their privacy or safety.
-twittertext: "If you play Pokémon GO take this one step to protect your privacy."
+twittertext: If you play Pokémon GO take this one step to protect your privacy.
 social_title: The data you give out in Pokémon GO is as dangerous as it gets.
 social_description: >-
   Niantic is collecting and distributing personal details about Pokémon GO
