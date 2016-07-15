@@ -24,8 +24,8 @@ headline: The data you give out in Pokémon GO is as dangerous as it gets.
 search_title: The data you give out in Pokémon GO is as dangerous as it gets.
 petition_title: Tell Niantic
 petition_copy: >-
-  Personal details that are not essential for gameplay should only be collected
-  if players choose to allow it. Change your privacy policy to protect the
+  Personal data that is not essential for gameplay should not be collected
+  unless players explicitly opt in. Change your privacy policy to protect the
   millions of children and other individuals who want to play Pokémon GO without
   sacrificing their privacy or safety.
 twittertext: If you play Pokémon GO take this one step to protect your privacy.
