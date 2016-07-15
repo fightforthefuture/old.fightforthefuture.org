@@ -34,7 +34,7 @@ social_description: >-
   Niantic is collecting and distributing personal details about Pokémon GO
   players that have nothing to do with the game.
 ---
-![pokemonbathroom.jpg]({{site.baseurl}}/img/action-network/pokemonbathroom.jpg)
+![Pokemon-GO.jpg]({{site.baseurl}}/img/action-network/Pokemon-GO.jpg)
 
 ##  Niantic is collecting and distributing personal details about Pokémon GO players that have nothing to do with the game.
 
