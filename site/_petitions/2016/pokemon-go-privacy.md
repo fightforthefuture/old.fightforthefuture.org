@@ -11,11 +11,11 @@ action_text: Take action
 target_country: US
 autoresponder_active: false
 autoresponder_hours: 72
-autoresponder_subject: '{PETITION_TITLE} - help us reach the next level!'
+autoresponder_subject: Pokémon GO privacy - help us reach the next level!
 autoresponder_text: >-
-  Thanks again for taking action on {PETITION_TITLE}. We need more people like
-  you who can take action on this issue. Can you please share it to help us
-  reach the next level?
+  Thanks again for taking action to protect the privacy and safety of Pokemon Go
+  players. We need more people like you who can take action on this issue. Can
+  you please share it to help us reach the next level?
 published: true
 action_network_url: 'https://actionnetwork.org/petitions/pokemon-go-is-a-privacy-nightmare'
 tags:
@@ -28,11 +28,13 @@ petition_copy: >-
   unless players explicitly opt in. Change your privacy policy to protect the
   millions of children and other individuals who want to play Pokémon GO without
   sacrificing their privacy or safety.
-twittertext: If you play Pokémon GO take this one step to protect your privacy.
-social_title: Pokémon GO is a Privacy Nightmare
+twittertext:
+  'If you play Pokémon GO, take this one step to protect your privacy': null
+social_title: The data you give out in Pokémon GO is as dangerous as it gets.
 social_description: >-
   Niantic is collecting and distributing personal details about Pokémon GO
   players that have nothing to do with the game.
+share_image: /img/action-network/Pokemon-GO.jpg?1468602674041
 ---
 ![Pokemon-GO.jpg]({{site.baseurl}}/img/action-network/Pokemon-GO.jpg)
 
