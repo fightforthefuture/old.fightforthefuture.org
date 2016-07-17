@@ -54,6 +54,7 @@
 <meta name="autoresponder_hours" content="{{ page.autoresponder_hours }}">
 <meta name="autoresponder_subject" content="{{ page.autoresponder_subject  | replace: '(PETITION_TITLE)', page.headline }}">
 <meta name="autoresponder_text" content="{{ page.autoresponder_text | replace: '(PETITION_TITLE)', page.headline }}">
+<meta name="autoresponder_active" content="true">
 {% endif %}
 
 {% unless include.omit_core %}
