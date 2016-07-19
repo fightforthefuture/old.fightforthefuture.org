@@ -15,7 +15,7 @@
         loadingSpinner = $c('div');
 
       loadingSpinner.classList.add('circle-spinner', 'large');
-      loadingCopy.textContent = 'Hang on a tick, reticulating splines…';
+      loadingCopy.textContent = 'Recording signature…';
 
       loadingContainer.classList.add('loading');
       loadingContainer.appendChild(loadingCopy);
