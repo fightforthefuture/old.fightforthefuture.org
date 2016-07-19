@@ -11,14 +11,11 @@
 
       var
         loadingContainer = $c('div'),
-        loadingCopy = $c('h2'),
         loadingSpinner = $c('div');
 
       loadingSpinner.classList.add('circle-spinner', 'large');
-      loadingCopy.textContent = 'Recording signature…';
 
       loadingContainer.classList.add('loading');
-      loadingContainer.appendChild(loadingCopy);
       loadingContainer.appendChild(loadingSpinner);
 
       win.modals.generateModal({contents: loadingContainer, disableOverlayClick: true});
