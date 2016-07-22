@@ -53,7 +53,7 @@
     "habitat": "^3.1.2",
     "jit-grunt": "^0.10.0",
     "js-yaml": "^3.6.1",
-    "request": "^2.69.0",
+    "request": "^2.74.0",
     "sha.js": "^2.4.5",
     "smoothscroll": "^0.2.2",
     "time-grunt": "^1.1.0",
