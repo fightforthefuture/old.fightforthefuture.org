@@ -14,14 +14,14 @@ header: true
   <!-- This loops through the paginated posts -->
   {% for post in paginator.posts %}
     <article>
-      <h1><a href="/news/{{ post.path | remove:'_posts/' | remove:'.html'}}">{{ post.title }}</a></h1>
+      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 
         <span class="date">Posted {{ post.date  | date: '%H:%M %Z on %B %-d, %Y' }}</span>
 
 
         {{ post.content }}
 
-        <a href="/news/{{ post.path | remove:'_posts/' | remove:'.html' | remove:'.md'}}" class="readmore">Read More...</a>
+        <a href="{{ post.url }}" class="readmore">Read More&hellip;</a>
 
         <div class="sharea">
           <span>Share on:</span>
