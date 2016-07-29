@@ -38,7 +38,7 @@ search_description: >-
   attempting to take her own life and is facing extreme penalties.
 twittertext: >-
   Chelsea Manning faces indefinite solitary for trying to take own her life
-  after years of abuse FreeChelsea.com
+  after years of abuse
 social_description: >-
   The government tortured her until she tried to take her own life. Now they’re
   threatening her with new charges and indefinite solitary confinement.
@@ -46,7 +46,9 @@ social_title: Chelsea Manning is being charged for her own suicide attempt.
 required_fields:
   - zip
 petition_copy: >-
-  Tell the Secretary of the Army: Punishing Chelsea Manning for attempting to ta-ke her own life after systemic mistreatment is inhumane. Drop these new charges, and immediately give Chelsea access to adequate health care.
+  Tell the Secretary of the Army: Punishing Chelsea Manning for attempting to
+  take her own life after systemic mistreatment is inhumane. Drop these new
+  charges, and immediately give Chelsea access to adequate health care.
 ---
 ![chelsea (1).png]({{site.baseurl}}/img/action-network/chelsea (1).png)
 After years of inhumane treatment, and having been held in conditions that the UN considers to be [torture](https://www.theguardian.com/world/2012/mar/12/bradley-manning-cruel-inhuman-treatment-un), Chelsea Manning, the Guardian columnist and whistleblower who has been in prison for [years](http://www.theguardian.com/commentisfree/2015/may/27/anniversary-chelsea-manning-arrest-war-diaries) serving a 35 year sentence for [exposing](http://www.theguardian.com/world/2013/aug/21/bradley-manning-35-years-prison-wikileaks-sentence) some of the U.S. government’s worst abuses, attempted to take her own life July 5th, 2016. 
