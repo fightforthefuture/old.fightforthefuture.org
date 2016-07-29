@@ -21,11 +21,11 @@ action_network_url: 'https://actionnetwork.org/petitions/save-chelsea'
 tags:
   - whistleblowers
 search_title: >-
-  The government tortured Chelsea Manning and drove her to suicide. Now they’re
-  charging her with a crime for it?
+  Urgent: Chelsea Manning is being charged for her own suicide attempt, faces
+  indefinite solitary confinement
 headline: >-
-  The government tortured Chelsea Manning and drove her to suicide. Now they’re
-  charging her with a crime for it?
+  Urgent: Chelsea Manning is being charged for her own suicide attempt, faces
+  indefinite solitary confinement
 petition_title: >-
   Tell the Secretary of the Army: "Punishing Chelsea Manning for attempting to
   take her own life after systemic mistreatment is inhumane. Drop these new
