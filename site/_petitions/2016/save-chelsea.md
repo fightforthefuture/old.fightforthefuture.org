@@ -52,9 +52,9 @@ petition_copy:
     Chelsea access to adequate health care.
 ---
 ![chelsea (1).png]({{site.baseurl}}/img/action-network/chelsea (1).png)
-After years of inhumane treatment, having been held in conditions that the UN considers to be [torture](https://www.theguardian.com/world/2012/mar/12/bradley-manning-cruel-inhuman-treatment-un), Chelsea Manning, the Guardian columnist and whistleblower who has been in prison for [years](http://www.theguardian.com/commentisfree/2015/may/27/anniversary-chelsea-manning-arrest-war-diaries) serving a 35 year sentence for [exposing](http://www.theguardian.com/world/2013/aug/21/bradley-manning-35-years-prison-wikileaks-sentence) some of the U.S. government’s worst abuses, attempted to take her own life July 5th, 2016. 
+After years of inhumane treatment, and having been held in conditions that the UN considers to be [torture](https://www.theguardian.com/world/2012/mar/12/bradley-manning-cruel-inhuman-treatment-un), Chelsea Manning, the Guardian columnist and whistleblower who has been in prison for [years](http://www.theguardian.com/commentisfree/2015/may/27/anniversary-chelsea-manning-arrest-war-diaries) serving a 35 year sentence for [exposing](http://www.theguardian.com/world/2013/aug/21/bradley-manning-35-years-prison-wikileaks-sentence) some of the U.S. government’s worst abuses, attempted to take her own life July 5th, 2016. 
 
-Now, Army officials have [informed her](https://www.aclu.org/news/chelsea-manning-faces-new-charges-indefinite-solitary-confinement-related-suicide-attempt) that she is facing serious new charges directly related to her suicide attempt. These [new charges](https://www.aclu.org/legal-document/chelsea-manning-charge-sheet) include: 
+Now, Army officials have [informed her](https://www.aclu.org/news/chelsea-manning-faces-new-charges-indefinite-solitary-confinement-related-suicide-attempt) that she is facing serious [new charges](https://www.aclu.org/legal-document/chelsea-manning-charge-sheet) directly related to her suicide attempt. These new charges include: 
 
 1) **Resisting the force cell move team** (Chelsea was unconscious when this team arrived, which makes this charge particularly absurd.)
 
@@ -62,7 +62,7 @@ Now, Army officials have [informed her](https://www.aclu.org/news/chelsea-mannin
 
 3) **Conduct which threatens** (For somehow putting the prison at risk while attempting to take her own life, quietly, in her own cell.)
 
-If convicted of these bizarre “administrative [offenses](http://arba.army.pentagon.mil/documents/army%20corrections%20command/Institutional%20Offense%20Policy.pdf),” that are directly related to her attempt to end her life after systemic abuse and the torture of solitary confinement, she is facing a move to a maximum security facility, indefinite solitary confinement for the rest of her prison term (another 30 years) and nearly a decade before she can be moved to a minimum security facility.
+If convicted of these bizarre “administrative [offenses](http://arba.army.pentagon.mil/documents/army%20corrections%20command/Institutional%20Offense%20Policy.pdf),” that are effectively charging her for attempting to end her life,  she is facing indefinite solitary confinement for the rest of her prison term (another 30 years), “maximum security” classification (in the same facility), and nearly a decade before she can ever be classified as a “minimum security” prisoner.
 
 It is unnecessarily cruel to threaten Chelsea with additional punishment while in this very vulnerable state. The government is trying to silence her important voice––for good.
 Chelsea has been systematically mistreated by the U.S. government since she was first taken into custody in 2010, including long stretches of extreme solitary confinement even before she had ever been convicted. 
