@@ -44,6 +44,28 @@ social_description: >-
   threatening her with new charges and indefinite solitary confinement.
 social_title: Chelsea Manning is being charged for her own suicide attempt.
 ---
-## A New Post
+After years of inhumane treatment, having been held in conditions that the UN considers to be [torture](https://www.theguardian.com/world/2012/mar/12/bradley-manning-cruel-inhuman-treatment-un), Chelsea Manning, the Guardian columnist and whistleblower who has been in prison for [years](http://www.theguardian.com/commentisfree/2015/may/27/anniversary-chelsea-manning-arrest-war-diaries) serving a 35 year sentence for [exposing](http://www.theguardian.com/world/2013/aug/21/bradley-manning-35-years-prison-wikileaks-sentence) some of the U.S. government’s worst abuses, attempted to take her own life July 5th, 2016. 
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Now, Army officials have [informed her](https://www.aclu.org/news/chelsea-manning-faces-new-charges-indefinite-solitary-confinement-related-suicide-attempt) that she is facing serious new charges directly related to her suicide attempt. These [new charges](https://www.aclu.org/legal-document/chelsea-manning-charge-sheet) include: 
+
+1) **Resisting the force cell move team** (Chelsea was unconscious when this team arrived, which makes this charge particularly absurd.)
+
+2) **Prohibited property** (For the items she used to attempt to take her own life.)
+
+3) **Conduct which threatens** (For somehow putting the prison at risk while attempting to take her own life, quietly, in her own cell.)
+
+If convicted of these bizarre “administrative [offenses](http://arba.army.pentagon.mil/documents/army%20corrections%20command/Institutional%20Offense%20Policy.pdf),” that are directly related to her attempt to end her life after systemic abuse and the torture of solitary confinement, she is facing a move to a maximum security facility, indefinite solitary confinement for the rest of her prison term (another 30 years) and nearly a decade before she can be moved to a minimum security facility.
+
+It is unnecessarily cruel to threaten Chelsea with additional punishment while in this very vulnerable state. The government is trying to silence her important voice––for good.
+Chelsea has been systematically mistreated by the U.S. government since she was first taken into custody in 2010, including long stretches of extreme solitary confinement even before she had ever been convicted. 
+
+Chelsea is a transgender woman being forced to serve out her sentence in an all-male prison, which is in itself dehumanizing and exhausting emotionally. She is currently being denied medical treatment for her gender dysphoria, which experts have stated is the only course of treatment through which she would no longer be suicidal. 
+
+This is not the first time the government has harassed Chelsea with outrageous charges while in prison. Last year, they threatened her with solitary confinement for minor “infractions” including possession of LGBTQ reading materials and an expired tube of toothpaste. [We gathered](https://www.theguardian.com/us-news/2015/aug/18/chelsea-manning-supporters-deliver-petition-drop-charges) more than 100,000 petition signatures in response, and the outcry we generated kept her out of solitary. Now we need to do it again. **Please, sign the petition and spread the word. Chelsea is depending on us.**
+
+
+ACLU Press Release:
+[https://www.aclu.org/news/chelsea-manning-faces-new-charges-indefinite-solitary-confinement-related-suicide-attempt](https://www.aclu.org/news/chelsea-manning-faces-new-charges-indefinite-solitary-confinement-related-suicide-attempt)
+
+Fight for the Future Press Release:
+[https://www.fightforthefuture.org/news/2016-07-28-chelsea-manning-faces-new-charges-indefinite/](https://www.fightforthefuture.org/news/2016-07-28-chelsea-manning-faces-new-charges-indefinite/)
