@@ -144,21 +144,21 @@ Our accomplishments are testament to the notion that with the right approach and
 # Fight for the Future 501(c)4 Board
 {: #fftf-board}
 
-![Matt Feinstein](/img/page/aboutus/teampic/matt.png)
-: ### Matt Feinstein
+![Nick Reville](/img/page/aboutus/teampic/npr.png)
+: ### Nick Reville
 
   #### President
 
-  Documentary Filmmaker and Community Organizer with Worcester Roots Project
+  Co-Founder and Partner at Space Inch, LLC. Co-Founder of Fight for the Future. Co-Founder of [PCF](http://www.pculture.org) and [PPF](http://ppolitics.org). Ashoka Fellow for Social Entrepreneurship.
 
 ---
 
-![Lana Swartz](/img/page/aboutus/teampic/npr.png)
-: ### Nick Reville
+![Karien Bezuidenhout](/img/page/aboutus/teampic/karien.png)
+: ### Karien Bezuidenhout
 
   #### Treasurer
 
-  Co-Founder and Partner at Space Inch, LLC. Co-Founder of Fight for the Future. Co-Founder of [PCF](http://www.pculture.org) and [PPF](http://ppolitics.org). Ashoka Fellow for Social Entrepreneurship.
+  Advocate for openness and supporter of social entrepeneurs. Director of the [Shuttleworth Foundation](https://shuttleworthfoundation.org/).
 
 ---
 
@@ -167,7 +167,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Clerk / Secretary
 
-  Founder of Potlatch Presents, a music production and marketing studio for independent artists & Support and Community Advocacy at Participatory Culture Foundation
+  Founder of Potlatch Presents, a music production and marketing studio for independent artists & Support and Community Advocacy at Participatory Culture Foundation.
 
 # FFTF Education Fund 501(c)3 Board
 {: #fftfef-board}
