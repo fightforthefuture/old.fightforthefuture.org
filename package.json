@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "autoprefixer": "^6.1.0",
-    "aws-sdk": "^2.3.19",
+    "aws-sdk": "^2.4.12",
     "cssnano": "^3.7",
     "express": "^4.13.4",
     "grunt": "^0",
