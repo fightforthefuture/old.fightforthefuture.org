@@ -37,7 +37,7 @@ search_description: >-
   exposing some of the U.S. government’s worst abuses, is being charged with
   attempting to take her own life and is facing extreme penalties.
 twittertext: >-
-  Chelsea Manning faces indefinite solitary for trying to take own her life after years of abuse. https://www.freechelsea.com/ Petition to @SecArmy
+  Chelsea Manning faces indefinite solitary after suicide attempt following years of abuse. https://www.freechelsea.com/ @SecArmy #StandWithChelsea
 social_description: >-
   The government tortured her until she tried to take her own life. Now they’re
   threatening her with new charges and indefinite solitary
