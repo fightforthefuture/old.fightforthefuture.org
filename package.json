@@ -34,7 +34,7 @@
     "postreview": "node scripts/review-apps"
   },
   "dependencies": {
-    "autoprefixer": "^6.1.0",
+    "autoprefixer": "^6.4.0",
     "aws-sdk": "^2.3.19",
     "cssnano": "^3.7",
     "express": "^4.13.4",
