@@ -26,6 +26,8 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
   * [![State Infrastructure Fund](/img/page/supporters/avatars/publicinterestprojects.png) State Infrastructure Fund](http://www.publicinterestprojects.org/funds-projects/partner-and-collaborative-funds/state-infrastructure-fund/)
 
+  * [![craigconnects](/img/page/supporters/avatars/craigconnects.png) craigconnects](http://craigconnects.org/)
+
 ---
 
 
