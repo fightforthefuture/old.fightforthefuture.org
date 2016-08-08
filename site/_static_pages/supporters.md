@@ -8,7 +8,7 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
 **Foundations**
 : ---
-  Fight for the Future and Center for Rights have received support from several amazing foundations:
+  Fight for the Future and Fight for the Future Education Fund have received support from several amazing foundations:
 
   * [![The Shuttleworth Foundation](/img/page/supporters/avatars/shutter.png) The Shuttleworth Foundation](http://www.shuttleworthfoundation.org/)
 

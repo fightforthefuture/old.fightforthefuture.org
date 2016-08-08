@@ -92,6 +92,12 @@ window.components.petitions = function (doc, win) {
           apiData = JSON.parse(anRequest.responseText);
 
         progressBar(apiData.signatures, apiData.goal);
+
+        // remove this after save-chelsea has > 1000 signatures
+        if (win.location.hostname === 'www.freechelsea.com' && apiData.signatures < 1000) {
+          doc.querySelector('.signatures').style.display = 'none';
+        }
+
       } else {
         handleProgressBarError();
       }
