@@ -7,7 +7,7 @@ disclosure_text: >-
   [Fight for the Future](/) will send you updates on this & other campaigns.
   [Privacy](/privacy/)
 include_comments: false
-action_text: Take action
+action_text: Sign
 target_country: US
 autoresponder_active: false
 autoresponder_hours: 72
@@ -24,15 +24,6 @@ headline: >-
   The TPP takes power away from you and hands it to multinational corporations.
   That’s not “free trade,” that’s a whole new level of corruption. 
 petition_title: Call out the TPP for corruption.
-petition_copy: >-
-  The TPP was written in secret by corporate lobbyists and government officials,
-  and no public-interest groups, academics, or policy experts without industry
-  ties were allowed to participate in the process. The people working on the
-  deal say they needed to keep the details secret (from everyone except the
-  lobbyists that were let in) so they didn’t undercut their negotiators. We get
-  that. But if reaching a deal requires undermining national sovereignty and
-  giving special interests a plethora of policies that have already been
-  rejected through the representative lawmaking process, we don’t want it.
 search_description: >-
   The TPP takes power away from you and hands it to multinational corporations.
   That’s not “free trade,” that’s a whole new level of corruption.
