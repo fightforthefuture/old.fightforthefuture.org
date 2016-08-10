@@ -7,7 +7,7 @@ disclosure_text: >-
   [Fight for the Future](/) will send you updates on this & other campaigns.
   [Privacy](/privacy/)
 include_comments: false
-action_text: Add your name.
+action_text: Sign to call out the TPP for corruption.
 target_country: US
 autoresponder_active: false
 autoresponder_hours: 72
@@ -20,9 +20,7 @@ published: true
 action_network_url: 'https://actionnetwork.org/petitions/stop-the-tpp-6/'
 tags:
   - tpp
-headline: >-
-  The TPP takes power away from you and hands it to multinational corporations.
-  That’s not “free trade,” that’s corruption. 
+headline: 'The TPP isn''t ''free trade,'' it''s corruption. '
 petition_title: Call out the TPP for corruption.
 search_description: >-
   The TPP takes power away from you and hands it to multinational corporations.
@@ -34,7 +32,10 @@ social_title: 'The most corrupt deal in political history. '
 social_description: >-
   This is what happens when you let lobbyists secretly write the rules for 40%
   of the global economy.
-petition_copy: Join us in calling out the TPP for corruption.
+petition_copy: >-
+  The TPP takes power away from individuals and democratic institutions and
+  hands it over to multinational corporations. That’s not “free trade,” that’s a
+  whole new level of corruption.
 ---
 The Trans-Pacific Partnership (TPP) is secretive pact between the US and 11 other countries that would give multinational corporations new powers to override national sovereignty and violate people’s rights. Now Congress and President Obama are trying to pass it during the post-election “lame duck” session. 
 
