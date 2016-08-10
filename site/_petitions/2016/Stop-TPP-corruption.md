@@ -32,10 +32,6 @@ social_title: 'The most corrupt deal in political history. '
 social_description: >-
   This is what happens when you let lobbyists secretly write the rules for 40%
   of the global economy.
-petition_copy: >-
-  The TPP takes power away from individuals and democratic institutions and
-  hands it over to multinational corporations. That’s not “free trade,” that’s a
-  whole new level of corruption.
 ---
 The Trans-Pacific Partnership (TPP) is secretive pact between the US and 11 other countries that would give multinational corporations new powers to override national sovereignty and violate people’s rights. Now Congress and President Obama are trying to pass it during the post-election “lame duck” session. 
 
