@@ -22,12 +22,10 @@ tags:
   - tpp
 headline: 'The TPP isn''t ''free trade,'' it''s corruption. '
 petition_title: Call out the TPP for corruption.
-search_description: >-
-  The TPP takes power away from you and hands it to multinational corporations.
-  That’s not “free trade,” that’s corruption.
+search_description: The
 twittertext: >-
-  The TPP takes power away from you and hands it to multinational corporations.
-  That’s not “free trade,” that’s corruption.
+  The TPP takes power away from you and hands it to big multinationals. That’s
+  not “free trade,” that’s corruption.
 social_title: 'The most corrupt deal in political history. '
 social_description: >-
   This is what happens when you let lobbyists secretly write the rules for 40%
@@ -36,6 +34,7 @@ petition_copy: >-
   The Trans-Pacific Partnership (TPP) takes power away from individuals and
   democratic institutions and hands it over to multinational corporations.
   That’s not “free trade,” that’s the definition of corruption.
+share_image: /img/action-network/Leaders_of_TPP_member_states.jpg?1470869217503
 ---
 ![Leaders of the 12 TPP countries. ]({{site.baseurl}}/img/action-network/Leaders_of_TPP_member_states.jpg)
 
