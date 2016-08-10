@@ -172,7 +172,9 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   * [![Minds](/img/page/supporters/avatars/minds.jpg) Minds](https://minds.com/)
 
   * [![VPN Analysis](/img/page/supporters/avatars/vpnanalysis.png) VPN Analysis](http://www.vpnanalysis.com/)
-
+  
+  * [Psychics 4 Today](http://www.psychics4today.com)
+  
   * Guthrie Miller
 
   * Jim Kelley
