@@ -38,6 +38,7 @@ petition_copy: >-
   That’s not “free trade,” that’s the definition of corruption.
 ---
 ![Leaders of the 12 TPP countries. ]({{site.baseurl}}/img/action-network/Leaders_of_TPP_member_states.jpg)
+
 ## The largest corporate power grab in history
 
 The TPP is secretive pact between the US and 11 other countries that would give multinational corporations new powers to override national sovereignty and violate people’s rights. Now Congress and President Obama are trying to pass it during the post-election “lame duck” session. 
