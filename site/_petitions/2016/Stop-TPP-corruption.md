@@ -39,8 +39,6 @@ petition_copy: >-
 ---
 ![Leaders of the 12 TPP countries. ]({{site.baseurl}}/img/action-network/Leaders_of_TPP_member_states.jpg)
 
-### The largest corporate power grab in history
-
 The TPP is secretive pact between the US and 11 other countries that would give multinational corporations new powers to override national sovereignty and violate people’s rights. Now Congress and President Obama are trying to pass it during the post-election “lame duck” session. 
 
 They call it a “free trade” proposal, but only 5 of the TPP’s 29 chapters actually deal with trade issues. The rest of the 5,544-page [text](https://ustr.gov/trade-agreements/free-trade-agreements/trans-pacific-partnership/tpp-full-text) is packed with special-interest handouts and new ways for multinationals to challenge democratically-passed policies.
@@ -53,7 +51,7 @@ For example, [copyright notice-and-takedown procedures](https://blog.wikimedia.o
 
 ---
 
-The TPP was negotiated and written in secret by hundreds of corporate lobbyists and government officials. No public-interest groups, academics, or policy experts without industry ties were allowed to view the working text or participate in the process. 
+The TPP was negotiated and written in secret over several years by hundreds of corporate lobbyists and government officials. No public-interest groups, academics, or policy experts without industry ties were allowed to view the working text or participate in the process. 
 
 The people working on the deal say they needed to keep the details secret (from everyone except the lobbyists that were let in) so they wouldn't undercut their negotiators. 
 
