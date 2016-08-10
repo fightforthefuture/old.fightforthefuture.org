@@ -43,7 +43,7 @@ petition_copy: >-
 
 The TPP is secretive pact between the US and 11 other countries that would give multinational corporations new powers to override national sovereignty and violate people’s rights. Now Congress and President Obama are trying to pass it during the post-election “lame duck” session. 
 
-They call it “free trade,” but only 5 of the TPP’s 29 chapters actually deal with trade issues. The rest of the 5,544-page [text](https://ustr.gov/trade-agreements/free-trade-agreements/trans-pacific-partnership/tpp-full-text) is packed with special-interest handouts and new ways for multinationals to challenge democratically-passed policies.
+They call it a “free trade” proposal, but only 5 of the TPP’s 29 chapters actually deal with trade issues. The rest of the 5,544-page [text](https://ustr.gov/trade-agreements/free-trade-agreements/trans-pacific-partnership/tpp-full-text) is packed with special-interest handouts and new ways for multinationals to challenge democratically-passed policies.
 
 At the heart of the TPP is the creation of a new [tribunal system](https://www.policyalternatives.ca/sites/default/files/uploads/publications/National%20Office/2016/06/Foreign_Investor_Protections_TPP.pdf) that multinational corporations could use to win taxpayer-funded compensation from TPP countries that pass laws or regulations that they believe limit their potential for profits. These tribunals would be decided by private lawyers who would be allowed to rotate between serving as arbitration judges and working as advisors to the corporations bringing the cases to the tribunal. 
 
