@@ -22,7 +22,7 @@ tags:
   - tpp
 headline: 'The TPP isn''t ''free trade,'' it''s corruption. '
 petition_title: Call out the TPP for corruption.
-search_description: The most corrupt deal in political history.
+search_description: The most corrupt trade deal in history.
 twittertext: >-
   The TPP takes power away from you and hands it to multinationals. That’s not
   “free trade,” that’s corruption.
