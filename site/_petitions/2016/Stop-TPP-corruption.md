@@ -26,10 +26,10 @@ search_description: The most corrupt deal in political history.
 twittertext: >-
   The TPP takes power away from you and hands it to multinationals. That’s not
   “free trade,” that’s corruption.
-social_title: >-
+social_title: 'The most corrupt trade deal in history. '
+social_description: >-
   This is what happens when you let lobbyists secretly write the rules for 40%
   of the global economy.
-social_description: Is this the most corrupt political deal in history?
 share_image: /img/action-network/Leaders_of_TPP_member_states.jpg?1471112043599
 petition_copy: >-
   The Trans-Pacific Partnership (TPP) takes power away from individuals and
