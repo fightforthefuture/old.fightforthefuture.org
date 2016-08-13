@@ -24,11 +24,15 @@ headline: 'The TPP isn''t ''free trade,'' it''s corruption. '
 petition_title: Call out the TPP for corruption.
 search_description: The most corrupt deal in political history.
 twittertext: The
-social_title: 'The most corrupt deal in political history. '
-social_description: >-
+social_title: >-
   This is what happens when you let lobbyists secretly write the rules for 40%
   of the global economy.
+social_description: Is this the most corrupt political deal in history?
 share_image: /img/action-network/Leaders_of_TPP_member_states.jpg?1470983611026
+petition_copy: >-
+  The Trans-Pacific Partnership (TPP) takes power away from individuals and
+  democratic institutions and hands it to multinational corporations. That's not
+  "free trade," that's the definition of corruption.
 ---
 ![Leaders of the 12 TPP countries. ]({{site.baseurl}}/img/action-network/Leaders_of_TPP_member_states.jpg)
 
