@@ -16,7 +16,7 @@ autoresponder_text: >-
   Thanks again for taking action on {PETITION_TITLE}. We need more people like
   you who can take action on this issue. Can you please share it to help us
   reach the next level?
-published: false
+published: true
 action_network_url: >-
   https://actionnetwork.org/petitions/tell-hillary-clinton-show-youre-against-the-tpp-by-firing-pro-tpp-lobbyist-ken-salazar
 tags:
