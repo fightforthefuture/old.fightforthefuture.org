@@ -43,7 +43,6 @@ twittertext:
     transition team.
 ---
 ## Personnel is Policy
-![clintonsmile.jpg]({{site.baseurl}}/img/action-network/clintonsmile.jpg)
 
 After saying for months that she is [against](http://www.politifact.com/truth-o-meter/statements/2015/oct/08/hillary-clinton/hillary-clinton-now-opposes-trans-pacific-partners/) the Trans-Pacific Partnership (TPP), Hillary Clinton recently selected [Ken Salazar](http://www.ibtimes.com/political-capital/hillary-clinton-appoints-ken-salazar-lead-white-house-transition-2402567), an industry insider and pro-TPP lobbyist, to lead her transition team. If Clinton is elected, Salazar will be in charge of identifying, selecting, and vetting personnel to serve in her administration and throughout the federal government. 
 
