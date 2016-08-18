@@ -16,7 +16,7 @@ autoresponder_text: >-
   Thanks again for taking action on {PETITION_TITLE}. We need more people like
   you who can take action on this issue. Can you please share it to help us
   reach the next level?
-published: true
+published: false
 action_network_url: >-
   https://actionnetwork.org/petitions/tell-hillary-clinton-show-youre-against-the-tpp-by-firing-pro-tpp-lobbyist-ken-salazar
 tags:
@@ -52,4 +52,4 @@ As political observers often say, personnel is policy. By putting Salazar in cha
 
 ---
 
-**Background** The TPP is a deal that was negotiated in secret between the US and 11 other Pacific Rim nations. Despite being branded as a “free trade” deal, most of the TPP is about empowering multinational corporations to undermine national sovereignty and violate people’s rights. The TPP would be the largest deal of its kind in history, and it poses a grave threat to [good-paying jobs](http://www.citizenstrade.org/ctc/blog/2015/11/07/how-the-tpp-harms-jobs-the-environment/), [Internet freedom](https://www.eff.org/issues/tpp), the [environment](http://www.sierraclub.org/trade/trans-pacific-partnership), [access to medicine](http://www.msfaccess.org/spotlight-on/trans-pacific-partnership-agreement), [food safety](http://www.citizen.org/tpp-food-safety-facts), and the future of [freedom of expression](http://blog.wikimedia.org/2016/02/03/tpp-problematic-partnership/).
+**Background:** The TPP is a deal that was negotiated in secret between the US and 11 other Pacific Rim nations. Despite being branded as a “free trade” deal, most of the TPP is about empowering multinational corporations to undermine national sovereignty and violate people’s rights. The TPP would be the largest deal of its kind in history, and it poses a grave threat to [good-paying jobs](http://www.citizenstrade.org/ctc/blog/2015/11/07/how-the-tpp-harms-jobs-the-environment/), [Internet freedom](https://www.eff.org/issues/tpp), the [environment](http://www.sierraclub.org/trade/trans-pacific-partnership), [access to medicine](http://www.msfaccess.org/spotlight-on/trans-pacific-partnership-agreement), [food safety](http://www.citizen.org/tpp-food-safety-facts), and the future of [freedom of expression](http://blog.wikimedia.org/2016/02/03/tpp-problematic-partnership/).
