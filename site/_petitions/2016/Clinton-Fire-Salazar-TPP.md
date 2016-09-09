@@ -37,10 +37,7 @@ social_title: >-
   If Hillary Clinton is against the TPP, why did she just put a pro-TPP lobbyist
   in charge of personnel for her administration?
 social_description: Is she really against the TPP?
-twittertext:
-  Tell Hillary Clinton: >-
-    If you oppose the TPP, fire pro-TPP lobbyist Ken Salazar from your
-    transition team.
+twittertext: 'Tell Hillary Clinton: If you oppose the TPP, fire pro-TPP lobbyist Ken Salazar from your transition team.'
 ---
 ## Personnel is Policy
 
