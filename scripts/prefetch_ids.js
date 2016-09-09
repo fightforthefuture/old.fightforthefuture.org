@@ -46,7 +46,7 @@ function sendPetitionsRequest(page) {
       'Content-Type': 'application/json',
       'OSDI-API-Token': env.get('actionnetwork').apikey
     }
-  }, function (error, response, body) {
+  }, (error, response, body) => {
     "use strict";
 
     if (error || response.statusCode !== 200) {
@@ -66,6 +66,10 @@ function sendPetitionsRequest(page) {
 
     if (i > 0) {
       while (i--) {
+        // Ignore petitions without URLs
+        if (!petitionsObject[i].browser_url) {
+          continue;
+        }
         identifiers.push({
           url: petitionsObject[i].browser_url,
           identifier: petitionsObject[i].identifiers[0].replace('action_network:', '')
