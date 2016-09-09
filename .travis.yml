@@ -23,6 +23,7 @@ addons:
     sources:
     - ubuntu-toolchain-r-test
     packages:
+    - curl
     - g++-4.8
 branches:
   only:
