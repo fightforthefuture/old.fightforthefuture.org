@@ -258,6 +258,8 @@ prose:
               value: 'tpp-rockagainst-seattle'
             - name: 'tpp-rockagainst-portland'
               value: 'tpp-rockagainst-portland'
+            - name: 'hellovote'
+              value: 'hellovote'
       - name: 'search_title'
         field:
           element: 'text'
