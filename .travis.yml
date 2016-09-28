@@ -8,8 +8,10 @@ cache:
   - node_modules
   - vendor
 before_install:
+- if [ -f node_modules/.bin/which ]; then mv node_modules/.bin/which node_modules/.bin/which.backup; fi
 - rvm install `cat .ruby-version`
 - gem install bundler
+- if [ -f node_modules/.bin/which.backup ]; then mv node_modules/.bin/which.backup node_modules/.bin/which; fi
 install:
 - npm install
 script:
