@@ -1,4 +1,11 @@
 fftf:
+  - id: hellovote
+    fire: true
+    url: https://www.hello.vote/
+    image: '/img/projects/hellovote.png'
+    title: 'HelloVote: register to vote!'
+    description: 'We built the easiest, fastest way to register to vote. You can register by SMS or Facebook Messenger in less than a minute!'
+
   - id: phones
     fire: true
     url: https://www.dontbreakourphones.org/
