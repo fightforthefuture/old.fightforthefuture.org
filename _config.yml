@@ -260,6 +260,8 @@ prose:
               value: 'tpp-rockagainst-portland'
             - name: 'hellovote'
               value: 'hellovote'
+            - name: 'yahoo-users'
+              value: 'yahoo-users'
       - name: 'search_title'
         field:
           element: 'text'
