@@ -162,7 +162,7 @@ window.components.petitions = function (doc, win) {
       var formData = new FormData();
       formData.append('guard', '');
       formData.append('hp_enabled', true);
-      formData.append('org', 'fftf');
+      formData.append('org', window.org ? window.org : 'fftf');
       formData.append('an_tags', JSON.stringify(tags));
       formData.append('an_url', win.location.href);
       formData.append('an_petition', petitionSignatureForm.action.replace('/signatures', ''));
