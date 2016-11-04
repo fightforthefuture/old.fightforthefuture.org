@@ -62,8 +62,34 @@ If you’re interested, send links to work you’ve done to <sarah@fightforthefu
 
 ***
 
-## Bonus: Digital Growth Position available
+# Digital Growth Strategist
 
-* We’re looking for individuals who are email list managers, deliverability experts, or social media growth experts for a Digital Manager role.
-* You should be great at digital growth strategy, using CRM’s and CMS’, and social media.
-* You need to be meticulous at getting deliverability right and ambitious at developing ideas for digital growth and impact.
+## Responsibilities
+* Create and own our growth strategy / goals and work across our team to execute.
+* Be the brain on growth and help us to make the most of our biggest campaign moments.
+* Develop, conceptualize, write, and compose images, headlines, emails, actions, and any other related materials.
+* Devise our best email strategy and become the deliverability expert; grow our social media followings and engagement.
+* Identify and analyze key metrics to evaluate success.
+* A/B test our way to excellence.
+
+## Desired Skills & Experience
+* Rare mix of creativity and analytical thinking, developing innovative engagement tactics with a focus on the key metrics and analytics.
+* Proven ability to both work independently but also to get others to do what is needed to further your goals / not get stymied.
+* Deep understanding of growth strategies including that you are up to date on latest best practices, 3rd party services etc. with a network to draw from as needed.
+* Savvy with CRMs and CMS’ generally, and ability to figure out our systems specifically.
+* Writing for a large audience including email and social media.
+* Ability to use prototyping, video, or image editing software a plus.
+
+## Compensation
+
+Market Rate / Commensurate with Experience
+Full health and dental benefits
+Office support
+
+## Location
+
+The team will be 100% remote-no need to commute or relocate. If you’re interested in relocation, let us know. We’d start working with you on a contract basis at an hourly rate, but we will be able to offer full-time position with competitive salary and benefits to the right person.
+
+## To apply
+
+If you’re interested, send links to work you’ve done to <sarah@fightforthefuture.org>. Show us that you excel at the things we’re looking for. If you like, include links to or samples of your writing—ideally in situations where you’re writing to persuade a group of people too. Include as much relevant information as possible: significant things you’ve done, projects you’ve worked on, etc. Being well-rounded is a plus, so don’t exclude significant skills or achievements just because they aren’t activism related (e.g. starting a business, or being a musician).
