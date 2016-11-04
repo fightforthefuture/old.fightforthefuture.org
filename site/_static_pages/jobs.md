@@ -4,7 +4,7 @@ class: jobs
 ---
 * [Jobs](#)
 * [Campaign Strategist / Manager](#campaign-strategist--manager)
-* [Digital Growth Strategist / Manager](#digital-growth-strategist--manager)
+* [Digital Growth Strategist](#digital-growth-strategist)
 
 ## Brief
 
@@ -12,9 +12,9 @@ Fight for the Future is a non-profit organization whose mission is to ensure tha
 
 ***
 
-# Campaign Strategist Manager
+# Campaign Strategist / Manager
 
-Our organization is focused on developing high-impact campaigns that resonate with people and help them band together to exert their power. The Campaign Manager/ Evangelist position is one of the most important roles in our work - it is central to the organization and its effectiveness. If you ever wanted to build online experiences that reach out, grab people, and help them change the world, then this is the job for you. We’re looking for someone to continue to build that organization with us, from the ground up.
+Our organization is focused on developing high-impact campaigns that resonate with people and help them band together to exert their power. The Campaign Manager/ Manager position is one of the most important roles in our work - it is central to the organization and its effectiveness. If you ever wanted to build online experiences that reach out, grab people, and help them change the world, then this is the job for you. We’re looking for someone to continue to build that organization with us, from the ground up.
 
 We’re looking for someone smart and savvy and who can be funny and playful with ideas; we’re looking for someone who can speak to people’s humor, fears and what gets them going; and we want someone who has purposeful humor and creativity as well as poignant ideas and language that can cut through political gridlock and debate.
 
