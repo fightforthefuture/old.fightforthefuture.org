@@ -96,15 +96,6 @@ Our accomplishments are testament to the notion that with the right approach and
 
 ---
 
-![Aki Rose][ab0]
-: ### Aki Rose
-
-  #### Programmer
-
-  [Aki][ab1] joins us as developer with experience drawn from her work at Apple, Mozilla and the Obama 2012 campaign. She mostly spends her free time [on twitter][ab2], but also traveling the country in her RV.
-
----
-
 ![Lizzy Jean](/img/page/aboutus/teampic/lizzy.png)
 : ### Lizzy Jean
 
@@ -135,9 +126,6 @@ Our accomplishments are testament to the notion that with the right approach and
 [cf0]: /img/page/aboutus/teampic/charlie.png
 [cf1]: https://twitter.com/DigitalCharlie_
 [cf2]: http://peoplesclimate.org/wrap-up/
-[ab0]: /img/page/aboutus/teampic/aki.png
-[ab1]: https://akibraun.com/
-[ab2]: https://twitter.com/gesa/
 [lj1]: http://www.deepabidinglove.com/
 
 
