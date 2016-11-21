@@ -1,10 +1,38 @@
 fftf:
+  - id: rocktpp
+    fire: true
+    url: https://www.rockagainstthetpp.org/
+    image: '/img/projects/rocktpp.jpg'
+    title: 'Rock Against the TPP'
+    description: 'We''re teaming up with musicians and celebrities for a nationwide uprising to stop the Trans-Pacific Partnership.'
+
   - id: hellovote
     fire: true
     url: https://www.hello.vote/
     image: '/img/projects/hellovote.png'
     title: 'HelloVote: register to vote!'
     description: 'We built the easiest, fastest way to register to vote. You can register by SMS or Facebook Messenger in less than a minute!'
+
+  - id: unplugnsa
+    fire: true
+    url: http://www.unplugthensa.org/
+    image: '/img/projects/unplugnsa.jpg'
+    title: 'Unplug the NSA'
+    description: 'Tell President Obama to shut down the NSA''s mass spying before it''s too late.'
+
+  - id: chelsea
+    fire: false
+    url: https://actionnetwork.org/petitions/save-chelsea
+    image: '/img/projects/chelsea.jpg'
+    title: 'Free Chelsea Manning!'
+    description: 'We talk regularly with Wikileaks whistleblower Chelsea Manning and run campaigns to support her activism in prison.'
+
+  - id: fighttpp
+    fire: false
+    url: https://www.fightthetpp.org/
+    image: '/img/projects/stoptpp.jpg'
+    title: 'Fight the TPP!'
+    description: 'The Trans-Pacific Partnership (TPP) threatens everything you care about, including your Internet freedom. Fight back.'
 
   - id: phones
     fire: true
