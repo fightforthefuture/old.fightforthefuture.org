@@ -11,7 +11,7 @@ name: Fight for the Future
 description: "Fight for the Future is dedicated to protecting and expanding the Internet's transformative power in our lives by creating civic campaigns that are engaging for millions of people."
 url: http://0.0.0.0:9084
 petitions_api: http://0.0.0.0:9104
-tweet: 'Help keep freedom of expression online a right extended to all people—join forces with @fightforthftr today.'
+tweet: 'Help keep freedom of expression online a right extended to all people—join forces with @fightfortheftr today.'
 timezone: America/New_York
 googleanalytics: UA-26576645-1
 favicon: '/favicon.ico'
@@ -857,7 +857,7 @@ prose:
           element: 'textarea'
           label: 'Tweet text'
           help: 'If someone wants to tweet this page, what do you want the twitter pop-up (sample tweet) to say? The tweet text will automatically include the url to the shared page, which leaves you with 116 characters. IMPORTANT— if your tweet contains a colon, make sure to surround the whole thing in quotation marks. (don’t worry, they won’t show up in the tweet.)'
-          placeholder: 'Help keep freedom of expression online a right extended to all people—join forces with @fightforthftr today.'
+          placeholder: 'Help keep freedom of expression online a right extended to all people—join forces with @fightfortheftr today.'
       - name: 'social_title'
         field:
           element: 'text'
