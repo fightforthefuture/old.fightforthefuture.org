@@ -12,6 +12,77 @@ Fight for the Future is a non-profit organization whose mission is to ensure tha
 
 ***
 
+# Senior Software Engineer
+
+## (A UX expert and engineer, for defending the Internet)
+
+We’re working to innovate and build the campaign and open tech tools that amplify individual power for change to
+
+* Ensure that the web continues to hold freedom of expression and creativity at its core
+* To create the pathways and strategies that dismantle barriers to political change set up by the status quo
+
+We are looking for a senior-level software engineer with strong communications skills who can lead the technology side of our digital campaigning efforts. This is more than a simple coding or campaigning position. This is a technology leadership position for someone who understands the threats that face the future of free expression on the Internet, and who can successfully use the Internet as a medium for political change by conceptualizing, creating and delivering on a wide variety of technology projects to make a positive difference in the world.
+
+For anyone who cares about defending and transforming the future of tech or politics, this could be a dream job. This is crucial work, and we’re approaching it in the most fun and pioneering ways possible, with high-impact campaigns that resonate with a mass audience and help them band together to exert their power. You will be on the front lines, building software millions of people see and interact with. If you ever wanted to build platforms that reach out, grab people, and help them change the world, then this is the job for you.
+
+Ideally, you’re an innovator of products for user engagement with the ability to code and have management experience.
+
+You should be well versed in current product innovations, messaging apps, social media, UI/UX, design, rapid protoyping and release, user adoption, and user testing, and be able to navigate or do a cost/benefits analysis of various technical solutions, coding languages, devops, and architecture-based decisions.
+
+You will help conceptualize, develop, build and/or manage our tech product strategy, taking our goal-oriented tech strategy through each phase of development with a team. You will oversee product development with the goal of meeting campaign metrics of reach, efficacy, and fundraising, which will include the assessment, research, development of specifications, directing design, and implementation of product plans.
+
+You should be able to think on your feet, be organized, optimize project plans and work load, manage/delegate the different pieces of projects and user growth. You should have smart, powerful ideas to share to reach product goals. You ideally understand online organizing and user growth strategies and can bring that into your work defining the product as well as gaining users in the real world. We’d especially enjoy someone who has a wide interest in pulling off technological tactics and strategy and using whatever resources are at their disposal.
+
+## If you are a product director + coder:
+
+You should be an agile programmer / hacker that can make things work and work well for millions of users at the same time while also being able to make smaller apps that work quickly and smoothly. If you can understand the scope of a problem and devise solid tech solutions on your own, you’re the person we want to talk to.
+
+You don’t need to be an expert designer or have illustration skills. If you can both faithfully implement others’ designs and make good decisions about layout, typography, and color when needed, that’s what we’re looking for. It’s also important that you can build high quality user interaction with intuitive prompts, clear buttons, etc, spotting and fixing UI problems as you go. We’re looking for somebody who can bottom-line the creation of mobile platform, but who is also always using their full brain, putting themselves in a user or a reader’s shoes.
+
+You’ll be building things like:
+
+* Tools and apps that get used over and over by our organization and others.
+* Internet wide infrastructure for large, decentralized actions across a coalition of websites
+* Solutions that achieve our goals by leveraging and customizing existing services (CRM, publishing tools, etc).
+* Flawless HTML/CSS and clear, modern design that supports the message.
+
+**Requirements:**
+
+* Experience building applications with a modern web framework like Django, Rails, or Node.js
+* Client-side javascript skills
+* Ability to develop iOS / Android applications (learning as you go is okay)
+* Experience managing large databases
+* Experience in HTML/CSS with awareness of common cross-browser problems
+* Proven ability to do clean and classy design
+* Ability to make good UI/UX decisions and spot problems
+
+## Things that you might like about this job:
+
+* It’s telecommute work with a 100% remote team
+* The work will be highly varied, like freelancing on a variety of projects
+* You can choose the framework and tools we use to get stuff done.
+* We can give you a contractor budget to reduce/eliminate mundane work. Responsibility for the final result is what matters.
+* Be a hero to many. The “yeah, I made that” small talk in bars is fun.
+
+## Bonus points for:
+
+* Having conceived and launched your own product
+* Ability to build and manage teams
+* Strong participation in communities like Reddit or HN
+* Lots of remote / freelance experience solving problems on tight deadlines
+
+## Mega bonus points for:
+
+* Having started a successful open source project
+* Having been a leader—of anything—especially online, especially tech-related
+* Understanding and being able to hack on projects that push the limits of user freedom such as: TOR, Bitcoin, Bittorrent, GPG, OTR messaging, academic P2P work, etc.
+
+To apply, email a brief resume with links to your public repos, sample code (as many examples as possible) and good examples of UI, design, and/or HTML/CSS work to: [sarah@fightforthefuture.org](mailto:sarah@fightforthefuture.org) with the subject “Product Director”.
+
+
+
+***
+
 # Campaign Strategist / Manager
 
 Our organization is focused on developing high-impact campaigns that resonate with people and help them band together to exert their power. The Campaign Manager/ Manager position is one of the most important roles in our work - it is central to the organization and its effectiveness. If you ever wanted to build online experiences that reach out, grab people, and help them change the world, then this is the job for you. We’re looking for someone to continue to build that organization with us, from the ground up.
