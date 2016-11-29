@@ -60,6 +60,8 @@ AWS.config.update({
     secretAccessKey: awsKeys.secret_key.trim()
 });
 
+var numRecentHits = 0;
+
 var getPosts = function(offset) {
 
   console.log('Asking Tumblr API for 20 posts, offset: '+ offset + '...')
@@ -107,45 +109,51 @@ var getPosts = function(offset) {
 
       if (fs.existsSync(postPath + file)) {
         console.log('  - POST ALREADY EXISTS: ' + postPath + file);
-        console.log('  - nothing else to do lol');
-        return;
-      } else {
+        numRecentHits++;
 
-        // oh tumblr is cranky about hotlinking images, so we have to re-host
-        var regexp  = /<img[^>]+src="?([^"\s]+)"?\s*\/>/g;
-
-        // copy all tumblr images to S3 and then re-write our <img> src URLs
-        while (m = regexp.exec(posts[i].body)) {
-          var url      = m[1];
-          var filename = url.substring(url.lastIndexOf('/')+1);
-          var path     = awsKeys.s3_folder.trim()+'/'+filename;
-          var newUrl   = 'https://'+awsKeys.s3_bucket.trim()+'/'+path;
-
-          console.log('  - Rehosting image: ' + url + ' => ' + newUrl);
-          copyImageToS3(url, path);
-
-          posts[i].body = posts[i].body.replace(url, newUrl);
-
-          if (posts[i].body_abstract)
-            posts[i].body_abstract = posts[i].body_abstract.replace(url, newUrl);
+        if (numRecentHits > 4) {
+          console.log('    (aborting lol)');
+          return;
+        } else {
+          console.log('    (resyncing anyway...)');
         }
-
-        console.log('  - Post does not exist. Writing: ' + postPath + file);
-
-        fs.writeFile(postPath+file, front + posts[i].body, function(err) {
-            if(err) {
-                console.log('FILE SAVE FAILURE: ', console.log(err));
-                process.exit(1);
-            }
-        });
-        var abstract = posts[i].body_abstract ? posts[i].body_abstract : posts[i].body;
-        fs.writeFile(summaryPath+file, front + abstract, function(err) {
-            if(err) {
-                console.log('FILE SAVE FAILURE: ', console.log(err));
-                process.exit(1);
-            }
-        });
       }
+
+      // oh tumblr is cranky about hotlinking images, so we have to re-host
+      var regexp  = /<img[^>]+src="?([^"\s]+)"?\s*\/>/g;
+
+      // copy all tumblr images to S3 and then re-write our <img> src URLs
+      while (m = regexp.exec(posts[i].body)) {
+        var url      = m[1];
+        var filename = url.substring(url.lastIndexOf('/')+1);
+        var path     = awsKeys.s3_folder.trim()+'/'+filename;
+        var newUrl   = 'https://'+awsKeys.s3_bucket.trim()+'/'+path;
+
+        console.log('  - Rehosting image: ' + url + ' => ' + newUrl);
+        copyImageToS3(url, path);
+
+        posts[i].body = posts[i].body.replace(url, newUrl);
+
+        if (posts[i].body_abstract)
+          posts[i].body_abstract = posts[i].body_abstract.replace(url, newUrl);
+      }
+
+      console.log('  - Post does not exist. Writing: ' + postPath + file);
+
+      fs.writeFile(postPath+file, front + posts[i].body, function(err) {
+          if(err) {
+              console.log('FILE SAVE FAILURE: ', console.log(err));
+              process.exit(1);
+          }
+      });
+      var abstract = posts[i].body_abstract ? posts[i].body_abstract : posts[i].body;
+      fs.writeFile(summaryPath+file, front + abstract, function(err) {
+          if(err) {
+              console.log('FILE SAVE FAILURE: ', console.log(err));
+              process.exit(1);
+          }
+      });
+
       console.log(' ');
     }
     if (posts.length == 20) getPosts(offset + 20);
