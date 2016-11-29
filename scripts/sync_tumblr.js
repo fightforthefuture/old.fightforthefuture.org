@@ -111,10 +111,18 @@ var getPosts = function(offset) {
         console.log('  - POST ALREADY EXISTS: ' + postPath + file);
         numRecentHits++;
 
-        if (numRecentHits > 4) {
+        if (numRecentHits > 3) {
           console.log('    (aborting lol)');
           return;
         } else {
+          var contents = fs.readFileSync(postPath + file, 'utf8');
+          if (contents.indexOf('locked: true') > -1) {
+            console.log('    <3');
+            console.log('    POST IS LOCKED!!! SKIPPING RESYNC! LOL');
+            console.log('    <3');
+            console.log('    ');
+            continue;
+          }
           console.log('    (resyncing anyway...)');
         }
       }
