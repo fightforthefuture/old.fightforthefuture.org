@@ -3,6 +3,7 @@ layout: classic
 class: jobs
 ---
 * [Jobs](#)
+* [Senior Software Engineer](#senior-software-engineer)
 * [Campaign Strategist / Manager](#campaign-strategist--manager)
 * [Digital Growth Strategist](#digital-growth-strategist)
 
@@ -77,7 +78,7 @@ You’ll be building things like:
 * Having been a leader—of anything—especially online, especially tech-related
 * Understanding and being able to hack on projects that push the limits of user freedom such as: TOR, Bitcoin, Bittorrent, GPG, OTR messaging, academic P2P work, etc.
 
-To apply, email a brief resume with links to your public repos, sample code (as many examples as possible) and good examples of UI, design, and/or HTML/CSS work to: [sarah@fightforthefuture.org](mailto:sarah@fightforthefuture.org) with the subject “Product Director”.
+To apply, email a brief resume with links to your public repos, sample code (as many examples as possible) and good examples of UI, design, and/or HTML/CSS work to: [sarah@fightforthefuture.org](mailto:sarah@fightforthefuture.org) with the subject “Senior Software Engineer”.
 
 
 
@@ -138,7 +139,7 @@ If you’re interested, send links to work you’ve done to <sarah@fightforthefu
 ## Responsibilities
 * Create and own our growth strategy / goals and work across our team to execute.
 * Be the brain on growth and help us to make the most of our biggest campaign moments.
-* Develop, conceptualize, write, and compose images, headlines, emails, actions, and any other related materials.
+* Develop, conceptualize, write, and compose images, headlines, emails, actions, and any other related materials for rapid response campaigns.
 * Devise our best email strategy and become the deliverability expert; grow our social media followings and engagement.
 * Identify and analyze key metrics to evaluate success.
 * A/B test our way to excellence.
