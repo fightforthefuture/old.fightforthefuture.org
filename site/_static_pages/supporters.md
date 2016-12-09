@@ -184,6 +184,8 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   * Derek Slater and Lila Bailey
 
   * Jeffrey and Ruth Lyon
+  
+  * [![Liberty VPS](/img/page/supporters/avatars/LibertyVPS.png) Liberty VPS](https://www.libertyvps.net/)
 
 ---
 
