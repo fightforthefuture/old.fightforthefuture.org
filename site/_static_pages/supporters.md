@@ -186,6 +186,8 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   * Jeffrey and Ruth Lyon
   
   * [![Liberty VPS](/img/page/supporters/avatars/LibertyVPS.png) Liberty VPS](https://www.libertyvps.net/)
+  
+  * [![Best VPN Analysis](/img/page/supporters/avatars/bestvpnanalysis.png) Best VPN Analysis](http://www.bestvpnanalysis.com/)
 
 ---
 
