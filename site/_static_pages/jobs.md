@@ -3,6 +3,7 @@ layout: classic
 class: jobs
 ---
 * [Jobs](#)
+* [Senior Software Engineer](#senior-software-engineer)
 * [Campaign Strategist / Manager](#campaign-strategist--manager)
 * [Digital Growth Strategist](#digital-growth-strategist)
 
@@ -77,7 +78,7 @@ You’ll be building things like:
 * Having been a leader—of anything—especially online, especially tech-related
 * Understanding and being able to hack on projects that push the limits of user freedom such as: TOR, Bitcoin, Bittorrent, GPG, OTR messaging, academic P2P work, etc.
 
-To apply, email a brief resume with links to your public repos, sample code (as many examples as possible) and good examples of UI, design, and/or HTML/CSS work to: [sarah@fightforthefuture.org](mailto:sarah@fightforthefuture.org) with the subject “Product Director”.
+To apply, fill out the application [here](https://docs.google.com/forms/d/e/1FAIpQLSd2SYlDGFnDblUmqBh6qpyVnaSH-6F80B8DroMEUkFU3fuDtg/viewform). You'll need to include a link to your resume and links to your public repos, sample code (as many examples as possible) and good examples of UI, design, and/or HTML/CSS work.
 
 
 
@@ -129,7 +130,7 @@ The team will be 100% remote-no need to commute or relocate. If you’re interes
 
 ## To apply
 
-If you’re interested, send links to work you’ve done to <sarah@fightforthefuture.org>. Show us that you excel at the things we’re looking for. If you like, include links to or samples of your writing—ideally in situations where you’re writing to persuade a group of people too. Include as much relevant information as possible: significant things you’ve done, projects you’ve worked on, etc. Being well-rounded is a plus, so don’t exclude significant skills or achievements just because they aren’t activism related (e.g. starting a business, or being a musician).
+To apply, fill out the application [here](https://docs.google.com/forms/d/e/1FAIpQLSd2SYlDGFnDblUmqBh6qpyVnaSH-6F80B8DroMEUkFU3fuDtg/viewform). Show us that you excel at the things we’re looking for. If you like, include links to or samples of your writing—ideally in situations where you’re writing to persuade a group of people too. Include as much relevant information as possible: significant things you’ve done, projects you’ve worked on, etc. Being well-rounded is a plus, so don’t exclude significant skills or achievements just because they aren’t activism related (e.g. starting a business, or being a musician).
 
 ***
 
@@ -138,7 +139,7 @@ If you’re interested, send links to work you’ve done to <sarah@fightforthefu
 ## Responsibilities
 * Create and own our growth strategy / goals and work across our team to execute.
 * Be the brain on growth and help us to make the most of our biggest campaign moments.
-* Develop, conceptualize, write, and compose images, headlines, emails, actions, and any other related materials.
+* Develop, conceptualize, write, and compose images, headlines, emails, actions, and any other related materials for rapid response campaigns.
 * Devise our best email strategy and become the deliverability expert; grow our social media followings and engagement.
 * Identify and analyze key metrics to evaluate success.
 * A/B test our way to excellence.
@@ -163,4 +164,4 @@ The team will be 100% remote-no need to commute or relocate. If you’re interes
 
 ## To apply
 
-If you’re interested, send links to work you’ve done to <sarah@fightforthefuture.org>. Show us that you excel at the things we’re looking for. If you like, include links to or samples of your writing—ideally in situations where you’re writing to persuade a group of people too. Include as much relevant information as possible: significant things you’ve done, projects you’ve worked on, etc. Being well-rounded is a plus, so don’t exclude significant skills or achievements just because they aren’t activism related (e.g. starting a business, or being a musician).
+To apply, fill out the application [here](https://docs.google.com/forms/d/e/1FAIpQLSd2SYlDGFnDblUmqBh6qpyVnaSH-6F80B8DroMEUkFU3fuDtg/viewform). Show us that you excel at the things we’re looking for. If you like, include links to or samples of your writing—ideally in situations where you’re writing to persuade a group of people too. Include as much relevant information as possible: significant things you’ve done, projects you’ve worked on, etc. Being well-rounded is a plus, so don’t exclude significant skills or achievements just because they aren’t activism related (e.g. starting a business, or being a musician).
