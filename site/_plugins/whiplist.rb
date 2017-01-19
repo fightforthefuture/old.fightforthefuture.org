@@ -189,7 +189,9 @@ module Jekyll
         elsif person["state"]
           states.each do |abbreviation, full|
             if person["state"].downcase == full.downcase
-              affiliation_text += "(" + person["partyaffiliation"][0].upcase + "-" + abbreviation.to_s + ")"
+              if person["partyaffiliation"]
+                affiliation_text += "(" + person["partyaffiliation"][0].upcase + "-" + abbreviation.to_s + ")"
+              end
             end
           end
         end
