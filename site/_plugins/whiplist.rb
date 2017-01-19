@@ -186,14 +186,14 @@ module Jekyll
 
         if person["affiliation_text"]
           affiliation_text = person["affiliation_text"]
-        elsif person["state"]
-          states.each do |abbreviation, full|
-            if person["state"].downcase == full.downcase
-              if person["partyaffiliation"] && person["partyaffiliation"].length > 0
-                affiliation_text += "(" + person["partyaffiliation"][0].upcase + "-" + abbreviation.to_s + ")"
-              end
-            end
-          end
+        # elsif person["state"]
+        #   states.each do |abbreviation, full|
+        #     if person["state"].downcase == full.downcase
+        #       if person["partyaffiliation"] && person["partyaffiliation"].length > 0
+        #         affiliation_text += "(" + person["partyaffiliation"][0].upcase + "-" + abbreviation.to_s + ")"
+        #       end
+        #     end
+        #   end
         end
 
         phone_html = ""
