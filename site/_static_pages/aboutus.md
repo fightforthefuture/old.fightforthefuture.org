@@ -167,7 +167,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### President
 
-  Internet Policy and First Amendment Lawyer and Scholar. Ammori Group. Free Press.
+  Internet policy expert. First Amendment Lawyer and Scholar. Ammori Group. Free Press.
 
 ---
 
