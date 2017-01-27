@@ -24,12 +24,12 @@ Our accomplishments are testament to the notion that with the right approach and
 # Staff
 {: #staff}
 
-![Jessica Bruno](/img/page/aboutus/teampic/jessica.png)
-: ### Jessica Bruno
+![Terri Woodburyo][tw1]
+: ### Terri Woodbury
 
-  #### Accounting
+  #### Chief Finance Officer
 
-  Jessica joined as our bookkeeper in 2013 with over 15 years experience in public and private accounting & is also involved in helping to facilitate bringing high-speed Internet to underserved rural areas.
+  Terri helped to set up Fight for the Future in 2011 and has since returned as our CFO.  She has more than 25 years in finance including nearly 10 with the Participatory Culture Foundation.
 
 ---
 
@@ -127,6 +127,7 @@ Our accomplishments are testament to the notion that with the right approach and
 [cf1]: https://twitter.com/DigitalCharlie_
 [cf2]: http://peoplesclimate.org/wrap-up/
 [lj1]: http://www.deepabidinglove.com/
+[tw1]: /img/page/aboutus/teampic/terri.png
 
 
 # Fight for the Future 501(c)4 Board
@@ -150,12 +151,12 @@ Our accomplishments are testament to the notion that with the right approach and
 
 ---
 
-![Darren Bridenbeck](/img/page/aboutus/teampic/darren.png)
-: ### Darren Bridenbeck
+![Barbara van Schewick](/img/page/aboutus/teampic/schewick.png)
+: ### Barbara van Schewick
 
   #### Clerk / Secretary
 
-  Founder of Potlatch Presents, a music production and marketing studio for independent artists & Support and Community Advocacy at Participatory Culture Foundation.
+  Professor of Law and (by Courtesy) Electrical Engineering at Stanford Law School. Director of Stanford Law School’s Center for Internet and Society. Author of Internet Architecture and Innovation. Leading net neutrality expert.
 
 # FFTF Education Fund 501(c)3 Board
 {: #fftfef-board}
@@ -166,7 +167,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### President
 
-  Internet Policy and First Amendment Lawyer and Scholar, Ammori Group, Free Press
+  Internet Policy and First Amendment Lawyer and Scholar. Ammori Group. Free Press.
 
 ---
 
@@ -175,7 +176,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Treasurer
 
-  Media Reform Activist passing Low-Power FM rules, Policy Director of Media Mobilizing Project and Campaign Director at the Prometheus Radio Project
+  Media Reform Activist passing Low-Power FM rules. Policy Director of Media Mobilizing Project. Campaign Director at the Prometheus Radio Project.
 
 ---
 
@@ -184,4 +185,4 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Secretary
 
-  Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School and author of The Wealth of Networks: How social production transforms markets and freedom
+  Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School. Author of The Wealth of Networks: How social production transforms markets and freedom.
