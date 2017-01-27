@@ -127,7 +127,7 @@ Our accomplishments are testament to the notion that with the right approach and
 [cf1]: https://twitter.com/DigitalCharlie_
 [cf2]: http://peoplesclimate.org/wrap-up/
 [lj1]: http://www.deepabidinglove.com/
-[tw1]: /img/page/aboutus/teampic/terri.png
+[tw1]: /img/page/aboutus/teampic/terri.jpg
 
 
 # Fight for the Future 501(c)4 Board
@@ -151,7 +151,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
 ---
 
-![Barbara van Schewick](/img/page/aboutus/teampic/schewick.png)
+![Barbara van Schewick](/img/page/aboutus/teampic/schewick.jpg)
 : ### Barbara van Schewick
 
   #### Clerk / Secretary
