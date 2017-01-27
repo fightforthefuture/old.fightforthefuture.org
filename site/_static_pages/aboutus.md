@@ -24,7 +24,7 @@ Our accomplishments are testament to the notion that with the right approach and
 # Staff
 {: #staff}
 
-![Terri Woodburyo][tw1]
+![Terri Woodbury][tw1]
 : ### Terri Woodbury
 
   #### Chief Finance Officer
