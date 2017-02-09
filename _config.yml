@@ -262,6 +262,8 @@ prose:
               value: 'hellovote'
             - name: 'yahoo-users'
               value: 'yahoo-users'
+            - name: 'conservative'
+              value: 'conservative'
       - name: 'search_title'
         field:
           element: 'text'
