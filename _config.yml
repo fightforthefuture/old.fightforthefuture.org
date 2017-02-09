@@ -264,6 +264,12 @@ prose:
               value: 'yahoo-users'
             - name: 'conservative'
               value: 'conservative'
+            - name: 'libertarian'
+              value: 'libertarian'
+            - name: 'republican'
+              value: 'republican'
+            - name: 'trump voter'
+              value: 'trump voter'
       - name: 'search_title'
         field:
           element: 'text'
