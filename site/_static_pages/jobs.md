@@ -17,66 +17,63 @@ Fight for the Future is a non-profit organization whose mission is to ensure tha
 
 ## (A UX expert and engineer, for defending the Internet)
 
-We’re working to innovate and build the campaign and open tech tools that amplify individual power for change to
+## ABOUT THE ROLE
 
-* Ensure that the web continues to hold freedom of expression and creativity at its core
-* To create the pathways and strategies that dismantle barriers to political change set up by the status quo
+Fight for the Future is looking for a senior-level full-stack software engineer to lead the technology side of our digital campaigning efforts. This is more than a simple coding or campaigning position. This is a technology leadership position for someone who understands the threats that face the future of free expression on the Internet, and who can successfully use the Internet as a medium for political change by conceptualizing, creating and delivering on a wide variety of technology projects to make a positive difference in the world.
 
-We are looking for a senior-level software engineer with strong communications skills who can lead the technology side of our digital campaigning efforts. This is more than a simple coding or campaigning position. This is a technology leadership position for someone who understands the threats that face the future of free expression on the Internet, and who can successfully use the Internet as a medium for political change by conceptualizing, creating and delivering on a wide variety of technology projects to make a positive difference in the world.
+## ABOUT YOU
 
-For anyone who cares about defending and transforming the future of tech or politics, this could be a dream job. This is crucial work, and we’re approaching it in the most fun and pioneering ways possible, with high-impact campaigns that resonate with a mass audience and help them band together to exert their power. You will be on the front lines, building software millions of people see and interact with. If you ever wanted to build platforms that reach out, grab people, and help them change the world, then this is the job for you.
+* You’re a flexible full stack hacker who can make things work and work well for millions of users, while also being able to quickly and independently develop small, simple tools for our campaigns that feel great for the people using them.
+* You can faithfully implement others’ designs and make good decisions about layout, typography, and color when needed (but you definitely don’t need to be an expert designer or have illustration skills!) 
+* You can build high quality user interaction with intuitive prompts, modals, clear buttons, etc, spotting and fixing UI problems as you go.
+* You could design straight to code if needed, and while your own design choices don’t have to look fancy or highly polished (authentic is often better!) the result should be crafted, professional and ready to put in front of millions of people.
+* You are versed in current product innovations, messaging apps, social media, UI/UX, and design.
+* You understand rapid prototyping and release, user adoption, and user testing, and you can navigate cost/benefits analysis of various technical solutions, languages, devops, and architecture-based decisions.
+* You can think on your feet, be organized, optimize project plans and workload, manage/delegate the different pieces of projects and user growth.
+* You enjoy a fast-paced environment and can pivot quickly and as needed to make changes based on changing outside requirements.
+* You like brainstorming ways to simplify the scope of a project to fit a given timeline (e.g. if the team asks for something crazy/hard, maybe there’s a much easier way to achieve a similar result) and you’re always looking for those kinds of lovely simplifications.
+* You’re happy doing some self-QA and tweaking until a user experience works reliably and feels nice.
+* You’re comfortable working as the only technical person in a team (this won’t always be the case, but it will sometimes) and thinking into and around a problem, exposing corner cases and potential issues to non-technical collaborators. 
 
-Ideally, you’re an innovator of products for user engagement with the ability to code and have management experience.
-
-You should be well versed in current product innovations, messaging apps, social media, UI/UX, design, rapid protoyping and release, user adoption, and user testing, and be able to navigate or do a cost/benefits analysis of various technical solutions, coding languages, devops, and architecture-based decisions.
-
-You will help conceptualize, develop, build and/or manage our tech product strategy, taking our goal-oriented tech strategy through each phase of development with a team. You will oversee product development with the goal of meeting campaign metrics of reach, efficacy, and fundraising, which will include the assessment, research, development of specifications, directing design, and implementation of product plans.
-
-You should be able to think on your feet, be organized, optimize project plans and work load, manage/delegate the different pieces of projects and user growth. You should have smart, powerful ideas to share to reach product goals. You ideally understand online organizing and user growth strategies and can bring that into your work defining the product as well as gaining users in the real world. We’d especially enjoy someone who has a wide interest in pulling off technological tactics and strategy and using whatever resources are at their disposal.
-
-## If you are a product director + coder:
-
-You should be an agile programmer / hacker that can make things work and work well for millions of users at the same time while also being able to make smaller apps that work quickly and smoothly. If you can understand the scope of a problem and devise solid tech solutions on your own, you’re the person we want to talk to.
-
-You don’t need to be an expert designer or have illustration skills. If you can both faithfully implement others’ designs and make good decisions about layout, typography, and color when needed, that’s what we’re looking for. It’s also important that you can build high quality user interaction with intuitive prompts, clear buttons, etc, spotting and fixing UI problems as you go. We’re looking for somebody who can bottom-line the creation of mobile platform, but who is also always using their full brain, putting themselves in a user or a reader’s shoes.
-
-You’ll be building things like:
+## WHAT YOU'LL BE BUILDING:
 
 * Tools and apps that get used over and over by our organization and others.
-* Internet wide infrastructure for large, decentralized actions across a coalition of websites
+* Internet wide infrastructure for large, decentralized actions across a coalition of websites.
 * Solutions that achieve our goals by leveraging and customizing existing services (CRM, publishing tools, etc).
-* Flawless HTML/CSS and clear, modern design that supports the message.
+* Flawless HTML/CSS and clear, modern design and custom tools that send powerful messages out into the world & apply political pressure in the right places at the right time.
 
-**Requirements:**
-
-* Experience building applications with a modern web framework like Django, Rails, or Node.js
-* Client-side javascript skills
-* Ability to develop iOS / Android applications (learning as you go is okay)
-* Experience managing large databases
-* Experience in HTML/CSS with awareness of common cross-browser problems
-* Proven ability to do clean and classy design
-* Ability to make good UI/UX decisions and spot problems
-
-## Things that you might like about this job:
+## THINGS THAT YOU MIGHT LIKE ABOUT THIS JOB:
 
 * It’s telecommute work with a 100% remote team
+* We do retreats and in-person sprints too, because it’s nice to see people!
 * The work will be highly varied, like freelancing on a variety of projects
-* You can choose the framework and tools we use to get stuff done.
+* You can choose the framework and tools we use to get stuff done, and use whatever you’re most excited about.
 * We can give you a contractor budget to reduce/eliminate mundane work. Responsibility for the final result is what matters.
 * Be a hero to many. The “yeah, I made that” small talk in bars is fun.
 
-## Bonus points for:
+## REQUIREMENTS:
 
-* Having conceived and launched your own product
-* Ability to build and manage teams
+* Experience building applications with a modern web framework like Django, Rails, or Node.js
+* Client-side javascript skills
+* Experience managing large databases
+* Experience in HTML/CSS with awareness of common cross-browser problems
+* Proven ability to do clean and classy design when needed.
+* Ability to make good UI/UX decisions and spot problems
+
+## BONUS POINTS FOR:
+
+* Having successfully launched a great product working in a small team.
+* Ability to build and manage teams.
 * Strong participation in communities like Reddit or HN
 * Lots of remote / freelance experience solving problems on tight deadlines
+* Experience working remotely (we use slack/trello/google hangouts)
 
-## Mega bonus points for:
+## MEGA BONUS POINTS FOR:
 
-* Having started a successful open source project
+* Having built and marketed your own product.
 * Having been a leader—of anything—especially online, especially tech-related
 * Understanding and being able to hack on projects that push the limits of user freedom such as: TOR, Bitcoin, Bittorrent, GPG, OTR messaging, academic P2P work, etc.
+* Experience with activism, resistance, creative and positive troublemaking, or any kind of fiery provocative work in any area.
 
 To apply, fill out the application [here](https://docs.google.com/forms/d/e/1FAIpQLSd2SYlDGFnDblUmqBh6qpyVnaSH-6F80B8DroMEUkFU3fuDtg/viewform). You'll need to include a link to your resume and links to your public repos, sample code (as many examples as possible) and good examples of UI, design, and/or HTML/CSS work.
 
