@@ -96,12 +96,12 @@ Our accomplishments are testament to the notion that with the right approach and
 
 ---
 
-![Lizzy Jean](/img/page/aboutus/teampic/lizzy.png)
-: ### Lizzy Jean
+![Laila Abdelaziz](/img/page/aboutus/teampic/laila.png)
+: ### Laila Abdelaziz
 
   #### Campaigner
 
-  Lizzy Jean is our Campaigner. She co-founded the [Deep Abiding Love][lj1] collective, which provides direct action training and movement infrastructure support. She also authored the Coming to Ferguson curriculum.
+  Laila Abdelaziz is our Campaigner and a [2017 Kairos Fellow][la1]. Before joining FFTF, Laila served as the Council on American-Islamic Relations of Florida's Legislative & Government Affairs Director where she led local and statewide advocacy campaigns to protect civil rights and challenge Islamophobia. Laila also serves on the 88.5 WMNF Community Radio Board of Directors.  
 
 
 [tc0]: /img/page/aboutus/teampic/tiff.png
@@ -126,7 +126,7 @@ Our accomplishments are testament to the notion that with the right approach and
 [cf0]: /img/page/aboutus/teampic/charlie.png
 [cf1]: https://twitter.com/DigitalCharlie_
 [cf2]: http://peoplesclimate.org/wrap-up/
-[lj1]: http://www.deepabidinglove.com/
+[la1]: http://www.kairosfellows.org/
 [tw1]: /img/page/aboutus/teampic/terri.png
 
 
