@@ -27,6 +27,8 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   * [![State Infrastructure Fund](/img/page/supporters/avatars/publicinterestprojects.png) State Infrastructure Fund](http://www.publicinterestprojects.org/funds-projects/partner-and-collaborative-funds/state-infrastructure-fund/)
 
   * [![craigconnects](/img/page/supporters/avatars/craigconnects.png) craigconnects](http://craigconnects.org/)
+  
+  * [![Ashoka](/img/page/supporters/avatars/ashoka.png) Ashoka](https://www.ashoka.org/)
 
 ---
 
@@ -43,6 +45,13 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
 ---
 
+  ![Credo](/img/page/supporters/avatars/credo.png)
+  : ### [CREDO](http://credoaction.com/)
+
+    CREDO provides mobile phone service while using its revenue to fund social change and activism. They've been vital allies in fighting for net neutrality and Internet privacy.
+
+
+
 **Pioneers**
 : ---
   These individuals and organizations contribute $25,000 or more. Amazing!
@@ -51,13 +60,6 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   : ### [CEA](http://www.cta.tech/)
 
     Consumer Electronics Association helps make sure Congress doesn’t kill important new technologies with misguided laws. We love that!
-
-  ---
-
-  ![Credo](/img/page/supporters/avatars/credo.png)
-  : ### [CREDO](http://credoaction.com/)
-
-    CREDO provides mobile phone service while using its revenue to fund social change and activism. They've been vital allies in fighting for net neutrality and Internet privacy.
 
   ---
 
@@ -189,6 +191,8 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   
   * [![Best VPN Analysis](/img/page/supporters/avatars/bestvpnanalysis.png) Best VPN Analysis](http://www.bestvpnanalysis.com/)
 
+  * [![thebestvpn](/img/page/supporters/avatars/thebestvpn.png) thebestvpn](https://thebestvpn.com/)
+ 
 ---
 
 **In-kind Donations**
