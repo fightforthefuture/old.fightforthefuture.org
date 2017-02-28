@@ -13,10 +13,7 @@ Habitat.load('.env');
 
 var
   identifiers = [],
-  env = new Habitat('', {
-    actionnetwork_url: 'https://actionnetwork.org',
-    actionnetwork_apikey: 'fff77784046dc3393ba51097511e011fdeb9f384' // definitely not 90's pop lyrics, nope.
-  });
+  env = new Habitat('');
 
 function compilePetitionsConfig(petitions) {
   var
