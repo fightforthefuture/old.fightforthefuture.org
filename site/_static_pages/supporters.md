@@ -50,7 +50,7 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
     CREDO provides mobile phone service while using its revenue to fund social change and activism. They've been vital allies in fighting for net neutrality and Internet privacy.
 
-
+---
 
 **Pioneers**
 : ---
