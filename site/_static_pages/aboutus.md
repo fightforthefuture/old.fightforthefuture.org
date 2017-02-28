@@ -38,7 +38,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Co-Founder and Co-Director
 
-  Tiffiniy is our co-founder and co-director. She started [Open Congress][tc1], [Miro][tc2], and the advocacy organization, A New Way Forward. She is a current [Shuttleworth Foundation Fellow](https://shuttleworthfoundation.org/fellows/tiffiniy-cheng).
+  Tiffiniy is our co-founder and co-director. She started [Open Congress][tc1], [Miro][tc2], and the advocacy organization, A New Way Forward. She is currently both a [Shuttleworth](https://shuttleworthfoundation.org/fellows/tiffiniy-cheng) and [Ashoka](https://www.ashoka.org/en) fellow.
 
 ---
 
@@ -101,7 +101,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Campaigner
 
-  Laila Abdelaziz is our Campaigner and a [2017 Kairos Fellow][la1]. Before joining FFTF, Laila served as the Council on American-Islamic Relations of Florida's Legislative & Government Affairs Director where she led local and statewide advocacy campaigns to protect civil rights and challenge Islamophobia. Laila also serves on the 88.5 WMNF Community Radio Board of Directors.  
+  Laila Abdelaziz is our Campaigner and a [2017 Kairos Fellow][la1]. Before joining FFTF, Laila served as CAIR Florida's Legislative & Government Affairs Director where she led advocacy campaigns to protect civil rights and challenge Islamophobia.
 
 
 [tc0]: /img/page/aboutus/teampic/tiff.png
