@@ -19,7 +19,11 @@ script:
 after_success:
 - npm run-script deploy
 env:
-- CXX=g++-4.8 AWS_S3_BUCKET=s3.fightforthefuture.org AWS_S3_FOLDER=images/blog ACTIONNETWORK_URL=https://actionnetwork.org
+  global:
+  - CXX: g++-4.8
+  - AWS_S3_BUCKET: s3.fightforthefuture.org
+  - AWS_S3_FOLDER: images/blog
+  - ACTIONNETWORK_URL: https://actionnetwork.org
 addons:
   apt:
     sources:
@@ -38,7 +42,7 @@ deploy:
   local-dir: assets
   acl: public_read
   skip_cleanup: true
-  cache_control: "max-age=41706360"
+  cache_control: max-age=41706360
   on:
     repo: fightforthefuture/fightforthefuture.github.io
     branch: production
