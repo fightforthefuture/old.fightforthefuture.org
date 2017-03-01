@@ -43,7 +43,7 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
     PIA offers a affordable, no-log VPN that unblocks censored websites and protects your privacy. We use it ourselves, and we're proud to have their support!
 
----
+  ---
 
   ![Credo](/img/page/supporters/avatars/credo.png)
   : ### [CREDO](http://credoaction.com/)
