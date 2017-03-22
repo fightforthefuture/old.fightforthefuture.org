@@ -69,15 +69,6 @@ Our accomplishments are testament to the notion that with the right approach and
 
 ---
 
-![Jeff Lyon][jl0]
-: ### Jeff Lyon
-
-  #### Chief Technology Officer
-
-  [Jeff][jl1] has been building software since he was a small child. Before joining our team he spent a decade working at various startups and big tech companies in Silicon Valley. Jeff likes [writing][jl2], security research and [making music][jl3].
-
----
-
 ![Sarena Neyman](/img/page/aboutus/teampic/serena.png)
 : ### Sarena Neyman
 
