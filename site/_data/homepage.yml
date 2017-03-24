@@ -1,20 +1,55 @@
 fftf:
+  - id: getsafe
+    fire: false
+    url: https://www.letsgetsafe.org/
+    image: '/img/projects/getsafe.jpg'
+    title: '#GetSafe: security guide'
+    description: 'Protecting yourself online can be overwhelming. This makes it easy.'
+
+  - id: defendingrights
+    fire: false
+    url: https://actionnetwork.org/petitions/urgent-ten-states-are-about-to-criminalize-peaceful-protest
+    image: '/img/projects/defendingrights.jpg'
+    title: 'Defending our right to protest'
+    description: 'Laws that undermine our free speech are spreading across the US. We''re fighting back.'
+
+  - id: bbprivacy
+    fire: false
+    url: https://www.savebroadbandprivacy.org/
+    image: '/img/projects/bbprivacy.jpg'
+    title: 'Save Broadband Privacy'
+    description: 'Comcast''s friends in Congress are trying to gut privacy rules. Let''s stop them.'
+
+  - id: nnotpartisan
+    fire: false
+    url: https://actionnetwork.org/petitions/dont-mess-up-the-net-with-partisan-politics
+    image: '/img/projects/capitolnn.jpg'
+    title: 'Net Neutrality is not partisan!'
+    description: 'Lobbyists are trying to make net neutrality a partisan issue. It''s not.'
+
+  - id: chelseahugs
+    fire: false
+    url: https://actionnetwork.org/petitions/hugsforchelsea-give-chelsea-manning-a-hug/
+    image: '/img/projects/hugsch.png'
+    title: '#HugsForChelsea'
+    description: 'The Internet is sending hugs to Chelsea Manning.'
+
   - id: rocktpp
-    fire: true
+    fire: false
     url: https://www.rockagainstthetpp.org/
     image: '/img/projects/rocktpp.jpg'
     title: 'Rock Against the TPP'
     description: 'We''re teaming up with musicians and celebrities for a nationwide uprising to stop the Trans-Pacific Partnership.'
 
   - id: hellovote
-    fire: true
+    fire: false
     url: https://www.hello.vote/
     image: '/img/projects/hellovote.png'
     title: 'HelloVote: register to vote!'
     description: 'We built the easiest, fastest way to register to vote. You can register by SMS or Facebook Messenger in less than a minute!'
 
   - id: unplugnsa
-    fire: true
+    fire: false
     url: http://www.unplugthensa.org/
     image: '/img/projects/unplugnsa.jpg'
     title: 'Unplug the NSA'
@@ -35,14 +70,14 @@ fftf:
     description: 'The Trans-Pacific Partnership (TPP) threatens everything you care about, including your Internet freedom. Fight back.'
 
   - id: phones
-    fire: true
+    fire: false
     url: https://www.dontbreakourphones.org/
     image: '/img/projects/phones.jpg'
     title: '#DontBreakOurPhones'
     description: 'We''re organizing rallies all over the country to stop the FBI''s plan to put government backdoors in our phones and computers.'
 
   - id: dtf
-    fire: true
+    fire: false
     url: https://www.decidethefuture.org/
     image: '/img/projects/dtf.jpg'
     title: 'Decide the Future'
@@ -61,7 +96,7 @@ fftf:
     description: 'We organized protests all over the country to sunset the PATRIOT Act.'
 
   - id: blackoutcongress
-    fire: true
+    fire: false
     url: https://www.blackoutcongress.org
     image: '/img/projects/blackout.jpg'
     title: 'Congress Blackout'
@@ -75,7 +110,7 @@ fftf:
     description: 'Congress is stuck in 1984, so we helped Internet users generate 6 million faxes to stop the worst spying bill yet.'
 
   - id: rubberstamp
-    fire: true
+    fire: false
     url: https://cms.fightforthefuture.org/rubberstamp/
     image: '/img/projects/rubber.jpg'
     title: 'Operation: Rubberstamp'
@@ -94,7 +129,7 @@ fftf:
     description: We are closer than ever to winning real net neutrality, and the Internet is literally counting down the seconds.
 
   - id: battleforthenet
-    fire: true
+    fire: false
     url: https://www.battleforthenet.com/
     image: /img/projects/battle.jpg
     title: Battle for the Net!
@@ -107,7 +142,7 @@ fftf:
     description: The TPP is a secret agreement that’s bad for everything you care about. Here’s our plan to stop it.
 
   - id: resetthenet
-    fire: true
+    fire: false
     url: https://www.resetthenet.org/
     image: /img/projects/reset.jpg
     title: 'June 5: We will Reset the Net'
@@ -186,7 +221,7 @@ fftf:
     description: Join 20,000+ demanding freedom for a journalist who faces 105 years in prison for sharing a link.
 
   - id: idl
-    fire: true
+    fire: false
     url: http://internetdefenseleague.org
     image: /img/projects/idl.jpg
     title: Internet Defense League
@@ -266,7 +301,7 @@ fftfef:
     description: We crowdfunded privacy tools & distributed them to activists & journalists fighting censorship.
 
   - id: nsavideoc3
-    fire: true
+    fire: false
     url: http://www.thensavideo.com/
     image: /img/projects/nsavideo.jpg
     title: The NSA Video
