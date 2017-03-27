@@ -16,7 +16,7 @@ allow_comments: true
 action_text: 'Take action'
 target_country: 'US'
 search_description: 'It’s time to talk about our nation’s access to pizza'
-twittertext: 'Help keep freedom of expression online a right extended to all people—join forces with @fightforthftr today.'
+twittertext: 'Help keep freedom of expression online a right extended to all people—join forces with @fightfortheftr today.'
 social_title: Help us send a message to President Knowles
 social_description: Fight for your right to pizza.
 share_image: "/img/share/fftf-share.jpg"
