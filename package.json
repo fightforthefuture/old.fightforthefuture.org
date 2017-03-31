@@ -37,7 +37,7 @@
     "autoprefixer": "^6.1.0",
     "aws-sdk": "^2.3.19",
     "cssnano": "^3.7",
-    "express": "^4.13.4",
+    "express": "^4.14.0",
     "grunt": "^0",
     "grunt-cdnify": "^1.0.2",
     "grunt-cli": "^1.2.0",
