@@ -3,7 +3,7 @@ layout: classic
 class: jobs
 ---
 * [Jobs](#)
-* [Senior Software Engineer](#senior-software-engineer)
+* [Front-End Software Engineer](#front-end-software-engineer)
 * [Campaign Strategist / Manager](#campaign-strategist--manager)
 * [Digital Growth Strategist](#digital-growth-strategist)
 
@@ -13,17 +13,17 @@ Fight for the Future is a non-profit organization whose mission is to ensure tha
 
 ***
 
-# Senior Software Engineer
+# Front-End Software Engineer
 
 ## (A UX expert and engineer, for defending the Internet)
 
 ## ABOUT THE ROLE
 
-Fight for the Future is looking for a senior-level full-stack software engineer to lead the technology side of our digital campaigning efforts. This is more than a simple coding or campaigning position. This is a technology leadership position for someone who understands the threats that face the future of free expression on the Internet, and who can successfully use the Internet as a medium for political change by conceptualizing, creating and delivering on a wide variety of technology projects to make a positive difference in the world.
+Fight for the Future is looking for a senior-level software engineer to lead the front-end development side of our digital campaigning efforts. This is more than a simple coding or campaigning position. This is a leadership position for someone who understands the threats that face the future of free expression on the Internet, and who can creatively use the Internet as a medium for political change.
 
 ## ABOUT YOU
 
-* You’re a flexible full stack hacker who can make things work and work well for millions of users, while also being able to quickly and independently develop small, simple tools for our campaigns that feel great for the people using them.
+* You’re an excellent front-end coder who can make things work and work well for millions of users.
 * You can faithfully implement others’ designs and make good decisions about layout, typography, and color when needed (but you definitely don’t need to be an expert designer or have illustration skills!) 
 * You can build high quality user interaction with intuitive prompts, modals, clear buttons, etc, spotting and fixing UI problems as you go.
 * You could design straight to code if needed, and while your own design choices don’t have to look fancy or highly polished (authentic is often better!) the result should be crafted, professional and ready to put in front of millions of people.
@@ -33,14 +33,13 @@ Fight for the Future is looking for a senior-level full-stack software engineer 
 * You enjoy a fast-paced environment and can pivot quickly and as needed to make changes based on changing outside requirements.
 * You like brainstorming ways to simplify the scope of a project to fit a given timeline (e.g. if the team asks for something crazy/hard, maybe there’s a much easier way to achieve a similar result) and you’re always looking for those kinds of lovely simplifications.
 * You’re happy doing some self-QA and tweaking until a user experience works reliably and feels nice.
-* You’re comfortable working as the only technical person in a team (this won’t always be the case, but it will sometimes) and thinking into and around a problem, exposing corner cases and potential issues to non-technical collaborators. 
+* You’re good at thinking into and around a problem, exposing corner cases and potential issues to non-technical collaborators. 
 
 ## WHAT YOU'LL BE BUILDING:
 
-* Tools and apps that get used over and over by our organization and others.
-* Internet wide infrastructure for large, decentralized actions across a coalition of websites.
-* Solutions that achieve our goals by leveraging and customizing existing services (CRM, publishing tools, etc).
 * Flawless HTML/CSS and clear, modern design and custom tools that send powerful messages out into the world & apply political pressure in the right places at the right time.
+* Solutions that achieve our goals by leveraging and customizing existing services (CRM, publishing tools, etc).
+* Internet wide infrastructure for large, decentralized actions across a coalition of websites.
 
 ## THINGS THAT YOU MIGHT LIKE ABOUT THIS JOB:
 
@@ -53,19 +52,18 @@ Fight for the Future is looking for a senior-level full-stack software engineer 
 
 ## REQUIREMENTS:
 
-* Experience building applications with a modern web framework like Django, Rails, or Node.js
 * Client-side javascript skills
-* Experience managing large databases
 * Experience in HTML/CSS with awareness of common cross-browser problems
 * Proven ability to do clean and classy design when needed.
 * Ability to make good UI/UX decisions and spot problems
 
 ## BONUS POINTS FOR:
 
-* Having successfully launched a great product working in a small team.
-* Ability to build and manage teams.
+* Having successfully launched a great product working in a small team
+* Ability to build and manage teams
 * Strong participation in communities like Reddit or HN
 * Lots of remote / freelance experience solving problems on tight deadlines
+* Persuasive writing skills for an online audience
 * Experience working remotely (we use slack/trello/google hangouts)
 
 ## MEGA BONUS POINTS FOR:
