@@ -38,6 +38,7 @@ Fight for the Future is looking for a senior-level software engineer to lead the
 ## WHAT YOU'LL BE BUILDING:
 
 * Flawless HTML/CSS and clear, modern design and custom tools that send powerful messages out into the world & apply political pressure in the right places at the right time.
+* Modern JavaScript (ES6), build tools (Babel, Gulp, Grunt), and possibly a framework-driven interactive site (React, Angular). These tools are changing rapidly, so learning on the job is encouraged.
 * Solutions that achieve our goals by leveraging and customizing existing services (CRM, publishing tools, etc).
 * Internet wide infrastructure for large, decentralized actions across a coalition of websites.
 
