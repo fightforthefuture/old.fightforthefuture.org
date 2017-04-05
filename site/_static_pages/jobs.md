@@ -71,7 +71,6 @@ Fight for the Future is looking for a senior-level software engineer to lead the
 
 * Having built and marketed your own product.
 * Having been a leader—of anything—especially online, especially tech-related
-* Understanding and being able to hack on projects that push the limits of user freedom such as: TOR, Bitcoin, Bittorrent, GPG, OTR messaging, academic P2P work, etc.
 * Experience with activism, resistance, creative and positive troublemaking, or any kind of fiery provocative work in any area.
 
 To apply, fill out the application [here](https://docs.google.com/forms/d/e/1FAIpQLSd2SYlDGFnDblUmqBh6qpyVnaSH-6F80B8DroMEUkFU3fuDtg/viewform). You'll need to include a link to your resume and links to your public repos, sample code (as many examples as possible) and good examples of UI, design, and/or HTML/CSS work.
