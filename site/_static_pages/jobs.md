@@ -19,7 +19,7 @@ Fight for the Future is a non-profit organization whose mission is to ensure tha
 
 ## ABOUT THE ROLE
 
-Fight for the Future is looking for a senior-level software engineer to lead the front-end development side of our digital campaigning efforts. This is more than a simple coding or campaigning position. This is a leadership position for someone who understands the threats that face the future of free expression on the Internet, and who can creatively use the Internet as a medium for political change.
+Fight for the Future is looking for a software engineer to lead the front-end development side of our digital campaigning efforts. This is more than a simple coding or campaigning position. This is a leadership position for someone who understands the threats that face the future of free expression on the Internet, and who can creatively use the Internet as a medium for political change.
 
 ## ABOUT YOU
 
@@ -27,8 +27,8 @@ Fight for the Future is looking for a senior-level software engineer to lead the
 * You can faithfully implement others’ designs and make good decisions about layout, typography, and color when needed (but you definitely don’t need to be an expert designer or have illustration skills!) 
 * You can build high quality user interaction with intuitive prompts, modals, clear buttons, etc, spotting and fixing UI problems as you go.
 * You could design straight to code if needed, and while your own design choices don’t have to look fancy or highly polished (authentic is often better!) the result should be crafted, professional and ready to put in front of millions of people.
-* You are versed in current product innovations, messaging apps, social media, UI/UX, and design.
-* You understand rapid prototyping and release, user adoption, and user testing, and you can navigate cost/benefits analysis of various technical solutions, languages, devops, and architecture-based decisions.
+* You are familiar with current product innovations, messaging apps, social media, UI/UX, and design.
+* You understand rapid prototyping and release, user adoption, and user testing, and you can navigate cost/benefits analysis of various technical solutions, languages, and architecture-based decisions.
 * You can think on your feet, be organized, optimize project plans and workload, manage/delegate the different pieces of projects and user growth.
 * You enjoy a fast-paced environment and can pivot quickly and as needed to make changes based on changing outside requirements.
 * You like brainstorming ways to simplify the scope of a project to fit a given timeline (e.g. if the team asks for something crazy/hard, maybe there’s a much easier way to achieve a similar result) and you’re always looking for those kinds of lovely simplifications.
@@ -37,29 +37,32 @@ Fight for the Future is looking for a senior-level software engineer to lead the
 
 ## WHAT YOU'LL BE BUILDING:
 
-* Flawless HTML/CSS and clear, modern design and custom tools that send powerful messages out into the world & apply political pressure in the right places at the right time.
+* Flawless HTML/CSS paired with clear, modern design to send powerful messages out into the world & apply political pressure in the right places at the right time.
 * Modern JavaScript (ES6), build tools (Babel, Gulp, Grunt), and possibly a framework-driven interactive site (React, Angular). These tools are changing rapidly, so learning on the job is encouraged.
 * Solutions that achieve our goals by leveraging and customizing existing services (CRM, publishing tools, etc).
 * Internet wide infrastructure for large, decentralized actions across a coalition of websites.
 
 ## THINGS THAT YOU MIGHT LIKE ABOUT THIS JOB:
 
-* It’s telecommute work with a 100% remote team
+* It’s telecommute work with a 100% remote team.
 * We do retreats and in-person sprints too, because it’s nice to see people!
-* The work will be highly varied, like freelancing on a variety of projects
+* The work will be highly varied, like freelancing on a variety of projects.
 * You can choose the framework and tools we use to get stuff done, and use whatever you’re most excited about.
-* We can give you a contractor budget to reduce/eliminate mundane work. Responsibility for the final result is what matters.
 * Be a hero to many. The “yeah, I made that” small talk in bars is fun.
 
 ## REQUIREMENTS:
 
-* Client-side javascript skills
-* Experience in HTML/CSS with awareness of common cross-browser problems
+* Experience in HTML/CSS with awareness of common cross-browser problems.
+* An understanding of client-side JavaScript - AJAX, handling events, DOM manipulation and cross-browser compatibility.
 * Proven ability to do clean and classy design when needed.
-* Ability to make good UI/UX decisions and spot problems
+* Ability to make good UI/UX decisions and spot problems.
 
 ## BONUS POINTS FOR:
 
+* Familiarity with static site generators - many of our campaign microsites are built on Jekyll.
+* CSS3 features like keyframe animations
+* Experience writing modern JavaScript (ES6) and using build tools like Babel, Gulp or Grunt. These tools are changing rapidly, so again, learning on the job is encouraged.
+* Experience building front-end applications with a modern framework like React or Angular.
 * Having successfully launched a great product working in a small team
 * Ability to build and manage teams
 * Strong participation in communities like Reddit or HN
