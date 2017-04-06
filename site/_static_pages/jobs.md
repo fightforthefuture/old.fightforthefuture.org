@@ -28,19 +28,19 @@ Fight for the Future is looking for a software engineer to lead the front-end de
 * You can build high quality user interaction with intuitive prompts, modals, clear buttons, etc, spotting and fixing UI problems as you go.
 * You could design straight to code if needed, and while your own design choices don’t have to look fancy or highly polished (authentic is often better!) the result should be crafted, professional and ready to put in front of millions of people.
 * You are familiar with current product innovations, messaging apps, social media, UI/UX, and design.
-* You understand rapid prototyping and release, user adoption, and user testing, and you can navigate cost/benefits analysis of various technical solutions, languages, and architecture-based decisions.
-* You can think on your feet, be organized, optimize project plans and workload, manage/delegate the different pieces of projects and user growth.
-* You enjoy a fast-paced environment and can pivot quickly and as needed to make changes based on changing outside requirements.
+* You understand rapid prototyping and release, user adoption, and A/B testing, and you can navigate cost/benefits analysis of various technical solutions, languages, and architecture-based decisions.
+* You can think on your feet, be organized, optimize project plans and workload, and manage/delegate the different pieces of projects.
+* You enjoy a fast-paced environment and can pivot quickly as needed to make changes based on changing outside requirements.
 * You like brainstorming ways to simplify the scope of a project to fit a given timeline (e.g. if the team asks for something crazy/hard, maybe there’s a much easier way to achieve a similar result) and you’re always looking for those kinds of lovely simplifications.
 * You’re happy doing some self-QA and tweaking until a user experience works reliably and feels nice.
 * You’re good at thinking into and around a problem, exposing corner cases and potential issues to non-technical collaborators. 
 
 ## WHAT YOU'LL BE BUILDING:
 
-* Flawless HTML/CSS paired with clear, modern design to send powerful messages out into the world & apply political pressure in the right places at the right time.
+* Flawless HTML/CSS paired with clear, modern design, and intuitive UX to send powerful messages out into the world & apply political pressure in the right places at the right time.
 * Modern JavaScript (ES6), build tools (Babel, Gulp, Grunt), and possibly a framework-driven interactive site (React, Angular). These tools are changing rapidly, so learning on the job is encouraged.
 * Solutions that achieve our goals by leveraging and customizing existing services (CRM, publishing tools, etc).
-* Internet wide infrastructure for large, decentralized actions across a coalition of websites.
+* Innovative or unconventional tools to effectively mobilize a large audience.
 
 ## THINGS THAT YOU MIGHT LIKE ABOUT THIS JOB:
 
@@ -52,15 +52,15 @@ Fight for the Future is looking for a software engineer to lead the front-end de
 
 ## REQUIREMENTS:
 
-* Experience in HTML/CSS with awareness of common cross-browser problems.
+* Experience writing modern HTML/CSS with responsive design techniques and awareness of common cross-browser problems.
 * An understanding of client-side JavaScript - AJAX, handling events, DOM manipulation and cross-browser compatibility.
+* Knowledge of progressive enhancement strategies and ability to create simple sites that can function with JavaScript disabled or seamlessly integrate subtle CSS transitions for a refined user experience.
 * Proven ability to do clean and classy design when needed.
 * Ability to make good UI/UX decisions and spot problems.
 
 ## BONUS POINTS FOR:
 
 * Familiarity with static site generators - many of our campaign microsites are built on Jekyll.
-* CSS3 features like keyframe animations
 * Experience writing modern JavaScript (ES6) and using build tools like Babel, Gulp or Grunt. These tools are changing rapidly, so again, learning on the job is encouraged.
 * Experience building front-end applications with a modern framework like React or Angular.
 * Having successfully launched a great product working in a small team
@@ -76,7 +76,7 @@ Fight for the Future is looking for a software engineer to lead the front-end de
 * Having been a leader—of anything—especially online, especially tech-related
 * Experience with activism, resistance, creative and positive troublemaking, or any kind of fiery provocative work in any area.
 
-To apply, fill out the application [here](https://docs.google.com/forms/d/e/1FAIpQLSd2SYlDGFnDblUmqBh6qpyVnaSH-6F80B8DroMEUkFU3fuDtg/viewform). You'll need to include a link to your resume and links to your public repos, sample code (as many examples as possible) and good examples of UI, design, and/or HTML/CSS work.
+To apply, fill out the application [here](https://docs.google.com/forms/d/e/1FAIpQLSd2SYlDGFnDblUmqBh6qpyVnaSH-6F80B8DroMEUkFU3fuDtg/viewform). You'll need to include links to your resume and any public repos, sample code (as many examples as possible) and good examples of HTML/CSS work and UI/UX or design.
 
 
 
