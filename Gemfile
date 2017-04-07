@@ -1,7 +1,7 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-ruby "2.3.1"
+ruby '>= 2.3.3'
 
-gem 'github-pages', '>=80'
-gem 'travis', '>=1.8.2'
-gem 'json', '~> 1.8', '>= 1.8.3'
+gem 'github-pages', '>=133'
+gem 'travis', '>=1.8.8'
+gem 'json', '>= 1.8.6'

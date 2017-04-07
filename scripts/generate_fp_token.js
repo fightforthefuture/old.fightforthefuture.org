@@ -1,9 +1,13 @@
+#!/usr/bin/env node
+
+'use strict';
+
 /**
  *  ----------------------------------------------------------------------------
  *  Generates a Free Progress domain security token!
  *  ----------------------------------------------------------------------------
  *  This is a build script that generates a token to whitelist this site for
- *  Free Progress. It generates a file public/freeprogress.txt based like so:
+ *  Free Progress. It generates a file freeprogress.txt based like so:
  *
  *  freeprogress.txt = SHA256( [FP_DOMAIN_SECURITY_TOKEN] + [CNAME] )
  *
@@ -12,18 +16,26 @@
  *
  */
 
-var fs    = require('fs'),
-    hash  = require('sha.js');
-var token = process.env.FP_DOMAIN_SECURITY_TOKEN.trim();
+const fs = require('fs');
+const hash = require('crypto').createHash('sha256');
+const token = process.env.FP_DOMAIN_SECURITY_TOKEN;
 
-try {
-  var cname = fs.readFileSync('CNAME', 'utf8').trim().toLowerCase();
-} catch(err) {
-  console.log('No CNAME for this project. Nothing to do here.');
+if (!token) {
+  console.log('FP_DOMAIN_SECURITY_TOKEN environment variable is not set.');
   process.exit(0);
 }
-var fpkey = hash('sha256').update(token + cname, 'utf8').digest('hex');
 
-fs.writeFile('public/freeprogress.txt', fpkey);
+fs.readFile('CNAME', 'utf8', (err, data) => {
+  if (err) {
+    console.log('No CNAME for this project. Nothing to do here.');
+    process.exit(0);
+  }
 
-console.log('Wrote Free Progress domain security token to /public! lol');
+  const cname = data.trim().toLowerCase();
+  const fpKey = hash.update(token + cname, 'utf8').digest('hex');
+  const fpPath = 'freeprogress.txt';
+
+  fs.writeFile(fpPath, fpKey, err => {
+    console.log('Wrote Free Progress domain security token to freeprogress.txt');
+  });
+});

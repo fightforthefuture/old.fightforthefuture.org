@@ -15,8 +15,7 @@
     "Lizzy Jean"
   ],
   "engines": {
-    "node": "^5",
-    "npm": "^3.4"
+    "node": "^6"
   },
   "private": true,
   "repo": "fightforthefuture/fightforthefuture.github.io",
@@ -34,33 +33,32 @@
     "postreview": "node scripts/review-apps"
   },
   "dependencies": {
-    "autoprefixer": "^6.1.0",
-    "aws-sdk": "^2.3.19",
-    "cssnano": "^3.7",
-    "express": "^4.13.4",
-    "grunt": "^0",
+    "autoprefixer": "^6.7.7",
+    "aws-sdk": "^2.39.0",
+    "cssnano": "^3.10.0",
+    "express": "^4.15.2",
+    "grunt": "^1.0.1",
     "grunt-cdnify": "^1.0.2",
     "grunt-cli": "^1.2.0",
-    "grunt-concurrent": "^2.1.0",
+    "grunt-concurrent": "^2.3.1",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-less": "^1.2.0",
-    "grunt-contrib-uglify": "^2.0.0",
-    "grunt-execute": "^0.2.2",
-    "grunt-jekyll": "^0.4.2",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-uglify": "^2.3.0",
+    "grunt-execute": "taoeffect/grunt-execute#c0d49ef2d63800ffc4748c2ac2db40ecd6dd3793",
+    "grunt-jekyll": "^0.4.6",
     "grunt-postcss": "^0.8.0",
     "habitat": "^3.1.2",
     "jit-grunt": "^0.10.0",
-    "js-yaml": "^3.6.1",
-    "request": "^2.69.0",
-    "sha.js": "^2.4.5",
-    "smoothscroll": "^0.2.2",
-    "time-grunt": "^1.1.0",
+    "js-yaml": "^3.8.3",
+    "request": "^2.81.0",
+    "smoothscroll": "^0.3.0",
+    "time-grunt": "^1.4.0",
     "uglify-save-license": "^0.4.1"
   },
   "devDependencies": {
-    "grunt-contrib-connect": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
     "grunt-contrib-watch": "^1.0.0"
   }
 }

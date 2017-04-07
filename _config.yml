@@ -941,11 +941,7 @@ baseurl: ''
 
 keep_files: ['img', 'css', 'js']
 
-highlighter: rouge
-
-markdown: kramdown
 kramdown:
-  input: GFM
   smart_quotes: ["apos", "apos", "quot", "quot"]
 
 gems:
