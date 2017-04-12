@@ -282,6 +282,8 @@ prose:
               value: 'other'
             - name: 'ateams'
               value: 'ateams'
+            - name: 'townhall'
+              value: 'townhall'
       - name: 'search_title'
         field:
           element: 'text'
