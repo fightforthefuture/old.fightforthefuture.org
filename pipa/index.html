@@ -1,0 +1,426 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>PROTECT IP Act Breaks the Internet</title>
+
+
+  <style>
+    /* CSS Document */
+
+    body{
+      font-family:Arial, Helvetica, sans-serif;
+      font-size:12px;
+      color:#717073;
+      text-align:left;
+      background:url(https://s3.fightforthefuture.org/img/legacy/bg.gif?1492021801140) repeat-x top left #F4F6F8;
+    }
+    *{
+      margin:0;
+      padding:0;
+    }
+    ul, li, ol{
+      padding:0;
+      margin:0;
+      list-style:none;
+    }
+    img{
+      border:none;
+      padding:0;
+      margin:0;
+    }
+    .cls{
+      clear:both;
+    }
+    a{
+      outline:none;
+      color:#55A4F2;
+      text-decoration:none;
+    }
+    a:hover{
+      color:#55A4F2;
+      text-decoration:underline;
+    }
+    .hide,h1 b,h2 b,h3 b,h5 b,a i{
+      position: absolute;
+      left: -9999px;
+    }
+
+    .wrap{
+      width:802px;
+      margin:0 auto;
+      padding:0 0 0 0;
+      overflow:hidden;
+    }
+    .header{
+      width:802px;
+      height:46px;
+      overflow:hidden;
+    }
+    .logo{
+      width:158px;
+      float:left;
+      padding:11px 0 0 0;
+    }
+    .headerright{
+      width:615px;
+      float:right;
+      color:#666666;
+      padding:16px 0 0 0;
+    }
+    .headerright p{
+      font-size:13px;
+    }
+    .maincontent{
+      width:802px;
+      padding:20px 0 0 0;
+      overflow:hidden;
+    }
+
+    span .logoc{
+      margin-top: 5px;
+      float: left;
+    }
+
+    span .logoc img{
+      margin-top: 5px;
+      float: left;
+    }
+
+
+    #made{
+      width:802px;
+      height: 60px;
+      overflow:hidden;
+      text-align: center;
+      float: left;
+    }
+
+    #made p{
+      font-size: 20px;
+    }
+
+    #made img{
+      margin-left: 225px;
+      overflow:hidden;
+      text-align: center;
+      float: left;
+    }
+
+    .videotitle{
+      width:802px;
+      padding:0 0 15px 0;
+      overflow:hidden;
+    }
+    .videotitle h1{
+      font-size:24px;
+      color:#333333;
+      float:left;
+    }
+    .sociallink{
+      float:right;
+      padding:10px 8px 0 0;
+      margin-top: -10px;
+    }
+    .sociallink img{
+      float:left;
+      margin:0 4px 0 0;
+    }
+    .videoholder{
+      width:802px;
+      padding:0 0 20px 0;
+      overflow:hidden;
+      margin-bottom: 10px;
+    }
+    .bottomarea{
+      width:802px;
+      padding:0 0 0 0;
+      overflow:hidden;
+    }
+    .boxtop{
+      width:802px;
+      height:15px;
+      background:url(https://s3.fightforthefuture.org/img/legacy/boxtopbg.gif?1492021801141) no-repeat;
+    }
+    .boxbottom{
+      width:802px;
+      height:15px;
+      background:url(https://s3.fightforthefuture.org/img/legacy/boxbottombg.gif?1492021801141) no-repeat;
+    }
+    .boxinfo{
+      width:802px;
+      padding:0 0 0 0;
+      background:url(https://s3.fightforthefuture.org/img/legacy/boxinfobg.gif?1492021801141) repeat-y;
+      overflow:hidden;
+    }
+    .boxcontainer{
+      width:782px;
+      padding:10px 10px 0 10px;
+      overflow:hidden;
+      min-height:340px;
+      color:#333333;
+      background:url(https://s3.fightforthefuture.org/img/legacy/boxcontainerbg.gif?1492021801141) no-repeat top left;
+    }
+    .boxcontainer h2{
+      font-size:31px;
+      padding:0 0 10px 0;
+    }
+    .boxcontainer p{
+      font-size:13px;
+      padding:0 0 10px 0;
+      line-height:20px;
+    }
+    .formarea{
+      width:782px;
+      padding:15px 0 25px 0;
+      overflow:hidden;
+    }
+    .formarea input, select{
+      width:153px;
+      border:none;
+      padding:10px 0 10px 12px;
+      margin:0 0 0 10px;
+      float:left;
+      color:#999999;
+      font-size:17px;
+      font-weight:bold;
+      background:url(https://s3.fightforthefuture.org/img/legacy/input01.png?1492021801141) no-repeat;
+    }
+
+    .formarea select {height: 40px;}
+
+    .formarea input {
+      height:19px;
+    }
+
+    .formarea input.email{
+      width:170px;
+      background:url(https://s3.fightforthefuture.org/img/legacy/input02.png?1492021801141) no-repeat;
+    }
+    .formarea input.address{
+      width:159px;
+      background:url(https://s3.fightforthefuture.org/img/legacy/input03.png?1492021801141) no-repeat;
+    }
+    .formarea input.zip{
+      width:64px;
+      height:19px;
+      padding:10px 0;
+      text-align:center;
+      background:url(https://s3.fightforthefuture.org/img/legacy/input04.png?1492021801141) no-repeat;
+    }
+    .formarea input.send{
+      width:141px;
+      height:38px;
+      padding:0;
+      margin:0 0 0 11px;
+      cursor:pointer;
+      background:none;
+    }
+    .whitebox{
+      width:766px;
+      height:131px;
+      background:url(https://s3.fightforthefuture.org/img/legacy/textarebg.png?1492021801141) no-repeat;
+      padding:10px 8px 0 7px;
+      color:#696969;
+      overflow: auto;
+    }
+    .whitebox p{
+      padding:0 0 5px 0;
+    }
+    .footer{
+      width:802px;
+      text-align:center;
+      padding:50px 0 10px 0;
+      overflow:hidden;
+      color:#949494;
+      font-size:11px;
+    }
+    .footer p{
+      color:#949494;
+      font-size:11px;
+    }
+
+
+
+
+
+
+  </style>
+
+
+
+  <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+  <script src="https://s3.fightforthefuture.org//ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js?1492021801134" type="text/javascript"></script>
+
+  <meta property="og:title" content="PROTECT IP Act Breaks the Internet" />
+  <meta property="og:description" content="Please sign this petition to stop a bill that's so crazy that it could shut down Twitter and Youtube!" />
+  <meta property="og:video" content="http://vimeo.com/moogaloop.swf?clip_id=31100268&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=1&amp;loop=1" />
+  <meta property="og:video:height" content="360" />
+  <meta property="og:video:width" content="640" />
+  <meta property="og:video:type" content="application/x-shockwave-flash" />
+  <meta property="og:image" content="https://www.fightforthefuture.org/img/legacy/pipa-fb-share.png" />
+  <meta property="og:url" content="https://www.fightforthefuture.org/pipa/" />
+  <meta property="fb:admins" content="stickwithjosh"/>
+  <style>
+    #zip {
+      width: 64px;
+      height: 19px;
+      padding: 10px 0;
+      text-align: center;
+      background: url(https://s3.fightforthefuture.org/img/legacy/input04.png?1492021801141) no-repeat;
+    }
+
+    .headerright {text-align: right;}
+
+    textarea.whitebox {border: 0; margin-top: 20px; font-size: 14px;}
+
+    .vjs-no-video {
+      text-align: center;
+    }
+  </style>
+
+
+</head>
+<body>
+<div id="fight_header" style="background: #252525 url('//americancensorship.heroku.com/images/fftf-header.png') center; height: 50px; cursor: pointer;" onclick="location.href = 'https://www.fightforthefuture.org/';"></div>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin: 0 auto; width: 100px; padding-left: 400px; position: absoulte; margin-top: -40px;">
+  <input type="hidden" name="cmd" value="_s-xclick">
+  <input type="hidden" name="hosted_button_id" value="2JSZTBQH9QBYY">
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: 96px; height: auto; border: 0;">
+  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=288047111220175";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-like" data-href="https://www.fightforthefuture.org/pipa/" data-send="true" data-layout="box_count" data-width="450" data-show-faces="true" style="position: absolute; top: 95px; left: 10px;"></div>
+<div class="wrap">
+  <div class="header" style="margin-top: 15px;">
+    <div class="logo"><a href="https://www.fightforthefuture.org"><img src="https://s3.fightforthefuture.org/img/legacy/logo.png?1492021801124" alt="Fight For The Future" /></a></div>
+<!--
+    <div class="headerright">
+      <p>Are you an artist or musician? Congress especially needs to hear from you. <a href="/pipa/artists">Sign our artists&apos; letter</a>.</p>
+    </div>
+-->
+  </div>
+  <div class="maincontent">
+    <div class="videotitle">
+      <h1>PROTECT IP / SOPA Breaks the Internet</h1>
+      <div class="sociallink">
+        <a href="http://twitter.com/share?original_referer=http%3A%2F%2Ffightforthefuture.org%2Fpipa%2F&source=tweetbutton&text=Please%20sign%20this%20petition%20to%20stop%20a%20bill%20that's%20so%20crazy%20that%20it%20could%20shut%20down%20Twitter%20and%20Youtube%3A%20"><img src="https://s3.fightforthefuture.org/img/legacy/norm_tw.png?1492021801124" alt="Share on Twitter" /></a>
+        <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Ffightforthefuture.org%2Fpipa%2F"><img src="https://s3.fightforthefuture.org/img/legacy/norm_fb.png?1492021801124" alt="Share on FB" /></a>
+      </div>
+    </div>
+    <div class="videoholder">
+      <iframe src="//player.vimeo.com/video/31100268?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1" width="802" height="448" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+
+
+
+
+
+      <h3 style="margin-bottom: 10px; margin-top: 20px; float:left;"><a href="#" target="_new" id="embed">Embed this video</a></h3>
+
+      <script>
+        document.getElementById('embed').addEventListener('click', function (e) {
+          e.preventDefault();
+          document.getElementById('embed-code').style.maxHeight = '1000px';
+        })
+      </script>
+      <h3 style="margin-bottom: 10px; margin-top: 20px; float:left; margin-left: 190px;">Made in partnership with: </h3>
+
+      <h3 style="margin-bottom: 10px; margin-top: 20px; float:right;"><a href="http://www.universalsubtitles.org/en/videos/5A31ep7v6HFd/info/PROTECT%20IP%20Act%20Breaks%20The%20Internet/">Captions and Translations</a></h3>
+
+      <textarea name="embed" id="embed-code" cols="30" rows="10" style="max-height: 0; width: 805px; transition: max-height 300ms">
+<iframe src="https://player.vimeo.com/video/31100268" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/31100268">PROTECT IP / SOPA Breaks The Internet</a> from <a href="https://vimeo.com/fightforthefuture">Center For Rights</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+      </textarea>
+
+      <div id="made">
+        <a href="http://www.thecenterforrights.org/"><img src="https://s3.fightforthefuture.org/img/legacy/cfr.png?1492021801124" /></a>
+
+      </div>
+
+    </div>
+    <div class="bottomarea">
+      <div class="boxtop"><!----></div>
+      <div class="boxinfo">
+        <div class="boxcontainer">
+          <div id="us">
+            <h2>Congress needs to hear from you, or this bill passes</h2>
+
+            <form class="formarea" action="http://nt.salsalabs.com/save" method="post">
+
+              <input type="hidden" name="object" value="supporter"/>
+              <input type="hidden" name="ip" id="signup_ip" />
+              <input type="hidden" name="user_agent" id="user_agent" />
+              <input type="hidden" name="email_trigger_KEYS" value="7" />
+              <input type="hidden" name="organization_KEY" value="-501"/>
+              <input type="hidden" name="redirect" value="https://www.fightforthefuture.org/confirm">
+              <input type="hidden" name="Receive_Email" value="10">
+              <input type="email" class="text" size="48" id="email" name="Email" type="text" value="Your Email"/>
+
+              <input size="16" id="firstname" name="First_Name" type="text" type="text" value="Your Name"/>
+
+              <input class="default-text" id="address1" name="Street" type="text" title="Address" type="text" value="Your Address"/>
+
+              <input class="default-text" id="zip" name="Zip" type="text" title="Zip" type="text" value="Zip" class="zip" id="zip"/>
+
+              <input type="image" src="/img/legacy/send.png" class="send" />
+          </div><!-- close #us -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<textarea class="whitebox" style="margin-bottom: 30px;">
+I am writing to you as a voter in your district. I urge you to vote "no" on cloture for S. 968, the PROTECT IP Act, on Jan. 24th. The PROTECT IP Act is dangerous, ineffective, and short-sighted. It does not deserve floor consideration.  I urge my representative to vote "no" on SOPA, the corresponding House bill.
+
+Over coming days you'll be hearing from the many businesses, advocacy organizations, and ordinary Americans who oppose this legislation because of the myriad ways in which it will stifle free speech and innovation.  We hope you'll take our concerns to heart and oppose this legislation by voting "no" on cloture.
+</textarea>
+
+          <p>The video above discusses the Senate version of the House's Stop Online Piracy Act (SOPA). In the Senate the bill is called the PROTECT IP Act (PIPA). SOPA has gotten more attention than PIPA because it was moving faster in the legislative process. But PIPA is just as dangerous, and now it is moving faster.</p>
+
+          <p>PIPA would give the government new powers to block Americans' access websites that corporations don't like. The bill lets corporations and the US government censor entire websites and cut sites off from advertising, payments and donations.</p>
+
+          <p>This legislation will stifle free speech and innovation, and even threaten popular web services like Twitter, YouTube, and Facebook.</p>
+
+          <p>The bill is scheduled for a test vote in the Senate on Jan. 24th: We need to act now to let our lawmakers know just how terrible it is. Will you fill out the form above to ask your lawmakers to oppose the legislation and support a filibuster?</p>
+
+        </div>
+      </div>
+      <div class="boxbottom"><!----></div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Fight for the Future &copy; 2011. All rights reserved. Including *your* right to remix this however you want! | <a href="https://www.fightforthefuture.org/privacy/">View our privacy policy</a></p>
+  </div>
+</div>
+
+<script type="application/javascript">
+  function getip(json){
+//	      alert(json.ip); // alerts the ip address
+    $('#signup_ip').val(json.ip);
+  }
+
+  $("#user_agent").val(navigator.userAgent);
+</script>
+
+<script type="application/javascript" src="https://s3.fightforthefuture.org//fftf-ips.heroku.com/?callback=getip?1492021801134"></script>
+
+</body>
+</html>
+

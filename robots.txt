@@ -1,0 +1,10 @@
+User-agent: *
+
+Allow: *
+
+Disallow: /404
+Disallow: /subscription
+Disallow: /demo/*
+
+Sitemap: https://www.fightforthefuture.org/sitemap.xml
+

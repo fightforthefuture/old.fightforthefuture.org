@@ -1,0 +1,2139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <title>Copyright is Broken. FIX IT NOW!</title>
+  <link href='https://s3.fightforthefuture.org//fonts.googleapis.com/css?family=Montserrat|Oleo+Script|Rambla:400,700?1492021772610' rel='stylesheet' type='text/css'>
+  <style>
+    span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      outline: 0;
+      font-weight: inherit;
+      font-style: inherit;
+      font-size: 100%;
+      font-family: inherit;
+      vertical-align: baseline;
+    }
+    /* remember to define focus styles! */
+    :focus {
+      outline: 0;
+    }
+    body {
+      line-height: 1;
+      color: black;
+      background: white;
+    }
+    ol, ul {
+      list-style: none;
+    }
+    /* tables still need 'cellspacing="0"' in the markup */
+    table {
+      border-collapse: separate;
+      border-spacing: 0;
+    }
+    caption, th, td {
+      text-align: left;
+      font-weight: normal;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: "";
+    }
+    blockquote, q {
+      quotes: "" "";
+    }
+
+    strong {font-weight: bold;}
+    em {font-style: italic;}
+
+
+    /*FONTS*/
+    @font-face {
+      font-family: 'BevanRegular';
+      src: url('https://s3.fightforthefuture.org/webfonts/Bevan-webfont.eot?1492021772627');
+      src: url('https://s3.fightforthefuture.org/webfonts/Bevan-webfont.eot?#iefix?1492021772627') format('embedded-opentype'),
+      url('https://s3.fightforthefuture.org/webfonts/Bevan-webfont.woff?1492021772627') format('woff'),
+      url('https://s3.fightforthefuture.org/webfonts/Bevan-webfont.ttf?1492021772627') format('truetype'),
+      url('https://s3.fightforthefuture.org/webfonts/Bevan-webfont.svg#BevanRegular?1492021772627') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+
+    @font-face {
+      font-family: 'BebasNeueRegular';
+      src: url('https://s3.fightforthefuture.org/webfonts/BebasNeue-webfont.eot?1492021772628');
+      src: url('https://s3.fightforthefuture.org/webfonts/BebasNeue-webfont.eot?#iefix?1492021772628') format('embedded-opentype'),
+      url('https://s3.fightforthefuture.org/webfonts/BebasNeue-webfont.woff?1492021772628') format('woff'),
+      url('https://s3.fightforthefuture.org/webfonts/BebasNeue-webfont.ttf?1492021772628') format('truetype'),
+      url('https://s3.fightforthefuture.org/webfonts/BebasNeue-webfont.svg#BebasNeueRegular?1492021772628') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    .oleo {font-family: 'Oleo Script', cursive;}
+    .palatino {font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;}
+    .montserrat {font-family: 'Montserrat', sans-serif;}
+    .bebas {font-family: 'BebasNeueRegular';}
+
+    body {
+      background: url('https://s3.fightforthefuture.org/images/new/diag-striped.png?1492021772628');
+      background-color: #202020;
+      color: #fff;
+
+      margin: 0 auto;
+      font-family: "helvetica neue", verdana, sans-serif;
+      font-size: 14px;
+      line-height: 1.5;
+
+    }
+
+    a:visited{
+      text-decoration: none;
+    }
+
+    body.white {background: white;}
+
+    .wrap {
+      width: 940px;
+      margin: 0 auto;
+    }
+
+    header .wrap {
+      width: auto;
+    }
+
+    form.donateask {
+      width: 100%;
+      background: #000;
+      overflow: auto;
+      padding: 8px 0px;
+      border-bottom: 5px solid #f1453b;
+      position: fixed;
+      z-index: 98;
+    }
+
+    header fieldset {
+      float: right;
+      padding: 0 8px 0 0;
+      width: auto;
+    }
+
+
+    form.donateask input,
+    form.donateask button,
+    form.donateask p {display: inline-block; margin-left: 3px;}
+
+    form.donateask p {font-size: 20px;}
+    form.donateask input, button {
+      border: 0;
+      border-radius: 3px;
+      font-size: 21px;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      text-align: center;
+      width: 70px;
+
+      -moz-appearance: textfield;
+    }
+    form.donateask button {
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      border-radius: 3px; /* future proofing */
+      font-size: 22px;
+      background: #FBC337;
+      color: #332503;
+      padding-bottom: 3px;
+      width: auto;
+      -webkit-transition: background 0.5s ease;
+      -moz-transition: background 0.5s ease;
+      -o-transition: background 0.5s ease;
+      transition: background 0.5s ease;
+    }
+    form.donateask button:hover {background: #f69100; }
+
+    .storelink {width: 235px; float: left; margin-top: 4px}
+    .storelink a {padding-top: 5px; padding-bottom: 5px; border: 0; font-size: 21px; text-align: center; padding-left: 8px; padding-right: 8px; margin-left: 5px; }
+    .storelink a {
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      border-radius: 3px; /* future proofing */
+      font-size: 22px;
+      background: #FBC337;
+      color: #332503;
+      padding-bottom: 3px;
+      -webkit-transition: background 0.5s ease;
+      -moz-transition: background 0.5s ease;
+      -o-transition: background 0.5s ease;
+      transition: background 0.5s ease;
+      text-decoration: none;
+    }
+    .storelink a:hover {background: #f69100; }
+
+
+    @-moz-document url-prefix() {
+      form.donateask button {padding-bottom: 1px;}
+    }
+
+
+    .banner {
+      background: #163b69 url(https://s3.fightforthefuture.org/images/new/space.jpg?1492021772628) no-repeat center;
+      z-index: 1;
+      position: relative;
+      margin-top: -279px;
+      float: left;
+      width: 100%;
+      height: 277px;
+    }
+
+    .top_border {
+      background: url(https://s3.fightforthefuture.org/images/new/top_border.png?1492021772628) repeat-x;
+      height: 274px;
+      z-index: 2;
+      position: relative;
+      width: 100%;
+      float: left;
+      margin-top: 60px;
+      pointer-events: none;
+    }
+
+    @-moz-document url-prefix() {
+      .top_border {
+        margin-top: 58px;
+      }
+    }
+
+
+    h1 a {
+      position: relative;
+      z-index: 9999999;
+      cursor: pointer;
+      width: 943px;
+      height: 141px;
+      background: url(https://s3.fightforthefuture.org/images/new/h1_background.png?1492021772628) no-repeat;
+      text-indent: -9999px;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .banner h2 {
+      margin: 0 auto;
+      text-align: center;
+      font-size: 20px;
+      font-style: italic;
+      margin-top: 55px;
+      margin-bottom: 8px;
+      text-shadow: 2px 2px 2px rgba(0,0,0,.75);
+    }
+    .banner h2 a {
+      font-size: 100px;
+    }
+    .banner h2 a:hover {
+      color: #900;
+    }
+    .banner a {
+      color: white;
+      transition: color .5s linear;
+      -ms-transition: color .5s linear;
+      -webkit-transition: color .5s linear;
+      -moz-transition: color .5s linear;
+      -o-transition: color .5s linear;
+    }
+    .banner a:hover {
+      color: #900;
+    }
+    .banner a.status {
+      display: block;
+      text-align: center;
+
+    }
+
+    div.xoxo {
+      width: 49px;
+      height: 49px;
+      background: url(https://s3.fightforthefuture.org/images/new/heart.png?1492021772628) no-repeat;
+      text-indent: -9999px;
+      left: 0;
+      margin-top: 32px;
+      position: absolute;
+      margin-left: calc(50% - 24px);
+      position: fixed;
+      top: 0;
+      z-index: 99;
+    }
+
+    .superfluous {
+      height: 57px;
+      z-index: 2;
+      position: absolute;
+      width: 100%;
+      background: url(https://s3.fightforthefuture.org/images/new/weird_gradient.png?1492021772628) repeat-x;
+      margin-top: 332px;
+    }
+
+    @-moz-document url-prefix() {
+      .superfluous {
+        margin-top: 330px;
+      }
+    }
+
+    .signup p {font-size: 18px; margin-bottom: 20px;}
+    .signup {
+      width: 370px;
+      float: right;
+    }
+
+    .signup h3 {font-size: 30px; margin-bottom: 10px; line-height: 1.2}
+
+    .signup input, .signup button {border: 0; margin: 0; padding: 0; padding-top: 8px; padding-bottom: 9px;}
+
+
+    .signup input {width: 250px; font-size: 15px; padding-left: 10px;}
+    .signup button {
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      width: 105px;
+      float: right;
+      background: #14a767;
+      -webkit-transition: background 0.5s ease;
+      -moz-transition: background 0.5s ease;
+      -o-transition: background 0.5s ease;
+      transition: background 0.5s ease;
+      color: #fff;
+      font-size: 24px;
+      padding-bottom: 3px;
+      padding-top: 3px;}
+
+    @-moz-document url-prefix() {
+      .signup button {
+        padding-bottom: 1px;
+      }
+    }
+
+    .signup button:hover {background: #026600;}
+
+    .projects {clear: both; overflow: hidden; width: 980px;}
+
+    .projects h4 {
+      text-shadow: 2px 2px 3px rgba(0,0,0,.75);
+      font-size: 32px;
+    }
+
+    .projects h3 {
+      text-shadow: 2px 2px 3px rgba(0,0,0,.75);
+      font-size: 17px;
+      margin: 20px 0px 15px 0px;
+    }
+
+    .projects h3 a {
+      text-decoration: none;
+      color: #14A767;
+    }
+
+    .projects h3 a:hover {
+      text-decoration: underline;
+    }
+
+    .projects h3 a:visited {
+      color: #14A767;
+      text-decoration: none;
+    }
+
+
+
+
+    .project {
+      width: 226px;
+      height: 268px;
+      background: url(https://s3.fightforthefuture.org/images/new/project_background.png?1492021772628) no-repeat center;
+      float: left;
+      margin-right: 13px;
+      margin-bottom: 13px;
+      overflow: hidden;
+    }
+
+    .project:hover {background: url(https://s3.fightforthefuture.org/images/new/project_background_hover.png?1492021772628) no-repeat center;}
+
+
+    .project img {margin-left: 9px; margin-top: 10px;}
+    .project h5 {
+      font-weight: bold;
+      font-size: 12px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    .project .broken{
+      width: 226px;
+      font-weight: bold;
+      margin-bottom: 3px;
+      font-size: 13px;
+      text-align: center;
+      color: white;
+      float: left;
+      color: #b0b0b0;
+    }
+
+    .project span a {
+      width: 226px;
+      font-weight: bold;
+      margin-bottom: 3px;
+      font-size: 13px;
+      text-align: center;
+      color: white;
+      float: left;
+    }
+
+    .project span a:hover {
+      color: #fbc337;
+    }
+
+
+
+    .project h5, .project p {margin: 4px 15px; line-height: 1.3;}
+    .project p {font-size: 12px; margin-top: 5px; color: #b7b6b6; margin-bottom: 10px;}
+
+    .project a.act {
+      background: #fdc41d;
+      color: #332500;
+      text-align: center;
+      display: block;
+      border-radius: 3px;
+      font-size: 20px;
+      text-decoration: none;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .project .fire {
+      display: block;
+      width: 48px;
+      height: 48px;
+      text-indent: -4000px;
+      position: absolute;
+      margin-left: 185px;
+      margin-top: -12px;
+      background: url(https://s3.fightforthefuture.org/images/new/project/fire.png?1492021772628) no-repeat;
+    }
+    a.btn, button {cursor: pointer;}
+    a.btn {
+      background: url(https://s3.fightforthefuture.org/images/new/small_grey_left.png?1492021772628) no-repeat left;
+      padding-left: 10px;
+      height: 29px;
+      display: inline-block;
+      font-size: 13px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    a.btn span {
+      display: inline-block;
+      background: url(https://s3.fightforthefuture.org/images/new/small_grey_right.png?1492021772628) no-repeat right;
+      height: 29px;
+      padding-right: 25px;
+      padding-left: 15px;
+      padding-top: 9px;
+      margin-top: -5px;
+      font-size: 13px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    a.btn:hover {
+      background: #4f4f4f;
+      border-radius: 12px;
+    }
+
+    a.btn:hover span {
+      background: none;
+    }
+
+    .next a, .next p, .next {display: inline-block;}
+    .next {float: left; margin-top: 25px; margin-bottom: 40px;}
+    .lastnext {margin-left: 20px;}
+
+    .bordertwo {
+      width: 100%;
+      background: url(https://s3.fightforthefuture.org/images/new/logotwobackground.png?1492021772628) repeat-x;
+      clear: both;
+      height: 83px;
+      overflow: auto;
+      margin-top: 20px;
+      position: relative; z-index: 4;
+    }
+
+    .bordertwo h5 a {
+      margin: 0 auto;
+      width: 236px;
+      height: 40px;
+      text-indent: -999px;
+      background: url(https://s3.fightforthefuture.org/images/new/logotwo.png?1492021772628) no-repeat;
+      margin-top: 20px;
+      display: block;
+    }
+    .social {float: right; width: 160px; margin-bottom: 20px;}
+    .social li {display: inline-block;}
+    .social li.oleo {font-size: 19px; text-shadow: 2px 2px 2px rgba(0,0,0,.75); float: left; margin-right: 10px;}
+    .social li.thing a {width: 30px; height: 30px;text-indent: -9999px; display: inline-block; margin-left: 5px;}
+    .social li.tw a {background: url(https://s3.fightforthefuture.org/images/new/social_twitter.png?1492021772628) no-repeat; }
+    .social li.fb a {background: url(https://s3.fightforthefuture.org/images/new/social_facebook.png?1492021772628) no-repeat; text-indent: -9999px;}
+
+
+    .info .nav {float: left; margin-top: 12px; }
+    .info .nav li {display: inline-block; font-size: 14px;}
+
+    .info .nav li a {
+      display: inline-block;
+      width: 106px;
+      height: 30px;
+      padding-top: 10px;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .info .nav li:first-child {
+      margin-right: 18px;
+    }
+
+
+    .nav li.active a {position: relative; z-index: 6;background: url(https://s3.fightforthefuture.org/images/new/active_tab.png?1492021772628) no-repeat;}
+    .info .data {
+      clear: both;
+      float: left;
+      margin-top: -4px;
+      position: relative;
+      z-index: 5;
+      width: 932px;
+      height: 688px;
+      overflow: hidden;
+      /*    background: url(https://s3.fightforthefuture.org/images/new/data_background.png?1492021772628) no-repeat;
+      */	padding-left: 30px;
+      padding-top: 30px;
+      margin-bottom: 40px;
+    }
+
+    .info .data .person {
+      width: 410px;
+      height: 155px;
+      display: inline-block;
+      padding-right: 50px;
+    }
+
+    .person img {float: left; width: auto;}
+    .person .details {float: right; width: 280px;}
+    .person p {font-size: 13px; color: #b7b6b6;}
+    .person h4 {font-weight: bold; margin-bottom: 5px; margin-top: -5px;}
+    .person a {color: #fff;}
+    .copyleft {font-size: 13px; color: #a8a8a8; clear: both; padding-left:18px}
+    .copyleft a {font-weight: bold;color: #a8a8a8;}
+
+    .copyleft p.lastask {color: #fff; margin-top: 20px; margin-bottom: 50px;}
+    .copyleft p.lastask a {color: #14a767;}
+
+    footer {
+      background: url(https://s3.fightforthefuture.org/images/new/striped_background.png?1492021772628);
+      margin-bottom: 0;
+      padding-bottom: 50px;
+      margin-top: -50px;
+      padding-top: 100px;
+      z-index: 5;
+    }
+
+    body.white .banner h2 {display: none;}
+    body.white .banner h1 a {display: block; background: url(https://s3.fightforthefuture.org/images/new/h1_background_inner.png?1492021772628) no-repeat; width: 597px; height: 81px; margin-top: 50px;}
+    body.white .banner {height: 166px; margin-top: -168px;}
+    body.white .top_border {height: 166px; background: url(https://s3.fightforthefuture.org/images/new/top_border_inner.png?1492021772628) repeat-x}
+    body.white .superfluous {display: none;}
+    body.white .sidebar, body.white .content {color: #363636; margin-top: 50px;}
+    body.white .sidebar a, body.white .content a {color: #14a767;}
+    body.white .sidebar {width: 200px; padding-right: 75px; float: left;}
+    body.white .sidebar ul.nav {margin-bottom: 40px;}
+    body.white .sidebar ul.nav li {display: inline; font-size: 22px;}
+    body.white .sidebar ul.nav li a {text-decoration: none;}
+    body.white .sidebar ul.nav li a.current {color: #494949;}
+
+    body.white .sidebar ul.nav li a {color: #a0a0a0;}
+    body.white .sidebar ul.nav li a:hover {color: #14a767}
+    body.white .sidebar h3 {color: #363636; font-size: 30px;}
+
+    body.white .sidebar ul.notnav li {font-size: 18px; margin-bottom: 5px;}
+    body.white .content {width: 660px; float: right; color: #363636; margin-bottom: 50px;}
+    body.white .content p {margin-bottom: 10px;}
+    body.white .content h2, .content h3, .content h4, .content h5 {font-weight: bold;}
+    body.white .content h3 {font-size: 120%;}
+
+    body.white .content ol, body.white .content ol li {list-style-type: decimal;}
+    body.white .content ul, body.white .content ol {padding: 20px;}
+    body.white .content ul li {list-style-type: circle; margin-left: 20px;}
+    body.white .content li {margin-bottom: 5px;}
+    body.white .content h2 {font-size: 24px; font-weight: bold; margin-bottom: 40px;}
+    body.white .content h3 {font-size: 17px; font-weight: bold; margin-bottom: 20px; color:#444}
+    body.white .content blockquote {
+      display: inline-block;
+      padding: 20px;
+      margin-left: 20px;
+      font-family: Georgia;
+      font-size: 120%;
+    }
+
+
+    body.white .content ul.presslist {padding: 0;}
+    body.white .content ul.presslist li {
+      font-size: 16px;
+      list-style-type: none;
+      padding: 0;
+      margin-bottom: 20px;
+      background:url(https://s3.fightforthefuture.org/images/new/news.png?1492021772629) left top no-repeat;
+      list-style-position: inside;
+      color: #777;
+    }
+
+
+    ul.presslist li a {display: block; font-size: 18px; line-height:20px; margin-left:40px}
+
+
+
+
+    #homelinkage {
+      display: block;
+      position: absolute;
+      height: 270px;
+      text-indent: -99999px;
+      width: 800px;
+      margin: 0 auto;
+      top: 60px;
+      z-index: 200;
+      width: 100%;
+      cursor: pointer;
+    }
+
+    body.white #homelinkage {
+      height: 160px;
+    }
+
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    /* @group quotes */
+
+    .quotes_box{
+      display: block;
+      float: left;
+      width: 100%;
+      margin-bottom: 50px;
+    }
+
+    .quotes_box h4 {
+      text-shadow: 2px 2px 3px rgba(0,0,0,.75);
+      font-size: 32px;
+    }
+
+    .quotes_box h5{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14pt;
+      color: #7e7e7e;
+      margin-top: 20px;
+      text-decoration: none;
+    }
+
+    .quotes_box p{
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+      font-style: italic;
+      color: #fff; /* text color */
+      font-size: 11pt;
+      letter-spacing: 0.5px;
+      line-height: 19px;
+    }
+
+    .quote{
+      margin-right: 22px;
+      float: left;
+      width: 290px;
+    }
+
+    .line-separator{
+      display: block;
+      height:1px;
+      background:#3c3c3c;
+      margin-top: 180px;
+      margin-bottom: 25px;
+    }
+
+    .news_logo{
+      margin-top: 0;
+      width: auto;
+      margin-right: 20px;
+      float: left;
+    }
+
+    /* @end */
+
+    @media screen and (max-width: 650px) {
+      .gt {display: none;}
+
+      #homelinkage {display: block; width: 320px;}
+
+      .storelink {
+        width: auto;
+      }
+
+      .banner h2 a {
+        font-size: 40px;
+        color: white;
+
+      }
+
+      form.donateask {height: 40px;}
+      .donateask fieldset {
+        float: right;
+        margin-right: 0;
+        overflow: auto;
+        width: auto;
+      }
+      .donateask fieldset p {display: none;}
+      .donateask fieldset input,
+      .donateask fieldset button {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      .donateask fieldset input {
+        border-radius: 2px;
+        height: 24px;
+        margin-left: 0;
+        width: 45px;
+      }
+      .donateask fieldset button {
+        margin-right: 0;
+        width: auto;
+      }
+      .wrap {width: 320px;}
+      .social {float: none; padding: 10px; margin-bottom: 20px; text-align: center; width: 250px;}
+      .nav li.active a {background: none;}
+      .projects h4 {margin-bottom: 20px;}
+      .signup input {width: 180px; border-radius: 0;}
+      .copyleft, body.white .sidebar, body.white .content, .blurb, .signup, .info .data, .projects {background: none; width: 300px; padding: 0; margin: 0; height: auto; margin-bottom: 20px; padding-left: 10px; padding-right: 10px;}
+      body.white iframe {width: 300px; margin: 0; padding: 0;}
+      body.white .content {margin-top: 20px;}
+      .blurb {margin-top: 20px;}
+      .project {margin: 0 auto; float: none; margin-bottom: 20px; }
+      .info .data .person  {width: 300px; padding: 10px; padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px dotted #ccc; height: auto; overflow: auto;}
+      .person .details {float: right; width: 180px;}
+      body.white .banner h1 a, h1 a {
+        width: 320px;
+        height: 57px;
+        background: url(https://s3.fightforthefuture.org/images/new/tinylogo.png?1492021772629) no-repeat;
+        text-indent: -9999px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+      }
+      body.white .banner h1 a {margin-top: 50px;}
+      .socialize {display: none;!important}
+      .content img, .sidebar img {width: 100%; height: auto; margin: 0 auto;}
+      body.white .content h2 {font-size: 18px; line-height: 1.3; margin-bottom: 10px;}
+      .quote{margin-bottom: 40px; padding-left: 10px; padding-right: 10px;}
+      .news_logo{margin-top: 30px; float: none; text-align: center;}
+      .quotes_box{margin-bottom: 100px;}
+      .line-separator{margin-top: 465px;}
+      .quotes_box h5{margin-top: 10px;}
+      .quotes_box h4{padding-left: 10px;
+      }
+
+
+    }
+
+    /*404 Starts*/
+    .error{
+      width: 800px;
+      margin: 0px auto 0px auto;
+    }
+
+    .big_heart{
+      margin: 50px 0px 50px 0px;
+    }
+
+    .huge_title{
+      margin: 35px 0px -10px 0px;
+      font-size: 60pt;
+      letter-spacing: -5px;
+    }
+
+    .error_block{
+      margin: 30px 0px 40px 30px;
+    }
+
+    .float_l{
+      float: left;
+    }
+
+    div.clear,
+    .clear_l{
+      clear: left;
+    }
+
+    .error_txt{
+      font-size: 18pt;
+      width: 500px;
+    }
+
+    .error_txt a{
+      color: #14A767
+    }
+    /*404 Ends*/
+
+
+    body .wrap  p.us {color: #666; margin-top: -40px; margin-bottom: 30px; display: block;}
+
+
+    .donate{
+      margin-left: 20px;
+      float: right;
+      z-index: 510;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px; /* border radius */
+      -moz-background-clip: padding;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box; /* prevents bg color from leaking outside the border */
+      background-color: #3f8b00; /* layer fill content */
+      -moz-box-shadow: 0 2px 0 rgba(0,0,0,.4); /* drop shadow */
+      -webkit-box-shadow: 0 2px 0 rgba(0,0,0,.4); /* drop shadow */
+      box-shadow: 0 2px 0 rgba(0,0,0,.4); /* drop shadow */
+      background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI2NzYwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFhYTAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgIDwvbGluZWFyR3JhZGllbnQ+Cgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+); /* gradient overlay */
+      background-image: -moz-linear-gradient(bottom, #267600 0%, #1aa000 100%); /* gradient overlay */
+      background-image: -o-linear-gradient(bottom, #267600 0%, #1aa000 100%); /* gradient overlay */
+      background-image: -webkit-linear-gradient(bottom, #267600 0%, #1aa000 100%); /* gradient overlay */
+      background-image: linear-gradient(bottom, #267600 0%, #1aa000 100%); /* gradient overlay */
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all  0.5s ease;
+    }
+
+    .donate:hover{
+      z-index: 510;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px; /* border radius */
+      -moz-background-clip: padding;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box; /* prevents bg color from leaking outside the border */
+      background-color: #3f8b00; /* layer fill content */
+      -moz-box-shadow: 0 2px 0 rgba(0,0,0,.4); /* drop shadow */
+      -webkit-box-shadow: 0 2px 0 rgba(0,0,0,.4); /* drop shadow */
+      box-shadow: 0 2px 0 rgba(0,0,0,.4); /* drop shadow */
+      background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI2NzYwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzIyZDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgIDwvbGluZWFyR3JhZGllbnQ+Cgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+); /* gradient overlay */
+      background-image: -moz-linear-gradient(bottom, #267600 0%, #22d000 100%); /* gradient overlay */
+      background-image: -o-linear-gradient(bottom, #267600 0%, #22d000 100%); /* gradient overlay */
+      background-image: -webkit-linear-gradient(bottom, #267600 0%, #22d000 100%); /* gradient overlay */
+      background-image: linear-gradient(bottom, #267600 0%, #22d000 100%); /* gradient overlay */
+
+    }
+
+    a.donate{
+      position: relative;
+      text-decoration: none;
+      padding: 6px 14px;
+      color: #fff; /* text color */
+      font-family: "Helvetica";
+      font-size: 15px;
+      font-weight: bold;
+      text-shadow: 0 1px 0 rgba(0,0,0,.75); /* drop shadow */
+    }
+
+    .gt{
+      float: left;
+      z-index: 510;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px; /* border radius */
+      -moz-background-clip: padding;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box; /* prevents bg color from leaking outside the border */
+      background-color: #3f8b00; /* layer fill content */
+      -moz-box-shadow: 0 2px 0 rgba(0,0,0,.4); /* drop shadow */
+      -webkit-box-shadow: 0 2px 0 rgba(0,0,0,.4); /* drop shadow */
+      box-shadow: 0 2px 0 rgba(0,0,0,.4); /* drop shadow */
+      background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI5NTBlYyIgc3RvcC1vcGFjaXR5PSIxIi8+CjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAzNzhmYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgIDwvbGluZWFyR3JhZGllbnQ+Cgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+); /* gradient overlay */
+      background-image: -moz-linear-gradient(bottom, #2950ec 0%, #0378fb 100%); /* gradient overlay */
+      background-image: -o-linear-gradient(bottom, #2950ec 0%, #0378fb 100%); /* gradient overlay */
+      background-image: -webkit-linear-gradient(bottom, #2950ec 0%, #0378fb 100%); /* gradient overlay */
+      background-image: linear-gradient(bottom, #2950ec 0%, #0378fb 100%); /* gradient overlay */
+
+    }
+
+    .gt:hover{
+      z-index: 510;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px; /* border radius */
+      -moz-background-clip: padding;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box; /* prevents bg color from leaking outside the border */
+      background-color: #3f8b00; /* layer fill content */
+      -moz-box-shadow: 0 2px 0 rgba(0,0,0,.4); /* drop shadow */
+      -webkit-box-shadow: 0 2px 0 rgba(0,0,0,.4); /* drop shadow */
+      box-shadow: 0 2px 0 rgba(0,0,0,.4); /* drop shadow */
+      background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI5NTBlYyIgc3RvcC1vcGFjaXR5PSIxIi8+CjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI3OTZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgIDwvbGluZWFyR3JhZGllbnQ+Cgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+); /* gradient overlay */
+      background-image: -moz-linear-gradient(bottom, #2950ec 0%, #2796ff 100%); /* gradient overlay */
+      background-image: -o-linear-gradient(bottom, #2950ec 0%, #2796ff 100%); /* gradient overlay */
+      background-image: -webkit-linear-gradient(bottom, #2950ec 0%, #2796ff 100%); /* gradient overlay */
+      background-image: linear-gradient(bottom, #2950ec 0%, #2796ff 100%); /* gradient overlay */
+
+
+    }
+
+    a.gt{
+      position: relative;
+
+      text-decoration: none;
+      padding: 6px 14px;
+      color: #fff; /* text color */
+      font-family: "Helvetica";
+      font-size: 15px;
+      font-weight: bold;
+      text-shadow: 0 1px 0 rgba(0,0,0,.75); /* drop shadow */
+      z-index:501;
+    }
+
+    #top{
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      z-index: 500;
+      background: url('http://www.thecenterforrights.org/images/top_tile.gif') repeat-x;
+      height: 60px;
+    }
+
+    #top span {
+      margin: 0 auto;
+      width: 900px;
+      overflow: auto;
+      display: block;
+      margin-top: 1px;
+    }
+
+
+    .press{
+      margin-bottom: 20px;
+    }
+
+    .aboutpic{
+      float: left;
+      margin-right: 20px;
+    }
+
+    .teammember{
+      margin-top:17px;
+      margin-bottom:30px;
+      float:left;
+    }
+
+    body.white .teammember h3{
+      font-size: 19px;
+      font-weight: bold;
+      margin-bottom: 16px;
+      color: #444;
+      margin-top:5px;
+    }
+
+
+    body.white .teammember h4{
+      font-size: 13px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #9aa2a2;
+    }
+
+    .teamdevider{
+      width:650px;
+      height:1px;
+      background-color:#dfdfdf;
+      margin-top:5px;
+      margin-bottom:5px;
+      float:left;
+    }
+
+    input.placeholder {
+      color: #999;
+    }
+  </style>
+
+  <style>
+
+    body {
+      font-size: 62.5%;
+      color: #000000;
+      background-image: url('https://s3.fightforthefuture.org/img/legacy/b2.png?1492021772629');
+      background-repeat: repeat;
+    }
+
+    ::selection {
+      background: #2d3d4c; /* Safari */
+      color: #fff;
+    }
+    ::-moz-selection {
+      background: #2d3d4c; /* Firefox */
+      color: #fff;
+    }
+
+    strong {
+      font-weight: bold;
+    }
+
+    .white-text{
+      color: #ffffff;
+    }
+
+    .blue-text{
+      color: #97e8d7;
+    }
+
+    .blue-text-line{
+      color: #97e8d7;
+      font-weight: bold;
+    }
+
+    h3.also_important  a.red-text, .red-text{
+      color: #d94d36;
+    }
+
+    h1{
+      font-family: 'Rambla', Arial;
+      font-size: 22px;
+      color: #fff;
+      text-align: center;
+      line-height: 27px;
+      font-weight: normal;
+    }
+
+    #container {
+      width: auto;
+      margin: 0 auto;
+      text-align: left;
+      position: relative;
+      padding-top: 50px;
+    }
+
+    #header{
+      width: 100%;
+      height: 702px;
+      background-image: url('https://s3.fightforthefuture.org/img/legacy/background-body.jpg?1492021772629');
+      background-color: #1b242e;
+      background-repeat:repeat;
+    }
+
+    #top-line{
+      width: 100%;
+      height: 8px;
+      background-image: url('https://s3.fightforthefuture.org/img/legacy/top-line.jpg?1492021772629');
+    }
+
+    #header-center{
+      margin: 0px auto;
+      width: 960px;
+      height: 694px;
+    }
+
+    .linedevider{
+      width: 960px;
+      height: 4px;
+      margin: 0px auto;
+      background-image: url('https://s3.fightforthefuture.org/img/legacy/line.png?1492021772629');
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-top: 20px;
+      float: left;
+    }
+
+    .linedevider2{
+      width: 750px;
+      height: 10px;
+      margin: 0px auto;
+      background-image: url('https://s3.fightforthefuture.org/img/legacy/line2.png?1492021772629');
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-top: 35px;
+      float: left;
+      opacity: 0.8;
+    }
+
+    .linedevider3{
+      width: 750px;
+      height: 10px;
+      margin: 0px auto;
+      background-image: url('https://s3.fightforthefuture.org/img/legacy/line2.png?1492021772629');
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-top: 10px;
+      float: left;
+      opacity: 0.8;
+    }
+
+    #phrase{
+      width: 960px;
+      height: 206px;
+      margin: 0px auto;
+      margin-top: 20px;
+      float: left;
+    }
+
+    #phrase img{
+      float: left;
+    }
+
+    .quote-top{
+      width: 960px;
+      height: 65px;
+      margin: 0px auto;
+      margin-top: 5px;
+      float: left;
+    }
+
+    .quote-bottom{
+      width: 960px;
+      height: 65px;
+      margin: 0px auto;
+      margin-top: 10px;
+      float: left;
+    }
+
+    #fading-quote{
+      width:960px;
+      height: 37px;
+      margin-top: 5px;
+      float: left;
+      text-align: center;
+      background-color: none;
+    }
+
+    .quote-holder{
+      width: 700px;
+      margin: 0px auto;
+      background-color: #131b22;
+      height: 28px;
+      border-bottom: 1px solid #2a3743;
+      -moz-box-shadow:    inset 0 0 10px #000000;
+      -webkit-box-shadow: inset 0 0 10px #000000;
+      box-shadow:         inset 0 0 10px #000000;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      padding-top: 10px;3
+    }
+
+    .quote-holder p{
+      text-align: center;
+      font-family: 'Rambla', Arial;
+      font-size: 16px;
+      color: #fff;
+      font-weight: normal;
+      line-height: 17px;
+      display: none;
+      margin-top: 10px;
+      width: 100%;
+    }
+
+    #middle-devider{
+      width: 100%;
+      height: 24px;
+      background-image: url('https://s3.fightforthefuture.org/img/legacy/bottomline.jpg?1492021772629');
+    }
+
+    #clock{
+      width: 960px;
+      height: 221px;
+      margin: 0px auto;
+      margin-top: 20px;
+      float: left;
+
+    }
+
+    #clock img{
+      float: left;
+    }
+
+    .quote-action{
+      width: 800px;
+      height: 50px;
+      margin: 0px auto;
+      margin-top: 35px;
+      float: left;
+    }
+
+    .quote-action h1{
+      color: #1b242e;
+      margin-top: -20px; float: left;
+    }
+
+    #action-form{
+      width: 800px;
+      margin: 0px auto;
+      height: 284px;
+      z-index: 7;
+      background-color: #ffffff;
+      background-image: url('https://s3.fightforthefuture.org/img/legacy/actionb.png?1492021772629');
+      background-repeat: repeat;
+      border: 1px solid #d5d9d6;
+      -moz-border-radius: 9px;
+      -webkit-border-radius: 9px;
+      border-radius: 9px;
+      /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+      -moz-box-shadow: 0px 0px 10px #8a8a8a;
+      -webkit-box-shadow: 0px 0px 10px #8a8a8a;
+      box-shadow: 0px 0px 10px #8a8a8a;
+      /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+      clear: both;
+      position: relative;
+      top: 50px;
+    }
+
+    .forms{
+      margin: 0px auto;
+      width: 763px;
+      padding-left: 37px;
+      margin-top: 35px;
+    }
+
+    .forms input{
+      height: 35px;
+      background-color: #ffffff;
+      border: 1px solid #a1a9ab;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      border-radius: 4px;
+      /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+      -moz-box-shadow: 0px 1px #fffafa;
+      -webkit-box-shadow: 0px 1px #fffafa;
+      box-shadow: 0px 1px #fffafa;
+      filter: progid:DXImageTransform.Microsoft.Shadow(strength = 1, direction = 180, color = '#fffafa');
+      -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(strength = 1, Direction = 180, Color = '#fffafa')";
+      /*Shadows look very different in IE (Only cardinal directions supported)*/
+      /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+      /*Element should have a background-color*/
+      /*All filters must be placed together*/
+      -moz-box-shadow: inset 0px 1px 3px #dee1e1;
+      -webkit-box-shadow: inset 0px 1px 3px #dee1e1;
+      box-shadow: inset 0px 1px 3px #dee1e1;
+      /*Inner elements should not cover inner shadows*/
+      /*IE 7 AND 8 DO NOT SUPPORT INSET SHADOWS*/
+
+      padding-left: 8px;
+      margin-left: 5px;
+      font-size: 14px;
+      float: left;
+
+    }
+
+    .forms button{
+      cursor: pointer;
+      float: left;
+      color: white;
+      font-size: 14px;
+      margin-left: 5px;
+      width: 170px;
+      height: 39px;
+      background-image: linear-gradient(bottom, rgb(22,167,133) 29%, rgb(26,183,154) 65%);
+      background-image: -o-linear-gradient(bottom, rgb(22,167,133) 29%, rgb(26,183,154) 65%);
+      background-image: -moz-linear-gradient(bottom, rgb(22,167,133) 29%, rgb(26,183,154) 65%);
+      background-image: -webkit-linear-gradient(bottom, rgb(22,167,133) 29%, rgb(26,183,154) 65%);
+      background-image: -ms-linear-gradient(bottom, rgb(22,167,133) 29%, rgb(26,183,154) 65%);
+
+      background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.29, rgb(22,167,133)),
+        color-stop(0.65, rgb(26,183,154))
+      );
+
+      -moz-border-radius: 2px;
+      -webkit-border-radius: 2px;
+      border-radius: 2px;
+      border: 1px solid #1b816c;
+
+      -moz-box-shadow:
+        0px 0px 0px rgba(000,000,000,0),
+        inset 0px 1px 1px rgba(69,214,187,0.5);
+      -webkit-box-shadow:
+        0px 0px 0px rgba(000,000,000,0),
+        inset 0px 1px 1px rgba(69,214,187,0.5);
+      box-shadow:
+        0px 0px 0px rgba(000,000,000,0),
+        inset 0px 1px 1px rgba(69,214,187,0.5);
+      text-shadow:
+        0px -1px 0px rgba(000,000,000,0.7),
+        0px 1px 0px rgba(255,255,255,0.3);
+    }
+
+    textarea{
+      float: left;
+      height: 75px;
+      width: 730px;
+      background: transparent;
+      border: none;
+      -moz-border-radius: 2px;
+      -webkit-border-radius: 2px;
+      border-radius: 2px;
+      /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+      /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#fcfcfc', endColorstr = '#ffffff');
+      /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+      /*Element must have a height (not auto)*/
+      /*All filters must be placed together*/
+      -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#fcfcfc', endColorstr = '#ffffff')";
+      /*Element must have a height (not auto)*/
+      /*All filters must be placed together*/
+      /*--IE9 DOES NOT SUPPORT CSS3 GRADIENT BACKGROUNDS--*/
+
+      padding:8px;
+      margin-left: 0px;
+      margin-top: 10px;
+
+      padding-bottom: 10px;
+      color: #666d75;
+      font-size: 13px;
+      line-height: 19px;
+      font-family: arial;
+      resize:none;
+
+    }
+
+    #organize{
+      float: left;
+      margin-left: 8px;
+      margin-top: -4px;
+    }
+
+    p.disclosure {
+      font-family: arial;
+      font-size: 11px;
+      float: left;
+      width: 100%;
+      text-align: center;
+      color: #666;
+    }
+    p.disclosure a {
+      color: #333;
+    }
+    .fftf{
+      font-family: arial;
+      font-size: 13px;
+      color: #364350;
+      float: left;
+      margin-top: 7px;
+      margin-left: 3px;
+    }
+
+    .fftf a{
+      font-family: arial;
+      font-size: 13px;
+      color: #d94d36;
+      font-weight: bold;
+    }
+
+    #bodybottom{
+
+      width: 750px;
+      margin: 0px auto;
+    }
+
+    .quote-body{
+      width: 750px;
+      margin: 0px auto;
+      margin-top: 100px;
+      float: left;
+      text-align: center;
+    }
+
+    .quote-body h1, h3.also_important {
+      font-family: 'Rambla', Arial;
+      color: #1b242e;
+      font-size: 30px;
+      line-height: 38px;
+      display: block;
+      overflow: auto;
+      float: left;
+      font-weight: normal;
+    }
+
+    h3.also_important a {
+      color: #1b242e;
+    }
+
+    .quote-body2{
+      width: 750px;
+      height: 50px;
+      margin: 0px auto;
+      margin-top: 20px;
+      float: left;
+      text-align: center;
+    }
+
+    .quote-body2 h1{
+      color: #1b242e;
+      font-size: 30px;
+      line-height: 38px;
+    }
+
+    .icons{
+      width: 750px;
+      height: 240px;
+      float: left;
+      margin-top: 25px;
+    }
+
+    .icon{
+      width: 205px;
+      height: 240px;
+      float: left;
+      margin-left: 35px;
+    }
+
+    .icon p, .long p{
+      font-family: arial;
+      font-size: 14px;
+      line-height: 17px;
+      color: #515151;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .long {
+      clear: both;
+      float: left;
+      margin-top:40px;
+    }
+
+    .long p{
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    .name{
+      width: 135px;
+    }
+
+    .email{
+      width: 135px;
+    }
+
+    .address{
+      width: 150px;
+    }
+
+    .zip{
+      width: 60px;
+    }
+
+    @-moz-keyframes animation3 {
+      from {
+        -moz-transform: scale(0.1);
+        opacity: 0;
+      }
+      70% {
+        -moz-transform: scale(1);
+        opacity: 0.8;
+      }
+      to {
+        -moz-transform: scale(1);
+        opacity: 1;
+      }
+    }
+    @-webkit-keyframes animation3 {
+      from {
+        -webkit-transform: scale(0.1);
+        opacity: 0;
+      }
+      70% {
+        -webkit-transform: scale(1);
+        opacity: 0.8;
+      }
+      to {
+        -webkit-transform: scale(1);
+        opacity: 1;
+      }
+    }
+    .animation{
+      -moz-animation: animation3 2s;
+      -webkit-animation-name: animation3;
+      -webkit-animation-duration: 1s;
+    }
+
+    @-webkit-keyframes animation5 {
+      from {
+        top: 0;
+        opacity: 0;
+      }
+      to {
+        margin-top: /*px*/;
+        opacity: 1;
+      }
+    }
+    @-moz-keyframes animation5 {
+      from {
+        top: 0;
+        opacity: 0;
+      }
+      to {
+        margin-top: /*px*/;
+        opacity: 1;
+      }
+    }
+    .animation2{
+      -moz-animation: animation5 5s;
+      -webkit-animation-name: animation5;
+      -webkit-animation-duration: 5s;
+    }
+
+    #tag{
+      width: 67px;
+      height: 228px;
+      position:fixed;
+      left: 0px;
+      z-index: 500;
+      margin-top: 200px;
+      background: url('http://internetdefenseleague.org/images/fftf_tag.png');
+      text-indent: -9999px;
+    }
+
+    #efftag{
+      text-indent: -9999px;
+      width: 67px;
+      height: 112px;
+      position:fixed;
+      left: 0px;
+      z-index: 500;
+      margin-top: 450px;
+      background: url('https://s3.fightforthefuture.org/images/EFF-logo.png?1492021772629');
+    }
+    EFF-logo.png
+  </style>
+  <meta property="og:title" content="Tell Congress: Copyright is broken. Fix it this year!" />
+  <meta property="og:description" content="Is there anything Hollywood won't do? On November 16th the GOP Study Committee published a memo calling for copyright reform. Then Hollywood's lobbyists got them to retract it and fire the guy who wrote it. Take action! Tell congress to tackle copyright reform this year." />
+  <meta property="og:image" content="http://www.fightforthefuture.org/img/legacy/fixcopyright-share.png" />
+  <meta property="og:url" content="http://www.fightforthefuture.org/fixcopyright/" />
+  <meta property="og:type" content="article" />
+  <meta property="fb:admins" content="678090273"/>
+
+</head>
+
+<body>
+<form class="donateask" action="https://donate.fightforthefuture.org">
+  <div class="wrap topish">
+    <fieldset>
+      <p class="oleo">help out!</p>
+      <input type="number" placeholder="$40" name="amount"  />
+      <button class="bebas">Donate</button>
+    </fieldset>
+  </div>
+</form>
+
+<a id="tag" href="https://www.fightforthefuture.org"  target="blank">FFTF</a>
+
+<div class="socialize" style="position: fixed; height: 350px; margin-left: 10px; margin-top: 70px; z-index: 99;">
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+  <div id="shareitup" style="overflow: visible">
+    <div class="fb-like" data-href="http://www.fightforthefuture.org/fixcopyright" data-send="true" data-layout="box_count" data-width="150" data-show-faces="true" style="margin-bottom: 5px;"></div>
+    <br />
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.fightforthefuture.org/fixcopyright" data-text="Is there anything Hollywood won't do? They censored GOP #fixcopyright memo and got them to fire the guy who wrote it" style="float: left; clear: both;">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+  </div>
+</div>
+
+<div id="container">
+
+  <div id="header">
+
+    <div id="header-center">
+
+      <div id="phrase"><img src="https://s3.fightforthefuture.org/img/legacy/phrase-top.png?1492021772584" /></div>
+
+      <div class="quote-top animation ">
+        <h1><strong>On Nov 16,</strong> the <strong>Republican Party</strong> published a memo <br />
+          calling for <span class="blue-text-line">strong copyright reform:</span></h1>
+      </div>
+
+      <div id="fading-quote">
+
+        <div class="quote-holder">
+          <p><span class="red-text">"</span> Current copyright law does not merely distort some markets…
+            …rather it destroys entire markets. <span class="red-text">"</span></p>
+
+          <p><span class="red-text">"</span> Copyright violates nearly every tenet of … capitalism <span class="red-text">"</span></p>
+          <p><span class="red-text">"</span> …corporate welfare that hurts innovation and … consumers <span class="red-text">"</span></p>
+          <p><span class="red-text">"</span> It is a government-subsidized monopoly <span class="red-text">"</span></p>
+
+          <p><span class="red-text">"</span> Too much copyright protection … will greatly stifle innovation <span class="red-text">"</span></p>
+
+        </div>
+
+      </div>
+
+      <div id="clock" ><img src="https://s3.fightforthefuture.org/img/legacy/clock.gif?1492021772584" /></div>
+
+      <div class="quote-bottom animation">
+
+        <h3 class="also_important" style="color: #fff; text-align: center; width: 100%; font-size: 22px; line-height: 28px; margin-bottom: 50px;">Within 24 hours, they <a href="http://www.techdirt.com/articles/20121117/16492521084/hollywood-lobbyists-have-busy-saturday-convince-gop-to-retract-copyright-reform-brief.shtml" class="red-text" target="_new">pulled it</a>.<br />Now, they've <a href="http://washingtonexaminer.com/gop-sides-with-mickey-mouse-on-copyright-reform/article/2515183#.UMD-X4V7sVy" class="red-text" target="_new">fired</a> <a href="https://twitter.com/dkhanna11" target="_new" class="red-text">Derek Khanna</a>, the guy who wrote it.</h3>
+      </div>
+
+      <div id="action-form" class="effect7">
+
+        <div class="quote-action">
+
+          <h1 id="take-action"><strong>Hey Congress,</strong> don't let <strong>MPAA</strong> and big content scare you off -- our copyright system is getting in the way of free speech, art, and innovation.  <span class="red-text"><strong>It’s time to fix it.</strong></span></h1>
+        </div>
+
+        <form action="http://nt.salsalabs.com/save" class="forms">
+          <input type="hidden" name="object" value="supporter"/>
+          <input type="hidden" name="tag" value="fixcopyright"/>
+          <input type="hidden" name="ip" id="signup_ip" />
+          <input type="hidden" name="user_agent" id="user_agent" />
+          <input type="hidden" name="email_trigger_KEYS" value="7" />
+          <input type="hidden" name="organization_KEY" value="501"/>
+          <input type="hidden" name="redirect" value="https://www.fightforthefuture.org/confirm">
+          <input name="First_Name" placeholder="Name" class="name">
+          <input name="Email" placeholder="E-mail" class="email">
+          <input name="Street" placeholder="Street Address" class="address">
+          <input name="Zip" placeholder="Zip" class="zip">
+          <button>Write Congress Now!</button>
+
+          <textarea>Our copyright system is out of whack.  Instead of promoting free expression and innovation, it is impeding them. That hurts artists, activists, entrepreneurs, and the general public. I want my Congressperson to fix copyright now. The Republican Study Committee’s memo on copyright reform pointed out fundamental problems with copyright law -- problems that stand in the way of innovation and free expression. I am heartened to see that Republicans and Democrats are realizing that copyright policy needs to be consistent with their core values -- and I want my Congressperson to help lead the charge.</textarea>
+
+          <input type="checkbox" id="organize" name="add_to_eff" value="1" style="width: 17px;">
+          <label class="fftf"for="organize" style="margin-right: 0;">Join <a href="https://eff.org">The EFF's</a> list also</label>
+
+          <p class="disclosure"><a href="https://www.fightforthefuture.org">Fight for the Future</a> may contact you about related campaigns. <a href="https://www.fightforthefuture.org/privacy">privacy policy</a></p>
+
+        </form>
+
+      </div>
+
+    </div>
+
+    <div id="middle-devider"></div>
+
+    <div id="bodybottom">
+
+      <div class="quote-body">
+        <h3 class="also_important" style="font-size: 22px; text-align: left;fi"><a href="https://www.eff.org/document/rsc-report-three-myths-about-copyright-law" class="red-text">The Republican copyright memo</a> said things about copyright that most people hold to be true. Copyright is supposed to be a means of promoting art and innovation, but now it's strangling both. Videos get censored over tiny bits of music, accidental infringers get sued for more than the value of their house, and liability threatens the innovation behind our high-tech economy.<br /><br />
+          Read more about the Republican copyright memo <a href="https://www.eff.org/deeplinks/2012/11/congress-shouldnt-debate-copyright-reality-free-zone" class="red-text">on EFF's blog.</a></h3>
+
+      </div>
+
+      <br /><br />
+
+      <div class="linedevider3" style="margin-top: 30px; margin-bottom: 30px;"></div>
+
+      <h3 class="also_important" style="text-align: center; margin-bottom: 20px; width: 100%; font-size: 20px;">We need your help to fix copyright now.<br />Please <a href="#take-action">tell Congress</a> and share this page.</h3>
+    </div>
+
+    <br /><br />
+  </div></div>
+
+<div class="bordertwo" id="staff">
+  <h5><a href="/">Fight for the Future</a></h5>
+</div>
+
+<footer>
+  <div class="wrap">
+
+    <div class="copyleft">
+      <p>For press inquiries, please call: 508-474-5248 or email <a href="mailto:press@fightforthefuture.org">press@fightforthefuture.org</a> (Press Inquiries Only)</p>
+
+      <p>For all other inquiries, please email <a href="mailto:team@fightforthefuture.org">team@fightforthefuture.org</a> | PO Box 55071 #95005 Boston, MA 02205 | <a href="https://www.fightforthefuture.org/privacy">Privacy Policy</a></p>
+
+      <p class="lastask">Our organization works hard to organize against threats to our basic rights, please help keep up going and visit our <a href="https://donate.fightforthefuture.org" class="donateplz">donate page</a>.</p>
+
+    </div>
+  </div><!-- close .wrap -->
+</footer>
+
+<script src="https://s3.fightforthefuture.org//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js?1492021772616"></script>
+<script type="application/javascript">
+  function getip(json){
+    $('#signup_ip').val(json.ip);
+  }
+
+  $("#user_agent").val(navigator.userAgent);
+</script>
+
+<script type="application/javascript" src="https://s3.fightforthefuture.org//fftf-ips.heroku.com/?callback=getip?1492021772616"></script>
+
+<script>
+  /*!
+   * jQuery Cycle Lite Plugin
+   * http://malsup.com/jquery/cycle/lite/
+   * Copyright (c) 2008-2012 M. Alsup
+   * Version: 1.6 (02-MAY-2012)
+   * Dual licensed under the MIT and GPL licenses:
+   * http://www.opensource.org/licenses/mit-license.php
+   * http://www.gnu.org/licenses/gpl.html
+   * Requires: jQuery v1.3.2 or later
+   */
+  ;(function($) {
+    "use strict";
+
+    var ver = 'Lite-1.6';
+
+    $.fn.cycle = function(options) {
+      return this.each(function() {
+        options = options || {};
+
+        if (this.cycleTimeout) clearTimeout(this.cycleTimeout);
+
+        this.cycleTimeout = 0;
+        this.cyclePause = 0;
+
+        var $cont = $(this);
+        var $slides = options.slideExpr ? $(options.slideExpr, this) : $cont.children();
+        var els = $slides.get();
+        if (els.length < 2) {
+          if (window.console)
+            console.log('terminating; too few slides: ' + els.length);
+          return; // don't bother
+        }
+
+        // support metadata plugin (v1.0 and v2.0)
+        var opts = $.extend({}, $.fn.cycle.defaults, options || {}, $.metadata ? $cont.metadata() : $.meta ? $cont.data() : {});
+        var meta = $.isFunction($cont.data) ? $cont.data(opts.metaAttr) : null;
+        if (meta)
+          opts = $.extend(opts, meta);
+
+        opts.before = opts.before ? [opts.before] : [];
+        opts.after = opts.after ? [opts.after] : [];
+        opts.after.unshift(function(){ opts.busy=0; });
+
+        // allow shorthand overrides of width, height and timeout
+        var cls = this.className;
+        opts.width = parseInt((cls.match(/w:(\d+)/)||[])[1], 10) || opts.width;
+        opts.height = parseInt((cls.match(/h:(\d+)/)||[])[1], 10) || opts.height;
+        opts.timeout = parseInt((cls.match(/t:(\d+)/)||[])[1], 10) || opts.timeout;
+
+        if ($cont.css('position') == 'static')
+          $cont.css('position', 'relative');
+        if (opts.width)
+          $cont.width(opts.width);
+        if (opts.height && opts.height != 'auto')
+          $cont.height(opts.height);
+
+        var first = 0;
+        $slides.css({position: 'absolute', top:0}).each(function(i) {
+          $(this).css('z-index', els.length-i);
+        });
+
+        $(els[first]).css('opacity',1).show(); // opacity bit needed to handle reinit case
+        if ($.browser.msie) els[first].style.removeAttribute('filter');
+
+        if (opts.fit && opts.width)
+          $slides.width(opts.width);
+        if (opts.fit && opts.height && opts.height != 'auto')
+          $slides.height(opts.height);
+        if (opts.pause)
+          $cont.hover(function(){this.cyclePause=1;}, function(){this.cyclePause=0;});
+
+        var txFn = $.fn.cycle.transitions[opts.fx];
+        if (txFn)
+          txFn($cont, $slides, opts);
+
+        $slides.each(function() {
+          var $el = $(this);
+          this.cycleH = (opts.fit && opts.height) ? opts.height : $el.height();
+          this.cycleW = (opts.fit && opts.width) ? opts.width : $el.width();
+        });
+
+        if (opts.cssFirst)
+          $($slides[first]).css(opts.cssFirst);
+
+        if (opts.timeout) {
+          // ensure that timeout and speed settings are sane
+          if (opts.speed.constructor == String)
+            opts.speed = {slow: 600, fast: 200}[opts.speed] || 400;
+          if (!opts.sync)
+            opts.speed = opts.speed / 2;
+          while((opts.timeout - opts.speed) < 250)
+            opts.timeout += opts.speed;
+        }
+        opts.speedIn = opts.speed;
+        opts.speedOut = opts.speed;
+
+        opts.slideCount = els.length;
+        opts.currSlide = first;
+        opts.nextSlide = 1;
+
+        // fire artificial events
+        var e0 = $slides[first];
+        if (opts.before.length)
+          opts.before[0].apply(e0, [e0, e0, opts, true]);
+        if (opts.after.length > 1)
+          opts.after[1].apply(e0, [e0, e0, opts, true]);
+
+        if (opts.click && !opts.next)
+          opts.next = opts.click;
+        if (opts.next)
+          $(opts.next).unbind('click.cycle').bind('click.cycle', function(){return advance(els,opts,opts.rev?-1:1);});
+        if (opts.prev)
+          $(opts.prev).unbind('click.cycle').bind('click.cycle', function(){return advance(els,opts,opts.rev?1:-1);});
+
+        if (opts.timeout)
+          this.cycleTimeout = setTimeout(function() {
+            go(els,opts,0,!opts.rev);
+          }, opts.timeout + (opts.delay||0));
+      });
+    };
+
+    function go(els, opts, manual, fwd) {
+      if (opts.busy)
+        return;
+      var p = els[0].parentNode, curr = els[opts.currSlide], next = els[opts.nextSlide];
+      if (p.cycleTimeout === 0 && !manual)
+        return;
+
+      if (manual || !p.cyclePause) {
+        if (opts.before.length)
+          $.each(opts.before, function(i,o) { o.apply(next, [curr, next, opts, fwd]); });
+        var after = function() {
+          if ($.browser.msie)
+            this.style.removeAttribute('filter');
+          $.each(opts.after, function(i,o) { o.apply(next, [curr, next, opts, fwd]); });
+          queueNext(opts);
+        };
+
+        if (opts.nextSlide != opts.currSlide) {
+          opts.busy = 1;
+          $.fn.cycle.custom(curr, next, opts, after);
+        }
+        var roll = (opts.nextSlide + 1) == els.length;
+        opts.nextSlide = roll ? 0 : opts.nextSlide+1;
+        opts.currSlide = roll ? els.length-1 : opts.nextSlide-1;
+      } else {
+        queueNext(opts);
+      }
+
+      function queueNext(opts) {
+        if (opts.timeout)
+          p.cycleTimeout = setTimeout(function() { go(els,opts,0,!opts.rev); }, opts.timeout);
+      }
+    }
+
+// advance slide forward or back
+    function advance(els, opts, val) {
+      var p = els[0].parentNode, timeout = p.cycleTimeout;
+      if (timeout) {
+        clearTimeout(timeout);
+        p.cycleTimeout = 0;
+      }
+      opts.nextSlide = opts.currSlide + val;
+      if (opts.nextSlide < 0) {
+        opts.nextSlide = els.length - 1;
+      }
+      else if (opts.nextSlide >= els.length) {
+        opts.nextSlide = 0;
+      }
+      go(els, opts, 1, val>=0);
+      return false;
+    }
+
+    $.fn.cycle.custom = function(curr, next, opts, cb) {
+      var $l = $(curr), $n = $(next);
+      $n.css(opts.cssBefore);
+      var fn = function() {$n.animate(opts.animIn, opts.speedIn, opts.easeIn, cb);};
+      $l.animate(opts.animOut, opts.speedOut, opts.easeOut, function() {
+        $l.css(opts.cssAfter);
+        if (!opts.sync)
+          fn();
+      });
+      if (opts.sync)
+        fn();
+    };
+
+    $.fn.cycle.transitions = {
+      fade: function($cont, $slides, opts) {
+        $slides.not(':eq(0)').hide();
+        opts.cssBefore = { opacity: 0, display: 'block' };
+        opts.cssAfter  = { display: 'none' };
+        opts.animOut = { opacity: 0 };
+        opts.animIn = { opacity: 1 };
+      },
+      fadeout: function($cont, $slides, opts) {
+        opts.before.push(function(curr,next,opts,fwd) {
+          $(curr).css('zIndex',opts.slideCount + (fwd === true ? 1 : 0));
+          $(next).css('zIndex',opts.slideCount + (fwd === true ? 0 : 1));
+        });
+        $slides.not(':eq(0)').hide();
+        opts.cssBefore = { opacity: 1, display: 'block', zIndex: 1 };
+        opts.cssAfter  = { display: 'none', zIndex: 0 };
+        opts.animOut = { opacity: 0 };
+        opts.animIn = { opacity: 1 };
+      }
+    };
+
+    $.fn.cycle.ver = function() { return ver; };
+
+// @see: http://malsup.com/jquery/cycle/lite/
+    $.fn.cycle.defaults = {
+      animIn:        {},
+      animOut:       {},
+      fx:           'fade',
+      after:         null,
+      before:        null,
+      cssBefore:     {},
+      cssAfter:      {},
+      delay:         0,
+      fit:           0,
+      height:       'auto',
+      metaAttr:     'cycle',
+      next:          null,
+      pause:         false,
+      prev:          null,
+      speed:         1000,
+      slideExpr:     null,
+      sync:          true,
+      timeout:       4000
+    };
+
+    setTimeout(function(){
+      $('#clock').slideUp();
+      $('#action-form').css('top', 15);
+      $('.quote-body').css('margin-top', 30);
+    }, 7500);
+
+  })(jQuery);
+</script>
+<script src="https://s3.fightforthefuture.org//s3.amazonaws.com/fftf.media/img/placeholder.js?1492021772616"></script>
+<script type="text/javascript">
+  window.log = function f(){ log.history = log.history || []; log.history.push(arguments); if(this.console) { var args = arguments, newarr; args.callee = args.callee.caller; newarr = [].slice.call(args); if (typeof console.log === 'object') log.apply.call(console.log, console, newarr); else console.log.apply(console, newarr);}};
+  (function(a){function b(){}for(var c="assert,count,debug,dir,dirxml,error,exception,group,groupCollapsed,groupEnd,info,log,markTimeline,profile,profileEnd,time,timeEnd,trace,warn".split(","),d;!!(d=c.pop());){a[d]=a[d]||b;}})
+  (function(){try{console.log();return window.console;}catch(a){return (window.console={});}}());
+
+
+  /*! http://mths.be/placeholder v2.0.7 by @mathias */
+  ;(function(window, document, $) {
+
+    var isInputSupported = 'placeholder' in document.createElement('input'),
+      isTextareaSupported = 'placeholder' in document.createElement('textarea'),
+      prototype = $.fn,
+      valHooks = $.valHooks,
+      hooks,
+      placeholder;
+
+    if (isInputSupported && isTextareaSupported) {
+
+      placeholder = prototype.placeholder = function() {
+        return this;
+      };
+
+      placeholder.input = placeholder.textarea = true;
+
+    } else {
+
+      placeholder = prototype.placeholder = function() {
+        var $this = this;
+        $this
+          .filter((isInputSupported ? 'textarea' : ':input') + '[placeholder]')
+          .not('.placeholder')
+          .bind({
+            'focus.placeholder': clearPlaceholder,
+            'blur.placeholder': setPlaceholder
+          })
+          .data('placeholder-enabled', true)
+          .trigger('blur.placeholder');
+        return $this;
+      };
+
+      placeholder.input = isInputSupported;
+      placeholder.textarea = isTextareaSupported;
+
+      hooks = {
+        'get': function(element) {
+          var $element = $(element);
+          return $element.data('placeholder-enabled') && $element.hasClass('placeholder') ? '' : element.value;
+        },
+        'set': function(element, value) {
+          var $element = $(element);
+          if (!$element.data('placeholder-enabled')) {
+            return element.value = value;
+          }
+          if (value == '') {
+            element.value = value;
+            // Issue #56: Setting the placeholder causes problems if the element continues to have focus.
+            if (element != document.activeElement) {
+              // We canâ€™t use `triggerHandler` here because of dummy text/password inputs :(
+              setPlaceholder.call(element);
+            }
+          } else if ($element.hasClass('placeholder')) {
+            clearPlaceholder.call(element, true, value) || (element.value = value);
+          } else {
+            element.value = value;
+          }
+          // `set` can not return `undefined`; see http://jsapi.info/jquery/1.7.1/val#L2363
+          return $element;
+        }
+      };
+
+      isInputSupported || (valHooks.input = hooks);
+      isTextareaSupported || (valHooks.textarea = hooks);
+
+      $(function() {
+        // Look for forms
+        $(document).delegate('form', 'submit.placeholder', function() {
+          // Clear the placeholder values so they donâ€™t get submitted
+          var $inputs = $('.placeholder', this).each(clearPlaceholder);
+          setTimeout(function() {
+            $inputs.each(setPlaceholder);
+          }, 10);
+        });
+      });
+
+      // Clear placeholder values upon page reload
+      $(window).bind('beforeunload.placeholder', function() {
+        $('.placeholder').each(function() {
+          this.value = '';
+        });
+      });
+
+    }
+
+    function args(elem) {
+      // Return an object of element attributes
+      var newAttrs = {},
+        rinlinejQuery = /^jQuery\d+$/;
+      $.each(elem.attributes, function(i, attr) {
+        if (attr.specified && !rinlinejQuery.test(attr.name)) {
+          newAttrs[attr.name] = attr.value;
+        }
+      });
+      return newAttrs;
+    }
+
+    function clearPlaceholder(event, value) {
+      var input = this,
+        $input = $(input);
+      if (input.value == $input.attr('placeholder') && $input.hasClass('placeholder')) {
+        if ($input.data('placeholder-password')) {
+          $input = $input.hide().next().show().attr('id', $input.removeAttr('id').data('placeholder-id'));
+          // If `clearPlaceholder` was called from `$.valHooks.input.set`
+          if (event === true) {
+            return $input[0].value = value;
+          }
+          $input.focus();
+        } else {
+          input.value = '';
+          $input.removeClass('placeholder');
+          input == document.activeElement && input.select();
+        }
+      }
+    }
+
+    function setPlaceholder() {
+      var $replacement,
+        input = this,
+        $input = $(input),
+        $origInput = $input,
+        id = this.id;
+      if (input.value == '') {
+        if (input.type == 'password') {
+          if (!$input.data('placeholder-textinput')) {
+            try {
+              $replacement = $input.clone().attr({ 'type': 'text' });
+            } catch(e) {
+              $replacement = $('<input>').attr($.extend(args(this), { 'type': 'text' }));
+            }
+            $replacement
+              .removeAttr('name')
+              .data({
+                'placeholder-password': true,
+                'placeholder-id': id
+              })
+              .bind('focus.placeholder', clearPlaceholder);
+            $input
+              .data({
+                'placeholder-textinput': $replacement,
+                'placeholder-id': id
+              })
+              .before($replacement);
+          }
+          $input = $input.removeAttr('id').hide().prev().attr('id', id).show();
+          // Note: `$input[0] != input` now!
+        }
+        $input.addClass('placeholder');
+        $input[0].value = $input.attr('placeholder');
+      } else {
+        $input.removeClass('placeholder');
+      }
+    }
+
+  }(this, document, jQuery));
+</script>
+<script type="text/javascript">
+  function open_staff(){
+    $('.data').slideToggle();
+    $('li.staff').toggleClass("active");
+  }
+
+  $(".staff").click(function (event) {
+    event.preventDefault();
+    open_staff();
+    // For browsers that will take it, give them the URL
+    history.pushState(null, null, '#staff');
+  });
+
+  if(window.location.hash == "#staff") {
+    open_staff();
+  }
+
+
+
+  $("form.donateask button").click(function(event) {
+    event.preventDefault();
+
+    var amount = $("form.donateask input").val() || 40,
+      url = 'https://donate.fightforthefuture.org/?amount=' + amount;
+
+    window.location = url;
+  });
+
+  $("form.donateask input").keyup(function(event){
+    if(event.keyCode == 13){
+      $("form.donateask button").click();
+    }
+  });
+
+</script>
+
+<script>
+
+  $(function() {
+    $('input, textarea').placeholder();
+    $('.quote-holder').cycle({fx: 'fade' });
+  });
+
+</script>
+</body>
+</html>
+
