@@ -125,7 +125,7 @@ Our accomplishments are testament to the notion that with the right approach and
 [cf0]: /img/page/aboutus/teampic/charlie.png
 [cf1]: https://twitter.com/DigitalCharlie_
 [cf2]: http://peoplesclimate.org/wrap-up/
-[la1]: http://www.kairosfellows.org/
+[la1]: http://www.kairosfellows.org/2017-kairos-fellows/
 [tw1]: /img/page/aboutus/teampic/terri.png
 [mm1]: /img/page/aboutus/teampic/Mike.png
 [mm2]: https://github.com/mikemorris
