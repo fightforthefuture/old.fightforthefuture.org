@@ -83,7 +83,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Lead Designer
 
-  [Vasjen][vk1] is our Lead Designer from Albania. He loves to craft great UI / UX and make the Internet a better place. You can see his work on [Dribbble][vk2] and follow him on [Twitter][vk3]
+  [Vasjen][vk1] is our Lead Designer from Albania. He loves to craft great UI / UX and make the Internet a better place. You can see his work on [Dribbble][vk2] and follow him on [Twitter][vk3].
 
 ---
 
