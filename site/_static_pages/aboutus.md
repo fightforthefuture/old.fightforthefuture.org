@@ -74,7 +74,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Grant Writer
 
-  Sarena Neyman writes our grants and other fundraising materials. She’s been helping non-profit groups raise money for over 25 years and is thrilled to be doing work that protects her beloved Internet.
+  Sarena writes our grants and other fundraising materials. She’s been helping non-profit groups raise money for over 25 years and is thrilled to be doing work that protects her beloved Internet.
 
 ---
 
@@ -92,8 +92,16 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Campaigner
 
-  Laila Abdelaziz is our Campaigner and a [2017 Kairos Fellow][la1]. Before joining FFTF, Laila served as CAIR Florida's Legislative & Government Affairs Director where she led advocacy campaigns to protect civil rights and challenge Islamophobia.
+  Laila is our Campaigner and a [2017 Kairos Fellow][la1]. Before joining FFTF, Laila served as CAIR Florida's Legislative & Government Affairs Director where she led advocacy campaigns to protect civil rights and challenge Islamophobia.
 
+---
+
+![Mike Morris][mm1]
+: ### Mike Morris
+  
+  #### Senior Software Engineer
+
+  [Mike][mm2] is our Software Engineer and a dedicated activist committed to fighting for a free and open Internet and protecting the safety and security of people who use it. Before joining our team, he worked with Mapbox and built Prose.io.
 
 [tc0]: /img/page/aboutus/teampic/tiff.png
 [tc1]: http://www.opencongress.org/
@@ -119,6 +127,8 @@ Our accomplishments are testament to the notion that with the right approach and
 [cf2]: http://peoplesclimate.org/wrap-up/
 [la1]: http://www.kairosfellows.org/
 [tw1]: /img/page/aboutus/teampic/terri.png
+[mm1]: /img/page/aboutus/teampic/Mike.png
+[mm2]: https://github.com/mikemorris
 
 
 # Fight for the Future 501(c)4 Board
