@@ -1,0 +1,75 @@
+#fftf-footer {
+  background-color: @blue-900;
+  bottom: 0;
+  box-sizing: border-box;
+  color: @white;
+  font-size: 1.4rem;
+  left: 0;
+  padding: 2rem 1rem;
+  right: 0;
+  text-align: center;
+  position: relative;
+  height: 25rem;
+
+  @media screen and (min-width: @small-phone) {
+    padding: 2rem 1rem;
+    height: 23.2rem;
+  }
+  @media screen and (min-width: @large-tablet) {
+    padding: 2rem;
+  }
+
+  a {
+    &:link, &:visited, &:hover, &:active, &:focus {
+      font-weight: 600;
+      text-decoration: none;
+    }
+    &:hover, &:active, &:focus {
+      border-bottom: 0.1rem dotted lightgray;
+    }
+  }
+  dl {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto 1rem;
+    max-width: 310px;
+  }
+  dt {
+    margin-right: 1rem;
+    text-align: right;
+  }
+  dd {
+    flex-grow: 2;
+    text-align: left;
+  }
+  p {
+    margin-bottom: 1rem;
+  }
+
+  a {
+    &:link, &:visited, &:hover, &:active, &:focus {
+      color: @white;
+    }
+  }
+  img {
+    margin-top: 1rem;
+  }
+}
+
+#fftfef-footer {
+  background-color: lighten(@white, 2%);
+  background-image: url('/images/fftfef-bg.gif');
+  color: lighten(@black, 20%);
+  a {
+    &:link, &:visited, &:hover, &:active, &:focus {
+      color: lighten(@black, 20%);
+    }
+  }
+}
+
+.footer-logo {
+  display: block;
+  margin: 0 auto;
+}

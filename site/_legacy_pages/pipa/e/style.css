@@ -1,0 +1,224 @@
+/* CSS Document */
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#717073;
+	text-align:left;
+	background:url(images/bg.gif) repeat-x 0 -43px #F4F6F8;
+}
+*{
+	margin:0;
+	padding:0;
+}
+ul, li, ol{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+img{
+	border:none;
+	padding:0;
+	margin:0;
+}
+.cls{
+	clear:both;
+}
+a{
+	outline:none;
+	color:#55A4F2;
+	text-decoration:none;
+}
+a:hover{
+	color:#55A4F2;
+	text-decoration:underline;
+}
+.hide,h1 b,h2 b,h3 b,h5 b,a i{
+     position: absolute;
+     left: -9999px;
+}
+
+.wrap{
+	width:600px;
+	margin:0 auto;
+	padding:0 0 0 0;
+	overflow:hidden;
+}
+.header{
+	width:600px;
+	height:46px;
+	overflow:hidden;
+}
+.logo{
+	width:158px;
+	float:left;
+	padding:11px 0 0 0;
+}
+.maincontent{
+	width:600px;
+	padding:20px 0 0 0;
+	overflow:hidden;
+}
+.videotitle{
+	width:600px;
+	padding:0 0 15px 0;
+	overflow:hidden;
+}
+.videotitle h1{
+	font-size:24px;
+	color:#333333;
+	float:left;
+}
+.sociallink{
+	float:right;
+	padding:10px 8px 0 0;
+}
+.sociallink img{
+	float:left;
+	margin:0 4px 0 0;
+}
+.videoholder{
+	width:600px;
+	padding:0 0 20px 0;
+	overflow:hidden;
+}
+.bottomarea{
+	width:600px;
+	padding:0 0 0 0;
+	overflow:hidden;
+}
+.boxtop{
+	width:600px;
+	height:15px;
+	background:url(images/boxtopbg.gif) no-repeat -10px 0;
+}
+.boxbottom{
+	width:600px;
+	height:15px;
+	background:url(images/boxbottombg.gif) no-repeat -10px 0;
+}
+.boxinfo{
+	width:600px;
+	padding:0 0 0 0;
+	background:url(images/boxinfobg.gif) repeat-y;
+	overflow:hidden;
+}
+.boxcontainer{
+	width:560px;
+	padding:10px 20px 0 20px;
+	overflow:hidden;
+	min-height:340px;
+	color:#333333;
+	background:url(images/boxcontainerbg.gif) no-repeat top left;
+}
+.boxcontainer h2{
+	font-size:31px;
+	padding:0 0 10px 0;
+}
+.boxcontainer p{
+	font-size:13px;
+	padding:0 0 10px 0;
+	line-height:20px;
+}
+.formarea{
+	width:782px;
+	padding:15px 0 25px 0;
+	overflow:hidden;
+}
+.formarea input{
+	width:153px;
+	height:19px;
+	border:none;
+	padding:10px 0 10px 12px;
+	margin:0 0 0 10px;
+	float:left;
+	color:#999999;
+	font-size:17px;
+	font-weight:bold;
+	background:url(images/input01.png) no-repeat;
+}
+.formarea input.email{
+	width:170px;
+	background:url(images/input02.png) no-repeat;
+}
+.formarea input.address{
+	width:159px;
+	background:url(images/input03.png) no-repeat;
+}
+.formarea input.zip{
+	width:64px;
+	height:19px;
+	padding:10px 0;
+	text-align:center;
+	background:url(images/input04.png) no-repeat;
+}
+.formarea input.send{
+	width:141px;
+	height:38px;
+	padding:0;
+	margin:0 0 0 11px;
+	cursor:pointer;
+	background:none;
+}
+.whitebox{
+	width:565px;
+	background:url(images/textarebg.png) no-repeat;
+	padding:10px 8px 0 7px;
+	color:#696969;
+	overflow: visible;
+}
+.whitebox p{
+	padding:0 0 15px 0;
+}
+.footer{
+	width:600px;
+	text-align:center;
+	padding:50px 0 10px 0;
+	overflow:hidden;
+	color:#949494;
+	font-size:11px;
+}
+.footer p{
+	color:#949494;
+	font-size:11px;
+}
+a.cta_button {
+	padding: 15px;
+	font-weight: bold;
+	font-size: 24px;
+	border-radius: 10px;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	margin-top: 10px;
+	background: #0098d5;
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
+    box-shadow:
+        0 0 0 1px #0086ba inset, /* Outer bevel */
+        0 0 0 2px #6cdcea inset, /* Inner bevel */
+        0 30px 20px -18px rgba(255,255,255,0.65) inset, /* Inner gradient */
+        1px 1px 3px rgba(0,0,0,0.2) /* Drop shadow */
+    ;
+
+    -moz-box-shadow:
+        0 0 0 1px #0086ba inset, /* Outer bevel */
+        0 0 0 2px #6cdcea inset, /* Inner bevel */
+        0 30px 20px -18px rgba(255,255,255,0.65) inset, /* Inner gradient */
+        1px 1px 3px rgba(0,0,0,0.2) /* Drop shadow */
+    ;
+
+    -webkit-border-radius: 5px;
+    -webkit-text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
+    -webkit-box-shadow:
+        0 0 0 1px #0086ba inset, /* Outer bevel */
+        0 0 0 2px #6cdcea inset, /* Inner bevel */
+        0 30px 20px -18px rgba(255,255,255,0.65) inset, /* Inner gradient */
+        1px 1px 3px rgba(0,0,0,0.2) /* Drop shadow */
+    ;
+}
+a.cta_button:hover {
+	background: #00B6FF;
+	text-decoration: none;
+	color: #fff;
+}

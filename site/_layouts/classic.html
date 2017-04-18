@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div role="main">
+  <div class="wrap">
+    {% capture currentPage %}{{ page.url | remove:'/' | remove:'index.html' }}{% endcapture %}
+
+    <div class="sidebar">
+      <ul class="bebas nav">
+        <li><a href="/">Home</a> /</li>
+        <li><a href="/{{ currentPage }}/" class="current">{{ currentPage }}</a></li>
+      </ul>
+      <h3 class="oleo">More about:</h3>
+      <ul class="notnav">
+        {% for item in site.data.classic-sidebar[currentPage] %}
+        <li><a href="{{ item.link }}">{{ item.text }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="content">
+      {{ content }}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  {% include meta.html %}
+  {% capture stylesheet %}
+    {% if page.styles %}
+      {{ page.styles }}
+    {% elsif layout.styles %}
+      {{ layout.styles }}
+    {% else %}
+      core
+    {% endif %}
+  {% endcapture %}
+  <link rel="stylesheet" type="text/css" href="/css/{{ stylesheet | strip_newlines | replace: ' ', '' }}.css">
+</head>
+<body class="{{ page.class }} {{ layout.class }}" data-components="{{ layout.component-scripts }} {{ page.component-scripts }}">
+
+{{ content }}
+
+{% include scripts.html %}
+</body>
+</html>

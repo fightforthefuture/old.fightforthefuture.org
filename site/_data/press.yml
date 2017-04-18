@@ -1,0 +1,120 @@
+# Please sort press by date, newest pieces at the top. If a piece falls under
+# multiple categories, use best judgement?
+
+- campaign: 'tpp'
+  pretty: 'Trans-Pacific Partnership'
+  coverage:
+    - title: 'Leaked (final?) TPP Intellectual Property chapter spells doom for free speech online'
+      date: 2015-10-09
+      publication: boingboing
+      link: http://boingboing.net/2015/10/09/leaked-final-tpp-intellectu.html
+    - title: 'Wikileaks release of TPP deal text stokes ‘freedom of expression’ fears'
+      date: 2015-10-09
+      publication: the guardian
+      link: http://www.theguardian.com/business/2015/oct/09/wikileaks-releases-tpp-intellectual-property-rights-chapter
+    - title: Senate takes step toward Trans-Pacific Partnership approval
+      date: 2015-05-15
+      publication: PCWorld
+      link: http://www.pcworld.com/article/2923252/senate-takes-step-toward-transpacific-partnership-approval.html
+    - title: 'Buoyed By Net-Neutrality Win, Internet Activists Prepare Next Campaign'
+      date: 2015-03-01
+      publication: National Journal
+      link: http://www.nationaljournal.com/s/30934/buoyed-net-neutrality-win-internet-activists-prepare-next-campaign
+- campaign: 'nn'
+  pretty: 'Net Neutrality'
+  coverage:
+    - title: 'Not Everyone Thinks T-Mobile’s ‘Binge On’ Streaming Is a Good Idea'
+      date: 2015-11-13
+      publication: NBC News
+      link: http://www.nbcnews.com/tech/mobile/not-everyone-thinks-t-mobiles-binge-streaming-good-idea-n461066
+    - title: 'Evan Greer: defending net neutrality as a ‘basic principle’'
+      date: 2015-10-29
+      publication: The Irish Times
+      link: http://www.irishtimes.com/business/technology/evan-greer-defending-net-neutrality-as-a-basic-principle-1.2408903
+    - title: 'The Women Who Won Net Neutrality'
+      date: 2015-09-22
+      publication: Slate
+      link: http://www.slate.com/blogs/future_tense/2015/09/22/barbara_van_schewick_susan_crawford_and_other_women_who_won_net_neutrality.html
+    - title: 'How the net was won: Inside the war with US cable'
+      date: 2015-07-02
+      publication: Informa Telecoms & Media
+      link: http://www.iptv-news.com/2015/07/how-the-net-was-won-inside-fight-for-the-futures-war-with-us-cable/
+    - title: 'Net neutrality activists score landmark victory in fight to govern the internet'
+      date: 2015-02-26
+      publication: the guardian
+      link: http://www.theguardian.com/technology/2015/feb/26/net-neutrality-activists-landmark-victory-fcc
+    - title: 'F.C.C. Net Neutrality Rules Clear Hurdle as Republicans Concede to Obama'
+      date: 2015-02-24
+      publication: The New York Times
+      link: http://www.nytimes.com/2015/02/25/technology/path-clears-for-net-neutrality-ahead-of-fcc-vote.html
+    - title: 'Group from Mass. helped shift net neutrality fight'
+      date: 2015-02-19
+      publication: Boston Globe
+      link: https://www.bostonglobe.com/news/nation/2015/02/19/outsider-group-from-massachusetts-helped-shift-net-neutrality-fight/G08DYw0RiWFQEckTH2e3XI/story.html
+    - title: 'Net neutrality battle pitches activists and FCC against Big Cable and GOP'
+      date: 2015-02-02
+      publication: the guardian
+      link: http://www.theguardian.com/technology/2015/feb/02/net-neutrality-activists-fcc-big-cable-republicans
+    - title: 'Congress: You can’t fool the public on net neutrality'
+      date: 2015-01-27
+      publication: The Hill
+      link: http://thehill.com/blogs/congress-blog/technology/230776-congress-you-cant-fool-the-public-on-net-neutrality
+    - title: 'The fight for net neutrality: a right or a luxury?'
+      date: 2014-11-15
+      publication: The Telegram
+      link: http://www.telegram.com/article/20141115/NEWS/311159837
+    - title: 'Net neutrality: why Fight for the Future is hosting Internet Slowdown'
+      date: 2014-09-10
+      publication: the guardian
+      link: http://www.theguardian.com/media-network/media-network-blog/2014/sep/10/internet-slowdown-net-neutrality-reddit-mozilla-netflix
+- campaign: 'cispa'
+  pretty: 'CISPA is Back'
+  coverage:
+    - title: The President Revives an Old Debate About Privacy
+      date: 2013-02-14
+      publication: The New York Times
+      link: http://bits.blogs.nytimes.com/2013/02/14/the-president-revives-an-old-debate-about-privacy/
+    - title: Digital rights activists vow to fight CISPA
+      date: 2013-02-14
+      publication: The Washington Post
+      link: http://articles.washingtonpost.com/2013-02-14/business/37094234_1_cispa-cybersecurity-and-privacy-privacy-advocates
+    - title: Congress is Trying to Kill Privacy Again
+      date: 2013-02-13
+      publication: Rolling Stone
+      link: http://www.rollingstone.com/politics/news/congress-is-trying-to-kill-internet-privacy-again-20130213
+    - title: CISPA resurrected, privacy concerns continue
+      date: 2013-02-14
+      publication: Al Jazeera, The Stream
+      link: http://stream.aljazeera.com/story/201302150111-0022549
+    - title: 'OVERNIGHT TECH: <br/>Privacy groups prepare to hit back on cybersecurity bill'
+      date: 2013-02-14
+      publication: The Hill
+      link: http://thehill.com/blogs/hillicon-valley/technology/283349-overnight-tech-privacy-groups-prepare-to-hit-back-on-cybersecurity-bill
+    - title: Internet Activists Deliver Over 300,000 Anti-CISPA Signatures to Congress
+      date: 2013-02-14
+      publication: Mashable
+      link: http://mashable.com/2013/02/15/cispa-petitions/
+    - title: Controversial cybersecurity bill CISPA returns to Congress for debate, same as before
+      date: 2013-02-13
+      publication: The Verge
+      link: http://www.theverge.com/2013/2/13/3984442/cispa-back-in-congress
+    - title: Is CISPA the new SOPA? Groups harness social media to battle cyber-security bill in Congress
+      date: 2013-02-14
+      publication: Adweek
+      link: http://www.adweek.com/news/technology/cispa-new-sopa-147284
+    - title: Privacy groups protest CISPA bill.
+      date: 2013-02-14
+      publication: Computer World
+      link: http://www.computerworld.com/s/article/9236800/Privacy_groups_protest_CISPA_bill_?taxonomyId=17&pageNumber=2
+    - title: Obama, Cybersecurity, and the Return of CISPA
+      date: 2013-02-14
+      publication: ReadWriteWeb
+      link: http://readwrite.com/2013/02/14/obama-orders-cybersecurity-bill-cispa-returns
+    - title: 'State of the Web: Zombie CISPA Will Rise from the Grave (But Don’t Freak Out Yet)'
+      date: 2013-02-12
+      publicaton: Digital Trends
+      link: http://www.digitaltrends.com/opinion/why-you-have-crappy-expensive-internet-service/
+    - title: Activists will troll CISPA’s sponsors with 1 million tweets
+      date: 2013-02-14
+      publication: The Daily Dot
+      link: http://www.dailydot.com/politics/cispa-petition-signatures-1-million-tweets/

@@ -1,0 +1,218 @@
+.text-form-elements() {
+  border: none;
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  padding: 1.2rem;
+  width: 100%;
+  &::-webkit-input-placeholder {
+    font-size: 1.4rem;
+  }
+}
+
+.white-two-column {
+  color: @black;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0 auto 2rem;
+  max-width: @large-tablet;
+
+  @media screen and (min-width: @large-phone) {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+  }
+
+  img {
+    display: block;
+  }
+
+  h1 {
+    color: #2c3650;
+  }
+
+  label {
+    overflow: hidden;
+    height: 0;
+    display: block;
+  }
+
+  [for="country"] {
+    cursor: pointer;
+    margin: 1.5rem auto 0.5rem;
+    height: auto;
+    text-align: center;
+    &:hover, &:active, &:focus {
+      text-decoration: underline;
+    }
+    &.hidden {
+      height: 0;
+    }
+  }
+
+  #country {
+    display: none;
+    margin: 0 auto;
+    &.visible {
+      display: block;
+    }
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  input {
+    &[type="text"],
+    &[type="email"] {
+      .text-form-elements();
+    }
+    &[type="submit"] {
+      background-color: #f5315f;
+      border: none;
+      bottom: -6rem;
+      color: @white;
+      cursor: pointer;
+      font-family: @body-font;
+      font-size: 2.4rem;
+      font-weight: 900;
+      left: 0;
+      letter-spacing: 1px;
+      padding: 1.4rem 0;
+      position: absolute;
+      right: 0;
+      text-transform: uppercase;
+      transition: background-color 300ms, bottom 100ms;
+      width: 100%;
+      &:focus {
+        outline: 0;
+      }
+      &:hover {
+        background-color: darken(#f5315f, 10%);
+      }
+      &:active {
+        bottom: -6.1rem;
+      }
+    }
+  }
+
+  textarea {
+    .text-form-elements();
+  }
+
+  a {
+    color: @blue-850;
+    font-weight: bold;
+    text-decoration: none;
+    &:hover, &:active {
+      text-decoration: underline;
+    }
+  }
+
+  h1 {
+    color: @blue-850;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  blockquote {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.heart-progress-outer() {
+  background-color: @blue-850;
+  border-radius: 0.4rem;
+}
+
+.heart-progress-inner() {
+  background-image: linear-gradient(-45deg, hsla(0, 0%, 100%, .2) 25%, transparent 0, transparent 50%, hsla(0, 0%, 100%, .2) 0, hsla(0, 0%, 100%, .2) 75%, transparent 0, transparent), linear-gradient(90deg, #f1453b, firebrick);
+  background-size: 3.5rem 3.7rem, 100%;
+  border-radius: 0.5rem;
+}
+
+.signatures {
+  max-width: 34rem;
+  margin: 0 auto 1.5rem;
+
+  progress {
+    background-color: @blue-850;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    padding: 0.3rem;
+    vertical-align: middle;
+    width: 100%;
+    &::-webkit-progress-value {
+      .heart-progress-inner();
+    }
+    &::-moz-progress-bar {
+      .heart-progress-inner();
+    }
+    &::-ms-fill {
+      .heart-progress-inner();
+    }
+    &::-webkit-progress-bar {
+      .heart-progress-outer();
+    }
+  }
+
+  figcaption {
+    font-size: 1.4rem;
+    font-style: italic;
+  }
+}
+
+.progress-top {
+  text-align: left;
+}
+
+.progress-bottom {
+  text-align: right;
+}
+
+.petition-text {
+  background-color: #2F3C5B;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.petition-form {
+  background-color: #2A3857;
+  margin-bottom: 8rem;
+  padding: 1.5rem;
+  position: relative;
+
+  @media screen and (min-width: @large-phone) {
+    margin-bottom: 5rem;
+  }
+
+  select {
+    max-width: 100%;
+  }
+}
+
+.petition-box {
+  background-color: @blue-800;
+  color: @white;
+  margin: 2.5rem auto;
+
+  @media screen and (min-width: @large-phone) {
+    margin-top: 0;
+    min-width: 30rem;
+    width: 34rem;
+  }
+}
+
+.petition-info {
+  overflow: hidden;
+  padding: 0 1rem;
+}
