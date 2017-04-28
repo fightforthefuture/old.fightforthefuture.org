@@ -1,4 +1,18 @@
 fftf:
+  - id: btn
+    fire: false
+    url: https://www.battleforthenet.com/
+    image: '/img/projects/btn.png'
+    title: 'Battle for the Net'
+    description: 'The FCC is about to end net neutrality and let cable companies ruin the Internet. Here''s how to stop them.'
+
+  - id: ateams
+    fire: false
+    url: https://www.fightforthefuture.org/ateams/
+    image: '/img/projects/ateams.png'
+    title: 'A-teams'
+    description: 'We''re funding smart, creative activism to defend the world from Trump.'
+
   - id: getsafe
     fire: false
     url: https://www.letsgetsafe.org/
