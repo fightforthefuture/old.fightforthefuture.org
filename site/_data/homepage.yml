@@ -23,7 +23,7 @@ fftf:
   - id: sssearches
     fire: false
     url: https://actionnetwork.org/petitions/stop-social-media-strip-searches
-    image: '/img/projects/defendingrights.jpg'
+    image: '/img/projects/sssearches.jpg'
     title: 'Stop social media strip searches'
     description: 'New rules at the airport could force you to hand over your phone and passwords'
 
