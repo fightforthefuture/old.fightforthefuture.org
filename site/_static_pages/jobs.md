@@ -6,6 +6,7 @@ class: jobs
 * [Front-End Software Engineer](#front-end-software-engineer)
 * [Campaign Strategist / Manager](#campaign-strategist--manager)
 * [Digital Growth Strategist](#digital-growth-strategist)
+* [A-Teams Contract Software Engineer](#ateams-contract-software-engineer)
 
 ## Brief
 
@@ -163,3 +164,58 @@ The team will be 100% remote-no need to commute or relocate. If you’re interes
 ## To apply
 
 To apply, fill out the application [here](https://docs.google.com/forms/d/e/1FAIpQLSd2SYlDGFnDblUmqBh6qpyVnaSH-6F80B8DroMEUkFU3fuDtg/viewform). Show us that you excel at the things we’re looking for. If you like, include links to or samples of your writing—ideally in situations where you’re writing to persuade a group of people too. Include as much relevant information as possible: significant things you’ve done, projects you’ve worked on, etc. Being well-rounded is a plus, so don’t exclude significant skills or achievements just because they aren’t activism related (e.g. starting a business, or being a musician).
+
+
+
+***
+
+# A-Teams Contract Software Engineer
+
+## ABOUT THE ROLE
+
+Fight for the Future is looking for a software engineer to match with our newly launched A-Teams program on a part-time, short-term contract basis. [A-Teams](https://www.fightforthefuture.org/ateams/) are special-ops teams for activism that bring together the skills needed to tap into the Internet as a political force in these somewhat desperate times. We have some exciting teams coming together already, working on issues from healthcare to prison reform. We’re looking for developers who could join a team for a month (and possibly more) to lead the web development side of the team’s digital campaigning work. This is more than a simple coding or campaigning opportunity. This is a position for someone who understands the threats our country faces, can jump into a campaign, and play a lead role in creating the web content needed for political change. We’re looking for contract software engineers who are available now and also for future A-Teams opportunities.
+
+## ABOUT YOU
+
+* You’re a full-stack coder who can make things work and work well for thousands of users.
+* You could handle some design, and while your own design choices don’t have to look fancy or highly polished, the result should be crafted, professional and ready to put in front of thousands of people.
+* You can faithfully implement others’ designs and make good decisions about layout, typography, and color when needed.
+* You can build high quality user interaction with intuitive prompts, modals, clear buttons, etc, spotting and fixing UI problems as you go.
+* You are familiar with current product innovations, messaging apps, social media, UI/UX, and design.
+* You understand rapid prototyping and release, user adoption, and A/B testing, and you can navigate cost/benefits analysis of various technical solutions, languages, and architecture-based decisions.
+* You can think on your feet, be organized, optimize project plans and workload, and manage/delegate the different pieces of projects.
+* You enjoy a fast-paced environment and can pivot quickly as needed to make changes based on changing outside requirements.
+* You like brainstorming ways to simplify the scope of a project to fit a given timeline (e.g. if the team asks for something crazy/hard, maybe there’s a much easier way to achieve a similar result) and you’re always looking for those kinds of lovely simplifications.
+* You’re happy doing some self-QA and tweaking until a user experience works reliably and feels nice.
+* You’re good at thinking into and around a problem, exposing corner cases and potential issues to non-technical collaborators. 
+
+## WHAT YOU'LL BE BUILDING:
+
+* Flawless HTML/CSS and paired with clean, modern design and intuitive UX to send powerful messages out into the world and apply political pressure on your team’s campaign.
+* Solutions that achieve our goals by leveraging and customizing existing services (CRM, publishing tools, etc).
+* Innovative or unconventional tools to effectively mobilize a large audience.
+
+## THINGS THAT YOU MIGHT LIKE ABOUT THIS JOB:
+
+* You can do this work from anywhere.
+* You’ll join a committed team of activists (an A-Team) who will be working toward important political change in the world
+* Be a hero to many. The “yeah, I made that” small talk in bars is fun.
+
+## REQUIREMENTS:
+
+* Experience writing modern HTML/CSS with responsive design techniques and awareness of common cross-browser problems.
+* An understanding of client-side JavaScript - AJAX, handling events, DOM manipulation and cross-browser compatibility.
+* Knowledge of progressive enhancement strategies and ability to create simple sites that can function with JavaScript disabled or seamlessly integrate subtle CSS transitions for a refined user experience.
+* Proven ability to do clean and classy design when needed.
+* Ability to make good UI/UX decisions and spot problems.
+* A commitment to social change. You are frustrated with the direction of the world and want to do something about it!
+* Availability for roughly 20 hours/ week (these needs could vary)
+
+## BONUS POINTS FOR:
+
+* Having been a leader—of anything—especially online, especially tech-related.
+* Experience with activism, resistance, creative and positive troublemaking, or any kind of fiery provocative work in any area.
+* Having successfully launched a great product working in a small team. Having successfully worked on large-scale products with millions of users.
+* Having written strong, clear, concise arguments on the web
+
+To apply, fill out the application [here](https://docs.google.com/a/fightforthefuture.org/forms/d/14UcUeOzMvJlSs0TlTZrYemUkMbliCapl386_YObliIA/edit). You'll need to include a links to your resume and links to your any public repos, sample code (3-4 would be helpful, especially helpful if activist in nature) and good examples of UI, design, and/or HTML/CSS and UI/UX or design work.
