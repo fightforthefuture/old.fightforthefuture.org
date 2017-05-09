@@ -6,7 +6,7 @@ class: jobs
 * [Front-End Software Engineer](#front-end-software-engineer)
 * [Campaign Strategist / Manager](#campaign-strategist--manager)
 * [Digital Growth Strategist](#digital-growth-strategist)
-* [A-Teams Contract Software Engineer](#ateams-contract-software-engineer)
+* [A-Teams Contract Software Engineer](#a-teams-contract-software-engineer)
 
 ## Brief
 
@@ -164,8 +164,6 @@ The team will be 100% remote-no need to commute or relocate. If you’re interes
 ## To apply
 
 To apply, fill out the application [here](https://docs.google.com/forms/d/e/1FAIpQLSd2SYlDGFnDblUmqBh6qpyVnaSH-6F80B8DroMEUkFU3fuDtg/viewform). Show us that you excel at the things we’re looking for. If you like, include links to or samples of your writing—ideally in situations where you’re writing to persuade a group of people too. Include as much relevant information as possible: significant things you’ve done, projects you’ve worked on, etc. Being well-rounded is a plus, so don’t exclude significant skills or achievements just because they aren’t activism related (e.g. starting a business, or being a musician).
-
-
 
 ***
 
