@@ -216,4 +216,4 @@ Fight for the Future is looking for a software engineer to match with our newly 
 * Having successfully launched a great product working in a small team. Having successfully worked on large-scale products with millions of users.
 * Having written strong, clear, concise arguments on the web
 
-To apply, fill out the application [here}(https://docs.google.com/a/fightforthefuture.org/forms/d/e/1FAIpQLSdhukctftrAMitmTMxlbKdiLNAGjQmavI15ppwZ3ByYt8E2gA/viewform?c=0&w=1&usp=send_form). You'll need to include a links to your resume and links to your any public repos, sample code (3-4 would be helpful, especially helpful if activist in nature) and good examples of UI, design, and/or HTML/CSS and UI/UX or design work.
+To apply, fill out the application [here](https://docs.google.com/a/fightforthefuture.org/forms/d/e/1FAIpQLSdhukctftrAMitmTMxlbKdiLNAGjQmavI15ppwZ3ByYt8E2gA/viewform?c=0&w=1&usp=send_form). You'll need to include a links to your resume and links to your any public repos, sample code (3-4 would be helpful, especially helpful if activist in nature) and good examples of UI, design, and/or HTML/CSS and UI/UX or design work.
