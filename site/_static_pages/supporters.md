@@ -56,13 +56,6 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 : ---
   These individuals and organizations contribute $25,000 or more. Amazing!
 
-  ![CEA](/img/page/supporters/avatars/cea.png)
-  : ### [CEA](http://www.cta.tech/)
-
-    Consumer Electronics Association helps make sure Congress doesn’t kill important new technologies with misguided laws. We love that!
-
-  ---
-
   ![DuckDuckGo](/img/page/supporters/avatars/duckduckgo.png)
   : ### [DuckDuckGo](https://duckduckgo.com/)
 
