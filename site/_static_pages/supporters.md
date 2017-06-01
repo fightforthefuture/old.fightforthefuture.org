@@ -73,6 +73,13 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
     Candid user comments are what make Yelp tick, so Yelp supports our campaigns for online free speech.
 
   ---
+  
+  ![Brad Feld](/img/page/supporters/avatars/brad.png)
+  : ### [Brad Feld](https://twitter.com/bfeld)
+
+    As co-founder of [Foundry Group](http://www.foundrygroup.com/) and [Techstars](http://www.techstars.com/), Brad has been a great ally in the fight for an open Internet.
+    
+  ---
 
   ![Namecheap](/img/page/supporters/avatars/namecheap.png)
   : ### [Namecheap](http://www.namecheap.com)
@@ -156,8 +163,6 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
   * [![Crowdtilt](/img/page/supporters/avatars/cr.jpg) Crowdtilt](https://www.crowdtilt.com/)
 
-  * [![HotSpotShield](/img/page/supporters/avatars/hotspotshield.png) HotSpotShield](http://www.hotspotshield.com/)
-
   * [![Thunderclap](/img/page/supporters/avatars/thunder.gif) Thunderclap](https://www.thunderclap.it/)
 
   * [![TestPac](/img/page/supporters/avatars/testpac.png) TestPac](http://testpacpleaseignore.org/)
@@ -182,9 +187,11 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   
   * [![Liberty VPS](/img/page/supporters/avatars/LibertyVPS.png) Liberty VPS](https://libertyvps.net/)
   
-  * [![Best VPN Analysis](/img/page/supporters/avatars/bestvpnanalysis.png) Best VPN Analysis](http://www.bestvpnanalysis.com/)
-
-  * [![thebestvpn](/img/page/supporters/avatars/thebestvpn.png) thebestvpn](https://thebestvpn.com/)
+  * [![Best VPN Analysis](/img/page/supporters/avatars/bestvpnanalysis.png) Best VPN Analysis](https://thebestvpn.com/)
+  
+  * [![My Private Network](/img/page/supporters/avatars/mpn.png) My Private Network](https://www.my-private-network.co.uk)
+  
+  * [![Top 10 VPN](/img/page/supporters/avatars/TTVPN.png) Top 10 VPN](https://www.top10vpn.com)
  
 ---
 
@@ -225,8 +232,6 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   These individuals and organizations have supported us in the past. We are so thankful!
 
   * [![Matt Mullenweg](/img/page/supporters/avatars/matt.jpg) Matt Mullenweg](http://ma.tt/)
-
-  * [![Brad Feld](/img/page/supporters/avatars/brad.png) Brad Feld](https://twitter.com/bfeld)
 
   * [![Craig Newmark](/img/page/supporters/avatars/craig.png) Craig Newmark](https://twitter.com/craignewmark)
 
