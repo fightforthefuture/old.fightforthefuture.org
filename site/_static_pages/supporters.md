@@ -189,9 +189,9 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   
   * [![Best VPN Analysis](/img/page/supporters/avatars/bestvpnanalysis.png) Best VPN Analysis](https://thebestvpn.com/)
   
-  * [![My Private Network](/img/page/supporters/avatars/mpn2.png) My Private Network](https://www.my-private-network.co.uk)
+  * [![My Private Network](/img/page/supporters/avatars/mpn2.jpg) My Private Network](https://www.my-private-network.co.uk)
   
-  * [![Top 10 VPN](/img/page/supporters/avatars/TTVPN2.png) Top 10 VPN](https://www.top10vpn.com)
+  * [![Top 10 VPN](/img/page/supporters/avatars/TTVPN2.jpg) Top 10 VPN](https://www.top10vpn.com)
  
 ---
 
