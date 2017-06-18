@@ -113,7 +113,7 @@ Our accomplishments are testament to the notion that with the right approach and
 [eg1]: http://twitter.com/evan_greer
 [eg2]: http://www.risingtidenorthamerica.org/
 [eg3]: http://www.freetarek.com/
-[sg1]: www.linkedin.com/in/sarah-roth-gaudette-4a432b5
+[sg1]: https://www.linkedin.com/in/sarah-roth-gaudette-4a432b5
 [jl0]: /img/page/aboutus/teampic/jeff.png
 [jl1]: http://rubbingalcoholic.com/
 [jl2]: http://blog.rubbingalcoholic.com/
