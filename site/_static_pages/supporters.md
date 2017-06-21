@@ -187,7 +187,7 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   
   * [![Liberty VPS](/img/page/supporters/avatars/LibertyVPS.png) Liberty VPS](https://libertyvps.net/)
   
-  * [![Best VPN Analysis](/img/page/supporters/avatars/bestvpnanalysis.png) Best VPN Analysis](https://thebestvpn.com/)
+  * [![Best VPN Analysis](/img/page/supporters/avatars/bestvpnanalysis.png) Best VPN Analysis](http://www.bestvpnanalysis.com/)
   
   * [![My Private Network](/img/page/supporters/avatars/mpn2.jpg) My Private Network](https://www.my-private-network.co.uk)
   
