@@ -6,7 +6,8 @@ class: jobs
 * [Front-End Software Engineer](#front-end-software-engineer)
 * [Campaign Strategist / Manager](#campaign-strategist--manager)
 * [Digital Growth Strategist](#digital-growth-strategist)
-* [A-Teams Contract Software Engineer](#a-teams-contract-software-engineer)
+* [A-Teams Technical Co-founder](#a-teams-techncial-co-founder)
+* [A-Teams Political Strategist Co-founder](#a-teams-political-strategist-co-founder)
 
 ## Brief
 
@@ -136,6 +137,7 @@ To apply, fill out the application [here](https://docs.google.com/forms/d/e/1FAI
 # Digital Growth Strategist
 
 ## Responsibilities
+
 * Create and own our growth strategy / goals and work across our team to execute.
 * Be the brain on growth and help us to make the most of our biggest campaign moments.
 * Develop, conceptualize, write, and compose images, headlines, emails, actions, and any other related materials for rapid response campaigns.
@@ -144,6 +146,7 @@ To apply, fill out the application [here](https://docs.google.com/forms/d/e/1FAI
 * A/B test our way to excellence.
 
 ## Desired Skills & Experience
+
 * Rare mix of creativity and analytical thinking, developing innovative engagement tactics with a focus on the key metrics and analytics.
 * Proven ability to both work independently but also to get others to do what is needed to further your goals / not get stymied.
 * Deep understanding of growth strategies including that you are up to date on latest best practices, 3rd party services etc. with a network to draw from as needed.
@@ -183,7 +186,8 @@ You should also have strong political attitudes about power, freedom, fairness, 
  
 You will work alongside a similarly high-functioning and creative person with concrete experience shifting political reality, e.g. a former Congressional staffer, political campaigner, or lobbyist. We’ll work with you both to develop and execute plans. 
 
-## What you'll do:
+## What you'll do
+
 * Make a lot of awesome responsive websites, quickly.
 * Creatively use tech to mobilize people around specific political objectives.
 * Make a lot of simple, novel MVPs to support these plans.
@@ -191,7 +195,8 @@ You will work alongside a similarly high-functioning and creative person with co
 * Make awesome moments in the history of the Internet and politics.
 * Slowly build a new organization or movement (if it goes well!)
 
-## What we’re looking for:
+## What we’re looking for
+
 * You can write clear instructions, prompts, and documentation.
 * You can speak with a strong, credible voice online.
 * You can design in code, whenever you need to.
@@ -231,7 +236,8 @@ You should also have some political attitudes about power, freedom, fairness, or
  
 You will work alongside a creative, multidisciplinary software developer with all of the skills needed to leverage the Internet to reach and organize millions. We’ll work with you both to develop and execute plans. 
 
-## What you’ll do:
+## What you’ll do
+
 * Provoke a robust public debate in chosen political areas by creating content (writing, video, web) and new realities (such as sign-on letters, events, rallies, protests, alliances, etc.) that support your position.
 * Look for cases where the public wants a certain policy, but where corruption or political inertia is holding it back.
 * Identify the forces and alliances that, if mobilized, could break through the corruption/inertia and achieve a political win.
@@ -240,7 +246,8 @@ You will work alongside a creative, multidisciplinary software developer with al
 * Throughout every stage in this process, you’re constantly looking for ways to use the Internet, politics, PR, and policy to increase the power and efficacy of your small team.
 * Recruit additional A-Teams leaders and volunteers as needed.
  
-## What we’re looking for:
+## What we’re looking for
+
 * You have a strong sense of how state and federal politics works.
 * That said, you can think outside the box, see opportunities that others write off, and make new things happen.
 * You understand convention but aren’t bound by it.
