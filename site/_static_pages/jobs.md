@@ -215,11 +215,11 @@ You will work alongside a similarly high-functioning and creative person with co
  
 This is a full time contract position renewed on a monthly basis. Note: since this is a start-up, ongoing funding is not guaranteed, but it’s likely we can provide ongoing funding if your work goes well and demonstrates impact.
  
-To apply, please send a cover letter, résumé, and links to e to ateams@figthtforthefuture.org and include where you heard about the opportunity.
+To apply, please send a cover letter, résumé, and links to ateams@figthtforthefuture.org and include where you heard about the opportunity.
 
 ***
 
-# A-teams Political Strategist Co-founder
+# A-Teams Political Strategist Co-founder
 ## Political operative (lobbyist/staffer/PR) who is ready to play the outside game 
 
 Fight for the Future is a small Internet freedom activism team with big victories to its credit, such as organizing the protests that defeated SOPA/PIPA, and winning net neutrality rules in 2014. 
