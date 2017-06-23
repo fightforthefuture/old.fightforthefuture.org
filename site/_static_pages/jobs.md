@@ -17,7 +17,7 @@ Fight for the Future is a non-profit organization whose mission is to ensure tha
 
 # Front-End Software Engineer
 
-## (A UX expert and engineer, for defending the Internet)
+## A UX expert and engineer, for defending the Internet
 
 ## ABOUT THE ROLE
 
@@ -171,12 +171,11 @@ To apply, fill out the application [here](https://docs.google.com/forms/d/e/1FAI
 ***
 
 # A-Teams Technical Co-founder
-
-## (Full stack developer, product-crafter, troublemaker for a better world.) 
+## Full stack developer, product-crafter, troublemaker for a better world. 
 
 Fight for the Future is a small Internet freedom activism team with big victories to its credit, such as organizing the protests that defeated SOPA/PIPA, and winning net neutrality rules in 2014. 
  
-Our new initiative [A-Teams](https://www.fightforthefuture.org/ateams/)aims to create new, two-person teams that can achieve surprising political wins in the issue area of their choice, by combining political strategy and Internet savvy.
+Our new initiative [A-Teams](https://www.fightforthefuture.org/ateams/) aims to create new, two-person teams that can achieve surprising political wins in the issue area of their choice, by combining political strategy and Internet savvy.
  
 We are seeking the founding technical leader for one such “A-Team.” 
  
@@ -221,12 +220,11 @@ To apply, please send a cover letter, résumé, and links to e to ateams@figthtf
 ***
 
 # A-teams Political Strategist Co-founder
-
-## (Political operative (lobbyist/staffer/PR) who is ready to play the outside game) 
+## Political operative (lobbyist/staffer/PR) who is ready to play the outside game 
 
 Fight for the Future is a small Internet freedom activism team with big victories to its credit, such as organizing the protests that defeated SOPA/PIPA, and winning net neutrality rules in 2014. 
  
-Our new initiative [A-Teams](https://www.fightforthefuture.org/ateams/)aims to create new, two-person teams that can achieve surprising political wins in the issue area of their choice, by combining political strategy and Internet savvy.
+Our new initiative [A-Teams](https://www.fightforthefuture.org/ateams/) aims to create new, two-person teams that can achieve surprising political wins in the issue area of their choice, by combining political strategy and Internet savvy.
  
 We are seeking the founding political strategist and campaign director for one such “A-Team.” 
  
