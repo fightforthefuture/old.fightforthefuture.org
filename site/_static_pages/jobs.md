@@ -6,7 +6,7 @@ class: jobs
 * [Front-End Software Engineer](#front-end-software-engineer)
 * [Campaign Strategist / Manager](#campaign-strategist--manager)
 * [Digital Growth Strategist](#digital-growth-strategist)
-* [A-Teams Technical Co-founder](#a-teams-techncial-co-founder)
+* [A-Teams Technical Co-founder](#a-teams-technical-co-founder)
 * [A-Teams Political Strategist Co-founder](#a-teams-political-strategist-co-founder)
 
 ## Brief
