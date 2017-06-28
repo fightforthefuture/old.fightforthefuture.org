@@ -215,7 +215,7 @@ You will work alongside a similarly high-functioning and creative person with co
  
 This is a full time contract position renewed on a monthly basis. Note: since this is a start-up, ongoing funding is not guaranteed, but it’s likely we can provide ongoing funding if your work goes well and demonstrates impact.
  
-To apply, please send a cover letter, résumé, and links to ateams@fightforthefuture.org and include where you heard about the opportunity.
+To apply, please send a cover letter, résumé, and links to [ateams@fightforthefuture.org](mailto:ateams@fightforthefuture.org) and include where you heard about the opportunity.
 
 ***
 
@@ -267,4 +267,4 @@ You will work alongside a creative, multidisciplinary software developer with al
  
 This is a full time contract position renewed on a monthly basis. Note: since this is a start-up, ongoing funding is not guaranteed, but it’s likely we can provide ongoing funding if your work goes well and demonstrates impact.
  
-To apply, please send a cover letter and résumé to ateams@fightforthefuture.org and include where you heard about the opportunity.
+To apply, please send a cover letter and résumé to [ateams@fightforthefuture.org](mailto:ateams@fightforthefuture.org) and include where you heard about the opportunity.
