@@ -1,4 +1,11 @@
 fftf:
+  - id: july12
+    fire: false
+    url: https://www.battleforthenet.com/july12/
+    image: '/img/projects/jul12.jpg'
+    title: 'Internet-Wide Day of Action'
+    description: 'The FCC wants to destroy net neutrality. On July 12th, the Internet will come together to stop them.'
+
   - id: btn
     fire: false
     url: https://www.battleforthenet.com/
@@ -13,6 +20,20 @@ fftf:
     title: 'A-teams'
     description: 'We''re funding smart, creative activism to defend the world from Trump.'
 
+  - id: comcastturf
+    fire: false
+    url: https://www.comcastroturf.com/
+    image: '/img/projects/comcastt.jpg'
+    title: 'Search for a fake comment submitted in your name'
+    description: 'Pro-Comcast, anti-net neutrality forces seem to be submitting fake comments. Help us prove it, and stop them.'
+
+  - id: billboard
+    fire: false
+    url: https://donate.fightforthefuture.org/campaigns/you-betrayed-us-billboards/#page-1
+    image: '/img/projects/billboards.jpg'
+    title: 'Hold corrupt politicians accountable'
+    description: 'We''re crowdfunding to put up billboards with the name of every lawmaker who voted to sell out our Internet privacy to giant corporations.'
+
   - id: getsafe
     fire: false
     url: https://www.letsgetsafe.org/
@@ -26,6 +47,13 @@ fftf:
     image: '/img/projects/sssearches.jpg'
     title: 'Stop social media strip searches'
     description: 'New rules at the airport could force you to hand over your phone and passwords'
+
+  - id: sendbill
+    fire: false
+    url: https://www.heyfcc.org/
+    image: '/img/projects/heyfcc.jpg'
+    title: 'Send the FCC an angry letter'
+    description: 'Print your bill, remove your personal info, write a message, and snap a selfie with it. We''ll deliver your message to the FCC!'
 
   - id: defendingrights
     fire: false
@@ -54,6 +82,13 @@ fftf:
     image: '/img/projects/hugsch.png'
     title: '#HugsForChelsea'
     description: 'The Internet is sending hugs to Chelsea Manning.'
+
+  - id: tweetfors
+    fire: false
+    url: https://www.tweetforsnowden.org/
+    image: '/img/projects/tweetsnowden.jpg'
+    title: 'Tweet for Snowden'
+    description: 'Edward Snowden risked everything to expose illegal government spying. Now he needs our help. Join the #PardonSnowden Tweet Storm.'
 
   - id: rocktpp
     fire: false
