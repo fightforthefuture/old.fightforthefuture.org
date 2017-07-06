@@ -177,7 +177,7 @@ Fight for the Future is a small Internet freedom activism team with big victorie
  
 Our new initiative [A-Teams](https://www.fightforthefuture.org/ateams/) aims to create new, two-person teams that can achieve surprising political wins in the issue area of their choice, by combining political strategy and Internet savvy.
  
-We are seeking the founding technical leader for one such “A-Team.” 
+We are seeking the founding technical leader for one such “A-Team.” As the technical leader, you will focus on a political issue, such as climate change, prison reform, health care, or voting rights. You and your A-Team will run a campaign to pass strong policy on your issue or stop a disastrous bill from becoming law. 
  
 You should be supremely comfortable making and launching novel and creative additions to people’s online life, whether for web, mobile, or walled gardens like Facebook. You should love the rush of launching something on a whim, and seeing it blow up in places like Product Hunt, HN, or reddit.
  
@@ -215,7 +215,7 @@ You will work alongside a similarly high-functioning and creative person with co
  
 This is a full time contract position renewed on a monthly basis. Note: since this is a start-up, ongoing funding is not guaranteed, but it’s likely we can provide ongoing funding if your work goes well and demonstrates impact.
  
-To apply, please send a cover letter, résumé, and links to [ateams@fightforthefuture.org](mailto:ateams@fightforthefuture.org) and include where you heard about the opportunity.
+To apply, please send a résumé, links to samples, and a cover letter which explains why you want to do mission-based work to [ateams@fightforthefuture.org](mailto:ateams@fightforthefuture.org). Please include where you heard about the opportunity.
 
 ***
 
@@ -226,7 +226,7 @@ Fight for the Future is a small Internet freedom activism team with big victorie
  
 Our new initiative [A-Teams](https://www.fightforthefuture.org/ateams/) aims to create new, two-person teams that can achieve surprising political wins in the issue area of their choice, by combining political strategy and Internet savvy.
  
-We are seeking the founding political strategist and campaign director for one such “A-Team.” 
+We are seeking the founding political strategist and campaign director for one such “A-Team.” As the A-Team’s political strategist, you will focus on a political issue, such as climate change, prison reform, health care, or voting rights. You and your A-Team will run a campaign to pass strong policy on your issue or stop a disastrous bill from becoming law. 
  
 You should have a strong, insider-level understanding of the political process, but with an outsider’s optimism, creativity, and ability to speak about issues in ways that resonate with other outsiders, such as the public or any key constituency you need to move.
  
@@ -236,7 +236,8 @@ You will work alongside a creative, multidisciplinary software developer with al
 
 ## What you’ll do
 
-* Provoke a robust public debate in chosen political areas by creating content (writing, video, web) and new realities (such as sign-on letters, events, rallies, protests, alliances, etc.) that support your position.
+* Provoke a robust public debate in chosen political area by creating content (writing, video, web) and new realities (such as sign-on letters, events, rallies, protests, alliances, etc.) that support your position.
+* You have experience working on issue-based advocacy campaigns.
 * Look for cases where the public wants a certain policy, but where corruption or political inertia is holding it back.
 * Identify the forces and alliances that, if mobilized, could break through the corruption/inertia and achieve a political win.
 * Mobilize those forces and alliances, again and again, honing your skill over time.
