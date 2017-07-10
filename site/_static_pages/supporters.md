@@ -194,6 +194,8 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   * [![My Private Network](/img/page/supporters/avatars/mpn2.jpg) My Private Network](https://www.my-private-network.co.uk)
   
   * [![Top 10 VPN](/img/page/supporters/avatars/TTVPN2.jpg) Top 10 VPN](https://www.top10vpn.com)
+  
+  * [![Cypherpunk Privacy](/img/page/supporters/avatars/cypherpunk.jpg) Cypherpunk Privacy](https://cypherpunk.com/)
  
 ---
 
