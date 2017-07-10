@@ -10,7 +10,7 @@ Fight for the Future is committed to protecting your privacy. If you sign onto o
 
 We do not sell our email list. We do not share or distribute your contact information unless specifically stated so.
 
-If you sign up to volunteer&mdash;for example by submitting your phone number in a volunteer signup field&mdash;we may share your contact information with partner organizations, third party services, or other volunteers, for the purposes of volunteer coordination.
+If you sign up to volunteer&mdash;for example by submitting your phone number in a volunteer signup field&mdash;we may share your contact information with partner organizations, third party services, or other volunteers, for the purposes of volunteer coordination only.
 
 For petitions, open letters, or similar public communications that you’ve signed or completed, we treat your name, city, state, and comments as public information. We will not make your street address publicly available, but we may transmit it to public officials as part of a petition or open letter, and they may make it public.
 
