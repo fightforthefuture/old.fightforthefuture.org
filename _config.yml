@@ -284,6 +284,12 @@ prose:
               value: 'ateams'
             - name: 'townhall'
               value: 'townhall'
+            - name: 'briteverify-invalid'
+              value: 'briteverify-invalid'
+            - name: 'briteverify-disposable'
+              value: 'briteverify-disposable'
+            - name: 'briteverify-role-address'
+              value: 'briteverify-role-address'
       - name: 'search_title'
         field:
           element: 'text'
