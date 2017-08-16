@@ -225,10 +225,10 @@ module.exports = function (grunt) {
       deploy: {
         options: {
           rewriter: function (url) {
-            var
-              stamp = Date.now();
+            console.log(url, '<%=site.url %>', (new RegExp('^<%=site.url %>')).test(url));
+
             if (url[0] === '/' || (new RegExp('^<%=site.url %>')).test(url)) {
-              return 'https://' + env.get('aws_s3_bucket') + url + '?' + stamp;
+              return 'https://' + env.get('aws_s3_bucket') + url + '?' + Date.now();
             } else {
               return url;
             }
