@@ -9,15 +9,13 @@
   "env": {
     "TUMBLR_API_KEY": {
       "description": "API key for generating news posts",
-      "value": "secret"
+      "required": true
     },
     "AWS_ACCESS_KEY": {
-      "description": "",
-      "value": "secret"
+      "required": true
     },
     "AWS_SECRET_KEY": {
-      "description": "",
-      "value": "secret"
+      "required": true
     },
     "AWS_S3_BUCKET": {
       "description": "Where the images we snag from tumblr go",
@@ -44,8 +42,8 @@
       "value": "https://actionnetwork.org"
     },
     "ACTIONNETWORK_APIKEY": {
-      "description": "fftf API key for Action Network",
-      "value": "f944d034faa1131435eef72ca0bfcdf2"
+      "description": "API key for Action Network",
+      "required": true
     }
   },
   "addons": [
