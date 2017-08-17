@@ -1,4 +1,9 @@
-{% assign share_img = page.share_image | uri_escape %}
+{% if page.share_image contains 'http' %}
+  {% assign share_img = page.share_image | uri_escape %}
+{% else %}
+  {% assign share_img = site.url | append: page.share_image | uri_escape %}
+{% endif %}
+
 {% assign dims = page.share_image_dims | split: " × " %}
 
 <meta charset="utf-8">
