@@ -227,7 +227,7 @@ module.exports = function (grunt) {
           rewriter: function (url) {
             var
               stamp = Date.now();
-            if (url[0] === '/' || (new RegExp('^<%=site.url %>')).test(url)) {
+            if (url[0] === '/' || /^<%=site.url %>/.test(url)) {
               return 'https://' + env.get('aws_s3_bucket') + url + '?' + stamp;
             } else {
               return url;
