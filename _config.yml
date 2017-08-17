@@ -34,7 +34,7 @@ defaults:
       path: ''
     values:
       layout: 'default'
-      share_image: /img/share/fftf-share.jpg
+      share_image: https://s3.fightforthefuture.org/img/share/fftf-share.jpg
   - scope:
       path: ''
       type: petitions
