@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/fightforthefuture/fightforthefuture.github.io.svg?branch=production)](https://travis-ci.org/fightforthefuture/fightforthefuture.github.io)
+
 # fightforthefuture.org  
 
 ## Campaigners
