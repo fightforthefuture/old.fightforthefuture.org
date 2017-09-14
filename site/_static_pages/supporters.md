@@ -8,11 +8,7 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
 **Foundations**
 : ---
-  Fight for the Future and Fight for the Future Education Fund have received support from several amazing foundations:
-
-  * [![The Shuttleworth Foundation](/img/page/supporters/avatars/shutter.png) The Shuttleworth Foundation](http://www.shuttleworthfoundation.org/)
-
-  * [![Proteus Fund](/img/page/supporters/avatars/proteus.png) Proteus Fund](http://www.proteusfund.org/)
+  Our 501(c)3, Fight for the Future Education Fund, has received support from several amazing foundations:
 
   * [![Ford Foundation](/img/page/supporters/avatars/ford.png) Ford Foundation](http://www.fordfoundation.org/)
 
@@ -22,8 +18,6 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
   * [![Knight Foundation](/img/page/supporters/avatars/knight.png) Knight Foundation](http://www.knightfoundation.org/)
 
-  * [![Voqal](/img/page/supporters/avatars/voqal.jpeg) Voqal](http://voqal.org/)
-
   * [![Open Society Foundations](/img/page/supporters/avatars/OSF.jpg) Open Society Foundations](https://www.opensocietyfoundations.org/)
  
   * [![State Infrastructure Fund](/img/page/supporters/avatars/publicinterestprojects.png) State Infrastructure Fund](http://www.publicinterestprojects.org/funds-projects/partner-and-collaborative-funds/state-infrastructure-fund/)
@@ -31,10 +25,16 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   * [![craigconnects](/img/page/supporters/avatars/craigconnects.png) craigconnects](http://craigconnects.org/)
   
   * [![Ashoka](/img/page/supporters/avatars/ashoka.png) Ashoka](https://www.ashoka.org/)
+: ---
+  Our 501(c)4, Fight for the Future, has received support from the following foundations:
+
+  * [![The Shuttleworth Foundation](/img/page/supporters/avatars/shutter.png) The Shuttleworth Foundation](http://www.shuttleworthfoundation.org/) 
+
+  * [![Voqal](/img/page/supporters/avatars/voqal.jpeg) Voqal](http://voqal.org/)
+  
+  * [![Proteus Fund](/img/page/supporters/avatars/proteus.png) Proteus Fund](http://www.proteusfund.org/)
 
 ---
-
-
 
 **Gamechangers**
 : ---
