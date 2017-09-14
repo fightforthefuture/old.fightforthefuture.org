@@ -8,7 +8,7 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
 **Foundations**
 : ---
-  Our 501(c)3, Fight for the Future Education Fund, has received support from several amazing foundations:
+  Our 501(c)3, [Fight for the Future Education Fund](https://www.fftfef.org/), has received support from these amazing foundations:
 
   * [![Ford Foundation](/img/page/supporters/avatars/ford.png) Ford Foundation](http://www.fordfoundation.org/)
 
@@ -26,7 +26,7 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   
   * [![Ashoka](/img/page/supporters/avatars/ashoka.png) Ashoka](https://www.ashoka.org/)
 : ---
-  Our 501(c)4, Fight for the Future, has received support from the following foundations:
+  Our 501(c)4, Fight for the Future, has received support from these rock star foundations:
 
   * [![The Shuttleworth Foundation](/img/page/supporters/avatars/shutter.png) The Shuttleworth Foundation](http://www.shuttleworthfoundation.org/) 
 
