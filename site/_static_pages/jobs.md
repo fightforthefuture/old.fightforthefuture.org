@@ -1,6 +1,8 @@
 ---
 layout: classic
 class: jobs
+social_title: "Want a job changing politics, forever?"
+social_description: "Fight for the Future is hiring developers, designers, activists/lobbyists, and product managers to build longshot campaigns that tackle the most pressing issues in the world. Work from anywhere."
 ---
 * [Jobs](#)
 * [Political Product Director](#political-product-director)
