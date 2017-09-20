@@ -1,6 +1,7 @@
 ---
 layout: classic
 class: jobs
+social_description: "Hello world."
 ---
 * [Jobs](#)
 * [Front-End Software Engineer](#front-end-software-engineer)
