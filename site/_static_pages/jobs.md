@@ -3,6 +3,7 @@ layout: classic
 class: jobs
 ---
 * [Jobs](#)
+* [Political Product Director](#political-product-director)
 * [Front-End Software Engineer](#front-end-software-engineer)
 * [Campaign Strategist / Manager](#campaign-strategist--manager)
 * [Digital Growth Strategist](#digital-growth-strategist)
@@ -13,6 +14,91 @@ class: jobs
 ## Brief
 
 Fight for the Future is a non-profit organization whose mission is to ensure that the web continues to hold freedom of expression and creativity at its core. We primarily work on high value, fearless projects that can be seen by millions. We’re a very small team, but we’re always looking for new people with brilliant ideas. Fight for the Future is 100% remote and timezone flexible. Please see below for our current job openings.
+
+***
+
+# Political Product Director
+
+## A leader in building technology who is ready to organize millions
+
+## ABOUT THE ROLE
+
+Our activism can achieve surprising political wins, by combining political strategy and Internet savvy. The Political Product Director is one of the most important roles in our work. If you ever wanted to build online experiences that reach out, grab people, and help them change the world, then this is the job for you.
+
+## ABOUT YOU
+
+We are seeking someone who can be a leader in building campaigns and technology to make big political change happen. You must know how to direct the creation of websites, tech, and products that can speak to millions. You must have the ability to create products that have the optimism, humor, creativity, and provocation that can resonate with anyone, such as the public or any key constituency you need to move. You should know how to be likeable, harsh, respectful, relaxed, earnest, insistent, serious, epic, comfortable and urgent all at the same time. (In other words: know how to not get tuned out.)
+
+You should also have some political attitudes about power, freedom, fairness, or caring for others that perhaps you have carried with you since your teenage years.
+
+You will work alongside a creative, multidisciplinary campaigning team, including a software developer and a designer, with all of the skills needed to leverage the Internet to reach and organize millions. We’ll work with you to develop and execute plans.
+
+We’re looking for that rare someone who has both a lot of product creativity and a lot of political savvy, but we know that not everyone has had the chance to excel in both areas in the same job (or the same project!). So, if you have a track record in one area but not the other, but think you have the ability and interest to really develop on the side you are lacking experience with, we want to hear from you. The most important things will be creative vision with awareness of emotions and politics (to know where you’re going) impeccable “know it when you see it” taste (to know when you’re not there yet) and some problem solving ability to get from a vision to the final product.
+
+It will probably be hard to do this if you don’t have deep, long-term experiences of some branch of Internet culture, but that might not be necessary. If you can make excellent subway advertisements and landing pages, that might be enough, as long as you’re open to learn. 
+
+## WHAT YOU'LL DO
+
+* Imagine and deliver world-class technology that gives the public a seat at the table, and achieve big political goals.
+* Product problem solving: you can synthesize what we need to build (if anything) to most effectively win on an issue and to get there within a changing political environment. 
+* Help dream up small and large tech innovations to influence the political process with our development and campaigns team.  
+* Reach and organize the public by creating exciting and persuasive content (websites, software, social media, and more) and new realities (such as sign-on letters, events, rallies, protests, alliances, etc.), that can grow fast, generate social and traditional media attention, and advance the debate.
+* Coordinate with and direct our team of developers, designers, and campaigners to ensure nimble development of high-quality products and solutions. 
+* Respond to political deadlines and climate to influence the debate.
+* Prioritize projects, features, infrastructure, and overall development based on political efficacy and resources. 
+* Develop product specifications, translate product roadmaps into software development projects and milestones. Implement a process for quality control of our campaigns. 
+
+## WHAT WE'RE LOOKING FOR
+
+Primarily, we need you to be a solid and creative Product Director with the skills to run a political tech shop:
+
+* 3+ years experience developing products for the world, with a strong understanding of current technologies, agile development, security, and industry exposure in software architecture, product design, and delivery.
+* Strong UI/UX and design sense that you can use to apply to anything we make. 
+* Ability to build user-centered experiences and to evaluate user experiences based on metrics and goals. 
+* Someone who can be scrappy when needed and build a shiny MVP that can be ready for showtime in a day for small products and in a matter of weeks or months for bigger projects. 
+* Throughout every stage in this process, you’re constantly looking for ways to use the Internet, tech, code, politics, PR, and policy to increase the power and efficacy of our small team.
+* You should be able to propose your ideas in drawings, mockups or prototypes, but also work with designers and developers to make the final project just right. (By that we mean: explaining to designers and finding examples, making mockups and tickets for developers, shepherding the process, etc.) 
+
+If you happen to also have a lot of political and cultural awareness, you’re our perfect hire: 
+
+* You have a strong sense of how to bring people together. 
+* You can think outside the box, see opportunities that others write off, and make new things happen.
+* You write beautifully, especially for an online audience. (English fluency is a must.)
+* You understand convention but aren’t bound by it.
+* You can plug holes, see what’s missing.
+* You can get things done, but believe plans are made to break and change.
+* You see opportunity to break the status quo of the political process all the time.
+* You fight hard to achieve a goal.
+
+We’re looking for someone smart and savvy and who can be funny and playful with ideas, someone who can speak to people’s humor, fears and what gets them going, someone who can develop purposeful humor, creativity, poignant ideas, and language that can cut through political gridlock and debate.
+
+We’d especially enjoy someone who has a wide interest in pulling off all different kinds of tactics and strategy and using whatever resources are at their disposal—you should have an interest in using law, policies, pop culture, music, philosophy, subcultural themes, memes, language, history, media, organizing playbooks, and whatever else is out there to pull off a really hard-hitting and exciting campaign product for the right audience.
+
+## COMPENSATION
+
+Market Rate / Commensurate with Experience. Full health and Dental benefits. 
+
+## LOCATION
+
+The team will be 100% remote-no need to commute or relocate. Being in the US is a plus. If you’re interested in relocation, let us know. We’d start working with you on a contract basis at an hourly rate, but we will be able to offer full-time position with competitive salary and benefits to the right person.
+
+## TO APPLY
+To apply, fill out the application [here](https://docs.google.com/forms/d/e/1FAIpQLSd2SYlDGFnDblUmqBh6qpyVnaSH-6F80B8DroMEUkFU3fuDtg/viewform) and include where you heard about the opportunity. Show us that you excel at the things we’re looking for. If you like, include links to or samples of products you’ve built and your writing—ideally in situations where you’re working to persuade a group of people to do something with limited space and time. Include as much relevant information as possible: significant things you’ve done, projects you’ve worked on, ideas you’ve brought into the world etc. Being well-rounded is a plus, so don’t exclude significant skills or achievements just because they aren’t activism related (e.g. starting a business, or being a musician).
+
+Also, this might be a useful guide to the typical archetype for this position:
+
+* You’re okay with flux and change and imperfection; you’d rather be working on the highest impact thing than squirrel away on last week’s priorities. 
+* Political inside jokes and gossip bore you. You’re rigorous and try to understand frames. 
+* You get beltway politics, but would rather be speaking to the rest of the country/world.
+* You enjoy unplugging from news and Twitter to work on something big.
+* You’re a bit of a social chameleon. You feel at home in many circles. You can quickly see how people in a certain scene talk and understand the world, and you can fit right in while still holding on to and spreading your perspective.
+* You hold seemingly contradictory political beliefs. Sometimes people on your own political “side” might terrify you, while the other “side” seems more wise.
+* You get more excited reading classics of fiction or political theory than watching House of Cards. (House of Cards is not a mortal sin—many of our most respected colleagues do it!—but you’re much broader.)
+* You are curious, crafty, and devious. Maybe you were a troublemaker in high school.
+* For most of your life you’ve felt compelled to right wrongs or challenge arbitrary authority.
+* Your life has intersected with a large political uprising of some kind.
+* You’ve maybe been arrested before, for doing something you will never regret.
+* (We know you’re rare, but we know you’re out there.) 
 
 ***
 
@@ -38,14 +124,14 @@ Fight for the Future is looking for a software engineer to lead the front-end de
 * You’re happy doing some self-QA and tweaking until a user experience works reliably and feels nice.
 * You’re good at thinking into and around a problem, exposing corner cases and potential issues to non-technical collaborators. 
 
-## WHAT YOU'LL BE BUILDING:
+## WHAT YOU'LL be BUILDING
 
 * Flawless HTML/CSS paired with clear, modern design, and intuitive UX to send powerful messages out into the world & apply political pressure in the right places at the right time.
 * Modern JavaScript (ES6), build tools (Babel, Gulp, Grunt), and possibly a framework-driven interactive site (React, Angular). These tools are changing rapidly, so learning on the job is encouraged.
 * Solutions that achieve our goals by leveraging and customizing existing services (CRM, publishing tools, etc).
 * Innovative or unconventional tools to effectively mobilize a large audience.
 
-## THINGS THAT YOU MIGHT LIKE ABOUT THIS JOB:
+## THINGS THAT YOU MIGHT LIKE ABOUT THIS JOB
 
 * It’s telecommute work with a 100% remote team.
 * We do retreats and in-person sprints too, because it’s nice to see people!
@@ -53,7 +139,7 @@ Fight for the Future is looking for a software engineer to lead the front-end de
 * You can choose the framework and tools we use to get stuff done, and use whatever you’re most excited about.
 * Be a hero to many. The “yeah, I made that” small talk in bars is fun.
 
-## REQUIREMENTS:
+## REQUIREMENTS
 
 * Experience writing modern HTML/CSS with responsive design techniques and awareness of common cross-browser problems.
 * An understanding of client-side JavaScript - AJAX, handling events, DOM manipulation and cross-browser compatibility.
@@ -61,7 +147,7 @@ Fight for the Future is looking for a software engineer to lead the front-end de
 * Proven ability to do clean and classy design when needed.
 * Ability to make good UI/UX decisions and spot problems.
 
-## BONUS POINTS FOR:
+## BONUS POINTS FOR
 
 * Familiarity with static site generators - many of our campaign microsites are built on Jekyll.
 * Experience writing modern JavaScript (ES6) and using build tools like Babel, Gulp or Grunt. These tools are changing rapidly, so again, learning on the job is encouraged.
@@ -73,7 +159,7 @@ Fight for the Future is looking for a software engineer to lead the front-end de
 * Persuasive writing skills for an online audience
 * Experience working remotely (we use slack/trello/google hangouts)
 
-## MEGA BONUS POINTS FOR:
+## MEGA BONUS POINTS FOR
 
 * Having built and marketed your own product.
 * Having been a leader—of anything—especially online, especially tech-related
