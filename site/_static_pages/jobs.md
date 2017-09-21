@@ -85,21 +85,6 @@ The team will be 100% remote-no need to commute or relocate. Being in the US is 
 ## TO APPLY
 To apply, fill out the application [here](https://docs.google.com/forms/d/e/1FAIpQLSd2SYlDGFnDblUmqBh6qpyVnaSH-6F80B8DroMEUkFU3fuDtg/viewform) and include where you heard about the opportunity. Show us that you excel at the things we’re looking for. If you like, include links to or samples of products you’ve built and your writing—ideally in situations where you’re working to persuade a group of people to do something with limited space and time. Include as much relevant information as possible: significant things you’ve done, projects you’ve worked on, ideas you’ve brought into the world etc. Being well-rounded is a plus, so don’t exclude significant skills or achievements just because they aren’t activism related (e.g. starting a business, or being a musician).
 
-Also, this might be a useful guide to the typical archetype for this position:
-
-* You’re okay with flux and change and imperfection; you’d rather be working on the highest impact thing than squirrel away on last week’s priorities. 
-* Political inside jokes and gossip bore you. You’re rigorous and try to understand frames. 
-* You get beltway politics, but would rather be speaking to the rest of the country/world.
-* You enjoy unplugging from news and Twitter to work on something big.
-* You’re a bit of a social chameleon. You feel at home in many circles. You can quickly see how people in a certain scene talk and understand the world, and you can fit right in while still holding on to and spreading your perspective.
-* You hold seemingly contradictory political beliefs. Sometimes people on your own political “side” might terrify you, while the other “side” seems more wise.
-* You get more excited reading classics of fiction or political theory than watching House of Cards. (House of Cards is not a mortal sin—many of our most respected colleagues do it!—but you’re much broader.)
-* You are curious, crafty, and devious. Maybe you were a troublemaker in high school.
-* For most of your life you’ve felt compelled to right wrongs or challenge arbitrary authority.
-* Your life has intersected with a large political uprising of some kind.
-* You’ve maybe been arrested before, for doing something you will never regret.
-* (We know you’re rare, but we know you’re out there.) 
-
 ***
 
 # Front-End Software Engineer
