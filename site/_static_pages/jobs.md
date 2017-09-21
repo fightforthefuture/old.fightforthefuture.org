@@ -21,7 +21,7 @@ Fight for the Future is a non-profit organization whose mission is to ensure tha
 
 # Political Product Director
 
-## A leader in building technology who is ready to organize millions
+## who is ready to organize millions
 
 ## ABOUT THE ROLE
 
