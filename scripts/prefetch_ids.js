@@ -47,8 +47,8 @@ function sendPetitionsRequest(page) {
     "use strict";
 
     if (error || response.statusCode !== 200) {
-      console.error('Prefetching petition identifiers failed. The script attempted to connect to\n' +
-        env.get('actionnetwork').url + ', but returned an error of ', error);
+      console.error(
+        'Prefetching petition identifiers failed. The script attempted to connect to', env.get('actionnetwork').url, 'but returned a status code of ', response.statusCode, 'and an error of', error);
 
       if (env.get('travis')) {
         process.exit(1);
