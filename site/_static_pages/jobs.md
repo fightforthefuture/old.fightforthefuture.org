@@ -29,37 +29,33 @@ Our activism can achieve surprising political wins, by combining political strat
 
 ## ABOUT YOU
 
-We are seeking someone who can be a leader in building campaigns and technology to make big political change happen. You must know how to direct the creation of websites, tech, and products that can speak to millions. You must have the ability to create products that have the optimism, humor, creativity, and provocation that can resonate with anyone, such as the public or any key constituency you need to move. You should know how to be likeable, harsh, respectful, relaxed, earnest, insistent, serious, epic, comfortable and urgent all at the same time. (In other words: know how to not get tuned out.)
+We are seeking someone who can be a leader in building campaigns and technology to make big political change happen. You must know how to direct the creation of websites, tech, and products that can speak to millions. You must have the ability to create products that have the optimism, humor, reason, creativity, and provocation that can resonate with anyone and motivate them to act. 
 
-You should also have some political attitudes about power, freedom, fairness, or caring for others that perhaps you have carried with you since your teenage years.
+You will work alongside a creative, multidisciplinary campaigning team, including a software developer, a designer, and experienced campaigners.
 
-You will work alongside a creative, multidisciplinary campaigning team, including a software developer and a designer, with all of the skills needed to leverage the Internet to reach and organize millions. We’ll work with you to develop and execute plans.
-
-We’re looking for that rare someone who has both a lot of product creativity and a lot of political savvy, but we know that not everyone has had the chance to excel in both areas in the same job (or the same project!). So, if you have a track record in one area but not the other, but think you have the ability and interest to really develop on the side you are lacking experience with, we want to hear from you. The most important things will be creative vision with awareness of emotions and politics (to know where you’re going) impeccable “know it when you see it” taste (to know when you’re not there yet) and some problem solving ability to get from a vision to the final product.
-
-It will probably be hard to do this if you don’t have deep, long-term experiences of some branch of Internet culture, but that might not be necessary. If you can make excellent subway advertisements and landing pages, that might be enough, as long as you’re open to learn. 
+We’re looking for that rare someone who has both a lot of product creativity and a lot of political savvy, but we know that not everyone has had the chance to excel in both areas! So, if you have a track record in one area but not the other, but think you have the ability and interest to really develop on the side you are lacking experience with, we want to hear from you. The most important things will be creative vision with awareness of emotions and politics (to know where you’re going) impeccable “know it when you see it” taste (to know when you’re not there yet) and some problem solving ability to get from a vision to the final product.
 
 ## WHAT YOU'LL DO
 
-* Imagine and deliver world-class technology that gives the public a seat at the table, and achieve big political goals.
-* Product problem solving: you can synthesize what we need to build (if anything) to most effectively win on an issue and to get there within a changing political environment. 
-* Help dream up small and large tech innovations to influence the political process with our development and campaigns team.  
-* Reach and organize the public by creating exciting and persuasive content (websites, software, social media, and more) and new realities (such as sign-on letters, events, rallies, protests, alliances, etc.), that can grow fast, generate social and traditional media attention, and advance the debate.
+* Help dream up tech innovations (large and small) to influence the political process, working with our tech and campaigns team.
+* Bring these visions into reality by managing product development so that the end result advances our goal: effective public participation and big political victories.  
+* Reach and organize the public by creating exciting and persuasive content (websites, software, social media, and more) and new realities (such as sign-on letters, events, rallies, protests, alliances, etc.) that can grow fast, generate social and traditional media attention, and advance the debate.
 * Coordinate with and direct our team of developers, designers, and campaigners to ensure nimble development of high-quality products and solutions. 
-* Respond to political deadlines and climate to influence the debate.
+* Respond to political deadlines and climate.
 * Prioritize projects, features, infrastructure, and overall development based on political efficacy and resources. 
-* Develop product specifications, translate product roadmaps into software development projects and milestones. Implement a process for quality control of our campaigns. 
+* Develop product specifications, translate product roadmaps into software development projects and milestones. Implement a process for quality control of our campaigns.
 
 ## WHAT WE'RE LOOKING FOR
 
 Primarily, we need you to be a solid and creative Product Director with the skills to run a political tech shop:
 
-* 3+ years experience developing products for the world, with a strong understanding of current technologies, agile development, security, and industry exposure in software architecture, product design, and delivery.
+* 2+ years experience in product management, with strong understanding of current technologies and decisions about software architecture, scaling and security—from a product manager perspective.
+* Basic project management experience and familiarity with agile development. Ability to manage the creation of software in a deadline-aware way, spot blockers, and triage priorities.
 * Strong UI/UX and design sense that you can use to apply to anything we make. 
 * Ability to build user-centered experiences and to evaluate user experiences based on metrics and goals. 
-* Someone who can be scrappy when needed and build a shiny MVP that can be ready for showtime in a day for small products and in a matter of weeks or months for bigger projects. 
+* The kind of scrappy hustle needed and build a shiny MVP that can be ready for showtime in a day (for small, rapid-response products) and in a matter of weeks for bigger projects. 
 * Throughout every stage in this process, you’re constantly looking for ways to use the Internet, tech, code, politics, PR, and policy to increase the power and efficacy of our small team.
-* You should be able to propose your ideas in drawings, mockups or prototypes, but also work with designers and developers to make the final project just right. (By that we mean: explaining to designers and finding examples, making mockups and tickets for developers, shepherding the process, etc.) 
+* You should be able to propose your ideas in drawings, mockups, or examples and then work with designers and developers to make the final result just right. 
 
 If you happen to also have a lot of political and cultural awareness, you’re our perfect hire: 
 
@@ -71,6 +67,8 @@ If you happen to also have a lot of political and cultural awareness, you’re o
 * You can get things done, but believe plans are made to break and change.
 * You see opportunity to break the status quo of the political process all the time.
 * You fight hard to achieve a goal.
+* You have some deep experience with online discussion spaces and Internet culture.
+* You appreciate and admire excellent subway advertising.
 
 We’re looking for someone smart and savvy and who can be funny and playful with ideas, someone who can speak to people’s humor, fears and what gets them going, someone who can develop purposeful humor, creativity, poignant ideas, and language that can cut through political gridlock and debate.
 
