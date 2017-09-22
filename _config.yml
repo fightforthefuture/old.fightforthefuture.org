@@ -292,6 +292,8 @@ prose:
               value: 'briteverify-role-address'
             - name: 'july12-checked-signers'
               value: 'july12-checked-signers'
+            - name: 'unsub-because-no-privacypolicy'
+              value: 'unsub-because-no-privacypolicy'
       - name: 'search_title'
         field:
           element: 'text'
