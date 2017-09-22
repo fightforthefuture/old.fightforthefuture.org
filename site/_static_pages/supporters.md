@@ -196,6 +196,8 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   * [![Top 10 VPN](/img/page/supporters/avatars/TTVPN2.jpg) Top 10 VPN](https://www.top10vpn.com)
   
   * [![Best VPN Rating](/img/page/supporters/avatars/bestvpnrating-avatart.png) Best VPN Rating](https://www.bestvpnrating.com/)
+  
+  * [![TheBestVPN.com](/img/page/supporters/avatars/thebestvpn.jpg) TheBestVPN.com](https://thebestvpn.com/)
  
 ---
 
