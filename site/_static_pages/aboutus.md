@@ -150,14 +150,6 @@ Our accomplishments are testament to the notion that with the right approach and
 
   Advocate for openness and supporter of social entrepeneurs. Director of the [Shuttleworth Foundation](https://shuttleworthfoundation.org/).
 
----
-
-![Barbara van Schewick](/img/page/aboutus/teampic/schewick.png)
-: ### Barbara van Schewick
-
-  #### Clerk / Secretary
-
-  Professor of Law and (by Courtesy) Electrical Engineering at Stanford Law School. Director of Stanford Law School’s Center for Internet and Society. Author of Internet Architecture and Innovation. Leading net neutrality expert.
 
 # FFTF Education Fund 501(c)3 Board
 {: #fftfef-board}
