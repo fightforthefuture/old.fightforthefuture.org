@@ -391,3 +391,5 @@ You will work alongside a similarly high-functioning and creative person with co
 This is a full time contract position renewed on a monthly basis. Note: since this is a start-up, ongoing funding beyond the first month is not guaranteed, but it’s likely we can provide ongoing funding if your work goes well and demonstrates impact.
 
 To apply, please send a résumé, links to samples, and a cover letter which explains why you want to do mission-based work to [ateams@fightforthefuture.org](mailto:ateams@fightforthefuture.org). Please include where you heard about the opportunity.
+
+<script type="text/javascript" src="//app.jazz.co/widgets/basic/create/fightforthefuture" charset="utf-8"></script>
