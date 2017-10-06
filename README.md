@@ -33,7 +33,11 @@ Here’s a thing—this is not a willy-nilly slapdash combination of underscores
 
 #### Production: GitHub Pages
 
-fightforthefuture.org is hosted on [GitHub Pages][06]. Here’s how it works: every time a commit is pushed, [Travis CI][01] runs a build. Every time a pull request is merged on the the `production` branch, the result of that build is committed and pushed to the github pages branch. (For org-level sites, such as this one, the github pages branch is `master`, _not_ `gh-pages`)
+fightforthefuture.org is hosted on [GitHub Pages][06]. Here’s how it works: every time a commit is pushed, [Travis CI][01] runs a build. Every time a pull request is merged on the the `production` branch, the result of that build is committed and pushed to the GitHub Pages branch. (For org-level sites, such as this one, the GitHub Pages branch is `master`, _not_ `gh-pages`)
+
+##### Blog
+
+The blog content is pulled from [Tumblr](https://fight4future.tumblr.com) using [`scripts/sync_tumblr.js`](scripts/sync_tumblr.js) and a [Zapier](https://zapier.com/) "zap" [triggers a Travis CI build using a webhook](https://docs.travis-ci.com/user/triggering-builds/) whenever a new Tumblr post is detected.
 
 #### Heroku
 
