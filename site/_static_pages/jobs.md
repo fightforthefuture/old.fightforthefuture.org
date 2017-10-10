@@ -392,4 +392,4 @@ This is a full time contract position renewed on a monthly basis. Note: since th
 
 To apply, please send a résumé, links to samples, and a cover letter which explains why you want to do mission-based work to [ateams@fightforthefuture.org](mailto:ateams@fightforthefuture.org). Please include where you heard about the opportunity.
 
-<script type="text/javascript" src="//app.jazz.co/widgets/basic/create/fightforthefuture" charset="utf-8"></script>
+<script type="text/javascript" src="https://app.jazz.co/widgets/basic/create/fightforthefuture" charset="utf-8"></script>
