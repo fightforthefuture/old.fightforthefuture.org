@@ -85,7 +85,7 @@ The team will be 100% remote-no need to commute or relocate. Being in the US is 
 ## TO APPLY
 To apply, fill out the application [here](https://docs.google.com/forms/d/e/1FAIpQLSd2SYlDGFnDblUmqBh6qpyVnaSH-6F80B8DroMEUkFU3fuDtg/viewform) and include where you heard about the opportunity. Show us that you excel at the things we’re looking for. If you like, include links to or samples of products you’ve built and your writing—ideally in situations where you’re working to persuade a group of people to do something with limited space and time. Include as much relevant information as possible: significant things you’ve done, projects you’ve worked on, ideas you’ve brought into the world etc. Being well-rounded is a plus, so don’t exclude significant skills or achievements just because they aren’t activism related (e.g. starting a business, or being a musician).
 
-<script type="text/javascript" src="//app.jazz.co/widgets/buttons/create/fightforthefuture/EuBw44zzH1"></script>
+<script type="text/javascript" src="https://app.jazz.co/widgets/buttons/create/fightforthefuture/EuBw44zzH1"></script>
 
 ***
 
@@ -154,7 +154,7 @@ Fight for the Future is looking for a software engineer to lead the front-end de
 
 To apply, fill out the application [here](https://docs.google.com/forms/d/e/1FAIpQLSd2SYlDGFnDblUmqBh6qpyVnaSH-6F80B8DroMEUkFU3fuDtg/viewform). You'll need to include links to your resume and any public repos, sample code (as many examples as possible) and good examples of HTML/CSS work and UI/UX or design.
 
-<script type="text/javascript" src="//app.jazz.co/widgets/buttons/create/fightforthefuture/49palH1Yrd"></script>
+<script type="text/javascript" src="https://app.jazz.co/widgets/buttons/create/fightforthefuture/49palH1Yrd"></script>
 
 ***
 
@@ -206,7 +206,7 @@ The team will be 100% remote-no need to commute or relocate. If you’re interes
 
 To apply, fill out the application [here](https://docs.google.com/forms/d/e/1FAIpQLSd2SYlDGFnDblUmqBh6qpyVnaSH-6F80B8DroMEUkFU3fuDtg/viewform). Show us that you excel at the things we’re looking for. If you like, include links to or samples of your writing—ideally in situations where you’re writing to persuade a group of people too. Include as much relevant information as possible: significant things you’ve done, projects you’ve worked on, etc. Being well-rounded is a plus, so don’t exclude significant skills or achievements just because they aren’t activism related (e.g. starting a business, or being a musician).
 
-<script type="text/javascript" src="//app.jazz.co/widgets/buttons/create/fightforthefuture/NTHHv8wmrS"></script>
+<script type="text/javascript" src="https://app.jazz.co/widgets/buttons/create/fightforthefuture/NTHHv8wmrS"></script>
 
 ***
 
@@ -244,7 +244,7 @@ The team will be 100% remote-no need to commute or relocate. If you’re interes
 
 To apply, fill out the application [here](https://docs.google.com/forms/d/e/1FAIpQLSd2SYlDGFnDblUmqBh6qpyVnaSH-6F80B8DroMEUkFU3fuDtg/viewform). Show us that you excel at the things we’re looking for. If you like, include links to or samples of your writing—ideally in situations where you’re writing to persuade a group of people too. Include as much relevant information as possible: significant things you’ve done, projects you’ve worked on, etc. Being well-rounded is a plus, so don’t exclude significant skills or achievements just because they aren’t activism related (e.g. starting a business, or being a musician).
 
-<script type="text/javascript" src="//app.jazz.co/widgets/buttons/create/fightforthefuture/7PK4HF3ToF"></script>
+<script type="text/javascript" src="https://app.jazz.co/widgets/buttons/create/fightforthefuture/7PK4HF3ToF"></script>
 
 ***
 
@@ -295,7 +295,7 @@ This is a full time contract position renewed on a monthly basis. Note: since th
  
 To apply, please send a **résumé**, links to **samples**, and a **cover letter which explains why you want to do mission-based work** to [ateams@fightforthefuture.org](mailto:ateams@fightforthefuture.org). Please include where you heard about the opportunity.
 
-<script type="text/javascript" src="//app.jazz.co/widgets/buttons/create/fightforthefuture/BQbA5vL7Db"></script>
+<script type="text/javascript" src="https://app.jazz.co/widgets/buttons/create/fightforthefuture/BQbA5vL7Db"></script>
 
 ***
 
@@ -350,7 +350,7 @@ This is a full time contract position renewed on a monthly basis. Note: since th
  
 To apply, please send a cover letter and résumé to [ateams@fightforthefuture.org](mailto:ateams@fightforthefuture.org) and include where you heard about the opportunity.
 
-<script type="text/javascript" src="//app.jazz.co/widgets/buttons/create/fightforthefuture/DDejLK7mHA"></script>
+<script type="text/javascript" src="https://app.jazz.co/widgets/buttons/create/fightforthefuture/DDejLK7mHA"></script>
 
 ***
 
@@ -402,4 +402,4 @@ This is a full time contract position renewed on a monthly basis. Note: since th
 
 To apply, please send a résumé, links to samples, and a cover letter which explains why you want to do mission-based work to [ateams@fightforthefuture.org](mailto:ateams@fightforthefuture.org). Please include where you heard about the opportunity.
 
-<script type="text/javascript" src="//app.jazz.co/widgets/buttons/create/fightforthefuture/wVUcYpvRfH"></script>
+<script type="text/javascript" src="https://app.jazz.co/widgets/buttons/create/fightforthefuture/wVUcYpvRfH"></script>
