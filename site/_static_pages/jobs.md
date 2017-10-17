@@ -316,9 +316,9 @@ When applying, please include a résumé, links to samples, and a cover letter w
 
 ***
 
-# Campaign Strategist / Manager (not currently open)
+# Campaign Strategist / Manager
 
-*We are not actively recruiting for this position but we are always looking for talented candidates. Please apply if you are interested and we will be in touch if it makes sense to talk more.* 
+**We are not actively recruiting for this position but we are always looking for talented candidates. Please apply if you are interested and we will be in touch if it makes sense to talk more.** 
 
 Our organization is focused on developing high-impact campaigns that resonate with people and help them band together to exert their power. The Campaign Manager/ Manager position is one of the most important roles in our work - it is central to the organization and its effectiveness. If you ever wanted to build online experiences that reach out, grab people, and help them change the world, then this is the job for you. We’re looking for someone to continue to build that organization with us, from the ground up.
 
@@ -370,9 +370,9 @@ When applying, show us that you excel at the things we’re looking for. If you 
 
 ***
 
-# Digital Growth Strategist (not currently open)
+# Digital Growth Strategist
 
-*We are not actively recruiting for this position but we are always looking for talented candidates. Please apply if you are interested and we will be in touch if it makes sense to talk more.* 
+**We are not actively recruiting for this position but we are always looking for talented candidates. Please apply if you are interested and we will be in touch if it makes sense to talk more.** 
 
 ## Responsibilities
 
