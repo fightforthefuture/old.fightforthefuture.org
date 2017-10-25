@@ -294,6 +294,8 @@ prose:
               value: 'july12-checked-signers'
             - name: 'unsub-because-no-privacypolicy'
               value: 'unsub-because-no-privacypolicy'
+            - name: 'verified-smallbiz'
+              value: 'verified-smallbiz'
       - name: 'search_title'
         field:
           element: 'text'
