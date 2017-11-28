@@ -76,7 +76,7 @@ We’d especially enjoy someone who has a wide interest in pulling off all diffe
 
 ## COMPENSATION
 
-Market Rate / Commensurate with Experience. Full health and Dental benefits. 
+Market Rate / Commensurate with Experience. Full health and dental benefits. 
 
 ## LOCATION
 
