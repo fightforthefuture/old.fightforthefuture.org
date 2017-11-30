@@ -407,3 +407,4 @@ The team will be 100% remote-no need to commute or relocate. If you’re interes
 When applying, show us that you excel at the things we’re looking for. If you like, include links to or samples of your writing—ideally in situations where you’re writing to persuade a group of people too. Include as much relevant information as possible: significant things you’ve done, projects you’ve worked on, etc. Being well-rounded is a plus, so don’t exclude significant skills or achievements just because they aren’t activism related (e.g. starting a business, or being a musician).
 
 <script type="text/javascript" src="https://app.jazz.co/widgets/buttons/create/fightforthefuture/7PK4HF3ToF"></script>
+
