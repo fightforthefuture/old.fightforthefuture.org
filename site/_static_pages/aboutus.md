@@ -101,7 +101,7 @@ Our accomplishments are testament to the notion that with the right approach and
   
   #### Senior Software Engineer
 
-  [Mike][mm2] is our Software Engineer and a dedicated activist committed to fighting for a free and open Internet and protecting the safety and security of people who use it. Before joining our team, he worked with Mapbox and built Prose.io.
+  [Mike][mm2] is our Senior Software Engineer and a dedicated activist committed to fighting for a free and open Internet and protecting the safety and security of people who use it. Before joining our team, he worked with Mapbox and built Prose.io.
 
 [tc0]: /img/page/aboutus/teampic/tiff.png
 [tc1]: http://www.opencongress.org/
