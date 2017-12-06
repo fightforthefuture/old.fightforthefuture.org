@@ -178,4 +178,4 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Secretary
 
-  Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School. Author of The Wealth of Networks: How social production transforms markets and freedom.
+  Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School. Author of The Wealth of Networks: How social production transforms markets and  freedom.
