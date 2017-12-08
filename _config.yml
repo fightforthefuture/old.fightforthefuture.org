@@ -296,6 +296,8 @@ prose:
               value: 'unsub-because-no-privacypolicy'
             - name: 'verified-smallbiz'
               value: 'verified-smallbiz'
+            - name: 'mid-level donors 11.8'
+              value: 'mid-level donors 11.8'
       - name: 'search_title'
         field:
           element: 'text'
