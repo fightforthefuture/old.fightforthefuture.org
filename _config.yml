@@ -298,6 +298,8 @@ prose:
               value: 'verified-smallbiz'
             - name: 'mid-level donors 11.8'
               value: 'mid-level donors 11.8'
+            - name: 'team internet text opt-outs'
+              value: 'team internet text opt-outs'
       - name: 'search_title'
         field:
           element: 'text'
