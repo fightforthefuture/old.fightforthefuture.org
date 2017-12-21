@@ -6,7 +6,7 @@ social_description: "Fight for the Future is hiring developers, designers, activ
 ---
 * [Jobs](#)
 * [Political Product Director](#political-product-director)
-* [Front-End Software Engineer](#front-end-software-engineer)
+* [Senior Software Engineer](#senior-software-engineer)
 * [A-Teams Technical Co-founder](#a-teams-technical-co-founder)
 * [A-Teams Political Strategist Co-founder](#a-teams-political-strategist-co-founder)
 * [A-Teams Design Co-founder](#a-teams-design-co-founder)
@@ -89,32 +89,39 @@ When applying, please include where you heard about the opportunity. Also, show 
 
 ***
 
-# Front-End Software Engineer
+# Senior Software Engineer
 
-## A UX expert and engineer, for defending the Internet
+## A full stack engineer, with a knack for UX design
 
 ## ABOUT THE ROLE
 
-Fight for the Future is looking for a software engineer to lead the front-end development side of our digital campaigning efforts. This is more than a simple coding or campaigning position. This is a leadership position for someone who understands the threats that face the future of free expression on the Internet, and who can creatively use the Internet as a medium for political change.
+Fight for the Future is looking for a senior-level software engineer with strong communications skills who can lead the technology side of our digital campaigning efforts. 
+
+This will be a fun and extremely meaningful job. You’ll be building tools that push the limits of public participation in the political process. Simple custom tools, purpose-built for campaigning needs, helped us beat SOPA in 2012 and pass net neutrality rules in 2014.
+
+Code you write and infrastructure you maintain could help us defend net neutrality now.
+
+If you ever wanted to build platforms that reach out, grab people, and help them change the world, then this is the job for you.
 
 ## ABOUT YOU
 
-* You’re an excellent front-end coder who can make things work and work well for millions of users.
-* You can faithfully implement others’ designs and make good decisions about layout, typography, and color when needed (but you definitely don’t need to be an expert designer or have illustration skills!) 
-* You can build high quality user interaction with intuitive prompts, modals, clear buttons, etc, spotting and fixing UI problems as you go.
-* You could design straight to code if needed, and while your own design choices don’t have to look fancy or highly polished (authentic is often better!) the result should be crafted, professional and ready to put in front of millions of people.
-* You are familiar with current product innovations, messaging apps, social media, UI/UX, and design.
-* You understand rapid prototyping and release, user adoption, and A/B testing, and you can navigate cost/benefits analysis of various technical solutions, languages, and architecture-based decisions.
+* You’re an agile programmer / hacker that can make things work and work well for millions of users. 
+* You can both faithfully implement others’ designs and make good decisions about layout, typography, and color when needed (but you don’t need to be an expert designer or have illustration skills). 
+* You can build high quality user interaction with intuitive prompts, clear buttons, etc, spotting and fixing UI problems as you go.
+* You’re familiar with current product innovations, messaging apps, social media, UI/UX, and design.
+* You understand rapid prototyping and release, user adoption, A/B testing, and you can navigate or do a cost/benefit analysis of various technical solutions, languages, devops, and architecture-based decisions.
+* You can help conceptualize, develop, build and/or manage our tech product strategy, taking our goal-oriented tech strategy through each phase of development with a team.
 * You can think on your feet, be organized, optimize project plans and workload, and manage/delegate the different pieces of projects.
 * You enjoy a fast-paced environment and can pivot quickly as needed to make changes based on changing outside requirements.
 * You like brainstorming ways to simplify the scope of a project to fit a given timeline (e.g. if the team asks for something crazy/hard, maybe there’s a much easier way to achieve a similar result) and you’re always looking for those kinds of lovely simplifications.
 * You’re happy doing some self-QA and tweaking until a user experience works reliably and feels nice.
-* You’re good at thinking into and around a problem, exposing corner cases and potential issues to non-technical collaborators. 
+* You’re good at thinking into and around a problem, exposing corner cases and potential issues to non-technical collaborators.
+* You can oversee product development with the goal of meeting campaign metrics of reach, efficacy, and fundraising, which will include the assessment, research, development of specifications, directing design, and implementation of product plans.
+
 
 ## WHAT YOU'LL be BUILDING
 
 * Flawless HTML/CSS paired with clear, modern design, and intuitive UX to send powerful messages out into the world & apply political pressure in the right places at the right time.
-* Modern JavaScript (ES6), build tools (Babel, Gulp, Grunt), and possibly a framework-driven interactive site (React, Angular). These tools are changing rapidly, so learning on the job is encouraged.
 * Solutions that achieve our goals by leveraging and customizing existing services (CRM, publishing tools, etc).
 * Innovative or unconventional tools to effectively mobilize a large audience.
 
@@ -130,14 +137,15 @@ Fight for the Future is looking for a software engineer to lead the front-end de
 
 * Experience writing modern HTML/CSS with responsive design techniques and awareness of common cross-browser problems.
 * An understanding of client-side JavaScript - AJAX, handling events, DOM manipulation and cross-browser compatibility.
-* Knowledge of progressive enhancement strategies and ability to create simple sites that can function with JavaScript disabled or seamlessly integrate subtle CSS transitions for a refined user experience.
-* Proven ability to do clean and classy design when needed.
+* Proven ability to do clean design when needed It doesn’t have to be perfect. Just clean :)
 * Ability to make good UI/UX decisions and spot problems.
+* US residence preferred, but not absolutely necessary.
+* English fluency should be at a native speaker level.
+
 
 ## BONUS POINTS FOR
 
-* Familiarity with static site generators - many of our campaign microsites are built on Jekyll.
-* Experience writing modern JavaScript (ES6) and using build tools like Babel, Gulp or Grunt. These tools are changing rapidly, so again, learning on the job is encouraged.
+* Experience with activism, resistance, creative and positive troublemaking, or any kind of fiery provocative work in any area.
 * Experience building front-end applications with a modern framework like React or Angular.
 * Having successfully launched a great product working in a small team
 * Ability to build and manage teams
@@ -150,9 +158,8 @@ Fight for the Future is looking for a software engineer to lead the front-end de
 
 * Having built and marketed your own product.
 * Having been a leader—of anything—especially online, especially tech-related
-* Experience with activism, resistance, creative and positive troublemaking, or any kind of fiery provocative work in any area.
 
-In your application, we'd like you to include links to any public repos, sample code (as many examples as possible) and good examples of HTML/CSS work and UI/UX or design. Please also let us know where you heard about the job. 
+In your application, we'd like you to include links to any public repos, sample code/live samples (as many examples as possible) and good examples of HTML/CSS work and UI/UX or design. In your cover letter, please note why you want to do mission-based work and please also let us know where you heard about the job.
 
 <script type="text/javascript" src="https://app.jazz.co/widgets/buttons/create/fightforthefuture/49palH1Yrd"></script>
 
