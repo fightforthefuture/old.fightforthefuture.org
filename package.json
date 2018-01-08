@@ -20,6 +20,7 @@
   "private": true,
   "repo": "fightforthefuture/fightforthefuture.github.io",
   "scripts": {
+    "setup": "bundle && npm install --ignore-scripts",
     "postinstall": "grunt build",
     "prestart": "grunt concurrent:external_scripts",
     "start": "grunt",
@@ -28,7 +29,6 @@
     "build": "grunt build",
     "predeploy": "node scripts/generate_fp_token.js",
     "deploy": "scripts/deploy-ghpages.sh",
-    "deploy-hack": "scripts/deploy-hack.sh",
     "review": "grunt review",
     "postreview": "node scripts/review-apps"
   },
