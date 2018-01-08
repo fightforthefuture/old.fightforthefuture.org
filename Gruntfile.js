@@ -267,7 +267,7 @@ module.exports = function (grunt) {
         'copy:server'
       ],
       deploy1: [
-        'jekyll:build',
+        // 'jekyll:build',
         'less:deploy',
         'concat:deploy',
         'copy:deploy'
