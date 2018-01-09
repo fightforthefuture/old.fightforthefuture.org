@@ -36,6 +36,15 @@ jobs:
           name: Deploy to S3
           command: |
             aws s3 sync public s3://www.fightforthefuture.org --delete
+
+      - run:
+          name: Purge CloudFlare cache
+          command: |
+            curl -X DELETE "https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE}/purge_cache" \
+              -H "X-Auth-Email: ${CLOUDFLARE_EMAIL}" \
+              -H "X-Auth-Key: ${CLOUDFLARE_SECRET}" \
+              -H "Content-Type: application/json" \
+              --data '{"purge_everything":true}'
 workflows:
   version: 2
   deploy:
