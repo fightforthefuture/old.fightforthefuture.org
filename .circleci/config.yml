@@ -29,7 +29,9 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            bundle install --path vendor/bundle && npm install
+            apt-get -y -qq install awscli
+            bundle install --path vendor/bundle
+            npm install
 
       - save_cache:
           paths:
