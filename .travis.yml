@@ -34,15 +34,26 @@ branches:
   only:
   - production
 deploy:
-  provider: s3
-  access_key_id: AKIAJBUMOKIYAH4JO5FQ
-  secret_access_key:
-    secure: b2QaR+6fuC6HD6iK4ABJtcFkYtnk9BhJ7R9uWgQVYtx6U6Y2fw3MqpFCywpyhsO0TY2c3M2K/wYyXE765aOBWEJpByK3AW1vSLlUZNJICBtraXSbAoyxCnTVd1wYAwAi2CR1EuvrTGXNynCt3X0SoyWwrQbUSMvO27T7ZVmVG4U=
-  bucket: s3.fightforthefuture.org
-  local-dir: assets
-  acl: public_read
-  skip_cleanup: true
-  cache_control: max-age=41706360
-  on:
-    repo: fightforthefuture/fightforthefuture.github.io
-    branch: production
+  - provider: s3
+    access_key_id: AKIAJBUMOKIYAH4JO5FQ
+    secret_access_key:
+      secure: b2QaR+6fuC6HD6iK4ABJtcFkYtnk9BhJ7R9uWgQVYtx6U6Y2fw3MqpFCywpyhsO0TY2c3M2K/wYyXE765aOBWEJpByK3AW1vSLlUZNJICBtraXSbAoyxCnTVd1wYAwAi2CR1EuvrTGXNynCt3X0SoyWwrQbUSMvO27T7ZVmVG4U=
+    bucket: s3.fightforthefuture.org
+    local-dir: assets
+    acl: public_read
+    skip_cleanup: true
+    cache_control: max-age=41706360
+    on:
+      repo: fightforthefuture/fightforthefuture.github.io
+      branch: production
+  - provider: s3
+    access_key_id: AKIAJBUMOKIYAH4JO5FQ
+    secret_access_key:
+      secure: b2QaR+6fuC6HD6iK4ABJtcFkYtnk9BhJ7R9uWgQVYtx6U6Y2fw3MqpFCywpyhsO0TY2c3M2K/wYyXE765aOBWEJpByK3AW1vSLlUZNJICBtraXSbAoyxCnTVd1wYAwAi2CR1EuvrTGXNynCt3X0SoyWwrQbUSMvO27T7ZVmVG4U=
+    bucket: s3-test.fightforthefuture.org
+    local-dir: public
+    acl: public_read
+    skip_cleanup: true
+    on:
+      repo: fightforthefuture/fightforthefuture.github.io
+      branch: production
