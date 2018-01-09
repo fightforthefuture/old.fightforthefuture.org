@@ -42,8 +42,15 @@ jobs:
           command: |
             npm run build
 
-      deployment:
-        prod:
-          branch: master
-          commands:
-            - aws s3 sync public s3://s3-test.fightforthefuture.org --delete
+      - deploy:
+          name: Deploy to S3
+          command: |
+            aws s3 sync public s3://s3-test.fightforthefuture.org --delete
+workflows:
+  version: 2
+  deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: production
