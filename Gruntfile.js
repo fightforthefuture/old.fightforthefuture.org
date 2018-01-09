@@ -21,7 +21,7 @@ module.exports = function (grunt) {
       app: 'site',
       dist: 'public',
       scripts: 'scripts',
-      assets: 'assets',
+      assets: 'public',
       javascript_files: [
         'js/LICENSE',
         'js/lib/util.js',
@@ -33,8 +33,7 @@ module.exports = function (grunt) {
     },
 
     clean: [
-      '<%= site.dist %>/*',
-      '<%= site.assets %>/*'
+      '<%= site.dist %>/*'
     ],
 
     execute: {
@@ -228,7 +227,7 @@ module.exports = function (grunt) {
             var
               stamp = Date.now();
             if (url[0] === '/') {
-              return 'https://' + env.get('aws_s3_bucket') + url + '?' + stamp;
+              return url + '?' + stamp;
             } else {
               return url;
             }
