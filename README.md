@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/fightforthefuture/fightforthefuture.github.io.svg?branch=production)](https://travis-ci.org/fightforthefuture/fightforthefuture.github.io)
-
 # fightforthefuture.org  
 
 ## Campaigners
@@ -8,7 +6,7 @@ All your documentation has been moved to [the wiki][00].
 
 ## Developers:
 
-<https://www.fightforthefuture.org/> is hosted by github pages. There is a clone on Heroku with no _automated_ failover (at this time.) Review apps can be spun off on Heroku with a single click in the app pipeline on the Heroku dashboard.
+<https://www.fightforthefuture.org/> is hosted on Amazon S3 and CloudFlare.
 
 ### Housekeeping
 
@@ -31,19 +29,19 @@ Here’s a thing—this is not a willy-nilly slapdash combination of underscores
 
 ### Deploying
 
-#### Production: GitHub Pages
+#### Production: Amazon S3
 
-fightforthefuture.org is hosted on [GitHub Pages][06]. Here’s how it works: every time a commit is pushed, [Travis CI][01] runs a build. Every time a pull request is merged on the the `production` branch, the result of that build is committed and pushed to the GitHub Pages branch. (For org-level sites, such as this one, the GitHub Pages branch is `master`, _not_ `gh-pages`)
+fightforthefuture.org is hosted on [Amazon S3][06]. Here’s how it works: every time a commit is pushed to the `production` branch, [Circle CI][01] runs a build and deploys that to an S3 bucket.
+
+##### Local Deploys
+
+1. Ensure that you have the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/installing.html) installed
+2. Create a named profile in `~/.aws/credentials` called `fftf-s3-deploy` with valid credentials.
+3. `npm run deploy`
 
 ##### Blog
 
 The blog content is pulled from [Tumblr](https://fight4future.tumblr.com) using [`scripts/sync_tumblr.js`](scripts/sync_tumblr.js) and a [Zapier](https://zapier.com/) "zap" [triggers a Travis CI build using a webhook](https://docs.travis-ci.com/user/triggering-builds/) whenever a new Tumblr post is detected.
-
-#### Heroku
-
-Because having a backup plan is always a good idea, and the [Heroku][05] pipeline feature is *awesome*, we deploy there too. We get two great things out of this. First, every time a commit is merged into `production`—assuming the build isn’t broken—<http://fftf-org.herokuapp.com/> is deployed, leaving us a backup plan for the next time GitHub does the [angry unicorn][05] dance.
-
-The other fun part about having the site connected to a Heroku pipeline is that it gives us the chance to play with [review apps][07]. They're a one-click deploy from the app’s pipeline dashboard. If you want your review app to connect to (our internal middleman for) the Action Network API, make sure to set its `URL` and `PETITIONS_API` env variables. (note: you generally won’t need these for local or production deployment)
 
 ### Code Structure
 
@@ -65,11 +63,11 @@ The other fun part about having the site connected to a Heroku pipeline is that 
 - This all compiles down to `public/js/core.js` via grunt, which also uglifies it - If you’re adding a javascript file that ought to be included in `core.js`, make sure to add its path to the files array inside the `concat` task in `Gruntfile.js`
 
 [00]: https://github.com/fightforthefuture/fightforthefuture.github.io/wiki
-[01]: https://travis-ci.org/fightforthefuture/fightforthefuture.github.io/
+[01]: https://circleci.com/
 [02]: https://lyonbros.github.io/composer.js/
 [03]: http://jekyllrb.com/docs/home/
 [04]: http://gruntjs.com/getting-started
 [05]: https://github.com/503.html
-[06]: https://help.github.com/articles/user-organization-and-project-pages/#user--organization-pages
+[06]: https://aws.amazon.com/s3/
 [07]: https://devcenter.heroku.com/articles/github-integration-review-apps
 [08]: https://pages.18f.gov/frontend/

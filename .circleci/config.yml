@@ -1,0 +1,55 @@
+version: 2
+jobs:
+  build:
+    docker:
+      # circleci/ruby:2.4-node-browsers + awscli
+       - image: kenmickles/fftf-static-site-builder:0.0.1
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "Gemfile.lock" }}-{{ checksum "package-lock.json" }}
+
+      - run:
+          name: install dependencies
+          command: |
+            bundle install --path vendor/bundle
+            npm install
+
+      - save_cache:
+          paths:
+            - ./vendor/bundle
+            - node_modules
+          key: v1-dependencies-{{ checksum "Gemfile.lock" }}-{{ checksum "package-lock.json" }}
+
+      - run:
+          name: build
+          command: |
+            npm run build
+
+      - deploy:
+          name: Deploy to S3
+          command: |
+            aws s3 sync public s3://www.fightforthefuture.org --delete
+
+      - run:
+          name: Purge CloudFlare cache
+          command: |
+            curl -X DELETE "https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE}/purge_cache" \
+              -H "X-Auth-Email: ${CLOUDFLARE_EMAIL}" \
+              -H "X-Auth-Key: ${CLOUDFLARE_SECRET}" \
+              -H "Content-Type: application/json" \
+              --data '{"purge_everything":true}'
+workflows:
+  version: 2
+  deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: production

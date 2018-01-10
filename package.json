@@ -20,15 +20,14 @@
   "private": true,
   "repo": "fightforthefuture/fightforthefuture.github.io",
   "scripts": {
-    "preinstall": "gem install bundler",
-    "postinstall": "bundle",
+    "setup": "bundle && npm install --ignore-scripts",
     "prestart": "grunt concurrent:external_scripts",
     "start": "grunt",
     "test": "grunt test",
     "verbose": "grunt build -vvv",
     "build": "grunt build",
     "predeploy": "node scripts/generate_fp_token.js",
-    "deploy": "scripts/deploy-ghpages.sh",
+    "deploy": "npm run build && aws s3 sync public s3://www.fightforthefuture.org --delete --profile fftf-s3-deploy",
     "review": "grunt review",
     "postreview": "node scripts/review-apps"
   },
