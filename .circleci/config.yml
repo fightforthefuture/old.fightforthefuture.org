@@ -35,7 +35,7 @@ jobs:
       - deploy:
           name: Deploy to S3
           command: |
-            aws s3 sync public s3://www.fightforthefuture.org --delete
+            aws s3 sync public s3://fightforthefuture.org --delete
 
       - run:
           name: Purge CloudFlare cache
