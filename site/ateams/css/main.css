@@ -1,0 +1,224 @@
+/*
+global
+ */
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: 'Open Sans', sans-serif;
+  color: dimgrey;
+  font-size: 22px;
+  line-height: 32px;
+  text-shadow: none; /* possibly necessary for iOS */
+}
+
+.headline {
+  font-family: 'Montserrat', sans-serif;
+  color: #FF4141;
+}
+
+@media (min-width:801px)  {
+  .headline {
+    font-size: 75px;
+    line-height: 77px;
+  }
+}
+
+@media (max-width: 800px) {
+  .headline {
+    font-size: 50px;
+    line-height: 52px;
+  }
+}
+
+.headline-container {
+  margin-top: 41px;
+  margin-bottom: 41px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+/*
+paragraph
+ */
+
+p {
+  margin-bottom: 30px;
+}
+
+a {
+  color: #FF4141;
+}
+
+/*
+header
+ */
+
+.header {
+  color: white;
+  background-color: #FF4141;
+  position: relative;
+  /* background-image: url('../img/ateams-back.png'); */
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+}
+
+.header .headline {
+  color: white;
+}
+
+.header h1 {
+  padding: 70px 0;
+  margin-top: 0;
+}
+
+.header:after {
+  background-color: #FF4141;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-1.5deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
+.donate a {
+  background-color: #D01E1E;
+  border: none;
+  padding: 1px 10px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 0.75em;
+  text-decoration: none;
+  display: inline;
+  float: right;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.donate a:hover {
+  text-decoration: underline;
+}
+
+/*
+  logo
+ */
+
+.logo {
+  max-width: 125px;
+}
+
+.nav {
+  padding-top: 20px;
+}
+
+/*
+main
+ */
+
+.main {
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+/*
+button
+ */
+
+.button-signup {
+  background-color: #D01E1E;
+  border: none;
+  color: white;
+  padding: 30px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  font-weight: bold;
+  position: fixed;
+  z-index: 1;
+  line-height: 24px;
+}
+
+.button-signup:hover {
+  background-color: #FF4141;
+  color: white;
+  text-decoration: none;
+}
+
+@media (min-width:801px)  {
+  .button-signup {
+    bottom: 70px;
+    right: 70px;
+    width: 350px;
+    height: 85px;
+    box-shadow: 0 13px 24px rgba(194, 44, 44, 0.5);
+    border-radius: 7px;
+  }
+}
+
+@media (max-width:800px)  {
+  .button-signup {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+  }
+}
+
+/*
+images
+ */
+
+ figure {
+  text-align: center;
+  margin: 36px auto;
+ }
+
+figure img, video {
+ /* max-height: 400px;
+  max-width: 100%; */
+  width: 100%;
+  border: 1px solid lightgray;
+}
+
+figure img, video .no-border {
+  border: none;
+}
+
+figcaption {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+/* 
+sharing buttons
+*/
+
+.sharing-container {
+  width: 8%;
+  position: fixed;
+  opacity: 0.9;
+  bottom: 20%;
+}
+
+.sharing-container ul {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.sharing-container li {
+  background: rgba(255, 0, 0, 0.66);
+  margin-bottom: 2px;
+  list-style: none
+}
+
+.sharing-container svg {
+  fill: white;
+}
