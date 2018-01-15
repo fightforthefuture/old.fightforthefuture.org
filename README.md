@@ -1,4 +1,6 @@
-# fightforthefuture.org  
+# fightforthefuture.org
+
+[![CircleCI](https://circleci.com/gh/fightforthefuture/fightforthefuture.github.io/tree/production.svg?style=svg)](https://circleci.com/gh/fightforthefuture/fightforthefuture.github.io/tree/production)
 
 ## Campaigners
 
@@ -63,7 +65,7 @@ The blog content is pulled from [Tumblr](https://fight4future.tumblr.com) using 
 - This all compiles down to `public/js/core.js` via grunt, which also uglifies it - If you’re adding a javascript file that ought to be included in `core.js`, make sure to add its path to the files array inside the `concat` task in `Gruntfile.js`
 
 [00]: https://github.com/fightforthefuture/fightforthefuture.github.io/wiki
-[01]: https://circleci.com/
+[01]: https://circleci.com/gh/fightforthefuture/fightforthefuture.github.io/tree/production
 [02]: https://lyonbros.github.io/composer.js/
 [03]: http://jekyllrb.com/docs/home/
 [04]: http://gruntjs.com/getting-started
