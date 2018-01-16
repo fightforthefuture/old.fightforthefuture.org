@@ -43,7 +43,7 @@ fightforthefuture.org is hosted on [Amazon S3][06]. Here’s how it works: every
 
 ##### Blog
 
-The blog content is pulled from [Tumblr](https://fight4future.tumblr.com) using [`scripts/sync_tumblr.js`](scripts/sync_tumblr.js) and a [Zapier](https://zapier.com/) "zap" [triggers a Travis CI build using a webhook](https://docs.travis-ci.com/user/triggering-builds/) whenever a new Tumblr post is detected.
+The blog content is pulled from [Tumblr](https://fight4future.tumblr.com) using [`scripts/sync_tumblr.js`](scripts/sync_tumblr.js) and an AWS Lambda function triggers a Circle CI build whenever a new Tumblr post is detected.
 
 ### Code Structure
 
