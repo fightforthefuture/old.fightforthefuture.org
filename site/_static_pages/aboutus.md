@@ -101,7 +101,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Technology Exchange Fellow
 
-  Josh is our [Ford/MDF Technology Exchange Fellow][jt1]. As the former Campaign Director for Open Media Canada, Josh is a seasoned digital rights strategist and policy expert. 
+  Josh is our [Ford/MDF Technology Exchange Fellow][jt1]. As the former Campaign Director for OpenMedia, Josh is a seasoned digital rights strategist and policy expert. 
 
 ---
 [tc0]: /img/page/aboutus/teampic/tiff.png
