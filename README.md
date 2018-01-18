@@ -1,6 +1,6 @@
 # fightforthefuture.org
 
-[![CircleCI](https://circleci.com/gh/fightforthefuture/fightforthefuture.github.io/tree/production.svg?style=svg)](https://circleci.com/gh/fightforthefuture/fightforthefuture.github.io/tree/production)
+[![CircleCI](https://circleci.com/gh/fightforthefuture/fightforthefuture.org/tree/production.svg?style=svg)](https://circleci.com/gh/fightforthefuture/fightforthefuture.github.io/tree/production)
 
 ## Campaigners
 
