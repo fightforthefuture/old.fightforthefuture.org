@@ -96,7 +96,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
 ---
 
-![Josh Tabish](/img/page/aboutus/teampic/josh.png)
+![Josh Tabish](/img/page/aboutus/teampic/Josh.png)
 : ### Josh tabish
 
   #### Technology Exchange Fellow
