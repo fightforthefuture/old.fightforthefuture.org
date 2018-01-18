@@ -96,6 +96,14 @@ Our accomplishments are testament to the notion that with the right approach and
 
 ---
 
+![Josh Tabish](/img/page/aboutus/teampic/josh.png)
+: ### Josh tabish
+
+  #### Technology Exchange Fellow
+
+  Josh is our [Ford/MDF Technology Exchange Fellow][jt1]. As the former Campaign Director for Open Media Canada, Josh is a seasoned digital rights strategist and policy expert. 
+
+---
 [tc0]: /img/page/aboutus/teampic/tiff.png
 [tc1]: http://www.opencongress.org/
 [tc2]: http://getmiro.com/
@@ -122,6 +130,7 @@ Our accomplishments are testament to the notion that with the right approach and
 [tw1]: /img/page/aboutus/teampic/terri.png
 [mm1]: /img/page/aboutus/teampic/Mike.png
 [mm2]: https://github.com/mikemorris
+[jt1]: http://mediademocracyfund.org/matching-technology-talent-with-frontline-social-justice-organizations/
 
 
 # Fight for the Future 501(c)4 Board
