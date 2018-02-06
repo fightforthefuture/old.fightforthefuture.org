@@ -98,7 +98,8 @@ module.exports = function (grunt) {
             dot: true,
             src: [
               'img/**/*.{gif,png,jpg,jpeg,svg}',
-              'js/one-off/**/*.js'
+              'js/one-off/**/*.js',
+              'js/history.js'
             ],
             dest: '<%= site.assets %>'
           }
