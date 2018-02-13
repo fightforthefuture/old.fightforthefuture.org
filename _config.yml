@@ -300,6 +300,8 @@ prose:
               value: 'mid-level donors 11.8'
             - name: 'team internet text opt-outs'
               value: 'team internet text opt-outs'
+            - name: 'untagged-162k'
+              value: 'untagged-162k'
       - name: 'search_title'
         field:
           element: 'text'
