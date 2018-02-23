@@ -105,7 +105,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
 ---
 
-![Dayton Young](/img/page/aboutus/teampic/Dayton.jpg)
+!Dayton Young
 : ### Dayton Young
 
   #### Product Director
