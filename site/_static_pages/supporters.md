@@ -202,6 +202,8 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   * [![WeTransfer](/img/page/supporters/avatars/wetransfer.jpg) WeTransfer](https://wetransfer.com/)
   
   * Constance Chen
+  
+  * [![VPN.com](/img/page/supporters/avatars/vpn-logo.jpg) VPN.com(https://www.vpn.com/)
  
 ---
 
