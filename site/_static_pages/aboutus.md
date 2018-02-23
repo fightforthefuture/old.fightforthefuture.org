@@ -104,14 +104,6 @@ Our accomplishments are testament to the notion that with the right approach and
   Josh is our [Ford/MDF Technology Exchange Fellow][jt1]. As the former Campaign Director for OpenMedia, Josh is a seasoned digital rights strategist and policy expert. 
 
 ---
-
-: ### Dayton Young
-
-  #### Product Director
-
-  [Dayton](https://www.linkedin.com/in/daytonyoung/) is our Product Director. Prior to joining FFTF, he developed and managed a variety of digital products for companies like EA and Disney / ABC Television Group. He is excited to help protect internet freedom.
-  
----
 [tc0]: /img/page/aboutus/teampic/tiff.png
 [tc1]: http://www.opencongress.org/
 [tc2]: http://getmiro.com/
