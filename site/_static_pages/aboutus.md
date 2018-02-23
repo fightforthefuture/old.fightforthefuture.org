@@ -110,7 +110,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Product Director
 
-  [Dayton](https://www.linkedin.com/in/daytonyoung/) is our Product Director. Prior to joining Fight for the Future, he developed and managed a variety of digital products for companies like EA and Disney / ABC Television Group. He is excited to join the team and help protect internet freedom.
+  [Dayton](https://www.linkedin.com/in/daytonyoung/) is our Product Director. Prior to joining FFTF, he developed and managed a variety of digital products for companies like EA and Disney / ABC Television Group. He is excited to join the team and help protect internet freedom.
   
 ---
 [tc0]: /img/page/aboutus/teampic/tiff.png
