@@ -203,7 +203,7 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   
   * Constance Chen
   
-  * [![VPN.com](/img/page/supporters/avatars/vpn-logo.jpg) VPN.com](https://www.vpn.com/)
+  * [![VPN.com](/img/page/supporters/avatars/vpncomfb.png) VPN.com](https://www.vpn.com/)
  
 ---
 
