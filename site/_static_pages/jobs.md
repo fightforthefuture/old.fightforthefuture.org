@@ -37,7 +37,7 @@ Fight for the Future is looking for a software engineer to lead the front-end de
 * You’re happy doing some self-QA and tweaking until a user experience works reliably and feels nice.
 * You’re good at thinking into and around a problem, exposing corner cases and potential issues to non-technical collaborators. 
  
-  ## WHAT YOU'LL be BUILDING
+## WHAT YOU'LL be BUILDING
   
  * Flawless HTML/CSS paired with clear, modern design, and intuitive UX to send powerful messages out into the world & apply political pressure in the right places at the right time.
  * Modern JavaScript (ES6), build tools (Babel, Gulp, Grunt), and possibly a framework-driven interactive site (React, Angular). These tools are changing rapidly, so learning on the job is encouraged.
@@ -60,7 +60,7 @@ Fight for the Future is looking for a software engineer to lead the front-end de
  * Proven ability to do clean and classy design when needed.
  * Ability to make good UI/UX decisions and spot problems.
 
-  ## BONUS POINTS FOR
+ ## BONUS POINTS FOR
   
  * Familiarity with static site generators - many of our campaign microsites are built on Jekyll.
  * Experience writing modern JavaScript (ES6) and using build tools like Babel, Gulp or Grunt. These tools are changing    rapidly, so again, learning on the job is encouraged.
