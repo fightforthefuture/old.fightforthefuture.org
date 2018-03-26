@@ -5,7 +5,6 @@ social_title: "Want a job changing politics, forever?"
 social_description: "Fight for the Future is hiring developers, designers, activists/lobbyists, and product managers to build longshot campaigns that tackle the most pressing issues in the world. Work from anywhere."
 ---
 * [Jobs](#)
-* [Political Product Director](#political-product-director)
 * [Senior Software Engineer](#senior-software-engineer)
 * [A-Teams Technical Co-founder](#a-teams-technical-co-founder)
 * [A-Teams Political Strategist Co-founder](#a-teams-political-strategist-co-founder)
@@ -16,76 +15,6 @@ social_description: "Fight for the Future is hiring developers, designers, activ
 ## Brief
 
 Fight for the Future is a non-profit organization whose mission is to ensure that the web continues to hold freedom of expression and creativity at its core. We primarily work on high value, fearless projects that can be seen by millions. We’re a very small team, but we’re always looking for new people with brilliant ideas. Fight for the Future is 100% remote and timezone flexible. Please see below for our current job openings.
-
-***
-
-# Political Product Director
-
-## who is ready to organize millions
-
-## ABOUT THE ROLE
-
-Our activism can achieve surprising political wins, by combining political strategy and Internet savvy. The Political Product Director is one of the most important roles in our work. If you ever wanted to build online experiences that reach out, grab people, and help them change the world, then this is the job for you.
-
-## ABOUT YOU
-
-We are seeking someone who can be a leader in building campaigns and technology to make big political change happen. You must know how to direct the creation of websites, tech, and products that can speak to millions. You must have the ability to create products that have the optimism, humor, reason, creativity, and provocation that can resonate with anyone and motivate them to act. 
-
-You will work alongside a creative, multidisciplinary campaigning team, including a software developer, a designer, and experienced campaigners.
-
-We’re looking for that rare someone who has both a lot of product creativity and a lot of political savvy, but we know that not everyone has had the chance to excel in both areas! So, if you have a track record in one area but not the other, but think you have the ability and interest to really develop on the side you are lacking experience with, we want to hear from you. The most important things will be creative vision with awareness of emotions and politics (to know where you’re going) impeccable “know it when you see it” taste (to know when you’re not there yet) and some problem solving ability to get from a vision to the final product.
-
-## WHAT YOU'LL DO
-
-* Help dream up tech innovations (large and small) to influence the political process, working with our tech and campaigns team.
-* Bring these visions into reality by managing product development so that the end result advances our goal: effective public participation and big political victories.  
-* Reach and organize the public by creating exciting and persuasive content (websites, software, social media, and more) and new realities (such as sign-on letters, events, rallies, protests, alliances, etc.) that can grow fast, generate social and traditional media attention, and advance the debate.
-* Coordinate with and direct our team of developers, designers, and campaigners to ensure nimble development of high-quality products and solutions. 
-* Respond to political deadlines and climate.
-* Prioritize projects, features, infrastructure, and overall development based on political efficacy and resources. 
-* Develop product specifications, translate product roadmaps into software development projects and milestones. Implement a process for quality control of our campaigns.
-
-## WHAT WE'RE LOOKING FOR
-
-Primarily, we need you to be a solid and creative Product Director with the skills to run a political tech shop:
-
-* 2+ years experience in product management, with strong understanding of current technologies and decisions about software architecture, scaling and security—from a product manager perspective.
-* Basic project management experience and familiarity with agile development. Ability to manage the creation of software in a deadline-aware way, spot blockers, and triage priorities.
-* Strong UI/UX and design sense that you can use to apply to anything we make. 
-* Ability to build user-centered experiences and to evaluate user experiences based on metrics and goals. 
-* The kind of scrappy hustle needed and build a shiny MVP that can be ready for showtime in a day (for small, rapid-response products) and in a matter of weeks for bigger projects. 
-* Throughout every stage in this process, you’re constantly looking for ways to use the Internet, tech, code, politics, PR, and policy to increase the power and efficacy of our small team.
-* You should be able to propose your ideas in drawings, mockups, or examples and then work with designers and developers to make the final result just right. 
-
-If you happen to also have a lot of political and cultural awareness, you’re our perfect hire: 
-
-* You have a strong sense of how to bring people together. 
-* You can think outside the box, see opportunities that others write off, and make new things happen.
-* You write beautifully, especially for an online audience. (English fluency is a must.)
-* You understand convention but aren’t bound by it.
-* You can plug holes, see what’s missing.
-* You can get things done, but believe plans are made to break and change.
-* You see opportunity to break the status quo of the political process all the time.
-* You fight hard to achieve a goal.
-* You have some deep experience with online discussion spaces and Internet culture.
-* You appreciate and admire excellent subway advertising.
-
-We’re looking for someone smart and savvy and who can be funny and playful with ideas, someone who can speak to people’s humor, fears and what gets them going, someone who can develop purposeful humor, creativity, poignant ideas, and language that can cut through political gridlock and debate.
-
-We’d especially enjoy someone who has a wide interest in pulling off all different kinds of tactics and strategy and using whatever resources are at their disposal—you should have an interest in using law, policies, pop culture, music, philosophy, subcultural themes, memes, language, history, media, organizing playbooks, and whatever else is out there to pull off a really hard-hitting and exciting campaign product for the right audience.
-
-## COMPENSATION
-
-Market Rate / Commensurate with Experience. Full health and dental benefits. 
-
-## LOCATION
-
-The team will be 100% remote-no need to commute or relocate. Being in the US is a plus. If you’re interested in relocation, let us know. We’d start working with you on a contract basis at an hourly rate, but we will be able to offer full-time position with competitive salary and benefits to the right person.
-
-## TO APPLY
-When applying, please include where you heard about the opportunity. Also, show us what you excel at. Please include links to or samples of products you’ve built -- links to live sites or screenshots that best demonstrate these products. We’d especially love to see live links to sites you’ve created professionally or personally, even more so if they demonstrate UI/UX and design abilities. If you have a website, please include that too, as well as significant things you’ve done, projects you’ve worked on, ideas you’ve brought into the world etc. Being well-rounded is a plus, so don’t exclude significant skills or achievements just because they aren’t activism related (e.g. starting a business, or being a musician). If you can send us examples of product-oriented writing (headlines and concise copy, in the context of a layout) that’s great too. There’s no need to send code samples or your linkedin profile at this time.
-
-<script type="text/javascript" src="https://app.jazz.co/widgets/buttons/create/fightforthefuture/EuBw44zzH1"></script>
 
 ***
 
