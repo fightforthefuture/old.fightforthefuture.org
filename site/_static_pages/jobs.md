@@ -5,6 +5,7 @@ social_title: "Want a job changing politics, forever?"
 social_description: "Fight for the Future is hiring developers, designers, activists/lobbyists, and product managers to build longshot campaigns that tackle the most pressing issues in the world. Work from anywhere."
 ---
 * [Jobs](#)
+* [Front-End Software Engineer](#front-end-software-engineer)
 * [A-Teams Technical Co-founder](#a-teams-technical-co-founder)
 * [A-Teams Political Strategist Co-founder](#a-teams-political-strategist-co-founder)
 * [A-Teams Design Co-founder](#a-teams-design-co-founder)
@@ -16,7 +17,66 @@ social_description: "Fight for the Future is hiring developers, designers, activ
 Fight for the Future is a non-profit organization whose mission is to ensure that the web continues to hold freedom of expression and creativity at its core. We primarily work on high value, fearless projects that can be seen by millions. We’re a very small team, but we’re always looking for new people with brilliant ideas. Fight for the Future is 100% remote and timezone flexible. Please see below for our current job openings.
 
 ***
+# Front-End Software Engineer
+## A full stack engineer, with a knack for UX design
 
+## ABOUT THE ROLE
+Fight for the Future is looking for a software engineer to lead the front-end development side of our digital campaigning efforts. This is more than a simple coding or campaigning position. This is a leadership position for someone who understands the threats that face the future of free expression on the Internet, and who can creatively use the Internet as a medium for political change.
+ 
+## ABOUT YOU
+ -* You’re an excellent front-end coder who can make things work and work well for millions of users.
+ -* You can faithfully implement others’ designs and make good decisions about layout, typography, and color when needed (but you definitely don’t need to be an expert designer or have illustration skills!) 
+ -* You can build high quality user interaction with intuitive prompts, modals, clear buttons, etc, spotting and fixing UI problems as you go.
+ -* You could design straight to code if needed, and while your own design choices don’t have to look fancy or highly polished (authentic is often better!) the result should be crafted, professional and ready to put in front of millions of people.
+ -* You are familiar with current product innovations, messaging apps, social media, UI/UX, and design.
+ -* You understand rapid prototyping and release, user adoption, and A/B testing, and you can navigate cost/benefits analysis of various technical solutions, languages, and architecture-based decisions.
+ -* You can think on your feet, be organized, optimize project plans and workload, and manage/delegate the different pieces of projects.
+ -* You enjoy a fast-paced environment and can pivot quickly as needed to make changes based on changing outside requirements.
+ -* You like brainstorming ways to simplify the scope of a project to fit a given timeline (e.g. if the team asks for something crazy/hard, maybe there’s a much easier way to achieve a similar result) and you’re always looking for those kinds of lovely simplifications.
+ -* You’re happy doing some self-QA and tweaking until a user experience works reliably and feels nice.
+ -* You’re good at thinking into and around a problem, exposing corner cases and potential issues to non-technical collaborators. 
+ 
+  ## WHAT YOU'LL be BUILDING
+ -* Flawless HTML/CSS paired with clear, modern design, and intuitive UX to send powerful messages out into the world & apply political pressure in the right places at the right time.
+ -* Modern JavaScript (ES6), build tools (Babel, Gulp, Grunt), and possibly a framework-driven interactive site (React, Angular). These tools are changing rapidly, so learning on the job is encouraged.
+ -* Solutions that achieve our goals by leveraging and customizing existing services (CRM, publishing tools, etc).
+ -* Innovative or unconventional tools to effectively mobilize a large audience.
+ 
+ ## THINGS THAT YOU MIGHT LIKE ABOUT THIS JOB
+ -* It’s telecommute work with a 100% remote team.
+ -* We do retreats and in-person sprints too, because it’s nice to see people!
+ -* The work will be highly varied, like freelancing on a variety of projects.
+ -* You can choose the framework and tools we use to get stuff done, and use whatever you’re most excited about.
+ -* Be a hero to many. The “yeah, I made that” small talk in bars is fun.
+ 
+ ## REQUIREMENTS
+ -* Experience writing modern HTML/CSS with responsive design techniques and awareness of common cross-browser problems.
+ -* An understanding of client-side JavaScript - AJAX, handling events, DOM manipulation and cross-browser compatibility.
+ -* Knowledge of progressive enhancement strategies and ability to create simple sites that can function with JavaScript disabled or seamlessly integrate subtle CSS transitions for a refined user experience.
+ -* Proven ability to do clean and classy design when needed.
+ -* Ability to make good UI/UX decisions and spot problems.
+
+  ## BONUS POINTS FOR
+ -* Familiarity with static site generators - many of our campaign microsites are built on Jekyll.
+ -* Experience writing modern JavaScript (ES6) and using build tools like Babel, Gulp or Grunt. These tools are changing rapidly, so again, learning on the job is encouraged.
+ -* Experience building front-end applications with a modern framework like React or Angular.
+ -* Having successfully launched a great product working in a small team
+ -* Ability to build and manage teams
+ -* Strong participation in communities like Reddit or HN
+ -* Lots of remote / freelance experience solving problems on tight deadlines
+ -* Persuasive writing skills for an online audience
+ -* Experience working remotely (we use slack/trello/google hangouts)
+ 
+ ## MEGA BONUS POINTS FOR
+ -* Having built and marketed your own product.
+ -* Having been a leader—of anything—especially online, especially tech-related
+ -* Experience with activism, resistance, creative and positive troublemaking, or any kind of fiery provocative work in any area.
+ 
+In your application, we'd like you to include links to any public repos, sample code (as many examples as possible) and good examples of HTML/CSS work and UI/UX or design as well as a cover letter which explains why you want to do mission-based work. Please also let us know where you heard about the job. 
+ 
+ <script type="text/javascript" src="https://app.jazz.co/widgets/buttons/create/fightforthefuture/49palH1Yrd"></script>
+
+***
 # A-Teams Technical Co-founder
 ## Full stack developer, product-crafter, troublemaker for a better world. 
 
