@@ -44,7 +44,7 @@ Fight for the Future is looking for a software engineer to lead the front-end de
  * Solutions that achieve our goals by leveraging and customizing existing services (CRM, publishing tools, etc).
  * Innovative or unconventional tools to effectively mobilize a large audience.
  
- ## THINGS THAT YOU MIGHT LIKE ABOUT THIS JOB
+## THINGS THAT YOU MIGHT LIKE ABOUT THIS JOB
  
  * It’s telecommute work with a 100% remote team.
  * We do retreats and in-person sprints too, because it’s nice to see people!
@@ -52,7 +52,7 @@ Fight for the Future is looking for a software engineer to lead the front-end de
  * You can choose the framework and tools we use to get stuff done, and use whatever you’re most excited about.
  * Be a hero to many. The “yeah, I made that” small talk in bars is fun.
  
- ## REQUIREMENTS
+## REQUIREMENTS
  
  * Experience writing modern HTML/CSS with responsive design techniques and awareness of common cross-browser problems.
  * An understanding of client-side JavaScript - AJAX, handling events, DOM manipulation and cross-browser compatibility.
@@ -60,7 +60,7 @@ Fight for the Future is looking for a software engineer to lead the front-end de
  * Proven ability to do clean and classy design when needed.
  * Ability to make good UI/UX decisions and spot problems.
 
- ## BONUS POINTS FOR
+## BONUS POINTS FOR
   
  * Familiarity with static site generators - many of our campaign microsites are built on Jekyll.
  * Experience writing modern JavaScript (ES6) and using build tools like Babel, Gulp or Grunt. These tools are changing    rapidly, so again, learning on the job is encouraged.
@@ -72,7 +72,7 @@ Fight for the Future is looking for a software engineer to lead the front-end de
  * Persuasive writing skills for an online audience
  * Experience working remotely (we use slack/trello/google hangouts)
  
- ## MEGA BONUS POINTS FOR
+## MEGA BONUS POINTS FOR
  
  * Having built and marketed your own product.
  * Having been a leader—of anything—especially online, especially tech-related
