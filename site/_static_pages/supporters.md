@@ -204,6 +204,10 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   * Constance Chen
   
   * [![VPN.com](/img/page/supporters/avatars/vpncomfb.png) VPN.com](https://www.vpn.com/)
+
+  * [![concrete5](/img/page/supporters/avatars/concrete5.png) concrete5](https://www.concrete5.org/)
+
+  * [![Restore Privacy](/img/page/supporters/avatars/restore-privacy.png) Restore Privacy](https://restoreprivacy.com/)
  
 ---
 
