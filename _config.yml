@@ -304,6 +304,8 @@ prose:
               value: 'untagged-150k'
             - name: 'smallbiz'
               value: 'smallbiz'
+            - name: 'bfnn'
+              value: 'bfnn'
       - name: 'search_title'
         field:
           element: 'text'
