@@ -306,6 +306,8 @@ prose:
               value: 'smallbiz'
             - name: 'bfnn'
               value: 'bfnn'
+            - name: 'bfnn-dp'
+              value: 'bfnn-dp'
       - name: 'search_title'
         field:
           element: 'text'
