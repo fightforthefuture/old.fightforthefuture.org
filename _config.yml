@@ -308,6 +308,8 @@ prose:
               value: 'bfnn'
             - name: 'bfnn-dp'
               value: 'bfnn-dp'
+            - name: 'bfnn-colorofchange'
+              value: 'bfnn-colorofchange'
       - name: 'search_title'
         field:
           element: 'text'
