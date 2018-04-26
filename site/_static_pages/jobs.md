@@ -182,13 +182,11 @@ You will work alongside a creative, multidisciplinary software developer with al
 * You can get things done, but believe plans are made to break and change.
 * You see opportunity to break the status quo of the political process all the time.
 * You are rigorous and tenacious about getting to honest answers and using them to find ways to break open a debate and bring people together. 
-* You may not have experience with all aspects of issue-based campaigning, but are ready to learn.
 * Political inside jokes and gossip bore you.
 * You get beltway politics, but would rather be speaking to the rest of the country/world.
 * You love unplugging from news and Twitter to work on something big.
 * You’re a bit of a social chameleon. You feel at home in many circles. You can quickly see how people in a certain scene talk and understand the world, and you can fit right in while still holding on to and spreading your perspective.
 * You hold seemingly contradictory political beliefs. Sometimes people on your own political “side” might terrify you, while the other “side” seems more wise.
-* You get more excited reading classics of fiction or political theory than watching House of Cards. (House of Cards is not a mortal sin—many of our most respected colleagues do it!—but you’re much broader.)
 * You can be crafty and devious. Maybe you were a troublemaker in high school.
 * For most of your life you’ve felt compelled to right wrongs or challenge arbitrary authority.
 * Your life has intersected with a large political uprising of some kind.
