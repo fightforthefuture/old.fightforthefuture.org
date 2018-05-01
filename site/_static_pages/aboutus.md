@@ -65,7 +65,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Lead Designer
 
-  [Vasjen][vk1] is our UI/UX expert from Albania. You can see his work on [Dribbble][vk2] and follow him on [Instagram][vk3]. He recently co-designed the new [Adobe Illustrator][https://www.adobe.com/products/illustrator.html] 2018 splash screen.
+  [Vasjen][vk1] is our UI/UX expert from Albania. You can see his work on [Dribbble][vk2] and follow him on [Instagram][vk3]. He recently co-designed the new [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) 2018 splash screen.
 
 ---
 
