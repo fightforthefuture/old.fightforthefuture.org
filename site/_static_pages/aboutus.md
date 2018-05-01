@@ -33,39 +33,21 @@ Our accomplishments are testament to the notion that with the right approach and
 
 ---
 
-![Tiffiniy Cheng][tc0]
-: ### Tiffiniy Cheng
-
-  #### Co-Founder and Co-Director
-
-  Tiffiniy is our co-founder and co-director. She started [Open Congress][tc1], [Miro][tc2], and the advocacy organization, A New Way Forward. She is currently both a [Shuttleworth](https://shuttleworthfoundation.org/fellows/tiffiniy-cheng) and [Ashoka](https://www.ashoka.org/en) fellow.
-
----
-
-![Holmes Wilson][hw0]
-: ### Holmes Wilson
-
-  #### Co-Founder and Co-Director
-
-  Holmes is the other co-founder and co-director of Fight for the Future. He also co-founded [Miro][tc2], [Open Congress][tc1], and [Amara][hw1], and ran online campaigns for the [FSF][hw2].
-
----
-
 ![Evan Greer][eg0]
 : ### Evan Greer
 
-  #### Campaign Director
+  #### Deputy Director
 
-  [Evan][eg1] is our campaign director. She’s been organizing hard-hitting campaigns for more than a decade and is a regular contributor to The Guardian and Huffington Post.
+  [Evan][eg1] is our Deputy Director. She’s been organizing hard-hitting campaigns for more than a decade and is a regular contributor to The Guardian and Huffington Post.
 
 ---
 
 ![Sarah Roth-Gaudette](/img/page/aboutus/teampic/sarah.png)
 : ### Sarah Roth-Gaudette
 
-  #### Chief Operating Officer
+  #### Executive Director
 
-  [Sarah][sg1] is our fundraising and operations guru. Before joining the team, she spent 15 plus years running a nationwide canvass operation that raised millions of dollars and built winning people’s organizations.
+  [Sarah][sg1] is our Executive Director and former Chief Operating Officer. Her background includes running a nationwide canvass operation with the Public Interest Network and several cycles of volunteer-driven GOTV campaigns with Moveon PAC and others.  
 
 ---
 
@@ -92,7 +74,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Campaigner
 
-  Laila is our Campaigner and a [2017 Kairos Fellow][la1]. Before joining FFTF, Laila served as CAIR Florida's Legislative & Government Affairs Director where she led advocacy campaigns to protect civil rights and challenge Islamophobia.
+  Laila is our Campaigner and was a [2017 Kairos Fellow][la1]. Before joining FFTF, Laila served as CAIR Florida's Legislative & Government Affairs Director where she led advocacy campaigns to protect civil rights and challenge Islamophobia.
 
 ---
 
@@ -102,6 +84,24 @@ Our accomplishments are testament to the notion that with the right approach and
   #### Technology Exchange Fellow
 
   Josh is our [Ford/MDF Technology Exchange Fellow][jt1]. As the former Campaign Director for OpenMedia, Josh is a seasoned digital rights strategist and policy expert. 
+
+---
+
+![Jelani Drew](/img/page/aboutus/teampic/jelani.png)
+: ### Jelani Drew
+
+  #### 2018 Kairos Fellow
+
+  Jelani is a 2018 Kairos Fellow. Most recently, they've been the Advocacy Coordinator for the Richmond Peace Education Center and a Member Leader organizing with Southerners On New Ground (SONG). 
+  
+---
+
+![Ken Mickles](/img/page/aboutus/teampic/ken.png)
+: ### Ken Mickles
+
+  #### Senior Software Engineer
+
+  Ken Mickles is our Senior Software Engineer. He is a polyglot programmer who ran his own small development studio for 4 years. Prior to that he founded a travel and social networking start-up that was acquired by TripAdvisor and taught programming at a local college.
 
 ---
 
@@ -161,6 +161,24 @@ Our accomplishments are testament to the notion that with the right approach and
 
   Advocate for openness and supporter of social entrepeneurs. Director of the [Shuttleworth Foundation](https://shuttleworthfoundation.org/).
 
+---
+
+![Tiffiniy Cheng][tc0]
+: ### Tiffiniy Cheng
+
+  #### Co-Founder
+
+  Co-founder of Fight for the Future, [Open Congress][tc1], [Miro][tc2], and the advocacy organization, A New Way Forward. She is currently an [Ashoka](https://www.ashoka.org/en) fellow.
+
+---
+
+![Holmes Wilson][hw0]
+: ### Holmes Wilson
+
+  #### Secretary and Co-Founder
+
+  Co-founder of Fight for the Future, [Miro][tc2], [Open Congress][tc1], and [Amara][hw1]. He also ran online campaigns for the [Free Software Foundation][hw2].
+  
 
 # FFTF Education Fund 501(c)3 Board
 {: #fftfef-board}
@@ -190,3 +208,21 @@ Our accomplishments are testament to the notion that with the right approach and
   #### Secretary
 
   Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School. Author of The Wealth of Networks: How social production transforms markets and freedom.
+  
+  ---
+
+![Tiffiniy Cheng][tc0]
+: ### Tiffiniy Cheng
+
+  #### Co-Founder
+
+  Co-founder of Fight for the Future, [Open Congress][tc1], [Miro][tc2], and the advocacy organization, A New Way Forward. She is currently an [Ashoka](https://www.ashoka.org/en) fellow.
+
+---
+
+![Holmes Wilson][hw0]
+: ### Holmes Wilson
+
+  #### Co-Founder
+
+  Co-founder of Fight for the Future, [Miro][tc2], [Open Congress][tc1], and [Amara][hw1]. He also ran online campaigns for the [Free Software Foundation][hw2].
