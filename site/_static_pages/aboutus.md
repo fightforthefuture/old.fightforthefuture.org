@@ -38,7 +38,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Deputy Director
 
-  [Evan][eg1] is our Deputy Director. She’s been organizing hard-hitting campaigns for more than a decade and is a regular contributor to The Guardian and Huffington Post.
+  [Evan][eg1] is our former Campaign Director. She’s been organizing hard-hitting campaigns for more than a decade and is a regular contributor to The Guardian and Huffington Post.
 
 ---
 
@@ -47,7 +47,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Executive Director
 
-  [Sarah][sg1] is our Executive Director and former Chief Operating Officer. Her background includes running a nationwide canvass operation with the Public Interest Network and several cycles of volunteer-driven GOTV campaigns with Moveon PAC and others.  
+  [Sarah][sg1] is our former Chief Operating Officer. Her background includes running a nationwide canvass operation with the Public Interest Network and several cycles of volunteer-driven GOTV campaigns with Moveon PAC and others.  
 
 ---
 
@@ -65,7 +65,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Lead Designer
 
-  [Vasjen][vk1] is our Lead Designer from Albania. He loves to craft great UI / UX and make the Internet a better place. You can see his work on [Dribbble][vk2] and follow him on [Twitter][vk3].
+  [Vasjen][vk1] is our UI/UX expert from Albania. You can see his work on [Dribbble][vk2] and follow him on [Instagram][vk3]. He recently co-designed the new [Adobe Illustrator][https://www.adobe.com/products/illustrator.html] 2018 splash screen.
 
 ---
 
@@ -74,7 +74,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Campaigner
 
-  Laila is our Campaigner and was a [2017 Kairos Fellow][la1]. Before joining FFTF, Laila served as CAIR Florida's Legislative & Government Affairs Director where she led advocacy campaigns to protect civil rights and challenge Islamophobia.
+  Laila was a [2017 Kairos Fellow][la1]. Before joining FFTF, Laila served as CAIR Florida's Legislative & Government Affairs Director where she led advocacy campaigns to protect civil rights and challenge Islamophobia.
 
 ---
 
@@ -83,7 +83,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Technology Exchange Fellow
 
-  Josh is our [Ford/MDF Technology Exchange Fellow][jt1]. As the former Campaign Director for OpenMedia, Josh is a seasoned digital rights strategist and policy expert. 
+  Josh is a [Ford/MDF Technology Exchange Fellow][jt1]. As the former Campaign Director for OpenMedia, Josh is a seasoned digital rights strategist and policy expert. 
 
 ---
 
@@ -92,7 +92,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### 2018 Kairos Fellow
 
-  Jelani is a 2018 Kairos Fellow. Most recently, they've been the Advocacy Coordinator for the Richmond Peace Education Center and a Member Leader organizing with Southerners On New Ground (SONG). 
+  Jelani is a 2018 Kairos Fellow. Most recently, they've been the Advocacy Coordinator for the Richmond Peace Education Center and a Member Leader with Southerners On New Ground (SONG). 
   
 ---
 
@@ -101,7 +101,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Senior Software Engineer
 
-  Ken Mickles is our Senior Software Engineer. He is a polyglot programmer who ran his own small development studio for 4 years. Prior to that he founded a travel and social networking start-up that was acquired by TripAdvisor and taught programming at a local college.
+  Ken Mickles is a polyglot programmer who ran his own small development studio for 4 years. Prior to that he founded a travel and social networking start-up that was acquired by TripAdvisor and taught programming at a local college.
 
 ---
 
@@ -110,7 +110,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Director of Product
 
-  Dayton is our Product Director.  Prior to joining Fight for the Future, he developed and managed a variety of digital products for companies like EA and Disney / ABC Television Group.  He is excited to join the team and help protect internet freedom.
+  Prior to joining FFTF, Dayton developed and managed a variety of digital products for companies like EA and Disney / ABC Television Group. He is leading our work to build websites, tech, and online products that can speak to millions.
 
 ---
 [tc0]: /img/page/aboutus/teampic/tiff.png
@@ -131,7 +131,7 @@ Our accomplishments are testament to the notion that with the right approach and
 [vk0]: /img/page/aboutus/teampic/vasjen.png
 [vk1]: http://vasjenkatro.com/
 [vk2]: http://dribbble.com/Katro/
-[vk3]: https://twitter.com/VasjenKatro/
+[vk3]: https://www.instagram.com/vasjenkatro/
 [cf0]: /img/page/aboutus/teampic/charlie.png
 [cf1]: https://twitter.com/DigitalCharlie_
 [cf2]: http://peoplesclimate.org/wrap-up/
@@ -209,7 +209,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School. Author of The Wealth of Networks: How social production transforms markets and freedom.
   
-  ---
+---
 
 ![Tiffiniy Cheng][tc0]
 : ### Tiffiniy Cheng
