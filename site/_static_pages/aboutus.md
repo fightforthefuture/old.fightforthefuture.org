@@ -29,7 +29,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Chief Finance Officer
 
-  Terri helped to set up Fight for the Future in 2011 and has since returned as our CFO.  She has more than 25 years in finance including nearly 10 with the Participatory Culture Foundation.
+  Terri helped to set up Fight for the Future when founded and is now our finance and operations brain.  She has more than 25 years in finance including nearly 10 with the Participatory Culture Foundation.
 
 ---
 
@@ -38,7 +38,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Deputy Director
 
-  [Evan][eg1] is our former Campaign Director. She’s been organizing hard-hitting campaigns for more than a decade and is a regular contributor to The Guardian and Huffington Post.
+  [Evan][eg1] directs our campaigns and communications. She’s been organizing hard-hitting campaigns for more than a decade and is a regular contributor to The Guardian, Newsweek, NBCNews and Time Magazine. Prior to joining FFTF, she toured as a professional musician.
 
 ---
 
@@ -47,7 +47,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Executive Director
 
-  [Sarah][sg1] is our former Chief Operating Officer. Her background includes running a nationwide canvass operation with the Public Interest Network and several cycles of volunteer-driven GOTV campaigns with Moveon PAC and others.  
+  [Sarah][sg1] was our Chief Operating Officer for 3 years. Her background includes running a nationwide canvass operation with the Public Interest Network and several cycles of volunteer-driven GOTV campaigns with Moveon PAC.  
 
 ---
 
@@ -74,7 +74,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Campaigner
 
-  Laila was a [2017 Kairos Fellow][la1]. Before joining FFTF, Laila served as CAIR Florida's Legislative & Government Affairs Director where she led advocacy campaigns to protect civil rights and challenge Islamophobia.
+  Laila was a [2017 Kairos Fellow][la1]. Before that Laila served as CAIR Florida's Government Affairs Director where she led advocacy campaigns to protect civil rights and challenge Islamophobia. She leads our work surveillance and data security.
 
 ---
 
@@ -83,7 +83,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Technology Exchange Fellow
 
-  Josh is a [Ford/MDF Technology Exchange Fellow][jt1]. As the former Campaign Director for OpenMedia, Josh is a seasoned digital rights strategist and policy expert. 
+  Josh is a [Ford/MDF Technology Exchange Fellow][jt1]. As the former Campaign Director for OpenMedia, Josh is a seasoned digital rights strategist and policy expert. He leads our work on net neutrality. 
 
 ---
 
@@ -101,7 +101,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Senior Software Engineer
 
-  Ken Mickles is a polyglot programmer who ran his own small development studio for 4 years. Prior to that he founded a travel and social networking start-up that was acquired by TripAdvisor and taught programming at a local college.
+  Ken Mickles is a polyglot programmer who ran his own small development studio for 4 years. He also founded a travel and social networking start-up that was acquired by TripAdvisor and taught programming at a local college.
 
 ---
 
