@@ -29,7 +29,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Chief Finance Officer
 
-  Terri helped to set up Fight for the Future when founded and is now our finance and operations brain.  She has more than 25 years in finance including nearly 10 with the Participatory Culture Foundation.
+  Terri helped to set up Fight for the Future in 2011 and she's returned as our finance and operations brain.  She has more than 25 years in finance including nearly 10 with the Participatory Culture Foundation.
 
 ---
 
@@ -47,7 +47,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Executive Director
 
-  [Sarah][sg1] was our Chief Operating Officer for 3 years. Her background includes running a nationwide canvass operation with the Public Interest Network and several cycles of volunteer-driven GOTV campaigns with Moveon PAC.  
+  [Sarah][sg1] was our Chief Operating Officer for 3 years. Her background includes running a nationwide canvass operation with the Public Interest Network and several cycles of volunteer-driven GOTV campaigns with Moveon PAC and others.  
 
 ---
 
@@ -74,7 +74,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Campaigner
 
-  Laila was a [2017 Kairos Fellow][la1]. Before that Laila served as CAIR Florida's Government Affairs Director where she led advocacy campaigns to protect civil rights and challenge Islamophobia. She leads our work surveillance and data security.
+  Laila was a [2017 Kairos Fellow][la1]. Before FFTF, Laila served as CAIR Florida's Government Affairs Director where she led campaigns to protect civil rights and challenge Islamophobia. She leads our work surveillance and data security.
 
 ---
 
