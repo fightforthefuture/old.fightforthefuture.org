@@ -19,4 +19,22 @@
   ga('send', 'pageview');
 
 </script>
+<script>
+  (function() {
+    // exit if...
+    if (
+      window.location.search.indexOf('redalert') === -1 // ?redalert isn't set
+      || document.getElementById('RED_ALERT_WIDGET') // or widget already exists
+    ) return;
+
+    window.RED_ALERT_OPTIONS = {
+      alwaysShow: true,
+      org: 'fftf'
+    };
+
+    var script = document.createElement('script');
+    script.src = 'https://redalert.battleforthenet.com/widget.js';
+    document.head.appendChild(script);
+  })();
+</script>
 <!-- <script src="https://widget.battleforthenet.com/widget.js" async></script> -->
