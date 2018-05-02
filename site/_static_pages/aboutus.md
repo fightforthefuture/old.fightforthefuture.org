@@ -38,7 +38,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Deputy Director
 
-  [Evan][eg1] directs our campaigns and communications. She’s been organizing hard-hitting campaigns for more than a decade and is a regular contributor to The Guardian, Newsweek, NBCNews and Time Magazine. Prior to joining FFTF, she toured as a professional musician.
+  [Evan][eg1] directs our campaigns and communications. She’s been organizing hard-hitting campaigns for more than a decade and is a regular contributor to The Guardian, Newsweek, and Time Magazine. Prior to joining, she toured as a professional musician.
 
 ---
 
