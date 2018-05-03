@@ -195,7 +195,8 @@ You will work alongside a creative, multidisciplinary software developer with al
 ## Details:
 This is a full time position with Fight for the Future. The salary range is $60-90K annually, depending on experience. Benefits include full health care, partially covered dental benefits, and training and mentoring with senior staff. If a contract set-up works better for you, we can discuss that too.
 
-When applying, please include where you heard about the opportunity.
+## To apply:
+Please click on the apply button below and fill out the application. Please include where you heard about the opportunity.
 
 <i style="font-style:italic">Fight for the Future is an equal opportunity and inclusive employer. FFTF does not and shall not discriminate on the basis of race, color, religion (creed), gender, gender expression, age, national origin (ancestry), disability, marital status, sexual orientation, or military status, in any of its activities or operations. We believe that a diverse staff enables us to better understand and serve our members, audience and community. Women, people of color, and members of low-income, disadvantaged, and LGBTQ communities are strongly encouraged to apply.</i>
 
