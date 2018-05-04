@@ -200,7 +200,7 @@ Please click on the apply button below and fill out the application. Please incl
 
 <i style="font-style:italic">Fight for the Future is an equal opportunity and inclusive employer. FFTF does not and shall not discriminate on the basis of race, color, religion (creed), gender, gender expression, age, national origin (ancestry), disability, marital status, sexual orientation, or military status, in any of its activities or operations. We believe that a diverse staff enables us to better understand and serve our members, audience and community. Women, people of color, and members of low-income, disadvantaged, and LGBTQ communities are strongly encouraged to apply.</i>
 
-<script type="text/javascript" src="https://app.jazz.co/widgets/buttons/create/fightforthefuture/DDejLK7mHA"></script>
+<script type="text/javascript" src="/js/one-off/jobs/tmp_custom_jobpost.js"></script>
 
 ***
 # A-Teams Political Strategist Co-founder
