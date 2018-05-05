@@ -312,6 +312,8 @@ prose:
               value: 'bfnn-colorofchange'
             - name: 'bfnn-pcaf'
               value: 'bfnn-pcaf'
+            - name: 'bfnn-new'
+              value: 'bfnn-new'
       - name: 'search_title'
         field:
           element: 'text'
