@@ -19,7 +19,7 @@
   ga('send', 'pageview');
 
 </script>
-<script>
+<!-- <script>
   (function() {
     // exit if...
     if (
@@ -36,5 +36,14 @@
     script.src = 'https://redalert.battleforthenet.com/widget.js';
     document.head.appendChild(script);
   })();
+</script> -->
+<script>
+  var RED_ALERT_OPTIONS = {
+    org: 'fftf'
+  };
+
+  if (window.location.search.indexOf('redalert') !== -1) {
+    RED_ALERT_OPTIONS.alwaysShow = true;
+  }
 </script>
-<!-- <script src="https://widget.battleforthenet.com/widget.js" async></script> -->
+<script src="https://redalert.battleforthenet.com/widget.js" async></script>
