@@ -8,7 +8,7 @@
   {% if project.fire %}{:.fire}{% endif %}
 
   ---
-{% if forloop.index == include.limit  %}{% break %}
+{% if forloop.index == include.limit %}{% break %}
 {% endif %}{% endfor %}
 
 ![Other Links](/img/projects/ol.png)
@@ -28,7 +28,8 @@
   {% if project.fire %}{:.fire}{% endif %}
 
   ---
-{% endfor %}
+{% if forloop.index == include.limit %}{% break %}
+{% endif %}{% endfor %}
 
 ![Other Links](/img/projects/ol.png)
 : {% for link in site.data.homepage.otherlinksc3 %}

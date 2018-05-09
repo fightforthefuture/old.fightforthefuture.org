@@ -1,4 +1,4 @@
-fftf:
+removed_entries:
   - id: july12
     fire: false
     url: https://www.battleforthenet.com/july12/
@@ -6,6 +6,28 @@ fftf:
     title: 'Internet-Wide Day of Action'
     description: 'The FCC wants to destroy net neutrality. On July 12th, the Internet will come together to stop them.'
 
+  - id: sendbill
+    fire: false
+    url: https://www.heyfcc.org/
+    image: '/img/projects/heyfcc.jpg'
+    title: 'Send the FCC an angry letter'
+    description: 'Print your bill, remove your personal info, write a message, and snap a selfie with it. We''ll deliver your message to the FCC!'
+
+  - id: bbprivacy
+    fire: false
+    url: https://www.savebroadbandprivacy.org/
+    image: '/img/projects/bbprivacy.jpg'
+    title: 'Save Broadband Privacy'
+    description: 'Comcast''s friends in Congress are trying to gut privacy rules. Let''s stop them.'
+
+  - id: chelseahugs
+    fire: false
+    url: https://actionnetwork.org/petitions/hugsforchelsea-give-chelsea-manning-a-hug/
+    image: '/img/projects/hugsch.png'
+    title: '#HugsForChelsea'
+    description: 'The Internet is sending hugs to Chelsea Manning.'
+
+fftf:
   - id: btn
     fire: false
     url: https://www.battleforthenet.com/
@@ -48,13 +70,6 @@ fftf:
     title: 'Stop social media strip searches'
     description: 'New rules at the airport could force you to hand over your phone and passwords'
 
-  - id: sendbill
-    fire: false
-    url: https://www.heyfcc.org/
-    image: '/img/projects/heyfcc.jpg'
-    title: 'Send the FCC an angry letter'
-    description: 'Print your bill, remove your personal info, write a message, and snap a selfie with it. We''ll deliver your message to the FCC!'
-
   - id: defendingrights
     fire: false
     url: https://actionnetwork.org/petitions/urgent-ten-states-are-about-to-criminalize-peaceful-protest
@@ -62,26 +77,12 @@ fftf:
     title: 'Defending our right to protest'
     description: 'Laws that undermine our free speech are spreading across the US. We''re fighting back.'
 
-  - id: bbprivacy
-    fire: false
-    url: https://www.savebroadbandprivacy.org/
-    image: '/img/projects/bbprivacy.jpg'
-    title: 'Save Broadband Privacy'
-    description: 'Comcast''s friends in Congress are trying to gut privacy rules. Let''s stop them.'
-
   - id: nnotpartisan
     fire: false
     url: https://actionnetwork.org/petitions/dont-mess-up-the-net-with-partisan-politics
     image: '/img/projects/capitolnn.jpg'
     title: 'Net Neutrality is not partisan!'
     description: 'Lobbyists are trying to make net neutrality a partisan issue. It''s not.'
-
-  - id: chelseahugs
-    fire: false
-    url: https://actionnetwork.org/petitions/hugsforchelsea-give-chelsea-manning-a-hug/
-    image: '/img/projects/hugsch.png'
-    title: '#HugsForChelsea'
-    description: 'The Internet is sending hugs to Chelsea Manning.'
 
   - id: tweetfors
     fire: false
@@ -103,6 +104,48 @@ fftf:
     image: '/img/projects/hellovote.png'
     title: 'HelloVote: register to vote!'
     description: 'We built the easiest, fastest way to register to vote. You can register by SMS or Facebook Messenger in less than a minute!'
+
+  - id: redalert
+    fire: false
+    url: https://www.battleforthenet.com/redalert/
+    image: '/img/projects/redalert.png'
+    title: 'Red Alert for Net Neutrality'
+    description: 'Congress can vote to stop the FCC. Sites will go on Red Alert from May 9th until the Senate votes a week or so later.'
+
+  - id: securitypledge
+    fire: false
+    url: https://www.securitypledge.com/
+    image: '/img/projects/securitypledge.png'
+    title: 'Security Pledge'
+    description: 'Every day we learn more about how our data is being harvested and used against us. In response, a group of technologists and human rights experts have developed this Security Pledge - a set of principles that — if enough companies adopted them — would ensure the Internet is used to expand democracy, not undermine it.'
+
+  - id: stopspying
+    fire: false
+    url: https://www.stopspyingon.us/
+    image: '/img/projects/stopspying.png'
+    title: 'Stop Spying on us'
+    description: 'Congress just passed a law expanding authoritarian government surveillance powers for 6 more years.'
+
+  - id: votefornnn
+    fire: false
+    url: https://votefornetneutrality.com/
+    image: '/img/projects/votefornn.png'
+    title: 'Vote for Net Neutrality'
+    description: 'We can make Congress vote for net neutrality. Here''s how.'
+
+  - id: distorganizing
+    fire: false
+    url: https://events.battleforthenet.com/
+    image: '/img/projects/distorganizing.jpg'
+    title: 'Dist Organizing'
+    description: 'The FCC wants to destroy net neutrality and give giant cable companies control over the internet.'
+
+  - id: businessesfornnn
+    fire: false
+    url: https://www.businessesfornetneutrality.com/
+    image: '/img/projects/businessesfornn.png'
+    title: 'Businesses for Net Neutrality'
+    description: 'Members of congress can still save net neutrality, but they need to hear from businesses in your community. Tell local businesses to speak up.'
 
   - id: unplugnsa
     fire: false
@@ -183,13 +226,6 @@ fftf:
     image: /img/projects/widget.jpg
     title: The Internet Countdown
     description: We are closer than ever to winning real net neutrality, and the Internet is literally counting down the seconds.
-
-  - id: battleforthenet
-    fire: false
-    url: https://www.battleforthenet.com/
-    image: /img/projects/battle.jpg
-    title: Battle for the Net!
-    description: Cable companies are spending millions to gut net neutrality and slow your Internet to a crawl. We can’t let them.
 
   - id: stopfasttrack
     url: http://www.stopfasttrack.com/
