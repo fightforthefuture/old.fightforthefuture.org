@@ -38,12 +38,30 @@
   })();
 </script> -->
 <script>
-  var RED_ALERT_OPTIONS = {
-    org: 'fftf'
-  };
+(function() {
+  'use strict';
 
-  if (window.location.search.indexOf('redalert') !== -1) {
+  function parseQuery(queryString) {
+    var query = {};
+    var pairs = (queryString[0] === '?' ? queryString.substr(1) : queryString).split('&');
+    for (var i = 0; i < pairs.length; i++) {
+      var pair = pairs[i].split('=');
+      query[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1] || '');
+    }
+    return query;
+  }
+
+  var query = parseQuery(location.search);
+
+  window.RED_ALERT_OPTIONS = { org: 'fftf', language: query.lang };
+
+  if (query.redalert !== undefined) {
     RED_ALERT_OPTIONS.alwaysShow = true;
   }
+
+  if (query.maximize !== undefined) {
+    RED_ALERT_OPTIONS.alwaysMaximize = true;
+  }
+})();
 </script>
 <script src="https://redalert.battleforthenet.com/widget.js" async></script>
