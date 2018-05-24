@@ -314,6 +314,8 @@ prose:
               value: 'bfnn-pcaf'
             - name: 'bfnn-new'
               value: 'bfnn-new'
+            - name: 'eu'
+              value: 'eu'
       - name: 'search_title'
         field:
           element: 'text'
