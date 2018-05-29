@@ -165,7 +165,7 @@ You should also have some political attitudes about power, freedom, fairness, or
 You will work alongside a creative, multidisciplinary software developer with all of the skills needed to maximize the Internet to reach and organize millions. We’ll work with you both to develop and execute plans. 
 
 ## What you’ll do
-* Provoke a robust public debate on democratic representation issues by creating content (writing, video, web) and new realities (such as sign-on letters, events, rallies, protests, alliances, etc.) that support your position.
+* Provoke a robust public debate on immigrant rights issues by creating content (writing, video, web) and new realities (such as sign-on letters, events, rallies, protests, alliances, etc.) that support your position.
 * Look for cases where the public wants a certain immigrant rights policy, but where corruption or political inertia is holding it back.
 * Identify the influencers and alliances that, if mobilized, could break through the corruption/inertia and achieve a political win.
 * Mobilize those influencers and alliances, again and again, honing your skill over time.
