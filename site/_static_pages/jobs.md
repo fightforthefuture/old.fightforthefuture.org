@@ -7,6 +7,7 @@ social_description: "Fight for the Future is hiring developers, designers, activ
 * [Jobs](#)
 * [Front-End Software Engineer](#front-end-software-engineer)
 * [A-Teams Technical Co-founder](#a-teams-technical-co-founder)
+* [Campaign Director for Immigrant Rights campaign](#campaign-director-for-immigrant-rights-campaign)
 * [Political Director for Voting Rights Campaign to Save Democracy](#political-director-for-voting-rights-campaign-to-save-democracy)
 * [A-Teams Political Strategist Co-founder](#a-teams-political-strategist-co-founder)
 * [A-Teams Design Co-founder](#a-teams-design-co-founder)
@@ -141,6 +142,67 @@ This is a full time position. Compensation is market rate and commensurate with 
 When applying, please include a résumé, links to samples, and a cover letter which explains why you want to do mission-based work. Please include where you heard about the opportunity.
 
 <script type="text/javascript" src="https://app.jazz.co/widgets/buttons/create/fightforthefuture/BQbA5vL7Db"></script>
+
+***
+# Campaign Director for Immigrant Rights campaign
+
+We’re launching a new political team to reform immigration policy and ensure all people, no matter what their country of origin, get the respect and protection they deserve. 
+
+Fight for the Future is known for its new model of activism focused on Internet freedom and has big victories to its credit. We organized the protests that defeated SOPA/PIPA and helped win net neutrality rules in 2014. 
+
+Our new initiative A-Teams aims to bring our effective model of political change to other issue areas. Our small teams can achieve surprising political wins in the issue area of their choice, by combining political strategy and Internet savvy.
+
+We are seeking the founding campaign director for an immigration reform “A-Team”. If you want to cut through the current partisan and often-times racist immigration debate and stop the aggressive policing and surveilling for immigrants, then read on. We believe that pro-immigration policies are in line with the core values of our country and strengthen our economy while building on our diverse heritage.
+
+If you are ready to run a campaign that helps to dramatically change the debate and achieve concrete victories for people, this role is for you. The immigration reform A-Team will provide the grassroots and insider pressure, sharp messaging, and media attention needed for new reforms (and to stop outrageous ones), such as protecting the privacy and dignity of all people, protecting asylum seekers, establishing a path to citizenship, and protecting programs which ensure basic human rights like schooling, employment, and keeping immigrant families together.
+
+As this team’s campaign director, you will run a campaign to pass strong policy to ensure immigrant rights are protected and expanded.  
+
+You should have a strong, insider-level understanding of the political process, but with an outsider’s optimism, creativity, and ability to speak about issues in ways that resonate with other outsiders, such as the public or any key constituency you need to move. At the core of all of your work, you seek to figure out how to climb over any barriers in your way, problem solve to make what is needed to capture the debate, and know how to bring millions of people to bear on an issue. You may have been a lobbyist or a part of the “inside” political game until now but are ready to take that knowledge and apply it to a winning inside-outside game. You may not have experience in all aspects of campaigning, but you are ready to take your experience into a high stakes fight, learning new skills as you go.
+
+You should also have some political attitudes about power, freedom, fairness, or caring for others that you carry with you since your teenage years. This should come through in your writing; you should have a strong, authentic voice. 
+
+You will work alongside a creative, multidisciplinary software developer with all of the skills needed to maximize the Internet to reach and organize millions. We’ll work with you both to develop and execute plans. 
+
+## What you’ll do
+* Provoke a robust public debate on democratic representation issues by creating content (writing, video, web) and new realities (such as sign-on letters, events, rallies, protests, alliances, etc.) that support your position.
+* Look for cases where the public wants a certain immigrant rights policy, but where corruption or political inertia is holding it back.
+* Identify the influencers and alliances that, if mobilized, could break through the corruption/inertia and achieve a political win.
+* Mobilize those influencers and alliances, again and again, honing your skill over time.
+* Generate social and traditional media attention that advances your position, organizing events and building strategic relationships as needed. 
+* Organize millions in a political moment that breaks open the debate, and moves us exponentially closer to victory.
+* Throughout every stage in this process, you’re constantly looking for ways to use the Internet, politics, PR, and policy to increase the power and efficacy of your small team.
+* Recruit additional A-Teams leaders and volunteers as needed.
+
+## What we’re looking for
+* You have an understanding of how state and federal politics works.
+* You ideally have experience working on issue-based advocacy campaigns. Bonus points for experience on immigration reform or other social justice issues.
+* That said, you can think in an unexpected way, see opportunities that others write off, and make new things happen.
+* You have a mind for campaigning and everything it takes to win, including how to build power on the issue, who we need with us, messaging that will move people, and the steps to get you there. And you want to lead others to victory.
+* You write beautifully and authentically, especially for an online audience.
+* You are fascinated by the power of the Internet and have used it in creative ways.
+* You understand convention but aren’t bound by it. You can innovate, come up with the (crazy but just might work?!) new ideas that breaks the mold and takes things to a new level.
+* You can plug holes, see what’s missing.
+* You can get things done, but believe plans are made to break and change.
+* You see opportunity to break the status quo of the political process all the time.
+* You are rigorous and tenacious about getting to honest answers and using them to find ways to break open a debate and bring people together. 
+* At some point, you worked really, really hard for something that made a significant difference in people’s lives. 
+* Political inside jokes and gossip bore you.
+* You get beltway politics, but would rather be speaking to the rest of the country/world.
+* You’re a bit of a social chameleon. You feel at home in many circles. You can quickly see how people in a certain scene talk and understand the world, and you can fit right in while still holding on to and spreading your perspective.
+* You hold seemingly contradictory political beliefs. Sometimes people on your own political “side” might terrify you, while the other “side” seems more wise.
+* You can be crafty and devious. Maybe you were a troublemaker in high school.
+* For most of your life you’ve felt compelled to right wrongs or challenge arbitrary authority.
+
+This is a full time position with Fight for the Future. The salary range is $70-100K annually, depending on experience with benefits including full health care, partially covered dental benefits, and training and mentoring with senior staff. If a contract set-up works better for you, we can discuss that too.
+
+This is a remote position and candidates can based anywhere in the US. English fluency is required.
+
+Please click on the apply button below and fill out the application. When applying, please include where you heard about the opportunity.
+
+<i style="font-style:italic">Fight for the Future is an equal opportunity and inclusive employer. FFTF does not and shall not discriminate on the basis of race, color, religion (creed), gender, gender expression, age, national origin (ancestry), disability, marital status, sexual orientation, or military status, in any of its activities or operations. We believe that a diverse staff enables us to better understand and serve our members, audience and community. Women, people of color, and members of low-income, disadvantaged, and LGBTQ communities are strongly encouraged to apply.</i>
+
+<script type="text/javascript" src="/js/one-off/jobs/tmp_custom_jobpost.js"></script>
 
 ***
 # Political Director for Voting Rights Campaign to Save Democracy
