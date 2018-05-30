@@ -6,7 +6,7 @@ social_description: "Fight for the Future is hiring developers, designers, activ
 ---
 * [Jobs](#)
 * [Front-End Software Engineer](#front-end-software-engineer)
-* [A-Teams Technical Co-founder](#a-teams-technical-co-founder)
+* [Contract Web Designer / Front-End Developer for political activism team](#web-designer-front-end-developer-for-political-activism-team)
 * [Campaign Director for Immigrant Rights campaign](#campaign-director-for-immigrant-rights-campaign)
 * [Political Director for Voting Rights Campaign to Save Democracy](#political-director-for-voting-rights-campaign-to-save-democracy)
 * [A-Teams Political Strategist Co-founder](#a-teams-political-strategist-co-founder)
@@ -94,54 +94,61 @@ In your application, we'd like you to include links to any public repos, sample 
  <script type="text/javascript" src="https://app.jazz.co/widgets/buttons/create/fightforthefuture/49palH1Yrd"></script>
 
 ***
-# A-Teams Technical Co-founder
-## Full stack developer, product-crafter, troublemaker for a better world. 
+# Contract Web Designer / Front-End Developer for political activism team 
 
-Fight for the Future is a small Internet freedom activism team with big victories to its credit, such as organizing the protests that defeated SOPA/PIPA, and winning net neutrality rules in 2014. 
- 
-Our new initiative [A-Teams](https://www.fightforthefuture.org/ateams/) aims to create new, two-person teams that can achieve surprising political wins in the issue area of their choice, by combining political strategy and Internet savvy.
- 
-We are seeking the founding technical leader for one such “A-Team.” As the technical leader, you will focus on a political issue, such as climate change, prison reform, health care, or voting rights. You and your A-Team will run a campaign to pass strong policy on your issue or stop a disastrous bill from becoming law. 
- 
-You should be supremely comfortable making and launching novel and creative additions to people’s online life, whether for web, mobile, or walled gardens like Facebook. You should love the rush of launching something on a whim, and seeing it blow up in places like Product Hunt, HN, or reddit.
- 
-You should also have strong political attitudes about power, freedom, fairness, or caring for others.
- 
-You will work alongside a similarly high-functioning and creative person with concrete experience shifting political reality, e.g. a former Congressional staffer, political campaigner, or lobbyist. We’ll work with you both to develop and execute plans. 
+We are seeking a contract web designer/ developer for our next “A-Team”, to play a key role in launching and co-leading a small activist team running a campaign to win on immigrant rights, criminal justice reform, or strengthening democratic representation.
 
+Fight for the Future is known for its new model of activism focused on Internet freedom and has big victories to its credit, such as organizing the protests that defeated SOPA/PIPA, and winning net neutrality rules in 2014. 
+
+Our new initiative A-Teams aims to create new, small teams that can achieve surprising political wins on the issue area of their choice, by combining political strategy and Internet savvy.
+
+We are seeking a contract designer / front-end developer for one such “A-Team”, in a short-term capacity which could lead to a long-term role. As the designer and technical lead, you will focus on one of our priority political areas, such as immigrant rights, criminal justice reform, or strengthening democratic representation. Working closely with a political director, you and your A-Team will build the web and mobile pieces of a campaign to pass strong policy on your issue or stop a disastrous bill from becoming law. Your role will be to explain complex issues—and get people to take effective political action—using design, copy, and code. We’re looking for someone with very strong visual and interaction design skills who can move from mockups to HTML/CSS, or design directly in code. Experience with modern front-end frameworks is a plus.  
+
+You should be comfortable making and launching novel and creative additions to people’s online life with strong use of layout, color, and typography, whether for web, mobile, or social media. You should love the rush of launching a site on a whim, and seeing it blow up in places like Product Hunt, HN, or reddit.
+
+In addition to your design skills you should also have strong political attitudes about power, freedom, fairness, or caring for others that shows in your visual work; your work should be strong, immersive, and authentic.
+
+You will work alongside a similarly high-functioning and creative person with concrete experience on campaigns so significant experience in politics or activism is not required. The team at Fight for the Future will work with you both to develop and execute plans. 
+ 
 ## What you'll do
 
-* Make a lot of awesome responsive websites, quickly.
-* Creatively use tech to mobilize people around specific political objectives.
-* Make a lot of simple, novel MVPs to support these plans.
-* Self QA and polish until they’re good enough, launch and fix issues on the fly.
+* Design and build websites (sometimes straight to code) to tweak and deploy rapidly
+* Make images and animation for social media
+* Use copy, color, layout, typography and shared visual vocabulary (images, icons, effects) to convey complex political ideas and emotions.
+* Build simple forms and sometimes more complex interactions to mobilize people around specific political objectives (i.e. design high-converting landing pages to get people to do stuff!)
 * Make awesome moments in the history of the Internet and politics.
-* Slowly build a new organization or movement (if it goes well!)
+* Work closely with the political director to strategize and look for ways to use the Internet and politics to increase the power and efficacy of your small team.
+* Build a new organization or movement (if it goes well!)
+
 
 ## What we’re looking for
 
 * You can write clear instructions, prompts, and documentation.
-* You can speak with a strong, credible voice online.
-* You can design in code, whenever you need to.
+* You can speak with a strong, authentic, and credible voice online.
+* You can design straight to code, when needed.
 * Your portfolio site looks great.
 * You can make modern forms, buttons and layouts in your sleep.
+* You have some experience with animation.
 * You can easily grasp what makes a product valuable/awesome and work from there.
-* You’re experienced working remotely (this position may be remote).
+* You’re experienced working remotely.
 * You quickly understand and internalize what your team or company is driving for.
 * You’ve felt compelled to right wrongs or challenge arbitrary authority. Possibly a troublemaker in high school or a handful for your parents. 
-* You pivot easily. Dropping / throwing away work doesn’t bother you, if the current path makes more sense.
+* You’re purpose-driven so you can pivot easily. Dropping / throwing away work doesn’t bother you, if the new path makes more sense.
 * You’re pragmatic and flexible in your habits.
 * You intuitively seek the simplest possible solutions, on the fly, and are good at simplifying scope to fit deadlines, saying “no” to features or—even better—“but what if I did it this other, much simpler way?”
-* You can dial your engineering approach between “quick & dirty” and “careful & prudent”, depending on the context.
-* You can match technical possibilities (such as an action tool or online stunt) to a given political objective or strategy, and pick the best tech response to a given situation.
-* You have a desire to use your skills and smarts to make the world more kind and fair
-* You are a fluent English speaker and live in the US.
+* You can dial your design and coding approach between “quick & dirty” and “careful & prudent”, depending on the context.
+* You can match styles and technical possibilities (such as an action tool or online stunt) to a given political objective or strategy, and pick the best tech response to a given situation.
+* You have a desire to use your skills and smarts to make the world more kind and fair.
  
-This is a full time position. Compensation is market rate and commensurate with skills and experience either through a contract rate or a salary (with full health care and dental benefits), depending on what works best for you. 
- 
-When applying, please include a résumé, links to samples, and a cover letter which explains why you want to do mission-based work. Please include where you heard about the opportunity.
+This is a part or full time contract role with Fight for the Future through an hourly contract rate of $40 to $75, depending on experience. We’re ideally looking for initial commitment of three to six months, but we can talk about the timeline which works for you. 
 
-<script type="text/javascript" src="https://app.jazz.co/widgets/buttons/create/fightforthefuture/BQbA5vL7Db"></script>
+This is a remote position and candidates can based anywhere in the US. English fluency is required.
+
+When applying, please include a résumé, links to samples (both live and source code), and a cover letter which explains why you want to do mission-based work. Please include where you heard about the opportunity.
+
+<i style="font-style:italic">Fight for the Future is an equal opportunity and inclusive employer. FFTF does not and shall not discriminate on the basis of race, color, religion (creed), gender, gender expression, age, national origin (ancestry), disability, marital status, sexual orientation, or military status, in any of its activities or operations. We believe that a diverse staff enables us to better understand and serve our members, audience and community. Women, people of color, and members of low-income, disadvantaged, and LGBTQ communities are strongly encouraged to apply.</i>
+
+<script type="text/javascript" src="//app.jazz.co/widgets/buttons/create/fightforthefuture/oyRNDraEHk" ></script>
 
 ***
 # Campaign Director for Immigrant Rights campaign
