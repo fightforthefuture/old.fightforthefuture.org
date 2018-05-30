@@ -19,24 +19,25 @@
   ga('send', 'pageview');
 
 </script>
-<!-- <script>
+<script>
   (function() {
     // exit if...
     if (
-      window.location.search.indexOf('redalert') === -1 // ?redalert isn't set
-      || document.getElementById('RED_ALERT_WIDGET') // or widget already exists
+      window.location.search.indexOf('widget=june11') === -1 // ?widget=june11 isn't set
+      || document.getElementById('BFTN_WIDGET') // or widget already exists
+      || document.getElementById('RED_ALERT_WIDGET')
     ) return;
 
-    window.RED_ALERT_OPTIONS = {
+    window.BFTN_WIDGET_OPTIONS = {
       alwaysShow: true,
       org: 'fftf'
     };
 
     var script = document.createElement('script');
-    script.src = 'https://redalert.battleforthenet.com/widget.js';
+    script.src = 'https://june11.battleforthenet.com/widget.js';
     document.head.appendChild(script);
   })();
-</script> -->
+</script>
 <script>
 (function() {
   'use strict';
