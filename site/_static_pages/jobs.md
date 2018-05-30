@@ -6,7 +6,7 @@ social_description: "Fight for the Future is hiring developers, designers, activ
 ---
 * [Jobs](#)
 * [Front-End Software Engineer](#front-end-software-engineer)
-* [Contract Web Designer / Front-End Developer for political activism team](#contract-web-designer-front-end-developer-for-political-activism-team)
+* [Contract Web Designer / Front-End Developer for political activism team](#contract-web-designer--front-end-developer-for-political-activism-team)
 * [Campaign Director for Immigrant Rights campaign](#campaign-director-for-immigrant-rights-campaign)
 * [Political Director for Voting Rights Campaign to Save Democracy](#political-director-for-voting-rights-campaign-to-save-democracy)
 * [A-Teams Political Strategist Co-founder](#a-teams-political-strategist-co-founder)
