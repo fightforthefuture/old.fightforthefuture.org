@@ -144,7 +144,7 @@ This is a part or full time contract role with Fight for the Future through an h
 
 This is a remote position and candidates can based anywhere in the US. English fluency is required.
 
-When applying, please include a résumé, links to samples (both live and source code), and a cover letter which explains why you want to do mission-based work. Please include where you heard about the opportunity.
+Please click on the apply button below and fill out the application. When applying, please include a résumé, links to samples (both live and source code), and a cover letter which explains why you want to do mission-based work. Please include where you heard about the opportunity.
 
 <i style="font-style:italic">Fight for the Future is an equal opportunity and inclusive employer. FFTF does not and shall not discriminate on the basis of race, color, religion (creed), gender, gender expression, age, national origin (ancestry), disability, marital status, sexual orientation, or military status, in any of its activities or operations. We believe that a diverse staff enables us to better understand and serve our members, audience and community. Women, people of color, and members of low-income, disadvantaged, and LGBTQ communities are strongly encouraged to apply.</i>
 
