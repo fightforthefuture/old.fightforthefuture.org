@@ -26,7 +26,35 @@ fftf:
     url: https://www.battleforthenet.com/
     image: '/img/projects/btn.png'
     title: 'Battle for the Net'
-    description: 'The FCC voted to end net neutrality, but Congress can overturn their decision. Here''s how.'
+    description: 'The FCC is about to end net neutrality and let cable companies ruin the Internet. Here''s how to stop them.'
+
+  - id: ateams
+    fire: false
+    url: https://www.fightforthefuture.org/ateams/
+    image: '/img/projects/ateams.png'
+    title: 'A-teams'
+    description: 'We''re funding smart, creative activism to defend the world from Trump.'
+
+  - id: comcastturf
+    fire: false
+    url: https://www.comcastroturf.com/
+    image: '/img/projects/comcastt.jpg'
+    title: 'Operation Comcastroturf'
+    description: 'We helped millions of people determine if fake comments were submitted to the FCC under their names.'
+
+  - id: getsafe
+    fire: false
+    url: https://www.letsgetsafe.org/
+    image: '/img/projects/getsafe.jpg'
+    title: '#GetSafe: A Security Guide'
+    description: 'Protecting yourself online can be overwhelming. This makes it easy.'
+
+  - id: hellovote
+    fire: false
+    url: https://www.hello.vote/
+    image: '/img/projects/hellovote.png'
+    title: 'HelloVote!'
+    description: 'We built the easiest, fastest way to register to vote. You can register by SMS or Facebook Messenger in less than a minute!'
 
   - id: redalert
     fire: false
@@ -49,12 +77,12 @@ fftf:
     image: '/img/projects/sb822.png'
     description: 'When California lawmakers voted on a bill to protect net neutrality, we gave voice to thousands of California residents.'
 
-  - id: onemorevote
+  - id: donttreadonthenet
     fire: false
-    url: https://www.battleforthenet.com/onemorevote/
-    title: '#OneMoreVote'
-    image: '/img/projects/onemorevote.png'
-    description: 'We needed one more vote to pass the CRA for net neutrality in the Senate, and we got it.'
+    url: https://www.donttreadonthe.net/
+    image: '/img/projects/donttreadonthenet.png'
+    title: 'Don''t Tread on the Net'
+    description: 'Lobbyists and bureaucrats say that net neutrality as "heavy-handed regulations." But the facts say something else...'
 
   - id: securitypledge
     fire: false
@@ -63,19 +91,19 @@ fftf:
     title: 'Security Pledge'
     description: 'Internet companies freely sell our personal data, and leave it unsecured for hackers to exploit. Let''s change that.'
 
-  - id: donttreadonthenet
-    fire: false
-    url: https://www.donttreadonthe.net/
-    image: '/img/projects/donttreadonthenet.png'
-    title: 'Don''t Tread on the Net'
-    description: 'Lobbyists and bureaucrats say that net neutrality as "heavy-handed regulations." But the facts say something else...'
-
   - id: votefornnn
     fire: false
     url: https://votefornetneutrality.com/
     image: '/img/projects/votefornn.png'
     title: 'Vote for Net Neutrality'
     description: '83% of Americans support net neutrality, regardless of political affiliation. We''re keeping track of which politicians do, too.'
+
+  - id: onemorevote
+    fire: false
+    url: https://www.battleforthenet.com/onemorevote/
+    title: '#OneMoreVote'
+    image: '/img/projects/onemorevote.png'
+    description: 'We needed one more vote to pass the CRA for net neutrality in the Senate, and we got it.'
 
   - id: breaktheinternet
     fire: false
@@ -91,33 +119,12 @@ fftf:
     title: 'July 12th'
     description: 'On July 12, 2017, we worked with thousands of popular websites to flood the FCC with millions of messages in support for net neutrality.'
 
-  - id: ateams
-    fire: false
-    url: https://www.fightforthefuture.org/ateams/
-    image: '/img/projects/ateams.png'
-    title: 'A-teams'
-    description: 'We''re funding smart, creative activism to defend the world from Trump.'
-
-  - id: comcastturf
-    fire: false
-    url: https://www.comcastroturf.com/
-    image: '/img/projects/comcastt.jpg'
-    title: 'Search for a fake comment submitted in your name'
-    description: 'Pro-Comcast, anti-net neutrality forces seem to be submitting fake comments. Help us prove it, and stop them.'
-
   - id: billboard
     fire: false
     url: https://donate.fightforthefuture.org/campaigns/you-betrayed-us-billboards/#page-1
     image: '/img/projects/billboards.jpg'
     title: 'Hold corrupt politicians accountable'
     description: 'We''re crowdfunding to put up billboards with the name of every lawmaker who voted to sell out our Internet privacy to giant corporations.'
-
-  - id: getsafe
-    fire: false
-    url: https://www.letsgetsafe.org/
-    image: '/img/projects/getsafe.jpg'
-    title: '#GetSafe: security guide'
-    description: 'Protecting yourself online can be overwhelming. This makes it easy.'
 
   - id: sssearches
     fire: false
@@ -153,13 +160,6 @@ fftf:
     image: '/img/projects/rocktpp.jpg'
     title: 'Rock Against the TPP'
     description: 'We''re teaming up with musicians and celebrities for a nationwide uprising to stop the Trans-Pacific Partnership.'
-
-  - id: hellovote
-    fire: false
-    url: https://www.hello.vote/
-    image: '/img/projects/hellovote.png'
-    title: 'HelloVote: register to vote!'
-    description: 'We built the easiest, fastest way to register to vote. You can register by SMS or Facebook Messenger in less than a minute!'
 
   - id: stopspying
     fire: false
@@ -396,16 +396,14 @@ fftf:
     description: We helped pull Godaddy’s support of SOPA during the GoDaddy boycott.
 
 otherlinks:
-  - text: Operation Comcastroturf
-    url: https://www.comcastrotuf.com/
-  - text: "#GetSafe"
-    url: https://www.letsgetsafeorg/
   - text: Hold Corrupt Politicians Accountable
     url: https://donate.fightforthefuture.com/campaigns/you-betrayed-us-billboards/#page-1
   - text: Stop Social Media Strip Searches
     url: https://actionnetwork.org/petitions/stop-social-media-strip-searches
   - text: Defend our Rights to Protest
     url: https://actionnetwork.org/petitions/urgent-ten-states-are-about-to-criminalize-peaceful-protest
+  - text: Tweet for Snowden
+    url: https://www.tweetforsnowden.org/
 
 fftfef:
   - id: btn
