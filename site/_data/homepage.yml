@@ -1,11 +1,4 @@
 removed_entries:
-  - id: july12
-    fire: false
-    url: https://www.battleforthenet.com/july12/
-    image: '/img/projects/jul12.jpg'
-    title: 'Internet-Wide Day of Action'
-    description: 'The FCC wants to destroy net neutrality. On July 12th, the Internet will come together to stop them.'
-
   - id: sendbill
     fire: false
     url: https://www.heyfcc.org/
@@ -46,8 +39,85 @@ fftf:
     fire: false
     url: https://www.comcastroturf.com/
     image: '/img/projects/comcastt.jpg'
-    title: 'Search for a fake comment submitted in your name'
-    description: 'Pro-Comcast, anti-net neutrality forces seem to be submitting fake comments. Help us prove it, and stop them.'
+    title: 'Operation Comcastroturf'
+    description: 'We helped millions of people determine if fake comments were submitted to the FCC under their names.'
+
+  - id: getsafe
+    fire: false
+    url: https://www.letsgetsafe.org/
+    image: '/img/projects/getsafe.jpg'
+    title: '#GetSafe: A Security Guide'
+    description: 'Protecting yourself online can be overwhelming. This makes it easy.'
+
+  - id: hellovote
+    fire: false
+    url: https://www.hello.vote/
+    image: '/img/projects/hellovote.png'
+    title: 'HelloVote!'
+    description: 'We built the easiest, fastest way to register to vote. You can register by SMS or Facebook Messenger in less than a minute!'
+
+  - id: redalert
+    fire: false
+    url: https://www.battleforthenet.com/redalert/
+    image: '/img/projects/redalert.png'
+    title: 'Red Alert for Net Neutrality'
+    description: 'When the Senate voted to save net neutrality, we put the Internet on Red Alert.'
+
+  - id: businessesfornnn
+    fire: false
+    url: https://www.businessesfornetneutrality.com/
+    image: '/img/projects/businessesfornn.png'
+    title: 'Businesses for Net Neutrality'
+    description: 'Over 6,000 small businesses agree: net neutrality ensures innovation and competition in the online marketplace.'
+
+  - id: sb822
+    fire: false
+    url: 'https://medium.com/@fightfortheftr/the-fate-of-net-neutrality-could-be-decided-in-california-next-week-260dbe2faf6b'
+    title: 'SB-822'
+    image: '/img/projects/sb822.png'
+    description: 'When California lawmakers voted on a bill to protect net neutrality, we gave voice to thousands of California residents.'
+
+  - id: donttreadonthenet
+    fire: false
+    url: https://www.donttreadonthe.net/
+    image: '/img/projects/donttreadonthenet.png'
+    title: 'Don''t Tread on the Net'
+    description: 'Lobbyists and bureaucrats say that net neutrality as "heavy-handed regulations." But the facts say something else...'
+
+  - id: securitypledge
+    fire: false
+    url: https://www.securitypledge.com/
+    image: '/img/projects/securitypledge.png'
+    title: 'Security Pledge'
+    description: 'Internet companies freely sell our personal data, and leave it unsecured for hackers to exploit. Let''s change that.'
+
+  - id: votefornnn
+    fire: false
+    url: https://votefornetneutrality.com/
+    image: '/img/projects/votefornn.png'
+    title: 'Vote for Net Neutrality'
+    description: '83% of Americans support net neutrality, regardless of political affiliation. We''re keeping track of which politicians do, too.'
+
+  - id: onemorevote
+    fire: false
+    url: https://www.battleforthenet.com/onemorevote/
+    title: '#OneMoreVote'
+    image: '/img/projects/onemorevote.png'
+    description: 'We needed one more vote to pass the CRA for net neutrality in the Senate, and we got it.'
+
+  - id: breaktheinternet
+    fire: false
+    url: https://www.battleforthenet.com/breaktheinternet/
+    image: '/img/projects/breakthenet.png'
+    title: 'Break the Internet'
+    description: 'The FCC repealed net neutrality, so we led the charge to "Break the Internet" to raise awareness, generating millions of messages to Congress.'
+
+  - id: july12
+    fire: false
+    url: https://www.battleforthenet.com/july12/
+    image: '/img/projects/july12.png'
+    title: 'July 12th'
+    description: 'On July 12, 2017, we worked with thousands of popular websites to flood the FCC with millions of messages in support for net neutrality.'
 
   - id: billboard
     fire: false
@@ -55,13 +125,6 @@ fftf:
     image: '/img/projects/billboards.jpg'
     title: 'Hold corrupt politicians accountable'
     description: 'We''re crowdfunding to put up billboards with the name of every lawmaker who voted to sell out our Internet privacy to giant corporations.'
-
-  - id: getsafe
-    fire: false
-    url: https://www.letsgetsafe.org/
-    image: '/img/projects/getsafe.jpg'
-    title: '#GetSafe: security guide'
-    description: 'Protecting yourself online can be overwhelming. This makes it easy.'
 
   - id: sssearches
     fire: false
@@ -98,27 +161,6 @@ fftf:
     title: 'Rock Against the TPP'
     description: 'We''re teaming up with musicians and celebrities for a nationwide uprising to stop the Trans-Pacific Partnership.'
 
-  - id: hellovote
-    fire: false
-    url: https://www.hello.vote/
-    image: '/img/projects/hellovote.png'
-    title: 'HelloVote: register to vote!'
-    description: 'We built the easiest, fastest way to register to vote. You can register by SMS or Facebook Messenger in less than a minute!'
-
-  - id: redalert
-    fire: false
-    url: https://www.battleforthenet.com/redalert/
-    image: '/img/projects/redalert.png'
-    title: 'Red Alert for Net Neutrality'
-    description: 'Congress can vote to stop the FCC. Sites will go on Red Alert from May 9th until the Senate votes a week or so later.'
-
-  - id: securitypledge
-    fire: false
-    url: https://www.securitypledge.com/
-    image: '/img/projects/securitypledge.png'
-    title: 'Security Pledge'
-    description: 'Every day we learn more about how our data is being harvested and used against us. In response, a group of technologists and human rights experts have developed this Security Pledge - a set of principles that — if enough companies adopted them — would ensure the Internet is used to expand democracy, not undermine it.'
-
   - id: stopspying
     fire: false
     url: https://www.stopspyingon.us/
@@ -126,26 +168,12 @@ fftf:
     title: 'Stop Spying on us'
     description: 'Congress just passed a law expanding authoritarian government surveillance powers for 6 more years.'
 
-  - id: votefornnn
-    fire: false
-    url: https://votefornetneutrality.com/
-    image: '/img/projects/votefornn.png'
-    title: 'Vote for Net Neutrality'
-    description: 'We can make Congress vote for net neutrality. Here''s how.'
-
   - id: distorganizing
     fire: false
     url: https://events.battleforthenet.com/
     image: '/img/projects/distorganizing.jpg'
     title: 'Dist Organizing'
     description: 'The FCC wants to destroy net neutrality and give giant cable companies control over the internet.'
-
-  - id: businessesfornnn
-    fire: false
-    url: https://www.businessesfornetneutrality.com/
-    image: '/img/projects/businessesfornn.png'
-    title: 'Businesses for Net Neutrality'
-    description: 'Members of congress can still save net neutrality, but they need to hear from businesses in your community. Tell local businesses to speak up.'
 
   - id: unplugnsa
     fire: false
@@ -368,22 +396,14 @@ fftf:
     description: We helped pull Godaddy’s support of SOPA during the GoDaddy boycott.
 
 otherlinks:
-  - text: Defund the NSA
-    url: http://DefundTheNsa.com
-  - text: Stop the War on Journalism
-    url: http://cms.fightforthefuture.org/waronjournalism/
-  - text: 4th Amendment Delivery
-    url: http://cms.fightforthefuture.org/shame-and-name/
-  - text: Call to Stop the NSA
-    url: http://cms.fightforthefuture.org/call-for-freedom
-  - text: Vanishing Rights
-    url: http://www.vanishingrights.com
-  - text: Cispa Cat
-    url: http://www.cispacat.org
-  - text: Colbert on SOPA
-    url: /colbert-sopa/
-  - text: Bad Luck Gen. Petraeus
-    url: http://daveandpaulasemails.com
+  - text: Hold Corrupt Politicians Accountable
+    url: https://donate.fightforthefuture.com/campaigns/you-betrayed-us-billboards/#page-1
+  - text: Stop Social Media Strip Searches
+    url: https://actionnetwork.org/petitions/stop-social-media-strip-searches
+  - text: Defend our Rights to Protest
+    url: https://actionnetwork.org/petitions/urgent-ten-states-are-about-to-criminalize-peaceful-protest
+  - text: Tweet for Snowden
+    url: https://www.tweetforsnowden.org/
 
 fftfef:
   - id: btn
