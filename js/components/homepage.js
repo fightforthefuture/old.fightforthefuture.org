@@ -60,21 +60,9 @@ window.components.homepage = function (doc, win) {
     }
   }
 
-  function makeProjectsClickable() {
-    // make the projects section clickable
-    var dls = doc.querySelectorAll('dl:not(.other)');
-
-    for (var i = 0; i < dls.length; i++)
-      dls[i].addEventListener('click', function (e) {
-        e.preventDefault();
-        win.open(this.querySelector('a').href);
-      });
-  }
-
   win.addEventListener('resize', hideMobileOnResize);
   win.addEventListener('scroll', onScroll, false);
   cheeseburger.addEventListener('click', mobileNavigation);
 
   loadDavid();
-  makeProjectsClickable();
 };
