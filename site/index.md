@@ -2,6 +2,7 @@
 layout: homepage
 title: "Fight for the Future, defending our basic rights and freedoms"
 description: "Fight for the Future is dedicated to protecting and expanding the Internet's transformative power in our lives by creating civic campaigns that are engaging for millions of people."
+component-scripts: homepage projects
 ---
 
 <section class="below-the-fold" markdown="1">
