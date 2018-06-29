@@ -316,6 +316,8 @@ prose:
               value: 'bfnn-new'
             - name: 'eu'
               value: 'eu'
+            - name: 'rsvp'
+              value: 'rsvp'
       - name: 'search_title'
         field:
           element: 'text'
