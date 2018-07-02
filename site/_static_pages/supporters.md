@@ -19,19 +19,19 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   * [![Knight Foundation](/img/page/supporters/avatars/knight.png) Knight Foundation](http://www.knightfoundation.org/)
 
   * [![Open Society Foundations](/img/page/supporters/avatars/OSF.jpg) Open Society Foundations](https://www.opensocietyfoundations.org/)
- 
+
   * [![State Infrastructure Fund](/img/page/supporters/avatars/publicinterestprojects.png) State Infrastructure Fund](http://www.publicinterestprojects.org/funds-projects/partner-and-collaborative-funds/state-infrastructure-fund/)
 
   * [![craigconnects](/img/page/supporters/avatars/craigconnects.png) craigconnects](http://craigconnects.org/)
-  
+
   * [![Ashoka](/img/page/supporters/avatars/ashoka.png) Ashoka](https://www.ashoka.org/)
 : ---
   Our 501(c)4, Fight for the Future, has received support from these rock star foundations:
 
-  * [![The Shuttleworth Foundation](/img/page/supporters/avatars/shutter.png) The Shuttleworth Foundation](http://www.shuttleworthfoundation.org/) 
+  * [![The Shuttleworth Foundation](/img/page/supporters/avatars/shutter.png) The Shuttleworth Foundation](http://www.shuttleworthfoundation.org/)
 
   * [![Voqal](/img/page/supporters/avatars/voqal.jpeg) Voqal](http://voqal.org/)
-  
+
   * [![Proteus Fund](/img/page/supporters/avatars/proteus.png) Proteus Fund](http://www.proteusfund.org/)
 
 ---
@@ -75,12 +75,12 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
     Candid user comments are what make Yelp tick, so Yelp supports our campaigns for online free speech.
 
   ---
-  
+
   ![Brad Feld](/img/page/supporters/avatars/brad.png)
   : ### [Brad Feld](https://twitter.com/bfeld)
 
     As co-founder of [Foundry Group](http://www.foundrygroup.com/) and [Techstars](http://www.techstars.com/), Brad has been a great ally in the fight for an open Internet.
-    
+
   ---
 
   ![Namecheap](/img/page/supporters/avatars/namecheap.png)
@@ -155,6 +155,13 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
     BestVPN is the ultimate VPN review site where they've carefully reviewed over 100 VPN providers.
 
+  ---
+  ![Who Else](/img/page/supporters/avatars/who-else.png)
+  : ### [Who Else](http://www.whoelse.com/en/)
+
+    Creating solutions that build the better world... for everyone
+
+
 ---
 
 **Rebels**
@@ -186,29 +193,33 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   * Derek Slater and Lila Bailey
 
   * Jeffrey and Ruth Lyon
-  
+
   * [![Liberty VPS](/img/page/supporters/avatars/LibertyVPS.png) Liberty VPS](https://libertyvps.net/)
-  
+
   * [![Best VPN Analysis](/img/page/supporters/avatars/bestvpnanalysis.png) Best VPN Analysis](http://www.bestvpnanalysis.com/)
-  
+
   * [![My Private Network](/img/page/supporters/avatars/mpn2.jpg) My Private Network](https://www.my-private-network.co.uk)
-  
+
   * [![Top 10 VPN](/img/page/supporters/avatars/TTVPN2.jpg) Top 10 VPN](https://www.top10vpn.com)
-  
+
   * [![Best VPN Rating](/img/page/supporters/avatars/bestvpnrating-avatart.png) Best VPN Rating](https://www.bestvpnrating.com/)
-  
+
   * [![TheBestVPN.com](/img/page/supporters/avatars/thebestvpn.jpg) TheBestVPN.com](https://thebestvpn.com/)
-  
+
   * [![WeTransfer](/img/page/supporters/avatars/wetransfer.jpg) WeTransfer](https://wetransfer.com/)
-  
+
   * Constance Chen
-  
+
   * [![VPN.com](/img/page/supporters/avatars/vpncomfb.png) VPN.com](https://www.vpn.com/)
 
   * [![concrete5](/img/page/supporters/avatars/concrete5.png) concrete5](https://www.concrete5.org/)
 
   * [![Restore Privacy](/img/page/supporters/avatars/restore-privacy.png) Restore Privacy](https://restoreprivacy.com/)
- 
+
+  * John B. Wood
+
+  * [![Drs. Carol and Larry Rizzolo](/img/page/supporters/avatars/ct-shoreline.png) Drs. Carol and Larry Rizzolo](#none)
+
 ---
 
 **In-kind Donations**
