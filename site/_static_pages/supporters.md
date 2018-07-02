@@ -52,6 +52,13 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
     CREDO provides mobile phone service while using its revenue to fund social change and activism. They've been vital allies in fighting for net neutrality and Internet privacy.
 
+  ---
+
+  ![Yelp](/img/page/supporters/avatars/yelp.png)
+  : ### [Yelp](http://www.yelp.com)
+
+    Candid user comments are what make Yelp tick, so Yelp supports our campaigns for online free speech.
+
 ---
 
 **Pioneers**
@@ -68,11 +75,6 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 **Heroes**
 : ---
   These individuals and organizations contribute $10,000 or more. So great!
-
-  ![Yelp](/img/page/supporters/avatars/yelp.png)
-  : ### [Yelp](http://www.yelp.com)
-
-    Candid user comments are what make Yelp tick, so Yelp supports our campaigns for online free speech.
 
   ---
 
