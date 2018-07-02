@@ -318,6 +318,8 @@ prose:
               value: 'eu'
             - name: 'rsvp'
               value: 'rsvp'
+            - name: 'racial-justice'
+              value: 'racial-justice'
       - name: 'search_title'
         field:
           element: 'text'
