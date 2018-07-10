@@ -320,6 +320,8 @@ prose:
               value: 'rsvp'
             - name: 'racial-justice'
               value: 'racial-justice'
+            - name: 'vftn-dp'
+              value: 'vftn-dp'
       - name: 'search_title'
         field:
           element: 'text'
