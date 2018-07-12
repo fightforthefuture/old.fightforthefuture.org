@@ -322,6 +322,10 @@ prose:
               value: 'racial-justice'
             - name: 'vftn-dp'
               value: 'vftn-dp'
+            - name: 'donor-monthly'
+              value: 'donor-monthly'
+            - name: 'donor-annual'
+              value: 'donor-annual'
       - name: 'search_title'
         field:
           element: 'text'
