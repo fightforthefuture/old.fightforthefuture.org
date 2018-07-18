@@ -38,6 +38,26 @@
     document.head.appendChild(script);
   })();
 </script>
+
+<script>
+  (function() {
+    // exit if...
+    if (
+      window.location.search.indexOf('widget=july23') === -1 // ?widget=july23 isn't set
+      || document.getElementById('BFTN_WIDGET') // or widget already exists
+      || document.getElementById('RED_ALERT_WIDGET')
+    ) return;
+
+    window.BFTN_WIDGET_OPTIONS = {
+      alwaysShow: true,
+      org: 'fftf'
+    };
+
+    var script = document.createElement('script');
+    script.src = 'https://july23.battleforthenet.com/widget.js';
+    document.head.appendChild(script);
+  })();
+</script>
 <!-- <script>
 (function() {
   'use strict';
