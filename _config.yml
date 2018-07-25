@@ -326,6 +326,8 @@ prose:
               value: 'donor-monthly'
             - name: 'donor-annual'
               value: 'donor-annual'
+            - name: 'freedom-survey'
+              value: 'freedom-survey'
       - name: 'search_title'
         field:
           element: 'text'
