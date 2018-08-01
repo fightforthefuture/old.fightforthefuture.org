@@ -26,6 +26,10 @@ Here’s a thing—this is not a willy-nilly slapdash combination of underscores
 
 ### Installing & running the server
 
+- Copy the `.env.sample` file and name the new file `.env`.
+- Copy the `_config_petition_ids.yml.sample` file and name the new file `_config_petition_ids.yml`.
+- If don't have ruby installed, follow [these instructions to setup your environment with rbenv](https://github.com/rbenv/rbenv#installation), and then run `gem install bundler`.
+- Run `bundle install`
 - `npm install`. First this makes sure `bundle` is installed, then it installs npm packages & ruby gems.
 - `npm start` to run grunt (compiles assets, then watches for changes and compiles those too.)
 
