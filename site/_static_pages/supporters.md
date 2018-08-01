@@ -30,6 +30,8 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
   * [![The Shuttleworth Foundation](/img/page/supporters/avatars/shutter.png) The Shuttleworth Foundation](http://www.shuttleworthfoundation.org/)
 
+  * [![Sonos](/img/page/supporters/avatars/sonos.jpg) Sonos](https://www.sonos.com/)
+
   * [![Voqal](/img/page/supporters/avatars/voqal.jpeg) Voqal](http://voqal.org/)
 
   * [![Proteus Fund](/img/page/supporters/avatars/proteus.png) Proteus Fund](http://www.proteusfund.org/)
@@ -221,6 +223,8 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   * John B. Wood
 
   * [![Drs. Carol and Larry Rizzolo](/img/page/supporters/avatars/ct-shoreline.png) Drs. Carol and Larry Rizzolo](#none)
+
+  * Vlad Bodea
 
 ---
 
