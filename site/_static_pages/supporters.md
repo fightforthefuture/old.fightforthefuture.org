@@ -224,7 +224,7 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
   * [![Drs. Carol and Larry Rizzolo](/img/page/supporters/avatars/ct-shoreline.png) Drs. Carol and Larry Rizzolo](#none)
 
-  * Vlad Bodea
+  * Vlad Bodea, Romania
 
 ---
 
