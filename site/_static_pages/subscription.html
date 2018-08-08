@@ -4,25 +4,30 @@ header: true
 title: Manage your subscription
 stylesheet_name: subscription
 one_off_script: subscription
+class: subscription
+component-scripts: subscription
 ---
 
 <h2>Manage Subscription</h2>
 <div id="status"></div>
-<form action="https://queue.fightforthefuture.org/subscription" method="POST">
-<!--<form action="http://localhost:9001/subscription" method="POST">-->
+<form id="js-subscription-form"
+      action="https://cp4ip6e1sg.execute-api.us-east-1.amazonaws.com/v1/subscriptions/"
+      method="POST">
+  <div id="js-form-notice"></div>
   <p>
     Please enter your email address to make changes:
   </p>
-  <input type="hidden" name="redirect" value="https://www.fightforthefuture.org/subscription"/>
-  <input type="email" value="" name="email" placeholder="Your email address"/>
+  <input type="email" value="" id="email" name="email" placeholder="Your email address"
+         required/>
   <h3>What do you want to do?</h3>
   <div class="field">
-    <input type="radio" name="subscription" value="subscribed" id="subscribed"/>
+    <input type="radio" name="subscription" value="subscribed" id="subscribed"
+           checked="checked"/>
     <label for="subscribed">
       Yes! I would like to receive emails from Fight for the Future about:
     </label>
     <div class="field">
-      <input type="checkbox" name="subscription-selections" value="subscribed-nn"
+      <input type="checkbox" name="subscription-selections" value="net-neutrality"
              id="subscribed-nn"/>
       <label for="subscribed-nn">
         Net neutrality issues
@@ -30,17 +35,18 @@ one_off_script: subscription
     </div> <!-- .field -->
     <div class="field">
       <input type="checkbox" name="subscription-selections"
-             value="subscribed-surveillance" id="subscribed-surveillance"/>
+             value="surveillance" id="subscribed-surveillance"/>
       <label for="subscribed-surveillance">
         Government &amp; online surveillance issues
       </label>
     </div> <!-- .field -->
-  </div> <!-- .field -->
-  <div class="field">
-    <input type="radio" name="subscription" value="less-emails" id="less-emails"/>
-    <label for="less-emails">
-      Send me important updates only (occasional emails)
-    </label>
+    <div class="field">
+      <input type="checkbox" name="subscription-selections"
+             value="less-emails" id="less-emails"/>
+      <label for="less-emails">
+        Send me important updates only (occasional emails)
+      </label>
+    </div> <!-- .field -->
   </div> <!-- .field -->
   <div class="field">
     <input type="radio" name="subscription" value="unsubscribe" id="unsubscribe"/>

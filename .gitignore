@@ -6,3 +6,6 @@ npm-debug.log
 _config_petition_ids.yml
 .bundle/
 assets/
+
+# System files
+.DS_Store
