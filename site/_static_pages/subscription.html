@@ -27,6 +27,13 @@ component-scripts: subscription
       Yes! I would like to receive emails from Fight for the Future about:
     </label>
     <div class="field">
+      <input type="checkbox" name="subscription-selections"
+             value="less-emails" id="less-emails"/>
+      <label for="less-emails">
+        Important updates only (occasional emails)
+      </label>
+    </div> <!-- .field -->
+    <div class="field">
       <input type="checkbox" name="subscription-selections" value="net-neutrality"
              id="subscribed-nn"/>
       <label for="subscribed-nn">
@@ -38,13 +45,6 @@ component-scripts: subscription
              value="surveillance" id="subscribed-surveillance"/>
       <label for="subscribed-surveillance">
         Government &amp; online surveillance issues
-      </label>
-    </div> <!-- .field -->
-    <div class="field">
-      <input type="checkbox" name="subscription-selections"
-             value="less-emails" id="less-emails"/>
-      <label for="less-emails">
-        Send me important updates only (occasional emails)
       </label>
     </div> <!-- .field -->
   </div> <!-- .field -->
