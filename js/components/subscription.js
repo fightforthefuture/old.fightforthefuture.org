@@ -19,8 +19,7 @@ window.components.subscription = function (doc, win) {
     ev.preventDefault();
 
     var email = formElement.querySelector('#email').value,
-        status = listOptionsSelected('subscription')[0],
-        tags = listOptionsSelected('subscription-selections').join(','),
+        status = listOptionsSelected('status')[0],
         xhr = new XMLHttpRequest();
 
     // Reset form notice
@@ -41,7 +40,6 @@ window.components.subscription = function (doc, win) {
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(JSON.stringify({
       email: email,
-      tags: tags,
       status: status
     }));
   }

@@ -21,36 +21,21 @@ component-scripts: subscription
          required/>
   <h3>What do you want to do?</h3>
   <div class="field">
-    <input type="radio" name="subscription" value="subscribed" id="subscribed"
+    <input type="radio" name="status" value="subscribed" id="subscribed"
            checked="checked"/>
     <label for="subscribed">
-      Yes! I would like to receive emails from Fight for the Future about:
+      <strong>Subscribe me</strong> to the Fight for the Future mailing list!
     </label>
-    <div class="field">
-      <input type="checkbox" name="subscription-selections"
-             value="less-emails" id="less-emails"/>
-      <label for="less-emails">
-        Important updates only (occasional emails)
-      </label>
-    </div> <!-- .field -->
-    <div class="field">
-      <input type="checkbox" name="subscription-selections" value="net-neutrality"
-             id="subscribed-nn"/>
-      <label for="subscribed-nn">
-        Net neutrality issues
-      </label>
-    </div> <!-- .field -->
-    <div class="field">
-      <input type="checkbox" name="subscription-selections"
-             value="surveillance" id="subscribed-surveillance"/>
-      <label for="subscribed-surveillance">
-        Government &amp; online surveillance issues
-      </label>
-    </div> <!-- .field -->
   </div> <!-- .field -->
   <div class="field">
-    <input type="radio" name="subscription" value="unsubscribed" id="unsubscribe"/>
-    <label for="unsubscribe">
+    <input type="radio" name="status" value="less-emails" id="less-emails"/>
+    <label for="less-emails">
+      Stay subscribed, but <strong>please send me fewer emails.</strong>
+    </label>
+  </div> <!-- .field -->
+  <div class="field">
+    <input type="radio" name="status" value="unsubscribed" id="unsubscribed"/>
+    <label for="unsubscribed">
       Please <strong>unsubscribe me</strong> from Fight for the Future emails.
     </label>
   </div> <!-- .field -->
