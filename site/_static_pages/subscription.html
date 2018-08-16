@@ -8,7 +8,11 @@ class: subscription
 component-scripts: subscription
 ---
 
-<h2>Manage Subscription</h2>
+<h2>Manage Subscriptions</h2>
+
+<!-- NOTE: h1 is smaller than h2 in this design.
+           Let's change the headings when the design changes. -->
+<h1>Email Subscriptions</h1>
 <div id="status"></div>
 <form id="js-subscription-form"
       action="https://cp4ip6e1sg.execute-api.us-east-1.amazonaws.com/v1/subscriptions/"
@@ -19,7 +23,7 @@ component-scripts: subscription
   </p>
   <input type="email" value="" id="email" name="email" placeholder="Your email address"
          required/>
-  <h3>What do you want to do?</h3>
+  <h3>Preferences:</h3>
   <div class="field">
     <input type="radio" name="status" value="subscribed" id="subscribed"
            checked="checked"/>
@@ -42,13 +46,13 @@ component-scripts: subscription
   <button type="submit">Change preferences</button>
 </form>
 
-<h3>Text Message Subscriptions</h3>
+<h1>Text Message Subscriptions</h1>
 <p>
   To stop receiving text messages, simply text <strong>STOP</strong> to
   <strong>384387</strong>.
 </p>
 <p>
   We will send you a message confirming that you have been removed from our
-  text list.  Please do not reply to that message, as it may result in you being
+  text list. Please do not reply to that message, as it may result in you being
   re-subscribed.
 </p>
