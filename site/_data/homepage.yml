@@ -413,13 +413,6 @@ fftfef:
     title: '#GetSafe: security guide'
     description: 'Protecting yourself online can be overwhelming. This makes it easy.'
 
-  - id: ateams
-    fire: false
-    url: https://www.fightforthefuture.org/ateams/
-    image: '/img/projects/ateams.png'
-    title: 'A-teams'
-    description: 'We''re funding smart, creative activism to defend the world from Trump.'
-
   - id: bbprivacy
     fire: false
     url: https://www.savebroadbandprivacy.org/
