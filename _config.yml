@@ -318,6 +318,8 @@ prose:
               value: 'donor-monthly'
             - name: 'donor-annual'
               value: 'donor-annual'
+            - name: 'twitter-brigade'
+              value: 'twitter-brigade'
       - name: 'search_title'
         field:
           element: 'text'
