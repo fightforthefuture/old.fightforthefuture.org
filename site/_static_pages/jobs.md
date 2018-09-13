@@ -98,7 +98,6 @@ In your application, we'd like you to include links to any public repos, sample 
  <script type="text/javascript" src="https://app.jazz.co/widgets/buttons/create/fightforthefuture/49palH1Yrd"></script>
 
 ***
-
 # Senior Campaigner 
 
 Fight for the Future is a small but highly effective Internet freedom activism team with big victories to its credit, including organizing the protests that defeated SOPA/PIPA, and winning net neutrality rules in 2014. Our model for activism includes the following ingredients: highly skilled people who could be doing anything but truly have a fire for achieving political change; an uncompromising focus on specific wins; a small nimble team that can move fast; and the ability to speak with a strong voice online, which includes leading with product and design.
@@ -392,7 +391,6 @@ When applying, please include where you heard about the opportunity.
 <script type="text/javascript" src="https://app.jazz.co/widgets/buttons/create/fightforthefuture/DDejLK7mHA"></script>
 
 ***
-
 # A-Teams Design Co-founder
 ## Web designer / front-end developer for high impact political activism. 
 
@@ -453,7 +451,6 @@ Please click on the apply button below and fill out the application. When applyi
 <script type="text/javascript" src="https://app.jazz.co/widgets/buttons/create/fightforthefuture/wVUcYpvRfH"></script>
 
 ***
-
 # Digital Growth Strategist
 
 **We are not actively recruiting for this position but we are always looking for talented candidates. Please apply if you are interested and we will be in touch if it makes sense to talk more.** 
