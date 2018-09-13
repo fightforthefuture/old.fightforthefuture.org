@@ -6,12 +6,12 @@ social_description: "Fight for the Future is hiring developers, designers, activ
 ---
 * [Jobs](#)
 * [(Mostly) Front-End Software Engineer](#mostly-front-end-software-engineer)
+* [Senior Campaigner](#senior-campaigner)
 * [Contract Web Designer / Front-End Developer for political activism team](#contract-web-designer--front-end-developer-for-political-activism-team)
 * [Campaign Director for Immigrant Rights campaign](#campaign-director-for-immigrant-rights-campaign)
 * [Political Director for Voting Rights Campaign to Save Democracy](#political-director-for-voting-rights-campaign-to-save-democracy)
 * [A-Teams Political Strategist Co-founder](#a-teams-political-strategist-co-founder)
 * [A-Teams Design Co-founder](#a-teams-design-co-founder)
-* [Campaign Strategist / Manager](#campaign-strategist--manager)
 * [Digital Growth Strategist](#digital-growth-strategist)
 
 ## Brief
@@ -96,6 +96,68 @@ In your application, we'd like you to include links to any public repos, sample 
 <i style="font-style:italic">Fight for the Future is an equal opportunity and inclusive employer. FFTF does not and shall not discriminate on the basis of race, color, religion (creed), gender, gender expression, age, national origin (ancestry), disability, marital status, sexual orientation, or military status, in any of its activities or operations. We believe that a diverse staff enables us to better understand and serve our members, audience and community. Women, people of color, and members of low-income, disadvantaged, and LGBTQ communities are strongly encouraged to apply.</i>
 
  <script type="text/javascript" src="https://app.jazz.co/widgets/buttons/create/fightforthefuture/49palH1Yrd"></script>
+
+***
+
+# Senior Campaigner 
+
+Fight for the Future is a small but highly effective Internet freedom activism team with big victories to its credit, including organizing the protests that defeated SOPA/PIPA, and winning net neutrality rules in 2014. Our model for activism includes the following ingredients: highly skilled people who could be doing anything but truly have a fire for achieving political change; an uncompromising focus on specific wins; a small nimble team that can move fast; and the ability to speak with a strong voice online, which includes leading with product and design.
+
+We’re looking for one of these highly skilled people to fill our Senior Campaigner position. If you ever wanted to build online experiences that reach out, grab people, and help them change the world, then this is the job for you. 
+
+## What you’ll do:
+
+* Work closely with organizational leadership and the campaigns team to implement advocacy strategies that advance the organization's key policy goals. 
+* Draft high-quality, engaging communications materials including mass emails, press releases, news pitches, web pages, event materials, social media content, op-eds, and fundraising appeals.
+* Act as a spokesperson to the media on our campaigns. Our campaigns are regularly covered by big outlets including NPR, The New York Times, NBC News, CNN, Wired, Buzzfeed, The Atlantic, CBS News, USA Today, and the Wall Street Journal.
+* Establish and manage relationships with small businesses, prominent technology companies, grassroots organizations, and civil society stakeholders on a project-by-project basis.
+* Coordinate national campaign actions such as distributed protests, rallies, and lobby days.
+* Work with tech team -- designers and developers --  as a project manager of websites, campaign actions, and more. You will also work with contract staff and potentially supervise a staff member. 
+* Identify, monitor, and analyze regulatory and legislative developments affecting Fight for the Future’s campaigns and policy positions at the state, federal, and international level.
+* Assist in the development of Fight for the Future’s policy positions in consultation with community members and staff, and consult policy and technical experts as required.
+* Distill complicated tech policy issues into easy-to-understand messages for a wide range of audiences.
+* As needed, support other organizational needs such as staff and volunteer recruitment, fundraising, and special projects.
+
+## What we’re looking for in you:
+
+* You have a minimum of 5 years of relevant work experience. If you’ve been a digital campaigner that’s a plus but not a requirement if you have many of the qualifications listed below. This experience could also include working in journalism (especially tech), founding a startup, leading on policy at a tech company, or working in digital marketing. 
+* You have a knack for campaigning and understand what it takes to move the needle, including how to build power on the issue, who we need with us, messaging that will move people, and the steps to get you there.
+* You have experience writing for online audiences and can synthesize complex ideas into concise, easily understandable copy for the web. You can break down a complicated policy debate into a series of headlines and subheadlines, a tweet or a press release. 
+* Your writing can speak to people’s humor, fears and what gets both their head nodding and heart pumping.
+* You have management and organizational skills that enable you to keep a number of projects on track and delegate to other members of our team and contractors.
+* You have experience building support with a variety of stakeholders, including individual supporters, allied organizations, companies, and elected officials.
+* You understand and can express in ways that resonate with your audience the nuances and overarching themes of tech policy, free Internet principles, and organizing on the ground and online.
+* You have experience reaching out and developing relationships with traditional media and generating coverage for campaigns.
+* You have played a key role in making something big happen, whether it was a high profile campaign, a groundbreaking investigative report, launching a startup, or a successful music career. 
+* You are fascinated by the power of the Internet and have used it in creative ways.
+* You have a rigorous and thought-provoking perspective on a wide range of political issues, and especially on the Internet freedom and tech policy. You are a thinker and someone who can synthesize a problem or an idea out of ordinary interaction and someone’s frustrations/struggles.
+* You have an interest in pulling off tactics and strategy and using whatever resources are at your disposal—you should have an interest in using law, policies, pop culture, music, philosophy, subcultural themes, memes, language, history, media, organizing playbooks, and whatever else is out there to pull off a really hard-hitting and exciting campaign for the right audience.
+* You can communicate with people who are different from you, who may have different backgrounds and perspectives, and who hold political beliefs that you may passionately oppose. 
+
+## Bonus points for:
+* A background running digital-native campaigns that grow fast.
+* Previous experience in Internet or digital rights policy and issues.
+* Experience working remotely.
+* Coding and/or design skills.
+
+## Who we are:
+Our team comes from a variety of backgrounds -- including startups, the music industry, and campaign organizations -- and we’re open to adapting a role to play to your strengths. We’re looking for well-rounded individuals who have a range of interests, can do a little bit of everything, and know what they’re really good at! We pride ourselves on being a welcoming place to work for women, the LGBTQ community, people of color, people from a variety of ethnic backgrounds, as well as parents. 
+
+## Compensation
+
+This is a full-time position and the range for this position is a total compensation package of $60-90K, depending on experience. Benefits include the option for full health care and partially covered dental benefits, the value of which would be included in the total compensation package. Additional benefits include a 401K plan and paid sick, vacation, and federal holidays days. We offer support for remote work, training and mentoring, and a driven, highly collaborative, supportive work environment. We’d like to start working with you on a contract basis at an hourly rate of $40 to $70 (depending on experience), but we will be able to offer a full-time position with competitive salary and benefits to the right person and can discuss what you are looking for during the interview process.
+
+## Location
+
+Fight for the Future is a 100% remote organization so no need to commute or relocate. If you’re interested in relocation, let us know. Our staff are based all over the country (and a couple of international locations too) and work over video, slack, and through project management tools. 
+
+## To apply
+
+Please click on the apply button below and fill out the application. In your application, please let us know where you heard about the jobs and include links to or samples of your writing—ideally in situations where you’re writing to persuade a group of people. Include as much relevant information as possible: significant things you’ve accomplished and projects you’ve worked on. Being well-rounded is a plus, so don’t exclude significant skills or achievements just because they aren’t activism related (such as starting a business or being a musician).
+
+<i style="font-style:italic">Fight for the Future is an equal opportunity and inclusive employer. FFTF does not and shall not discriminate on the basis of race, color, religion (creed), gender, gender expression, age, national origin (ancestry), disability, marital status, sexual orientation, or military status, in any of its activities or operations. We believe that a diverse staff enables us to better understand and serve our members, audience and community. Women, people of color, and members of low-income, disadvantaged, and LGBTQ communities are strongly encouraged to apply.</i>
+
+<script type="text/javascript" src="https://app.jazz.co/widgets/buttons/create/fightforthefuture/NTHHv8wmrS"></script>
 
 ***
 # Contract Web Designer / Front-End Developer for political activism team 
@@ -389,60 +451,6 @@ Please click on the apply button below and fill out the application. When applyi
 <i style="font-style:italic">Fight for the Future is an equal opportunity and inclusive employer. FFTF does not and shall not discriminate on the basis of race, color, religion (creed), gender, gender expression, age, national origin (ancestry), disability, marital status, sexual orientation, or military status, in any of its activities or operations. We believe that a diverse staff enables us to better understand and serve our members, audience and community. Women, people of color, and members of low-income, disadvantaged, and LGBTQ communities are strongly encouraged to apply.</i>
 
 <script type="text/javascript" src="https://app.jazz.co/widgets/buttons/create/fightforthefuture/wVUcYpvRfH"></script>
-
-***
-
-# Campaign Strategist / Manager
-
-**We are not actively recruiting for this position but we are always looking for talented candidates. Please apply if you are interested and we will be in touch if it makes sense to talk more.** 
-
-Our organization is focused on developing high-impact campaigns that resonate with people and help them band together to exert their power. The Campaign Manager/ Manager position is one of the most important roles in our work - it is central to the organization and its effectiveness. If you ever wanted to build online experiences that reach out, grab people, and help them change the world, then this is the job for you. We’re looking for someone to continue to build that organization with us, from the ground up.
-
-We’re looking for someone smart and savvy and who can be funny and playful with ideas; we’re looking for someone who can speak to people’s humor, fears and what gets them going; and we want someone who has purposeful humor and creativity as well as poignant ideas and language that can cut through political gridlock and debate.
-
-We look for people with a rigorous and thought-provoking perspective on a wide range of political issues, and especially on tech and policy. We want you to be a thinker and someone who can synthesize a problem or an idea out of ordinary interaction and frustrations / struggles.
-
-You should be able to think on your feet, be organized, optimize organizational and project plans and work load, manage/delegate the different pieces of a campaign (outreach, press, writing, product) and set up the organization for long term growth. You will also interface with others, so to some extent you should have smart, powerful ideas to share with others. You should understand and be able to express in ways that resonate with your audience the nuances and overarching themes of tech policy, free internet principles, and organizing on the ground and online.
-
-We’d especially enjoy someone who has a wide interest in pulling off tactics and strategy and using whatever resources are at their disposal—you should have an interest in using law, policies, pop culture, music, philosophy, subcultural themes, memes, language, history, media, organizing playbooks, and whatever else is out there to pull off a really hard-hitting and exciting campaign for the right audience.
-
-We’re hiring for senior to mid-level campaigners who have experience with digital or traditional organizing but generally want to innovate to win.
-
-We have several positions, so if you have skills and expertise with just one aspect of campaigning but truly excel at it—from digital growth to on the ground activism—we want to hear from you.
-
-## Desired Skills & Experience
-
-* Writing for a large audience
-* Running campaigns on high-impact issues
-* Managing campaigns and responses to a fast-changing, dynamic field
-* Working with a large variety of people, groups, and companies and spreading the message to as many stakeholders as possible
-* Fighting against money in politics and heavily-funded lobbying teams
-* Playing a key role in the planning and strategy of campaign organizing and organization growth
-* Leading or starting a coalition
-* Finding and securing new sources for campaigns
-
-## You should also have experience
-
-* Running online campaigns that grow fast
-* Crafting exciting and persuasive actions
-* Using online and traditional media to achieve broad visibility (including by talking with press)
-* Fighting hard for something
-
-## Compensation
-
-Market Rate / Commensurate with Experience
-Full health and dental benefits
-Office support
-
-## Location
-
-The team will be 100% remote-no need to commute or relocate. If you’re interested in relocation, let us know. We’d start working with you on a contract basis at an hourly rate, but we will be able to offer full-time position with competitive salary and benefits to the right person.
-
-## To apply
-
-When applying, show us that you excel at the things we’re looking for. If you like, include links to or samples of your writing—ideally in situations where you’re writing to persuade a group of people too. Include as much relevant information as possible: significant things you’ve done, projects you’ve worked on, etc. Being well-rounded is a plus, so don’t exclude significant skills or achievements just because they aren’t activism related (e.g. starting a business, or being a musician).
-
-<script type="text/javascript" src="https://app.jazz.co/widgets/buttons/create/fightforthefuture/NTHHv8wmrS"></script>
 
 ***
 
