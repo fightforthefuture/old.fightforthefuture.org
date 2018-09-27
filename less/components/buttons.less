@@ -1,0 +1,35 @@
+/// Buttons
+
+// Button > Default
+.btn {
+  display: inline-block;
+  padding: 1rem 3rem;
+  overflow: hidden;
+  background: #14a767;
+  border: none;
+  border-radius: 5rem;
+  color: @white;
+  cursor: pointer;
+  font-family: @body-font;
+  font-size: 1.6rem;
+  font-weight: normal;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+    -moz-user-select:    none;
+    -webkit-user-select: none;
+  user-select:           none;
+  -webkit-appearance: none;
+}
+.default a.btn { // NOTE: necessary for specificity
+  color: @white;
+}
+.btn:hover,
+.btn:focus {
+  background: #26485e;
+  border: none;
+}
+button.btn {
+  vertical-align: top;
+}
