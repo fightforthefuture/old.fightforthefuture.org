@@ -226,6 +226,8 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
   * Vlad Bodea, Romania
 
+  * [![ReviewsDir](/img/page/supporters/avatars/reviews-dir.png) ReviewsDir](https://www.reviewsdir.com/)
+
 ---
 
 **In-kind Donations**
