@@ -5,7 +5,6 @@ social_title: "Want a job changing politics, forever?"
 social_description: "Fight for the Future is hiring developers, designers, activists/lobbyists, and product managers to build longshot campaigns that tackle the most pressing issues in the world. Work from anywhere."
 ---
 * [Jobs](#)
-* [(Mostly) Front-End Software Engineer](#mostly-front-end-software-engineer)
 * [Senior Campaigner](#senior-campaigner)
 * [Contract Web Designer / Front-End Developer for political activism team](#contract-web-designer--front-end-developer-for-political-activism-team)
 * [Campaign Director for Immigrant Rights campaign](#campaign-director-for-immigrant-rights-campaign)
@@ -17,85 +16,6 @@ social_description: "Fight for the Future is hiring developers, designers, activ
 ## Brief
 
 Fight for the Future is a non-profit organization whose mission is to ensure that the web continues to hold freedom of expression and creativity at its core. We primarily work on high value, fearless projects that can be seen by millions. We’re a very small team, but we’re always looking for new people with brilliant ideas. Fight for the Future is 100% remote and timezone flexible. Please see below for our current job openings.
-
-***
-# (Mostly) Front-End Software Engineer
-## A UX ENTHUSIAST AND ENGINEER, FOR DEFENDING THE INTERNET
-
-## About the role:
-Fight for the Future is looking for a software engineer to work on the front-end development side of our digital campaigning work. This is more than a simple coding or campaigning position. This is a position for someone who understands the threats that face the future of free expression on the Internet, and who can creatively use the Internet as a medium for political change.
-
-## About you:
-
-* You’re an excellent front-end coder who can make things work and work well for millions of users.
-* You can faithfully implement others’ designs and make good decisions about layout, typography, and color when needed (but you definitely don’t need to be an expert designer or have illustration skills!)
-* You can build high quality user interaction with intuitive prompts, modals, clear buttons, etc, spotting and fixing UI problems as you go.
-* You could design straight to code if needed, and while your own design choices don’t have to look fancy or highly polished (authentic is often better!) the result should be crafted, professional and ready to put in front of millions of people.
-* You are familiar with current product innovations, messaging apps, social media, UI/UX, and design.
-* You are comfortable using (or getting up to speed on) back-end technologies when needed.
-* You are a curious person who likes to learn about new developments in the field and can think about a challenge from different angles.
-* You understand rapid prototyping and release, user adoption, and A/B testing, and you can navigate cost/benefits analysis of various technical solutions, languages, and architecture-based decisions.
-* You can think on your feet, be organized, optimize project plans and workload, and lead/delegate the different pieces of projects.
-* You enjoy a rapidly changing environment and can pivot quickly as needed to make changes based on changing outside requirements.
-* You like brainstorming ways to simplify the scope of a project to fit a given timeline (e.g. if the team asks for something crazy/hard, maybe there’s a much easier way to achieve a similar result) and you’re always looking for those kinds of lovely simplifications.
-* You’re happy doing some self-QA and tweaking until a user experience works reliably and feels nice.
-* You’re good at thinking into and around a problem, exposing corner cases and potential issues to non-technical collaborators.
-* You can match styles and technical possibilities (such as an action tool or online stunt) to a given political objective or strategy, and pick the best tech response to a given situation.
-
-## What you'll be building:
-
- * Precise HTML/CSS paired with clear, modern design, and intuitive UX to send powerful messages out into the world & apply political pressure in the right places at the right time.
- * Modern JavaScript (ES6), build tools (Webpack), and framework-driven interactive sites (Vue, Nuxt). These tools are changing rapidly, so learning on the job is encouraged.
- * Solutions that achieve our goals by using and customizing existing services (CRM, publishing tools, etc).
- * Innovative or unconventional tools to effectively mobilize a large audience.
-
-## Thing you might like about this job:
-
- * It’s telecommute work with a 100% remote team.
- * We do retreats and in-person sprints too, because it’s nice to see people!
- * The work will be highly varied, like freelancing on a variety of projects.
- * Be a heroine/hero to many. The “yeah, I made that” small talk in bars is fun.
-
-## Requirements:
-
- * Experience writing modern HTML/CSS with responsive design techniques and awareness of common cross-browser problems.
- * An understanding of client-side JavaScript - AJAX, handling events, DOM manipulation and cross-browser compatibility.
- * Knowledge of progressive enhancement strategies and ability to create simple sites that can function with JavaScript disabled or seamlessly integrate subtle CSS transitions for a refined user experience.
- * An ability to do clean and classy design when needed.
- * Ability to make good UI/UX decisions and spot problems.
- * You have a desire to use your skills and smarts for winning concrete victories to expand the Internet’s power for good.
-
-## Bonus points for:
-
- * Familiarity with static site generators - many of our campaign microsites are built on Nuxt.
- * Experience writing modern JavaScript (ES6) and using build tools like Webpack, Gulp or Grunt. These tools are changing rapidly, so again, learning on the job is encouraged.
- * Experience building front-end applications with a modern framework like Vue, React, or Angular.
- * Any experience writing server-side code, mobile apps, or working with esoteric technologies.
- * Having successfully launched a great product working in a small team
- * Ability to build and lead teams
- * Some level of participation in communities like Reddit or HN
- * Lots of remote / freelance experience solving problems on tight deadlines
- * Persuasive writing skills for an online audience
- * Experience working remotely (we use Slack/Trello/Google Hangouts)
-
-## Mega bonus points for:
-
- * Having built and marketed your own product.
- * Having been a leader—of anything—especially online, especially tech-related
- * Experience with activism, resistance, creative and positive troublemaking, or any kind of fiery provocative work in any area.
-
-## Who we are:
-We are a small, committed team of activists who come from a variety of backgrounds (including tech, nonprofit fundraising shops, campaign organizations, and the music scene). We pride ourselves on being a welcoming place to work for women, the LGBTQ community, people of color, people from a variety of ethnic backgrounds, and parents.
-
-## Compensation:
-This is a full-time position and the range for this position is a total compensation package of $70-$100K, depending on experience. Benefits include the option for full health care and partially covered dental benefits, the value of which would be included in the total compensation package. Additional benefits include a 401K plan and paid sick, vacation, and federal holidays days. We offer support for remote work, training and mentoring, and a driven, highly collaborative, supportive work environment. We’d like to start working with you on a contract basis at an hourly rate of $45 to $75 (depending on experience), but we will be able to offer full-time position with competitive salary and benefits to the right person and can discuss what you are looking for during the interview process.
-
-## How to apply:
-In your application, we'd like you to include links to any public repos, sample code (as many examples as possible) and good examples of HTML/CSS work and UI/UX or design. Please also include a thoughtful cover letter which explains why you want to do mission-based work and let us know where you heard about the job.
-
-<i style="font-style:italic">Fight for the Future is an equal opportunity and inclusive employer. FFTF does not and shall not discriminate on the basis of race, color, religion (creed), gender, gender expression, age, national origin (ancestry), disability, marital status, sexual orientation, or military status, in any of its activities or operations. We believe that a diverse staff enables us to better understand and serve our members, audience and community. Women, people of color, and members of low-income, disadvantaged, and LGBTQ communities are strongly encouraged to apply.</i>
-
-<a href="https://fightforthefuture.applytojob.com/apply/49palH1Yrd" class="btn" target="_blank">Apply Now</a>
 
 ***
 # Senior Campaigner
