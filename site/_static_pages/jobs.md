@@ -16,7 +16,6 @@ social_description: "Fight for the Future is hiring developers, designers, activ
 ## Brief
 
 Fight for the Future is a non-profit organization whose mission is to ensure that the web continues to hold freedom of expression and creativity at its core. We primarily work on high value, fearless projects that can be seen by millions. We’re a very small team, but we’re always looking for new people with brilliant ideas. Fight for the Future is 100% remote and timezone flexible. Please see below for our current job openings.
-
 ***
 # Senior Campaigner
 
