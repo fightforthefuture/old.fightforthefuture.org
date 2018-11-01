@@ -104,21 +104,21 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   ![Justin Sun](/img/page/supporters/avatars/justin-sun.jpg)
   : ### [Justin Sun](https://twitter.com/justinsuntron)
 
-    Justin Sun
+    Justin Sun is the founder and CEO of the TRON Foundation.  We appreciate his efforts to use technology to foster innovation and social change.
 
   ---
 
   ![BitTorrent](/img/page/supporters/avatars/bittorrent.png)
   : ### [BitTorrent](https://www.bittorrent.com/)
 
-    BitTorrent
+    BitTorrent has been a champion for Internet freedom at the most important moments moments in history.  We are grateful for their continued support.
 
   ---
 
   ![Tron](/img/page/supporters/avatars/tron.png)
   : ### [Tron](https://tron.network/)
 
-    Tron
+    The TRON Foundation is dedicated to building the infrastructure for a truly decentralized Internet.  We are grateful for their support. 
 
 ---
 
