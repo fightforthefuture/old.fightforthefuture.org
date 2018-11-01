@@ -99,6 +99,27 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
     Bassnectar is a world-renowned DJ who has been a tremendous help to us year after year on free speech and privacy issues. We're glad to have his support.
 
+  ---
+
+  ![Justin Sun](/img/page/supporters/avatars/justin-sun.jpg)
+  : ### [Justin Sun](https://twitter.com/justinsuntron)
+
+    Justin Sun
+
+  ---
+
+  ![BitTorrent](/img/page/supporters/avatars/bittorrent.png)
+  : ### [BitTorrent](https://www.bittorrent.com/)
+
+    BitTorrent
+
+  ---
+
+  ![Tron](/img/page/supporters/avatars/tron.png)
+  : ### [Tron](https://tron.network/)
+
+    Tron
+
 ---
 
 **Defenders**
