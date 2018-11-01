@@ -111,7 +111,7 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   ![BitTorrent](/img/page/supporters/avatars/bittorrent.png)
   : ### [BitTorrent](https://www.bittorrent.com/)
 
-    BitTorrent has been a champion for Internet freedom at the most important moments moments in history.  We are grateful for their continued support.
+    BitTorrent has been a champion for net neutrality at the most important moments moments in Internet history.  We are grateful for their continued support.
 
   ---
 
