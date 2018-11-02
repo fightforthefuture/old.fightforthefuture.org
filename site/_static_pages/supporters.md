@@ -111,14 +111,14 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   ![BitTorrent](/img/page/supporters/avatars/bittorrent.png)
   : ### [BitTorrent](https://www.bittorrent.com/)
 
-    BitTorrent has been a champion for net neutrality at the most important moments moments in Internet history.  We are grateful for their continued support.
+    BitTorrent has been a champion for net neutrality at the most important moments in Internet history.  We are grateful for their continued support.
 
   ---
 
   ![Tron](/img/page/supporters/avatars/tron.png)
   : ### [Tron](https://tron.network/)
 
-    The TRON Foundation is dedicated to building the infrastructure for a truly decentralized Internet.  We are grateful for their support. 
+    The TRON Foundation is dedicated to building the infrastructure for a truly decentralized Internet.  We're happy to count them as partners in the fight for net net neutrality.
 
 ---
 
