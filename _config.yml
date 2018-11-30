@@ -320,6 +320,8 @@ prose:
               value: 'donor-annual'
             - name: 'twitter-brigade'
               value: 'twitter-brigade'
+            - name: 'from-text'
+              value: 'from-text'
       - name: 'search_title'
         field:
           element: 'text'
