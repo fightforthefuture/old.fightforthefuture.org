@@ -322,6 +322,8 @@ prose:
               value: 'twitter-brigade'
             - name: 'from-text'
               value: 'from-text'
+            - name: 'access'
+              value: 'access'
       - name: 'search_title'
         field:
           element: 'text'
