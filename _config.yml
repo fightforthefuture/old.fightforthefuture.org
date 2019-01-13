@@ -324,6 +324,8 @@ prose:
               value: 'from-text'
             - name: 'access'
               value: 'access'
+            - name: 'first-time-voter-2018'
+              value: 'first-time-voter-2018'
       - name: 'search_title'
         field:
           element: 'text'
