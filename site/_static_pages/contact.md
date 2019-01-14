@@ -14,8 +14,8 @@ For donation info, please email **<donor@fightforthefuture.org>** or call **[(50
 
 You can also reach us by snail mail:
 
-  Fight for the Future  
-  PO Box 55071 #95005  
+  Fight for the Future and/or Fight for the Future Education Fund<br>
+  PO Box 55071 #95005<br>
   Boston, MA 02205
 
 Or if you’re really old-school, you can fax us at **[857-488-4063](fax:18574884063).**
