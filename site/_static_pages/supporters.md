@@ -249,6 +249,12 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
   * [![ReviewsDir](/img/page/supporters/avatars/reviews-dir.png) ReviewsDir](https://www.reviewsdir.com/)
 
+  * [![Drew Rothstein](/img/page/supporters/avatars/drew-rothstein.jpg) Drew Rothstein](https://twitter.com/mediocrity)
+
+  * John B Gilpin
+
+  * [![PrivateVPN](/img/page/supporters/avatars/privatevpn.png) PrivateVPN](https://privatevpn.com/)
+
 ---
 
 **In-kind Donations**
