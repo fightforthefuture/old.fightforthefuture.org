@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: fightforthefuture.org
+Token: e17a67e4cdedfeccb07258b13ad40c4638b23b0f32ab42f68ba0e590f7e8d442
