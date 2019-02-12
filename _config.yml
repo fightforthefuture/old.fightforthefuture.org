@@ -15,6 +15,7 @@ tweet: 'Help keep freedom of expression online a right extended to all people—
 timezone: America/New_York
 googleanalytics: UA-26576645-1
 favicon: '/favicon.ico'
+include: [".well-known"]
 
 author:
   googleid: 102356128596404327231
