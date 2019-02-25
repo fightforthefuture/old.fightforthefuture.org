@@ -329,6 +329,8 @@ prose:
               value: 'first-time-voter-2018'
             - name: 'whistleblower-sticker'
               value: 'whistleblower-sticker'
+            - name: 'shopify'
+              value: 'shopify'
       - name: 'search_title'
         field:
           element: 'text'
