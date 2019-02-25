@@ -119,7 +119,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### TODO: Role
 
-  TODO: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed feugiat ante. Nullam vitae volutpat dui. Integer nisl lacus, iaculis at maximus sed, malesuada eget purus.
+  Joe Thornton is a lifelong internet enthusiast, with a passion for digital rights. He produces our video content, and activates online communities like Reddit around our many campaigns.
 
 
 ---
