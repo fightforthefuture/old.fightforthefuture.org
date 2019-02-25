@@ -327,6 +327,8 @@ prose:
               value: 'access'
             - name: 'first-time-voter-2018'
               value: 'first-time-voter-2018'
+            - name: 'whistleblower-sticker'
+              value: 'whistleblower-sticker'
       - name: 'search_title'
         field:
           element: 'text'
