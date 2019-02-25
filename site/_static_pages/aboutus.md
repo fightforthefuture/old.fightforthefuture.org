@@ -47,7 +47,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Executive Director
 
-  [Sarah][sg1] was our Chief Operating Officer for 3 years. Her background includes running a nationwide canvass operation with the Public Interest Network and several cycles of volunteer-driven GOTV campaigns with Moveon PAC and others.  
+  [Sarah][sg1] was our Chief Operating Officer for 3 years. Her background includes running a nationwide canvass operation with the Public Interest Network and several cycles of volunteer-driven GOTV campaigns with Moveon PAC and others.
 
 ---
 
@@ -83,7 +83,7 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### Technology Exchange Fellow
 
-  Josh is a [Ford/MDF Technology Exchange Fellow][jt1]. As the former Campaign Director for OpenMedia, Josh is a seasoned digital rights strategist and policy expert. He leads our work on net neutrality. 
+  Josh is a [Ford/MDF Technology Exchange Fellow][jt1]. As the former Campaign Director for OpenMedia, Josh is a seasoned digital rights strategist and policy expert. He leads our work on net neutrality.
 
 ---
 
@@ -92,8 +92,8 @@ Our accomplishments are testament to the notion that with the right approach and
 
   #### 2018 Kairos Fellow
 
-  Jelani is a 2018 Kairos Fellow. Most recently, they've been the Advocacy Coordinator for the Richmond Peace Education Center and a Member Leader with Southerners On New Ground (SONG). 
-  
+  Jelani is a 2018 Kairos Fellow. Most recently, they've been the Advocacy Coordinator for the Richmond Peace Education Center and a Member Leader with Southerners On New Ground (SONG).
+
 ---
 
 ![Ken Mickles](/img/page/aboutus/teampic/ken.png)
@@ -111,6 +111,16 @@ Our accomplishments are testament to the notion that with the right approach and
   #### Director of Product
 
   Prior to joining FFTF, Dayton developed and managed a variety of digital products for companies like EA and Disney / ABC Television Group. He is leading our work to build websites, tech, and online products that can speak to millions.
+
+---
+
+![Joe Thornton](/img/page/aboutus/teampic/joe.png)
+: ### Joe Thornton
+
+  #### Video Producer
+
+  Joe Thornton is a lifelong internet enthusiast, with a passion for digital rights. He produces our video content, and activates online communities like Reddit around our many campaigns.
+
 
 ---
 [tc0]: /img/page/aboutus/teampic/tiff.png
@@ -178,7 +188,7 @@ Our accomplishments are testament to the notion that with the right approach and
   #### Secretary and Co-Founder
 
   Co-founder of Fight for the Future, [Miro][tc2], [Open Congress][tc1], and [Amara][hw1]. He also ran online campaigns for the [Free Software Foundation][hw2].
-  
+
 
 # FFTF Education Fund 501(c)3 Board
 {: #fftfef-board}
@@ -208,7 +218,7 @@ Our accomplishments are testament to the notion that with the right approach and
   #### Secretary
 
   Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School. Author of The Wealth of Networks: How social production transforms markets and freedom.
-  
+
 ---
 
 ![Tiffiniy Cheng][tc0]
