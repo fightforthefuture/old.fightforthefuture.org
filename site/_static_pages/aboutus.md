@@ -117,7 +117,7 @@ Our accomplishments are testament to the notion that with the right approach and
 ![Joe Thornton](/img/page/aboutus/teampic/joe.png)
 : ### Joe Thornton
 
-  #### TODO: Role
+  #### Video Producer
 
   Joe Thornton is a lifelong internet enthusiast, with a passion for digital rights. He produces our video content, and activates online communities like Reddit around our many campaigns.
 
