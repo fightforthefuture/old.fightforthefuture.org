@@ -21,68 +21,29 @@
 </script>
 <script>
   (function() {
-    // exit if...
-    if (
-      window.location.search.indexOf('widget=june11') === -1 // ?widget=june11 isn't set
-      || document.getElementById('BFTN_WIDGET') // or widget already exists
-      || document.getElementById('RED_ALERT_WIDGET')
-    ) return;
-
-    window.BFTN_WIDGET_OPTIONS = {
-      alwaysShow: true,
-      org: 'fftf'
-    };
-
-    var script = document.createElement('script');
-    script.src = 'https://june11.battleforthenet.com/widget.js';
-    document.head.appendChild(script);
-  })();
-</script>
-
-<script>
-  (function() {
-    // exit if...
-    if (
-      window.location.search.indexOf('widget=july23') === -1 // ?widget=july23 isn't set
-      || document.getElementById('BFTN_WIDGET') // or widget already exists
-      || document.getElementById('RED_ALERT_WIDGET')
-    ) return;
-
-    window.BFTN_WIDGET_OPTIONS = {
-      alwaysShow: true,
-      org: 'fftf'
-    };
-
-    var script = document.createElement('script');
-    script.src = 'https://july23.battleforthenet.com/widget.js';
-    document.head.appendChild(script);
-  })();
-</script>
-<!-- <script>
-(function() {
-  'use strict';
-
-  function parseQuery(queryString) {
-    var query = {};
-    var pairs = (queryString[0] === '?' ? queryString.substr(1) : queryString).split('&');
-    for (var i = 0; i < pairs.length; i++) {
-      var pair = pairs[i].split('=');
-      query[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1] || '');
+    function parseQuery(queryString) {
+      var query = {};
+      var pairs = (queryString[0] === '?' ? queryString.substr(1) : queryString).split('&');
+      for (var i = 0; i < pairs.length; i++) {
+        var pair = pairs[i].split('=');
+        query[decodeURIComponent(pair[0])] = decodeURIComponent(pair[1] || '');
+      }
+      return query;
     }
-    return query;
-  }
 
-  var query = parseQuery(location.search);
+    var query = parseQuery(location.search);
 
-  window.RED_ALERT_OPTIONS = { org: 'fftf', language: query.lang };
+    // exit if no 'redalert' widget set...
+    if (query.widget !== 'redalert') return;
 
-  if (query.redalert !== undefined) {
-    RED_ALERT_OPTIONS.alwaysShow = true;
-  }
+    window.RED_ALERT_OPTIONS = {
+      alwaysShow: false,
+      org: 'fftf',
+      language: query.lang
+    };
 
-  if (query.maximize !== undefined) {
-    RED_ALERT_OPTIONS.alwaysMaximize = true;
-  }
-})();
+    var script = document.createElement('script');
+    script.src = 'https://redalert.battleforthenet.com/widget.js';
+    document.head.appendChild(script);
+  })();
 </script>
-<script src="https://redalert.battleforthenet.com/widget.js" async></script> -->
