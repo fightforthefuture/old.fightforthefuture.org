@@ -186,6 +186,11 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
     Creating solutions that build the better world... for everyone
 
+  ---
+  ![Kazickas Family Foundation ](/img/page/supporters/avatars/kff.png)
+  : ### [Kazickas Family Foundation ](http://www.kff.lt/)
+
+    The Kazickas Family's philanthropy is motivated by our wish to create a better world for both current and future generations of Lithuanians.
 
 ---
 
