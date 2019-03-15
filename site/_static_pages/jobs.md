@@ -5,7 +5,7 @@ social_title: "Want a job changing politics, forever?"
 social_description: "Fight for the Future is hiring developers, designers, activists/lobbyists, and product managers to build longshot campaigns that tackle the most pressing issues in the world. Work from anywhere."
 ---
 * [Jobs](#)
-* [Senior Campaigner](#senior-campaigner)
+* [Campaigner (Senior/ Junior)](#campaigner-senior-junior)
 * [Contract Web Designer / Front-End Developer for political activism team](#contract-web-designer--front-end-developer-for-political-activism-team)
 * [Campaign Director for Immigrant Rights campaign](#campaign-director-for-immigrant-rights-campaign)
 * [Political Director for Voting Rights Campaign to Save Democracy](#political-director-for-voting-rights-campaign-to-save-democracy)
@@ -16,16 +16,16 @@ social_description: "Fight for the Future is hiring developers, designers, activ
 
 Fight for the Future is a non-profit organization whose mission is to ensure that the web continues to hold freedom of expression and creativity at its core. We primarily work on high value, fearless projects that can be seen by millions. We’re a very small team, but we’re always looking for new people with brilliant ideas. Fight for the Future is 100% remote and timezone flexible. Please see below for our current job openings.
 ***
-# Senior Campaigner
+# Campaigner (Senior/ Junior)
 
 Fight for the Future is a small but highly effective Internet freedom activism team with big victories to its credit, including organizing the protests that defeated SOPA/PIPA, and winning net neutrality rules in 2014. Our model for activism includes the following ingredients: highly skilled people who could be doing anything but truly have a fire for achieving political change; an uncompromising focus on specific wins; a small nimble team that can move fast; and the ability to speak with a strong voice online, which includes leading with product and design.
 
-We’re looking for one of these highly skilled people to fill our Senior Campaigner position. If you ever wanted to build online experiences that reach out, grab people, and help them change the world, then this is the job for you.
+We’re looking for one of these highly skilled people to fill our Campaigner position and are open to candidates who are qualified to take on a junior or senior responsibility level of the role. If you ever wanted to build online experiences that reach out, grab people, and help them change the world, then this is the job for you.
 
-## What you’ll do:
+## Your responsibilities could include:
 
 * Work closely with organizational leadership and the campaigns team to implement advocacy strategies that advance the organization's key policy goals.
-* Draft high-quality, engaging communications materials including mass emails, press releases, news pitches, web pages, event materials, social media content, op-eds, and fundraising appeals.
+* Draft high-quality, engaging communications materials including mass emails, press releases, news pitches, web pages, event materials, video scripts, social media content, op-eds, and fundraising appeals.
 * Act as a spokesperson to the media on our campaigns. Our campaigns are regularly covered by big outlets including NPR, The New York Times, NBC News, CNN, Wired, Buzzfeed, The Atlantic, CBS News, USA Today, and the Wall Street Journal.
 * Establish and manage relationships with small businesses, prominent technology companies, grassroots organizations, and civil society stakeholders on a project-by-project basis.
 * Coordinate national campaign actions such as distributed protests, rallies, and lobby days.
@@ -37,11 +37,11 @@ We’re looking for one of these highly skilled people to fill our Senior Campai
 
 ## What we’re looking for in you:
 
-* You have a minimum of 5 years of relevant work experience. If you’ve been a digital campaigner that’s a plus but not a requirement if you have many of the qualifications listed below. This experience could also include working in journalism (especially tech), founding a startup, leading on policy at a tech company, or working in digital marketing.
+* You have a professional background in relevant fields which include campaigns, advocacy, grassroots organizing, digital marketing, or writing/ journalism. 
 * You have a knack for campaigning and understand what it takes to move the needle, including how to build power on the issue, who we need with us, messaging that will move people, and the steps to get you there.
 * You have experience writing for online audiences and can synthesize complex ideas into concise, easily understandable copy for the web. You can break down a complicated policy debate into a series of headlines and subheadlines, a tweet or a press release.
 * Your writing can speak to people’s humor, fears and what gets both their head nodding and heart pumping.
-* You have management and organizational skills that enable you to keep a number of projects on track and delegate to other members of our team and contractors.
+* You have project management and organizational skills that enable you to keep a number of projects on track and delegate to other members of our team and contractors.
 * You have experience building support with a variety of stakeholders, including individual supporters, allied organizations, companies, and elected officials.
 * You understand and can express in ways that resonate with your audience the nuances and overarching themes of tech policy, free Internet principles, and organizing on the ground and online.
 * You have experience reaching out and developing relationships with traditional media and generating coverage for campaigns.
@@ -58,11 +58,11 @@ We’re looking for one of these highly skilled people to fill our Senior Campai
 * Coding and/or design skills.
 
 ## Who we are:
-Our team comes from a variety of backgrounds -- including startups, the music industry, and campaign organizations -- and we’re open to adapting a role to play to your strengths. We’re looking for well-rounded individuals who have a range of interests, can do a little bit of everything, and know what they’re really good at! We pride ourselves on being a welcoming place to work for women, the LGBTQ community, people of color, people from a variety of ethnic backgrounds, as well as parents.
+Our team comes from a variety of backgrounds -- including startups, the music industry, and campaign organizations. We’re looking for well-rounded individuals who have a range of interests, can do a little bit of everything, and know what they’re really good at! We pride ourselves on being a welcoming place to work for women, the LGBTQ community, people of color, people from a variety of ethnic backgrounds, as well as parents.
 
 ## Compensation
 
-This is a full-time position and the range for this position is a total compensation package of $60-90K, depending on experience. Benefits include the option for full health care and partially covered dental benefits, the value of which would be included in the total compensation package. Additional benefits include a 401K plan and paid sick, vacation, and federal holidays days. We offer support for remote work, training and mentoring, and a driven, highly collaborative, supportive work environment. We’d like to start working with you on a contract basis at an hourly rate of $40 to $70 (depending on experience), but we will be able to offer a full-time position with competitive salary and benefits to the right person and can discuss what you are looking for during the interview process.
+This is a full-time position and the range for this position is a total compensation package of $40-90K, depending on experience. Candidates who qualify for a senior campaigner role would fall on the higher end of the range and junior campaigners at the lower end of the range. Benefits include the option for full health care and partially covered dental benefits, the value of which would be included in the total compensation package. Additional benefits include a 401K plan and paid sick, vacation, and federal holidays days. We offer support for remote work, training and mentoring, and a driven, highly collaborative, supportive work environment. We’d like to start working with you on a contract basis at an hourly rate of $40 to $70 (depending on experience), but we will be able to offer a full-time position with competitive salary and benefits to the right person and can discuss what you are looking for during the interview process.
 
 ## Location
 
