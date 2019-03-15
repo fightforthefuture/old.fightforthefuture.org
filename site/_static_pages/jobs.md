@@ -5,7 +5,7 @@ social_title: "Want a job changing politics, forever?"
 social_description: "Fight for the Future is hiring developers, designers, activists/lobbyists, and product managers to build longshot campaigns that tackle the most pressing issues in the world. Work from anywhere."
 ---
 * [Jobs](#)
-* [Campaigner (Senior/ Junior)](#campaigner-senior-junior)
+* [Campaigner (Senior/ Junior)](#campaigner-(senior/-junior))
 * [Contract Web Designer / Front-End Developer for political activism team](#contract-web-designer--front-end-developer-for-political-activism-team)
 * [Campaign Director for Immigrant Rights campaign](#campaign-director-for-immigrant-rights-campaign)
 * [Political Director for Voting Rights Campaign to Save Democracy](#political-director-for-voting-rights-campaign-to-save-democracy)
@@ -62,7 +62,7 @@ Our team comes from a variety of backgrounds -- including startups, the music in
 
 ## Compensation
 
-This is a full-time position and the range for this position is a total compensation package of $40-90K, depending on experience. Candidates who qualify for a senior campaigner role would fall on the higher end of the range and junior campaigners at the lower end of the range. Benefits include the option for full health care and partially covered dental benefits, the value of which would be included in the total compensation package. Additional benefits include a 401K plan and paid sick, vacation, and federal holidays days. We offer support for remote work, training and mentoring, and a driven, highly collaborative, supportive work environment. We’d like to start working with you on a contract basis at an hourly rate of $40 to $70 (depending on experience), but we will be able to offer a full-time position with competitive salary and benefits to the right person and can discuss what you are looking for during the interview process.
+This is a full-time position and the range for this position is a total compensation package of $40-90K, depending on experience. Candidates who qualify for a senior campaigner role would fall on the higher end of the range and junior campaigners at the lower end of the range. Benefits include the option for full health care and partially covered dental benefits, the value of which would be included in the total compensation package. Additional benefits include a 401K plan and paid sick, vacation, and federal holidays days. We offer support for remote work, training and mentoring, and a driven, highly collaborative, supportive work environment. We’d like to start working with you on a contract basis at an hourly rate of $30 to $70 (depending on experience), but we will be able to offer a full-time position with competitive salary and benefits to the right person and can discuss what you are looking for during the interview process.
 
 ## Location
 
