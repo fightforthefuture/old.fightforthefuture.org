@@ -33,17 +33,28 @@
 
     var query = parseQuery(location.search);
 
-    // exit if no 'redalert' widget set...
-    if (query.widget !== 'redalert') return;
+    // exit if no widget set...
+    if (!query.widget) return;
 
-    window.RED_ALERT_OPTIONS = {
-      alwaysShow: false,
-      org: 'fftf',
-      language: query.lang
-    };
+    if (query.widget === 'watch') {
+      window.BFTN_WIDGET_OPTIONS = {
+        alwaysShow: true
+      };
+      var script = document.createElement('script');
+      script.src = 'https://watch.battleforthenet.com/widget.js';
+      document.head.appendChild(script);
+    }
 
-    var script = document.createElement('script');
-    script.src = 'https://redalert.battleforthenet.com/widget.js';
-    document.head.appendChild(script);
+    if (query.widget === 'redalert') {
+      window.RED_ALERT_OPTIONS = {
+        alwaysShow: false,
+        org: 'fftf',
+        language: query.lang
+      };
+
+      var script = document.createElement('script');
+      script.src = 'https://redalert.battleforthenet.com/widget.js';
+      document.head.appendChild(script);
+    }
   })();
 </script>
