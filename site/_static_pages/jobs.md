@@ -77,22 +77,20 @@ Please click on the apply button below and fill out the application. In your app
 # A-Teams Political Strategist Co-founder
 ## Political operative (lobbyist/staffer/PR) who is ready to play the outside game
 
-Fight for the Future is a small Internet freedom activism team with big victories to its credit, such as organizing the protests that defeated SOPA/PIPA, and winning net neutrality rules in 2014.
+Our new initiative A-Teams aims to create new, small teams that can achieve surprising political wins in the issue area of their choice, by combining political strategy and Internet savvy.
 
-Our new initiative [A-Teams](https://www.fightforthefuture.org/ateams/) aims to create new, two-person teams that can achieve surprising political wins in the issue area of their choice, by combining political strategy and Internet savvy.
+We are seeking the founding political strategist and campaign director for one such “A-Team.” As the A-Team’s political strategist, you will focus on a political issue, such as immigration reform, climate change, prison reform, health care, or voting rights. You and your A-Team will run a campaign to pass strong policy on your issue or stop a disastrous bill from becoming law.
 
-We are seeking the founding political strategist and campaign director for one such “A-Team.” As the A-Team’s political strategist, you will focus on a political issue, such as climate change, prison reform, health care, or voting rights. You and your A-Team will run a campaign to pass strong policy on your issue or stop a disastrous bill from becoming law.
+You should have a strong, insider-level understanding of the political process, but with an outsider’s optimism, creativity, and ability to speak about issues in ways that resonate with other outsiders, such as the public or any key constituency you need to move. At the core of all of your work, you seek to figure out how to climb over any barriers in your way, problem solve to make what is needed to capture the debate, and know how to bring millions of people to bear on an issue. 
 
-You should have a strong, insider-level understanding of the political process, but with an outsider’s optimism, creativity, and ability to speak about issues in ways that resonate with other outsiders, such as the public or any key constituency you need to move.
+You should also have some political attitudes about power, freedom, fairness, or caring for others that you carry with you since your teenage years. This should come through in your writing; you should have a strong, authentic voice.
 
-You should also have some political attitudes about power, freedom, fairness, or caring for others that you carry with you since your teenage years.
+You will work alongside a creative, multidisciplinary software developer/designer with all of the skills needed to leverage the Internet to reach and organize millions. We’ll work with you both to develop and execute plans.
 
-You will work alongside a creative, multidisciplinary software developer with all of the skills needed to leverage the Internet to reach and organize millions. We’ll work with you both to develop and execute plans.
 
 ## What you’ll do
 
 * Provoke a robust public debate in chosen political area by creating content (writing, video, web) and new realities (such as sign-on letters, events, rallies, protests, alliances, etc.) that support your position.
-* You have experience working on issue-based advocacy campaigns.
 * Look for cases where the public wants a certain policy, but where corruption or political inertia is holding it back.
 * Identify the forces and alliances that, if mobilized, could break through the corruption/inertia and achieve a political win.
 * Mobilize those forces and alliances, again and again, honing your skill over time.
@@ -102,10 +100,12 @@ You will work alongside a creative, multidisciplinary software developer with al
 
 ## What we’re looking for
 
+* You have a mind for campaigning and everything it takes to win, including how to build power on the issue, who we need with us, messaging that will move people, and the steps to get you there. And you want to lead others to victory.
+You have a strong sense of how state and federal politics works.
+* You ideally have experience working on issue-based advocacy campaigns.
 * You have a strong sense of how state and federal politics works.
 * That said, you can think outside the box, see opportunities that others write off, and make new things happen.
 * You understand convention but aren’t bound by it.
-* You can plug holes, see what’s missing.
 * You can get things done, but believe plans are made to break and change.
 * You see opportunity to break the status quo of the political process all the time.
 * You write beautifully, especially for an online audience.
@@ -121,9 +121,9 @@ You will work alongside a creative, multidisciplinary software developer with al
 * You’ve maybe been arrested before, for doing something you will never regret.
 * You are a fluent English speaker and live in the US.
 
-This is a full time position. Compensation is market rate and commensurate with skills and experience either through a contract rate or a salary (with full health care and dental benefits), depending on what works best for you.
+This is a full time position with Fight for the Future. The salary range is $70-100K annually, depending on experience with benefits including full health care, partially covered dental benefits, and training and mentoring with senior staff. If a contract set-up works better for you, we can discuss that too.
 
-When applying, please include where you heard about the opportunity.
+Please click on the apply button below and fill out the application. When applying, please include where you heard about the opportunity.
 
 <a href="https://fightforthefuture.applytojob.com/apply/DDejLK7mHA" class="btn" target="_blank">Apply Now</a>
 
