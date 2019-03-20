@@ -131,19 +131,18 @@ When applying, please include where you heard about the opportunity.
 # A-Teams Design Co-founder
 ## Web designer / front-end developer for high impact political activism.
 
-We are seeking a Design Co-founder for our next “A-Team”, to play a lead role in launching and co-leading a small activist team running a campaign to win on immigrant rights, criminal justice reform, or strengthening democratic representation.
-
-Fight for the Future is known for its new model of activism focused on Internet freedom and has big victories to its credit, such as organizing the protests that defeated SOPA/PIPA, and winning net neutrality rules in 2014.
-
 Our new initiative A-Teams aims to create new, small teams that can achieve surprising political wins on the issue area of their choice, by combining political strategy and Internet savvy.
 
-We are seeking the founding designer / front-end developer for one such “A-Team.” As the designer and technical leader, you will focus one our priority political areas, such as immigrant rights, criminal justice reform, or strengthening democratic representation. You and your A-Team will run a campaign to pass strong policy on your issue or stop a disastrous bill from becoming law. Your role will be to explain complex issues—and get people to take effective political action—using design, copy, and code. We’re looking for someone with very strong visual and interaction design skills who can move from mockups to HTML/CSS, or design directly in code. Experience with modern front-end frameworks is a plus.
+We are seeking a Design Co-founder for our next “A-Team”, to play a lead role in launching and co-leading a small activist team running a campaign to win on issues like immigrant rights, criminal justice reform, strengthening democratic representation, or climate change.
+
+Working closely with a political co-founder, you and your A-Team will build the web and mobile pieces of a campaign to pass strong policy on your issue or stop a disastrous bill from becoming law.  Your role will be to explain complex issues—and get people to take effective political action—using design, copy, and code. We’re looking for someone with very strong visual and interaction design skills who can move from mockups to HTML/CSS, or design directly in code. Experience with modern front-end frameworks is a plus.
 
 You should be comfortable making and launching novel and creative additions to people’s online life with strong use of layout, color, and typography, whether for web, mobile, or social media. You should love the rush of launching a site on a whim, and seeing it blow up in places like Product Hunt, HN, or reddit.
 
-In addition to your design skills you should also have strong political attitudes about power, freedom, fairness, or caring for others that you makes your visual work stronger and more immersive.
+In addition to your design skills you should also have strong political attitudes about power, freedom, fairness, or caring for others that shows in your visual work; your work should be strong, immersive, and authentic.
 
 You will work alongside a similarly high-functioning and creative person with concrete experience on campaigns so significant experience in politics or activism is not required. The team at Fight for the Future will work with you both to develop and execute plans.
+
 
 ## What you’ll do
 
@@ -154,7 +153,7 @@ You will work alongside a similarly high-functioning and creative person with co
 * Make awesome moments in the history of the Internet and politics.
 * Work closely with the political director to strategize and look for ways to use the Internet and politics to increase the power and efficacy of your small team.
 * Build a new organization or movement (if it goes well!)
-* Recruit additional A-Teams leaders and volunteers as needed.
+
 
 ## What we’re looking for
 
