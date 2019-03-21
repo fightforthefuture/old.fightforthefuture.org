@@ -121,8 +121,10 @@ You have a strong sense of how state and federal politics works.
 * You’ve maybe been arrested before, for doing something you will never regret.
 * You are a fluent English speaker and live in the US.
 
+## Details:
 This is a full time position with Fight for the Future. The salary range is $70-100K annually, depending on experience with benefits including full health care, partially covered dental benefits, and training and mentoring with senior staff. If a contract set-up works better for you, we can discuss that too.
 
+## To apply:
 Please click on the apply button below and fill out the application. When applying, please include where you heard about the opportunity.
 
 <a href="https://fightforthefuture.applytojob.com/apply/DDejLK7mHA" class="btn" target="_blank">Apply Now</a>
