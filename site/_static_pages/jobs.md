@@ -127,6 +127,8 @@ This is a full time position with Fight for the Future. The salary range is $70-
 ## To apply:
 Please click on the apply button below and fill out the application. When applying, please include where you heard about the opportunity.
 
+<i style="font-style:italic">Fight for the Future is an equal opportunity and inclusive employer. FFTF does not and shall not discriminate on the basis of race, color, religion (creed), gender, gender expression, age, national origin (ancestry), disability, marital status, sexual orientation, or military status, in any of its activities or operations. We believe that a diverse staff enables us to better understand and serve our members, audience and community. Women, people of color, and members of low-income, disadvantaged, and LGBTQ communities are strongly encouraged to apply.</i>
+
 <a href="https://fightforthefuture.applytojob.com/apply/DDejLK7mHA" class="btn" target="_blank">Apply Now</a>
 
 ***
