@@ -134,7 +134,7 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
   ---
 
   ![Golden Frog](/img/page/supporters/avatars/goldenfrog.png)
-  : ### [Golden Frog](http://credoaction.com/)
+  : ### [Golden Frog](https://www.goldenfrog.com/)
 
     Golden Frog makes products that protect your privacy and freedom online: [VyperVPN](https://www.goldenfrog.com/vyprvpn) and the secure messaging app [Cyphr](https://www.goldenfrog.com/cyphr).
 
