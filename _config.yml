@@ -331,6 +331,8 @@ prose:
               value: 'whistleblower-sticker'
             - name: 'shopify'
               value: 'shopify'
+            - name: 'twitch'
+              value: 'twitch'
       - name: 'search_title'
         field:
           element: 'text'
