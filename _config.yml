@@ -333,6 +333,8 @@ prose:
               value: 'shopify'
             - name: 'twitch'
               value: 'twitch'
+            - name: 'privacy'
+              value: 'privacy'
       - name: 'search_title'
         field:
           element: 'text'
