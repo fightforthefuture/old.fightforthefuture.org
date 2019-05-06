@@ -260,6 +260,8 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
   * [![PrivateVPN](/img/page/supporters/avatars/privatevpn.png) PrivateVPN](https://privatevpn.com/)
 
+  * [![BestVPN.co](/img/page/supporters/avatars/bestvpn-co.jpg) BestVPN.co](https://www.bestvpn.co/)
+
 ---
 
 **In-kind Donations**
