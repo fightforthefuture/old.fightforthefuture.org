@@ -25,7 +25,7 @@ We’re looking for smart, strategic, and highly creative candidates with signif
 
 Your day-to-day could include flooding a congressional office with an avalanche of phone calls or creating media coverage so huge that a telecom executive resigns. 
 
-# More specifically, you will be:
+## More specifically, you will be:
 * Developing and driving advocacy strategies that advance the organization's key policy goals through close coordination with the organization’s leadership. 
 * Creating high-quality, engaging communications materials including mass emails, press releases, news pitches, web pages, event materials, video scripts, social media content, op-eds, and fundraising appeals.
 * Acting as a lead spokesperson to the media on our campaigns. Our campaigns are regularly covered by big outlets including NPR, The New York Times, NBC News, CNN, Wired, Buzzfeed, The Atlantic, CBS News, USA Today, and the Wall Street Journal.
