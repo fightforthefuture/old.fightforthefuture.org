@@ -335,6 +335,8 @@ prose:
               value: 'twitch'
             - name: 'privacy'
               value: 'privacy'
+            - name: 'defend-crypto'
+              value: 'defend-crypto'
       - name: 'search_title'
         field:
           element: 'text'
