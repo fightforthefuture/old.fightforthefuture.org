@@ -81,22 +81,22 @@ Please click on the apply button below and fill out the application. In your app
 # Communications Specialist
 ## Lead Fight for the Future’s rapid response campaigning!
 
-Fight for the Future is hiring a Communications Specialist, a new addition to our team, to track developments on Internet freedom issues, execute quickly to develop materials needed to launch a campaign, and keep building pressure toward a win. This is a dream job for anyone who enjoys monitoring political developments, quickly pulling together a plan, writing fast, and getting fired up about holding politicians and corporate executives accountable. 
+Fight for the Future is hiring a Communications Specialist, a new addition to our team, to track developments on Internet freedom issues, execute quickly to develop materials needed to launch a campaign, and keep building pressure toward a win. This is a dream job for anyone who enjoys monitoring political developments, quickly pulling together a plan, writing fast, and getting fired up about holding politicians and corporate executives accountable.
 
 We are a small but powerful activism team. Our vision: a world where everyone can access the Internet affordably, free of interference and censorship and with full privacy. To accomplish this, we are using the Internet in innovative ways to mobilize people on a scale previously thought to be impossible. We've built the technology and created the messaging behind the largest online protests in history, including organizing the campaign that defeated SOPA/PIPA, and winning net neutrality rules in 2014. Just last month, we garnered over [6 million views](https://www.twitch.tv/fight_for_the_future) while livestreaming the Congressional debate over the Save the Internet Act, generating tens of thousands of phone calls and letters to Congress.
 
 We work on a number of issues at the intersection of technology and human rights, from facial recognition surveillance to the use of Artificial Intelligence in the criminal justice system to protecting net neutrality (also known as the free speech fight of our generation) to defending decentralized technologies and alternatives.  Our model of activism relies on a relentless focus on strategy and working toward specific wins; campaigning that taps into the power of the Internet; and the ability to speak with a strong voice online. We are a fully remote organization and you would work from home or a shared work space.
 
-We’re looking for smart and strategic candidates with excellent writing skills and the drive to make urgent but critical wins on a quick timeline. 
+We’re looking for smart and strategic candidates with excellent writing skills and the drive to make urgent but critical wins on a quick timeline.
 
-Your day-to-day could include generating an avalanche of phone calls on the issue to a decision-maker or generating so much media media coverage that a C.E.O resigns. 
+Your day-to-day could include generating an avalanche of phone calls on the issue to a decision-maker or generating so much media media coverage that a C.E.O resigns.
 
 ## More specifically, you will be:
-* Identifying, monitoring, and analyzing political developments around Internet freedom and tech policy issues related to our campaigns and policy positions at the state, federal, and international level. 
+* Identifying, monitoring, and analyzing political developments around Internet freedom and tech policy issues related to our campaigns and policy positions at the state, federal, and international level.
 * Quickly assessing the opportunity (good or bad) and what role FFTF should play, who the key decision-makers are, and which actions would be most strategic, coordinating closely with the campaigns team. Work closely with FFTF’s Deputy Director and Campaign Director around strategic responses and coordinate new positions as needed.
 * Creating high-quality, engaging communications materials including mass emails and SMS, news pitches, campaign pages, event materials, and social media content.
 * Acting as a spokesperson to the media on our campaigns when needed.
-* Working with designers and developers as a project manager of websites, campaign actions, and more. 
+* Working with designers and developers as a project manager of websites, campaign actions, and more.
 * Supporting other organizational needs such as staff and volunteer recruitment, fundraising, and special projects.
 
 ## What we’re looking for in you:
@@ -105,7 +105,7 @@ Your day-to-day could include generating an avalanche of phone calls on the issu
 * You have significant writing experience and love to write, especially for large audiences, including online audiences and traditional media. You can synthesize complex ideas into concise, easily understandable copy for the web. Your writing can speak to people’s humor, fears and what gets both their head nodding and heart pumping.
 * You are familiar with the pace of news cycle and understands how quickly you need to move and hard you need to hustle to ensure our voice is heard.
 * You have experience generating media coverage on campaigns, including writing press materials and reaching out and developing relationships with traditional media sources.
-* You have experience with and a commitment to working with people from a variety of backgrounds, including racial, ethnic, socio-economic, and religious backgrounds, and people from the LGBTQ community. 
+* You have experience with and a commitment to working with people from a variety of backgrounds, including racial, ethnic, socio-economic, and religious backgrounds, and people from the LGBTQ community.
 * You are fascinated by the power of the Internet and have used it in creative ways.
 * You have a rigorous and thought-provoking perspective on a wide range of political issues. You are a thinker and someone who can synthesize a problem or an idea out of ordinary interaction and someone’s frustrations/struggles.
 
@@ -117,20 +117,20 @@ Your day-to-day could include generating an avalanche of phone calls on the issu
 * An commitment to an interest outside of your professional life, such as art, music, sports, hiking, or the outdoors.
 
 ## Who you will work with:
-As FFTF’s Communications Specialist, you will work closely with the organization’s Executive Director and Deputy Director who have a combined 30+ years in campaigning, our campaigns staff, and a world class designer and senior software engineer which will position you well to build the tech needed on any campaign. Our team comes from a variety of backgrounds -- including startups, the music industry, and campaign organizations. We’re looking for well-rounded individuals who have a range of interests, can do a little bit of everything, and know what they’re really good at! We pride ourselves on being a welcoming place to work for women, the LGBTQ community, people of color, people from a variety of ethnic backgrounds, as well as parents. 
+As FFTF’s Communications Specialist, you will work closely with the organization’s Executive Director and Deputy Director who have a combined 30+ years in campaigning, our campaigns staff, and a world class designer and senior software engineer which will position you well to build the tech needed on any campaign. Our team comes from a variety of backgrounds -- including startups, the music industry, and campaign organizations. We’re looking for well-rounded individuals who have a range of interests, can do a little bit of everything, and know what they’re really good at! We pride ourselves on being a welcoming place to work for women, the LGBTQ community, people of color, people from a variety of ethnic backgrounds, as well as parents.
 
 ## Compensation:
-This is a full-time position and the range for this position is a total compensation package of $50-$75K, depending on experience. Benefits include the option for full health care and partially covered dental benefits, the value of which would be included in the total compensation package. Additional benefits include a 401K plan and paid sick, vacation, and federal holidays days. We offer support for remote work, training and mentoring, and a driven, highly collaborative, supportive work environment. 
+This is a full-time position and the range for this position is a total compensation package of $50-$75K, depending on experience. Benefits include the option for full health care and partially covered dental benefits, the value of which would be included in the total compensation package. Additional benefits include a 401K plan and paid sick, vacation, and federal holidays days. We offer support for remote work, training and mentoring, and a driven, highly collaborative, supportive work environment.
 
 ## Location:
-Fight for the Future is a 100% remote organization so no need to commute or relocate. Our staff are based all over the country (and a couple of international locations too) and work in their homes or shared work spaces over video, slack, and through project management tools. 
+Fight for the Future is a 100% remote organization so no need to commute or relocate. Our staff are based all over the country (and a couple of international locations too) and work in their homes or shared work spaces over video, slack, and through project management tools.
 
 ## How to apply:
 In your application, please let us know where you heard about the jobs and include links to or samples of your writing—ideally in situations where you’re writing to persuade a group of people. Include as much relevant information as you like: significant things you’ve accomplished and projects you’ve worked on. Being well-rounded is a plus, so don’t exclude significant skills or achievements just because they aren’t activism related (such as starting a business or being a musician).
 
 <i style="font-style:italic">Fight for the Future is an equal opportunity and inclusive employer. FFTF does not and shall not discriminate on the basis of race, color, religion (creed), gender, gender expression, age, national origin (ancestry), disability, marital status, sexual orientation, or military status, in any of its activities or operations. We believe that a diverse staff enables us to better understand and serve our members, audience and community. Women, people of color, and members of low-income, disadvantaged, and LGBTQ communities are strongly encouraged to apply.</i>
 
-<script type="text/javascript" src="//app.jazz.co/widgets/buttons/create/fightforthefuture/QQ4o7k4R6K" ></script>
+<a href="https://fightforthefuture.applytojob.com/apply/QQ4o7k4R6K/Communications-Specialist-remote-Can-Be-Based-Anywhere-In-The-US" class="btn" target="_blank">Apply Now</a>
 
 ***
 # A-Teams Political Strategist Co-founder
