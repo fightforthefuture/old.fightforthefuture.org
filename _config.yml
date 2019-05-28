@@ -337,6 +337,8 @@ prose:
               value: 'privacy'
             - name: 'defend-cryptocurrency'
               value: 'defend-cryptocurrency'
+            - name: 'mergers'
+              value: 'mergers'
       - name: 'search_title'
         field:
           element: 'text'
