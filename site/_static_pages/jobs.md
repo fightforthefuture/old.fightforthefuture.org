@@ -53,6 +53,7 @@ Note: You could be taking on all of the responsibilities or it may be that you t
 * You have played a key role in making something big happen, whether it was a high profile campaign, a groundbreaking investigative report, launching a startup, or a successful music career.
 * You are fascinated by the power of the Internet and have used it in creative ways.
 * You have a rigorous and thought-provoking perspective on a wide range of political issues. You are a thinker and someone who can synthesize a problem or an idea out of ordinary interaction and someone’s frustrations/struggles.
+* Fluency in English required. Fluency in Spanish or other languages a plus.
 
 ## Bonus points for:
 * A background running digital campaigns that grow fast.
@@ -108,6 +109,7 @@ Your day-to-day could include generating an avalanche of phone calls on the issu
 * You have experience with and a commitment to working with people from a variety of backgrounds, including racial, ethnic, socio-economic, and religious backgrounds, and people from the LGBTQ community.
 * You are fascinated by the power of the Internet and have used it in creative ways.
 * You have a rigorous and thought-provoking perspective on a wide range of political issues. You are a thinker and someone who can synthesize a problem or an idea out of ordinary interaction and someone’s frustrations/struggles.
+* Fluency in English required. Fluency in Spanish or other languages a plus.
 
 ## Bonus points for:
 * A background working on digital campaigns that grow fast.
