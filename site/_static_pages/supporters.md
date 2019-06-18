@@ -262,7 +262,9 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
   * [![BestVPN.co](/img/page/supporters/avatars/bestvpn-co.jpg) BestVPN.co](https://www.bestvpn.co/)
 
-  * [![Private Proxy Guide](/img/page/supporters/avatars/private-proxy-guide.png) Private Proxy Guide](https://www.privateproxyguide.com/ )
+  * [![Private Proxy Guide](/img/page/supporters/avatars/private-proxy-guide.png) Private Proxy Guide](https://www.privateproxyguide.com/)
+
+  * [![VPN Review](/img/page/supporters/avatars/vpn-review.png) VPN Review](https://vpn-review.com/)
 
 ---
 
