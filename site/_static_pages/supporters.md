@@ -252,7 +252,7 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
   * Vlad Bodea, Romania
 
-  * [![ReviewsDir](/img/page/supporters/avatars/reviews-dir.png) ReviewsDir](https://www.reviewsdir.com/)
+  * [![allbestVPN](/img/page/supporters/avatars/allbestvpn.png) allbestVPN](http://www.allbestvpn.com//)
 
   * [![Drew Rothstein](/img/page/supporters/avatars/drew-rothstein.jpg) Drew Rothstein](https://twitter.com/mediocrity)
 
