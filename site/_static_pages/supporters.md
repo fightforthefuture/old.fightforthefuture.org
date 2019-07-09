@@ -266,6 +266,8 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
   * [![VPN Review](/img/page/supporters/avatars/vpn-review.png) VPN Review](https://vpn-review.com/)
 
+  * [![CoolTechZone](/img/page/supporters/avatars/cooltechzone.png) CoolTechZone](https://cooltechzone.com/)
+
 ---
 
 **In-kind Donations**
