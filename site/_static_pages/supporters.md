@@ -268,6 +268,8 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
   * [![CoolTechZone](/img/page/supporters/avatars/cooltechzone.png) CoolTechZone](https://cooltechzone.com/)
 
+  * Sarah Walling
+
 ---
 
 **In-kind Donations**

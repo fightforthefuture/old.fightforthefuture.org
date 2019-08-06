@@ -2,6 +2,7 @@ node_modules/
 public/
 npm-debug.log
 .env
+.envrc
 .jekyll-metadata
 _config_petition_ids.yml
 .bundle/
