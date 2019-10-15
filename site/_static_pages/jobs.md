@@ -5,73 +5,32 @@ social_title: "Want a job changing politics, forever?"
 social_description: "Fight for the Future is hiring developers, designers, activists/lobbyists, and product managers to build longshot campaigns that tackle the most pressing issues in the world. Work from anywhere."
 ---
 * [Jobs](#)
-* [Campaign Director](#campaign-director)
+
 
 ## Brief
 
 Fight for the Future is a non-profit organization whose mission is to ensure that the web continues to hold freedom of expression and creativity at its core. We primarily work on high value, fearless projects that can be seen by millions. We’re a very small team, but we’re always looking for new people with brilliant ideas. Fight for the Future is 100% remote and timezone flexible. Please see below for our current job openings.
 ***
-# Campaign Director
 
-Fight for the Future is accepting applications for a Campaign Director, a key leadership role that includes developing, running, and implementing the organization’s innovative and highly effective campaigns to protect and expand the Internet’s power for good.
+Thanks for your interest in opportunities with Fight for the Future. We are not actively hiring at this time.  However, we’re always interested in meeting smart, strategic and highly creative people to round out our small but powerful activism team. 
 
-We are a small but powerful activism team. Our vision: a world where everyone can access the Internet affordably, free of interference and censorship and with full privacy. To accomplish this, we are using the Internet in innovative ways to mobilize people on a scale previously thought to be impossible. We've built the technology and created the messaging behind the largest online protests in history, including organizing the campaign that defeated SOPA/PIPA, and winning net neutrality rules in 2014. Just last month, we garnered over [6 million views](https://www.twitch.tv/fight_for_the_future) while livestreaming the Congressional debate over the Save the Internet Act, generating tens of thousands of phone calls and letters to Congress.
+In the coming months, we’ll have an opportunity to add a contractor or full-time employee to support our campaigning. If you have expertise in any of the following areas, we’d like to hear from you: 
+* Creating communications materials such as mass emails, press releases, or news pitches;
+* Acting as a spokesperson or generating media attention on an issue;
+* Distilling complicated issues into easy-to-understand messages for a wide range of audiences.
+* Organizing national campaign actions such as distributed protests, rallies, and lobby days;
+* Building relationships with potential coalition partners such as small businesses, technology companies, grassroots organizations, and civil society stakeholders;
+* Playing a key role in making something big happen!
+
+More about our work:
+Our vision: a world where everyone can access the Internet affordably, free of interference and censorship and with full privacy. To accomplish this, we are using the Internet in innovative ways to mobilize people on a scale previously thought to be impossible. We've built the technology and created the messaging behind the largest online protests in history, including organizing the campaign that defeated SOPA/PIPA, and winning net neutrality rules in 2014. This past year, we garnered over [6 million views](https://www.twitch.tv/fight_for_the_future) while livestreaming the Congressional debate over the Save the Internet Act, generating tens of thousands of phone calls and letters to Congress.
 
 Our model for activism includes the following ingredients: a skilled, nimble team with a fire for political change and an ability to move fast; an uncompromising focus on strategic campaigning and specific wins; a unique approach to campaigning which includes tapping into the power of the Internet; and the ability to speak with a strong voice online.
-
-We’re looking for smart, strategic, and highly creative candidates with significant campaigning or organizing experience for our Campaign Director role. If you want to build online campaigns that reach hundreds of millions of people, and ensure technology is a force for good then this is the dream job for you. And did we mention we are 100% remote and you’ll work from home?
-
-Your day-to-day could include flooding a congressional office with an avalanche of phone calls or creating media coverage so huge that a telecom executive resigns.
-
-## More specifically, you will be:
-* Developing and driving advocacy strategies that advance the organization's key policy goals through close coordination with the organization’s leadership.
-* Creating high-quality, engaging communications materials including mass emails, press releases, news pitches, web pages, event materials, video scripts, social media content, op-eds, and fundraising appeals.
-* Acting as a lead spokesperson to the media on our campaigns. Our campaigns are regularly covered by big outlets including NPR, The New York Times, NBC News, CNN, Wired, Buzzfeed, The Atlantic, CBS News, USA Today, and the Wall Street Journal.
-* Establishing and managing relationships with small businesses, prominent technology companies, grassroots organizations, and civil society stakeholders on a project-by-project basis.
-* Leading national campaign actions such as distributed protests, rallies, and lobby days.
-* Working with designers and developers as a project manager of websites, campaign actions, and more.
-* Working closely with other campaigns staff  and managing contractors, with the strong possibility of supervising full-time staff after a few months in the role.
-* Identifying, monitoring, and analyzing regulatory and legislative developments affecting Fight for the Future’s campaigns and policy positions at the state, federal, and international level.
-* Developing Fight for the Future’s policy positions in consultation with community members and staff, and consulting policy and technical experts as required.
-* Distilling complicated tech policy issues into easy-to-understand messages for a wide range of audiences.
-* Supporting other organizational needs such as staff and volunteer recruitment, fundraising, and special projects.
-
-Note: You could be taking on all of the responsibilities or it may be that you take on fewer given your deeper expertise in one or more areas. We can talk more about how we shape the job and what additional training you’ll need to step into newer responsibilities.
-
-## What we’re looking for in you:
-* You have at least eight years of experience in relevant fields which include campaigns, advocacy, grassroots organizing, digital marketing, or writing/journalism.
-* You have expertise in campaigning and understand what it takes to move the needle, including how to build power on an issue, who we need with us, messaging that will move people, and the steps to get us there.
-* You have professional writing experience, especially for large audiences, including online audiences and traditional media. You can synthesize complex ideas into concise, easily understandable copy for the web. Your writing can speak to people’s humor, fears and what gets both their head nodding and heart pumping.
-* You thrive at working in a campaign setting and can move with urgency in speed. You are familiar with the pace of news cycle and understands how quickly you need to move and hard you need to hustle to ensure our voice is heard.
-* You have project management and organizational skills that enable you to keep a number of projects on track and delegate to other members of our team and contractors.
-* You are talented at generating media coverage on campaigns, from developing traditional media plans to writing press materials and reaching out and developing relationships with traditional media sources.
-* You have experience with and a commitment to working with people from a variety of backgrounds, including racial, ethnic, socio-economic, and religious backgrounds, and people from the LGBTQ community.
-* You can communicate with people who are different from you, who may have different backgrounds and perspectives, and who hold political beliefs that you may passionately oppose.
-* You have played a key role in making something big happen, whether it was a high profile campaign, a groundbreaking investigative report, launching a startup, or a successful music career.
-* You are fascinated by the power of the Internet and have used it in creative ways.
-* You have a rigorous and thought-provoking perspective on a wide range of political issues. You are a thinker and someone who can synthesize a problem or an idea out of ordinary interaction and someone’s frustrations/struggles.
-* Fluency in English required. Fluency in Spanish or other languages a plus.
-
-## Bonus points for:
-* A background running digital campaigns that grow fast.
-* Previous experience in Internet or digital rights policy and issues.
-* Experience and comfort with working remotely.
-* Coding and/or web design skills.
-* A background in marketing.
-
-## Who you will work with:
-As FFTF’s Campaign Director, you will work closely with the organization’s Executive Director and Deputy Director who have a combined 30+ years in campaigning, our campaigns staff, and a professional designer and senior software engineer which will position you well to build the tech needed on any campaign. Our team comes from a variety of backgrounds -- including startups, the music industry, and campaign organizations. We’re looking for well-rounded individuals who have a range of interests, can do a little bit of everything, and know what they’re really good at! We pride ourselves on being a welcoming place to work for women, the LGBTQ community, people of color, people from a variety of ethnic backgrounds, as well as parents.
-
-## Compensation
-This is a full-time position and the range for this position is a total compensation package of $60-90K, depending on experience. Benefits include the option for full health care and partially covered dental benefits, the value of which would be included in the total compensation package. Additional benefits include a 401K plan and paid sick, vacation, and federal holidays days. We offer support for remote work, training and mentoring, and a driven, highly collaborative, supportive work environment.
-
-## Location
-Fight for the Future is a 100% remote organization so no need to commute or relocate. Our staff are based all over the country (and a couple of international locations too) and work over video, slack, and through project management tools.
-
-## To apply
-Please click on the apply button below and fill out the application. In your application, please let us know where you heard about the job and include links to or samples of your writing—ideally in situations where you’re writing to persuade a group of people. Include as much relevant information as you like: significant things you’ve accomplished and projects you’ve worked on. Being well-rounded is a plus, so don’t exclude significant skills or achievements just because they aren’t activism related (such as starting a business or being a musician).
+We’re always open to talking to smart, strategic, and highly creative candidates with significant campaigning or organizing experience. Be in touch if that’s you! Please click on “apply now” below and send along a resume and answer a couple of questions to help us get to know you.
 
 <i style="font-style:italic">Fight for the Future is an equal opportunity and inclusive employer. FFTF does not and shall not discriminate on the basis of race, color, religion (creed), gender, gender expression, age, national origin (ancestry), disability, marital status, sexual orientation, or military status, in any of its activities or operations. We believe that a diverse staff enables us to better understand and serve our members, audience and community. Women, people of color, and members of low-income, disadvantaged, and LGBTQ communities are strongly encouraged to apply.</i>
+
+<script type="text/javascript" src="//app.jazz.co/widgets/buttons/create/fightforthefuture/XsR5P4Bvcg" ></script>Apply Now</a>
 
 <a href="https://fightforthefuture.applytojob.com/apply/pHzbj8m6yX/Campaign-Director" class="btn" target="_blank">Apply Now</a>
 
