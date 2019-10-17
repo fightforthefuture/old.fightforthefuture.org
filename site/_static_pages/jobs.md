@@ -30,9 +30,7 @@ We’re always open to talking to smart, strategic, and highly creative candidat
 
 <i style="font-style:italic">Fight for the Future is an equal opportunity and inclusive employer. FFTF does not and shall not discriminate on the basis of race, color, religion (creed), gender, gender expression, age, national origin (ancestry), disability, marital status, sexual orientation, or military status, in any of its activities or operations. We believe that a diverse staff enables us to better understand and serve our members, audience and community. Women, people of color, and members of low-income, disadvantaged, and LGBTQ communities are strongly encouraged to apply.</i>
 
-<script type="text/javascript" src="//app.jazz.co/widgets/buttons/create/fightforthefuture/XsR5P4Bvcg"></script>
-
-<a href="https://fightforthefuture.applytojob.com/apply/pHzbj8m6yX/Campaign-Director" class="btn" target="_blank">Apply Now</a>
+<a href="https://fightforthefuture.applytojob.com/apply/XsR5P4Bvcg/Interested-Candidates" class="btn" target="_blank">Apply Now</a>
 
 
 
