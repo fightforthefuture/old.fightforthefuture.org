@@ -270,6 +270,8 @@ title: "Fight for the Future | a nonprofit working to expand the internet’s po
 
   * Sarah Walling
 
+  * [![IVPN](/img/page/supporters/avatars/ivpn.jpg) IVPN](https://www.ivpn.net/)
+
 ---
 
 **In-kind Donations**
