@@ -27,7 +27,8 @@
     "verbose": "grunt build -vvv",
     "build": "grunt build",
     "predeploy": "node scripts/generate_fp_token.js",
-    "deploy": "npm run build && aws s3 sync public s3://www.fightforthefuture.org --delete --profile fftf-s3-deploy",
+    "deploy-s3": "npm run build && aws s3 sync public s3://www.fightforthefuture.org --delete --profile fftf-s3-deploy",
+    "deploy": "rsync -avh public/ fftf@static1.fightforthefuture.org:~/www/old.fightforthefuture.org --delete",
     "review": "grunt review",
     "postreview": "node scripts/review-apps"
   },
